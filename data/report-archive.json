@@ -3,6 +3,46 @@
   "updated_at": "2026-10-08",
   "entries": [
     {
+      "id": "2026-10-08-super-sovinfra-1b",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "SovInfra：注册送 10 亿 API Tokens 🥚",
+      "summary": "SovInfra 现行条款提供 10 亿免费 API Tokens，可调用 Qwen3.8-27B 和 Gemma 4 31B。免绑卡、免预充值，注册需提供一个个人资料链接。",
+      "highlights": [
+        "官方 Terms 明确每个新账户有 1B 免费 Tokens，输入输出均计费，耗尽后不会自动扣款。",
+        "可调用 qwen3.8-27b、gemma-4-31b，也可通过 sovapi 自动路由；OpenAI 兼容 API。",
+        "注册填姓名、邮箱及 LinkedIn/GitHub/X/个人网站中的一个资料链接；不需绑卡。",
+        "地区可注册情况、实际到账和免费额度过期日未做新账号实测。"
+      ],
+      "tip": "",
+      "egg_id": "sovinfra-sovapi-1b-trial-2026",
+      "official_source_url": "https://sovinfra.ai/terms",
+      "claim_url": "https://app.sovinfra.ai/",
+      "credits": "10 亿免费模型 API Tokens（非美元赠金）",
+      "payment_required": "免绑卡、免预充值",
+      "status": "active"
+    },
+    {
+      "id": "2026-10-08-super-dahl-100m",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "Dahl：1 亿免费 Tokens，记得分配到 API Key 🥚",
+      "summary": "Dahl 新账户赠 1 亿 Tokens，可用于 MiniMax M2.7 和 DeepSeek V4 Flash。赠额先进账户池，需要在账户页面手动分配到 API Key。",
+      "highlights": [
+        "官方文档确认注册赠 100M Tokens，API Key 初始显示 0 是正常的。",
+        "支持 MiniMax M2.7、DeepSeek V4 Flash 0731、GLM 5.3 Flash，OpenAI 兼容接口。",
+        "新用户只需用户名并保存 fingerprint 登录凭证；当前文档没有要求支付卡。",
+        "按官方参考价格约值 $3，不能当作 $100 赠金；实际领用及地区限制未经用户账号实测。"
+      ],
+      "tip": "",
+      "egg_id": "dahl-inference-100m-trial-2026",
+      "official_source_url": "https://inference.dahl.global/docs/tokens/",
+      "claim_url": "https://inference.dahl.global/account",
+      "credits": "1 亿免费模型 API Tokens（账户池，非美元赠金）",
+      "payment_required": "无需预充值；需手动分配 Tokens",
+      "status": "active"
+    },
+    {
       "id": "2026-10-08-super-optracloud",
       "kind": "super",
       "date": "2026-10-08",
