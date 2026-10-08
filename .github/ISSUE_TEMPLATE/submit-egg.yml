@@ -1,0 +1,35 @@
+name: 投稿免费鸡蛋
+description: 分享真正的免费 AI API 额度或公益站
+title: "[投稿] "
+labels: ["submission"]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: 平台 / 活动名称
+      placeholder: 例如：某模型平台注册送额度
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 官方活动或领取链接
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 免费额度、支持模型、申请门槛
+      description: 尽量提供截图或官方说明，不要提交密钥、密码、个人敏感信息。
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: 活动类型
+      options:
+        - 官方模型厂商 / 推理平台
+        - 真正的公益站
+        - 其他（待评估）
+    validations:
+      required: true
