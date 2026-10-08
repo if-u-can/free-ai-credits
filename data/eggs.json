@@ -64,29 +64,29 @@
       "id": "together-150-offer-2026",
       "name": "Together AI $150 专项申请",
       "type": "官方平台",
-      "description": "之前的 $150 申请页现在打不开了。搜索里还能找到旧页面，但暂时没找到近期成功领取的证据。",
-      "status": "unverifiable",
-      "credits": "历史网页宣传 $150（当前领取不可确认）",
+      "description": "Together AI 此前的 $150 专项免费额度已结束，原活动页现在明确显示 Promotion expired。",
+      "status": "expired",
+      "credits": "历史 $150 API credits 专项活动（官方活动页已确认结束）",
       "models": [
         "DeepSeek",
         "Kimi",
         "Qwen",
         "多种开源模型（以官网可用列表为准）"
       ],
-      "requirements": "官方旧申请链接目前报告 404；未找到新的公开申请入口，个人审批与可领取资格未知",
+      "requirements": "该专项已结束，无当前有效领取入口；普通 API 使用需绑卡并至少购买 $5 credits",
       "discovered_at": "2026-10-08",
-      "verified_at": "2026-10-08",
-      "verification_note": "2026-10-08 用户实测 $150 原申请页返回 404；官方常规政策当前不提供免费试用，要求购买最低 $5 credits。搜索索引仍保留数周前 $150 页面文案，第三方福利汇总还标注活动，但未找到可靠的近期成功领取证据；因此仅将该专项归入核查归档，不能据此断言官方宣布活动结束。",
-      "url": "https://support.together.ai/articles/1862638756-changes-to-free-tier-and-billing-july-2025",
-      "payment_required": "普通 API 使用需绑卡并购买至少 $5；该 $150 专项是否额外有门槛尚无证据",
+      "verified_at": "2026-10-09",
+      "verification_note": "2026-10-09 实查 Together AI 官方原 $150 领取页面 https://www.together.ai/get-credits，网页正文明确写 'Promotion expired' 和活动仅在原活动日期有效；另官方帮助中心确认当前不再提供普通免费试用，API 使用需至少购买 $5 credits。本次基于明确官方终止声明而非仅因 404 将专项从 unverifiable 调整为 expired；活动具体历史结束日期未公布，不推断。",
+      "url": "https://www.together.ai/get-credits",
+      "payment_required": "该专项不可再领；当前普通 API 使用须至少购买 $5 credits",
       "source_type": "官方 $150 活动申请页",
-      "official_source_url": "https://support.together.ai/articles/1862638756-changes-to-free-tier-and-billing-july-2025",
+      "official_source_url": "https://www.together.ai/get-credits",
       "claim_url": null,
       "grade": null,
-      "grade_reason": "申请页无法正常打开，当前没有可核实的领取途径",
-      "quality_score": 89,
+      "grade_reason": "官方历史活动页已明确标记 Promotion expired，活动终止",
+      "quality_score": 0,
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-09",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -101,15 +101,24 @@
             "https://www.together.ai/get-credits",
             "https://haowego.com/en/offer/together-ai-150-free-credits/"
           ]
+        },
+        {
+          "date": "2026-10-09",
+          "result": "官方原活动页明确写 Promotion expired；普通 API 当前需购买至少 $5 credits，已结束确认",
+          "source_url": "https://www.together.ai/get-credits",
+          "secondary_sources": [
+            "https://support.together.ai/articles/1862638756-changes-to-free-tier-and-billing-july-2025"
+          ]
         }
       ],
       "next_review_at": null,
-      "review_attempts": 1,
+      "review_attempts": 2,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
       "previous_claim_url": "https://www.together.ai/get-credits",
-      "link_status": "unavailable_reported_404",
-      "last_link_check_at": "2026-10-08",
-      "review_result": "原链接用户访问为 404；搜索页面索引与官方常规政策不一致，近期社区成功领取反馈不足。需等待可访问的官方新入口或官方明确公告。"
+      "link_status": "official_expired",
+      "last_link_check_at": "2026-10-09",
+      "review_result": "官方当期活动页明确宣布 Promotion expired，证实旧 $150 专项活动已经结束，转 expired",
+      "expiration_reason": "2026-10-09 核实原官方领取页明确显示 Promotion expired"
     },
     {
       "id": "groq-free-2026",
