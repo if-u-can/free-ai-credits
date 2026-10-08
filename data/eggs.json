@@ -678,6 +678,42 @@
       "official_source_url": "https://docs.byteplus.com/en/docs/modelark/free-tokens-only-mode",
       "url": "https://docs.byteplus.com/en/docs/modelark/free-tokens-only-mode",
       "claim_url": null
+    },
+    {
+      "id": "optracloud-150m-output-free-2026",
+      "name": "OptraCloud 1.5 亿免费输出 Tokens",
+      "type": "官方推理平台",
+      "description": "注册送 1.5 亿输出 Tokens，Qwen3.8-27B 可用于写代码和日常 API 调用。免费档 60 tokens/s，需要短信验证手机号。",
+      "status": "active",
+      "credits": "150,000,000 免费输出 Tokens（仅计算生成输出；邀请奖励另算，不计入默认额度）",
+      "models": [
+        "Qwen3.8-27B（官网注明免费档使用）",
+        "optra-coder（API 文档中的模型 ID；实际底模以官方服务为准）"
+      ],
+      "requirements": "个人注册，验证邮箱和手机号短信；免绑信用卡、免充值，无公开试用倒计时。注册页手机号示例为印度 +91；其他国家/地区号码支持情况尚未经实际验证。",
+      "discovered_at": "2026-10-08",
+      "verified_at": "2026-10-08",
+      "verification_note": "2026-10-08 实查官方首页、免费详情页、API 文档及 /portal/join 公开领取页；官网明确新账户赠 150M 输出 tokens、Qwen3.8-27B 128K 上下文、免费限速 60 token/s、OpenAI/Anthropic 兼容接口、无需绑卡。API 文档公开模型 ID optra-coder，别名与首页底模命名并不完全一致，实际模型以平台返回为准。电话短信验证为强制；页面手机号示例 +91，不确定中国大陆/其他地区手机号能否成功验证。未注册验证实际到账，亦未独立实测 API 模型权重。没有官方截止日期，不将邀请获赠另 150M 算为默认赠额。",
+      "url": "https://optracloud.com/free.html",
+      "official_source_url": "https://optracloud.com/free.html",
+      "claim_url": "https://optracloud.com/portal/join",
+      "payment_required": "否（无需绑卡或预充值，必须短信验证手机号）",
+      "source_type": "官方免费计划、当前注册页与开发者 API 文档",
+      "evidence_urls": [
+        "https://optracloud.com/",
+        "https://optracloud.com/free.html",
+        "https://optracloud.com/docs.html",
+        "https://optracloud.com/portal/join"
+      ],
+      "grade": "super",
+      "grade_reason": "150M 免费输出 Tokens 适用可调用的编程模型 API，免绑卡；手机地区适用性未实测",
+      "quality_score": 78,
+      "quality_breakdown": {
+        "free_api_value": 33,
+        "model_usefulness": 17,
+        "claim_convenience": 16,
+        "validity_and_limits": 12
+      }
     }
   ],
   "grade_policy": {
