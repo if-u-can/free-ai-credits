@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-09",
   "eggs": [
     {
       "id": "together-historical",
@@ -227,7 +227,7 @@
       "requirements": "注册 AkashML、验证邮箱，并在新用户引导中添加/验证支付方式才能领取试用赠金；地区适用性及赠金有效期未公布清楚",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。",
+      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。 2026-10-09 复核：AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则。",
       "url": "https://akashml.com/docs/getting-started/introduction",
       "payment_required": "是（现行文档明确要求验证支付方式）",
       "source_type": "Akash 官方产品公告、推广页、当前开通文档",
@@ -244,9 +244,9 @@
       "grade_reason": "历史官方活动写 $100；现行文档没有重申具体额度，待确认当期金额",
       "quality_score": 86,
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-08",
-      "next_review_at": "2026-10-09",
-      "review_attempts": 1,
+      "last_reviewed_at": "2026-10-09",
+      "next_review_at": "2026-10-10",
+      "review_attempts": 2,
       "review_history": [
         {
           "date": "2026-10-08",
@@ -256,9 +256,15 @@
             "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/",
             "https://claw.akash.network/"
           ]
+        },
+        {
+          "date": "2026-10-09",
+          "result": "AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则",
+          "source_url": "https://akashml.com/docs/platform/settings"
         }
       ],
-      "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。"
+      "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。",
+      "review_result": "AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则"
     },
     {
       "id": "lightning-ai-models-2026",
@@ -569,21 +575,27 @@
       "url": "https://docs.vultr.com/product-overviews/serverless-inference",
       "official_source_url": "https://docs.vultr.com/product-overviews/serverless-inference",
       "claim_url": "https://www.vultr.com/promo/try250/",
-      "verification_note": "Vultr 官方模型产品文档包含 try250 活动链接，但活动页被限制访问，无法核实资格细则；不得标 active。",
+      "verification_note": "Vultr 官方模型产品文档包含 try250 活动链接，但活动页被限制访问，无法核实资格细则；不得标 active。 2026-10-09 复核：Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-09",
       "review_history": [
         {
           "date": "2026-10-08",
           "result": "首次整理官方公开证据及仍缺少的领取条件",
           "source_url": "https://docs.vultr.com/product-overviews/serverless-inference"
+        },
+        {
+          "date": "2026-10-09",
+          "result": "Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格",
+          "source_url": "https://discover.vultr.com/"
         }
       ],
-      "next_review_at": "2026-10-09",
-      "review_attempts": 1,
-      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。"
+      "next_review_at": "2026-10-10",
+      "review_attempts": 2,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
+      "review_result": "Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格"
     },
     {
       "id": "azure-free-200-ai-2026",
@@ -604,21 +616,27 @@
       "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services",
       "official_source_url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services",
       "claim_url": "https://azure.microsoft.com/en-us/free/",
-      "verification_note": "Microsoft Learn 确认 $200，但 AI Foundry/LLM 配额可能为 0，尚不能算可直接领取的强模型 API 赠金。",
+      "verification_note": "Microsoft Learn 确认 $200，但 AI Foundry/LLM 配额可能为 0，尚不能算可直接领取的强模型 API 赠金。 2026-10-09 复核：Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-09",
       "review_history": [
         {
           "date": "2026-10-08",
           "result": "首次整理官方公开证据及仍缺少的领取条件",
           "source_url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services"
+        },
+        {
+          "date": "2026-10-09",
+          "result": "Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据",
+          "source_url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/avoid-charges-free-account"
         }
       ],
-      "next_review_at": "2026-10-09",
-      "review_attempts": 1,
-      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。"
+      "next_review_at": "2026-10-10",
+      "review_attempts": 2,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
+      "review_result": "Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据"
     },
     {
       "id": "byteplus-modelark-500k-2026",
@@ -789,6 +807,126 @@
         "claim_convenience": 21,
         "validity_and_limits": 8
       }
+    },
+    {
+      "id": "tencent-tokenhub-free-trial-2026",
+      "name": "腾讯云 TokenHub 新人免费 API",
+      "type": "官方模型推理平台",
+      "description": "实名开通后可领取语言模型免费体验包，DeepSeek、Kimi、MiniMax 等模型可通过 API 调用。单模型标称 100 万 Tokens。",
+      "status": "active",
+      "credits": "语言模型每款标称 100 万免费 Tokens，国内官方文档写领取后 1 年有效；同页另写全模型共享额度，累计可用量不能直接相加。活动至 2026-12-31。",
+      "models": [
+        "DeepSeek-V4-Flash（deepseek-v4-flash）",
+        "DeepSeek-V4-Pro（deepseek-v4-pro）",
+        "Kimi K3（kimi-k3）",
+        "MiniMax M2.7（minimax-m2.7）",
+        "GLM-5.3（glm-5.3）"
+      ],
+      "requirements": "腾讯云个人账号完成实名认证，进入 TokenHub 模型广场选择新用户福利领取，或首次调用自动领取；国内站适用中国大陆实名认证，其他地区需核实。国内文档未注明充值前提，但国际站文档写领取每个模型需冻结 $1，不能把国际站宣传为完全免预付。",
+      "discovered_at": "2026-10-09",
+      "verified_at": "2026-10-09",
+      "verification_note": "2026-10-09 核对腾讯云 2026-09-04 新人免费体验包、2026-06-05 快速入门和 2026-09-29 深度思考模型列表：当期活动至 2026-12-31，语言模型 100 万 Tokens，国内文档写 1 年；同页同时出现按模型领取和同账号所有模型共享额度，实际总量以控制台为准。国内需实名、兼容 OpenAI/Anthropic API，免费额度用尽且未开后付费时停服。国际站另有冻结 $1 及有效期差异，不与国内站混算。未使用实名账号实测领取到账和是否要预存余额。",
+      "url": "https://cloud.tencent.com/document/product/1823/130053",
+      "official_source_url": "https://cloud.tencent.com/document/product/1823/130053",
+      "claim_url": "https://console.cloud.tencent.com/tokenhub/",
+      "payment_required": "国内站官方领取文档未明确要求绑卡/充值；国际站领取每模型需冻结 $1，地区条件不同",
+      "source_type": "腾讯云官方当期免费体验包、快速入门、模型调用文档",
+      "evidence_urls": [
+        "https://cloud.tencent.com/document/product/1823/130053",
+        "https://cloud.tencent.com/document/product/1823/130058",
+        "https://cloud.tencent.com/document/product/1823/131208",
+        "https://intl.cloud.tencent.com/zh/document/product/1300/80423"
+      ],
+      "grade": "normal",
+      "grade_reason": "强模型 API 可用，但单模型约 100 万 Tokens，实际共享额度有文档冲突；需实名",
+      "quality_score": 72,
+      "quality_breakdown": {
+        "free_api_value": 16,
+        "model_usefulness": 24,
+        "claim_convenience": 18,
+        "validity_and_limits": 14
+      }
+    },
+    {
+      "id": "china-mobile-moma-25m-trial-2026",
+      "name": "移动云 MoMA 2500 万 Tokens 线索",
+      "type": "官方模型推理平台",
+      "description": "中国移动 MoMA 有 2500 万免费 API Tokens 的公开活动线索；目前无法直接读取官方活动细则，暂不评超级。",
+      "status": "pending",
+      "credits": "第三方实领资料称 2500 万 Tokens、领取后 30 天有效；官方当期赠额未独立读到",
+      "models": [
+        "自营九天模型（具体免费模型待核实）",
+        "DeepSeek / Qwen / GLM（仅平台提供，不代表免费赠额适用）"
+      ],
+      "requirements": "据第三方资料需移动云实名认证，在模型广场领取；活动截止据称 2026-12-31，免费仅限自营模型，3000 tokens/min，是否需支付卡待官方确认",
+      "discovered_at": "2026-10-09",
+      "verified_at": null,
+      "verification_note": "2026-10-09 搜索到中国移动 2026-08-19 官方微博活动报道（现场有人领取 2500 万 Token），及第三方指向移动云帮助中心 https://ecloud.10086.cn/op-help-center/doc/article/92837 的详细活动条款。但本轮官方帮助页和 MoMA 控制台无法直接读取，无法确认当前线上自助领取、免付费资格和免费模型列表；因此 pending、grade=null，不能按 2500 万直接发布超级专题。",
+      "url": "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+      "official_source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+      "claim_url": "https://moma.cmecloud.cn/",
+      "payment_required": "待核实（需要实名认证，预付/绑卡未知）",
+      "source_type": "官方活动报道及待访问的官方帮助中心，第三方核实资料",
+      "evidence_urls": [
+        "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+        "https://www.sina.cn/news/detail/5333717456785423.html",
+        "https://www.igetoken.com/models/moma/"
+      ],
+      "grade": null,
+      "grade_reason": "官方领取条款本轮不可读，免费模型和资格需再次核验",
+      "quality_score": 0,
+      "last_reviewed_at": "2026-10-09",
+      "next_review_at": "2026-10-10",
+      "review_started_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_result": "官方新闻证实曾有 2500 万体验赠额，当前公开自助领取及适用模型未能从官方条款直接验证",
+      "review_history": [
+        {
+          "date": "2026-10-09",
+          "result": "检查官方移动云帮助页及控制台均不可读；中国移动官微报道现场赠额，第三方提供限期与限制，继续 pending",
+          "source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837"
+        }
+      ]
+    },
+    {
+      "id": "zhipu-bigmodel-20m-new-user-2026",
+      "name": "智谱 BigModel 新客 2000 万 Tokens 线索",
+      "type": "官方模型厂商",
+      "description": "智谱官方活动页宣传新用户 2000 万免费 Tokens；资源包适用哪些模型 API、是否需要实名及有效期仍待核实。",
+      "status": "pending",
+      "credits": "官方活动宣传新用户 2000 万免费 Tokens（具体 API 资源包可用范围未核实）",
+      "models": [
+        "GLM-5.2（活动页宣传，未确认资源包适用）",
+        "GLM-4.7-Flash（平台另有免费 API 档，与 2000 万赠额分开）"
+      ],
+      "requirements": "官方活动页需登录/注册；国内手机号、实名与赠额到账方式、是否绑卡/预充值、到期时间尚未直接核实；邀请奖励最高 2 亿不计入默认额度",
+      "discovered_at": "2026-10-09",
+      "verified_at": null,
+      "verification_note": "2026-10-09 搜索到 bigmodel.cn 官方活动页（/activity/trial-card/GBG6IX0OID）公开索引明确写新用户注册得 2000 万 Tokens，但当前网页仅提供 JS 壳，无法核对真实领取按钮、模型 API 抵扣范围及有效期。7 天 Coding Plan 体验卡是另一活动，不与 API Tokens 混算；需下一轮查看官方实时条款/账户资源包详情，暂列 pending。",
+      "url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+      "official_source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+      "claim_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+      "payment_required": "待核实（活动页未能直接读取详细领取要求）",
+      "source_type": "智谱官方活动页索引（实时领取资格待核实）",
+      "evidence_urls": [
+        "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+        "https://docs.bigmodel.cn/cn/guide/platform/equity-explain"
+      ],
+      "grade": null,
+      "grade_reason": "官方赠额宣传存在，但本轮无法证实适用强模型 API 与当前资格",
+      "quality_score": 0,
+      "last_reviewed_at": "2026-10-09",
+      "next_review_at": "2026-10-10",
+      "review_started_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_result": "官方宣传金额可见，但活动页需 JS 且资源包模型/期限不明",
+      "review_history": [
+        {
+          "date": "2026-10-09",
+          "result": "查官方活动索引与当前页面，实时条款和赠额模型范围无法直接核验",
+          "source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID"
+        }
+      ]
     }
   ],
   "grade_policy": {
