@@ -29,7 +29,7 @@
       "name": "Venice AI",
       "type": "官方平台",
       "description": "传说中的 Venice $20 API 鸡蛋还在寻蛋中。现在查到的是网页端免费档，旧 API 赠金暂时没有可验证的领取活动页，先别把传闻当到手额度！",
-      "status": "pending",
+      "status": "unverifiable",
       "credits": "历史传闻：约 $20 API 额度",
       "models": [
         "待核实"
@@ -37,15 +37,28 @@
       "requirements": "免费账号可使用基础模型和网页免费消息；API 使用需 credits",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "官方当前免费档含网页额度；未证实注册赠送约 $20 API credits，不能标有效。查到的 Fleek 旧合作 $10 也不能等同于新注册通用活动。 目前仅找到免费套餐信息，未找到可核实的原 $20 活动领取页。",
+      "verification_note": "官方当前免费档含网页额度；未证实注册赠送约 $20 API credits，不能标有效。查到的 Fleek 旧合作 $10 也不能等同于新注册通用活动。 目前仅找到免费套餐信息，未找到可核实的原 $20 活动领取页。 已审查现有线索，当前不存在足以将历史赠金认定为开放活动的证明；转核查归档而非判定活动终止。",
       "url": "https://venice.ai/lp/free-ai-image-generator-no-sign-up",
       "payment_required": "未知（旧 API 赠金没有当前活动依据）",
       "source_type": "官方免费计划说明（并非赠金活动页）",
       "official_source_url": "https://venice.ai/lp/free-ai-image-generator-no-sign-up",
       "claim_url": null,
       "grade": null,
-      "grade_reason": "有效性及价值尚无足够证据，暂不评级",
-      "quality_score": 0
+      "grade_reason": "缺少可验证的当前官方赠金活动信息，不参与等级",
+      "quality_score": 0,
+      "review_started_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-08",
+      "review_history": [
+        {
+          "date": "2026-10-08",
+          "result": "当前只发现网页免费档；无法证实历史 $20 API 赠金的领取入口，转 unverifiable",
+          "source_url": "https://venice.ai/lp/free-ai-image-generator-no-sign-up"
+        }
+      ],
+      "next_review_at": null,
+      "review_attempts": 1,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
+      "review_result": "未发现仍可领取的历史 $20 API credits 官方活动页；当前免费网页套餐不等于 API 赠金。已移出待核实候选，日后有新活动证据可重新打开。"
     },
     {
       "id": "together-150-offer-2026",
@@ -71,7 +84,19 @@
       "claim_url": "https://www.together.ai/get-credits",
       "grade": null,
       "grade_reason": "有效性及价值尚无足够证据，暂不评级",
-      "quality_score": 89
+      "quality_score": 89,
+      "review_started_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-08",
+      "review_history": [
+        {
+          "date": "2026-10-08",
+          "result": "首次整理官方公开证据及仍缺少的领取条件",
+          "source_url": "https://www.together.ai/get-credits"
+        }
+      ],
+      "next_review_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。"
     },
     {
       "id": "groq-free-2026",
@@ -479,7 +504,19 @@
       "claim_url": "https://www.vultr.com/promo/try250/",
       "verification_note": "Vultr 官方模型产品文档包含 try250 活动链接，但活动页被限制访问，无法核实资格细则；不得标 active。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "review_started_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-08",
+      "review_history": [
+        {
+          "date": "2026-10-08",
+          "result": "首次整理官方公开证据及仍缺少的领取条件",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference"
+        }
+      ],
+      "next_review_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。"
     },
     {
       "id": "azure-free-200-ai-2026",
@@ -502,7 +539,19 @@
       "claim_url": "https://azure.microsoft.com/en-us/free/",
       "verification_note": "Microsoft Learn 确认 $200，但 AI Foundry/LLM 配额可能为 0，尚不能算可直接领取的强模型 API 赠金。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "review_started_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-08",
+      "review_history": [
+        {
+          "date": "2026-10-08",
+          "result": "首次整理官方公开证据及仍缺少的领取条件",
+          "source_url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services"
+        }
+      ],
+      "next_review_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。"
     },
     {
       "id": "byteplus-modelark-500k-2026",
@@ -512,20 +561,33 @@
       "models": [
         "ModelArk 活动页资格所列模型"
       ],
-      "requirements": "注册及验证；活动具体适用国家/有效期/身份材料要求未逐项核实",
+      "requirements": "需提交企业信息；本站优先个人低门槛活动，因此此专项不收录",
       "payment_required": "未知（官方条款未明确支付方式流程）",
-      "status": "pending",
+      "status": "excluded",
       "grade": null,
-      "grade_reason": "活动领取条件尚待继续核实，暂不参与已确认有效榜单",
+      "grade_reason": "活动门槛不符合收录范围",
       "quality_score": 69,
       "discovered_at": "2026-09-19",
       "verified_at": "2026-10-08",
       "url": "https://docs.byteplus.com/en/docs/legal/termsandconditions_modelark_free-token_campaign",
       "official_source_url": "https://docs.byteplus.com/en/docs/legal/termsandconditions_modelark_free-token_campaign",
       "claim_url": null,
-      "verification_note": "官网活动条款可见，但活动当前是否仍开放及实际模型免费包发放资格未完成验证。",
+      "verification_note": "官网活动条款可见，但活动当前是否仍开放及实际模型免费包发放资格未完成验证。 官方活动条款第 1.1 项要求注册并提交企业信息，不符合本站收录门槛（并非宣布活动过期）。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "review_started_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-08",
+      "review_history": [
+        {
+          "date": "2026-10-08",
+          "result": "官方条款要求企业信息，转 excluded",
+          "source_url": "https://docs.byteplus.com/en/docs/legal/termsandconditions_modelark_free-token_campaign"
+        }
+      ],
+      "next_review_at": null,
+      "review_attempts": 1,
+      "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
+      "review_result": "本条特定 Free-Token Campaign 官方条款 1.1 要求提交企业资料；超出本站个人低门槛福利收录范围。注意另有 Free Tokens Only 产品功能，尚需另行核查，并不能与此活动混同。"
     }
   ],
   "grade_policy": {
@@ -534,5 +596,11 @@
     "normal": "已核实可领，存在一定免费价值，但额度、限速、期限或支付门槛更普通",
     "note": "价值等级只评估已确认有效的活动；待核实和已失效是状态，不是价值等级。分级为本站编辑判断，非官方评级。"
   },
-  "sort_policy": "effective first: super > premium > normal; pending follows known usable offers; expired strictly last. Within equal grade sort by editorial quality_score descending, then discovered_at desc; duplicate provider activities retained only when distinct offers."
+  "sort_policy": "effective first: super > premium > normal; pending follows known usable offers; expired strictly last. Within equal grade sort by editorial quality_score descending, then discovered_at desc; duplicate provider activities retained only when distinct offers.",
+  "pending_review_policy": {
+    "frequency": "每天至少一次，记录官方来源、核查日期和具体结论",
+    "review_attempts": "不同自然日的实际核查才计数，不能仅因定时任务运行就虚构核查",
+    "resolution": "确认证实 -> active；证实已结束 -> expired；确认不符收录范围 -> excluded；连续3个不同自然日仍无当期公开证据 -> unverifiable（核查归档，不冒充失效）",
+    "reopen": "后续发现新官方证明时，可将 unverifiable/excluded 中符合资格的记录恢复 pending 或 active"
+  }
 }
