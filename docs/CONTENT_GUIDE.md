@@ -82,7 +82,7 @@
 
 ## 投稿流程
 
-用户提交 GitHub Issue 后先核实，再由维护者合并到 JSON；公开投稿内容不应该直接写入“有效”列表。
+用户通过站内 /submit.html 填写后，由 Cloudflare Worker 自动创建标题为 [投稿] 的 GitHub Issue；不要求访客登录 GitHub。按 docs/EGG_GRADING.md 核实后再决定是否收录，不能直接标记为 active。部署和密钥设置见 docs/SUBMISSION_SETUP.md。
 
 ## 发布机制
 

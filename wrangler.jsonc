@@ -1,0 +1,12 @@
+{
+  "name": "free-ai-credits",
+  "compatibility_date": "2026-10-09",
+  "main": "src/worker.js",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  }
+}

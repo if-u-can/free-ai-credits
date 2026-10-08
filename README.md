@@ -18,7 +18,7 @@
 
 ## 💌 投稿
 
-发现了没收录的免费额度？[来投稿一颗鸡蛋](https://github.com/if-u-can/free-ai-credits/issues/new?template=submit-egg.yml)。
+发现了没收录的免费额度？[来投稿一颗鸡蛋](https://freeegg.iffy.site/submit.html)。
 
 ## 📌 关于本站
 

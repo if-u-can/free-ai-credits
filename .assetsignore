@@ -1,0 +1,17 @@
+.github/
+.git/
+.wrangler/
+node_modules/
+src/
+docs/
+wrangler.jsonc
+wrangler.toml
+package.json
+package-lock.json
+README.md
+LICENSE
+connection-test.txt
+.assetsignore
+.dev.vars*
+*.md
+*.txt
