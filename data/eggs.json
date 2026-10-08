@@ -714,6 +714,81 @@
         "claim_convenience": 16,
         "validity_and_limits": 12
       }
+    },
+    {
+      "id": "sovinfra-sovapi-1b-trial-2026",
+      "name": "SovInfra SovAPI 新客 10 亿 Tokens",
+      "type": "官方推理平台",
+      "description": "新用户可获 10 亿 API Tokens，支持 Qwen3.8-27B 和 Gemma 4 31B，免绑卡、免预充值。注册需填写个人资料链接。",
+      "status": "active",
+      "credits": "1,000,000,000 免费 Tokens（输入与输出消耗；非美元赠金，仅用于 SovAPI 试用）",
+      "models": [
+        "qwen3.8-27b（编程、推理及工具调用）",
+        "gemma-4-31b（文本与视觉）",
+        "sovapi（自动路由别名）"
+      ],
+      "requirements": "个人注册需姓名、邮箱、至少一个 GitHub/LinkedIn/X/个人网站等资料链接、密码（不少于 12 字符）；不需企业、学生资格或绑信用卡；对中国大陆及其他地区账号实际开通情况尚未实测。",
+      "discovered_at": "2026-10-08",
+      "verified_at": "2026-10-08",
+      "verification_note": "2026-10-08 查验 SovInfra 官方现行 Terms Article VI、pricing、SovAPI 模型介绍及 app.sovinfra.ai 注册表单；官方明确新用户 1B 输入与输出 Tokens、无卡、试用耗尽不自动扣款。注册公开表单需一个社交/个人网站资料链接。支持 Qwen3.8-27B、Gemma 4 31B 与 OpenAI 兼容 API，当前没有明确公开截止时间或免费 Tokens 到期日。未替用户完成注册、测试区域限制或核实实际到账；模型质量属中等规模开源模型，非顶级前沿闭源模型。",
+      "url": "https://sovinfra.ai/pricing",
+      "official_source_url": "https://sovinfra.ai/terms",
+      "claim_url": "https://app.sovinfra.ai/",
+      "payment_required": "否（试用不需绑卡，不自动扣款；额度用尽再付费属可选）",
+      "source_type": "官方现行服务条款、资费页、注册页、模型/API 介绍",
+      "evidence_urls": [
+        "https://sovinfra.ai/terms",
+        "https://sovinfra.ai/pricing",
+        "https://sovinfra.ai/",
+        "https://app.sovinfra.ai/"
+      ],
+      "grade": "super",
+      "grade_reason": "官方 10 亿免费模型 API Tokens，个人可申请且免绑卡；可用模型以中型开源模型为主",
+      "quality_score": 87,
+      "quality_breakdown": {
+        "free_api_value": 35,
+        "model_usefulness": 19,
+        "claim_convenience": 21,
+        "validity_and_limits": 12
+      }
+    },
+    {
+      "id": "dahl-inference-100m-trial-2026",
+      "name": "Dahl Inference 注册赠 1 亿 Tokens",
+      "type": "官方推理平台",
+      "description": "注册送 1 亿模型 API Tokens，可用 MiniMax M2.7、DeepSeek V4 Flash 等。注册后需将赠额从账户池手动分配给 API Key。",
+      "status": "active",
+      "credits": "100,000,000 免费 API Tokens（账户池分配；非美元赠金，按官方定价约值 $3）",
+      "models": [
+        "MiniMaxAI/MiniMax-M2.7（180K，编程、工具调用）",
+        "deepseek-ai/DeepSeek-V4-Flash-0731（400K，编程、推理）",
+        "zai-org/GLM-5.3-Flash（400K，推理与工具调用）"
+      ],
+      "requirements": "个人创建账号，只需用户名并妥善保存一次性 fingerprint 登录凭证；创建后 API Key 初始额度为 0，须从账户池向 Key 分配赠送 Tokens；公开文档未要求支付卡、手机号或预充值，地区限制和赠额有效期尚无明确实测。",
+      "discovered_at": "2026-10-08",
+      "verified_at": "2026-10-08",
+      "verification_note": "2026-10-08 查验 Dahl 官方首页、现行 Tokens & keys / Authentication / Models 文档；确认注册赠 100M tokens 至账户池，首个 API Key 初始 0 需手动 allocate，接口兼容 OpenAI Chat Completions，支持 MiniMax M2.7、DeepSeek V4 Flash 0731、GLM 5.3 Flash。Kimi K2.6 已 retired、Qwen3.8 Flash 尚未开放，不计入可用模型。未替用户开设账号、调用 API 或验证具体地区可领；按照官方 $0.03/1M 的参考定价，100M 折算约 $3，不等价于 $100。",
+      "url": "https://inference.dahl.global/docs/tokens/",
+      "official_source_url": "https://inference.dahl.global/docs/tokens/",
+      "claim_url": "https://inference.dahl.global/account",
+      "payment_required": "否（当前官方注册流程未要求绑卡/充值；充值是自愿购买）",
+      "source_type": "官方当前注册及账户 Tokens 文档、模型/API 文档",
+      "evidence_urls": [
+        "https://inference.dahl.global/",
+        "https://inference.dahl.global/docs/tokens/",
+        "https://inference.dahl.global/docs/authentication/",
+        "https://inference.dahl.global/docs/models/",
+        "https://inference.dahl.global/account"
+      ],
+      "grade": "super",
+      "grade_reason": "官方新客 1 亿免费 API Tokens，可用于 MiniMax、DeepSeek 推理编程；需手动分配到账户密钥",
+      "quality_score": 82,
+      "quality_breakdown": {
+        "free_api_value": 29,
+        "model_usefulness": 24,
+        "claim_convenience": 21,
+        "validity_and_limits": 8
+      }
     }
   ],
   "grade_policy": {
