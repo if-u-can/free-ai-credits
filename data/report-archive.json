@@ -6,14 +6,14 @@
       "id": "2026-10-08-super-general-compute",
       "kind": "super",
       "date": "2026-10-08",
-      "title": "哇？居然捡到一颗 $100 的超级鸡蛋！",
-      "summary": "Eku 翻出了一颗写着 $100 的大鸡蛋！General Compute 官方给新账号提供 $100 的 Self-serve API credits，可用于平台支持的模型。数字确实很香，但不是所有地区和账号都已经实测到账，先别把蛋拍碎庆祝。",
+      "title": "捡到一颗 $100 的超级鸡蛋 🥚",
+      "summary": "General Compute 面向新账号提供 $100 API credits，邮箱验证后可以申请。官方模型列表有 DeepSeek、MiniMax 和 GPT-OSS。",
       "highlights": [
-        "🥇 官方新账号赠金：$100 API credits，而不是仅能网页聊天的试用券。",
-        "🍳 官方展示 DeepSeek V3.2、MiniMax M2.5、GPT-OSS 120B 等模型，可用列表以账户和官方 API 为准。",
-        "🔎 领取流程包含新账号注册和邮箱验证码；绑卡要求及地区发放仍需按实际申请确认。"
+        "新账号赠金：$100 API credits。",
+        "可用模型包括 DeepSeek、MiniMax 和 GPT-OSS 系列。",
+        "注册申请走邮箱验证流程，实际资格按所在地区账户开放情况。"
       ],
-      "tip": "先看官方说明再去领：别泄露 API Key，也别把 $100 当作可提现现金。",
+      "tip": "",
       "egg_id": "general-compute-100-2026",
       "official_source_url": "https://www.generalcompute.com/openclaw",
       "claim_url": "https://app.generalcompute.com"
@@ -22,14 +22,14 @@
       "id": "2026-10-08-morning",
       "kind": "morning",
       "date": "2026-10-08",
-      "title": "早呀！今天的蛋有点香诶 ☀️",
-      "summary": "叮——鸡蛋雷达开机！今天把之前找到的免费 API 活动重新摆上桌啦。注意：这是本期整理结果，不代表每颗蛋都是今天刚出的。先挑香的看，再看看有没有绑卡小陷阱。",
+      "title": "今天的鸡蛋又多了几颗 ☀️",
+      "summary": "之前找过的免费 API 活动补进列表了，额度和绑卡条件也重新对了一遍。General Compute 的 $100 很显眼；Together 那个 $150 申请页打不开，先从候选里撤下。",
       "highlights": [
-        "🥇 General Compute 官网写着新号 $100；地区和到账情况还要按实际账户确认。",
-        "🥚 GroqCloud、Mistral 有免费 API 档；Cerebras 的 $5 需要绑支付方式。",
-        "🔎 Together $150 和 Vultr $250 数字很诱人，但领取资格仍在核实，先别当已经到手！"
+        "General Compute：新用户 $100 API credits，走邮箱验证申请。",
+        "GroqCloud、Mistral 都有免费 API 档；Cerebras 的 $5 需要绑支付方式。",
+        "Together AI：$150 原申请链接返回 404，目前没有新的公开领取入口。"
       ],
-      "tip": "今日捡蛋口诀：先看官方条款、再看绑卡门槛，最后才伸手。"
+      "tip": ""
     }
   ]
 }
