@@ -211,6 +211,40 @@
       "source_type": "官方活动/免费方案具体政策"
     },
     {
+      "id": "akashml-100-api-credit-2026",
+      "name": "AkashML 新用户 $100 API 赠金",
+      "type": "官方推理平台",
+      "description": "AkashML 官方推广新用户 $100 API 赠金，平台现有 Kimi K3、Qwen 和 GPT-OSS 120B。领取需要先验证支付卡。",
+      "status": "active",
+      "credits": "新账户 $100 AI 推理 credits（官方推广金额；到账与有效期未实测）",
+      "models": [
+        "Kimi K3（Limited Trial）",
+        "QWEN3.8 27B（Limited Trial）",
+        "QWEN3.6 35B A3B（Limited Trial）",
+        "GPT OSS 120B（Limited Trial）",
+        "Llama 3.3 70B"
+      ],
+      "requirements": "注册 AkashML、验证邮箱，并在新用户引导中添加/验证支付方式才能领取试用赠金；地区适用性及赠金有效期未公布清楚",
+      "discovered_at": "2026-10-08",
+      "verified_at": "2026-10-08",
+      "verification_note": "Akash Network 2025-11-22 官方发布文章写新用户获 $100 API credits；官方 AkashClaw 活动页仍公开宣传 AkashML 新账户 $100。AkashML 现行 Getting Started/Settings 文档确认需验证支付方式才发试用 credits，当前官网模型目录可查 Kimi K3、QWEN3.8、GPT OSS 120B。没有新账户实际领款测试，金额与地区/过期日以账户为准；不与 Akash Console GPU $100 混算。",
+      "url": "https://claw.akash.network/",
+      "payment_required": "是（验证支付方式；官方文档明确要求，未要求预充值）",
+      "source_type": "Akash 官方产品公告、推广页、当前开通文档",
+      "official_source_url": "https://claw.akash.network/",
+      "claim_url": "https://akashml.com/login",
+      "evidence_urls": [
+        "https://claw.akash.network/",
+        "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/",
+        "https://akashml.com/docs/getting-started/introduction",
+        "https://akashml.com/docs/platform/settings",
+        "https://akashml.com/models"
+      ],
+      "grade": "super",
+      "grade_reason": "正规推理平台 $100 API 赠金，开放较强开源模型；需验证支付卡",
+      "quality_score": 90
+    },
+    {
       "id": "lightning-ai-models-2026",
       "name": "Lightning AI 免费模型额度",
       "description": "Lightning AI 的额度分两档：注册送 5 credits，绑卡再送 25。模型页还提到 4000 万免费 tokens，具体怎么算得看账户。",
