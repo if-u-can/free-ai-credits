@@ -1,14 +1,14 @@
 {
   "morning": {
     "date": "2026-10-08",
-    "title": "早呀！今天的蛋有点香诶 ☀️",
-    "summary": "叮——鸡蛋雷达开机！今天把之前找到的免费 API 活动重新摆上桌啦。注意：这是本期整理结果，不代表每颗蛋都是今天刚出的。先挑香的看，再看看有没有绑卡小陷阱。",
+    "title": "今天的鸡蛋又多了几颗 ☀️",
+    "summary": "之前找过的免费 API 活动补进列表了，额度和绑卡条件也重新对了一遍。General Compute 的 $100 很显眼；Together 那个 $150 申请页打不开，先从候选里撤下。",
     "highlights": [
-      "🥇 General Compute 官网写着新号 $100；地区和到账情况还要按实际账户确认。",
-      "🥚 GroqCloud、Mistral 有免费 API 档；Cerebras 的 $5 需要绑支付方式。",
-      "🔎 Together $150 和 Vultr $250 数字很诱人，但领取资格仍在核实，先别当已经到手！"
+      "General Compute：新用户 $100 API credits，走邮箱验证申请。",
+      "GroqCloud、Mistral 都有免费 API 档；Cerebras 的 $5 需要绑支付方式。",
+      "Together AI：$150 原申请链接返回 404，目前没有新的公开领取入口。"
     ],
-    "tip": "今日捡蛋口诀：先看官方条款、再看绑卡门槛，最后才伸手。"
+    "tip": ""
   },
   "evening": {
     "date": null,
