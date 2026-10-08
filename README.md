@@ -1,23 +1,32 @@
-# 免费鸡蛋 🥚
+# 🥚 免费鸡蛋
 
-可爱又略微抽象的免费 AI API 额度情报站。静态前端，无框架依赖，兼容 Cloudflare Pages 与 Vercel。
+**一代人有一代人的鸡蛋要领。**
 
-## 页面和数据
-- `index.html`：主页面（含原创 CSS 吉祥物、早晚报、筛选和投稿）
-- `data/eggs.json`：鸡蛋列表；字段 id,name,type,description,status,credits,models,requirements,discovered_at,verified_at,verification_note,url。
-- `data/reports.json`：`morning`、`evening` 日报；字段 date,title,summary。
-- `.github/ISSUE_TEMPLATE/submit-egg.yml`：投稿表单（GitHub Issue，投稿者需要登录 GitHub）。
+欢迎来到免费鸡蛋情报站！这里专门寻找值得领取的免费 AI 额度，替你看看哪颗蛋真的香、哪颗蛋已经坏了。
 
-## 数据准则
-- `active` 必须有可追溯官方证据和最近验证结果；无法核实用 `pending`。
-- `expired` 保留展示，并写明最近核实时间与失效原因。
-- 商业中转站羊毛暂不收录，仅接受可核实的公益站。
-- 发现时间和核实时间应是真实事件时间，不得将旧活动“补录日”伪装成实际发现时间（首批历史线索仅作为待核实示例）。
-- 修改 JSON 并推送 GitHub 后，Git 集成会触发自动部署。自动生成日报/无人值守提交 GitHub 需另外验证定时任务能力。
+> 发现免费鸡蛋，不代表已经确认能领。我们尽量核对官方来源、领取条件及活动状态，让每一颗蛋都来路清楚。
 
-## 部署
-Cloudflare Pages：Connect to Git → `if-u-can/free-ai-credits` → framework `None` → build command 留空 → output directory `/`。
-Vercel：无框架静态项目，根目录直接部署。
+## 🍳 来这里可以做什么？
 
-## 视觉参考
-原创鸡蛋角色、中文互联网软萌且略抽象的表情包氛围；没有直接使用 EKU 模型或第三方表情包原图。
+- **捡鸡蛋**：发现模型厂商、推理平台提供的免费 API 额度，也收录真正的公益站。
+- **查鸡蛋**：查看赠送额度、支持模型、注册门槛、发现时间、最近核实时间和领取链接。
+- **认鸡蛋**：区分有效、待核实与已失效的活动，过期鸡蛋会保留并清楚标记。
+- **读鸡蛋报**：早上看看新鲜发现，晚上回顾活动变化和风险提醒。
+- **投稿鸡蛋**：发现遗漏的福利？欢迎告诉我们，一起丰富鸡窝！
+
+普通商业中转站的优惠和赠送活动暂不收录，公益站除外。
+
+## 🌸 网站风格
+
+可爱、稍微抽象，还有一点中文互联网的免费鸡蛋梗。以 VRChat 角色 **Eku** 为视觉主题，使用二创形象和趣味表情装点鸡窝。
+
+## 🔗 入口
+
+- [前往免费鸡蛋情报站](https://free-ai-credits-one.vercel.app/)
+- [投稿一颗免费鸡蛋](https://github.com/if-u-can/free-ai-credits/issues/new?template=submit-egg.yml)
+
+## 💌 关于本站
+
+本站是非官方的免费福利情报整理项目，不隶属于 Eku 原作者或所收录的平台。活动额度与条款可能变化，请以对应官方说明为准。
+
+**祝大家都能捡到超级美味的免费鸡蛋！**
