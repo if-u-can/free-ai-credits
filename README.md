@@ -4,7 +4,7 @@
 
 收集真正能用的免费 AI API 额度，帮你找到值得领的鸡蛋，也标出已经坏掉的蛋。
 
-**🥚 [进入免费鸡蛋篮](https://freeege.iffy.site)**
+**🥚 [进入免费鸡蛋篮](https://freeegg.iffy.site)**
 
 ## 🍳 可以在这里做什么？
 
