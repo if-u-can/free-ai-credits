@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-10-08",
+  "eggs": [
+    {
+      "id": "together-historical",
+      "name": "Together AI",
+      "type": "官方平台",
+      "description": "历史上曾提供大额试用额度；当前领取条件和活动状态等待复核。",
+      "status": "pending",
+      "credits": "历史活动：最高 $150",
+      "models": [
+        "多种开源模型（以官方当前列表为准）"
+      ],
+      "requirements": "待核实",
+      "discovered_at": "2026-10-08",
+      "verified_at": null,
+      "verification_note": "历史线索；尚未核实当前新账号赠送政策",
+      "url": "https://www.together.ai/"
+    },
+    {
+      "id": "venice-historical",
+      "name": "Venice AI",
+      "type": "官方平台",
+      "description": "历史试用赠金线索；需重新确认目前是否仍有可领取的 API credits。",
+      "status": "pending",
+      "credits": "历史线索：约 $20",
+      "models": [
+        "待核实"
+      ],
+      "requirements": "待核实",
+      "discovered_at": "2026-10-08",
+      "verified_at": null,
+      "verification_note": "仅记录历史线索，不代表活动有效",
+      "url": "https://venice.ai/"
+    }
+  ]
+}
