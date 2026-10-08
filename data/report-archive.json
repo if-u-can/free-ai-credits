@@ -3,6 +3,23 @@
   "updated_at": "2026-10-08",
   "entries": [
     {
+      "id": "2026-10-08-super-inception-mercury",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "Mercury 免费 API 额度升级到 1 亿 Tokens 🥚",
+      "summary": "Inception 官网 Free 方案现在列出 1 亿免费 API Tokens，Mercury 2.5 可通过 OpenAI 兼容 API 调用。注册后创建 API Key 即可查看分配的试用额度。",
+      "highlights": [
+        "官方 Free 方案：100M 免费 Tokens，并非 $100 赠金。",
+        "支持 Mercury 2.5；调用接口兼容 OpenAI API。",
+        "目前没有公布结束日期；绑卡、地区及到账额度仍需以新账号实际情况确认。",
+        "官网旧引导文字还保留 10M，已标注新旧口径冲突。"
+      ],
+      "tip": "",
+      "egg_id": "inception-mercury-trial-2026",
+      "official_source_url": "https://www.inceptionlabs.ai/models",
+      "claim_url": "https://platform.inceptionlabs.ai/"
+    },
+    {
       "id": "2026-10-08-super-general-compute",
       "kind": "super",
       "date": "2026-10-08",
