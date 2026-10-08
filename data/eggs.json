@@ -588,6 +588,29 @@
       "review_attempts": 1,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
       "review_result": "本条特定 Free-Token Campaign 官方条款 1.1 要求提交企业资料；超出本站个人低门槛福利收录范围。注意另有 Free Tokens Only 产品功能，尚需另行核查，并不能与此活动混同。"
+    },
+    {
+      "id": "byteplus-free-tokens-only-2026",
+      "name": "BytePlus ModelArk 免费 Tokens Only 模式",
+      "type": "官方平台",
+      "description": "诶，这个和要交企业资料的那颗可不是同一颗！ModelArk 给符合条件的新账号准备 50 万免费 tokens，个人实名认证用户也可使用；用完会自动停，先别急着切到付费档。",
+      "status": "active",
+      "grade": "normal",
+      "grade_reason": "个人实名账号也符合 Free Tokens Only 功能范围，但额度有限且首次激活时机很关键。",
+      "quality_score": 64,
+      "credits": "50 万免费 tokens（Free Tokens Only 模式）",
+      "models": [
+        "ModelArk 支持此模式的推理模型（不含部分多模态 embedding / 同声传译）"
+      ],
+      "requirements": "完成 BytePlus 身份认证的个人或企业账户；此前未激活任何模型服务、从未启用或停用过该模式；必须先打开 Free Tokens Only 才能激活模型。",
+      "payment_required": "未知（官方说明为无额外费用的模式，未明确账户认证的绑卡要求）",
+      "discovered_at": "2026-10-08",
+      "verified_at": "2026-10-08",
+      "verification_note": "官方 Free Tokens Only 文档（2026-09-28 更新）明确个人实名账户亦可开通 500k 限额模式，耗尽自动暂停；资格、适用模型需查看当前账户。不要与要求企业信息的独立 Free-Token Campaign 混为一谈。",
+      "source_type": "官方 Free Tokens Only 产品功能说明",
+      "official_source_url": "https://docs.byteplus.com/en/docs/modelark/free-tokens-only-mode",
+      "url": "https://docs.byteplus.com/en/docs/modelark/free-tokens-only-mode",
+      "claim_url": null
     }
   ],
   "grade_policy": {
