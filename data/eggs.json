@@ -17,7 +17,9 @@
       "verification_note": "Together 官方帮助中心确认当前不再提供普通免费试用，最少须购买 $5 credits。",
       "url": "https://support.together.ai/articles/1862638756-changes-to-free-tier-and-billing-july-2025",
       "payment_required": "是（当前使用需先购买 ≥$5 credits）",
-      "source_type": "官方免费试用政策说明"
+      "source_type": "官方免费试用政策说明",
+      "official_source_url": "https://support.together.ai/articles/1862638756-changes-to-free-tier-and-billing-july-2025",
+      "claim_url": null
     },
     {
       "id": "venice-historical",
@@ -32,10 +34,12 @@
       "requirements": "免费账号可使用基础模型和网页免费消息；API 使用需 credits",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "官方当前免费档含网页额度；未证实注册赠送约 $20 API credits，不能标有效。查到的 Fleek 旧合作 $10 也不能等同于新注册通用活动。",
+      "verification_note": "官方当前免费档含网页额度；未证实注册赠送约 $20 API credits，不能标有效。查到的 Fleek 旧合作 $10 也不能等同于新注册通用活动。 目前仅找到免费套餐信息，未找到可核实的原 $20 活动领取页。",
       "url": "https://venice.ai/lp/free-ai-image-generator-no-sign-up",
       "payment_required": "未知（旧 API 赠金没有当前活动依据）",
-      "source_type": "官方免费计划说明（并非赠金活动页）"
+      "source_type": "官方免费计划说明（并非赠金活动页）",
+      "official_source_url": "https://venice.ai/lp/free-ai-image-generator-no-sign-up",
+      "claim_url": null
     },
     {
       "id": "together-150-offer-2026",
@@ -56,7 +60,9 @@
       "verification_note": "官方 get-credits 页面列出 $150 并提供申请表，但未披露所有申请者的资格/通过率和支付方式条件，尚不能确认一般个人可领。",
       "url": "https://www.together.ai/get-credits",
       "payment_required": "待核实",
-      "source_type": "官方 $150 活动申请页"
+      "source_type": "官方 $150 活动申请页",
+      "official_source_url": "https://www.together.ai/get-credits",
+      "claim_url": "https://www.together.ai/get-credits"
     },
     {
       "id": "groq-free-2026",
@@ -76,7 +82,9 @@
       "verification_note": "官方 Free Plan 限速页和 Billing FAQ 已确认；具体模型和账户限额可能变化。",
       "url": "https://console.groq.com/docs/rate-limits",
       "payment_required": "否（免费档；升级 Developer 才需支付方式）",
-      "source_type": "官方 Free Plan 限额说明"
+      "source_type": "官方 Free Plan 限额说明",
+      "official_source_url": "https://console.groq.com/docs/rate-limits",
+      "claim_url": "https://console.groq.com/"
     },
     {
       "id": "mistral-studio-free-2026",
@@ -95,7 +103,9 @@
       "verification_note": "官方 Studio API Key 指南明确 Free mode 默认开启，无需信用卡；模型调用限额适用。",
       "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
       "payment_required": "否（官方明确 Free mode 无需信用卡）",
-      "source_type": "官方免费模式 API Key 开通教程"
+      "source_type": "官方免费模式 API Key 开通教程",
+      "official_source_url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+      "claim_url": "https://console.mistral.ai/"
     },
     {
       "id": "cerebras-developer-5-2026",
@@ -114,7 +124,9 @@
       "verification_note": "官方 Developer 定价页明确一次性 $5 promotional credits，绑定有效支付方式，30 天内有效。",
       "url": "https://www.cerebras.ai/pricing",
       "payment_required": "是（有效支付方式）",
-      "source_type": "官方 $5 开发者免费 credits 条款"
+      "source_type": "官方 $5 开发者免费 credits 条款",
+      "official_source_url": "https://www.cerebras.ai/pricing",
+      "claim_url": "https://cloud.cerebras.ai/"
     }
   ]
 }
