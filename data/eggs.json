@@ -5,7 +5,7 @@
       "id": "together-historical",
       "name": "Together AI",
       "type": "官方平台",
-      "description": "普通新账号自动赠送免费额度已结束；官方说明现在需先购买至少 $5 credits。另有 $150 单独活动申请页，作为不同活动独立列出。",
+      "description": "这颗曾经很香的老鸡蛋，现在已经领不到啦。Together 普通注册赠额已结束，官方说目前得先买至少 $5 credits；别把它和单独的 $150 申请活动弄混。",
       "status": "expired",
       "credits": "历史免费试用（已结束）",
       "models": [
@@ -28,7 +28,7 @@
       "id": "venice-historical",
       "name": "Venice AI",
       "type": "官方平台",
-      "description": "历史曾有 API 免费 credits 机会。官方当前免费套餐仅注明免费聊天/图片额度，API 为积分付费，历史 $20 API 赠金尚未找到当前官方依据。",
+      "description": "传说中的 Venice $20 API 鸡蛋还在寻蛋中。现在查到的是网页端免费档，旧 API 赠金暂时没有可验证的领取活动页，先别把传闻当到手额度！",
       "status": "pending",
       "credits": "历史传闻：约 $20 API 额度",
       "models": [
@@ -51,7 +51,7 @@
       "id": "together-150-offer-2026",
       "name": "Together AI $150 专项申请",
       "type": "官方平台",
-      "description": "官网仍公开展示 $150 免费 credits 申请表，但是否对所有个人申请者开放、是否需要资格审核尚未证实。",
+      "description": "官网确实摆着一颗 $150 大鸡蛋，还有申请表。不过个人能不能拿、需不需要审批或绑卡还没查清，暂时只能远远围观。",
       "status": "pending",
       "credits": "申请成功可获 $150（资格待核实）",
       "models": [
@@ -77,7 +77,7 @@
       "id": "groq-free-2026",
       "name": "GroqCloud Free API",
       "type": "官方平台",
-      "description": "免费档有按模型限速的 API 配额，不是赠送美元 credits。",
+      "description": "没有美元赠金，但有能直接试模型的免费 API 档！GPT-OSS 120B 有公开的每日限额；跑得开心也要留意限速，别一口气把配额吃光。",
       "status": "active",
       "credits": "免费限额调用；GPT OSS 120B 官方公开额度 1,000 次/天、200K tokens/天",
       "models": [
@@ -95,14 +95,14 @@
       "official_source_url": "https://console.groq.com/docs/rate-limits",
       "claim_url": "https://console.groq.com/",
       "grade": "premium",
-      "grade_reason": "无须绑定支付方式，提供持续免费 API 配额，支持 GPT-OSS 120B；有每日限速。",
+      "grade_reason": "免费 API 配额很实在，强模型可试；每日限速记得看。",
       "quality_score": 76
     },
     {
       "id": "mistral-studio-free-2026",
       "name": "Mistral AI Studio Free Mode",
       "type": "官方平台",
-      "description": "官方 Studio 免费模式默认可用，允许创建 API Key，但每秒/分钟/月调用量受限制。",
+      "description": "这颗走的是朴实无华路线：注册后能开免费 API Key，也不用信用卡。只是调用量有限，不是往账户里塞一笔美元。",
       "status": "active",
       "credits": "免费限额 API 调用；非固定美元赠金",
       "models": [
@@ -119,14 +119,14 @@
       "official_source_url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
       "claim_url": "https://console.mistral.ai/",
       "grade": "normal",
-      "grade_reason": "有可用的免费 API 档，但额度与模型权限受限，非大额赠金。",
+      "grade_reason": "免绑卡能试 API，是颗稳稳的小鸡蛋。",
       "quality_score": 66
     },
     {
       "id": "cerebras-developer-5-2026",
       "name": "Cerebras Inference $5 体验赠金",
       "type": "官方平台",
-      "description": "官方开发者档提供一次性 $5 推理额度；注册后需要添加有效支付方式才能领取，30 天后失效。",
+      "description": "小小一颗 $5 体验蛋，拿来试推理刚刚好。注意：需要绑有效支付方式，而且 30 天就会过期，别放抽屉里忘了。",
       "status": "active",
       "credits": "一次性 $5 / 有效期 30 天",
       "models": [
@@ -143,13 +143,13 @@
       "official_source_url": "https://www.cerebras.ai/pricing",
       "claim_url": "https://cloud.cerebras.ai/",
       "grade": "normal",
-      "grade_reason": "提供一次性 $5，但领取需绑定有效支付方式，且有 30 天期限。",
+      "grade_reason": "有 $5 体验金，但绑卡加 30 天期限要留意。",
       "quality_score": 58
     },
     {
       "id": "general-compute-100-2026",
       "name": "General Compute 注册赠金",
-      "description": "新用户 Self-serve API 新账号享有 $100 免费额度；官网提供邮箱验证码及 API key 自助开通流程。",
+      "description": "等一下，这颗蛋居然写着 $100？！General Compute 官方公开了新账号赠金和邮箱验证流程；金额很亮眼，不过地区和实际到账仍要按账户结果确认。",
       "credits": "$100 免费 API credits",
       "models": [
         "deepseek-v3.2",
@@ -161,7 +161,7 @@
       "payment_required": "未知（官方公开流程只提邮箱验证，未明确要求绑卡）",
       "status": "active",
       "grade": "super",
-      "grade_reason": "大额直接送 $100、支持 DeepSeek 与 MiniMax 等模型、无需公司资质的公开申请流程",
+      "grade_reason": "$100 新客赠金够亮眼！具体到账与地区仍需按账户核验。",
       "quality_score": 98,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
@@ -175,7 +175,7 @@
     {
       "id": "lightning-ai-models-2026",
       "name": "Lightning AI 免费模型额度",
-      "description": "模型页宣传可获得 4,000 万免费 tokens；官方价格页写注册送 5 credits、绑卡再送 25 credits，具体折算取决于调用价格。",
+      "description": "模型挺多，蛋也不小！官方写了注册送 5 credits、绑卡再给 25；页面另宣传 4,000 万免费 tokens。两种说法不能直接相加，先看看自己能领哪份。",
       "credits": "40M free tokens（宣传值）；注册送 5 credits + 绑卡送 25 credits",
       "models": [
         "openai/gpt-6-astra",
@@ -186,7 +186,7 @@
       "payment_required": "部分需要（注册 5 不需；额外 25 要绑卡）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "模型范围广、首轮额度吸引人，但额度口径与绑卡档位需要区分",
+      "grade_reason": "模型可选范围丰富，免费额度分档领取。",
       "quality_score": 88,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
@@ -200,7 +200,7 @@
     {
       "id": "aws-free-tier-200-2026",
       "name": "AWS 新用户免费 credits",
-      "description": "注册送 $100，探索指定服务任务可再得最多 $100。AWS 官方列有 Bedrock，但具体模型的 Free Plan 配额和地区会限制实际可用性。",
+      "description": "AWS 端来了大盘：新号 $100，完成指定任务最多再拿 $100。但不是所有 Bedrock 模型都能直接吃到，区域和配额才是关键。",
       "credits": "注册 $100 + 任务最多 $100（上限 $200）",
       "models": [
         "Amazon Bedrock 可用模型依账号/区域/额度"
@@ -209,7 +209,7 @@
       "payment_required": "大多不需要；部分账户需绑定用于身份核验",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "额度较高，但并非直送 $200，AI 模型权限与可用服务有额外限制",
+      "grade_reason": "云积分丰厚，能用的 Bedrock 配额要单独确认。",
       "quality_score": 87,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
@@ -223,7 +223,7 @@
     {
       "id": "google-cloud-free-300-2026",
       "name": "Google Cloud 新用户 $300",
-      "description": "新用户免费试用可获得 $300 云服务额度（90 天），但不能支付 AI Studio 中 Gemini API 费用及受限的第三方托管模型；可用于符合条件的 Google Cloud AI 产品。",
+      "description": "$300 看着像巨无霸，先别冲动敲蛋壳！这是 90 天云服务试用金，不是任意 Gemini API 或第三方大模型的通用充值券。",
       "credits": "$300 / 90 天（用途有限）",
       "models": [
         "Google Cloud 符合免费试用资格的 AI/Agent Platform 产品"
@@ -232,7 +232,7 @@
       "payment_required": "是（官方要求有效支付方式用于身份验证）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "赠金大但用途受限，不能直接当通用大模型充值额度",
+      "grade_reason": "额度很大，但不是任意 AI API 通用券。",
       "quality_score": 79,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
@@ -246,7 +246,7 @@
     {
       "id": "inception-mercury-trial-2026",
       "name": "Inception Mercury 免费 Tokens",
-      "description": "Inception 官方模型页现在写默认免费计划 1,000 万 tokens；近期推广文章写 1 亿 tokens 活动，两者条件不完全一致，先按稳妥的基础数展示。",
+      "description": "默认免费计划写着 1,000 万 tokens，已经挺能聊了！另有 1 亿 tokens 的推广说法，条件还没对齐，先按确定的那一份算。",
       "credits": "已确认默认 1,000 万 tokens；1 亿推广活动待确认",
       "models": [
         "mercury-2",
@@ -256,7 +256,7 @@
       "payment_required": "未知（公开免费计划未说明必须绑卡）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "免费 token 总量可观且申请页公开，暂以默认 10M 为准",
+      "grade_reason": "默认 1,000 万 tokens 挺香，额外推广待核实。",
       "quality_score": 84,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -270,7 +270,7 @@
     {
       "id": "scaleway-1m-2026",
       "name": "Scaleway Generative APIs",
-      "description": "新账号 Serverless Generative API 免费使用首 100 万 tokens，可运行 DeepSeek、Qwen、Mistral 等模型；超过后按量计费。",
+      "description": "新客能试 100 万 tokens，DeepSeek、Qwen 等模型都有机会登场。可惜这颗蛋要先绑卡，超过免费额后还会计费，记得盯账单。",
       "credits": "每位新客前 100 万 tokens",
       "models": [
         "deepseek-v4-flash-0731",
@@ -282,7 +282,7 @@
       "payment_required": "是（资源启用前绑定卡，可能 €1 临时预授权）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "支持多种实用模型；但必须绑卡，免费额后自动转计费",
+      "grade_reason": "百万 tokens 不错，记得先绑卡并防止超额。",
       "quality_score": 73,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
@@ -296,7 +296,7 @@
     {
       "id": "vercel-ai-gateway-free-2026",
       "name": "Vercel AI Gateway 月度免费额度",
-      "description": "官方 AI Gateway 免费档每月赠 $5 credits，首次 API 请求后开始；购买付费 credits 会切换为付费档。",
+      "description": "不靠一口气暴富，主打细水长流：AI Gateway 免费档每月 $5。金额不大但能反复用；购买付费 credits 后档位规则会变。",
       "credits": "$5 / 月（免费档）",
       "models": [
         "网关支持的模型按当前免费档可用权限为准"
@@ -305,7 +305,7 @@
       "payment_required": "未知（免费档领取是否需验证付款方式应以开通页为准）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "额度不大但每月续有、可接较丰富的模型，长期实用",
+      "grade_reason": "每月小额续杯，适合长期省着用。",
       "quality_score": 79,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -319,7 +319,7 @@
     {
       "id": "gemini-api-free-2026",
       "name": "Google Gemini API 免费层",
-      "description": "Gemini Developer API 官方定价页面有真正 $0 的免费模型调用配额，受模型与项目 RPM/TPM/RPD 限额限制。",
+      "description": "官方 Gemini API 真的有 $0 免费层，适合日常敲敲代码、试试提示词。不过不是每个模型都免费，先看模型自己的限速牌。",
       "credits": "按模型提供免费调用配额（非美元赠金）",
       "models": [
         "Gemini API 官方定价页当前标注 Free 的 Gemini 型号"
@@ -328,7 +328,7 @@
       "payment_required": "否（Free Tier 可不添加付费结算账号）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "官方免卡 API 免费模型实用，适合长期开发测试",
+      "grade_reason": "免费层实用，具体可用模型和限速要看清。",
       "quality_score": 78,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -342,7 +342,7 @@
     {
       "id": "nvidia-nim-kimi-k3-2026",
       "name": "NVIDIA NIM 免费推理端点",
-      "description": "NVIDIA Build 对 Kimi K3 提供 Free Endpoint 供开发原型调用，受公共服务限速和试用条款约束。",
+      "description": "NVIDIA Build 摆出了 Kimi K3 免费试用端点！适合先摸摸模型手感，但公共池有速率和使用限制，不等于生产环境无限供应。",
       "credits": "免费开发 API Endpoint（有速率限制）",
       "models": [
         "moonshotai/kimi-k3"
@@ -351,7 +351,7 @@
       "payment_required": "未知（免费试用页面未明确说明是否需绑卡）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "免费调用较强模型的直接模型端点，适合测试",
+      "grade_reason": "能免费摸到 Kimi K3，测试友好但有限速。",
       "quality_score": 80,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -365,7 +365,7 @@
     {
       "id": "alibaba-model-studio-beijing-2026",
       "name": "阿里云百炼新人免费 Token",
-      "description": "首次开通阿里云百炼自动获取多个模型独立的新人额度，一般每模型约 100 万 tokens，有效期通常 90 天；当前官方限制华北2（北京）。",
+      "description": "百炼给新人准备了按模型分别计算的免费 tokens，像分格装好的鸡蛋盒。注意目前官方主要限定北京地域，其他区域别照搬旧教程。",
       "credits": "每个符合条件模型通常约 100 万 tokens（独立）",
       "models": [
         "qwen-max",
@@ -376,7 +376,7 @@
       "payment_required": "未知（未认证用户有免费额度，完整开通支付步骤需按地区实测）",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "每个模型独立配额很实用，但有北京地域及开户限制",
+      "grade_reason": "多模型独立免费额度，注意地域与开户条件。",
       "quality_score": 75,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -390,7 +390,7 @@
     {
       "id": "cohere-trial-api-2026",
       "name": "Cohere Trial API Key",
-      "description": "官方 Trial Key 可免费测试模型 API，文档称试用每月共 1,000 次调用上限，不面向生产高吞吐。",
+      "description": "注册就能拿 Trial Key，小规模试 Command、Embed 正合适。每月约 1,000 次试用调用，想拿它当高吞吐生产接口可不行。",
       "credits": "试用最多 1,000 次调用/月（按官方规则）",
       "models": [
         "Command 系列",
@@ -400,7 +400,7 @@
       "payment_required": "否（官方称简单注册可获免费试用 Key）",
       "status": "active",
       "grade": "normal",
-      "grade_reason": "长期测试友好，但受速度/商业使用限制",
+      "grade_reason": "试用入口友好，主要适合小规模实验。",
       "quality_score": 57,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
@@ -414,7 +414,7 @@
     {
       "id": "cloudflare-workers-ai-free-2026",
       "name": "Cloudflare Workers AI 免费配额",
-      "description": "Workers Free 每天免费 10,000 Neurons，耗尽后免费档调用报错；部分强模型自 2026 年起要求付费计划。",
+      "description": "每天 10,000 Neurons，属于会定时补货的小鸡蛋。部分强模型要付费计划，免费用户需要先确认目标模型能不能吃到。",
       "credits": "10,000 Neurons / 天",
       "models": [
         "nemotron-3-120b-a12b",
@@ -424,7 +424,7 @@
       "payment_required": "否（Workers Free 日常免费配额无需升级）",
       "status": "active",
       "grade": "normal",
-      "grade_reason": "可持续每日使用，但免费额度较小、强模型受限",
+      "grade_reason": "每天有免费 Neurons，强模型资格有限。",
       "quality_score": 62,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -438,7 +438,7 @@
     {
       "id": "fireworks-ai-free-credit-2026",
       "name": "Fireworks AI 注册试用",
-      "description": "新账号官方说明有 $1 免费 API credits，可测试托管模型；额度用完且未设置支付方式时服务会暂停。",
+      "description": "只送 $1，也是一颗货真价实的体验蛋！适合试几次请求；没有绑卡的话，吃完这点额度服务就会暂停。",
       "credits": "新用户 $1 API credits",
       "models": [
         "平台当前按需推理模型（以模型目录为准）"
@@ -447,7 +447,7 @@
       "payment_required": "否（官方称首次 $1 用完后才要求添加支付方式）",
       "status": "active",
       "grade": "normal",
-      "grade_reason": "真实免费金额较小",
+      "grade_reason": "小额试吃装，试完不续杯。",
       "quality_score": 48,
       "discovered_at": "2026-09-20",
       "verified_at": "2026-10-08",
@@ -461,7 +461,7 @@
     {
       "id": "vultr-250-serverless-2026",
       "name": "Vultr 新用户最高 $250",
-      "description": "Vultr 官方 Serverless Inference 文档提及新账号 $250 免费 credit 并指向专用 try250 活动页；尚待确认地区/绑定付款和可用于具体模型的全额条件。",
+      "description": "Vultr 官方文档指向最高 $250 的新客活动，数字很诱人！只是活动页资格、绑卡要求和 Serverless 模型实际可用范围还没核清，先贴问号。",
       "credits": "最高 $250（领取资格待核实）",
       "models": [
         "Serverless Inference 型号依当前目录"
@@ -484,7 +484,7 @@
     {
       "id": "azure-free-200-ai-2026",
       "name": "Microsoft Azure $200 免费试用",
-      "description": "Azure 免费账户赠 $200 / 30 天，官方说明适用部分 Azure 服务；免费订阅的 Azure OpenAI / 大模型额度可能为 0。",
+      "description": "Azure 新用户 $200 / 30 天是真的，但 AI 模型未必给额度：有的免费订阅模型配额可能是 0。鸡蛋看着大，能不能做 AI 还得查。",
       "credits": "$200 / 30 天（大模型可用性待核实）",
       "models": [
         "Azure AI Foundry / Azure OpenAI 模型（若获得配额）"
@@ -507,7 +507,7 @@
     {
       "id": "byteplus-modelark-500k-2026",
       "name": "BytePlus ModelArk 模型免费 Token",
-      "description": "官方活动条款规定符合条件的账户，每个符合要求的模型可获约 50 万 tokens（数量以控制台实际发放为准）。",
+      "description": "ModelArk 的免费 token 活动条款找到了，每个符合条件的模型可能有约 50 万。可活动是否还开放、谁能领，暂时没有盖章确认。",
       "credits": "符合条件的模型每个约 50 万 tokens",
       "models": [
         "ModelArk 活动页资格所列模型"
