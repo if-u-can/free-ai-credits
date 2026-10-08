@@ -3,6 +3,26 @@
   "updated_at": "2026-10-08",
   "entries": [
     {
+      "id": "2026-10-08-super-optracloud",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "OptraCloud 送 1.5 亿输出 Tokens 🥚",
+      "summary": "OptraCloud 新用户送 1.5 亿免费输出 Tokens，配 Qwen3.8-27B 编程模型。不要绑卡，注册时需要邮箱和手机短信验证。",
+      "highlights": [
+        "新用户直接送 150M 输出 Tokens；邀请奖励另算。",
+        "Qwen3.8-27B，OpenAI/Anthropic 兼容 API，128K 上下文，免费档 60 tokens/s。",
+        "官方领取页可打开：无需支付卡或预充值，需验证手机号；非印度号码是否可用尚未实测。",
+        "活动未公布截止日期。"
+      ],
+      "tip": "",
+      "egg_id": "optracloud-150m-output-free-2026",
+      "official_source_url": "https://optracloud.com/free.html",
+      "claim_url": "https://optracloud.com/portal/join",
+      "credits": "150M 免费输出 Tokens",
+      "payment_required": "免绑卡、免预充值；强制手机号短信验证",
+      "status": "active"
+    },
+    {
       "id": "2026-10-08-super-inception-mercury",
       "kind": "super",
       "date": "2026-10-08",
