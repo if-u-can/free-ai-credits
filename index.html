@@ -32,7 +32,7 @@ const escapeHtml=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;'
 const gradeOrder={super:0,premium:1,normal:2,pending:3,expired:4};
 function render(){
   let shown=eggs.filter(e=>(filter==='all'||e.status===filter||(e.status==='active'&&e.grade===filter))&&[e.name,e.description,(e.models||[]).join(' ')].join(' ').toLowerCase().includes(query));
-  shown.sort((a,b)=>{let g=x=>x.status==='active'&&gradeMeta[x.grade]?x.grade:x.status;return (gradeOrder[g(a)]??5)-(gradeOrder[g(b)]??5)||String(b.discovered_at||'').localeCompare(String(a.discovered_at||''))});
+  shown.sort((a,b)=>{let g=x=>x.status==='active'&&gradeMeta[x.grade]?x.grade:x.status;return (a.status==='expired'?1:0)-(b.status==='expired'?1:0)||(gradeOrder[g(a)]??5)-(gradeOrder[g(b)]??5)||(Number(b.quality_score)||0)-(Number(a.quality_score)||0)||String(b.discovered_at||'').localeCompare(String(a.discovered_at||''))});
   document.querySelector('#count').textContent=eggs.length;
   document.querySelector('#active').textContent=eggs.filter(x=>x.status==='active').length;
   document.querySelector('#pending').textContent=eggs.filter(x=>x.status==='pending').length;
