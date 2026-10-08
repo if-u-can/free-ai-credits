@@ -212,11 +212,11 @@
     },
     {
       "id": "akashml-100-api-credit-2026",
-      "name": "AkashML 新用户 $100 API 赠金",
+      "name": "AkashML $100 API 赠金线索",
       "type": "官方推理平台",
-      "description": "AkashML 官方推广新用户 $100 API 赠金，平台现有 Kimi K3、Qwen 和 GPT-OSS 120B。领取需要先验证支付卡。",
-      "status": "active",
-      "credits": "新账户 $100 AI 推理 credits（官方推广金额；到账与有效期未实测）",
+      "description": "AkashML 以前宣传新用户 $100 API 赠金。当前仍有试用 credits，但具体是否继续送满 $100 尚未确认；领取需要验证支付卡。",
+      "status": "pending",
+      "credits": "历史官方宣传 $100 API credits；当前实际试用额度未核实",
       "models": [
         "Kimi K3（Limited Trial）",
         "QWEN3.8 27B（Limited Trial）",
@@ -227,11 +227,11 @@
       "requirements": "注册 AkashML、验证邮箱，并在新用户引导中添加/验证支付方式才能领取试用赠金；地区适用性及赠金有效期未公布清楚",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "Akash Network 2025-11-22 官方发布文章写新用户获 $100 API credits；官方 AkashClaw 活动页仍公开宣传 AkashML 新账户 $100。AkashML 现行 Getting Started/Settings 文档确认需验证支付方式才发试用 credits，当前官网模型目录可查 Kimi K3、QWEN3.8、GPT OSS 120B。没有新账户实际领款测试，金额与地区/过期日以账户为准；不与 Akash Console GPU $100 混算。",
-      "url": "https://claw.akash.network/",
-      "payment_required": "是（验证支付方式；官方文档明确要求，未要求预充值）",
+      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。",
+      "url": "https://akashml.com/docs/getting-started/introduction",
+      "payment_required": "是（现行文档明确要求验证支付方式）",
       "source_type": "Akash 官方产品公告、推广页、当前开通文档",
-      "official_source_url": "https://claw.akash.network/",
+      "official_source_url": "https://akashml.com/docs/getting-started/introduction",
       "claim_url": "https://akashml.com/login",
       "evidence_urls": [
         "https://claw.akash.network/",
@@ -240,9 +240,25 @@
         "https://akashml.com/docs/platform/settings",
         "https://akashml.com/models"
       ],
-      "grade": "super",
-      "grade_reason": "正规推理平台 $100 API 赠金，开放较强开源模型；需验证支付卡",
-      "quality_score": 90
+      "grade": null,
+      "grade_reason": "历史官方活动写 $100；现行文档没有重申具体额度，待确认当期金额",
+      "quality_score": 86,
+      "review_started_at": "2026-10-08",
+      "last_reviewed_at": "2026-10-08",
+      "next_review_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_history": [
+        {
+          "date": "2026-10-08",
+          "result": "核对 2025 年 $100 官方公告与较早推广页；当前入门文档确认试用额度需绑卡，但没有确认本期赠金 $100，继续 pending",
+          "source_url": "https://akashml.com/docs/getting-started/introduction",
+          "secondary_sources": [
+            "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/",
+            "https://claw.akash.network/"
+          ]
+        }
+      ],
+      "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。"
     },
     {
       "id": "lightning-ai-models-2026",
