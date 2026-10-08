@@ -3,23 +3,6 @@
   "updated_at": "2026-10-08",
   "entries": [
     {
-      "id": "2026-10-08-super-akashml",
-      "kind": "super",
-      "date": "2026-10-08",
-      "title": "AkashML 的 $100 API 额度补进鸡蛋篮 🥚",
-      "summary": "之前推荐过的 AkashML 这次补上网站了：官方仍宣传新账户 $100 API credits，可选 Kimi K3、Qwen 和 GPT-OSS。领取必须验证支付卡。",
-      "highlights": [
-        "官方宣传：新用户 $100 API credits，可用于 AkashML 推理接口。",
-        "当前目录可见 Kimi K3、QWEN3.8、GPT OSS 120B 等模型，部分标记 Limited Trial。",
-        "领取步骤：注册、邮箱验证、添加并验证支付方式；不是免绑卡活动。",
-        "公开页面未明确结束日期；地区适用和实际到账还没有新账户实测。"
-      ],
-      "tip": "",
-      "egg_id": "akashml-100-api-credit-2026",
-      "official_source_url": "https://claw.akash.network/",
-      "claim_url": "https://akashml.com/login"
-    },
-    {
       "id": "2026-10-08-super-inception-mercury",
       "kind": "super",
       "date": "2026-10-08",
