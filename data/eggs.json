@@ -681,12 +681,11 @@
     }
   ],
   "grade_policy": {
-    "super": "已核实可领、门槛很低、强模型且赠送额度异常丰厚，达到 Together/Venice 级高价值福利",
-    "premium": "已核实可领，模型实用、额度或长期免费配额明显优于普通活动，门槛合理",
-    "normal": "已核实可领，存在一定免费价值，但额度、限速、期限或支付门槛更普通",
-    "note": "价值等级只评估已确认有效的活动；待核实和已失效是状态，不是价值等级。分级为本站编辑判断，非官方评级。"
+    "version": "1.0",
+    "source": "docs/EGG_GRADING.md",
+    "note": "唯一评级规范；新增、修改、日报或超级专题发布前须从 GitHub main 重新读取。状态、价值等级、质量分是独立判断，不能靠旧记录推断。"
   },
-  "sort_policy": "effective first: super > premium > normal; pending follows known usable offers; expired strictly last. Within equal grade sort by editorial quality_score descending, then discovered_at desc; duplicate provider activities retained only when distinct offers.",
+  "sort_policy": "按照 docs/EGG_GRADING.md：active super > premium > normal > pending > expired；同档按 quality_score 降序；unverifiable/excluded 仅在核查归档显示。",
   "pending_review_policy": {
     "frequency": "每天至少一次，记录官方来源、核查日期和具体结论",
     "review_attempts": "不同自然日的实际核查才计数，不能仅因定时任务运行就虚构核查",
