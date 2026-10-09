@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "task_id": "acceptance-a-20261009-minute-trigger",
+  "payload_hash": "93ef4beb573556ad7f7da1af215929cde70955fb2b767bd9291998315fe881ad",
+  "operation": "test.write",
+  "targets": [
+    "tests/automation-write-test.txt"
+  ],
+  "blobShas": {
+    "tests/automation-write-test.txt": "d5459cc48f7cd45127b8b1187b61d70e244495a2"
+  },
+  "created_at": "2026-10-09T04:05:46.431Z"
+}
