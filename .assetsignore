@@ -15,3 +15,5 @@ connection-test.txt
 .dev.vars*
 *.md
 *.txt
+automation/
+tests/
