@@ -941,33 +941,34 @@
       "id": "scnet-maas-10m-new-user-2026",
       "name": "国家超算互联网 MaaS 新客 1000 万 Tokens",
       "type": "官方模型推理平台",
-      "description": "官网仍列出新用户免费领取 1000 万 DeepSeek-V4.1-Flash Tokens，但同页出现“活动已结束”弹窗文案，实际领取状态待确认。",
+      "description": "新用户可免费领取 1000 万 GLM-5-Base Tokens；DeepSeek-V4.1-Flash 同量包是 ¥0.10 秒杀。免费额度用尽后会自动扣现金余额。",
       "status": "pending",
-      "credits": "1000 万 DeepSeek-V4.1-Flash Tokens（官网展示，实际领取待核实）",
+      "credits": "新客免费 1000 万 GLM-5-Base Tokens（领取后 30 天有效；实际发放模型可能调整）",
       "models": [
-        "DeepSeek-V4.1-Flash（1024K，官方活动页列示）"
+        "GLM-5-Base（128K；官方当前新客免费包）"
       ],
-      "requirements": "仅新用户；手机号、实名认证、是否绑卡及是否需预付尚未实测；活动页标示至 2026-10-13",
+      "requirements": "仅限 2026-08-13 至 2026-10-13 23:59 活动期间新注册用户，每人限领一次、先到先得；手机号、实名、绑卡及实际领取资格待登录核实",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-09 实查官方活动页面，列有新客免费 10M Tokens、DeepSeek-V4.1-Flash 与免费领取按钮；但页面 HTML 同时包含“活动已结束”提示，无法判断是否实际弹出及是否可成功领取。官方活动中心当日仍标示进行中至 10 月 13 日。未登录验证到账、API Key 可抵扣、实名及支付要求；因此 pending 而非 super。",
+      "verification_note": "2026-10-09 复核官方 MaaS 特惠专场：01 新客尝鲜免费包明确为 GLM-5-Base 1000 万 Tokens（128K）；02 冰点秒杀的 DeepSeek-V4.1-Flash 1000 万 Tokens 为 ¥0.10 付费秒杀，不能当免费赠额。官方活动时间为 2026-08-13 至 10-13 23:59；免费包领取后 30 天有效，模型可能因供应调整，赠额耗尽会自动扣减现金余额。官方活动中心仍列进行中，API Key 管理文档确认平台支持模型 API；但未通过新账户验证实际到账、该赠包 API 抵扣、实名/绑卡条件，故保留 pending，不评 super。",
       "url": "https://www.scnet.cn/home/subject/maas/index.html",
       "official_source_url": "https://www.scnet.cn/home/subject/maas/index.html",
       "claim_url": "https://www.scnet.cn/home/subject/maas/index.html",
-      "payment_required": "待核实（活动页未见明确预付条件，超额可能扣现金余额）",
+      "payment_required": "免费领取项未标明预充值；赠额用尽后会自动扣减账户现金余额，绑卡及是否须有余额尚未实测",
       "source_type": "官方 MaaS 活动页面与活动中心",
       "evidence_urls": [
         "https://www.scnet.cn/home/subject/maas/index.html",
-        "https://www.scnet.cn/home/subject/center/index.html"
+        "https://www.scnet.cn/home/subject/center/index.html",
+        "https://www2.scnet.cn/help/docs/mainsite/mass/tutorial/apikeymgt.html"
       ],
       "grade": null,
-      "grade_reason": "当期实际可领状态及支付条件尚未验证",
+      "grade_reason": "免费包模型已纠正为 GLM-5-Base；实际领取、赠包 API 抵扣及支付条件仍需账号核实",
       "quality_score": 0,
       "last_reviewed_at": "2026-10-09",
       "next_review_at": "2026-10-10",
       "review_started_at": "2026-10-09",
       "review_attempts": 1,
-      "review_result": "官方活动中心仍显示进行中，但活动页存在已结束提示，实际新用户领取和 API 抵扣未证实",
+      "review_result": "当日复核纠正免费包型号和超额自动扣费信息；未实测领取及 API 赠包抵扣，继续 pending",
       "review_history": [
         {
           "date": "2026-10-09",
