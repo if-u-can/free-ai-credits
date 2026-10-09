@@ -20,3 +20,5 @@ connection-test.txt
 *.txt
 automation/
 tests/
+!robots.txt
+scripts/
