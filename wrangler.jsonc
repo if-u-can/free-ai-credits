@@ -1,7 +1,15 @@
 {
   "name": "free-ai-credits",
+  "keep_vars": true,
   "compatibility_date": "2026-10-09",
   "main": "src/worker.js",
+  "ratelimits": [
+    {
+      "name": "SUBMISSION_RATE_LIMITER",
+      "namespace_id": "1791529201",
+      "simple": { "limit": 5, "period": 60 }
+    }
+  ],
   "assets": {
     "directory": ".",
     "binding": "ASSETS",
