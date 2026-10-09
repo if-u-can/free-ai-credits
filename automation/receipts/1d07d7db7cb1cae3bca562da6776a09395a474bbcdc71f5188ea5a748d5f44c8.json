@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "task_id": "report-morning-20261009-official-recheck-v1",
+  "payload_hash": "71f9f748fc2cc9d0553a66be2297b17d754e75c726ace797967afbc4d130f406",
+  "operation": "report.set",
+  "targets": [
+    "data/reports.json",
+    "data/report-archive.json"
+  ],
+  "blobShas": {
+    "data/report-archive.json": "56a33e6cbf2bb4c2b6bbcf2cb84103e9cb1f6ee0",
+    "data/reports.json": "531799b531ea6326677b211548d17d1cf261b988"
+  },
+  "created_at": "2026-10-09T04:17:47.807Z"
+}
