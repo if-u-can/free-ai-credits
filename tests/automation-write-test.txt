@@ -1,0 +1,2 @@
+GitHub scheduled-task write permission test.
+This file is safe for scheduled append-only tests.
