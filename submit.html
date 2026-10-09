@@ -10,14 +10,82 @@
 <label class="field wide">领取条件<input name="requirements" maxlength="320" placeholder="例如：是否绑卡、地区、验证码、充值要求"></label>
 <label class="field wide">补充说明 *<textarea name="details" minlength="10" maxlength="2000" required placeholder="在哪看到的？有哪些领取限制或官方说明？"></textarea><small>不要填写 API Key、密码或其他个人敏感信息。</small></label>
 </div><label class="trap" aria-hidden="true">网站<input name="website" tabindex="-1" autocomplete="off"></label>
-<p class="explain">直接提交到 GitHub 待审核 Issues，无需你登录 GitHub。审核通过后才会加入网站鸡蛋列表。</p>
-<div id="captcha" class="verify"></div><div class="controls"><button id="send" type="submit" class="btn" disabled>提交鸡蛋</button><div id="state" class="status" role="status" aria-live="polite">正在检查投稿服务…</div></div><div id="result" class="result" role="status"></div></form></section></main>
+<p class="explain">无需登录 GitHub，提交后会生成公开的 GitHub 待审核 Issue，任何人都可以查看你填写的内容。请勿填写 API Key、密码、邮箱、手机号等个人敏感信息。审核通过后才会加入网站鸡蛋列表。人机验证由 Cloudflare Turnstile 提供。</p>
+<div id="captcha" class="verify"></div><div class="controls"><button id="send" type="submit" class="btn" disabled>提交鸡蛋</button><button id="retry" type="button" class="btn" hidden>重新连接 / 验证</button><div id="state" class="status" role="status" aria-live="polite">正在检查投稿服务…</div></div><div id="result" class="result" role="status"></div></form></section></main>
 <script>
-(()=>{"use strict";const form=document.querySelector("#submission"),send=document.querySelector("#send"),state=document.querySelector("#state"),box=document.querySelector("#captcha"),result=document.querySelector("#result");let key="",captcha="",widget=null,enabled=false;
-function msg(s){state.textContent=s}function reset(){captcha="";if(window.turnstile&&widget!==null)window.turnstile.reset(widget)}
-async function init(){try{const response=await fetch("./api/submissions/config",{cache:"no-store"});if(!response.ok)throw Error();const conf=await response.json();if(!conf.enabled||!conf.siteKey){msg("投稿通道正在配置中，暂时无法提交。");return}key=conf.siteKey;
-const s=document.createElement("script");s.src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";s.async=true;s.onload=()=>{widget=window.turnstile.render(box,{sitekey:key,callback:v=>{captcha=v;msg("验证完成，可以投稿。")},"expired-callback":()=>{captcha="";msg("验证过期，请重新完成。")},"error-callback":()=>{captcha="";msg("验证失败，请刷新重试。")}});enabled=true;send.disabled=false;msg("填写后即可投稿。")};s.onerror=()=>msg("人机验证加载失败，请刷新重试。");document.head.appendChild(s)}
-catch{msg("投稿服务暂不可用，请稍后再试。")}}
-form.addEventListener("submit",async e=>{e.preventDefault();result.style.display="none";if(!enabled)return;if(!form.reportValidity())return;if(!captcha){msg("请先完成人机验证。");return}send.disabled=true;msg("正在提交…");const data=Object.fromEntries(new FormData(form).entries());data.turnstile_token=captcha;try{const r=await fetch("./api/submissions",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(data)});const o=await r.json();if(!r.ok||!o.ok)throw Error(o.message||"投稿失败");form.reset();result.textContent="投稿成功，已经进入待审核列表！ ";if(o.issue_url&&o.issue_url.startsWith("https://github.com/if-u-can/free-ai-credits/issues/")){const a=document.createElement("a");a.href=o.issue_url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="查看投稿 #"+o.issue_number;result.appendChild(a)}result.style.display="block";msg("收到你的鸡蛋啦。");reset()}catch(err){msg(err.message||"投稿失败，请稍后重试。");reset()}finally{send.disabled=!enabled}});
-init()})();
+(() => {
+  "use strict";
+  const form=document.querySelector("#submission"),send=document.querySelector("#send"),state=document.querySelector("#state"),box=document.querySelector("#captcha"),result=document.querySelector("#result"),retry=document.querySelector("#retry");
+  let key="",captcha="",widget=null,enabled=false,busy=false,loading=false;
+  function msg(value){state.textContent=value}
+  function controls(){send.disabled=busy||!enabled||!captcha;retry.disabled=busy||loading}
+  function failure(value){captcha="";loading=false;retry.hidden=false;msg(value);controls()}
+  function reset(){captcha="";controls();if(window.turnstile&&widget!==null)window.turnstile.reset(widget)}
+  async function request(url,options){
+    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),30000);
+    try{
+      const response=await fetch(url,{...options,signal:controller.signal});
+      let value;
+      try{value=await response.json()}catch(error){if(error.name==="AbortError")throw error;throw Error("投稿服务暂不可用，请重新验证后稍后重试。")}
+      return {response,value};
+    }finally{clearTimeout(timer)}
+  }
+  function render(){
+    loading=false;
+    try{
+      widget=window.turnstile.render(box,{
+        sitekey:key,action:"submission",
+        callback:value=>{captcha=value;retry.hidden=true;controls();if(!busy)msg("验证完成，可以投稿。")},
+        "expired-callback":()=>{failure("验证过期，请重新完成验证。")},
+        "timeout-callback":()=>{failure("验证超时，请重新验证。")},
+        "error-callback":()=>{failure("验证失败，请点击重新验证。");return true}
+      });
+      enabled=true;controls();msg("填写后请完成人机验证。")
+    }catch{enabled=false;failure("人机验证加载失败，请重新连接。")}
+  }
+  async function init(){
+    if(loading||busy)return;
+    loading=true;enabled=false;captcha="";retry.hidden=true;controls();msg("正在检查投稿服务…");
+    try{
+      const {response,value:conf}=await request("./api/submissions/config",{cache:"no-store"});
+      if(!response.ok)throw Error();
+      if(!conf.enabled||typeof conf.siteKey!=="string"||!conf.siteKey){failure("投稿通道正在配置中，暂时无法提交。");return}
+      key=conf.siteKey;
+      const script=document.createElement("script");
+      script.src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";script.async=true;
+      let settled=false;
+      const finish=()=>{if(settled)return false;settled=true;clearTimeout(timer);return true};
+      const failed=()=>{if(!finish())return;script.remove();failure("人机验证加载失败，请重新连接。")};
+      const timer=setTimeout(failed,15000);
+      script.onload=()=>{if(finish())render()};
+      script.onerror=failed;
+      document.head.appendChild(script);
+    }catch{failure("投稿服务暂不可用，请稍后重新连接。")}
+  }
+  retry.addEventListener("click",()=>{
+    if(busy||loading)return;
+    retry.hidden=true;
+    if(enabled&&widget!==null){msg("请重新完成人机验证。");reset()}
+    else return init();
+  });
+  form.addEventListener("submit",async event=>{
+    event.preventDefault();
+    if(busy||!enabled)return;
+    if(!form.reportValidity())return;
+    if(!captcha){msg("请先完成人机验证。");return}
+    result.style.display="none";busy=true;controls();msg("正在提交…");
+    const data=Object.fromEntries(new FormData(form).entries());data.turnstile_token=captcha;
+    try{
+      const {response,value:receipt}=await request("./api/submissions",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(data)});
+      if(!response.ok||receipt?.ok!==true)throw Error(typeof receipt?.message==="string"?receipt.message:"投稿失败，请重新验证后重试。");
+      if(!Number.isSafeInteger(receipt.issue_number)||receipt.issue_number<1||receipt.issue_url!=="https://github.com/if-u-can/free-ai-credits/issues/"+receipt.issue_number)throw Error("暂时无法确认投稿结果，内容已保留，请重新验证后重试。");
+      form.reset();
+      result.textContent=receipt.duplicate?"这个链接已有投稿记录，请查看审核进度。 ":"投稿成功，已经进入待审核列表！ ";
+      const link=document.createElement("a");link.href=receipt.issue_url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="查看投稿 #"+receipt.issue_number;result.appendChild(link);
+      result.style.display="block";msg(receipt.duplicate?"已找到这个链接的投稿记录。":"收到你的鸡蛋啦。");
+    }catch(error){msg(error.name==="AbortError"?"投稿连接超时，内容已保留，请重新验证后重试。":error instanceof TypeError?"网络连接失败，内容已保留，请重新验证后重试。":error.message||"投稿失败，请重新验证后重试。")}
+    finally{busy=false;reset();controls()}
+  });
+  init();
+})();
 </script></body></html>

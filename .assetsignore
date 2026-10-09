@@ -1,5 +1,7 @@
 .github/
 .git/
+.git
+.gitignore
 .wrangler/
 node_modules/
 src/

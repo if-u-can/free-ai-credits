@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "eggs": [
     {
       "id": "together-historical",
@@ -223,9 +223,9 @@
       "id": "akashml-100-api-credit-2026",
       "name": "AkashML $100 API 赠金线索",
       "type": "官方推理平台",
-      "description": "AkashML 以前宣传新用户 $100 API 赠金。当前仍有试用 credits，但具体是否继续送满 $100 尚未确认；领取需要验证支付卡。",
-      "status": "pending",
-      "credits": "历史官方宣传 $100 API credits；当前实际试用额度未核实",
+      "description": "AkashML 曾宣传新用户获 $100 API credits。现行文档只确认绑卡后会发试用额度，没有再次说明金额；这笔 $100 专项先移入核查归档。",
+      "status": "unverifiable",
+      "credits": "历史官方宣传 $100 API credits；现行试用额度金额未核实",
       "models": [
         "Kimi K3（Limited Trial）",
         "QWEN3.8 27B（Limited Trial）",
@@ -236,7 +236,7 @@
       "requirements": "注册 AkashML、验证邮箱，并在新用户引导中添加/验证支付方式才能领取试用赠金；地区适用性及赠金有效期未公布清楚",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。 2026-10-09 复核：AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则。",
+      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。 2026-10-09 复核：AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则。 2026-10-10 第三次不同自然日复核：当前官方设置和入门文档仅确认验证支付方式后赠 trial credits，不注明 $100；2025-11-22 官方旧博客的 $100 介绍不足以确认今天仍适用，故将特定 $100 项目转 unverifiable，不声称 AkashML 试用全结束。",
       "url": "https://akashml.com/docs/getting-started/introduction",
       "payment_required": "是（现行文档明确要求验证支付方式）",
       "source_type": "Akash 官方产品公告、推广页、当前开通文档",
@@ -250,12 +250,12 @@
         "https://akashml.com/models"
       ],
       "grade": null,
-      "grade_reason": "历史官方活动写 $100；现行文档没有重申具体额度，待确认当期金额",
-      "quality_score": 86,
+      "grade_reason": "连续三个不同自然日复核，未找到当期 $100 API 赠额的官方领取规定；转核查归档",
+      "quality_score": 0,
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-09",
-      "next_review_at": "2026-10-10",
-      "review_attempts": 2,
+      "last_reviewed_at": "2026-10-10",
+      "next_review_at": null,
+      "review_attempts": 3,
       "review_history": [
         {
           "date": "2026-10-08",
@@ -270,10 +270,19 @@
           "date": "2026-10-09",
           "result": "AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则",
           "source_url": "https://akashml.com/docs/platform/settings"
+        },
+        {
+          "date": "2026-10-10",
+          "result": "10月10日第三个不同自然日复核：2025-11-22官方发布文章仍有新客 $100 的历史说明，但现行入门与设置文档仅确认添加、验证支付方式后发放有期限的试用 credits，未确认当前仍发放 $100、金额与使用期限；尚无当期可领取 $100 的官方证明。该 $100 专项转 unverifiable，不表示 AkashML 全部试用额度终止。",
+          "source_url": "https://akashml.com/docs/platform/settings",
+          "secondary_sources": [
+            "https://akashml.com/docs/getting-started/introduction",
+            "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/"
+          ]
         }
       ],
       "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。",
-      "review_result": "AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则"
+      "review_result": "10月10日第三个不同自然日复核：2025-11-22官方发布文章仍有新客 $100 的历史说明，但现行入门与设置文档仅确认添加、验证支付方式后发放有期限的试用 credits，未确认当前仍发放 $100、金额与使用期限；尚无当期可领取 $100 的官方证明。该 $100 专项转 unverifiable，不表示 AkashML 全部试用额度终止。"
     },
     {
       "id": "lightning-ai-models-2026",
@@ -941,33 +950,34 @@
       "id": "scnet-maas-10m-new-user-2026",
       "name": "国家超算互联网 MaaS 新客 1000 万 Tokens",
       "type": "官方模型推理平台",
-      "description": "官网仍列出新用户免费领取 1000 万 DeepSeek-V4.1-Flash Tokens，但同页出现“活动已结束”弹窗文案，实际领取状态待确认。",
+      "description": "新用户可免费领取 1000 万 GLM-5-Base Tokens；DeepSeek-V4.1-Flash 同量包是 ¥0.10 秒杀。免费额度用尽后会自动扣现金余额。",
       "status": "pending",
-      "credits": "1000 万 DeepSeek-V4.1-Flash Tokens（官网展示，实际领取待核实）",
+      "credits": "新客免费 1000 万 GLM-5-Base Tokens（领取后 30 天有效；实际发放模型可能调整）",
       "models": [
-        "DeepSeek-V4.1-Flash（1024K，官方活动页列示）"
+        "GLM-5-Base（128K；官方当前新客免费包）"
       ],
-      "requirements": "仅新用户；手机号、实名认证、是否绑卡及是否需预付尚未实测；活动页标示至 2026-10-13",
+      "requirements": "仅限 2026-08-13 至 2026-10-13 23:59 活动期间新注册用户，每人限领一次、先到先得；手机号、实名、绑卡及实际领取资格待登录核实",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-09 实查官方活动页面，列有新客免费 10M Tokens、DeepSeek-V4.1-Flash 与免费领取按钮；但页面 HTML 同时包含“活动已结束”提示，无法判断是否实际弹出及是否可成功领取。官方活动中心当日仍标示进行中至 10 月 13 日。未登录验证到账、API Key 可抵扣、实名及支付要求；因此 pending 而非 super。",
+      "verification_note": "2026-10-09 复核官方 MaaS 特惠专场：01 新客尝鲜免费包明确为 GLM-5-Base 1000 万 Tokens（128K）；02 冰点秒杀的 DeepSeek-V4.1-Flash 1000 万 Tokens 为 ¥0.10 付费秒杀，不能当免费赠额。官方活动时间为 2026-08-13 至 10-13 23:59；免费包领取后 30 天有效，模型可能因供应调整，赠额耗尽会自动扣减现金余额。官方活动中心仍列进行中，API Key 管理文档确认平台支持模型 API；但未通过新账户验证实际到账、该赠包 API 抵扣、实名/绑卡条件，故保留 pending，不评 super。",
       "url": "https://www.scnet.cn/home/subject/maas/index.html",
       "official_source_url": "https://www.scnet.cn/home/subject/maas/index.html",
       "claim_url": "https://www.scnet.cn/home/subject/maas/index.html",
-      "payment_required": "待核实（活动页未见明确预付条件，超额可能扣现金余额）",
+      "payment_required": "免费领取项未标明预充值；赠额用尽后会自动扣减账户现金余额，绑卡及是否须有余额尚未实测",
       "source_type": "官方 MaaS 活动页面与活动中心",
       "evidence_urls": [
         "https://www.scnet.cn/home/subject/maas/index.html",
-        "https://www.scnet.cn/home/subject/center/index.html"
+        "https://www.scnet.cn/home/subject/center/index.html",
+        "https://www2.scnet.cn/help/docs/mainsite/mass/tutorial/apikeymgt.html"
       ],
       "grade": null,
-      "grade_reason": "当期实际可领状态及支付条件尚未验证",
+      "grade_reason": "免费包模型已纠正为 GLM-5-Base；实际领取、赠包 API 抵扣及支付条件仍需账号核实",
       "quality_score": 0,
       "last_reviewed_at": "2026-10-09",
       "next_review_at": "2026-10-10",
       "review_started_at": "2026-10-09",
       "review_attempts": 1,
-      "review_result": "官方活动中心仍显示进行中，但活动页存在已结束提示，实际新用户领取和 API 抵扣未证实",
+      "review_result": "当日复核纠正免费包型号和超额自动扣费信息；未实测领取及 API 赠包抵扣，继续 pending",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -975,6 +985,123 @@
           "source_url": "https://www.scnet.cn/home/subject/maas/index.html",
           "secondary_sources": [
             "https://www.scnet.cn/home/subject/center/index.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-realname-16-coupon-2026",
+      "name": "硅基流动实名认证 ¥16 API 代金券",
+      "type": "官方模型推理平台",
+      "description": "个人实名认证后，在活动中心手动领 ¥16 通用代金券；可抵扣大模型 API，包含 Pro 模型。领取后 180 天有效。",
+      "status": "active",
+      "credits": "实名认证专享礼 ¥16 通用代金券（不含邀请奖励）；领取后 180 天有效，活动至 2026-12-31",
+      "models": [
+        "deepseek-ai/DeepSeek-V4-Flash",
+        "Pro/zai-org/GLM-5.1",
+        "平台当前其他可用 Pro 模型"
+      ],
+      "requirements": "硅基流动国内站个人账号，需实名认证（支持中国大陆身份证等指定证件，个人支付宝人脸认证）；登录活动中心 → 认证专享礼 → 手动领取。每个认证主体不可重复认证刷券。未实测新账户到账。",
+      "discovered_at": "2026-10-09",
+      "verified_at": "2026-10-09",
+      "verification_note": "2026-10-09 查官方 2026-01-15 活动公告：至 2026-12-31，个人实名可在活动中心手动领 ¥16 通用代金券，API/批量推理/微调及 Pro 模型可用，180 天有效。官方认证指南说明个人支付宝刷脸及支持证件，当前模型文档列 DeepSeek-V4-Flash、GLM-5.1 等 API；官网登录页可达。未以个人账号实际领取；官方活动公告未要求为领取而充值，也未明确绑卡情况。",
+      "url": "https://siliconflow.cn/news/od7wj9rr23p95uhihmhrombp",
+      "official_source_url": "https://siliconflow.cn/news/od7wj9rr23p95uhihmhrombp",
+      "claim_url": "https://cloud.siliconflow.cn/",
+      "payment_required": "官方认证领券规则未要求实际充值；是否需要绑定支付方式未明确，未实测",
+      "source_type": "硅基流动官方 2026 推荐官/认证专享礼活动",
+      "evidence_urls": [
+        "https://siliconflow.cn/news/od7wj9rr23p95uhihmhrombp",
+        "https://api-docs.siliconflow.cn/docs/userguide/faqs/authentication",
+        "https://docs.siliconflow.cn/docs/release-notes/overview"
+      ],
+      "grade": "normal",
+      "grade_reason": "¥16 可抵扣强模型 API，额度较小；个人实名认证门槛适中",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 10,
+        "model_usefulness": 22,
+        "claim_convenience": 17,
+        "validity_and_limits": 13
+      }
+    },
+    {
+      "id": "openrouter-free-model-api-2026",
+      "name": "OpenRouter 免费模型 API 档",
+      "type": "模型 API 聚合平台",
+      "description": "免费档每天可调用 50 次免费模型 API，含 Nemotron 3 Ultra 等推理模型；免费端点有速率与上游拥堵限制。",
+      "status": "active",
+      "credits": "免费模型每账号合计 50 次请求/天、20 次/分钟；历史累计购买 ≥$10 credits 后可提升至 1000 次/天（非免充值条件）",
+      "models": [
+        "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "openrouter/free（自动路由至免费模型）"
+      ],
+      "requirements": "个人注册 OpenRouter 并创建 API Key；Free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测",
+      "discovered_at": "2026-10-09",
+      "verified_at": "2026-10-09",
+      "verification_note": "2026-10-09 核查官方 pricing、Free Models collection、Nemotron 3 Ultra 免费模型页与 OpenRouter 官方 2026-09 帮助文档：Free 档可经 API 调用、50 RPD/20 RPM，免费模型输入输出为 $0；1000 RPD 需历史累计购入 $10，不能写成无门槛。官方免费模型页面提供近期请求与可用性数据，但未使用个人新账号实际调用。",
+      "url": "https://openrouter.ai/pricing",
+      "official_source_url": "https://openrouter.ai/pricing",
+      "claim_url": "https://openrouter.ai/settings/keys",
+      "payment_required": "否（50 次/天免费档不要求支付；提升到 1000 次/天须历史购买 ≥$10 credits）",
+      "source_type": "OpenRouter 官方定价、免费模型目录及 API 帮助文档",
+      "evidence_urls": [
+        "https://openrouter.ai/pricing",
+        "https://openrouter.ai/collections/free-models",
+        "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+        "https://openrouter.zendesk.com/hc/en-us/articles/39501163636379-OpenRouter-Rate-Limits-What-You-Need-to-Know"
+      ],
+      "grade": "normal",
+      "grade_reason": "持续免费且能用推理模型 API，但每天仅 50 次请求、上游可用性波动，无法达到 Super 的高价值门槛",
+      "quality_score": 69,
+      "quality_breakdown": {
+        "free_api_value": 15,
+        "model_usefulness": 23,
+        "claim_convenience": 24,
+        "validity_and_limits": 7
+      }
+    },
+    {
+      "id": "ollama-cloud-starter-free-api-2026",
+      "name": "Ollama Cloud Starter 免费 API 额度",
+      "type": "官方模型推理平台",
+      "description": "Ollama Cloud 的 Free 档每月包含少量 Starter 模型调用额度，可直接通过云端 API 使用；具体免费模型名单与金额尚待确认。",
+      "status": "pending",
+      "credits": "Free $0 档包含每月刷新的一小部分 Starter usage credits；官网未公布具体额度金额",
+      "models": [
+        "Starter models（官方未明确列出 Free 档完整可用型号）"
+      ],
+      "requirements": "个人 Ollama 账号及云端 API Key；Free 方案 $0，是否需要绑卡及可用地区待新账户核实；其他模型需购买 usage credits",
+      "discovered_at": "2026-10-09",
+      "verified_at": null,
+      "verification_note": "2026-10-09 官方 pricing 确认 Free 每月 Starter credits、1 并发，官方 Cloud/API 文档确认云端 API Key 可直接请求；但是 Free Starter 具体型号与额度数值、绑卡/地区仍未在公开页面确认。官方示例 gemma4:31b 不能据此认定 Free Starter 一定可调用。继续 pending，不评 Super。",
+      "url": "https://ollama.com/pricing",
+      "official_source_url": "https://ollama.com/pricing",
+      "claim_url": "https://ollama.com/settings/keys",
+      "payment_required": "Free $0 无订阅费；官网未明确是否需要绑卡，购买 credits 才解锁非 Starter 模型",
+      "source_type": "Ollama 官方定价与云端 API 文档",
+      "evidence_urls": [
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud",
+        "https://docs.ollama.com/api/introduction",
+        "https://ollama.com/blog/transparent-pricing"
+      ],
+      "grade": null,
+      "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
+      "quality_score": 0,
+      "last_reviewed_at": "2026-10-09",
+      "next_review_at": "2026-10-10",
+      "review_started_at": "2026-10-09",
+      "review_attempts": 1,
+      "review_result": "官方确认免费 Starter API credits 按月刷新，但金额与可用型号不明，待核实",
+      "review_history": [
+        {
+          "date": "2026-10-09",
+          "result": "核查官方 pricing、Cloud/API 文档；确认免费档含 Starter API credits 且按月刷新，具体金额、型号及绑卡资格未明确",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud",
+            "https://docs.ollama.com/api/introduction"
           ]
         }
       ]
