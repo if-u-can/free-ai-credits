@@ -17,3 +17,7 @@ connection-test.txt
 *.txt
 automation/
 tests/
+.env*
+delivery/
+scripts/
+assets/interactions/source/

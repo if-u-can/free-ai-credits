@@ -1,4 +1,4 @@
-
+import { handleInteractions } from './interactions.js';
 const GITHUB_ISSUES="https://api.github.com/repos/if-u-can/free-ai-credits/issues";
 function reply(value,status=200){return new Response(JSON.stringify(value),{status,headers:{"content-type":"application/json;charset=utf-8","cache-control":"no-store","x-content-type-options":"nosniff"}})}
 function trim(value,max){return typeof value==="string"?value.trim().slice(0,max):""}
@@ -7,6 +7,7 @@ function goodUrl(value){try{const u=new URL(value);return u.protocol==="https:"&
 function enabled(env){return !!(env.GITHUB_TOKEN&&env.TURNSTILE_SITE_KEY&&env.TURNSTILE_SECRET)}
 export default {async fetch(request,env){
  const url=new URL(request.url);
+ if(url.pathname==="/api/interactions"||url.pathname.startsWith("/api/interactions/"))return handleInteractions(request,env);
  if(url.pathname==="/api/submissions/config"){
   if(request.method!=="GET")return reply({message:"Method not allowed"},405);
   return reply({enabled:enabled(env),siteKey:enabled(env)?env.TURNSTILE_SITE_KEY:null});
