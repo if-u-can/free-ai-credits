@@ -349,3 +349,49 @@ test('review feed reports an aborted upstream request as timeout without raw exc
     assert.equal(JSON.stringify(result.data).includes('private'), false);
   } finally { globalThis.setTimeout = originalTimer; }
 });
+
+test('upstream requests use Cloudflare-compatible manual redirects', async () => {
+  const result = await run(feedRequest(), (url, options) => {
+    if (options.redirect === 'error') throw new TypeError('Invalid redirect value, must be one of follow or manual');
+    return json([]);
+  });
+  assert.equal(result.response.status, 200);
+  assert.equal(result.calls[0].redirect, 'manual');
+});
+
+test('review feed rejects an upstream redirect and never sends authorization to its destination', async () => {
+  const result = await run(feedRequest(), () => new Response(null, { status: 302, headers: { location: 'https://attacker.example/capture' } }));
+  assert.equal(result.response.status, 502);
+  assert.equal(result.data.code, 'UPSTREAM_HTTP');
+  assert.equal(result.data.upstream_status, 302);
+  assert.equal(result.calls.length, 1);
+  assert.equal(new URL(result.calls[0].url).hostname, 'api.github.com');
+  assert.equal(result.calls[0].headers.authorization, 'Bearer ' + env.GITHUB_TOKEN);
+  assert.equal(result.calls[0].redirect, 'manual');
+  assert.equal(JSON.stringify(result.data).includes('attacker.example'), false);
+  assert.equal(JSON.stringify(result.data).includes(env.GITHUB_TOKEN), false);
+});
+
+test('Turnstile redirects are rejected before any Issue request', async () => {
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options) => { calls.push({ url: String(url), ...options }); return new Response(null, { status: 302, headers: { location: 'https://attacker.example/challenge' } }); };
+  try {
+    const response = await worker.fetch(request(), env);
+    assert.equal(response.status, 403);
+    assert.equal(calls.length, 1);
+    assert.equal(new URL(calls[0].url).hostname, 'challenges.cloudflare.com');
+    assert.equal(calls[0].redirect, 'manual');
+    assert.equal(JSON.stringify(await response.json()).includes(env.TURNSTILE_SECRET), false);
+  } finally { globalThis.fetch = originalFetch; }
+});
+
+test('Issue creation redirects are rejected without forwarding the GitHub credential', async () => {
+  const result = await run(request(), (url, options) => options.method === 'POST' ? new Response(null, { status: 307, headers: { location: 'https://attacker.example/create' } }) : json([]));
+  assert.equal(result.response.status, 502);
+  assert.equal(result.calls.length, 3);
+  assert.ok(result.calls.every(call => call.redirect === 'manual'));
+  assert.ok(result.calls.every(call => !call.url.includes('attacker.example')));
+  assert.equal(result.data.code, undefined);
+  assert.equal(JSON.stringify(result.data).includes(env.GITHUB_TOKEN), false);
+});

@@ -17,7 +17,7 @@ async function upstream(url,options,deadline){
  const remaining=Math.min(10000,deadline-Date.now());
  if(remaining<=0)throw new Error("Submission upstream deadline exceeded");
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),remaining);
- try{const response=await fetch(url,{...options,signal:controller.signal,redirect:"error"});return {status:response.status,ok:response.ok,next:!!response.headers.get("link")?.match(/;\s*rel="next"/),data:response.ok?await response.json():null}}finally{clearTimeout(timer)}
+ try{const response=await fetch(url,{...options,signal:controller.signal,redirect:"manual"});return {status:response.status,ok:response.ok,next:!!response.headers.get("link")?.match(/;\s*rel="next"/),data:response.ok?await response.json():null}}finally{clearTimeout(timer)}
 }
 function githubHeaders(env){return {...(env.GITHUB_TOKEN?{authorization:"Bearer "+env.GITHUB_TOKEN}:{}),accept:"application/vnd.github+json","x-github-api-version":"2022-11-28","content-type":"application/json","user-agent":"freeegg-submission-worker"}}
 function githubError(status){return reply({message:status===403||status===429?"投稿服务繁忙，请稍后再试。":"GitHub 暂时无法连接，请稍后重试。"},status===403||status===429?503:502)}
