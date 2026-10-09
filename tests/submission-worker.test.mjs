@@ -242,6 +242,8 @@ test('review feed uses configured token once and never falls back after rejectio
   assert.equal(result.calls.length, 1);
   assert.equal(result.calls[0].headers.authorization, 'Bearer ' + env.GITHUB_TOKEN);
   assert.equal(JSON.stringify(result.data).includes(env.GITHUB_TOKEN), false);
+  assert.equal(result.data.code, 'UPSTREAM_HTTP');
+  assert.equal(result.data.upstream_status, 401);
 });
 
 test('review feed bounds query parameters and cannot fetch caller-supplied URLs', async () => {
@@ -285,6 +287,8 @@ test('review feed rejects malformed upstream data and spoofed Issue URLs without
   const limited = await run(feedRequest(), () => json({ message: env.GITHUB_TOKEN }, 403));
   assert.equal(limited.response.status, 503);
   assert.equal(JSON.stringify(limited.data).includes(env.GITHUB_TOKEN), false);
+  assert.equal(limited.data.code, 'UPSTREAM_HTTP');
+  assert.equal(limited.data.upstream_status, 403);
 });
 
 test('review feed exposes newer raw source movements even when manual Issues and PRs are filtered out', async () => {
@@ -304,4 +308,44 @@ test('review feed refuses invalid timestamps on unmarked source rows instead of 
   const result = await run(feedRequest(), () => json([{ ...feedIssue, updated_at: '2026-02-30T00:00:00Z', body: 'Manual public Issue' }]));
   assert.equal(result.response.status, 502);
   assert.equal(result.data.source_latest_updated_at, undefined);
+  assert.equal(result.data.code, 'INVALID_SOURCE_TIMESTAMP');
+});
+
+test('review feed diagnostics identify invalid arrays and submission metadata without echoing payloads', async () => {
+  for (const [data, code] of [[{ message: env.GITHUB_TOKEN }, 'INVALID_SOURCE_ARRAY'], [[{ ...feedIssue, html_url: 'https://attacker.example/private-note' }], 'INVALID_SUBMISSION_METADATA']]) {
+    const result = await run(feedRequest(), () => json(data));
+    assert.equal(result.response.status, 502);
+    assert.equal(result.data.code, code);
+    assert.equal(result.data.upstream_status, undefined);
+    assert.deepEqual(Object.keys(result.data).sort(), ['code', 'message']);
+    assert.equal(JSON.stringify(result.data).includes(env.GITHUB_TOKEN), false);
+    assert.equal(JSON.stringify(result.data).includes('private-note'), false);
+  }
+});
+
+test('review feed distinguishes JSON and request exceptions using fixed safe codes', async () => {
+  const malformed = await run(feedRequest(), () => new Response('private upstream text ' + env.GITHUB_TOKEN));
+  assert.equal(malformed.response.status, 502);
+  assert.equal(malformed.data.code, 'UPSTREAM_JSON');
+  const failed = await run(feedRequest(), () => { throw new TypeError('private request error ' + env.GITHUB_TOKEN); });
+  assert.equal(failed.response.status, 502);
+  assert.equal(failed.data.code, 'UPSTREAM_REQUEST');
+  for (const result of [malformed, failed]) {
+    assert.deepEqual(Object.keys(result.data).sort(), ['code', 'message']);
+    assert.equal(JSON.stringify(result.data).includes(env.GITHUB_TOKEN), false);
+    assert.equal(JSON.stringify(result.data).includes('private'), false);
+  }
+});
+
+test('review feed reports an aborted upstream request as timeout without raw exception content', async () => {
+  const originalTimer = globalThis.setTimeout;
+  globalThis.setTimeout = callback => originalTimer(callback, 1);
+  try {
+    const result = await run(feedRequest(), (url, options) => new Promise((resolve, reject) => options.signal.addEventListener('abort', () => reject(new DOMException('private timeout ' + env.GITHUB_TOKEN, 'AbortError')), { once: true })));
+    assert.equal(result.response.status, 502);
+    assert.equal(result.data.code, 'UPSTREAM_TIMEOUT');
+    assert.deepEqual(Object.keys(result.data).sort(), ['code', 'message']);
+    assert.equal(JSON.stringify(result.data).includes(env.GITHUB_TOKEN), false);
+    assert.equal(JSON.stringify(result.data).includes('private'), false);
+  } finally { globalThis.setTimeout = originalTimer; }
 });

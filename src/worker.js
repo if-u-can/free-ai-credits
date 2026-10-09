@@ -23,6 +23,7 @@ function githubHeaders(env){return {...(env.GITHUB_TOKEN?{authorization:"Bearer 
 function githubError(status){return reply({message:status===403||status===429?"投稿服务繁忙，请稍后再试。":"GitHub 暂时无法连接，请稍后重试。"},status===403||status===429?503:502)}
 function validIssue(issue){return Number.isSafeInteger(issue?.number)&&issue.number>0&&issue.html_url==="https://github.com/if-u-can/free-ai-credits/issues/"+issue.number}
 function validTimestamp(value){if(typeof value!=="string"||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(value))return false;const parsed=new Date(value);if(!Number.isFinite(parsed.getTime()))return false;return parsed.toISOString()===(value.includes(".")?value:value.replace("Z",".000Z"))}
+function reviewFeedError(code,status){return reply({message:status===403||status===429?"投稿服务繁忙，请稍后再试。":"GitHub 暂时无法连接，请稍后重试。",code,...(code==="UPSTREAM_HTTP"?{upstream_status:status}:{})},status===403||status===429?503:502)}
 async function reviewFeed(request,env,url,deadline){
  if(request.method!=="GET")return reply({message:"Method not allowed"},405);
  const page=url.searchParams.get("page")??"1",since=url.searchParams.get("since");
@@ -33,18 +34,18 @@ async function reviewFeed(request,env,url,deadline){
  const query=new URLSearchParams({state:"all",sort:"updated",direction:"asc",per_page:"100",page});if(since!==null)query.set("since",since);
  try{
   const listed=await upstream(GITHUB_ISSUES+"?"+query,{method:"GET",headers:githubHeaders(env)},deadline);
-  if(!listed.ok)return githubError(listed.status);
-  if(!Array.isArray(listed.data))return githubError();
+  if(!listed.ok)return reviewFeedError("UPSTREAM_HTTP",listed.status);
+  if(!Array.isArray(listed.data))return reviewFeedError("INVALID_SOURCE_ARRAY");
   const issues=[];let sourceLatestUpdatedAt=null;
   for(const issue of listed.data){
-   if(!validTimestamp(issue?.updated_at))return githubError();
+   if(!validTimestamp(issue?.updated_at))return reviewFeedError("INVALID_SOURCE_TIMESTAMP");
    if(sourceLatestUpdatedAt===null||Date.parse(issue.updated_at)>Date.parse(sourceLatestUpdatedAt))sourceLatestUpdatedAt=issue.updated_at;
    if(issue?.pull_request||typeof issue?.body!=="string"||!issue.body.startsWith("<!-- freeegg-website-submission -->\n"))continue;
-   if(!validIssue(issue)||typeof issue.title!=="string"||!validTimestamp(issue.created_at)||!validTimestamp(issue.updated_at)||!["open","closed"].includes(issue.state))return githubError();
+   if(!validIssue(issue)||typeof issue.title!=="string"||!validTimestamp(issue.created_at)||!validTimestamp(issue.updated_at)||!["open","closed"].includes(issue.state))return reviewFeedError("INVALID_SUBMISSION_METADATA");
    issues.push({number:issue.number,html_url:issue.html_url,title:issue.title,created_at:issue.created_at,updated_at:issue.updated_at,state:issue.state,body:issue.body});
   }
   return reply({issues,has_more:listed.next,source_latest_updated_at:sourceLatestUpdatedAt});
- }catch{return githubError()}
+ }catch(error){return reviewFeedError(error?.name==="SyntaxError"?"UPSTREAM_JSON":error?.name==="AbortError"||error?.name==="TimeoutError"||Date.now()>=deadline?"UPSTREAM_TIMEOUT":"UPSTREAM_REQUEST")}
 }
 function normalizedUrl(value){const url=new URL(value);url.hash="";return url.href}
 async function submissionMarker(link){const hash=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(normalizedUrl(link)));return "<!-- freeegg-submission-id: "+Array.from(new Uint8Array(hash),b=>b.toString(16).padStart(2,"0")).join("")+" -->"}
