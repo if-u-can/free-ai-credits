@@ -522,7 +522,7 @@
       "id": "cloudflare-workers-ai-free-2026",
       "name": "Cloudflare Workers AI 免费配额",
       "description": "Workers AI 免费档每天有 10000 Neurons。不是每个模型都能用这份额度，选模型前看下价格页。",
-      "credits": "10,000 Neurons / 天",
+      "credits": "10,000 Neurons / 天（北京时间每日 08:00 重置）",
       "models": [
         "nemotron-3-120b-a12b",
         "gemma-4-26b-a4b-it"

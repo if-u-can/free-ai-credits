@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "task_id": "production-20261009-cloudflare-neurons-reset-time-v1",
+  "payload_hash": "0cb59536169f472bb34f30e4e35ab4201ca93dfb8036c8d8acde6ed5c2a82a3b",
+  "operation": "egg.upsert",
+  "targets": [
+    "data/eggs.json"
+  ],
+  "blobShas": {
+    "data/eggs.json": "6d33d53584d2a12a266a4831f773e549d4b83a1c"
+  },
+  "created_at": "2026-10-09T04:11:45.977Z"
+}
