@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "eggs": [
     {
       "id": "together-historical",
@@ -223,9 +223,9 @@
       "id": "akashml-100-api-credit-2026",
       "name": "AkashML $100 API 赠金线索",
       "type": "官方推理平台",
-      "description": "AkashML 以前宣传新用户 $100 API 赠金。当前仍有试用 credits，但具体是否继续送满 $100 尚未确认；领取需要验证支付卡。",
-      "status": "pending",
-      "credits": "历史官方宣传 $100 API credits；当前实际试用额度未核实",
+      "description": "AkashML 曾宣传新用户获 $100 API credits。现行文档只确认绑卡后会发试用额度，没有再次说明金额；这笔 $100 专项先移入核查归档。",
+      "status": "unverifiable",
+      "credits": "历史官方宣传 $100 API credits；现行试用额度金额未核实",
       "models": [
         "Kimi K3（Limited Trial）",
         "QWEN3.8 27B（Limited Trial）",
@@ -236,7 +236,7 @@
       "requirements": "注册 AkashML、验证邮箱，并在新用户引导中添加/验证支付方式才能领取试用赠金；地区适用性及赠金有效期未公布清楚",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。 2026-10-09 复核：AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则。",
+      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。 2026-10-09 复核：AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则。 2026-10-10 第三次不同自然日复核：当前官方设置和入门文档仅确认验证支付方式后赠 trial credits，不注明 $100；2025-11-22 官方旧博客的 $100 介绍不足以确认今天仍适用，故将特定 $100 项目转 unverifiable，不声称 AkashML 试用全结束。",
       "url": "https://akashml.com/docs/getting-started/introduction",
       "payment_required": "是（现行文档明确要求验证支付方式）",
       "source_type": "Akash 官方产品公告、推广页、当前开通文档",
@@ -250,12 +250,12 @@
         "https://akashml.com/models"
       ],
       "grade": null,
-      "grade_reason": "历史官方活动写 $100；现行文档没有重申具体额度，待确认当期金额",
-      "quality_score": 86,
+      "grade_reason": "连续三个不同自然日复核，未找到当期 $100 API 赠额的官方领取规定；转核查归档",
+      "quality_score": 0,
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-09",
-      "next_review_at": "2026-10-10",
-      "review_attempts": 2,
+      "last_reviewed_at": "2026-10-10",
+      "next_review_at": null,
+      "review_attempts": 3,
       "review_history": [
         {
           "date": "2026-10-08",
@@ -270,10 +270,19 @@
           "date": "2026-10-09",
           "result": "AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则",
           "source_url": "https://akashml.com/docs/platform/settings"
+        },
+        {
+          "date": "2026-10-10",
+          "result": "10月10日第三个不同自然日复核：2025-11-22官方发布文章仍有新客 $100 的历史说明，但现行入门与设置文档仅确认添加、验证支付方式后发放有期限的试用 credits，未确认当前仍发放 $100、金额与使用期限；尚无当期可领取 $100 的官方证明。该 $100 专项转 unverifiable，不表示 AkashML 全部试用额度终止。",
+          "source_url": "https://akashml.com/docs/platform/settings",
+          "secondary_sources": [
+            "https://akashml.com/docs/getting-started/introduction",
+            "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/"
+          ]
         }
       ],
       "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。",
-      "review_result": "AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则"
+      "review_result": "10月10日第三个不同自然日复核：2025-11-22官方发布文章仍有新客 $100 的历史说明，但现行入门与设置文档仅确认添加、验证支付方式后发放有期限的试用 credits，未确认当前仍发放 $100、金额与使用期限；尚无当期可领取 $100 的官方证明。该 $100 专项转 unverifiable，不表示 AkashML 全部试用额度终止。"
     },
     {
       "id": "lightning-ai-models-2026",
