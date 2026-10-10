@@ -2,7 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { createServer } from 'node:http';
-import { readFile } from 'node:fs/promises';
+import { readFile, mkdtemp, mkdir, writeFile, copyFile, rm } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import os from 'node:os';
 import path from 'node:path';
 const require = createRequire(import.meta.url);
 let playwright;
@@ -117,4 +119,105 @@ test('real page combines filters, retains votes across rendering, persists eaten
     assert.equal(await card.locator('.vote-bad').getAttribute('aria-pressed'), 'true');
     assert.deepEqual(errors, []);
   } finally { await browser.close(); await new Promise(resolve => server.close(resolve)); }
+});
+
+test('prerendered page paginates after combined filters and preserves a hidden vote response', { skip: !playwright }, async () => {
+  const root = path.resolve(import.meta.dirname, '..');
+  const sample = JSON.parse(await readFile(path.join(root, 'data/eggs.json'), 'utf8')).eggs.find(egg => egg.status === 'active');
+  const eggs = Array.from({ length: 16 }, (_, i) => ({ ...sample, id: 'fixture-' + (i + 1), name: 'Fixture ' + String(i + 1).padStart(2, '0'), status: 'active', grade: 'normal', quality_score: 50 }));
+  const temp = await mkdtemp(path.join(os.tmpdir(), 'freeegg-prerender-test-'));
+  let browser, server, finishVote, postCount = 0;
+  const records = Object.fromEntries(eggs.map(egg => [egg.id, { good: 3, bad: 1, myVote: null, reviewPending: false, reviewRequestedAt: null, lastVerified: '2026-10-09' }]));
+  try {
+    await mkdir(path.join(temp, 'scripts'));
+    await mkdir(path.join(temp, 'data'));
+    await copyFile(path.join(root, 'scripts/prerender.py'), path.join(temp, 'scripts/prerender.py'));
+    await copyFile(path.join(root, 'index.html'), path.join(temp, 'index.html'));
+    await copyFile(path.join(root, 'sitemap.xml'), path.join(temp, 'sitemap.xml'));
+    await writeFile(path.join(temp, 'data/eggs.json'), JSON.stringify({ eggs, updated_at: '2026-10-10' }));
+    execFileSync(process.env.PYTHON_EXECUTABLE || 'python', [path.join(temp, 'scripts/prerender.py')], { encoding: 'utf8' });
+    const html = await readFile(path.join(temp, 'index.html'), 'utf8');
+    assert.equal((html.match(/class="seo-egg"/g) || []).length, 16, 'real prerender script writes the fixture catalog');
+    assert.equal((html.match(/<!--SEO:START-->/g) || []).length, 1);
+    assert.match(await readFile(path.join(temp, 'sitemap.xml'), 'utf8'), /<lastmod>2026-10-10<\/lastmod>/);
+    // Repeated workflow runs must preserve hooks and exactly one static block.
+    execFileSync(process.env.PYTHON_EXECUTABLE || 'python', [path.join(temp, 'scripts/prerender.py')], { encoding: 'utf8' });
+    assert.equal(await readFile(path.join(temp, 'index.html'), 'utf8'), html);
+    server = createServer(async (req, res) => {
+      const url = new URL(req.url, 'http://localhost');
+      if (url.pathname.startsWith('/api/interactions')) {
+        res.setHeader('content-type', 'application/json');
+        if (url.pathname.endsWith('/config')) return res.end(JSON.stringify({ available: true }));
+        if (req.method === 'POST') {
+          let raw = ''; for await (const chunk of req) raw += chunk;
+          const body = JSON.parse(raw); postCount++;
+          finishVote = () => {
+            records[body.eggId] = { ...records[body.eggId], good: 4, myVote: body.vote, reviewPending: true, reviewRequestedAt: '2026-10-10T00:00:00.000Z' };
+            res.end(JSON.stringify({ available: true, egg: { id: body.eggId, ...records[body.eggId] } }));
+          };
+          return;
+        }
+        const requested = Object.fromEntries(url.searchParams.get('ids').split(',').map(id => [id, records[id]]));
+        return res.end(JSON.stringify({ available: true, eggs: requested }));
+      }
+      try {
+        const filename = url.pathname === '/' ? 'index.html' : url.pathname.slice(1);
+        const content = filename === 'index.html' ? html : filename === 'data/eggs.json' ? JSON.stringify({ eggs, updated_at: '2026-10-10' }) : await readFile(path.join(root, filename));
+        res.setHeader('content-type', ({ '.html': 'text/html;charset=utf-8', '.js': 'text/javascript;charset=utf-8', '.css': 'text/css;charset=utf-8', '.json': 'application/json', '.webp': 'image/webp' })[path.extname(filename)] || 'application/octet-stream');
+        res.end(content);
+      } catch { res.statusCode = 404; res.end(); }
+    });
+    await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+    browser = await playwright.chromium.launch({ headless: true, ...(process.env.BROWSER_EXECUTABLE ? { executablePath: process.env.BROWSER_EXECUTABLE } : {}) });
+    const page = await browser.newPage();
+    const errors = []; page.on('pageerror', error => errors.push(error.message));
+    await page.goto('http://127.0.0.1:' + server.address().port);
+    await page.waitForFunction(() => document.querySelector('.vote-good:not(:disabled)'));
+    assert.equal(await page.locator('.eggcard').count(), 12, 'default collapse limits visible cards');
+    assert.equal(await page.locator('.seo-egg').count(), 0, 'JS replaces static cards with live interaction cards');
+    const target = page.locator('[data-egg-id="fixture-13"]');
+    await page.locator('#morebtn').click();
+    assert.equal(await page.locator('.eggcard').count(), 16);
+    await target.locator('[data-egg-action=eaten]').click();
+    await target.locator('.vote-good').click();
+    await page.waitForFunction(() => document.querySelector('[data-egg-id="fixture-13"] .egg-action-message').textContent.includes('正在提交'));
+    await page.locator('#morebtn').click();
+    assert.equal(await target.count(), 0, 'collapse hides the in-flight card');
+    assert.equal(await page.locator('.eggcard').count(), 12);
+    assert.ok(finishVote, 'server received the pending request');
+    finishVote();
+    await page.waitForFunction(() => document.querySelector('#review-list').textContent.includes('Fixture 13'));
+    await page.locator('#morebtn').click();
+    assert.equal(await target.locator('.vote-good .vote-count').textContent(), '4');
+    assert.equal(await target.locator('.vote-good').getAttribute('aria-pressed'), 'true');
+    assert.equal(postCount, 1, 'rendering never duplicates the ballot');
+    await page.reload();
+    await page.waitForFunction(() => document.querySelector('.vote-good:not(:disabled)'));
+    assert.equal(await target.count(), 0, 'refresh restores default collapse');
+    await page.locator('[data-eaten-filter=eaten]').click();
+    assert.equal(await page.locator('.eggcard').count(), 1, 'filter the full catalog before taking the first twelve');
+    assert.equal(await target.locator('.vote-good .vote-count').textContent(), '4');
+    assert.equal(await page.locator('#morebtn').count(), 0);
+    await page.locator('[data-filter=premium]').click();
+    assert.equal(await page.locator('.eggcard').count(), 0);
+    await page.locator('[data-filter=normal]').click();
+    assert.equal(await page.locator('.eggcard').count(), 1);
+    await page.locator('#search').fill('Fixture 13');
+    assert.equal(await target.count(), 1);
+    assert.equal(await page.locator('#search').evaluate(input => document.activeElement === input), true);
+    await page.locator('[data-eaten-filter=uneaten]').click();
+    assert.equal(await page.locator('.eggcard').count(), 0);
+    await page.locator('[data-eaten-filter=all]').click();
+    await page.locator('#search').fill('Fixture');
+    assert.equal(await page.locator('.eggcard').count(), 16, 'search results retain main behavior without pagination');
+    for (const width of [320, 375, 1280]) {
+      await page.setViewportSize({ width, height: 900 });
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, 'merged page fits ' + width);
+    }
+    assert.deepEqual(errors, []);
+  } finally {
+    if (browser) await browser.close();
+    if (server) await new Promise(resolve => server.close(resolve));
+    await rm(temp, { recursive: true, force: true });
+  }
 });

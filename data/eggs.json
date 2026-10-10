@@ -577,27 +577,27 @@
     {
       "id": "vultr-250-serverless-2026",
       "name": "Vultr 新用户最高 $250",
-      "description": "Vultr 的新用户活动写着最高 $250。能不能用于目标 Serverless 模型、是否必须绑卡，还没核实清楚。",
+      "description": "Vultr 新客最高 $250 的宣传线索尚不能证明赠额可用于 Serverless 模型 API，领取条件也未核实；该专项已移入核查归档。",
       "credits": "最高 $250（领取资格待核实）",
       "models": [
         "Serverless Inference 型号依当前目录"
       ],
       "requirements": "Vultr 全新用户；优惠限期/绑卡与 Serverless 扣费资格待确认",
       "payment_required": "未知（未核实支付方式要求）",
-      "status": "pending",
+      "status": "unverifiable",
       "grade": null,
-      "grade_reason": "活动领取条件尚待继续核实，暂不参与已确认有效榜单",
-      "quality_score": 95,
+      "grade_reason": "连续三个不同自然日复核，未能证实宣传云赠额可在当期直接用于个人模型 API；移入核查归档",
+      "quality_score": 0,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
       "url": "https://docs.vultr.com/product-overviews/serverless-inference",
       "official_source_url": "https://docs.vultr.com/product-overviews/serverless-inference",
       "claim_url": "https://www.vultr.com/promo/try250/",
-      "verification_note": "Vultr 官方模型产品文档包含 try250 活动链接，但活动页被限制访问，无法核实资格细则；不得标 active。 2026-10-09 复核：Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格。",
+      "verification_note": "Vultr 官方模型产品文档包含 try250 活动链接，但活动页被限制访问，无法核实资格细则；不得标 active。 2026-10-09 复核：Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格。 2026-10-10：第三个不同自然日复核：官方 Serverless Inference 产品文档可读但未提供 $250 试用金可用于该模型 API 的规则；try250 领取页本轮无法正常读取，无法核实个人绑卡/实际付款/期限与 Serverless 抵扣。$250 专项转 unverifiable，不代表 Vultr 其他产品试用结束。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-09",
+      "last_reviewed_at": "2026-10-10",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -608,37 +608,45 @@
           "date": "2026-10-09",
           "result": "Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格",
           "source_url": "https://discover.vultr.com/"
+        },
+        {
+          "date": "2026-10-10",
+          "result": "第三个不同自然日复核：官方 Serverless Inference 产品文档可读但未提供 $250 试用金可用于该模型 API 的规则；try250 领取页本轮无法正常读取，无法核实个人绑卡/实际付款/期限与 Serverless 抵扣。$250 专项转 unverifiable，不代表 Vultr 其他产品试用结束。",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference",
+          "secondary_sources": [
+            "https://www.vultr.com/promo/try250/"
+          ]
         }
       ],
-      "next_review_at": "2026-10-10",
-      "review_attempts": 2,
+      "next_review_at": null,
+      "review_attempts": 3,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "Vultr 官方发现站仍推广 try250；领取入口本轮 403，仍不能确认 Serverless Inference 可用及新客资格"
+      "review_result": "第三个不同自然日复核：官方 Serverless Inference 产品文档可读但未提供 $250 试用金可用于该模型 API 的规则；try250 领取页本轮无法正常读取，无法核实个人绑卡/实际付款/期限与 Serverless 抵扣。$250 专项转 unverifiable，不代表 Vultr 其他产品试用结束。"
     },
     {
       "id": "azure-free-200-ai-2026",
       "name": "Microsoft Azure $200 免费试用",
-      "description": "Azure 新用户有 $200、30 天的试用金。问题是免费订阅不一定有 Azure OpenAI 模型配额。",
+      "description": "Azure $200/30 天是云试用金，但免费试用订阅的目标模型 API 配额可能为 0；尚未证明无需升级就可使用，移入核查归档。",
       "credits": "$200 / 30 天（大模型可用性待核实）",
       "models": [
         "Azure AI Foundry / Azure OpenAI 模型（若获得配额）"
       ],
       "requirements": "新 Azure 账户、账单验证；可能要升级订阅才有目标模型 quota",
       "payment_required": "是（一般需支付卡用于试用身份验证）",
-      "status": "pending",
+      "status": "unverifiable",
       "grade": null,
-      "grade_reason": "活动领取条件尚待继续核实，暂不参与已确认有效榜单",
-      "quality_score": 61,
+      "grade_reason": "连续三个不同自然日复核，未能证实宣传云赠额可在当期直接用于个人模型 API；移入核查归档",
+      "quality_score": 0,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
       "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services",
       "official_source_url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services",
       "claim_url": "https://azure.microsoft.com/en-us/free/",
-      "verification_note": "Microsoft Learn 确认 $200，但 AI Foundry/LLM 配额可能为 0，尚不能算可直接领取的强模型 API 赠金。 2026-10-09 复核：Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据。",
+      "verification_note": "Microsoft Learn 确认 $200，但 AI Foundry/LLM 配额可能为 0，尚不能算可直接领取的强模型 API 赠金。 2026-10-09 复核：Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据。 2026-10-10：第三个不同自然日复核：$200/30天为 Azure 云试用金；Microsoft Foundry 官方配额文档对免费试用批处理模型列 N/A，Microsoft Q&A 报告免费试用订阅的 GPT 模型 TPM 可为 0。没有当期无需升级/审批即可用 $200 调用目标强模型 API 的证据；该 AI API 赠额专项转 unverifiable，不代表 Azure 云试用金失效。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-09",
+      "last_reviewed_at": "2026-10-10",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -649,12 +657,21 @@
           "date": "2026-10-09",
           "result": "Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据",
           "source_url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/avoid-charges-free-account"
+        },
+        {
+          "date": "2026-10-10",
+          "result": "第三个不同自然日复核：$200/30天为 Azure 云试用金；Microsoft Foundry 官方配额文档对免费试用批处理模型列 N/A，Microsoft Q&A 报告免费试用订阅的 GPT 模型 TPM 可为 0。没有当期无需升级/审批即可用 $200 调用目标强模型 API 的证据；该 AI API 赠额专项转 unverifiable，不代表 Azure 云试用金失效。",
+          "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/quotas-limits",
+          "secondary_sources": [
+            "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/batch",
+            "https://learn.microsoft.com/en-us/answers/questions/5907451/free-trials-get-200-but-have-a-0-quota-limit-on-ll"
+          ]
         }
       ],
-      "next_review_at": "2026-10-10",
-      "review_attempts": 2,
+      "next_review_at": null,
+      "review_attempts": 3,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "Microsoft Learn 确认 $200/30天云赠额；Azure 免费试用订阅可能对 LLM 模型有 0 quota，未找到直接可用强模型 API 证据"
+      "review_result": "第三个不同自然日复核：$200/30天为 Azure 云试用金；Microsoft Foundry 官方配额文档对免费试用批处理模型列 N/A，Microsoft Q&A 报告免费试用订阅的 GPT 模型 TPM 可为 0。没有当期无需升级/审批即可用 $200 调用目标强模型 API 的证据；该 AI API 赠额专项转 unverifiable，不代表 Azure 云试用金失效。"
     },
     {
       "id": "byteplus-modelark-500k-2026",
@@ -893,15 +910,20 @@
       "grade": null,
       "grade_reason": "官方领取条款本轮不可读，免费模型和资格需再次核验",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-09",
-      "next_review_at": "2026-10-10",
+      "last_reviewed_at": "2026-10-10",
+      "next_review_at": "2026-10-11",
       "review_started_at": "2026-10-09",
-      "review_attempts": 1,
-      "review_result": "官方新闻证实曾有 2500 万体验赠额，当前公开自助领取及适用模型未能从官方条款直接验证",
+      "review_attempts": 2,
+      "review_result": "本日核查官方移动云帮助页 https://ecloud.10086.cn/op-help-center/doc/article/92837，页面无法正常读取；未获得当期个人自助领取 2500 万 Tokens、API 可用模型和绑卡条件的官方完整条款，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
           "result": "检查官方移动云帮助页及控制台均不可读；中国移动官微报道现场赠额，第三方提供限期与限制，继续 pending",
+          "source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837"
+        },
+        {
+          "date": "2026-10-10",
+          "result": "本日核查官方移动云帮助页 https://ecloud.10086.cn/op-help-center/doc/article/92837，页面无法正常读取；未获得当期个人自助领取 2500 万 Tokens、API 可用模型和绑卡条件的官方完整条款，继续 pending。",
           "source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837"
         }
       ]
@@ -933,15 +955,20 @@
       "grade": null,
       "grade_reason": "官方赠额宣传存在，但本轮无法证实适用强模型 API 与当前资格",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-09",
-      "next_review_at": "2026-10-10",
+      "last_reviewed_at": "2026-10-10",
+      "next_review_at": "2026-10-11",
       "review_started_at": "2026-10-09",
-      "review_attempts": 1,
-      "review_result": "官方宣传金额可见，但活动页需 JS 且资源包模型/期限不明",
+      "review_attempts": 2,
+      "review_result": "本日再次访问智谱官方 2000 万 Tokens 活动入口，实时页面仅返回前端脚本壳；官方索引可见宣传但不能核对当前资源包 API 模型、期限、绑卡与资格，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
           "result": "查官方活动索引与当前页面，实时条款和赠额模型范围无法直接核验",
+          "source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID"
+        },
+        {
+          "date": "2026-10-10",
+          "result": "本日再次访问智谱官方 2000 万 Tokens 活动入口，实时页面仅返回前端脚本壳；官方索引可见宣传但不能核对当前资源包 API 模型、期限、绑卡与资格，继续 pending。",
           "source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID"
         }
       ]
@@ -950,16 +977,16 @@
       "id": "scnet-maas-10m-new-user-2026",
       "name": "国家超算互联网 MaaS 新客 1000 万 Tokens",
       "type": "官方模型推理平台",
-      "description": "新用户可免费领取 1000 万 GLM-5-Base Tokens；DeepSeek-V4.1-Flash 同量包是 ¥0.10 秒杀。免费额度用尽后会自动扣现金余额。",
+      "description": "新客免费包目前展示为 1000 万 DeepSeek-V4.1-Flash Tokens；另有 ¥0.10 的 2000 万 Tokens 付费秒杀。页面领取状态有冲突，赠额耗尽后会扣现金余额。",
       "status": "pending",
-      "credits": "新客免费 1000 万 GLM-5-Base Tokens（领取后 30 天有效；实际发放模型可能调整）",
+      "credits": "新客免费 1000 万 DeepSeek-V4.1-Flash Tokens（1024K；领取后 30 天有效，实际发放模型可调整；实际可领待核实）",
       "models": [
-        "GLM-5-Base（128K；官方当前新客免费包）"
+        "DeepSeek-V4.1-Flash（1024K；官方活动页当前展示的新客免费包，实际到账型号待核实）"
       ],
       "requirements": "仅限 2026-08-13 至 2026-10-13 23:59 活动期间新注册用户，每人限领一次、先到先得；手机号、实名、绑卡及实际领取资格待登录核实",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-09 复核官方 MaaS 特惠专场：01 新客尝鲜免费包明确为 GLM-5-Base 1000 万 Tokens（128K）；02 冰点秒杀的 DeepSeek-V4.1-Flash 1000 万 Tokens 为 ¥0.10 付费秒杀，不能当免费赠额。官方活动时间为 2026-08-13 至 10-13 23:59；免费包领取后 30 天有效，模型可能因供应调整，赠额耗尽会自动扣减现金余额。官方活动中心仍列进行中，API Key 管理文档确认平台支持模型 API；但未通过新账户验证实际到账、该赠包 API 抵扣、实名/绑卡条件，故保留 pending，不评 super。",
+      "verification_note": "2026-10-09 复核官方 MaaS 特惠专场：01 新客尝鲜免费包明确为 GLM-5-Base 1000 万 Tokens（128K）；02 冰点秒杀的 DeepSeek-V4.1-Flash 1000 万 Tokens 为 ¥0.10 付费秒杀，不能当免费赠额。官方活动时间为 2026-08-13 至 10-13 23:59；免费包领取后 30 天有效，模型可能因供应调整，赠额耗尽会自动扣减现金余额。官方活动中心仍列进行中，API Key 管理文档确认平台支持模型 API；但未通过新账户验证实际到账、该赠包 API 抵扣、实名/绑卡条件，故保留 pending，不评 super。 2026-10-10 直接读取官方活动页：免费新客尝鲜包展示 DeepSeek-V4.1-Flash 1000万 Tokens（1024K）；¥0.10 冰点秒杀为 DeepSeek-V4.1-Flash 2000万 Tokens，不是免费包。页面有“活动已结束”文案，但条款活动时间仍至10月13日23:59；未登录验证当前是否仍能领取、绑卡/实名及 API 赠额抵扣。故维持 pending、grade=null。",
       "url": "https://www.scnet.cn/home/subject/maas/index.html",
       "official_source_url": "https://www.scnet.cn/home/subject/maas/index.html",
       "claim_url": "https://www.scnet.cn/home/subject/maas/index.html",
@@ -971,13 +998,13 @@
         "https://www2.scnet.cn/help/docs/mainsite/mass/tutorial/apikeymgt.html"
       ],
       "grade": null,
-      "grade_reason": "免费包模型已纠正为 GLM-5-Base；实际领取、赠包 API 抵扣及支付条件仍需账号核实",
+      "grade_reason": "官方免费包展示模型已变更；活动页面同时出现已结束提示与未到期规则，个人实际领取/API 抵扣待确认",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-09",
-      "next_review_at": "2026-10-10",
+      "last_reviewed_at": "2026-10-10",
+      "next_review_at": "2026-10-11",
       "review_started_at": "2026-10-09",
-      "review_attempts": 1,
-      "review_result": "当日复核纠正免费包型号和超额自动扣费信息；未实测领取及 API 赠包抵扣，继续 pending",
+      "review_attempts": 2,
+      "review_result": "本日直接读取官方 MaaS 活动页：新客免费包已展示为 DeepSeek-V4.1-Flash 1000 万 Tokens（1024K），而 0.10 元付费秒杀为 DeepSeek-V4.1-Flash 2000 万 Tokens；页面同时包含“活动已结束”提示与活动规则 10月13日截止，实际可领状态冲突，未做新账户 API 赠包实测，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -986,6 +1013,11 @@
           "secondary_sources": [
             "https://www.scnet.cn/home/subject/center/index.html"
           ]
+        },
+        {
+          "date": "2026-10-10",
+          "result": "本日直接读取官方 MaaS 活动页：新客免费包已展示为 DeepSeek-V4.1-Flash 1000 万 Tokens（1024K），而 0.10 元付费秒杀为 DeepSeek-V4.1-Flash 2000 万 Tokens；页面同时包含“活动已结束”提示与活动规则 10月13日截止，实际可领状态冲突，未做新账户 API 赠包实测，继续 pending。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
         }
       ]
     },
@@ -1089,11 +1121,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-09",
-      "next_review_at": "2026-10-10",
+      "last_reviewed_at": "2026-10-10",
+      "next_review_at": "2026-10-11",
       "review_started_at": "2026-10-09",
-      "review_attempts": 1,
-      "review_result": "官方确认免费 Starter API credits 按月刷新，但金额与可用型号不明，待核实",
+      "review_attempts": 2,
+      "review_result": "本日官方定价页确认 Free $0 含每月刷新 Starter usage credits、仅 Starter models、1 并发，云端 API 可用；未明确赠额数值、具体 Starter 模型名单和是否绑卡，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1102,6 +1134,14 @@
           "secondary_sources": [
             "https://docs.ollama.com/cloud",
             "https://docs.ollama.com/api/introduction"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "result": "本日官方定价页确认 Free $0 含每月刷新 Starter usage credits、仅 Starter models、1 并发，云端 API 可用；未明确赠额数值、具体 Starter 模型名单和是否绑卡，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://ollama.com/blog/transparent-pricing"
           ]
         }
       ]

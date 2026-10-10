@@ -109,6 +109,10 @@ Google 持久限流每个匿名网络每固定 60 秒最多 20 次投票请求�
 
 ## 验证和官方依据
 
+首页保留静态 SEO 预渲染内容，数据加载成功后由 JavaScript 挂载互动卡片。等级、搜索和领取记录先筛选完整目录，再应用默认前 12 条与展开/收起；搜索结果沿用不分页行为。领取记录和请求中的投票按稳定 egg ID 保存，收起或筛选隐藏卡片后仍接收服务器最终结果。`scripts/prerender.py` 只替换 SEO 标记内的静态卡片，不改互动挂钩；数据变更后运行它同时更新静态内容与 sitemap，投票仍不会触发此流程。
+
+`node --test tests/frontend-interactions.test.mjs tests/frontend-browser.test.mjs` 检查领取状态、失败反馈、组合筛选、真实预渲染后挂载、超过第 12 条的记录以及隐藏期间返回的投票结果。浏览器测试需要安装 Playwright 和可用 Chromium；可用 `PLAYWRIGHT_MODULE`、`BROWSER_EXECUTABLE` 指定现有运行时，用 `PYTHON_EXECUTABLE` 指定运行预渲染脚本的 Python。验收时应确认浏览器测试实际执行而未跳过，包含 320、375、1280 宽度检查；测试只在隔离目录生成 fixture 和返回计票模拟数据。
+
 `node --test tests/backend-interactions.test.mjs` 验证 Cloudflare 实际接口、签名 payload、匿名身份、同源/输入限制、Google 错误与超时、健康检查、返回数据校验及可选 Turnstile。`node --test tests/backend-google-integration.test.mjs` 贯通 Worker 签名到实际 Apps Script `doPost`、唯一票、改票和复核；`node --test tests/google-community-votes.test.cjs` 验证真实 Apps Script 源码通过可持久化 Sheets 测试适配器的重放、限流和故障恢复行为。它们是本地证据，不代表 Google Web 应用或 Worker 已部署；正式配置仍需浏览器和实际表格联调。
 
 部署与权限依据：[Google Web 应用](https://developers.google.com/apps-script/guides/web)；JSON 与重定向依据：[Content Service](https://developers.google.com/apps-script/guides/content)；并发锁依据：[LockService](https://developers.google.com/apps-script/reference/lock/lock-service)；签名依据：[Utilities HMAC](https://developers.google.com/apps-script/reference/utilities/utilities#computehmacsha256signaturevalue-key)；人机验证依据：[Cloudflare Turnstile 服务端校验](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/)。核对日期：2026-10-09。
