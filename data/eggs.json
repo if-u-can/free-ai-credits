@@ -1145,6 +1145,47 @@
           ]
         }
       ]
+    },
+    {
+      "id": "apollo11-fusion-3m3-trial-2026",
+      "name": "APOLLO11 Fusion LLM 新客 330 万 Tokens",
+      "type": "官方模型推理平台",
+      "description": "日本 APOLLO11 提供 OpenAI 兼容模型 API，新注册账号可试用约 330 万 Tokens，期限 7 天；须绑定信用卡。",
+      "status": "active",
+      "credits": "新注册账户共享约 3,300,000 Tokens（以 apollo11-fusion-coder 换算，非各模型分别赠送）；注册起 7 天有效",
+      "models": [
+        "apollo11-fusion",
+        "apollo11-fusion-coder",
+        "apollo11-fusion-coder-xcontext",
+        "apollo11-fusion-base",
+        "apollo11-fusion-xcontext",
+        "apollo11-fusion-instant",
+        "apollo11-fusion-next"
+      ],
+      "requirements": "个人可从公开注册入口申请；须注册账号并绑定信用卡。官方说明试用额度内不收费，无固定费/最低消费；信用卡发行国家、地区资格及超额自动扣款保护未明确，未进行账号实际领取测试。",
+      "payment_required": "必须绑定信用卡；官方 FAQ 称试用额度内不收费，无预充值要求；超过试用额度或试用期后按量收费，需自行关注用量",
+      "discovered_at": "2026-10-10",
+      "verified_at": "2026-10-10",
+      "verification_note": "2026-10-10 官方 Fusion LLM 产品页当前仍展示 330 万 Tokens / 1 周试用、公开注册入口、7 个 API 模型和 OpenAI 兼容接入；FAQ 明确注册须信用卡、试用部分不收费。公司官方 2026-08-18 新闻稿亦确认所有模型共享 coder 换算约 330 万 Tokens。未实际注册或验证卡、地区与到账；模型性能对标 GPT/Claude 的基准来自厂商自测，未视为独立验证。由于额度短期、绑卡且非明确 $20 通用强模型 credits，仅评 normal。",
+      "url": "https://apollo11.co.jp/fusion-llm/",
+      "official_source_url": "https://apollo11.co.jp/fusion-llm/",
+      "claim_url": "https://platform.apollo11.ai/",
+      "source_type": "APOLLO11 官方当前产品页、价格页、公司官方新闻稿",
+      "evidence_urls": [
+        "https://apollo11.co.jp/fusion-llm/",
+        "https://apollo11.co.jp/pricing/",
+        "https://apollo11.co.jp/contact/",
+        "https://prtimes.jp/main/html/rd/p/000000002.000188956.html"
+      ],
+      "grade": "normal",
+      "grade_reason": "API 试用约 330 万 Tokens，需信用卡且仅 7 天；模型强度为厂商自测，暂按普通试用收录",
+      "quality_score": 53,
+      "quality_breakdown": {
+        "free_api_value": 19,
+        "model_usefulness": 17,
+        "claim_convenience": 12,
+        "validity_and_limits": 5
+      }
     }
   ],
   "grade_policy": {
