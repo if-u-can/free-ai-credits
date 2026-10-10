@@ -1,4 +1,4 @@
-
+import { handleInteractions } from './interactions.js';
 const GITHUB_ISSUES="https://api.github.com/repos/if-u-can/free-ai-credits/issues";
 const MAX_BODY_BYTES=8192;
 // Coalesce concurrent creates in this isolate; GitHub markers handle later retries.
@@ -58,6 +58,7 @@ function matchesSubmission(issue,marker,link){
 export default {async fetch(request,env){
  const deadline=Date.now()+20000;
  const url=new URL(request.url);
+ if(url.pathname==="/api/interactions"||url.pathname.startsWith("/api/interactions/"))return handleInteractions(request,env);
  if(url.pathname==="/api/submissions/review-feed")return reviewFeed(request,env,url,deadline);
  if(url.pathname==="/api/submissions/config"){
   if(request.method!=="GET")return reply({message:"Method not allowed"},405);

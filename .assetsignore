@@ -2,7 +2,6 @@
 .git/
 .git
 .gitignore
-.env*
 .wrangler/
 node_modules/
 src/
@@ -20,5 +19,8 @@ connection-test.txt
 *.txt
 automation/
 tests/
-!robots.txt
+.env*
+delivery/
 scripts/
+assets/interactions/source/
+!robots.txt

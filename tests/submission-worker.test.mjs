@@ -1,9 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
-
-const source = await readFile(new URL('../src/worker.js', import.meta.url), 'utf8');
-const { default: worker } = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
+import worker from '../src/worker.js';
 const origin = 'https://freeegg.iffy.site';
 const env = { GITHUB_TOKEN: 'private-github-token', TURNSTILE_SECRET: 'private-turnstile-secret', TURNSTILE_SITE_KEY: 'public-site-key', SUBMISSION_RATE_LIMITER: { limit: async () => ({ success: true }) }, ASSETS: { fetch: () => new Response('asset') } };
 const valid = { provider: 'Example AI', claim_url: 'https://example.com/free', category: '官方模型厂商 / 推理平台', details: 'Official API credits for individual users.', turnstile_token: 'challenge-token' };
