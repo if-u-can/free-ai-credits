@@ -58,3 +58,11 @@ Google 直接访问 GitHub 的公共请求曾在实际测试中返回 403、`rem
 5. 验证失败、超限、跨站来源、上游异常应有安全错误，数据文件和发布队列不得出现测试内容。关闭测试 Issue 并保留验收说明。
 
 Secret 没配齐必须报告访客路径**未完成**，不得用连接器创建 Issue 冒充网站投稿成功。
+
+## 2026-10-10 完成记录
+
+生产三项配置已齐，config 真实回读 `enabled:true` 且公开 siteKey 存在。GitHub PAT 仅本仓库 Issues 读写和 Metadata 只读，到期日为 **2026-11-08**；请在到期前续换 Cloudflare Secret，并复验读取和投稿。Turnstile 使用仅允许 `freeegg.iffy.site` 的正式 Managed widget，未启用 pre-clearance；公开 Site Key 由生产后台变量与 `keep_vars:true` 保留。
+
+正式访客经过真实 Turnstile 创建测试 Issue #3；关闭后用同 URL 加 fragment 再投，返回已有 #3。五分钟原生 `runIssueMirror` 已安装并实际完成定时同步，原 `runSync` 保留；#3 入原私有审核页，复跑未增加重复行，人工 `REJECTED` 和备注保留。本次未将测试内容写入原发布队列或数据文件。Issue #1 仍为连接器创建的早期测试，不作为访客投稿证据。
+
+详细时间、重复运行日志、回读结果及模拟与真实证据边界，见 [投稿验收记录](SUBMISSION_TEST_RESULTS.md)。凭据只保存在 Cloudflare Secret，不在此文档记录密钥或私有标识。
