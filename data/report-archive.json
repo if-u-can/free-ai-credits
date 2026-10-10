@@ -147,6 +147,20 @@
       "tip": "",
       "kind": "morning",
       "id": "2026-10-10-morning"
+    },
+    {
+      "id": "2026-10-09-evening",
+      "kind": "evening",
+      "date": "2026-10-09",
+      "title": "10 月 9 日晚报补刊：旧蛋退场，新蛋入篮 🌙",
+      "summary": "10 月 9 日的免费模型 API 清单有了变化：腾讯云 TokenHub、硅基流动和 OpenRouter 的个人免费入口已收录；Together AI 旧赠额退出。Ollama Cloud 的 Starter 免费额度虽有官方说明，具体数额仍待核实。Eku 不拿问号当金蛋。",
+      "highlights": [
+        "腾讯云 TokenHub：新人模型 API 体验包可领取；官方列出语言模型 100 万 Tokens 免费额度、有效期 1 年，开通需实名认证。",
+        "硅基流动：完成实名认证后可在活动中心领取 ¥16 通用代金券，可抵扣模型 API；这项活动并非 10 月 9 日才开始。",
+        "OpenRouter：官方免费档提供 25+ 免费模型与 API 调用，每日 50 次请求，无须购买付费套餐。",
+        "Together AI 旧免费试用已结束；Ollama Cloud Free 档虽有每月 Starter credits，但金额与具体可用模型仍待核实。"
+      ],
+      "tip": ""
     }
   ]
 }
