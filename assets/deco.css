@@ -51,7 +51,7 @@ header{z-index:10}
 .tier-pending{border-style:dashed!important}
 .tier-pending .grade-copy strong::after,.tier-expired .grade-copy strong::after{content:""}
 .tier-pending .grade-strip{position:relative}
-.tier-pending .grade-strip::after{content:"";position:absolute;right:58px;top:-30px;width:104px;height:70px;background:url("./deco/bubble-wait.webp") center/contain no-repeat;pointer-events:none}
+.tier-pending .grade-strip::after{content:"";position:absolute;right:112px;top:-50px;width:100px;height:68px;background:url("./deco/bubble-wait.webp") center/contain no-repeat;pointer-events:none}
 .tier-expired{filter:saturate(.55) brightness(.99)}
 .tier-expired .grade-strip img{filter:grayscale(.45)}
 
