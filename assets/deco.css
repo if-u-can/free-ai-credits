@@ -55,3 +55,12 @@ header{z-index:10}
 .verify .head{position:relative}
 @media(max-width:900px){.peek-eku{left:auto;right:6px;width:104px;bottom:-14px}}
 @media(max-width:560px){.peek-eku{width:84px}}
+
+/* divider between verify flow and egg list */
+.divider{display:flex;align-items:center;gap:14px;margin:0 0 56px}
+.divider i{flex:1;height:0;border-top:3px dotted #e6c9bd}
+.divider img{width:34px;height:34px;object-fit:contain;filter:drop-shadow(0 2px 3px rgba(120,90,70,.2))}
+.divider img:nth-of-type(odd){animation:dcfloat 5s ease-in-out infinite;--r:-6deg}
+.divider img:nth-of-type(even){animation:dcfloat 6s ease-in-out infinite;animation-delay:-2s;--r:6deg}
+.divider img:nth-of-type(4){width:42px;height:42px}
+@media(max-width:560px){.divider{gap:8px;margin-bottom:44px}.divider img{width:26px;height:26px}.divider img:nth-of-type(4){width:32px;height:32px}}
