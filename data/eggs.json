@@ -886,8 +886,8 @@
       "id": "china-mobile-moma-25m-trial-2026",
       "name": "移动云 MoMA 2500 万 Tokens 线索",
       "type": "官方模型推理平台",
-      "description": "中国移动 MoMA 有 2500 万免费 API Tokens 的公开活动线索；目前无法直接读取官方活动细则，暂不评超级。",
-      "status": "pending",
+      "description": "MoMA 的2500万Tokens宣传有官方报道，但连续三日仍未读到当前领取和免费API适用条款，转入核查归档。",
+      "status": "unverifiable",
       "credits": "第三方实领资料称 2500 万 Tokens、领取后 30 天有效；官方当期赠额未独立读到",
       "models": [
         "自营九天模型（具体免费模型待核实）",
@@ -908,13 +908,13 @@
         "https://www.igetoken.com/models/moma/"
       ],
       "grade": null,
-      "grade_reason": "官方领取条款本轮不可读，免费模型和资格需再次核验",
+      "grade_reason": "连续三个不同自然日实际复查仍缺可靠的当前领取依据，转核查归档",
       "quality_score": 0,
       "last_reviewed_at": "2026-10-11",
-      "next_review_at": "2026-10-12",
+      "next_review_at": null,
       "review_started_at": "2026-10-09",
       "review_attempts": 3,
-      "review_result": "10月11日再次访问移动云官方帮助页，仍无法读取具体活动条款；中国移动公开报道可佐证2500万Tokens赠送宣传，但当期个人在线领取、实际适用模型、API抵扣、绑卡及30天期限仍未核实，继续pending。",
+      "review_result": "19:00晚间复查官方帮助页和MoMA入口仍不可读取；中国移动7月报道有新认证用户2500万Token宣传，但没有可核验的当期模型、API抵扣、支付与期限条款。连续10月9、10、11日实际复查仍缺完整当前领取依据，转unverifiable，保留历史宣传，不认定活动结束。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -932,7 +932,9 @@
           "source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837",
           "secondary_sources": [
             "https://www1.10086.cn/aboutus/news/groupnews/index_detail_55572.html"
-          ]
+          ],
+          "evening_result": "19:00晚间复查官方帮助页和MoMA入口仍不可读取；中国移动7月报道有新认证用户2500万Token宣传，但没有可核验的当期模型、API抵扣、支付与期限条款。连续10月9、10、11日实际复查仍缺完整当前领取依据，转unverifiable，保留历史宣传，不认定活动结束。",
+          "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
         }
       ]
     },
@@ -940,8 +942,8 @@
       "id": "zhipu-bigmodel-20m-new-user-2026",
       "name": "智谱 BigModel 新客 2000 万 Tokens 线索",
       "type": "官方模型厂商",
-      "description": "智谱官方活动页宣传新用户 2000 万免费 Tokens；资源包适用哪些模型 API、是否需要实名及有效期仍待核实。",
-      "status": "pending",
+      "description": "智谱2000万Tokens新客宣传仍有历史索引；连续三日未能核实当前资源包模型、资格和期限，转入核查归档。",
+      "status": "unverifiable",
       "credits": "官方活动宣传新用户 2000 万免费 Tokens（具体 API 资源包可用范围未核实）",
       "models": [
         "GLM-5.2（活动页宣传，未确认资源包适用）",
@@ -961,13 +963,13 @@
         "https://docs.bigmodel.cn/cn/guide/platform/equity-explain"
       ],
       "grade": null,
-      "grade_reason": "官方赠额宣传存在，但本轮无法证实适用强模型 API 与当前资格",
+      "grade_reason": "连续三个不同自然日实际复查仍缺可靠的当前领取依据，转核查归档",
       "quality_score": 0,
       "last_reviewed_at": "2026-10-11",
-      "next_review_at": "2026-10-12",
+      "next_review_at": null,
       "review_started_at": "2026-10-09",
       "review_attempts": 3,
-      "review_result": "10月11日打开官方活动页仍仅有前端壳，无法读取实时领取规则；官方历史索引有2000万Tokens宣传，仍缺可适用强模型API、地区实名、支付与期限的当前凭据，暂维持pending而非将旧宣传当作有效。",
+      "review_result": "19:00晚间复查官方活动页仍只返回JavaScript壳；官方用户权益文档不说明这笔2000万Tokens的适用模型与有效期。连续10月9、10、11日实际复查仍未确认当期领取及API资源包范围，转unverifiable，不认定活动结束。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -985,7 +987,9 @@
           "source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
           "secondary_sources": [
             "https://docs.bigmodel.cn/cn/guide/platform/equity-explain"
-          ]
+          ],
+          "evening_result": "19:00晚间复查官方活动页仍只返回JavaScript壳；官方用户权益文档不说明这笔2000万Tokens的适用模型与有效期。连续10月9、10、11日实际复查仍未确认当期领取及API资源包范围，转unverifiable，不认定活动结束。",
+          "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
         }
       ]
     },
@@ -993,8 +997,8 @@
       "id": "scnet-maas-10m-new-user-2026",
       "name": "国家超算互联网 MaaS 新客 1000 万 Tokens",
       "type": "官方模型推理平台",
-      "description": "新客免费包目前展示为 1000 万 DeepSeek-V4.1-Flash Tokens；另有 ¥0.10 的 2000 万 Tokens 付费秒杀。页面领取状态有冲突，赠额耗尽后会扣现金余额。",
-      "status": "pending",
+      "description": "超算新客1000万Tokens免费包的结束提示与10月13日截止规则仍有冲突；连续三日未确认实际可领状态，转入核查归档。",
+      "status": "unverifiable",
       "credits": "新客免费 1000 万 DeepSeek-V4.1-Flash Tokens（1024K；领取后 30 天有效，实际发放模型可调整；实际可领待核实）",
       "models": [
         "DeepSeek-V4.1-Flash（1024K；官方活动页当前展示的新客免费包，实际到账型号待核实）"
@@ -1014,13 +1018,13 @@
         "https://www2.scnet.cn/help/docs/mainsite/mass/tutorial/apikeymgt.html"
       ],
       "grade": null,
-      "grade_reason": "官方免费包展示模型已变更；活动页面同时出现已结束提示与未到期规则，个人实际领取/API 抵扣待确认",
+      "grade_reason": "连续三个不同自然日实际复查仍缺可靠的当前领取依据，转核查归档",
       "quality_score": 0,
       "last_reviewed_at": "2026-10-11",
-      "next_review_at": "2026-10-12",
+      "next_review_at": null,
       "review_started_at": "2026-10-09",
       "review_attempts": 3,
-      "review_result": "10月11日直接查看超算互联网官方活动页：免费新客包为1000万DeepSeek-V4.1-Flash Tokens（30天），付费0.10元包为2000万Tokens；活动条款写10月13日23:59截止，但页面同时显示活动已结束，未验证新账号实际领取与支付要求，维持pending。",
+      "review_result": "19:00晚间复查官方活动页仍展示新客免费1000万DeepSeek-V4.1-Flash Tokens、30天有效及用尽后扣现金余额，同时含活动已结束提示和10月13日截止规则。连续10月9、10、11日实际复查未能解决领取状态冲突与个人支付资格，转unverifiable，不判定expired。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1041,7 +1045,9 @@
           "source_url": "https://www.scnet.cn/home/subject/maas/index.html",
           "secondary_sources": [
             "https://www.scnet.cn/home/subject/center/index.html"
-          ]
+          ],
+          "evening_result": "19:00晚间复查官方活动页仍展示新客免费1000万DeepSeek-V4.1-Flash Tokens、30天有效及用尽后扣现金余额，同时含活动已结束提示和10月13日截止规则。连续10月9、10、11日实际复查未能解决领取状态冲突与个人支付资格，转unverifiable，不判定expired。",
+          "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
         }
       ]
     },
@@ -1149,7 +1155,7 @@
       "next_review_at": "2026-10-12",
       "review_started_at": "2026-10-09",
       "review_attempts": 3,
-      "review_result": "10月11日再次读取Ollama官方Free定价：Starter usage credits和starter models可通过Cloud API使用，但具体免费模型、赠额数字、支付资格未公开完整，继续pending；没有依据转为unverifiable。",
+      "review_result": "19:00晚间复查官方定价仍有Free $0、Starter usage credits与Starter models，Cloud API免费档有当前依据；未明确免费型号清单、额度数字、绑卡及地区资格，保持pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1174,7 +1180,9 @@
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
-          ]
+          ],
+          "evening_result": "19:00晚间复查官方定价仍有Free $0、Starter usage credits与Starter models，Cloud API免费档有当前依据；未明确免费型号清单、额度数字、绑卡及地区资格，保持pending。",
+          "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
         }
       ]
     },
@@ -1257,7 +1265,7 @@
       "review_started_at": "2026-10-11",
       "review_attempts": 1,
       "verification_note": "2026-10-11 官方首页提供免费注册和 API Key 步骤，模型目录明确多款 Free 模型，条款确认18岁、研究日志与数据公开风险；注册页可打开，但未创建账户、未核实审批是否通过和真实 API 调用。2026-09第三方曾报告平台因容量暂停新用户注册，当前是否已恢复无法仅凭注册页面判断。",
-      "review_result": "官方当前免费 API 及免费模型可验证，最终新账户注册成功与配额尚未核实，保持 pending。",
+      "review_result": "19:00晚间复查注册入口与模型目录可读；Free目录含GLM-5.1、DeepSeek-V4-Flash、MiniMax-M3等，实际权限由账户API Key返回的模型列表决定。未创建账户或验证获批、到账与配额，保持pending。",
       "review_history": [
         {
           "date": "2026-10-11",
@@ -1266,7 +1274,9 @@
           "secondary_sources": [
             "https://doc.freeinference.org/models",
             "https://freeinference.org/terms"
-          ]
+          ],
+          "evening_result": "19:00晚间复查注册入口与模型目录可读；Free目录含GLM-5.1、DeepSeek-V4-Flash、MiniMax-M3等，实际权限由账户API Key返回的模型列表决定。未创建账户或验证获批、到账与配额，保持pending。",
+          "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
         }
       ]
     }

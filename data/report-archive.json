@@ -189,6 +189,28 @@
         "移动云 MoMA、智谱 BigModel 和 Ollama Cloud：活动或免费档线索仍在，但个人领取条件、具体 API 适用额度尚未核实，维持 pending。"
       ],
       "tip": ""
+    },
+    {
+      "date": "2026-10-11",
+      "title": "10 月 11 日晚报：问号归档，免费档继续盯 🌙",
+      "summary": "今晚复核了全部五项待核实活动。移动云MoMA、智谱2000万Tokens和超算新客包连续三个自然日仍缺完整的当前领取依据，转入核查归档；Ollama与FreeInference继续待核实。今天没有确认新的超级鸡蛋。",
+      "highlights": [
+        "MoMA、智谱新客赠额、超算新客包：保留记录与来源，转unverifiable；没有证据宣布活动结束，不标expired。",
+        "Ollama Free仍有Starter API用量，免费型号、具体额度和支付资格未核实；FreeInference免费模型目录与注册入口可读，实际开户和配额仍待确认。",
+        "今晚没有确认符合个人低门槛要求的新Super，不发布重复专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+        "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+        "https://docs.bigmodel.cn/cn/guide/platform/equity-explain",
+        "https://www.scnet.cn/home/subject/maas/index.html",
+        "https://ollama.com/pricing",
+        "https://freeinference.org/signup",
+        "https://doc.freeinference.org/models"
+      ],
+      "id": "2026-10-11-evening",
+      "kind": "evening"
     }
   ]
 }
