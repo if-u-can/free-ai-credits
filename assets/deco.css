@@ -1,15 +1,7 @@
-/* ===== decoration layer: bands, side stickers, tier cards, stamps ===== */
+/* ===== decoration layer: side stickers, tier cards, stamps ===== */
 body{position:relative;overflow-x:hidden}
 main.wrap,header,footer{position:relative;z-index:2}
 header{z-index:10}
-
-/* section bands: soft tinted washes that fade in/out, no hard edges */
-.band{position:relative}
-.band::before{content:"";position:absolute;z-index:-1;left:50%;width:100vw;transform:translateX(-50%);top:-110px;bottom:-110px;background:var(--band,transparent);
- -webkit-mask:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 50px,#000 110px,#000 calc(100% - 110px),rgba(0,0,0,.5) calc(100% - 50px),transparent 100%);
- mask:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 50px,#000 110px,#000 calc(100% - 110px),rgba(0,0,0,.5) calc(100% - 50px),transparent 100%)}
-.band-pink,.band-butter,.band-mint,.band-lilac,.band-sky{--band:#fff1e3}
-.reports,.super-news,.news-archive,.verify{margin-bottom:150px}
 
 /* side stickers (wide screens only) */
 .deco-layer{position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;pointer-events:none;z-index:0;display:none}
