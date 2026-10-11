@@ -8,9 +8,9 @@ header{z-index:10}
 .deco-layer img{position:absolute;height:auto;filter:drop-shadow(0 4px 6px rgba(120,90,70,.18));animation:dcfloat 6s ease-in-out infinite;animation-delay:var(--dl,0s)}
 .deco-layer .l{right:calc(50% + 604px + var(--o,0px))}
 .deco-layer .r{left:calc(50% + 604px + var(--o,0px))}
-.deco-layer .edge{left:auto;right:12px;animation:none;filter:drop-shadow(0 3px 5px rgba(120,90,70,.2))}
-.deco-layer .edge-wall{position:absolute;right:-3px;width:30px;height:184px;border:3px solid #57474d;border-radius:99px;background:#ffe9b0;box-shadow:-4px 4px #ecd9d2}
-.deco-layer .edge-wall::before{content:"";position:absolute;top:14px;bottom:14px;left:50%;border-left:3px dotted #e9b96a;transform:translateX(-50%)}
+.deco-layer .edge{left:auto;right:24px;animation:none;filter:drop-shadow(0 3px 5px rgba(120,90,70,.2))}
+.deco-layer .edge-wall{position:absolute;right:-3px;width:190px;height:44px;border:3px solid #57474d;border-radius:99px 0 0 99px;background:#ffe9b0;box-shadow:-4px 5px #ecd9d2}
+.deco-layer .edge-wall::before{content:"";position:absolute;left:18px;right:14px;top:50%;border-top:3px dotted #e9b96a;transform:translateY(-50%)}
 @keyframes dcfloat{0%,100%{transform:translateY(0) rotate(var(--r,0deg))}50%{transform:translateY(-9px) rotate(calc(var(--r,0deg) + 3deg))}}
 @media(min-width:1500px){.deco-layer{display:block}}
 @media(prefers-reduced-motion:reduce){.deco-layer img{animation:none;transform:rotate(var(--r,0deg))}}
