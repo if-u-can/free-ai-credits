@@ -1,13 +1,16 @@
 name: prerender-seo
 on:
-  # Production publishing uses Cloudflare Git builds.
-  # Keep this optional SEO helper manual to avoid automatic Actions runs.
+  push:
+    branches: [main]
+    paths: ['data/**']
+  schedule:
+    - cron: '30 0 * * *'   # 每天 08:30（北京时间）兜底刷新一次
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
   prerender:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/prerender.py
