@@ -1,10 +1,7 @@
 name: prerender-seo
 on:
-  push:
-    branches: [main]
-    paths: ['data/**']
-  schedule:
-    - cron: '30 0 * * *'   # 每天 08:30（北京时间）兜底刷新一次
+  # Production publishing uses Cloudflare Git builds.
+  # Keep this optional SEO helper manual to avoid automatic Actions runs.
   workflow_dispatch:
 permissions:
   contents: write
