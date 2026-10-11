@@ -3,17 +3,13 @@ body{position:relative;overflow-x:hidden}
 main.wrap,header,footer{position:relative;z-index:2}
 header{z-index:10}
 
-/* section bands with scalloped edges */
+/* section bands: soft tinted washes that fade in/out, no hard edges */
 .band{position:relative}
-.band::before{content:"";position:absolute;z-index:-1;left:50%;width:100vw;transform:translateX(-50%);top:-44px;bottom:-44px;background:var(--band,transparent);
- -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='18' viewBox='0 0 64 18'%3E%3Cpath d='M0 18V9a32 9 0 0 1 64 0V18z'/%3E%3C/svg%3E") top/64px 18px repeat-x,
-  linear-gradient(#000,#000) 0 17px/100% calc(100% - 34px) no-repeat,
-  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='18' viewBox='0 0 64 18'%3E%3Cpath d='M0 0V9a32 9 0 0 0 64 0V0z'/%3E%3C/svg%3E") bottom/64px 18px repeat-x;
- mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='18' viewBox='0 0 64 18'%3E%3Cpath d='M0 18V9a32 9 0 0 1 64 0V18z'/%3E%3C/svg%3E") top/64px 18px repeat-x,
-  linear-gradient(#000,#000) 0 17px/100% calc(100% - 34px) no-repeat,
-  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='18' viewBox='0 0 64 18'%3E%3Cpath d='M0 0V9a32 9 0 0 0 64 0V0z'/%3E%3C/svg%3E") bottom/64px 18px repeat-x}
+.band::before{content:"";position:absolute;z-index:-1;left:50%;width:100vw;transform:translateX(-50%);top:-110px;bottom:-110px;background:var(--band,transparent);
+ -webkit-mask:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 50px,#000 110px,#000 calc(100% - 110px),rgba(0,0,0,.5) calc(100% - 50px),transparent 100%);
+ mask:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 50px,#000 110px,#000 calc(100% - 110px),rgba(0,0,0,.5) calc(100% - 50px),transparent 100%)}
 .band-pink{--band:#ffeef0}.band-butter{--band:#fff4d6}.band-mint{--band:#e6f6ec}.band-lilac{--band:#f0eaff}.band-sky{--band:#e8f3fb}
-.reports{margin-bottom:120px}.super-news{margin-bottom:120px}.news-archive{margin-bottom:120px}.verify{margin-bottom:120px}
+.reports,.super-news,.news-archive,.verify{margin-bottom:150px}
 
 /* side stickers (wide screens only) */
 .deco-layer{position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden;pointer-events:none;z-index:0;display:none}
@@ -51,7 +47,6 @@ header{z-index:10}
 .tier-pending{border-style:dashed!important}
 .tier-pending .grade-copy strong::after,.tier-expired .grade-copy strong::after{content:""}
 .tier-pending .grade-strip{position:relative}
-.tier-pending .grade-strip::after{content:"";position:absolute;right:112px;top:-50px;width:100px;height:68px;background:url("./deco/bubble-wait.webp") center/contain no-repeat;pointer-events:none}
 .tier-expired{filter:saturate(.55) brightness(.99)}
 .tier-expired .grade-strip img{filter:grayscale(.45)}
 
@@ -62,12 +57,9 @@ header{z-index:10}
 .stamp.pending img{transform:rotate(-6deg)}
 .stamp.expired img{transform:rotate(5deg)}
 
-/* Eku peeking + speech bubbles */
+/* Eku peeking */
 .peek-head{position:relative}
 .peek-eku{position:absolute;left:44%;bottom:-24px;width:132px;height:auto;z-index:3;pointer-events:none;filter:drop-shadow(0 3px 5px rgba(120,90,70,.2))}
-.peek-bubble{position:absolute;left:calc(44% - 138px);bottom:20px;width:118px;height:auto;z-index:3;pointer-events:none;animation:dcfloat 5s ease-in-out infinite;--r:-3deg}
 .verify .head{position:relative}
-.verify-bubble{position:absolute;right:6px;top:-70px;width:128px;height:auto;z-index:3;pointer-events:none;animation:dcfloat 5.5s ease-in-out infinite;--r:2deg}
-.submit-bubble{position:absolute;right:392px;top:-58px;width:122px;height:auto;z-index:3;pointer-events:none;animation:dcfloat 5s ease-in-out infinite;--r:-2deg}
-@media(max-width:900px){.peek-eku{left:auto;right:6px;width:104px;bottom:-14px}.peek-bubble{left:auto;right:110px;bottom:16px;width:100px}.verify-bubble{width:100px;top:-56px}.submit-bubble{right:auto;left:18px;top:auto;bottom:12px;width:104px}}
-@media(max-width:560px){.verify-bubble,.peek-bubble{display:none}.peek-eku{width:84px}}
+@media(max-width:900px){.peek-eku{left:auto;right:6px;width:104px;bottom:-14px}}
+@media(max-width:560px){.peek-eku{width:84px}}
