@@ -175,6 +175,20 @@
       "tip": "",
       "kind": "morning",
       "id": "2026-10-11-morning"
+    },
+    {
+      "id": "2026-10-10-evening",
+      "kind": "evening",
+      "date": "2026-10-10",
+      "title": "10 月 10 日晚报补刊：大额赠金先过筛 🌙",
+      "summary": "今天确认 APOLLO11 Fusion LLM 的新客模型 API 试用；AkashML、Vultr、Azure 的大额赠额经过连续复查，仍缺当期可用于目标模型 API 的完整证据，转入核查归档。金额写得再大，也不能让 Eku 闭眼往篮子里装。",
+      "highlights": [
+        "APOLLO11 Fusion LLM：官方提供新客约 330 万 Tokens 的模型 API 试用，7 天有效，需绑定信用卡；按普通鸡蛋收录。",
+        "AkashML $100、Vultr $250、Azure $200：相关 AI API 赠额线索经三个不同自然日核查仍缺当期可靠依据，标为 unverifiable，不代表这些平台全部试用活动结束。",
+        "国家超算互联网 MaaS：官方页面展示新客免费 1000 万 DeepSeek-V4.1-Flash Tokens，另有 ¥0.10 的 2000 万 Tokens 付费包；页面的结束提示与 10 月 13 日截止规则冲突，继续待核实。",
+        "移动云 MoMA、智谱 BigModel 和 Ollama Cloud：活动或免费档线索仍在，但个人领取条件、具体 API 适用额度尚未核实，维持 pending。"
+      ],
+      "tip": ""
     }
   ]
 }
