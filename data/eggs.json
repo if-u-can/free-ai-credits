@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-11",
   "eggs": [
     {
       "id": "together-historical",
@@ -910,11 +910,11 @@
       "grade": null,
       "grade_reason": "官方领取条款本轮不可读，免费模型和资格需再次核验",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-10",
-      "next_review_at": "2026-10-11",
+      "last_reviewed_at": "2026-10-11",
+      "next_review_at": "2026-10-12",
       "review_started_at": "2026-10-09",
-      "review_attempts": 2,
-      "review_result": "本日核查官方移动云帮助页 https://ecloud.10086.cn/op-help-center/doc/article/92837，页面无法正常读取；未获得当期个人自助领取 2500 万 Tokens、API 可用模型和绑卡条件的官方完整条款，继续 pending。",
+      "review_attempts": 3,
+      "review_result": "10月11日再次访问移动云官方帮助页，仍无法读取具体活动条款；中国移动公开报道可佐证2500万Tokens赠送宣传，但当期个人在线领取、实际适用模型、API抵扣、绑卡及30天期限仍未核实，继续pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -925,6 +925,14 @@
           "date": "2026-10-10",
           "result": "本日核查官方移动云帮助页 https://ecloud.10086.cn/op-help-center/doc/article/92837，页面无法正常读取；未获得当期个人自助领取 2500 万 Tokens、API 可用模型和绑卡条件的官方完整条款，继续 pending。",
           "source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837"
+        },
+        {
+          "date": "2026-10-11",
+          "result": "10月11日再次访问移动云官方帮助页，仍无法读取具体活动条款；中国移动公开报道可佐证2500万Tokens赠送宣传，但当期个人在线领取、实际适用模型、API抵扣、绑卡及30天期限仍未核实，继续pending。",
+          "source_url": "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+          "secondary_sources": [
+            "https://www1.10086.cn/aboutus/news/groupnews/index_detail_55572.html"
+          ]
         }
       ]
     },
@@ -955,11 +963,11 @@
       "grade": null,
       "grade_reason": "官方赠额宣传存在，但本轮无法证实适用强模型 API 与当前资格",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-10",
-      "next_review_at": "2026-10-11",
+      "last_reviewed_at": "2026-10-11",
+      "next_review_at": "2026-10-12",
       "review_started_at": "2026-10-09",
-      "review_attempts": 2,
-      "review_result": "本日再次访问智谱官方 2000 万 Tokens 活动入口，实时页面仅返回前端脚本壳；官方索引可见宣传但不能核对当前资源包 API 模型、期限、绑卡与资格，继续 pending。",
+      "review_attempts": 3,
+      "review_result": "10月11日打开官方活动页仍仅有前端壳，无法读取实时领取规则；官方历史索引有2000万Tokens宣传，仍缺可适用强模型API、地区实名、支付与期限的当前凭据，暂维持pending而非将旧宣传当作有效。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -970,6 +978,14 @@
           "date": "2026-10-10",
           "result": "本日再次访问智谱官方 2000 万 Tokens 活动入口，实时页面仅返回前端脚本壳；官方索引可见宣传但不能核对当前资源包 API 模型、期限、绑卡与资格，继续 pending。",
           "source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID"
+        },
+        {
+          "date": "2026-10-11",
+          "result": "10月11日打开官方活动页仍仅有前端壳，无法读取实时领取规则；官方历史索引有2000万Tokens宣传，仍缺可适用强模型API、地区实名、支付与期限的当前凭据，暂维持pending而非将旧宣传当作有效。",
+          "source_url": "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+          "secondary_sources": [
+            "https://docs.bigmodel.cn/cn/guide/platform/equity-explain"
+          ]
         }
       ]
     },
@@ -1000,11 +1016,11 @@
       "grade": null,
       "grade_reason": "官方免费包展示模型已变更；活动页面同时出现已结束提示与未到期规则，个人实际领取/API 抵扣待确认",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-10",
-      "next_review_at": "2026-10-11",
+      "last_reviewed_at": "2026-10-11",
+      "next_review_at": "2026-10-12",
       "review_started_at": "2026-10-09",
-      "review_attempts": 2,
-      "review_result": "本日直接读取官方 MaaS 活动页：新客免费包已展示为 DeepSeek-V4.1-Flash 1000 万 Tokens（1024K），而 0.10 元付费秒杀为 DeepSeek-V4.1-Flash 2000 万 Tokens；页面同时包含“活动已结束”提示与活动规则 10月13日截止，实际可领状态冲突，未做新账户 API 赠包实测，继续 pending。",
+      "review_attempts": 3,
+      "review_result": "10月11日直接查看超算互联网官方活动页：免费新客包为1000万DeepSeek-V4.1-Flash Tokens（30天），付费0.10元包为2000万Tokens；活动条款写10月13日23:59截止，但页面同时显示活动已结束，未验证新账号实际领取与支付要求，维持pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1018,6 +1034,14 @@
           "date": "2026-10-10",
           "result": "本日直接读取官方 MaaS 活动页：新客免费包已展示为 DeepSeek-V4.1-Flash 1000 万 Tokens（1024K），而 0.10 元付费秒杀为 DeepSeek-V4.1-Flash 2000 万 Tokens；页面同时包含“活动已结束”提示与活动规则 10月13日截止，实际可领状态冲突，未做新账户 API 赠包实测，继续 pending。",
           "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
+        },
+        {
+          "date": "2026-10-11",
+          "result": "10月11日直接查看超算互联网官方活动页：免费新客包为1000万DeepSeek-V4.1-Flash Tokens（30天），付费0.10元包为2000万Tokens；活动条款写10月13日23:59截止，但页面同时显示活动已结束，未验证新账号实际领取与支付要求，维持pending。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html",
+          "secondary_sources": [
+            "https://www.scnet.cn/home/subject/center/index.html"
+          ]
         }
       ]
     },
@@ -1121,11 +1145,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-10",
-      "next_review_at": "2026-10-11",
+      "last_reviewed_at": "2026-10-11",
+      "next_review_at": "2026-10-12",
       "review_started_at": "2026-10-09",
-      "review_attempts": 2,
-      "review_result": "本日官方定价页确认 Free $0 含每月刷新 Starter usage credits、仅 Starter models、1 并发，云端 API 可用；未明确赠额数值、具体 Starter 模型名单和是否绑卡，继续 pending。",
+      "review_attempts": 3,
+      "review_result": "10月11日再次读取Ollama官方Free定价：Starter usage credits和starter models可通过Cloud API使用，但具体免费模型、赠额数字、支付资格未公开完整，继续pending；没有依据转为unverifiable。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1142,6 +1166,14 @@
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://ollama.com/blog/transparent-pricing"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "result": "10月11日再次读取Ollama官方Free定价：Starter usage credits和starter models可通过Cloud API使用，但具体免费模型、赠额数字、支付资格未公开完整，继续pending；没有依据转为unverifiable。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
           ]
         }
       ]
@@ -1186,6 +1218,57 @@
         "claim_convenience": 12,
         "validity_and_limits": 5
       }
+    },
+    {
+      "id": "freeinference-harvard-research-api-2026",
+      "name": "FreeInference 研究项目免费强模型 API",
+      "type": "高校研究实验室支持的免费模型推理 API",
+      "description": "哈佛 MadSys 实验室支持的免费研究型 API，提供 GLM-5.1、DeepSeek-V4-Flash 等免费模型；会记录提示词和回复用于研究，注册是否开放到最终开通仍待核实。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": "官方确认免费模型 API 和无绑卡注册入口，但没有量化额度，且此前有暂停新用户开通的报道；尚未实测完成注册和发放 API Key",
+      "quality_score": 0,
+      "credits": "免费研究/原型 API，官方未公开固定 tokens、美元赠额或具体每日期限；限额可能随负载调整",
+      "models": [
+        "glm-5.1（Free）",
+        "deepseek-v4-flash（Free）",
+        "glm-5.3-flash（Free）",
+        "minimax-m3（Free）",
+        "minimax-m2.5（Free）",
+        "qwen3.6-35b（Free）"
+      ],
+      "requirements": "年满18岁，使用邮箱注册，无需信用卡；必须同意研究数据收集和去标识化数据可能公开。非哈佛用户开通审批与中国大陆资格尚未实测；禁止提交敏感信息或密钥。",
+      "payment_required": "否（官方明确无需信用卡；未要求预充值）",
+      "url": "https://freeinference.org/",
+      "official_source_url": "https://freeinference.org/",
+      "claim_url": "https://freeinference.org/signup",
+      "source_type": "Harvard SEAS MadSys Lab 研究项目官方主页、模型目录及服务条款",
+      "evidence_urls": [
+        "https://freeinference.org/",
+        "https://freeinference.org/signup",
+        "https://freeinference.org/terms",
+        "https://doc.freeinference.org/models"
+      ],
+      "discovered_at": "2026-10-11",
+      "verified_at": null,
+      "last_seen_at": "2026-10-11",
+      "last_reviewed_at": "2026-10-11",
+      "next_review_at": "2026-10-12",
+      "review_started_at": "2026-10-11",
+      "review_attempts": 1,
+      "verification_note": "2026-10-11 官方首页提供免费注册和 API Key 步骤，模型目录明确多款 Free 模型，条款确认18岁、研究日志与数据公开风险；注册页可打开，但未创建账户、未核实审批是否通过和真实 API 调用。2026-09第三方曾报告平台因容量暂停新用户注册，当前是否已恢复无法仅凭注册页面判断。",
+      "review_result": "官方当前免费 API 及免费模型可验证，最终新账户注册成功与配额尚未核实，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-10-11",
+          "result": "读取官网、注册入口、条款及模型目录；证实无需信用卡且有免费模型 API，但无法验证新用户是否实际获批和拿到 Key；历史曾暂停注册，保持 pending。",
+          "source_url": "https://freeinference.org/signup",
+          "secondary_sources": [
+            "https://doc.freeinference.org/models",
+            "https://freeinference.org/terms"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
