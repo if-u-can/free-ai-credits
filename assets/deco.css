@@ -8,7 +8,7 @@ header{z-index:10}
 .band::before{content:"";position:absolute;z-index:-1;left:50%;width:100vw;transform:translateX(-50%);top:-110px;bottom:-110px;background:var(--band,transparent);
  -webkit-mask:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 50px,#000 110px,#000 calc(100% - 110px),rgba(0,0,0,.5) calc(100% - 50px),transparent 100%);
  mask:linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 50px,#000 110px,#000 calc(100% - 110px),rgba(0,0,0,.5) calc(100% - 50px),transparent 100%)}
-.band-pink{--band:#ffeef0}.band-butter{--band:#fff4d6}.band-mint{--band:#e6f6ec}.band-lilac{--band:#f0eaff}.band-sky{--band:#e8f3fb}
+.band-pink,.band-butter,.band-mint,.band-lilac,.band-sky{--band:#fff1e3}
 .reports,.super-news,.news-archive,.verify{margin-bottom:150px}
 
 /* side stickers (wide screens only) */
