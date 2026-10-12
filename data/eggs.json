@@ -1295,6 +1295,42 @@
           "reviewed_at": "2026-10-12T05:09:39.606Z"
         }
       ]
+    },
+    {
+      "id": "aionlabs-daily-free-api-2026",
+      "name": "Aion Labs 每日免费模型 API",
+      "type": "官方模型厂商",
+      "description": "注册即可使用每日免费模型 API 配额，无需绑卡；每天最多 2 万 Tokens、每分钟 15 次请求，模型偏向创作与角色扮演。",
+      "status": "active",
+      "grade": "normal",
+      "grade_reason": "官方确认无绑卡、持续每日免费 API 配额；20K Tokens/天且模型偏创作，不符合高价值 Super 条件",
+      "quality_score": 53,
+      "credits": "Free 档每日最多 20,000 Tokens、每分钟最多 15 次请求；非美元赠金，不可累积；免费档另有每日 credit allowance，金额未公布",
+      "models": [
+        "aion-labs/aion-2.0",
+        "aion-labs/aion-3.0",
+        "aion-labs/aion-3.0-mini",
+        "aion-labs/aion-3.5",
+        "aion-labs/aion-3.5-mini",
+        "aion-labs/aion-rp-llama-3.1-8b"
+      ],
+      "requirements": "个人邮箱注册；官方明确免费档无需信用卡，未要求预充值；中国大陆地区注册及真实 API 调用尚未实测，免费配额可能受每日 credits 限制",
+      "payment_required": "否（Free 档无需信用卡或充值）",
+      "url": "https://www.aionlabs.ai/pricing/",
+      "official_source_url": "https://www.aionlabs.ai/pricing/",
+      "claim_url": "https://www.aionlabs.ai/accounts/signup/",
+      "source_type": "官方定价、API 文档、速率限制与公开注册页",
+      "evidence_urls": [
+        "https://www.aionlabs.ai/pricing/",
+        "https://www.aionlabs.ai/docs/rate-limits/",
+        "https://www.aionlabs.ai/docs/models/",
+        "https://www.aionlabs.ai/docs/",
+        "https://www.aionlabs.ai/accounts/signup/"
+      ],
+      "discovered_at": "2026-10-12",
+      "verified_at": "2026-10-12",
+      "last_seen_at": "2026-10-12",
+      "verification_note": "2026-10-12 实际读取官网：定价页确认 Free $0、每日 credits 可用于 API 且无需信用卡；速率文档确认 Free 15 RPM、20K TPM、20K Tokens/天；模型目录公开列出 Aion 2.0/3.0/3.5 系列；邮箱注册表单可访问。未创建账号、未实测到账和模型 API 响应，地区可用性未知。"
     }
   ],
   "grade_policy": {
