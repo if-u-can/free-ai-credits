@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-12",
   "eggs": [
     {
       "id": "together-historical",
@@ -1151,11 +1151,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-11",
-      "next_review_at": "2026-10-12",
+      "last_reviewed_at": "2026-10-12",
+      "next_review_at": "2026-10-13",
       "review_started_at": "2026-10-09",
-      "review_attempts": 3,
-      "review_result": "19:00晚间复查官方定价仍有Free $0、Starter usage credits与Starter models，Cloud API免费档有当前依据；未明确免费型号清单、额度数字、绑卡及地区资格，保持pending。",
+      "review_attempts": 4,
+      "review_result": "10月12日读取官方定价：Free $0含Starter usage credits和Starter models，按注册日每月刷新、1并发；具体免费型号、额度数字及个人绑卡/地区资格仍未公开完整，保持pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1183,6 +1183,13 @@
           ],
           "evening_result": "19:00晚间复查官方定价仍有Free $0、Starter usage credits与Starter models，Cloud API免费档有当前依据；未明确免费型号清单、额度数字、绑卡及地区资格，保持pending。",
           "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
+        },
+        {
+          "date": "2026-10-12",
+          "result": "10月12日读取官方定价：Free $0含Starter usage credits和Starter models，按注册日每月刷新、1并发；具体免费型号、额度数字及个人绑卡/地区资格仍未公开完整，保持pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [],
+          "reviewed_at": "2026-10-12T05:09:39.606Z"
         }
       ]
     },
@@ -1260,12 +1267,12 @@
       "discovered_at": "2026-10-11",
       "verified_at": null,
       "last_seen_at": "2026-10-11",
-      "last_reviewed_at": "2026-10-11",
-      "next_review_at": "2026-10-12",
+      "last_reviewed_at": "2026-10-12",
+      "next_review_at": "2026-10-13",
       "review_started_at": "2026-10-11",
-      "review_attempts": 1,
+      "review_attempts": 2,
       "verification_note": "2026-10-11 官方首页提供免费注册和 API Key 步骤，模型目录明确多款 Free 模型，条款确认18岁、研究日志与数据公开风险；注册页可打开，但未创建账户、未核实审批是否通过和真实 API 调用。2026-09第三方曾报告平台因容量暂停新用户注册，当前是否已恢复无法仅凭注册页面判断。",
-      "review_result": "19:00晚间复查注册入口与模型目录可读；Free目录含GLM-5.1、DeepSeek-V4-Flash、MiniMax-M3等，实际权限由账户API Key返回的模型列表决定。未创建账户或验证获批、到账与配额，保持pending。",
+      "review_result": "10月12日读取官方注册条款和模型目录：18岁以上须同意研究日志及去标识化数据可能公开；GLM-5.1、DeepSeek-V4-Flash等标为Free，实际权限以账户API模型列表为准。未注册或实测获批，量化配额及地区资格仍未知，保持pending。",
       "review_history": [
         {
           "date": "2026-10-11",
@@ -1277,6 +1284,15 @@
           ],
           "evening_result": "19:00晚间复查注册入口与模型目录可读；Free目录含GLM-5.1、DeepSeek-V4-Flash、MiniMax-M3等，实际权限由账户API Key返回的模型列表决定。未创建账户或验证获批、到账与配额，保持pending。",
           "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
+        },
+        {
+          "date": "2026-10-12",
+          "result": "10月12日读取官方注册条款和模型目录：18岁以上须同意研究日志及去标识化数据可能公开；GLM-5.1、DeepSeek-V4-Flash等标为Free，实际权限以账户API模型列表为准。未注册或实测获批，量化配额及地区资格仍未知，保持pending。",
+          "source_url": "https://freeinference.org/signup",
+          "secondary_sources": [
+            "https://doc.freeinference.org/models"
+          ],
+          "reviewed_at": "2026-10-12T05:09:39.606Z"
         }
       ]
     }

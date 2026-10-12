@@ -1,15 +1,20 @@
 {
   "morning": {
-    "date": "2026-10-11",
-    "title": "10 月 11 日早报：$10 免费模型额度新线索 ☀️",
-    "summary": "今天查到 Braintrust Starter 每月 $10 的模型 credits，支持 API 调用，但内置模型使用存在工作邮箱或绑卡门槛，暂不把它当成低门槛超级鸡蛋。MoMA 新用户 2500 万 Tokens 的公开报道仍需与现行领取入口交叉核对。",
+    "date": "2026-10-12",
+    "title": "10 月 12 日早报补刊：免费档有依据，门槛继续查 ☀️",
+    "summary": "今天复核了Ollama与FreeInference两项待核实API。官方免费档仍有依据，具体配额和个人开通资格尚未核实完整，继续保留问号；本期没有确认新的超级鸡蛋。",
     "highlights": [
-      "Braintrust Starter：官方定价说明列出每月 $10 模型 credits；内置模型 API 的注册与支付验证条件需留意，尚未完成新账号实领。",
-      "中国移动 MoMA：官方报道提及新认证用户 2500 万 Tokens，当前线上领取条件仍待核实。",
-      "超算互联网 MaaS：活动页面信息有冲突，不能仅按标称 1000 万 Tokens 判断今天仍能领取。",
-      "今天没有确认满足全部硬门槛的新超级鸡蛋。"
+      "Ollama Free：Starter用量按注册日每月刷新，支持1个并发请求；免费型号清单、额度数字及绑卡条件仍待确认。",
+      "FreeInference：目录列有GLM-5.1、DeepSeek-V4-Flash等免费模型；注册须年满18岁并同意研究数据使用，实际获批和配额尚未实测。",
+      "两项均保持pending，不把未领取的额度写成到账；今天不新增Super专题。"
     ],
-    "tip": ""
+    "tip": "",
+    "sources": [
+      "https://ollama.com/pricing",
+      "https://freeinference.org/signup",
+      "https://doc.freeinference.org/models"
+    ],
+    "published_at": "2026-10-12T05:09:39.606Z"
   },
   "evening": {
     "date": "2026-10-11",

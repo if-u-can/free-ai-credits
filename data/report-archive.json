@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-12",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -211,6 +211,25 @@
       ],
       "id": "2026-10-11-evening",
       "kind": "evening"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "10 月 12 日早报补刊：免费档有依据，门槛继续查 ☀️",
+      "summary": "今天复核了Ollama与FreeInference两项待核实API。官方免费档仍有依据，具体配额和个人开通资格尚未核实完整，继续保留问号；本期没有确认新的超级鸡蛋。",
+      "highlights": [
+        "Ollama Free：Starter用量按注册日每月刷新，支持1个并发请求；免费型号清单、额度数字及绑卡条件仍待确认。",
+        "FreeInference：目录列有GLM-5.1、DeepSeek-V4-Flash等免费模型；注册须年满18岁并同意研究数据使用，实际获批和配额尚未实测。",
+        "两项均保持pending，不把未领取的额度写成到账；今天不新增Super专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://ollama.com/pricing",
+        "https://freeinference.org/signup",
+        "https://doc.freeinference.org/models"
+      ],
+      "published_at": "2026-10-12T05:09:39.606Z",
+      "id": "2026-10-12-morning",
+      "kind": "morning"
     }
   ]
 }
