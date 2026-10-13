@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "eggs": [
     {
       "id": "together-historical",
@@ -149,7 +149,7 @@
       "id": "mistral-studio-free-2026",
       "name": "Mistral AI Studio Free Mode",
       "type": "官方平台",
-      "description": "Mistral 的 Free mode 不用绑信用卡就能开 API Key。额度不算大，日常试模型够方便。",
+      "description": "Mistral 官方仍开放免绑卡 Free mode API，但各模型可用额度由账户 Limits 决定；近期有部分模型直接返回 429/403 的反馈。",
       "status": "active",
       "credits": "免费限额 API 调用；非固定美元赠金",
       "models": [
@@ -159,15 +159,22 @@
       "requirements": "注册 Mistral 账号；官方文档称无需信用卡即可开启 Free mode",
       "discovered_at": "2026-10-08",
       "verified_at": "2026-10-08",
-      "verification_note": "官方 Studio API Key 指南明确 Free mode 默认开启，无需信用卡；模型调用限额适用。",
+      "verification_note": "2026-10-13 复核：官方 API Key 指南仍明确 Free mode 默认开启、无需信用卡，并用 mistral-small-latest 示范调用；官方限流说明表示 Free mode 是最低档、实际 RPS/TPM/月限额按账户 Limits 查看。现行 Mistral 定价页已不再列旧 $10/月 API credits。2026-09-04 至 09-21 Reddit 多名用户反馈 Small/Medium/Large 部分模型 429/403；也有 2026-09-10 新用户报告 ministral-14b-2512 正常。未持账户实测，不能断言免费 API 全部关闭或所有型号可用。",
       "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
       "payment_required": "否（官方明确 Free mode 无需信用卡）",
       "source_type": "官方免费模式 API Key 开通教程",
       "official_source_url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
       "claim_url": "https://console.mistral.ai/",
       "grade": "normal",
-      "grade_reason": "免绑卡，开通方便",
-      "quality_score": 66
+      "grade_reason": "官方仍确认免绑卡 Free API，但模型级别权限和免费额度不透明，近期有不可调用反馈",
+      "quality_score": 48,
+      "last_reviewed_at": "2026-10-13",
+      "evidence_urls": [
+        "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+        "https://help.mistral.ai/en/articles/698531-why-am-i-hitting-api-rate-limits-and-how-do-i-increase-them",
+        "https://mistral.ai/pricing/",
+        "https://www.reddit.com/r/MistralAI/comments/1wcqg0f/new_free_account_mistralsmallmedium_give_429/"
+      ]
     },
     {
       "id": "cerebras-developer-5-2026",
@@ -1151,11 +1158,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-12",
-      "next_review_at": "2026-10-13",
+      "last_reviewed_at": "2026-10-13",
+      "next_review_at": "2026-10-14",
       "review_started_at": "2026-10-09",
-      "review_attempts": 4,
-      "review_result": "10月12日读取官方定价：Free $0含Starter usage credits和Starter models，按注册日每月刷新、1并发；具体免费型号、额度数字及个人绑卡/地区资格仍未公开完整，保持pending。",
+      "review_attempts": 5,
+      "review_result": "10月13日复查官方定价页：Free $0 仍含 Starter usage credits 和 starter models，购买 credits 才能解锁所有模型；页面仍未量化 Starter 赠额、完整可用型号与绑卡/中国地区条件。官方当前仍证明有免费 API，不符合‘连续3日无证据’归档条件，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1190,6 +1197,14 @@
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [],
           "reviewed_at": "2026-10-12T05:09:39.606Z"
+        },
+        {
+          "date": "2026-10-13",
+          "result": "10月13日复查官方定价页：Free $0 仍含 Starter usage credits 和 starter models，购买 credits 才能解锁所有模型；页面仍未量化 Starter 赠额、完整可用型号与绑卡/中国地区条件。官方当前仍证明有免费 API，不符合‘连续3日无证据’归档条件，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
         }
       ]
     },
@@ -1267,12 +1282,12 @@
       "discovered_at": "2026-10-11",
       "verified_at": null,
       "last_seen_at": "2026-10-11",
-      "last_reviewed_at": "2026-10-12",
-      "next_review_at": "2026-10-13",
+      "last_reviewed_at": "2026-10-13",
+      "next_review_at": "2026-10-14",
       "review_started_at": "2026-10-11",
-      "review_attempts": 2,
+      "review_attempts": 3,
       "verification_note": "2026-10-11 官方首页提供免费注册和 API Key 步骤，模型目录明确多款 Free 模型，条款确认18岁、研究日志与数据公开风险；注册页可打开，但未创建账户、未核实审批是否通过和真实 API 调用。2026-09第三方曾报告平台因容量暂停新用户注册，当前是否已恢复无法仅凭注册页面判断。",
-      "review_result": "10月12日读取官方注册条款和模型目录：18岁以上须同意研究日志及去标识化数据可能公开；GLM-5.1、DeepSeek-V4-Flash等标为Free，实际权限以账户API模型列表为准。未注册或实测获批，量化配额及地区资格仍未知，保持pending。",
+      "review_result": "10月13日复查官网、公开注册页与模型目录：官方继续声明无信用卡免费 API、可生成 Key，目录含 glm-5.1 与 deepseek-v4-flash 等；但未实际完成新用户注册/获批或 API 调用，未量化配额及中国大陆资格。官方证据持续存在，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-11",
@@ -1293,6 +1308,15 @@
             "https://doc.freeinference.org/models"
           ],
           "reviewed_at": "2026-10-12T05:09:39.606Z"
+        },
+        {
+          "date": "2026-10-13",
+          "result": "10月13日复查官网、公开注册页与模型目录：官方继续声明无信用卡免费 API、可生成 Key，目录含 glm-5.1 与 deepseek-v4-flash 等；但未实际完成新用户注册/获批或 API 调用，未量化配额及中国大陆资格。官方证据持续存在，继续 pending。",
+          "source_url": "https://freeinference.org/signup",
+          "secondary_sources": [
+            "https://freeinference.org/",
+            "https://doc.freeinference.org/models"
+          ]
         }
       ]
     },
@@ -1331,6 +1355,55 @@
       "verified_at": "2026-10-12",
       "last_seen_at": "2026-10-12",
       "verification_note": "2026-10-12 实际读取官网：定价页确认 Free $0、每日 credits 可用于 API 且无需信用卡；速率文档确认 Free 15 RPM、20K TPM、20K Tokens/天；模型目录公开列出 Aion 2.0/3.0/3.5 系列；邮箱注册表单可访问。未创建账号、未实测到账和模型 API 响应，地区可用性未知。"
+    },
+    {
+      "id": "meta-model-api-free-credits-2026",
+      "name": "Meta Model API 新用户免费 credits 线索",
+      "type": "官方模型厂商 API",
+      "description": "Meta 已开放 Muse 系列强模型的自助 API，官方文档提及平台免费层 credits；第三方称新客赠 $20，但官方当期额度和个人领取资格尚未确认。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": "官方证实模型 API 与免费层 credits，但未公开当期新客 $20 数额、适用模型和领取条件",
+      "quality_score": 0,
+      "credits": "官方文档提及 free-tier credits，金额未公开；第三方 2026-08 报道称新客 $20，未获官方当期证实，不能按 $20 评级",
+      "models": [
+        "muse-wonder-1.0（平台提供，赠额适用待核实）",
+        "muse-spark-1.3（平台提供，赠额适用待核实）",
+        "muse-spark-1.2（平台提供，赠额适用待核实）"
+      ],
+      "requirements": "Meta 开发者账号；官方当前写 public preview with expanded global access，但个人中国大陆地区资格、是否需支付卡、免费额度有效期与到账条件尚未核实；不等同于 Muse Code 订阅福利。",
+      "payment_required": "未知（未确认是否绑卡/预充值）",
+      "url": "https://dev.meta.ai/products/meta-model-api/",
+      "official_source_url": "https://dev.meta.ai/products/meta-model-api/",
+      "claim_url": "https://dev.meta.ai/products/meta-model-api/",
+      "source_type": "Meta 官方 API/模型定价/文档及第三方新客赠额线索",
+      "evidence_urls": [
+        "https://dev.meta.ai/products/meta-model-api/",
+        "https://dev.meta.ai/docs/overview",
+        "https://dev.meta.ai/docs/pricing-rate-limits",
+        "https://dev.meta.ai/docs/speech-to-text",
+        "https://www.layer3labs.io/guides/meta-model-api-guide"
+      ],
+      "discovered_at": "2026-10-13",
+      "verified_at": null,
+      "last_seen_at": "2026-10-13",
+      "last_reviewed_at": "2026-10-13",
+      "next_review_at": "2026-10-14",
+      "review_started_at": "2026-10-13",
+      "review_attempts": 1,
+      "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。",
+      "review_result": "官方确认 API 与平台免费层 credits，未核实当期 $20 赠额及资格，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-10-13",
+          "result": "查 Meta 官方产品页、模型价格、Speech-to-text 免费层 credits 提及和第三方 $20 报道；官方当前未确认 $20、地区和绑卡，不能评 active/super。",
+          "source_url": "https://dev.meta.ai/products/meta-model-api/",
+          "secondary_sources": [
+            "https://dev.meta.ai/docs/speech-to-text",
+            "https://www.layer3labs.io/guides/meta-model-api-guide"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
