@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "eggs": [
     {
       "id": "together-historical",
@@ -1447,6 +1447,96 @@
           "secondary_sources": [
             "https://docs.hetzner.com/general/company-and-policy/experiments/experiments-platform/",
             "https://docs.hetzner.com/general/security-and-identify/fraud-prevention-faq/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwencloud-70m-multimodel-free-2026",
+      "name": "QwenCloud 新客跨模型 7000 万+ 免费 Tokens",
+      "type": "官方模型推理平台（QwenCloud 国际站）",
+      "description": "QwenCloud 官方宣传新客跨模型合计 7000 万+ 免费 Tokens；各模型配额独立、一般有效 90 天，需完成支付信息验证。",
+      "status": "active",
+      "grade": "premium",
+      "grade_reason": "官方现行免费 API 与强模型目录可核实，但 7000 万为多模型累计、需支付验证且单个强模型额度未知，不符合 Super 单模型价值与低门槛硬条件",
+      "quality_score": 72,
+      "credits": "官网宣传 70M+ 免费 Tokens（跨模型累计，不可转移或合并）；具体每个模型的额度以登录后的 Free Tier 列表为准；通常 90 天有效",
+      "models": [
+        "qwen3.8-max（是否有免费配额及数额以账户为准）",
+        "qwen3.8-flash（是否有免费配额及数额以账户为准）",
+        "qwen3.7-plus（是否有免费配额及数额以账户为准）",
+        "deepseek-v4-pro-0813（是否有免费配额及数额以账户为准）"
+      ],
+      "requirements": "个人可用邮箱或 GitHub 注册；必须完成支付信息验证才能激活免费配额。官方未要求为领取配额先充值，但绑卡/扣费验证细节、地区适用性未实测。超额默认按量计费，应提前为所有模型启用 Free quota only；该计划是 QwenCloud 国际站，勿与已收录阿里云百炼北京地域免费配额混算。",
+      "payment_required": "需完成支付信息验证；未见官方要求先充值，具体验证是否扣款未实测",
+      "url": "https://docs.qwencloud.com/resources/free-quota",
+      "official_source_url": "https://docs.qwencloud.com/resources/free-quota",
+      "claim_url": "https://home.qwencloud.com/benefits",
+      "source_type": "QwenCloud 官方首页、Free quota 文档及模型目录",
+      "evidence_urls": [
+        "https://www.qwencloud.com/",
+        "https://docs.qwencloud.com/resources/free-quota",
+        "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models",
+        "https://home.qwencloud.com/benefits"
+      ],
+      "discovered_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
+      "verification_note": "2026-10-14 官网明确宣传 70M+ free tokens，当前 Free quota 文档明确新客支付信息验证后获得各模型独立 API 免费配额，通常90天，仅抵扣实时推理；免费配额用完默认转按量计费，须开启 Free quota only 防超额。官网列 Qwen3.8-Max/Flash 等可调用模型，但未确认其各自确切免费额度；未实测注册/到账。2026-08 有社区账单争议，不能视作已证实官方计费错误。",
+      "review_result": "官方当期新客免费模型 API 与支付验证规则可查；跨模型总额不能等同单个强模型可用 7000 万。",
+      "review_history": [
+        {
+          "date": "2026-10-14",
+          "result": "核对官网 70M+ 跨模型宣传、Free quota 有效期与支付验证、按模型独立额度和 Free quota only 风险，未登录核实单模型额度。",
+          "source_url": "https://docs.qwencloud.com/resources/free-quota",
+          "secondary_sources": [
+            "https://www.qwencloud.com/",
+            "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sensenova-token-plan-free-beta-2026",
+      "name": "商汤 SenseNova Token Plan 免费公测 API",
+      "type": "官方模型厂商 API 免费公测",
+      "description": "商汤日日新 Token Plan 公测期 ¥0/月，国内官网每 5 小时提供 60,000 积分，支持 API Key 调用两款精选模型。",
+      "status": "active",
+      "grade": "normal",
+      "grade_reason": "官方现行公测免费、可创建 API Key 且有周期配额，但积分与 Tokens 换算未知、可用模型较少且公测可能结束",
+      "quality_score": 60,
+      "credits": "中国站 Free 公测 ¥0/月，每 5 小时 60,000 积分（不是 60,000 Tokens；特殊模型不适用）；公测结束日期未公布；海外站另显示每模型每 5 小时 1,500 次调用，不与国内额度叠加",
+      "models": [
+        "SenseNova 6.8 Flash Lite",
+        "SenseNova U1 Fast"
+      ],
+      "requirements": "需注册商汤 SenseNova 平台账户并创建 API Key；官网提供直接免费开通入口，国内个人/实名/手机号与绑卡具体要求未登录验证；公测期免费，特殊模型除外，付费档位尚未上线。",
+      "payment_required": "官网写 ¥0/月，是否要求绑卡或实名待账户实际验证；未见必须先充值的公开要求",
+      "url": "https://www.sensenova.cn/token-plan",
+      "official_source_url": "https://www.sensenova.cn/token-plan",
+      "claim_url": "https://platform.sensenova.cn/console/keys",
+      "source_type": "商汤 SenseNova 官方中国站 Token Plan 页面与官方控制台入口",
+      "evidence_urls": [
+        "https://www.sensenova.cn/token-plan",
+        "https://platform.sensenova.cn/console/keys",
+        "https://www.sensenova.ai/token-plan"
+      ],
+      "discovered_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
+      "verification_note": "2026-10-14 官方中国站仍写公测完全免费、¥0/月、60,000 积分/5小时、SenseNova 6.8 Flash Lite 与 U1 Fast、最多20个 API Key；官方海外站另显示每模型1500次/5小时，可能为不同地区方案。两者不得相加。未登录实测注册、实名认证/支付资格或积分折算；模型和免费额度以中国站现行公开页面为准。",
+      "review_result": "官网明确提供免费 API Key 方案及周期积分，收录普通鸡蛋；不把积分换算成 Tokens。",
+      "review_history": [
+        {
+          "date": "2026-10-14",
+          "result": "核对中国站当前免费公测套餐与可用模型、API Key 及海外站差异；未实测账号条件和积分折算。",
+          "source_url": "https://www.sensenova.cn/token-plan",
+          "secondary_sources": [
+            "https://www.sensenova.ai/token-plan"
           ]
         }
       ]
