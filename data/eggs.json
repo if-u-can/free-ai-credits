@@ -1404,6 +1404,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hetzner-experiments-inference-free-2026",
+      "name": "Hetzner Experiments 免费推理 API",
+      "type": "正规云服务商官方实验型模型 API",
+      "description": "Hetzner 实验平台免费开放 OpenAI 兼容推理 API，提供 Qwen3.8-27B 和 Qwen3.6-35B-A3B；每分钟最多 10 次请求，实验服务不保证持续可用。",
+      "status": "active",
+      "grade": "premium",
+      "grade_reason": "官方明确实验期免费、个人 Hetzner 客户可用且提供持续较宽松的 Token 速率额度；仅两款中型 Qwen、账号身份审核及实验期稳定性限制，不满足 Super 的强模型和低门槛要求",
+      "quality_score": 65,
+      "credits": "实验阶段免费，无固定美元赠金或总 Tokens 包；每 API Key 限 60 秒 4,000,000 输入 Tokens、100,000 输出 Tokens、10 次请求；实验结束可调整或终止",
+      "models": [
+        "Qwen3.8-27B",
+        "Qwen/Qwen3.6-35B-A3B-FP8"
+      ],
+      "requirements": "面向 Hetzner 客户，需邮箱、真实个人联系信息和账单地址注册；可能需额外电话或身份证核验，也可能要求信用卡预付款作为身份核验替代方式；中国大陆账户开通与 API Key 实际调用尚未实测；无需为实验期推理 API 购买付费套餐",
+      "payment_required": "API 实验期免费；注册身份核验可能要求证件或信用卡预付款，具体依账户审核",
+      "url": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
+      "official_source_url": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
+      "claim_url": "https://experiments.hetzner.com/inference",
+      "source_type": "Hetzner 官方 Experiments 介绍、Inference API 文档、账号注册与反欺诈核验说明",
+      "evidence_urls": [
+        "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
+        "https://docs.hetzner.com/general/company-and-policy/experiments/experiments-platform/",
+        "https://docs.hetzner.com/general/billing-and-account-management/account-getting-started/",
+        "https://docs.hetzner.com/general/security-and-identify/fraud-prevention-faq/",
+        "https://experiments.hetzner.com/inference"
+      ],
+      "discovered_at": "2026-10-13",
+      "verified_at": "2026-10-13",
+      "last_seen_at": "2026-10-13",
+      "last_reviewed_at": "2026-10-13",
+      "next_review_at": "2026-10-14",
+      "verification_note": "2026-10-13 重新读取 Hetzner 官方 Inference API 文档：实验期间明确免费、API 提供两款 Qwen 模型、OpenAI 兼容端点，限额 4M 输入/100K 输出 tokens 与 10 RPM；Experiments 官方介绍确认对 Hetzner 客户开放。官方注册文档要求真实账单地址，反欺诈 FAQ 提及身份证或信用卡预付款身份核验。注册入口页面需 JavaScript，未创建账户或实测 Key、地区资格；不保证生产可用性。",
+      "review_result": "官方现行实验服务与免费配额可核实，评 active/premium；账户审核和中国大陆实测仍有不确定性。",
+      "review_history": [
+        {
+          "date": "2026-10-13",
+          "result": "官方 Inference 文档确认实验期免费、两款 Qwen API 模型和速率上限；注册/反欺诈文档确认可能需额外身份审核；未实测中国大陆账户与 Key。",
+          "source_url": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
+          "secondary_sources": [
+            "https://docs.hetzner.com/general/company-and-policy/experiments/experiments-platform/",
+            "https://docs.hetzner.com/general/security-and-identify/fraud-prevention-faq/"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
