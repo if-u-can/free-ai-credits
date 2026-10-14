@@ -1162,7 +1162,7 @@
       "next_review_at": "2026-10-15",
       "review_started_at": "2026-10-09",
       "review_attempts": 6,
-      "review_result": "10月14日核查 Ollama 官方 Pricing：Free $0 仍有每月 Starter usage credits、Starter models、1 并发；没有公开具体额度、Starter 型号及地区绑卡要求，继续 pending。",
+      "review_result": "10月14日早报复核官方Pricing：Free $0包含Starter usage credits、Starter models、1并发，免费用量按注册日每月刷新。具体免费额度、Starter型号、个人绑卡及中国大陆资格仍未公开完整，继续pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1212,7 +1212,11 @@
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://ollama.com/blog/transparent-pricing"
-          ]
+          ],
+          "morning_result": "10月14日早报复核官方Pricing：Free $0包含Starter usage credits、Starter models、1并发，免费用量按注册日每月刷新。具体免费额度、Starter型号、个人绑卡及中国大陆资格仍未公开完整，继续pending。",
+          "morning_reviewed_at": "2026-10-14T13:43:09.801+08:00",
+          "morning_source_url": "https://ollama.com/pricing",
+          "morning_secondary_sources": []
         }
       ]
     },
@@ -1378,12 +1382,12 @@
       "id": "meta-model-api-free-credits-2026",
       "name": "Meta Model API 新用户免费 credits 线索",
       "type": "官方模型厂商 API",
-      "description": "Meta 已开放 Muse 系列强模型的自助 API，官方文档提及平台免费层 credits；第三方称新客赠 $20，但官方当期额度和个人领取资格尚未确认。",
+      "description": "Meta Muse模型API已自助开放；新客$20赠额只有第三方历史线索，本次未在官方价格与语音文档中读到明确免费credits条款，继续待核实。",
       "status": "pending",
       "grade": null,
-      "grade_reason": "官方证实模型 API 与免费层 credits，但未公开当期新客 $20 数额、适用模型和领取条件",
+      "grade_reason": "新客赠额缺少当前官方金额、适用模型和领取条件，继续待核实",
       "quality_score": 0,
-      "credits": "官方文档提及 free-tier credits，金额未公开；第三方 2026-08 报道称新客 $20，未获官方当期证实，不能按 $20 评级",
+      "credits": "历史线索：第三方2026-08报道新客$20，10月13日旧核查提及free-tier credits；10月14日官方可读价格与语音文档未确认当期赠额，金额、有效期及适用模型待核实",
       "models": [
         "muse-wonder-1.0（平台提供，赠额适用待核实）",
         "muse-spark-1.3（平台提供，赠额适用待核实）",
@@ -1409,8 +1413,8 @@
       "next_review_at": "2026-10-15",
       "review_started_at": "2026-10-13",
       "review_attempts": 2,
-      "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。",
-      "review_result": "10月14日核查 Meta 官方 Model API 产品页和价格页：确认 Muse API 开放，但仍未确认免费层当期 $20 赠额、支付条件和中国大陆资格，继续 pending。",
+      "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。 2026-10-14早报复核补充：本轮可读取的官方价格页和语音文档未含明确免费credits或新客$20规则；Contributor价格是折扣而非赠金，历史提及不作为本次当期证据。产品页返回500不证明活动结束，保留pending。",
+      "review_result": "10月14日早报复核官方价格和语音文档：当前可读正文未提供免费credits或新客$20的明确条款，显示按量付费及Contributor折扣。产品页本轮返回500，不能据此判expired。赠额金额、适用模型、绑卡、有效期和个人地区资格仍未知，继续pending。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -1427,6 +1431,13 @@
           "source_url": "https://dev.meta.ai/products/meta-model-api/",
           "secondary_sources": [
             "https://dev.meta.ai/docs/pricing-rate-limits"
+          ],
+          "morning_result": "10月14日早报复核官方价格和语音文档：当前可读正文未提供免费credits或新客$20的明确条款，显示按量付费及Contributor折扣。产品页本轮返回500，不能据此判expired。赠额金额、适用模型、绑卡、有效期和个人地区资格仍未知，继续pending。",
+          "morning_reviewed_at": "2026-10-14T13:43:09.801+08:00",
+          "morning_source_url": "https://dev.meta.ai/docs/pricing-rate-limits",
+          "morning_secondary_sources": [
+            "https://dev.meta.ai/docs/speech-to-text",
+            "https://dev.meta.ai/products/meta-model-api/"
           ]
         }
       ]
