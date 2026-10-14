@@ -1668,6 +1668,97 @@
           ]
         }
       ]
+    },
+    {
+      "discovered_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
+      "id": "qiniu-free-kimi-k3-nemotron-2026",
+      "name": "七牛云 Kimi K3 / Nemotron 3 Ultra 免费模型 API",
+      "type": "正规云厂商官方免费模型推理 API",
+      "description": "七牛云模型广场将 Kimi-K3 Free 和 Nemotron 3 Ultra 550B Free 标为零计费，可通过兼容 OpenAI 的 API 调用；具体免费限额未公开。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 72,
+      "grade_reason": "官方强模型 API 标价零、个人可申请 Key，但免费总量和限速未明确，尚不满足 Super 的高价值可用量门槛。",
+      "credits": "Kimi-K3 Free、Nemotron 3 Ultra 550B Free 官方标注免费调用、不计费；未公布保证的总 token 数、速率或免费期限；其他模型不一定免费",
+      "models": [
+        "Kimi-K3 Free",
+        "Nemotron 3 Ultra 550b a55b Free"
+      ],
+      "requirements": "七牛云个人手机号注册，创建 AI 大模型推理 API Key；首次使用起 24 小时免实名，之后须个人实名认证；未实名限速。新账户实际调用未测试。",
+      "payment_required": "官网免费型号价格为零；未发现公开强制绑卡或预充值要求，开户支付验证未实测。",
+      "url": "https://www.qiniu.com/ai/models",
+      "official_source_url": "https://www.qiniu.com/ai/models",
+      "claim_url": "https://portal.qiniu.com/ai-inference/api-key",
+      "source_type": "七牛云官方模型广场及 API Key、实名认证、接口文档",
+      "evidence_urls": [
+        "https://www.qiniu.com/ai/models",
+        "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
+        "https://developer.qiniu.com/aitokenapi/13255/verify-real-name",
+        "https://developer.qiniu.com/aitokenapi/13462/aitoken-use-faq"
+      ],
+      "verification_note": "2026-10-14 官方模型广场明确列出两款免费强模型并标记不计费；官方文档证实个人注册、API Key、OpenAI/Anthropic 兼容接口及24小时免实名体验。尚未实际注册或调用；免费速率、额度总量和具体支付验证不详，近期独立实测反馈不足。",
+      "review_result": "官方当期免费强模型 API 及申请入口可验证，评 active/premium；新账户真实调用和额度待测。",
+      "review_history": [
+        {
+          "date": "2026-10-14",
+          "result": "核实模型广场零计费强模型、API Key 获取、24小时免实名规则；未测试新账户真实调用。",
+          "source_url": "https://www.qiniu.com/ai/models",
+          "secondary_sources": [
+            "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
+            "https://developer.qiniu.com/aitokenapi/13255/verify-real-name"
+          ]
+        }
+      ]
+    },
+    {
+      "discovered_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
+      "id": "qiniu-new-user-3m-fusion-2026",
+      "name": "七牛云新客 300 万 Tokens 模型 API 资源包",
+      "type": "正规云厂商新用户 AI API 免费资源包",
+      "description": "首次创建 AI 推理 API Key 可激活 300 万基准 Tokens 资源包，跨支持模型按价格比例抵扣；用尽后自动按量计费。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 57,
+      "grade_reason": "官方新客资源包可抵模型 API，但300万是 DeepSeek-V3.1 价格基准的折算量，昂贵模型实际可用 Tokens 较少。",
+      "credits": "新客一次性 300 万 DeepSeek-V3.1 基准 Tokens 融合资源包；不同模型按价格比例扣减，支持型号与有效期以账户资源包详情为准；额度有限先到先得",
+      "models": [
+        "DeepSeek-V3.1（计价基准，是否仍可调用以当期目录为准）",
+        "其他支持模型以资源包详情为准"
+      ],
+      "requirements": "七牛云个人手机号注册，首次创建 AI 大模型推理 API Key 激活；首次使用24小时免实名，之后须个人实名；无需企业或学生资格。实际到账和有效期未测试。",
+      "payment_required": "官方未要求领取前充值，绑卡未实测；资源包耗尽自动按量计费，可设置 API Key 日/月/总消费限额。",
+      "url": "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
+      "official_source_url": "https://www.qiniu.com/ai/models",
+      "claim_url": "https://portal.qiniu.com/ai-inference/api-key",
+      "source_type": "七牛云官方模型广场、API Key 领取说明、融合资源包规则",
+      "evidence_urls": [
+        "https://www.qiniu.com/ai/models",
+        "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
+        "https://developer.qiniu.com/aitokenapi/13167/fusion-resource-package",
+        "https://developer.qiniu.com/aitokenapi/13255/verify-real-name",
+        "https://developer.qiniu.com/aitokenapi/13409/apikey-use-limit-api"
+      ],
+      "verification_note": "2026-10-14 官方模型广场仍显示新客300万基准Tokens，API Key文档写首次创建即激活；融合资源包按 DeepSeek-V3.1 输入价比例抵扣其他模型，耗尽后自动转按量。未实际注册到账；具体适用模型、时限及支付验证不详。",
+      "review_result": "官方新客资源包、领取步骤及 API 抵扣规则有效，评 active/normal；不将基准 Tokens 等同强模型实得量。",
+      "review_history": [
+        {
+          "date": "2026-10-14",
+          "result": "核实新客300万资源包、首次创建Key激活、价格比例抵扣及自动计费；未实际领取。",
+          "source_url": "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
+          "secondary_sources": [
+            "https://www.qiniu.com/ai/models",
+            "https://developer.qiniu.com/aitokenapi/13167/fusion-resource-package"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
