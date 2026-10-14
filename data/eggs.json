@@ -1613,6 +1613,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "zai-glm-free-api-2026",
+      "name": "Z.AI GLM 免费模型 API",
+      "type": "官方模型厂商免费 API",
+      "description": "Z.AI 的三款 Flash 模型在官方 API 定价表中输入、缓存和输出均为免费，适合轻量编程与视觉实验；账号仍受调用限速约束。",
+      "status": "active",
+      "grade": "normal",
+      "grade_reason": "官方直接提供长期零单价模型 API，但仅限 Flash 型号、免费调用量未公开，不符合高价值强模型 Super 门槛。",
+      "quality_score": 62,
+      "credits": "GLM-4.7-Flash、GLM-4.5-Flash、GLM-4.6V-Flash 输入/缓存/输出均 $0；无美元赠金、无公开固定 token 总额，按账户模型限速使用",
+      "models": [
+        "glm-4.7-flash",
+        "glm-4.5-flash",
+        "glm-4.6v-flash"
+      ],
+      "requirements": "个人注册 Z.AI Open Platform、创建 API Key；官方快速入门将充值标为按需（if needed），免费型号无需先购买 tokens；中国大陆手机号/实名认证及地区开户细节未实际注册验证；免费模型调用限额在账户控制台查看。",
+      "payment_required": "官方免费型号按 token 计价 $0，快速入门仅提示需要时充值；未实测是否必须绑定支付卡，未发现公开强制预充值条件。",
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "official_source_url": "https://docs.z.ai/guides/overview/pricing",
+      "claim_url": "https://z.ai/model-api",
+      "source_type": "Z.AI 官方模型 API 定价与 Quick Start 文档",
+      "evidence_urls": [
+        "https://docs.z.ai/guides/overview/pricing",
+        "https://docs.z.ai/guides/overview/quick-start",
+        "https://z.ai/model-api"
+      ],
+      "discovered_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
+      "verification_note": "2026-10-14 读取官方 Pricing：GLM-4.7-Flash、GLM-4.5-Flash、GLM-4.6V-Flash 的输入、缓存、输出均为 Free；GLM-5.3-Flash 等不免费。Quick Start 提供个人注册、生成 API Key、OpenAI 兼容 HTTP 接口，充值说明为 if needed。未创建账户、未实测中国大陆注册、支付验证或 API 成功调用；免费并不等于无限制。",
+      "review_result": "官方当期三款免费模型 API 与公开注册路径可核实，评 active/normal；具体限速、绑卡及地区资格未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-14",
+          "result": "核实官方免费模型价格、API Key 开通和 Quick Start；未实测新账户实际请求与限速，按 normal 收录。",
+          "source_url": "https://docs.z.ai/guides/overview/pricing",
+          "secondary_sources": [
+            "https://docs.z.ai/guides/overview/quick-start"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
