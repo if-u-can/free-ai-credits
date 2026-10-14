@@ -1158,11 +1158,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-13",
-      "next_review_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": "2026-10-15",
       "review_started_at": "2026-10-09",
-      "review_attempts": 5,
-      "review_result": "10月13日复查官方定价页：Free $0 仍含 Starter usage credits 和 starter models，购买 credits 才能解锁所有模型；页面仍未量化 Starter 赠额、完整可用型号与绑卡/中国地区条件。官方当前仍证明有免费 API，不符合‘连续3日无证据’归档条件，继续 pending。",
+      "review_attempts": 6,
+      "review_result": "10月14日核查 Ollama 官方 Pricing：Free $0 仍有每月 Starter usage credits、Starter models、1 并发；没有公开具体额度、Starter 型号及地区绑卡要求，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1204,6 +1204,14 @@
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "result": "10月14日核查 Ollama 官方 Pricing：Free $0 仍有每月 Starter usage credits、Starter models、1 并发；没有公开具体额度、Starter 型号及地区绑卡要求，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://ollama.com/blog/transparent-pricing"
           ]
         }
       ]
@@ -1253,11 +1261,11 @@
       "id": "freeinference-harvard-research-api-2026",
       "name": "FreeInference 研究项目免费强模型 API",
       "type": "高校研究实验室支持的免费模型推理 API",
-      "description": "哈佛 MadSys 实验室支持的免费研究型 API，提供 GLM-5.1、DeepSeek-V4-Flash 等免费模型；会记录提示词和回复用于研究，注册是否开放到最终开通仍待核实。",
-      "status": "pending",
-      "grade": null,
-      "grade_reason": "官方确认免费模型 API 和无绑卡注册入口，但没有量化额度，且此前有暂停新用户开通的报道；尚未实测完成注册和发放 API Key",
-      "quality_score": 0,
+      "description": "FreeInference 提供无需信用卡的免费 OpenAI/Anthropic 兼容模型 API，可用于编程 Agent；使用须同意研究日志及脱敏数据分享。",
+      "status": "active",
+      "grade": "premium",
+      "grade_reason": "官方现行注册入口、免费强模型目录与无绑卡 API 均可核实，适合开发试用；具体配额未公开、研究数据收集及服务不保证持续，尚不符合 Super 高价值门槛。",
+      "quality_score": 71,
       "credits": "免费研究/原型 API，官方未公开固定 tokens、美元赠额或具体每日期限；限额可能随负载调整",
       "models": [
         "glm-5.1（Free）",
@@ -1280,14 +1288,14 @@
         "https://doc.freeinference.org/models"
       ],
       "discovered_at": "2026-10-11",
-      "verified_at": null,
-      "last_seen_at": "2026-10-11",
-      "last_reviewed_at": "2026-10-13",
-      "next_review_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
       "review_started_at": "2026-10-11",
       "review_attempts": 3,
-      "verification_note": "2026-10-11 官方首页提供免费注册和 API Key 步骤，模型目录明确多款 Free 模型，条款确认18岁、研究日志与数据公开风险；注册页可打开，但未创建账户、未核实审批是否通过和真实 API 调用。2026-09第三方曾报告平台因容量暂停新用户注册，当前是否已恢复无法仅凭注册页面判断。",
-      "review_result": "10月13日复查官网、公开注册页与模型目录：官方继续声明无信用卡免费 API、可生成 Key，目录含 glm-5.1 与 deepseek-v4-flash 等；但未实际完成新用户注册/获批或 API 调用，未量化配额及中国大陆资格。官方证据持续存在，继续 pending。",
+      "verification_note": "2026-10-14 复查官网、注册页、模型目录与服务条款：当前官网明确免费邮箱注册、无需信用卡、创建 API Key；目录标记 GLM-5.1、DeepSeek-V4-Flash、MiniMax-M3、GLM-5.3-Flash 为 Free，实际可用模型以认证后 /v1/models 为准。注册须满18岁且同意研究数据收集及脱敏发布；未代用户注册，未测试中国大陆地区获批和实际 API 调用，未公开定量额度。",
+      "review_result": "当期官方免费 API、公开注册入口和 Free 模型证据充分，按规范调整为 active/premium；实领、地区与具体配额仍未实测。",
       "review_history": [
         {
           "date": "2026-10-11",
@@ -1316,6 +1324,16 @@
           "secondary_sources": [
             "https://freeinference.org/",
             "https://doc.freeinference.org/models"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "result": "核实官网免费 API、开放邮箱注册、无信用卡及 Free 模型目录；实领与中国大陆资格未实测、配额未量化，升级 active/premium。",
+          "source_url": "https://freeinference.org/signup",
+          "secondary_sources": [
+            "https://freeinference.org/",
+            "https://doc.freeinference.org/models",
+            "https://freeinference.org/terms"
           ]
         }
       ]
@@ -1387,12 +1405,12 @@
       "discovered_at": "2026-10-13",
       "verified_at": null,
       "last_seen_at": "2026-10-13",
-      "last_reviewed_at": "2026-10-13",
-      "next_review_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": "2026-10-15",
       "review_started_at": "2026-10-13",
-      "review_attempts": 1,
+      "review_attempts": 2,
       "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。",
-      "review_result": "官方确认 API 与平台免费层 credits，未核实当期 $20 赠额及资格，保持 pending。",
+      "review_result": "10月14日核查 Meta 官方 Model API 产品页和价格页：确认 Muse API 开放，但仍未确认免费层当期 $20 赠额、支付条件和中国大陆资格，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -1401,6 +1419,14 @@
           "secondary_sources": [
             "https://dev.meta.ai/docs/speech-to-text",
             "https://www.layer3labs.io/guides/meta-model-api-guide"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "result": "10月14日核查 Meta 官方 Model API 产品页和价格页：确认 Muse API 开放，但仍未确认免费层当期 $20 赠额、支付条件和中国大陆资格，继续 pending。",
+          "source_url": "https://dev.meta.ai/products/meta-model-api/",
+          "secondary_sources": [
+            "https://dev.meta.ai/docs/pricing-rate-limits"
           ]
         }
       ]
@@ -1537,6 +1563,53 @@
           "source_url": "https://www.sensenova.cn/token-plan",
           "secondary_sources": [
             "https://www.sensenova.ai/token-plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nebius-builder-token-factory-25-2026",
+      "name": "Nebius Builder Program $25 Token Factory API 赠金",
+      "type": "正规模型推理平台官方开发者计划",
+      "description": "Nebius Builder Program 经申请及邮箱验证可领 $25 Token Factory 模型 API 兑换码，90 天有效；开通 Token Factory 必须绑银行卡。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 66,
+      "grade_reason": "官方现行条款确认 $25 可用于开放模型 API，模型适合编程推理；必须绑银行卡，个人邮箱可能额外审核且地区资格未实测，未满足 Super 低门槛条件。",
+      "credits": "$25 Nebius Token Factory API promotional credits（发码起 90 天有效）；另赠 $25 Tavily 不能用于模型 API，不计入赠额",
+      "models": [
+        "moonshotai/Kimi-K3（实际账户可用性待核实）",
+        "MiniMaxAI/MiniMax-M3（实际账户可用性待核实）",
+        "deepseek-ai/DeepSeek-R1-0528（官方 Quickstart 示例）"
+      ],
+      "requirements": "Builder Program 免费申请：真实姓名、邮箱、公司或大学名称、角色、国家及项目说明，邮箱双重验证；个人邮箱可能额外审核，地区受合规筛查。Token Factory 开户必须绑定银行卡，不要求先实际充值；可能发生自动扣款。赠金限研发、学习和原型，禁止生产/营收用途。中国大陆个人注册及发码尚未实测。",
+      "payment_required": "必须绑定银行卡以完成 Token Factory 账单开户；未见领取赠金须先充值的要求；存在自动扣款风险",
+      "url": "https://dev.nebius.com/builders",
+      "official_source_url": "https://dev.nebius.com/builders",
+      "claim_url": "https://dev.nebius.com/builders",
+      "source_type": "Nebius Builder Program 官方活动页、2026-09 计划条款及 Token Factory 官方账单文档",
+      "evidence_urls": [
+        "https://dev.nebius.com/builders",
+        "https://nebius.com/builders-terms-and-conditions",
+        "https://docs.tokenfactory.nebius.com/other-capabilities/billing-new",
+        "https://docs.tokenfactory.nebius.com/quickstart",
+        "https://dev.nebius.com/cookbook/opencode-nebius-token-factory"
+      ],
+      "discovered_at": "2026-10-14",
+      "verified_at": "2026-10-14",
+      "last_seen_at": "2026-10-14",
+      "last_reviewed_at": "2026-10-14",
+      "next_review_at": null,
+      "verification_note": "2026-10-14 官网及2026-09版官方条款确认成功注册并验证邮箱后提供 $25 Token Factory promo code，发码后90天失效，另有 $25 Tavily 不可混算；官方 Billing & Consumption 明确 Token Factory 开户须银行卡、可能自动扣款、promo code 可抵模型 API 余额；官方 Quickstart 和 OpenCode cookbook 证实强模型 API。未实际注册、发码或测试中国大陆资格。",
+      "review_result": "官方现行 $25 模型 API 赠金及绑卡规则可核实，评 active/premium；实领及中国大陆个人资格未测试。",
+      "review_history": [
+        {
+          "date": "2026-10-14",
+          "result": "核实官方 Builder 活动、计划条款、Token Factory 绑卡账单及 API 模型文档；未实测实际领取或地区资格。",
+          "source_url": "https://nebius.com/builders-terms-and-conditions",
+          "secondary_sources": [
+            "https://dev.nebius.com/builders",
+            "https://docs.tokenfactory.nebius.com/other-capabilities/billing-new"
           ]
         }
       ]
