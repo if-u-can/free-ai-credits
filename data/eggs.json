@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "eggs": [
     {
       "id": "together-historical",
@@ -1158,11 +1158,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-14",
-      "next_review_at": "2026-10-15",
+      "last_reviewed_at": "2026-10-15",
+      "next_review_at": "2026-10-16",
       "review_started_at": "2026-10-09",
       "review_attempts": 6,
-      "review_result": "10月14日早报复核官方Pricing：Free $0包含Starter usage credits、Starter models、1并发，免费用量按注册日每月刷新。具体免费额度、Starter型号、个人绑卡及中国大陆资格仍未公开完整，继续pending。",
+      "review_result": "10月15日官方定价页仍确认 Free $0 每月刷新 Starter usage credits、仅部分 Starter 模型可用，API 文档仍提供云端 Key 调用；赠额金额、免费模型清单、绑卡与中国大陆开户资格未公开完整，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1217,8 +1217,17 @@
           "morning_reviewed_at": "2026-10-14T13:43:09.801+08:00",
           "morning_source_url": "https://ollama.com/pricing",
           "morning_secondary_sources": []
+        },
+        {
+          "date": "2026-10-15",
+          "result": "10月15日官方定价页仍确认 Free $0 每月刷新 Starter usage credits、仅部分 Starter 模型可用，API 文档仍提供云端 Key 调用；赠额金额、免费模型清单、绑卡与中国大陆开户资格未公开完整，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
         }
-      ]
+      ],
+      "last_seen_at": "2026-10-15"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
@@ -1408,13 +1417,13 @@
       ],
       "discovered_at": "2026-10-13",
       "verified_at": null,
-      "last_seen_at": "2026-10-13",
-      "last_reviewed_at": "2026-10-14",
-      "next_review_at": "2026-10-15",
+      "last_seen_at": "2026-10-15",
+      "last_reviewed_at": "2026-10-15",
+      "next_review_at": "2026-10-16",
       "review_started_at": "2026-10-13",
       "review_attempts": 2,
       "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。 2026-10-14早报复核补充：本轮可读取的官方价格页和语音文档未含明确免费credits或新客$20规则；Contributor价格是折扣而非赠金，历史提及不作为本次当期证据。产品页返回500不证明活动结束，保留pending。",
-      "review_result": "10月14日早报复核官方价格和语音文档：当前可读正文未提供免费credits或新客$20的明确条款，显示按量付费及Contributor折扣。产品页本轮返回500，不能据此判expired。赠额金额、适用模型、绑卡、有效期和个人地区资格仍未知，继续pending。",
+      "review_result": "10月15日复查 Meta 官方 Model API 定价与语音文档：语音文档明确写平台 free-tier credits 可抵扣语音调用，但模型 API 定价页没有公布当前新客 $20、免费余额金额、是否适用 Muse Spark/Wonder、绑卡与地区资格；仍有有限免费证据，继续 pending，不把第三方 $20 当作事实。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -1437,6 +1446,15 @@
           "morning_source_url": "https://dev.meta.ai/docs/pricing-rate-limits",
           "morning_secondary_sources": [
             "https://dev.meta.ai/docs/speech-to-text",
+            "https://dev.meta.ai/products/meta-model-api/"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "result": "10月15日复查 Meta 官方 Model API 定价与语音文档：语音文档明确写平台 free-tier credits 可抵扣语音调用，但模型 API 定价页没有公布当前新客 $20、免费余额金额、是否适用 Muse Spark/Wonder、绑卡与地区资格；仍有有限免费证据，继续 pending，不把第三方 $20 当作事实。",
+          "source_url": "https://dev.meta.ai/docs/speech-to-text",
+          "secondary_sources": [
+            "https://dev.meta.ai/docs/pricing-rate-limits",
             "https://dev.meta.ai/products/meta-model-api/"
           ]
         }
@@ -1756,6 +1774,55 @@
           "secondary_sources": [
             "https://www.qiniu.com/ai/models",
             "https://developer.qiniu.com/aitokenapi/13167/fusion-resource-package"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volcengine-ark-new-user-500k-per-model-2026",
+      "name": "火山方舟新客每模型 50 万 Tokens",
+      "type": "正规云厂商官方模型推理 API",
+      "description": "火山方舟官方福利页写明文本模型各有 50 万 Tokens 免费推理额度，可抵扣 API 调用；适用型号以账号开通管理页显示为准。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 63,
+      "grade_reason": "官方可核实每模型独立的免费推理额度和个人入口，但单模型仅 50 万 Tokens，具体可领型号与支付资格尚未实测。",
+      "quality_breakdown": {
+        "free_api_value": 18,
+        "model_usefulness": 23,
+        "claim_convenience": 15,
+        "validity_and_limits": 7
+      },
+      "credits": "新用户文本模型每款 500,000 Tokens，分别抵扣符合条件的模型在线推理；非可跨模型合并的通用赠金。官方未在公开福利页列明领取后有效期。",
+      "models": [
+        "doubao-seed-2.1-pro（模型目录可用，是否享有新人赠额以控制台为准）",
+        "deepseek-v4.1-flash（模型目录可用，是否享有新人赠额以控制台为准）"
+      ],
+      "requirements": "火山引擎个人账号注册，进入火山方舟模型开通管理/免费额度页面查看各模型资格并开通。个人认证、手机号及中国大陆使用要求以账户为准；未登录实测。个人协作奖励计划的每日额外 200 万 Tokens 是另一条件性方案，不计入本条基础赠额。",
+      "payment_required": "公开福利页未注明基础 50 万 Tokens 必须先充值或绑卡；尚未实测实名认证、支付验证及用尽后是否自动计费，应在控制台确认安心体验/用尽即停设置。",
+      "url": "https://docs.volcengine.com/docs/87301/2106521",
+      "official_source_url": "https://docs.volcengine.com/docs/87301/2106521",
+      "claim_url": "https://console.volcengine.com/ark/region:ark+cn-beijing/overview",
+      "source_type": "火山引擎官方客户福利文档、火山方舟模型定价和模型调用文档",
+      "evidence_urls": [
+        "https://docs.volcengine.com/docs/87301/2106521",
+        "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing",
+        "https://console.volcengine.com/ark/region:cn-beijing/docs/deepseek-v4-1-flash"
+      ],
+      "discovered_at": "2026-10-15",
+      "verified_at": "2026-10-15",
+      "last_seen_at": "2026-10-15",
+      "last_reviewed_at": "2026-10-15",
+      "next_review_at": null,
+      "verification_note": "2026-10-15 复核火山引擎公开福利文档：文本模型每款 50 万 Tokens，可抵扣推理 Token 费用，个人开发者另有协作奖励计划但不可视为无条件赠额。福利文档最近更新时间为 2025-12-04，2026-10-14 的官方模型调用文档仍证明方舟 API 活跃。新账号领取、赠额覆盖哪些具体强模型、有效期、个人实名及绑卡均未实测，不据此评 super。",
+      "review_result": "当前官方福利页和注册入口可读，收录基础新人免费 API 配额为 active/normal；额外协作奖励另行核实。",
+      "review_history": [
+        {
+          "date": "2026-10-15",
+          "result": "复核官方新客每模型 50 万 Tokens 与个人注册入口；型号资格、领取有效期、绑卡及真实调用未实测。",
+          "source_url": "https://docs.volcengine.com/docs/87301/2106521",
+          "secondary_sources": [
+            "https://console.volcengine.com/ark/region:cn-beijing/docs/model-pricing"
           ]
         }
       ]
