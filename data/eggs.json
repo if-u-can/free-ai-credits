@@ -1826,6 +1826,62 @@
           ]
         }
       ]
+    },
+    {
+      "id": "amd-fireworks-ai-developer-50-2026",
+      "name": "AMD 开发者计划 $50 Fireworks AI 模型 API 赠金",
+      "type": "官方芯片厂商与正规模型推理平台联合开发者福利",
+      "description": "AMD 免费开发者计划可申请 $50 Fireworks 模型 API 赠金，适合调用 Kimi、DeepSeek、MiniMax 等强模型；申请需经约 2 个工作日资格审核。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 74,
+      "quality_breakdown": {
+        "free_api_value": 29,
+        "model_usefulness": 23,
+        "claim_convenience": 12,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "两家官网确认 $50 可用于强模型推理 API，但需先加入开发者计划并等待人工资格审核，个人地区与支付条件未实测，不满足 Super 低门槛。",
+      "credits": "$50 Fireworks AI 模型推理 API credits；兑换码须在发放后 90 天内使用，AMD 条款称成功兑换后额度可保留至用尽（Fireworks 合作页另概括为 90 天有效）",
+      "models": [
+        "Kimi K3（Fireworks 当前 Serverless 型号）",
+        "DeepSeek V4.1 Flash（Fireworks 当前 Serverless 型号）",
+        "MiniMax M3（Fireworks 当前 Serverless 型号）",
+        "GLM 5.3 Flash（Fireworks 当前 Serverless 型号）"
+      ],
+      "requirements": "个人独立开发者可免费加入 AMD AI Developer Program，登录 Member Perks 填写 Cloud Credit 表单并选择 Fireworks AI，AMD 官方称约 2 个工作日审核资格，获批后邮件发送兑换码。无学生/企业身份硬性要求；中国大陆个人申请通过率、地区限制和实际发码尚未测试。",
+      "payment_required": "官方合作页称无需预付费用；Fireworks 2026-07 起自助账户采用预付余额扣费，赠金兑换是否需绑卡未明确；自动充值若开启可能扣款，需核查账户设置。",
+      "url": "https://fireworks.ai/partners/amd",
+      "official_source_url": "https://fireworks.ai/partners/amd",
+      "claim_url": "https://developer.amd.com/member-perks/",
+      "source_type": "AMD AI Developer Program 官方 FAQ、Member Perks、Fireworks AMD 联合活动页、Fireworks 模型目录与账单政策",
+      "evidence_urls": [
+        "https://fireworks.ai/partners/amd",
+        "https://developer.amd.com/resources/",
+        "https://developer.amd.com/member-perks/",
+        "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-claim-amd-cloud-credits.html",
+        "https://fireworks.ai/models?modelTypes=Serverless&serverless=true",
+        "https://fireworks.ai/blog/billing-migration-to-prepaid"
+      ],
+      "discovered_at": "2026-10-15",
+      "verified_at": "2026-10-15",
+      "last_seen_at": "2026-10-15",
+      "last_reviewed_at": "2026-10-15",
+      "next_review_at": null,
+      "verification_note": "2026-10-15 重新读取 AMD 官方 FAQ：$50 Fireworks API 赠金须成功创建账号并兑换，兑换码发放后 90 天内有效，兑换后按 AMD 条款可用至耗尽。Fireworks 联合活动页证实个人开发者可申请，需约 2 个工作日资格审核且无需 upfront cost；模型目录显示 Kimi K3、DeepSeek V4.1 Flash、MiniMax M3、GLM 5.3 Flash 等 Serverless API。Fireworks 2026-07 起自助账户改为预付制；促销码是否需要绑卡、适用地区及真实到账尚未实际测试。未查到足以证明近期个人申请到账的独立反馈。",
+      "review_result": "官方当期 $50 模型 API 活动与个人申请流程可核实，评 active/premium；人工审核和地区支付资格未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-15",
+          "result": "复核 AMD 与 Fireworks 官方合作页、AMD 兑换条款、申请入口、强模型目录和预付制账单政策；未实测领取、绑卡或中国大陆资格。",
+          "source_url": "https://fireworks.ai/partners/amd",
+          "secondary_sources": [
+            "https://developer.amd.com/resources/",
+            "https://developer.amd.com/member-perks/",
+            "https://fireworks.ai/blog/billing-migration-to-prepaid"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
