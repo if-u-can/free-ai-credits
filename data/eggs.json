@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T14:26:00+08:00",
+  "updated_at": "2026-10-15T17:39:57+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1933,6 +1933,61 @@
           "secondary_sources": [
             "https://manual.sakura.ad.jp/api/cloud/portal/ai-engine-inference-api/index.html",
             "https://secure.sakura.ad.jp/signup3/member-register/input.html?gastep=ai-engine&is_phone_auth_required=tru&redirect=https%3A%2F%2Fsecure.sakura.ad.jp%2Fcloud&service=cloud"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modelscope-magicube-daily-free-api-2026",
+      "name": "魔搭 ModelScope 每日魔粒免费强模型 API",
+      "type": "正规模型社区官方免费 API-Inference 推理服务",
+      "description": "魔搭社区每日登录发放 200 魔粒，可抵扣 GLM、Ling 等模型的 OpenAI 兼容 API 调用；主流模型约每次 1 魔粒，实际消耗按模型结算。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 74,
+      "quality_breakdown": {
+        "free_api_value": 20,
+        "model_usefulness": 23,
+        "claim_convenience": 19,
+        "validity_and_limits": 12
+      },
+      "grade_reason": "官方持续赠送每日魔粒，支持实际强模型 API 抵扣且无需预充值；按调用计点、有实名和限流，不满足 Super 高价值量化门槛。",
+      "credits": "注册并每日登录可得 200 魔粒；绑定阿里云账号每日额外 50 魔粒。官方参考价：轻量模型约 0.5 魔粒/次、主流模型约 1 魔粒/次、旗舰模型约 2 魔粒/次；实际扣减以账号与模型为准，不等同于固定 tokens 或每日 2000 次。",
+      "models": [
+        "ZhipuAI/GLM-5.2",
+        "ZhipuAI/GLM-4.7-Flash",
+        "inclusionAI/Ling-2.6-flash:inclusionAI"
+      ],
+      "requirements": "个人注册魔搭社区、每日登录领取魔粒并创建 ModelScope Access Token；2026年9月社区使用指南提示 API-Inference 需绑定阿里云账号及实名认证。未实际注册或调用，中国大陆个人实名一般可申请但尚未实测。",
+      "payment_required": "官方免费魔粒无需购买、未发现必须绑定信用卡或预充值的规则；使用阿里云账号绑定/实名可能必需，未实测。",
+      "url": "https://www.modelscope.cn/posts/435591",
+      "official_source_url": "https://www.modelscope.cn/posts/435591",
+      "claim_url": "https://www.modelscope.cn/my/myaccesstoken",
+      "source_type": "ModelScope 官方魔粒公告、AMD 联合 API 活动公告、模型 API 示例及社区实操",
+      "evidence_urls": [
+        "https://www.modelscope.cn/posts/435591",
+        "https://www.modelscope.cn/posts/437059",
+        "https://modelscope.cn/models/ZhipuAI/GLM-5.2",
+        "https://modelscope.cn/models/ZhipuAI/GLM-4.7-Flash",
+        "https://www.modelscope.cn/posts/436665",
+        "https://modelscope.cn/docs/magicube/intro"
+      ],
+      "discovered_at": "2026-10-15",
+      "verified_at": "2026-10-15",
+      "last_seen_at": "2026-10-15",
+      "last_reviewed_at": "2026-10-15",
+      "next_review_at": null,
+      "verification_note": "2026-10-15 查阅官方 2026-08-10 魔粒公告：每日登录 200、绑定阿里云每日额外 50，API-Inference 按约 0.5/1/2 魔粒每次抵扣；2026-09-30 AMD×ModelScope 官方活动页仍确认每日 200 魔粒并可调用 GLM/DeepSeek API；模型页给出 GLM-5.2、GLM-4.7-Flash 的 OpenAI 兼容 API 示例。2026-09-14 社区实操称 API 需绑定阿里云并实名。没有个人账户、无法实测到账/实际模型扣点、并发、地区和近期领取成功率；不沿用 2024 年每日 2000 次旧活动口径。",
+      "review_result": "当前官方持续免费魔粒及强模型 API 抵扣规则有证据，收录 active/premium；实际调用、绑定实名及限流未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-15",
+          "result": "核对官方每日200魔粒、绑定阿里云额外50、按模型每次消耗、官方API活动和具体模型兼容示例；未实测账户或实际扣点。",
+          "source_url": "https://www.modelscope.cn/posts/435591",
+          "secondary_sources": [
+            "https://www.modelscope.cn/posts/437059",
+            "https://modelscope.cn/models/ZhipuAI/GLM-5.2",
+            "https://www.modelscope.cn/posts/436665"
           ]
         }
       ]
