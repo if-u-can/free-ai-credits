@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-15T14:26:00+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1879,6 +1879,60 @@
             "https://developer.amd.com/resources/",
             "https://developer.amd.com/member-perks/",
             "https://fireworks.ai/blog/billing-migration-to-prepaid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sakura-ai-engine-monthly-free-2026",
+      "name": "Sakura AI Engine 每月 3000 次免费模型 API",
+      "type": "日本正规云厂商官方推理 API 免费方案",
+      "description": "每月免费调用 Kimi-K2.7-Code、Kimi-K2.6、GPT-OSS 120B 等模型 API，额度按月重置；开户需要手机验证和信用卡。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 70,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 23,
+        "claim_convenience": 12,
+        "validity_and_limits": 11
+      },
+      "grade_reason": "官方免费方案提供可持续按月重置的强模型 API 请求数，但需绑定信用卡且有免费计划人数上限，不评 Super。",
+      "credits": "基础模型免费计划：文本生成类每月最多 3,000 次 API 请求，次月重置；并非 3,000 万 Tokens，亦不保证每个模型各有独立 3,000 次；超出后限流，不自动转付费。",
+      "models": [
+        "Kimi-K2.7-Code",
+        "Kimi-K2.6",
+        "Qwen3.6-35B-A3B",
+        "gemma-4-31B-it",
+        "gpt-oss-120b",
+        "Qwen3-VL-30B-A3B-Instruct"
+      ],
+      "requirements": "个人创建 Sakura Internet 会员 ID，验证邮箱及手机号，注册 Sakura Cloud 项目时必须登记信用卡，再在 AI Engine 控制台申请基础模型免费计划并生成 API Token。免费计划申请人数有限，满额可能暂停；中国大陆手机号/信用卡是否支持、个人开户是否成功未实测。",
+      "payment_required": "是（Sakura Cloud 项目开通必须登记信用卡）；免费计划本身无预充值，超出免费请求限流，不自动升级付费计划。",
+      "url": "https://ai.sakura.ad.jp/sakura-ai/ai-engine/",
+      "official_source_url": "https://ai.sakura.ad.jp/sakura-ai/ai-engine/",
+      "claim_url": "https://secure.sakura.ad.jp/signup3/member-register/input.html?gastep=ai-engine&is_phone_auth_required=tru&redirect=https%3A%2F%2Fsecure.sakura.ad.jp%2Fcloud&service=cloud",
+      "source_type": "Sakura Internet 官方 AI Engine 免费计划/模型定价/注册流程与 API 文档",
+      "evidence_urls": [
+        "https://ai.sakura.ad.jp/sakura-ai/ai-engine/",
+        "https://secure.sakura.ad.jp/signup3/member-register/input.html?gastep=ai-engine&is_phone_auth_required=tru&redirect=https%3A%2F%2Fsecure.sakura.ad.jp%2Fcloud&service=cloud",
+        "https://manual.sakura.ad.jp/api/cloud/portal/ai-engine-inference-api/index.html"
+      ],
+      "discovered_at": "2026-10-15",
+      "verified_at": "2026-10-15",
+      "last_seen_at": "2026-10-15",
+      "last_reviewed_at": "2026-10-15",
+      "next_review_at": null,
+      "verification_note": "2026-10-15 复核 Sakura AI Engine 官网：免费计划按月重置、文本模型每月 3,000 次请求，Kimi-K2.7-Code/Kimi-K2.6/GPT-OSS 120B 等列于免费适用模型；官方 API 文档支持 Chat Completions、Responses 和部分模型的 Messages。官网明确手机号验证及信用卡登记，免费计划满额可能停收，超额限流且不会自动转付费。尚未实际开户、领额或测试中国大陆支付资格；独立近期新账户成功反馈不足。",
+      "review_result": "当期官方免费 API 计划、模型、开户及限流规则可验证，评 active/premium；真实新账户可用性与中国大陆资格未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-15",
+          "result": "核查官网免费方案、3000 次/月、免费强模型清单、信用卡与手机号要求、申请上限、API 文档；未实测实际开户。",
+          "source_url": "https://ai.sakura.ad.jp/sakura-ai/ai-engine/",
+          "secondary_sources": [
+            "https://manual.sakura.ad.jp/api/cloud/portal/ai-engine-inference-api/index.html",
+            "https://secure.sakura.ad.jp/signup3/member-register/input.html?gastep=ai-engine&is_phone_auth_required=tru&redirect=https%3A%2F%2Fsecure.sakura.ad.jp%2Fcloud&service=cloud"
           ]
         }
       ]
