@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T17:39:57+08:00",
+  "updated_at": "2026-10-16T13:24:20+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1158,11 +1158,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-15",
-      "next_review_at": "2026-10-16",
+      "last_reviewed_at": "2026-10-16",
+      "next_review_at": "2026-10-17",
       "review_started_at": "2026-10-09",
       "review_attempts": 6,
-      "review_result": "10月15日官方定价页仍确认 Free $0 每月刷新 Starter usage credits、仅部分 Starter 模型可用，API 文档仍提供云端 Key 调用；赠额金额、免费模型清单、绑卡与中国大陆开户资格未公开完整，继续 pending。",
+      "review_result": "2026-10-16 官方定价确认 Free $0 仍含 Starter usage credits、Starter models、1 并发，免费用量按注册日每月刷新；但官方未公开 Starter 的具体赠额及完整可用型号、地区和支付资格，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1221,6 +1221,14 @@
         {
           "date": "2026-10-15",
           "result": "10月15日官方定价页仍确认 Free $0 每月刷新 Starter usage credits、仅部分 Starter 模型可用，API 文档仍提供云端 Key 调用；赠额金额、免费模型清单、绑卡与中国大陆开户资格未公开完整，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "result": "2026-10-16 官方定价确认 Free $0 仍含 Starter usage credits、Starter models、1 并发，免费用量按注册日每月刷新；但官方未公开 Starter 的具体赠额及完整可用型号、地区和支付资格，继续 pending。",
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
@@ -1418,12 +1426,12 @@
       "discovered_at": "2026-10-13",
       "verified_at": null,
       "last_seen_at": "2026-10-15",
-      "last_reviewed_at": "2026-10-15",
-      "next_review_at": "2026-10-16",
+      "last_reviewed_at": "2026-10-16",
+      "next_review_at": "2026-10-17",
       "review_started_at": "2026-10-13",
       "review_attempts": 2,
       "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。 2026-10-14早报复核补充：本轮可读取的官方价格页和语音文档未含明确免费credits或新客$20规则；Contributor价格是折扣而非赠金，历史提及不作为本次当期证据。产品页返回500不证明活动结束，保留pending。",
-      "review_result": "10月15日复查 Meta 官方 Model API 定价与语音文档：语音文档明确写平台 free-tier credits 可抵扣语音调用，但模型 API 定价页没有公布当前新客 $20、免费余额金额、是否适用 Muse Spark/Wonder、绑卡与地区资格；仍有有限免费证据，继续 pending，不把第三方 $20 当作事实。",
+      "review_result": "2026-10-16 官方 Model API 价格页未列当前免费赠额；语音转写文档本轮可读内容也未确认平台 free-tier credits 的金额、资格或可用于 Muse 推理模型的规则。新客 $20 仍缺官方当期依据，继续 pending；未将旧第三方宣传视为现行福利。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -1455,6 +1463,15 @@
           "source_url": "https://dev.meta.ai/docs/speech-to-text",
           "secondary_sources": [
             "https://dev.meta.ai/docs/pricing-rate-limits",
+            "https://dev.meta.ai/products/meta-model-api/"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "result": "2026-10-16 官方 Model API 价格页未列当前免费赠额；语音转写文档本轮可读内容也未确认平台 free-tier credits 的金额、资格或可用于 Muse 推理模型的规则。新客 $20 仍缺官方当期依据，继续 pending；未将旧第三方宣传视为现行福利。",
+          "source_url": "https://dev.meta.ai/docs/pricing-rate-limits",
+          "secondary_sources": [
+            "https://dev.meta.ai/docs/speech-to-text",
             "https://dev.meta.ai/products/meta-model-api/"
           ]
         }
@@ -1988,6 +2005,56 @@
             "https://www.modelscope.cn/posts/437059",
             "https://modelscope.cn/models/ZhipuAI/GLM-5.2",
             "https://www.modelscope.cn/posts/436665"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "novita-apodex-11-mini-free-api-2026",
+      "name": "Novita AI Apodex 1.1 Mini 限时免费模型 API",
+      "type": "正规推理平台官方免费模型 API",
+      "description": "Apodex 1.1 Mini 的输入、输出目前均标价 $0，支持 256K 上下文、推理和工具调用；这是限时上线优惠，尚无公开免费总量。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 67,
+      "quality_breakdown": {
+        "free_api_value": 22,
+        "model_usefulness": 19,
+        "claim_convenience": 18,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方当前零计费 API 模型支持长上下文、推理和工具调用；限时促销且无公开总量，未达到 Super 的稳定高配额门槛。",
+      "credits": "Apodex 1.1 Mini 当前输入、输出均 $0/百万 tokens（限时促销）；未公布免费总量、请求限速或截止日。",
+      "models": [
+        "apodex/apodex-1.1-mini"
+      ],
+      "requirements": "个人开发者通过 Novita 注册账户并创建 API Key；中国大陆账号、手机号/实名认证要求及具体免费限流未实测。",
+      "payment_required": "当前官方模型价格为零；免费模型是否需绑卡、账户是否需保有余额未获得官方明确条款或实测，不能保证所有地区均可免绑卡开通。",
+      "url": "https://novita.ai/models/model-detail/apodex-apodex-1.1-mini",
+      "official_source_url": "https://novita.ai/models/model-detail/apodex-apodex-1.1-mini",
+      "claim_url": "https://novita.ai/console",
+      "source_type": "Novita AI 官方模型详情、实时价格表、官方上线说明",
+      "evidence_urls": [
+        "https://novita.ai/models/model-detail/apodex-apodex-1.1-mini",
+        "https://novita.ai/pricing",
+        "https://blogs.novita.ai/apodex-1-1-mini-on-novita-ai-api-quickstart-pricing/",
+        "https://docs.novita.ai/guides/llm-rate-limits"
+      ],
+      "discovered_at": "2026-10-16",
+      "verified_at": "2026-10-16",
+      "last_seen_at": "2026-10-16",
+      "last_reviewed_at": "2026-10-16",
+      "next_review_at": null,
+      "verification_note": "2026-10-16 直接查看 Novita 官方 Apodex 1.1 Mini 模型详情，输入输出均 $0/M tokens，支持 Serverless、Reasoning、Function Calling、Structured Output、256K 上下文及 OpenAI 兼容 API；实时定价页亦为 Free。官方 2026-10-01 博文确认该免费价格是上线促销。未创建账户、未测试 API 成功调用，限速/总量/结束日期/地区/绑卡未知；没有将其他 Novita 付费模型计入。",
+      "review_result": "官方实时免费 API 模型证据成立，active/premium；未确认足够高的长期免费总量，不能评 super。",
+      "review_history": [
+        {
+          "date": "2026-10-16",
+          "result": "查看官方实时模型页及价格页，核实 Apodex 1.1 Mini 输入输出 $0、API 能力和上线促销性质；未做新账号/支付/限流实测。",
+          "source_url": "https://novita.ai/models/model-detail/apodex-apodex-1.1-mini",
+          "secondary_sources": [
+            "https://novita.ai/pricing",
+            "https://blogs.novita.ai/apodex-1-1-mini-on-novita-ai-api-quickstart-pricing/"
           ]
         }
       ]
