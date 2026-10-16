@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T13:24:20+08:00",
+  "updated_at": "2026-10-16T16:07:04+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2055,6 +2055,107 @@
           "secondary_sources": [
             "https://novita.ai/pricing",
             "https://blogs.novita.ai/apodex-1-1-mini-on-novita-ai-api-quickstart-pricing/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "braintrust-starter-10-monthly-model-api-2026",
+      "name": "Braintrust Starter 每月 $10 强模型 API 额度",
+      "type": "正规 AI 开发平台官方内置模型 API 额度",
+      "description": "Starter 免费档每月提供 $10 内置模型调用额度，能通过 Braintrust Gateway 使用 Kimi K3、DeepSeek V4 Flash、GLM-5.2；强模型需工作邮箱注册或绑卡。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 73,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 24,
+        "claim_convenience": 15,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方每月持续提供 $10 可抵扣强模型 Gateway API 调用，实用性高；强模型访问有工作邮箱或绑卡条件，且额度不足 Super 高价值门槛。",
+      "credits": "Starter $0/月，包含每月 $10 内置模型 credits；每月额度不等于额外 $10 可提现余额，超出部分按 token 计费，未核实是否可跨月累积。",
+      "models": [
+        "Kimi K3 (kimi-k3)",
+        "DeepSeek V4 Flash (deepseek-v4-flash-0731)",
+        "GLM-5.2"
+      ],
+      "requirements": "个人可注册 Starter；官方 2026-08 模型公告明确：使用这些内置强模型，组织需以工作邮箱注册或绑定支付卡。中国大陆注册/手机号/支付卡资格未实测，未进行真实 API 请求。",
+      "payment_required": "Starter 开户官方称无需信用卡；但要调用 Kimi K3/DeepSeek V4 Flash/GLM-5.2 等内置强模型，必须使用工作邮箱注册或绑卡。官方写明超出免费额度后按量计费，是否会实际扣款取决于账户付款设置，未实测。",
+      "url": "https://www.braintrust.dev/pricing",
+      "official_source_url": "https://www.braintrust.dev/pricing",
+      "claim_url": "https://www.braintrust.dev/",
+      "source_type": "Braintrust 官方 Starter 定价、内置模型与 Gateway API 文档",
+      "evidence_urls": [
+        "https://www.braintrust.dev/pricing",
+        "https://www.braintrust.dev/evals/kimi-k3-deepseek-v4",
+        "https://www.braintrust.dev/blog/starter-plan"
+      ],
+      "discovered_at": "2026-10-16",
+      "verified_at": "2026-10-16",
+      "last_seen_at": "2026-10-16",
+      "last_reviewed_at": "2026-10-16",
+      "next_review_at": null,
+      "verification_note": "2026-10-16 读取 Braintrust 官方 Pricing：Starter $0/月，每月含 $10 model credits，适用于无需自备模型密钥的内置模型。官方 2026-08-12 对比文确认 Kimi K3、DeepSeek V4 Flash、GLM-5.2 可用内置 Gateway API，Starter 强模型资格需工作邮箱注册或绑卡；超出赠额按 token 收费。未创建新账号、未实际发起请求，地区、信用卡通过率、超额计费控制未实测。",
+      "review_result": "当前官方赠额与具体强模型 API 证据成立，active/premium；资格门槛与每月 $10 不满足 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-16",
+          "result": "核实 Starter 每月 $10 内置模型额度、官方强模型名称、工作邮箱/绑卡要求、Gateway API 和超额按量计费；未实测个人注册及实际到账。",
+          "source_url": "https://www.braintrust.dev/pricing",
+          "secondary_sources": [
+            "https://www.braintrust.dev/evals/kimi-k3-deepseek-v4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upstage-console-new-user-10-api-2026",
+      "name": "Upstage Console 新用户 $10 Solar 模型 API 赠金",
+      "type": "官方模型厂商新用户模型 API 赠金",
+      "description": "注册 Upstage Console 官方赠送 $10 API credits，可用于 Solar Pro 4 等模型的推理接口；免费账号 Tier 0 限速可能影响长任务。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 63,
+      "quality_breakdown": {
+        "free_api_value": 18,
+        "model_usefulness": 23,
+        "claim_convenience": 14,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方注册赠 $10，可直接调用 Solar Pro 4 推理 API；一次性额度有限，免费档 Tier 0 实际限速反馈较严，不评高等级。",
+      "credits": "新注册账户一次性 $10 API credits；不是每月续发，官方公开入门页未明确赠金有效期；消耗完毕后的扣款风险需查看绑定支付方式与账单设置。",
+      "models": [
+        "Solar Pro 4 (solar-pro4)",
+        "Solar Mini 4 (solar-mini4)"
+      ],
+      "requirements": "个人注册 Upstage Console、创建 API Key 即可申请新客赠额；中国大陆注册、手机号/实名与支付卡验证情况未实测。近期官方反馈区有用户称已获 $10 但 Tier 0 对长上下文编程 Agent 易触发 429。",
+      "payment_required": "官方入门页没有写领取 $10 必须先充值；2026-10 官方反馈区有人表示 API 使用需输入信用卡，是否所有个人账户强制绑卡尚未确定。定价 FAQ 表示有绑定支付方式时赠额耗尽后可能继续计费，建议检查账单限制。",
+      "url": "https://console.upstage.ai/docs/getting-started",
+      "official_source_url": "https://console.upstage.ai/docs/getting-started",
+      "claim_url": "https://console.upstage.ai/",
+      "source_type": "Upstage 官方 Console 入门指南、模型定价/API 文档、官方反馈社区",
+      "evidence_urls": [
+        "https://console.upstage.ai/docs/getting-started",
+        "https://www.upstage.ai/pricing/api",
+        "https://console.upstage.ai/api/responses",
+        "https://feedback.upstage.ai/"
+      ],
+      "discovered_at": "2026-10-16",
+      "verified_at": "2026-10-16",
+      "last_seen_at": "2026-10-16",
+      "last_reviewed_at": "2026-10-16",
+      "next_review_at": null,
+      "verification_note": "2026-10-16 直接查看 Upstage 官方 Console Getting Started：Sign up to receive $10 in free credit，并提供 API Key 生成和 solar-pro4 的 OpenAI 兼容请求示例；当前定价页确认 Solar Pro 4 与 Mini 4 为按 token 计费模型，官方 Responses API 也支持两者。官方反馈区 2026-09/10 有用户提及实际 $10 额度但 Tier 0 调用 Pi Agent 遭遇 429，另有用户报告 API 使用提示绑卡；未独立注册、未确认具体有效期与中国大陆可用性。",
+      "review_result": "当前官方新客 $10 API 赠金与 Solar Pro 4 接口可核实，active/normal；个人 Tier 0 限速和绑卡限制未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-16",
+          "result": "核查官方新客 $10 赠金、Solar Pro 4/Mini 4 API 与定价、社区真实限速/绑卡反馈；未实际注册领取。",
+          "source_url": "https://console.upstage.ai/docs/getting-started",
+          "secondary_sources": [
+            "https://www.upstage.ai/pricing/api",
+            "https://feedback.upstage.ai/"
           ]
         }
       ]
