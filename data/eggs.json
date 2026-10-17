@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T16:53:34+08:00",
+  "updated_at": "2026-10-17T20:17:26+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2237,6 +2237,57 @@
             "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/models/overview/",
             "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/terms/",
             "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/login/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vercel-reflection-beam-free-launch-2026",
+      "name": "Vercel AI Gateway · Reflection Beam 1.0 限时免费 API",
+      "type": "官方 AI Gateway 与模型厂商联合限时免费 API",
+      "description": "Reflection 的 Beam 1.0 编程推理模型开放限时免费 API，100 万上下文，支持工具调用。选择 beam-free 型号，活动结束后直接停用，不会自动切到付费版。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 74,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 25,
+        "claim_convenience": 18,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "强编程推理模型由官方提供限时 $0 API，适合个人开发；免费总配额和结束日期未公布，未达到可验证的 Super 高额门槛。",
+      "credits": "reflection/beam-free 输入、输出当前均 $0/百万 Tokens；未公布个人免费调用总量、限速或促销截止日期。Vercel 普通 $5/30 天免费额度是独立既有福利，不与本活动叠加宣传。",
+      "models": [
+        "reflection/beam-free（Beam 1.0，1M 上下文、131072 最大输出 Tokens）"
+      ],
+      "requirements": "注册 Vercel 个人账户，在 AI Gateway 创建 API Key，使用 reflection/beam-free 通过 OpenAI Chat Completions / Responses、Anthropic Messages 或 AI SDK 调用；无需企业/学生资质。中国大陆注册资格与新账户实际调用未实测。",
+      "payment_required": "Vercel 提供 $0 免费层；当前 Beam-Free 的模型单价为 $0，未见本活动要求预充值。是否需要绑卡未实测；请使用 -free 型号避免普通 reflection/beam 免费期结束后自动转为付费。",
+      "url": "https://vercel.com/ai-gateway/models/beam-free",
+      "official_source_url": "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free",
+      "claim_url": "https://vercel.com/ai-gateway/models/beam-free",
+      "source_type": "Vercel 2026-10-16 官方上新公告、官方模型实时价格页与 API 认证/计费文档；Reflection 官方发布公告",
+      "evidence_urls": [
+        "https://vercel.com/ai-gateway/models/beam-free",
+        "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/docs/ai-gateway/pricing",
+        "https://vercel.com/docs/ai-gateway/authentication-and-byok",
+        "https://reflection.ai/blog/beam-is-available"
+      ],
+      "discovered_at": "2026-10-17",
+      "verified_at": "2026-10-17",
+      "last_seen_at": "2026-10-17",
+      "last_reviewed_at": "2026-10-17",
+      "next_review_at": null,
+      "verification_note": "2026-10-17 查阅 Vercel 10-16 上新公告及当天可读的 beam-free 模型页：官方确认限时免费、Reflection 提供商输入/输出均 $0，支持 1M 上下文、工具调用、可调推理及 OpenAI/Anthropic 兼容 API。公告明确 -free 型号促销结束停止服务，普通 reflection/beam 型号会自动转为付费。Vercel 免费账户原有每 30 天 $5 credits 与本促销分别计价；未核实免费总 token 数、速率、截止日期、绑卡和中国大陆开户，也未以新账户实际发起 API 请求。",
+      "review_result": "官方当期免费 API 与入口成立，active/premium；因没有可保证的高额额度、限时结束日不明，不评 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-17",
+          "result": "核实 Vercel 官方限时免费 Beam-Free 模型、$0 输入/输出、API 调用方式及免费期结束停用行为；未实测账户或调用。",
+          "source_url": "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free",
+          "secondary_sources": [
+            "https://vercel.com/ai-gateway/models/beam-free",
+            "https://vercel.com/docs/ai-gateway/pricing"
           ]
         }
       ]
