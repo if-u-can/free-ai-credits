@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T22:42:41+08:00",
+  "updated_at": "2026-10-18T02:45:11.206+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1013,7 +1013,7 @@
       "requirements": "仅活动期间首次注册超算互联网平台的个人用户；官方规则期限 2026-08-13 至 2026-11-10 23:59，实名/手机号关联识别、限量；新账号实际领取与是否需先支付/绑卡未实测。",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-17 重新查看官方 MaaS 活动页：条款写 2026-08-13 至 2026-11-10 23:59，免费新客包 1000 万 GLM-5.3-Flash Tokens（1024K）、30 天有效；同一页面顶部仍含“活动已结束”提示。此前 10-11 因连续多日缺可靠依据转 unverifiable；此次出现新的延期与型号证据故恢复 pending，但无法验证注册后可领，不评等级。",
+      "verification_note": "2026-10-17 重新查看官方 MaaS 活动页：条款写 2026-08-13 至 2026-11-10 23:59，免费新客包 1000 万 GLM-5.3-Flash Tokens（1024K）、30 天有效；同一页面顶部仍含“活动已结束”提示。此前 10-11 因连续多日缺可靠依据转 unverifiable；此次出现新的延期与型号证据故恢复 pending，但无法验证注册后可领，不评等级。 2026-10-18 官方活动条款仍列 11 月 10 日截止、GLM-5.3-Flash 新客 1000 万 Tokens、30 天有效，但同页同时显示“活动已结束”；未验证新账户领取，保持 pending。",
       "url": "https://www.scnet.cn/home/subject/maas/index.html",
       "official_source_url": "https://www.scnet.cn/home/subject/maas/index.html",
       "claim_url": "https://www.scnet.cn/home/subject/maas/index.html",
@@ -1027,11 +1027,11 @@
       "grade": null,
       "grade_reason": null,
       "quality_score": null,
-      "last_reviewed_at": "2026-10-17",
-      "next_review_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": "2026-10-19",
       "review_started_at": "2026-10-09",
-      "review_attempts": 3,
-      "review_result": "官方规则出现 11 月 10 日延期和 GLM-5.3-Flash 新客包，但同页活动结束提示与之冲突；待实测领取，pending。",
+      "review_attempts": 5,
+      "review_result": "2026-10-18 官方活动条款仍列 11 月 10 日截止、GLM-5.3-Flash 新客 1000 万 Tokens、30 天有效，但同页同时显示“活动已结束”；未验证新账户领取，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1060,10 +1060,15 @@
           "date": "2026-10-17",
           "result": "官方 MaaS 活动页规则延期至 11 月 10 日，新客免费包展示 GLM-5.3-Flash 1000 万 Tokens、30 天有效；页面仍有“活动已结束”提示，无法确认个人实际领取，重新开放 pending。",
           "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
+        },
+        {
+          "date": "2026-10-18",
+          "result": "2026-10-18 官方活动条款仍列 11 月 10 日截止、GLM-5.3-Flash 新客 1000 万 Tokens、30 天有效，但同页同时显示“活动已结束”；未验证新账户领取，保持 pending。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
         }
       ],
       "quality_breakdown": null,
-      "last_seen_at": "2026-10-17"
+      "last_seen_at": "2026-10-18"
     },
     {
       "id": "siliconflow-realname-16-coupon-2026",
@@ -1168,7 +1173,7 @@
       "requirements": "个人 Ollama 账号及云端 API Key；Free 方案 $0，是否需要绑卡及可用地区待新账户核实；其他模型需购买 usage credits",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-09 官方 pricing 确认 Free 每月 Starter credits、1 并发，官方 Cloud/API 文档确认云端 API Key 可直接请求；但是 Free Starter 具体型号与额度数值、绑卡/地区仍未在公开页面确认。官方示例 gemma4:31b 不能据此认定 Free Starter 一定可调用。继续 pending，不评 Super。",
+      "verification_note": "2026-10-09 官方 pricing 确认 Free 每月 Starter credits、1 并发，官方 Cloud/API 文档确认云端 API Key 可直接请求；但是 Free Starter 具体型号与额度数值、绑卡/地区仍未在公开页面确认。官方示例 gemma4:31b 不能据此认定 Free Starter 一定可调用。继续 pending，不评 Super。 2026-10-18 官方 Free $0 仍含每月 Starter usage credits 和 Starter models、1 并发，API 免费价值有当前证据；具体赠额数字、免费型号、绑卡与中国地区仍未公开完整，保持 pending。",
       "url": "https://ollama.com/pricing",
       "official_source_url": "https://ollama.com/pricing",
       "claim_url": "https://ollama.com/settings/keys",
@@ -1183,11 +1188,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-17",
-      "next_review_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": "2026-10-19",
       "review_started_at": "2026-10-09",
-      "review_attempts": 6,
-      "review_result": "2026-10-17 官方 Pricing 仍确认 Free $0 包含每月刷新的 Starter usage credits、部分 Starter models 和单并发，云端文档确认 API Key 调用；具体免费额度、Starter 模型名单、绑卡与大陆资格未公开完整，维持 pending。",
+      "review_attempts": 10,
+      "review_result": "2026-10-18 官方 Free $0 仍含每月 Starter usage credits 和 Starter models、1 并发，API 免费价值有当前证据；具体赠额数字、免费型号、绑卡与中国地区仍未公开完整，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1266,9 +1271,14 @@
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
           ]
+        },
+        {
+          "date": "2026-10-18",
+          "result": "2026-10-18 官方 Free $0 仍含每月 Starter usage credits 和 Starter models、1 并发，API 免费价值有当前证据；具体赠额数字、免费型号、绑卡与中国地区仍未公开完整，保持 pending。",
+          "source_url": "https://ollama.com/pricing"
         }
       ],
-      "last_seen_at": "2026-10-15"
+      "last_seen_at": "2026-10-18"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
@@ -1433,10 +1443,10 @@
       "name": "Meta Model API 新用户免费 credits 线索",
       "type": "官方模型厂商 API",
       "description": "Meta Muse模型API已自助开放；新客$20赠额只有第三方历史线索，本次未在官方价格与语音文档中读到明确免费credits条款，继续待核实。",
-      "status": "pending",
+      "status": "unverifiable",
       "grade": null,
-      "grade_reason": "新客赠额缺少当前官方金额、适用模型和领取条件，继续待核实",
-      "quality_score": 0,
+      "grade_reason": null,
+      "quality_score": null,
       "credits": "历史线索：第三方2026-08报道新客$20，10月13日旧核查提及free-tier credits；10月14日官方可读价格与语音文档未确认当期赠额，金额、有效期及适用模型待核实",
       "models": [
         "muse-wonder-1.0（平台提供，赠额适用待核实）",
@@ -1458,13 +1468,13 @@
       ],
       "discovered_at": "2026-10-13",
       "verified_at": null,
-      "last_seen_at": "2026-10-15",
-      "last_reviewed_at": "2026-10-17",
-      "next_review_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": null,
       "review_started_at": "2026-10-13",
-      "review_attempts": 2,
-      "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。 2026-10-14早报复核补充：本轮可读取的官方价格页和语音文档未含明确免费credits或新客$20规则；Contributor价格是折扣而非赠金，历史提及不作为本次当期证据。产品页返回500不证明活动结束，保留pending。",
-      "review_result": "2026-10-17 官方 Model API 定价仍显示 Muse 模型按 token 收费，未列个人新客 $20 或免费强模型额度；语音文档未给出适用 Muse 推理模型的当期免费 credits 规则，资格、绑卡与地区不明，维持 pending。",
+      "review_attempts": 6,
+      "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。 2026-10-14早报复核补充：本轮可读取的官方价格页和语音文档未含明确免费credits或新客$20规则；Contributor价格是折扣而非赠金，历史提及不作为本次当期证据。产品页返回500不证明活动结束，保留pending。 2026-10-18 再核查 Meta 官方产品页与价格页：API 自助开放且 Muse 模型按 token 计费，但未确认当前新客 $20 免费 API credits、有效期、适用模型和地区资格。自 10 月 13 日起已连续多日实际核查仍无当期赠额依据，转 unverifiable，不宣称官方宣布结束。",
+      "review_result": "2026-10-18 再核查 Meta 官方产品页与价格页：API 自助开放且 Muse 模型按 token 计费，但未确认当前新客 $20 免费 API credits、有效期、适用模型和地区资格。自 10 月 13 日起已连续多日实际核查仍无当期赠额依据，转 unverifiable，不宣称官方宣布结束。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -1514,6 +1524,14 @@
           "source_url": "https://dev.meta.ai/docs/pricing-rate-limits",
           "secondary_sources": [
             "https://dev.meta.ai/docs/speech-to-text"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "result": "2026-10-18 再核查 Meta 官方产品页与价格页：API 自助开放且 Muse 模型按 token 计费，但未确认当前新客 $20 免费 API credits、有效期、适用模型和地区资格。自 10 月 13 日起已连续多日实际核查仍无当期赠额依据，转 unverifiable，不宣称官方宣布结束。",
+          "source_url": "https://dev.meta.ai/docs/pricing-rate-limits",
+          "secondary_sources": [
+            "https://dev.meta.ai/products/meta-model-api"
           ]
         }
       ]
@@ -2306,6 +2324,60 @@
           "secondary_sources": [
             "https://vercel.com/ai-gateway/models/beam-free",
             "https://vercel.com/docs/ai-gateway/pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privatemode-free-5m-initial-2m-monthly-api-2026",
+      "name": "Privatemode 免费 API · 新客 500 万 Tokens + 每月额度",
+      "type": "官方模型推理 API（德国 Edgeless Systems）",
+      "description": "新组织先领 500 万免费 Tokens，用完后每月还有 100 万输入和 100 万输出额度；可调 GLM-5.3 编程推理模型，GPT-OSS 120B 按 2 倍计配额。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 82,
+      "quality_breakdown": {
+        "free_api_value": 27,
+        "model_usefulness": 23,
+        "claim_convenience": 22,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方持续提供强模型免费 API 和新客赠额，个人可自助开通；500 万新客额度与每月配额未达到 Super 高价值硬门槛。",
+      "credits": "新组织一次性初始 5,000,000 Tokens（输入/输出/缓存与语音按官方规则扣减）；初始额度耗尽后 Free 每月 1,000,000 输入 Tokens + 1,000,000 输出 Tokens。GLM-5.3 按 1 倍计，gpt-oss-120b 按 2 倍计；40 RPM。未公布新客赠额到期日。",
+      "models": [
+        "GLM-5.3",
+        "GLM-5.3-Flash",
+        "gpt-oss-120b"
+      ],
+      "requirements": "个人注册 Privatemode Portal，创建组织及 API Key 后使用；官方支持 OpenAI/Anthropic 兼容 API。Free 免费计划与新组织初始配额见官方文档；中国大陆注册、手机号验证与实际新账号调用未实测。",
+      "payment_required": "Free 档官方未要求绑卡或预充值；官方账单文档明确只有开启按量付费时需添加默认支付方式和账单信息。新账号支付流程未亲测。",
+      "url": "https://portal.privatemode.ai/",
+      "official_source_url": "https://docs.privatemode.ai/rate-limits/",
+      "claim_url": "https://portal.privatemode.ai/",
+      "source_type": "Privatemode 官方 API 文档、限流及免费额度说明、模型目录、计费说明与官方 Portal",
+      "evidence_urls": [
+        "https://docs.privatemode.ai/rate-limits/",
+        "https://docs.privatemode.ai/models/overview/",
+        "https://docs.privatemode.ai/portal/billing/",
+        "https://docs.privatemode.ai/",
+        "https://www.privatemode.ai/"
+      ],
+      "discovered_at": "2026-10-18",
+      "verified_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": null,
+      "verification_note": "2026-10-18 官方 rate-limits 明确新组织一次性 5M 初始 token quota、Free 每月 1M prompt + 1M completion、40 RPM；GLM-5.3 系列倍率 1、gpt-oss-120b 倍率 2。官方模型目录证实 API 支持上述型号；官方 billing 仅要求启用 pay-as-you-go 时加支付方式，官网提供 Portal API Key 入口。未用个人账户验证实际到账、地区/短信及接口成功率；未发现可靠近期独立到账反馈。",
+      "review_result": "官方当期免费模型 API、配额、型号和入口可核实，active/premium；未实测个人新账户，不评 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-18",
+          "result": "核实官方 5M 新组织初始额度、Free 月度输入/输出各 1M、倍率、API 模型及按量付费绑卡条件；未实测注册、地区资格或到账。",
+          "source_url": "https://docs.privatemode.ai/rate-limits/",
+          "secondary_sources": [
+            "https://docs.privatemode.ai/models/overview/",
+            "https://docs.privatemode.ai/portal/billing/",
+            "https://www.privatemode.ai/"
           ]
         }
       ]
