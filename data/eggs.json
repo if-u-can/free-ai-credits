@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:07:04+08:00",
+  "updated_at": "2026-10-17T16:53:34+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1004,20 +1004,20 @@
       "id": "scnet-maas-10m-new-user-2026",
       "name": "国家超算互联网 MaaS 新客 1000 万 Tokens",
       "type": "官方模型推理平台",
-      "description": "超算新客1000万Tokens免费包的结束提示与10月13日截止规则仍有冲突；连续三日未确认实际可领状态，转入核查归档。",
-      "status": "unverifiable",
-      "credits": "新客免费 1000 万 DeepSeek-V4.1-Flash Tokens（1024K；领取后 30 天有效，实际发放模型可调整；实际可领待核实）",
+      "description": "官方新客尝鲜页显示免费领取 1000 万 GLM-5.3-Flash Tokens，规则延长至 11 月 10 日；同页仍弹出活动已结束，实际领取资格待确认。",
+      "status": "pending",
+      "credits": "活动页展示新用户免费 1000 万 GLM-5.3-Flash Tokens（1024K），领取后 30 天有效，限量、每自然人一次；页面有活动结束提示，实际能否领取未验证。",
       "models": [
-        "DeepSeek-V4.1-Flash（1024K；官方活动页当前展示的新客免费包，实际到账型号待核实）"
+        "GLM-5.3-Flash"
       ],
-      "requirements": "仅限 2026-08-13 至 2026-10-13 23:59 活动期间新注册用户，每人限领一次、先到先得；手机号、实名、绑卡及实际领取资格待登录核实",
+      "requirements": "仅活动期间首次注册超算互联网平台的个人用户；官方规则期限 2026-08-13 至 2026-11-10 23:59，实名/手机号关联识别、限量；新账号实际领取与是否需先支付/绑卡未实测。",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-09 复核官方 MaaS 特惠专场：01 新客尝鲜免费包明确为 GLM-5-Base 1000 万 Tokens（128K）；02 冰点秒杀的 DeepSeek-V4.1-Flash 1000 万 Tokens 为 ¥0.10 付费秒杀，不能当免费赠额。官方活动时间为 2026-08-13 至 10-13 23:59；免费包领取后 30 天有效，模型可能因供应调整，赠额耗尽会自动扣减现金余额。官方活动中心仍列进行中，API Key 管理文档确认平台支持模型 API；但未通过新账户验证实际到账、该赠包 API 抵扣、实名/绑卡条件，故保留 pending，不评 super。 2026-10-10 直接读取官方活动页：免费新客尝鲜包展示 DeepSeek-V4.1-Flash 1000万 Tokens（1024K）；¥0.10 冰点秒杀为 DeepSeek-V4.1-Flash 2000万 Tokens，不是免费包。页面有“活动已结束”文案，但条款活动时间仍至10月13日23:59；未登录验证当前是否仍能领取、绑卡/实名及 API 赠额抵扣。故维持 pending、grade=null。",
+      "verification_note": "2026-10-17 重新查看官方 MaaS 活动页：条款写 2026-08-13 至 2026-11-10 23:59，免费新客包 1000 万 GLM-5.3-Flash Tokens（1024K）、30 天有效；同一页面顶部仍含“活动已结束”提示。此前 10-11 因连续多日缺可靠依据转 unverifiable；此次出现新的延期与型号证据故恢复 pending，但无法验证注册后可领，不评等级。",
       "url": "https://www.scnet.cn/home/subject/maas/index.html",
       "official_source_url": "https://www.scnet.cn/home/subject/maas/index.html",
       "claim_url": "https://www.scnet.cn/home/subject/maas/index.html",
-      "payment_required": "免费领取项未标明预充值；赠额用尽后会自动扣减账户现金余额，绑卡及是否须有余额尚未实测",
+      "payment_required": "免费新客包标价 0 元，官方未明确领取是否需绑支付方式；赠额耗尽后若账户有现金余额会自动扣减。",
       "source_type": "官方 MaaS 活动页面与活动中心",
       "evidence_urls": [
         "https://www.scnet.cn/home/subject/maas/index.html",
@@ -1025,13 +1025,13 @@
         "https://www2.scnet.cn/help/docs/mainsite/mass/tutorial/apikeymgt.html"
       ],
       "grade": null,
-      "grade_reason": "连续三个不同自然日实际复查仍缺可靠的当前领取依据，转核查归档",
-      "quality_score": 0,
-      "last_reviewed_at": "2026-10-11",
-      "next_review_at": null,
+      "grade_reason": null,
+      "quality_score": null,
+      "last_reviewed_at": "2026-10-17",
+      "next_review_at": "2026-10-18",
       "review_started_at": "2026-10-09",
       "review_attempts": 3,
-      "review_result": "19:00晚间复查官方活动页仍展示新客免费1000万DeepSeek-V4.1-Flash Tokens、30天有效及用尽后扣现金余额，同时含活动已结束提示和10月13日截止规则。连续10月9、10、11日实际复查未能解决领取状态冲突与个人支付资格，转unverifiable，不判定expired。",
+      "review_result": "官方规则出现 11 月 10 日延期和 GLM-5.3-Flash 新客包，但同页活动结束提示与之冲突；待实测领取，pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1055,8 +1055,15 @@
           ],
           "evening_result": "19:00晚间复查官方活动页仍展示新客免费1000万DeepSeek-V4.1-Flash Tokens、30天有效及用尽后扣现金余额，同时含活动已结束提示和10月13日截止规则。连续10月9、10、11日实际复查未能解决领取状态冲突与个人支付资格，转unverifiable，不判定expired。",
           "evening_reviewed_at": "2026-10-11T19:03:06+08:00"
+        },
+        {
+          "date": "2026-10-17",
+          "result": "官方 MaaS 活动页规则延期至 11 月 10 日，新客免费包展示 GLM-5.3-Flash 1000 万 Tokens、30 天有效；页面仍有“活动已结束”提示，无法确认个人实际领取，重新开放 pending。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
         }
-      ]
+      ],
+      "quality_breakdown": null,
+      "last_seen_at": "2026-10-17"
     },
     {
       "id": "siliconflow-realname-16-coupon-2026",
@@ -1158,11 +1165,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-16",
-      "next_review_at": "2026-10-17",
+      "last_reviewed_at": "2026-10-17",
+      "next_review_at": "2026-10-18",
       "review_started_at": "2026-10-09",
       "review_attempts": 6,
-      "review_result": "2026-10-16 官方定价确认 Free $0 仍含 Starter usage credits、Starter models、1 并发，免费用量按注册日每月刷新；但官方未公开 Starter 的具体赠额及完整可用型号、地区和支付资格，继续 pending。",
+      "review_result": "2026-10-17 官方 Pricing 仍确认 Free $0 包含每月刷新的 Starter usage credits、部分 Starter models 和单并发，云端文档确认 API Key 调用；具体免费额度、Starter 模型名单、绑卡与大陆资格未公开完整，维持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1229,6 +1236,14 @@
         {
           "date": "2026-10-16",
           "result": "2026-10-16 官方定价确认 Free $0 仍含 Starter usage credits、Starter models、1 并发，免费用量按注册日每月刷新；但官方未公开 Starter 的具体赠额及完整可用型号、地区和支付资格，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "result": "2026-10-17 官方 Pricing 仍确认 Free $0 包含每月刷新的 Starter usage credits、部分 Starter models 和单并发，云端文档确认 API Key 调用；具体免费额度、Starter 模型名单、绑卡与大陆资格未公开完整，维持 pending。",
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
@@ -1426,12 +1441,12 @@
       "discovered_at": "2026-10-13",
       "verified_at": null,
       "last_seen_at": "2026-10-15",
-      "last_reviewed_at": "2026-10-16",
-      "next_review_at": "2026-10-17",
+      "last_reviewed_at": "2026-10-17",
+      "next_review_at": "2026-10-18",
       "review_started_at": "2026-10-13",
       "review_attempts": 2,
       "verification_note": "2026-10-13 官方 Meta Model API 产品页可读，明确自助 API、Muse Wonder 与 Muse Spark 型号、按 token 收费且扩大地区访问；官方 Speech-to-text 文档写明 platform free-tier credits apply。未在官方当前公开页面找到新注册必送 $20 的具体金额、适用模型、有效期或地区/支付条件。第三方 2026-08 称 $20、美国限定，但可能是旧规则，且官方现已写 expanded global access；尚未创建账号实领。 2026-10-14早报复核补充：本轮可读取的官方价格页和语音文档未含明确免费credits或新客$20规则；Contributor价格是折扣而非赠金，历史提及不作为本次当期证据。产品页返回500不证明活动结束，保留pending。",
-      "review_result": "2026-10-16 官方 Model API 价格页未列当前免费赠额；语音转写文档本轮可读内容也未确认平台 free-tier credits 的金额、资格或可用于 Muse 推理模型的规则。新客 $20 仍缺官方当期依据，继续 pending；未将旧第三方宣传视为现行福利。",
+      "review_result": "2026-10-17 官方 Model API 定价仍显示 Muse 模型按 token 收费，未列个人新客 $20 或免费强模型额度；语音文档未给出适用 Muse 推理模型的当期免费 credits 规则，资格、绑卡与地区不明，维持 pending。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -1473,6 +1488,14 @@
           "secondary_sources": [
             "https://dev.meta.ai/docs/speech-to-text",
             "https://dev.meta.ai/products/meta-model-api/"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "result": "2026-10-17 官方 Model API 定价仍显示 Muse 模型按 token 收费，未列个人新客 $20 或免费强模型额度；语音文档未给出适用 Muse 推理模型的当期免费 credits 规则，资格、绑卡与地区不明，维持 pending。",
+          "source_url": "https://dev.meta.ai/docs/pricing-rate-limits",
+          "secondary_sources": [
+            "https://dev.meta.ai/docs/speech-to-text"
           ]
         }
       ]
@@ -2156,6 +2179,64 @@
           "secondary_sources": [
             "https://www.upstage.ai/pricing/api",
             "https://feedback.upstage.ai/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amd-radeon-cloud-token-factory-free-model-api-2026",
+      "name": "AMD Radeon Cloud Token Factory 免费共享模型 API",
+      "type": "AMD 官方开发者云免费模型推理 API",
+      "description": "中国区 Token Factory 提供常驻免费的共享模型 API，可用 DeepSeek、Qwen 等模型测试编程与推理；账号有每日用量上限，官方不允许生产负载。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 76,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 23,
+        "claim_convenience": 20,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方提供可持续免费调用的强模型共享 API，个人申请便捷；每日上限因账号而异且不承诺稳定服务，未达到可量化的 Super 配额门槛。",
+      "credits": "Public Free Model APIs 共享端点免费、不消耗 GPU credits；按账号设每日使用上限并在北京时间 00:00 重置，官方用量文档的 $10/天只是示例，不代表所有账号均有该额度；无统一公开可保证的免费 token 总量。",
+      "models": [
+        "DeepSeek-V4-Flash",
+        "DeepSeek-V4.1-Flash",
+        "Qwen3.8-Flash-Next",
+        "GLM-5.3-Flash",
+        "MiMo-V2.6-Flash"
+      ],
+      "requirements": "个人可注册 AMD AI 开发者计划中国区账号，通过中国手机号或邮箱验证码登录（亦支持魔搭/CSDN/GitHub）；登录 Token Factory 后创建 API Key。共享模型不需要 GPU 实例审批，实际可用模型以 GET /v1/models 为准；未亲自注册或调用。",
+      "payment_required": "官方明确共享模型 API 完全免费、不消耗 GPU credits；未见需绑定信用卡或预充值的领取条件。未实测新账户支付设置。",
+      "url": "https://developer.amd.com.cn/radeon/tokenfactory",
+      "official_source_url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/model-apis/",
+      "claim_url": "https://developer.amd.com.cn/radeon/tokenfactory",
+      "source_type": "AMD Radeon Cloud 官方 Token Factory 入口、模型 API 文档、账号登录/限流/使用条款；社区 2026-09 实测辅助",
+      "evidence_urls": [
+        "https://developer.amd.com.cn/radeon/tokenfactory",
+        "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/model-apis/",
+        "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/models/overview/",
+        "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/login/",
+        "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/rate-limits/",
+        "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/terms/",
+        "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/usage/"
+      ],
+      "discovered_at": "2026-10-17",
+      "verified_at": "2026-10-17",
+      "last_seen_at": "2026-10-17",
+      "last_reviewed_at": "2026-10-17",
+      "next_review_at": null,
+      "verification_note": "2026-10-17 读取 AMD Radeon Cloud 模型 API 文档（当天更新）确认共享端点常驻免费、无需实例或 GPU credits，支持 OpenAI 兼容 API；模型目录列出 DeepSeek-V4/4.1-Flash、Qwen3.8-Flash-Next、GLM-5.3-Flash、MiMo-V2.6-Flash，但实时上线以 GET /v1/models 为准。登录文档确认中国区手机号/邮箱注册及实例审批不影响共享 API。限流文档典型每 Key 30 RPM、每账号 20 RPM、Key 并发 8，另有账号每日上限；用量示例 $10 不是统一承诺。条款限制非生产、禁止转售、会短期记录提示词。2026-09 社区实测曾反馈可调用及高峰限流；本轮未实际注册、生成 Key 或发请求。",
+      "review_result": "官方当前免费 API、个人注册、具体模型与限流条款成立，active/premium；无可保证的高额通用额度，不能评 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-17",
+          "result": "核实 AMD 当前共享模型 API、个人注册、具体模型目录、非生产条款、按账号每日限额和速率；未实测新账户或调用。",
+          "source_url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/model-apis/",
+          "secondary_sources": [
+            "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/models/overview/",
+            "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/terms/",
+            "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/login/"
           ]
         }
       ]
