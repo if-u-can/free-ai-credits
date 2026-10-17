@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T20:17:26+08:00",
+  "updated_at": "2026-10-17T22:42:41+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1105,17 +1105,19 @@
       "id": "openrouter-free-model-api-2026",
       "name": "OpenRouter 免费模型 API 档",
       "type": "模型 API 聚合平台",
-      "description": "免费档每天可调用 50 次免费模型 API，含 Nemotron 3 Ultra 等推理模型；免费端点有速率与上游拥堵限制。",
+      "description": "免费档每天合计 50 次模型 API 请求，包含 Nemotron 3 Ultra、Nemotron 3.5 Super VL（图像/视频）与 Xing4.0（编程推理）等免费模型。",
       "status": "active",
       "credits": "免费模型每账号合计 50 次请求/天、20 次/分钟；历史累计购买 ≥$10 credits 后可提升至 1000 次/天（非免充值条件）",
       "models": [
         "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "openrouter/free（自动路由至免费模型）"
+        "openrouter/free（自动路由至免费模型）",
+        "nvidia/nemotron-3.5-super-vl:free（100 万上下文，图像/视频输入）",
+        "xingchen-agi/xing4.0-29b-a4b:free（262K 上下文，编程推理）"
       ],
       "requirements": "个人注册 OpenRouter 并创建 API Key；Free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测",
       "discovered_at": "2026-10-09",
-      "verified_at": "2026-10-09",
-      "verification_note": "2026-10-09 核查官方 pricing、Free Models collection、Nemotron 3 Ultra 免费模型页与 OpenRouter 官方 2026-09 帮助文档：Free 档可经 API 调用、50 RPD/20 RPM，免费模型输入输出为 $0；1000 RPD 需历史累计购入 $10，不能写成无门槛。官方免费模型页面提供近期请求与可用性数据，但未使用个人新账号实际调用。",
+      "verified_at": "2026-10-17",
+      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。",
       "url": "https://openrouter.ai/pricing",
       "official_source_url": "https://openrouter.ai/pricing",
       "claim_url": "https://openrouter.ai/settings/keys",
@@ -1125,7 +1127,9 @@
         "https://openrouter.ai/pricing",
         "https://openrouter.ai/collections/free-models",
         "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
-        "https://openrouter.zendesk.com/hc/en-us/articles/39501163636379-OpenRouter-Rate-Limits-What-You-Need-to-Know"
+        "https://openrouter.zendesk.com/hc/en-us/articles/39501163636379-OpenRouter-Rate-Limits-What-You-Need-to-Know",
+        "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free",
+        "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free"
       ],
       "grade": "normal",
       "grade_reason": "持续免费且能用推理模型 API，但每天仅 50 次请求、上游可用性波动，无法达到 Super 的高价值门槛",
@@ -1135,7 +1139,21 @@
         "model_usefulness": 23,
         "claim_convenience": 24,
         "validity_and_limits": 7
-      }
+      },
+      "last_reviewed_at": "2026-10-17",
+      "last_seen_at": "2026-10-17",
+      "review_history": [
+        {
+          "date": "2026-10-17",
+          "result": "官方核实 Nemotron 3.5 Super VL 与 Xing4.0 两款新增免费 API 模型，均有实时 $0 模型页与 API 调用说明；每日 50 次请求限制未变。",
+          "source_url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free",
+          "secondary_sources": [
+            "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free",
+            "https://openrouter.ai/pricing"
+          ]
+        }
+      ],
+      "review_result": "官方确认两款新免费模型可经 OpenRouter API 调用；已有免费档维持 active/normal，配额未增加。"
     },
     {
       "id": "ollama-cloud-starter-free-api-2026",
