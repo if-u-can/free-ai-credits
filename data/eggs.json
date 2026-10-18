@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T14:45:07+08:00",
+  "updated_at": "2026-10-18T19:15:48+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2485,6 +2485,110 @@
             "https://wiki.agnes-ai.cn/zh-Hans/docs/faqs",
             "https://wiki.agnes-ai.cn/zh-Hans/docs/tokenplan",
             "https://wiki.agnes-ai.com/en/docs/pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ovhcloud-public-cloud-200-ai-endpoints-2026",
+      "name": "OVHcloud 首个 Public Cloud 项目 $200 AI Endpoints 试用",
+      "type": "官方云服务可用于模型 API 的新客赠金",
+      "description": "首次开通 Public Cloud 项目可领约 $200、一个月的试用金，官方免费 AI API 页面说明可用于 AI Endpoints；须绑定支付方式，账单抵扣和超额扣费值得留意。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 25,
+        "model_usefulness": 22,
+        "claim_convenience": 7,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方明确新客试用金覆盖 AI Endpoints，金额较高；但绑卡、短期限、账单抵扣不确定性及地区门槛使其不符合 Super 低风险条件。",
+      "credits": "全球站首次 Public Cloud 项目 US$200 credits，创建首个项目时激活，1 个月有效；各地区币种、金额和期限可能不同；并非独立 AI API 赠金。",
+      "models": [
+        "gpt-oss-120b",
+        "gpt-oss-20b",
+        "Qwen3.8-27B（按当地模型目录）"
+      ],
+      "requirements": "个人/企业首次创建 Public Cloud 项目，既有客户如从未创建项目也可符合资格；需要有效支付方式激活；中国大陆开户、手机号及具体区域模型访问未实测。",
+      "payment_required": "必须绑定有效支付方式；全球站公开条款未写统一必须预充值，但部分地区社区用户报告激活时需约 €10 付款。赠额耗尽或失效后可能自动计费；需检查项目账单。",
+      "url": "https://www.ovhcloud.com/en/public-cloud/free-trial/",
+      "official_source_url": "https://www.ovhcloud.com/en/public-cloud/free-trial/",
+      "claim_url": "https://www.ovhcloud.com/en/public-cloud/free-trial/",
+      "source_type": "OVHcloud 官方试用条款、AI API 页面、模型目录与社区领取反馈",
+      "evidence_urls": [
+        "https://www.ovhcloud.com/en/public-cloud/free-trial/",
+        "https://www.ovhcloud.com/de/public-cloud/free-ai-api/",
+        "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+        "https://docs.ovhcloud.com/en/guides/public-cloud/cross-functional/create-a-public-cloud-project",
+        "https://www.reddit.com/r/ovh/comments/1wva5ut/does_the_public_cloud_free_trial_credit_cover_ai/",
+        "https://www.reddit.com/r/OVHcloud/comments/1on9t96/free_trial_requires_a_10_purchase/"
+      ],
+      "discovered_at": "2026-10-18",
+      "verified_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": null,
+      "verification_note": "2026-10-18 核对 OVHcloud 全球站 $200/1个月新客试用及绑定有效支付方式条款；官方免费 AI API 页明确 Public Cloud trial credits 可用于 AI Endpoints，模型目录列 gpt-oss-120b、gpt-oss-20b 与 Qwen3.8-27B。2026-10-01 Reddit 有加拿大账户用户已获 $200 但尚无法确认 AI Endpoints 账单在赠额过期后能否抵扣；另有部分地区用户反映开户激活需小额预付款。未创建账号、未实测到账、具体抵扣、地区或扣款；不承诺零付款和无超额收费。",
+      "review_result": "官方活动及 AI API 适用范围有当前证据，active/premium；实际抵扣及地区/预付款风险未解决。",
+      "review_history": [
+        {
+          "date": "2026-10-18",
+          "result": "核查官方试用条款、免费 AI API 页、AI Endpoints 模型目录及近期社区账单/开户反馈；未实测领取与抵扣。",
+          "source_url": "https://www.ovhcloud.com/en/public-cloud/free-trial/",
+          "secondary_sources": [
+            "https://www.ovhcloud.com/de/public-cloud/free-ai-api/",
+            "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+            "https://www.reddit.com/r/ovh/comments/1wva5ut/does_the_public_cloud_free_trial_credit_cover_ai/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai21-studio-10-trial-api-2026",
+      "name": "AI21 Studio 新用户 $10 模型 API 试用",
+      "type": "官方模型厂商新用户模型 API 赠金",
+      "description": "AI21 新账户赠 $10 API 试用金，可调用 Jamba Mini、Jamba Large；官网写 7 天有效，开发文档仍写 3 个月，先按较短期限规划。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 64,
+      "quality_breakdown": {
+        "free_api_value": 16,
+        "model_usefulness": 19,
+        "claim_convenience": 22,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "官方免绑卡 $10 可直接用于模型 API，但额度不大、官网有效期仅 7 天，适合短期试用。",
+      "credits": "新账户 $10 模型 API credits；官网定价写 7 天有效，官方 usage-cost 文档写 3 个月，冲突未消除，保守按 7 天。",
+      "models": [
+        "Jamba Mini",
+        "Jamba Large"
+      ],
+      "requirements": "个人注册 AI21 Studio 新账户并创建 API Key；官网声明免费试用无需支付卡；中国大陆注册/地区限制、手机号要求及实际到账未实测。",
+      "payment_required": "免费试用无需绑卡或预充值；额度耗尽或过期后继续使用需要补充有效账单信息。",
+      "url": "https://www.ai21.com/pricing/",
+      "official_source_url": "https://www.ai21.com/pricing/",
+      "claim_url": "https://studio.ai21.com/",
+      "source_type": "AI21 官方定价与开发者文档",
+      "evidence_urls": [
+        "https://www.ai21.com/pricing/",
+        "https://docs.ai21.com/docs/usage-cost",
+        "https://studio.ai21.com/"
+      ],
+      "discovered_at": "2026-10-18",
+      "verified_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": null,
+      "verification_note": "2026-10-18 AI21 官方 pricing 明确 $10 credits for 7 days、No credit card needed，模型列表 Jamba Mini/Large 与每百万 Token 价格；官方 usage-cost 文档明确 $10 可用于 REST API/SDK/playground，但有效期写 3 个月，采用较保守的 7 天。未新建账户，未实测注册、到账或地区可用性。",
+      "review_result": "官方当前免绑卡 API 试用确认，active/normal；期限两份官方文档冲突。",
+      "review_history": [
+        {
+          "date": "2026-10-18",
+          "result": "核对官网定价 $10/7 天免绑卡与开发文档 $10/3 个月的冲突，确认可用于 API/SDK；未实测开户。",
+          "source_url": "https://www.ai21.com/pricing/",
+          "secondary_sources": [
+            "https://docs.ai21.com/docs/usage-cost"
           ]
         }
       ]
