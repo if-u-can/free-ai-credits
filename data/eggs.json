@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T12:10:19+08:00",
+  "updated_at": "2026-10-18T14:45:07+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2431,6 +2431,60 @@
             "https://maas.unisound.com/model-hub",
             "https://maas.unisound.com/docs/guide/quickstart",
             "https://maas.unisound.com/docs/guide/overview"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agnes-ai-flash-free-api-2026",
+      "name": "Agnes AI 3.0/2.5 Flash 免费模型 API",
+      "type": "正规模型厂商官方免费推理 API",
+      "description": "Agnes 3.0 Flash 与 2.5 Flash 的输入、输出及缓存命中现价均为 ¥0，支持代码、推理和工具调用；免费账户文本 API 实际限速 10 RPM。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 80,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 22,
+        "claim_convenience": 18,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方免费模型 API 可持续低频调用，文本模型现价为零且具备编程推理能力；免费档 10 RPM，优惠期限及实际吞吐不保证，不评 Super。",
+      "credits": "中国站 agnes-3.0-flash 与 agnes-2.5-flash 的缓存输入、输入和输出均 ¥0/百万 Tokens；国际站对应为 $0/百万 Tokens。未公布固定免费 Token 总量；零价为当前优惠，可能调整。",
+      "models": [
+        "agnes-3.0-flash",
+        "agnes-2.5-flash"
+      ],
+      "requirements": "个人注册 Agnes AI 中国站或国际站账户，在开发者控制台创建免费/default API Key；中国站使用 https://api.agnes-ai.cn/v1，国际站使用 https://apihub.agnes-ai.com/v1。官方文档说明个人免费密钥，无企业/学生资格要求；中国大陆手机号、实名、开户成功率与账户互通未实测。",
+      "payment_required": "官方文档提供免费/default API Key，未发现要求先充值或订阅 Token Plan 才能调用上述免费 Flash 模型；是否强制绑卡、支付验证或其他开户限制未实测，不能保证所有地区免绑卡。",
+      "url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
+      "official_source_url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
+      "claim_url": "https://platform.agnes-ai.cn/",
+      "source_type": "Agnes AI 官方中国站定价、免费 API Key 与 RPM 文档，国际站价格交叉核对",
+      "evidence_urls": [
+        "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
+        "https://wiki.agnes-ai.cn/zh-Hans/docs/faqs",
+        "https://wiki.agnes-ai.cn/zh-Hans/docs/tokenplan",
+        "https://wiki.agnes-ai.cn/zh-Hans/docs/overview",
+        "https://wiki.agnes-ai.com/en/docs/pricing",
+        "https://wiki.agnes-ai.com/en/docs/faqs"
+      ],
+      "discovered_at": "2026-10-18",
+      "verified_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": null,
+      "verification_note": "2026-10-18 读取 Agnes AI 中国站与国际站官方定价：agnes-2.5-flash、agnes-3.0-flash 输入/输出/缓存现价均为零，优惠截止未明确；中国站 FAQ 给出注册、免费 API Key、OpenAI 兼容 API 接入方式；2026-09-23 更新的官方 Token Plan FAQ 明确免费文本实际限速 10 RPM、同类 Key 共用限额。官网 FAQ 称核心模型可长期免费，但定价页保留恢复收费的刊例价，故不承诺永久零价。未创建账户、未实测手机号/支付资格、API 调用、实际吞吐及近期新账号成功率。",
+      "review_result": "官方当期零价模型 API、个人免费密钥与限流规则可核实，active/premium；不满足 Super 可量化高价值和实际可用性要求。",
+      "review_history": [
+        {
+          "date": "2026-10-18",
+          "result": "核对官方中国站和国际站 Flash 现价零元、免费 API Key、OpenAI 兼容调用及 10 RPM 限制；账户领取、绑卡和实际调用未测试。",
+          "source_url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
+          "secondary_sources": [
+            "https://wiki.agnes-ai.cn/zh-Hans/docs/faqs",
+            "https://wiki.agnes-ai.cn/zh-Hans/docs/tokenplan",
+            "https://wiki.agnes-ai.com/en/docs/pricing"
           ]
         }
       ]
