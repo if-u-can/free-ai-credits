@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T02:45:11.206+08:00",
+  "updated_at": "2026-10-18T12:10:19+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2378,6 +2378,59 @@
             "https://docs.privatemode.ai/models/overview/",
             "https://docs.privatemode.ai/portal/billing/",
             "https://www.privatemode.ai/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unisound-u2-flash-unlimited-free-api-oct-2026",
+      "name": "云知声 U2 Flash 限时免费模型 API",
+      "type": "官方模型厂商 API 限时活动",
+      "description": "U2 Flash 编程推理 API 在 10 月 31 日前输入、输出均免费，官方宣传活动期不限 Token 总量；手机号注册可自助创建 API Key。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 78,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 21,
+        "claim_convenience": 19,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方明确短期限时免费且模型适合编程推理；活动 10 月 31 日结束，未核实账号实际吞吐与限速，暂不满足 Super 可持续高额价值门槛。",
+      "credits": "2026-09-30 至 2026-10-31，u2-flash 输入、输出、缓存命中均 ¥0/百万 Tokens；官网称活动期不限 Token 总量，实际限速及公平使用规则未公开完整。个人开发者实名认证还可获 U2 Flash 500 万 Tokens 资源包，属于独立认证礼包，不与限免量相加。",
+      "models": [
+        "U2 Flash (u2-flash)"
+      ],
+      "requirements": "云知声 MaaS 手机验证码注册；控制台按量计费/模型资源包创建 API Key。个人开发者可实名认证领额外 500 万 Tokens；限免 API 是否强制实名、各手机号归属地资格、账号实际速率及领取成功率未实测。",
+      "payment_required": "活动页输入/输出/缓存价均为 ¥0，官方快速开始提供自助注册与 API Key 创建；未发现公开必须先充值或绑卡要求，实际账户流程未测试。10 月 31 日后恢复计费，需留意余额扣费。",
+      "url": "https://maas.unisound.com/model-hub",
+      "official_source_url": "https://maas.unisound.com/token-plan",
+      "claim_url": "https://maas.unisound.com/",
+      "source_type": "云知声官方 Token Plan 限免价格、模型目录、快速开始和 OpenAI 兼容 API 文档",
+      "evidence_urls": [
+        "https://maas.unisound.com/token-plan",
+        "https://maas.unisound.com/model-hub",
+        "https://maas.unisound.com/docs/guide/quickstart",
+        "https://maas.unisound.com/docs/guide/overview",
+        "https://maas.unisound.com/docs/guide/text/text-generation",
+        "https://maas.unisound.com/docs/guide/capability/function-calling"
+      ],
+      "discovered_at": "2026-10-18",
+      "verified_at": "2026-10-18",
+      "last_seen_at": "2026-10-18",
+      "last_reviewed_at": "2026-10-18",
+      "next_review_at": null,
+      "verification_note": "2026-10-18 直接读取云知声官网：Token Plan 页面 U2 Flash 活动 2026-09-30 至 10-31，输入/输出/缓存 ¥0；模型目录称限时免费无限量并列 u2-flash，支持编程/Agent；快速开始明确手机号验证码自动注册、个人实名认证后可另领 U2 Flash 500 万 Tokens；平台概览与文本生成文档给出 OpenAI 兼容 API https://maas-api.unisound.com/v1 和 model=u2-flash，Function Calling 文档支持 u2-flash。未实测手机号、实名、绑卡、额度到账、API 请求与限速，未找到可独立确认的近期个人实领反馈。",
+      "review_result": "官方当期活动、具体模型、API 和个人注册入口有公开证据，active/premium；活动仅剩约两周且限流未量化，不评 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-18",
+          "result": "核实 U2 Flash 活动期 ¥0 API 定价、官方不限量宣传、手机号注册与个人实名额外 500 万 Tokens、OpenAI API 接入；实际调用及限流未测。",
+          "source_url": "https://maas.unisound.com/token-plan",
+          "secondary_sources": [
+            "https://maas.unisound.com/model-hub",
+            "https://maas.unisound.com/docs/guide/quickstart",
+            "https://maas.unisound.com/docs/guide/overview"
           ]
         }
       ]
