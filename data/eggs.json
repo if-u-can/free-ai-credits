@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T08:52:17+08:00",
+  "updated_at": "2026-10-20T07:16:02+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -561,25 +561,50 @@
     {
       "id": "fireworks-ai-free-credit-2026",
       "name": "Fireworks AI 注册试用",
-      "description": "Fireworks 注册送 $1，够试几次 API。没有开付费的话，用完就停。",
-      "credits": "新用户 $1 API credits",
+      "description": "旧官方资料曾写注册送 $1 模型 API 额度；现行定价改为预付制，尚未确认新账号仍会自动获得这笔赠金。",
+      "credits": "历史资料称新账户 $1 模型 API credits；2026-10-20 尚未确认仍向新账户发放。",
       "models": [
         "平台当前按需推理模型（以模型目录为准）"
       ],
-      "requirements": "平台注册；初次额度用完即暂停，继续需要开通计费",
-      "payment_required": "否（官方称首次 $1 用完后才要求添加支付方式）",
-      "status": "active",
-      "grade": "normal",
-      "grade_reason": "低门槛小额试用",
-      "quality_score": 48,
+      "requirements": "个人可注册 Fireworks AI；当前定价说明预付费，是否必须先购入 credits 才能使用 API 以及新账户赠金资格待核实。",
+      "payment_required": "现行官方定价要求添加支付方式购买预付 credits；旧 $1 免绑卡 FAQ 与 2026-07-01 后的预付制规则冲突，尚未验证免付费新客 API 调用。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": null,
+      "quality_score": null,
       "discovered_at": "2026-09-20",
-      "verified_at": "2026-10-08",
-      "url": "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
-      "official_source_url": "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+      "verified_at": null,
+      "url": "https://fireworks.ai/pricing",
+      "official_source_url": "https://fireworks.ai/pricing",
       "claim_url": "https://app.fireworks.ai/signup",
-      "verification_note": "官方 FAQ 明确 $1 用完后无支付方式将暂停；仅适合短期测试。",
+      "verification_note": "2026-10-20 复查：现行定价明确预付费、添加支付方式购买 credits；2026-06-15 官方公告自 7 月 1 日将自助账户迁移预付。旧 $1 FAQ 仍描述后付费及额度耗尽后绑卡，早于迁移；较早的官方模型供应商文章亦提 $1，但无法证明现在新注册可领。未实测新账户，暂不能认定赠金仍有效，也不直接判 expired。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "quality_breakdown": null,
+      "last_reviewed_at": "2026-10-20",
+      "last_seen_at": "2026-10-20",
+      "next_review_at": "2026-10-21",
+      "evidence_urls": [
+        "https://fireworks.ai/pricing",
+        "https://fireworks.ai/blog/billing-migration-to-prepaid",
+        "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://fireworks.ai/blog/best-llm-api-providers"
+      ],
+      "review_result": "当前预付制与旧 $1 注册赠金资料冲突；降为 pending/null，等待新账户实际领取或新的当期官方明确说明。",
+      "review_history": [
+        {
+          "date": "2026-10-20",
+          "result": "复查官方现行预付定价、2026-06-15 迁移公告与旧 $1 试用 FAQ；新用户赠额现行规则未确认，改 pending。",
+          "source_url": "https://fireworks.ai/pricing",
+          "secondary_sources": [
+            "https://fireworks.ai/blog/billing-migration-to-prepaid",
+            "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+            "https://fireworks.ai/blog/best-llm-api-providers"
+          ]
+        }
+      ],
+      "review_started_at": "2026-10-20",
+      "review_attempts": 1
     },
     {
       "id": "vultr-250-serverless-2026",
@@ -2670,6 +2695,61 @@
             "https://docs.ollama.com/cloud",
             "https://ollama.com/pricing",
             "https://lab.ict-yorozu.com/reflection-beam-ollama-free-release/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mangoboost-mango-inference-10-trial-2026",
+      "name": "MangoBoost Mango Inference 新客 $10 模型 API 赠金",
+      "type": "正规推理平台官方新客 API credits",
+      "description": "Mango Inference 新账号赠 $10 模型 API 试用金，可试 GLM-5.3、DeepSeek V4 Pro、Kimi K3、MiniMax M3；11 月 11 日前模型价格另有七折活动。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 69,
+      "quality_breakdown": {
+        "free_api_value": 18,
+        "model_usefulness": 24,
+        "claim_convenience": 18,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "厂商代表确认新客 $10 API 赠金，官网可直接申请并列出强模型；额度有限，支付验证、到账及赠金有效期尚未实测，不评 Super。",
+      "credits": "新用户 $10 Mango Inference API credits；官网另有截至 2026-11-11 的全模型 30% 折扣（不等于额外赠金）；赠额有效期未在公开页面明确。",
+      "models": [
+        "GLM-5.3",
+        "DeepSeek-V4-Pro-0813",
+        "Kimi-K3",
+        "MiniMax-M3"
+      ],
+      "requirements": "个人在 Mango Inference 注册账户、创建 API Key，官方站有 Claim your credits 入口；中国大陆手机号/地区限制、开户成功率及是否需额外审核尚未实测。",
+      "payment_required": "官网显示可领取试用 credits，厂商公开资料未明确领取前是否必须绑卡或预充值；普通付费账户采用预付余额制，不能据此断言免费赠金免绑卡。",
+      "url": "https://www.mangoboost.io/platform/mango-inference",
+      "official_source_url": "https://www.mangoboost.io/platform/mango-inference",
+      "claim_url": "https://inference.mangoboost.io/",
+      "source_type": "MangoBoost 官方产品与活动页、厂商代表 2026-10-13 公告、AMD 2026-10-09 合作介绍、官方 API/账单文档",
+      "evidence_urls": [
+        "https://www.mangoboost.io/platform/mango-inference",
+        "https://dev.to/richard_lin_46b30cea4e4d7/free-credits-mango-inference-59fm",
+        "https://www.amd.com/en/blogs/2026/mangoboost-delivers-open-ai-models-powered-by-amd.html",
+        "https://inference.mangoboost.io/docs/reference/models-and-pricing/",
+        "https://inference.mangoboost.io/docs/operations/billing-and-payments/"
+      ],
+      "discovered_at": "2026-10-20",
+      "verified_at": "2026-10-20",
+      "last_seen_at": "2026-10-20",
+      "last_reviewed_at": "2026-10-20",
+      "next_review_at": null,
+      "verification_note": "2026-10-20 查厂商官网 Mango Inference：当前提供 Claim your credits 注册入口，列 GLM-5.3、MiniMax-M3、Kimi-K3、DeepSeek-V4-Pro-0813 为 Available，模型七折至 11 月 11 日；厂商代表 Richard Lin 2026-10-13 在 DEV Community 明确表示注册送 $10 API credits。AMD 2026-10-09 官方文章独立确认新客有免费 credits，且可使用 OpenAI/Anthropic 兼容 API。官方账单文档仅说明付费余额预付，未公开赠金有效期/绑卡要求；未创建账户、未实测赠金到账、中国大陆注册或 API 实际调用。",
+      "review_result": "官方产品页、厂商代表当期 $10 赠金与 AMD 合作报道相互印证，active/premium；关键开户细节仍未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-20",
+          "result": "核实厂商代表 $10 新客 API 赠金、官网领取入口、强模型列表、AMD 合作报道与预付账单文档；绑卡、地区和到账未实测。",
+          "source_url": "https://www.mangoboost.io/platform/mango-inference",
+          "secondary_sources": [
+            "https://dev.to/richard_lin_46b30cea4e4d7/free-credits-mango-inference-59fm",
+            "https://www.amd.com/en/blogs/2026/mangoboost-delivers-open-ai-models-powered-by-amd.html",
+            "https://inference.mangoboost.io/docs/operations/billing-and-payments/"
           ]
         }
       ]
