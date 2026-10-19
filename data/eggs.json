@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T01:42:51+08:00",
+  "updated_at": "2026-10-19T08:52:17+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2616,6 +2616,60 @@
           "source_url": "https://www.ai21.com/pricing/",
           "secondary_sources": [
             "https://docs.ai21.com/docs/usage-cost"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ollama-reflection-beam-free-cloud-api-2026",
+      "name": "Ollama Cloud · Reflection Beam 限时免费 API",
+      "type": "官方推理平台模型限时免费",
+      "description": "501B 参数的 Beam 现可通过 Ollama Cloud 免费调用，适合编程、推理和工具型 Agent；官方未公布限免截止日期与免费总量。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 74,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 24,
+        "claim_convenience": 19,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "官方确认强编程推理模型限时免费并提供云端 API；总配额、限速与结束日未量化，不满足 Super 高价值可用量门槛。",
+      "credits": "Ollama 官方 2026-10-16 宣布 Beam 云端限时免费；未公布免费 Token 总额、每日请求数及截止日，不能与 Ollama Free Starter 月度额度相加。",
+      "models": [
+        "Reflection Beam（beam:cloud；官方云端 API 型号请以 /api/tags 返回为准）"
+      ],
+      "requirements": "个人 Ollama 账号，Free $0 方案及云端 API Key；官方发布支持 Codex、Claude Code、OpenCode。中国大陆账号/手机号限制、实际调用与限速未实测。",
+      "payment_required": "Ollama Free $0 方案无订阅费；本次 Beam 限免官方未要求预充值，是否需要绑卡及各地区免费账号可用性未实测；其他付费模型需购买 usage credits。",
+      "url": "https://ollama.com/blog/reflection-beam",
+      "official_source_url": "https://ollama.com/blog/reflection-beam",
+      "claim_url": "https://ollama.com/settings/keys",
+      "source_type": "Ollama 官方 2026-10-16 公告、模型页、云端 API 文档及近期第三方实用反馈",
+      "evidence_urls": [
+        "https://ollama.com/blog/reflection-beam",
+        "https://ollama.com/library/beam",
+        "https://docs.ollama.com/cloud",
+        "https://docs.ollama.com/api/introduction",
+        "https://ollama.com/pricing",
+        "https://lab.ict-yorozu.com/reflection-beam-ollama-free-release/"
+      ],
+      "discovered_at": "2026-10-19",
+      "verified_at": "2026-10-19",
+      "last_seen_at": "2026-10-19",
+      "last_reviewed_at": "2026-10-19",
+      "next_review_at": null,
+      "verification_note": "2026-10-19 重新查看 Ollama 2026-10-16 官方公告：Beam 501B/23B active、1M 上下文，限时免费经 Ollama Cloud 使用，官方模型页提供 cloud API 调用示例。官方云端文档确认可使用 API Key 直接调用，支持 OpenAI 兼容端点。2026-10-17 第三方实用记录称 Free 账户已显示 Beam 可用，CLI 实测账单 $0；非本站实测。Ollama Free 定价仅说明 Starter credits/模型，Beam 限免独立；具体免费配额、截止日期、支付验证、中国大陆开户与 API 成功率未独立实测。",
+      "review_result": "官方现行 Beam 云端限时免费及模型 API 接口成立，收录 active/premium；不把未公布的限免总量当作超级额度。",
+      "review_history": [
+        {
+          "date": "2026-10-19",
+          "result": "核查官方限免公告、Beam 模型页、Cloud/API 文档、Free 计划，并找到 10 月 17 日第三方 Free 账户实际调用为 $0 的反馈；未实测账号注册与调用。",
+          "source_url": "https://ollama.com/blog/reflection-beam",
+          "secondary_sources": [
+            "https://ollama.com/library/beam",
+            "https://docs.ollama.com/cloud",
+            "https://ollama.com/pricing",
+            "https://lab.ict-yorozu.com/reflection-beam-ollama-free-release/"
           ]
         }
       ]
