@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:16:02+08:00",
+  "updated_at": "2026-10-20T08:22:09+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -629,7 +629,7 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-19",
+      "last_reviewed_at": "2026-10-20",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -658,19 +658,28 @@
             "https://docs.vultr.com/how-to-deploy-openclaw-autonomous-ai-agent-platform",
             "https://www.vultr.com/promo/try250/"
           ]
+        },
+        {
+          "date": "2026-10-20",
+          "result": "10月20日复查：Vultr 官方发现站仍以 try250 推广新账号 $250 credits，并展示与 Serverless Inference 相关的教程；但 try250 活动入口返回 403，无法确认当前个人实际领取资格、赠额到账和 Serverless Inference 账单抵扣，保持 pending。",
+          "source_url": "https://discover.vultr.com/",
+          "secondary_sources": [
+            "https://docs.vultr.com/product-overviews/serverless-inference",
+            "https://www.vultr.com/promo/try250/"
+          ]
         }
       ],
-      "next_review_at": "2026-10-20",
-      "review_attempts": 4,
+      "next_review_at": "2026-10-21",
+      "review_attempts": 5,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "官方 Serverless Inference 产品视频页明确将新账号 $250 try250 赠额作为体验该推理产品的入口，证明赠额宣传与模型 API 有直接关联；官方注册指南要求绑定支付方式，信用卡可选 $0 预充值验证，其他方式需小额预付。try250 领取页本轮仍无法正常读取，未实测个人领取、地区资格或 Serverless 账单实际抵扣，因此仅恢复 pending，不评等级。",
+      "review_result": "10月20日复查：Vultr 官方发现站仍以 try250 推广新账号 $250 credits，并展示与 Serverless Inference 相关的教程；但 try250 活动入口返回 403，无法确认当前个人实际领取资格、赠额到账和 Serverless Inference 账单抵扣，保持 pending。",
       "evidence_urls": [
         "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
         "https://docs.vultr.com/platform/create-an-account",
         "https://docs.vultr.com/how-to-deploy-openclaw-autonomous-ai-agent-platform",
         "https://www.vultr.com/promo/try250/"
       ],
-      "last_seen_at": "2026-10-19"
+      "last_seen_at": "2026-10-20"
     },
     {
       "id": "azure-free-200-ai-2026",
@@ -1069,11 +1078,11 @@
       "grade": null,
       "grade_reason": null,
       "quality_score": null,
-      "last_reviewed_at": "2026-10-19",
-      "next_review_at": "2026-10-20",
+      "last_reviewed_at": "2026-10-20",
+      "next_review_at": "2026-10-21",
       "review_started_at": "2026-10-09",
-      "review_attempts": 6,
-      "review_result": "本日读取官方 MaaS 活动页：新客 1000 万 GLM-5.3-Flash Tokens、30 天有效，活动规则写至 11 月 10 日；同页仍弹出活动已结束，个人领取资格未实测，维持 pending。",
+      "review_attempts": 7,
+      "review_result": "10月20日直接核对官方 MaaS 活动页：仍列新客免费 1000 万 GLM-5.3-Flash Tokens、领取后 30 天有效，活动规则写至 11 月 10 日；但同页仍显示“活动已结束”，且无新账号实领证据，继续 pending，不评等级。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1112,10 +1121,15 @@
           "date": "2026-10-19",
           "result": "本日读取官方 MaaS 活动页：新客 1000 万 GLM-5.3-Flash Tokens、30 天有效，活动规则写至 11 月 10 日；同页仍弹出活动已结束，个人领取资格未实测，维持 pending。",
           "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
+        },
+        {
+          "date": "2026-10-20",
+          "result": "10月20日直接核对官方 MaaS 活动页：仍列新客免费 1000 万 GLM-5.3-Flash Tokens、领取后 30 天有效，活动规则写至 11 月 10 日；但同页仍显示“活动已结束”，且无新账号实领证据，继续 pending，不评等级。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
         }
       ],
       "quality_breakdown": null,
-      "last_seen_at": "2026-10-19"
+      "last_seen_at": "2026-10-20"
     },
     {
       "id": "siliconflow-realname-16-coupon-2026",
@@ -1235,11 +1249,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-19",
-      "next_review_at": "2026-10-20",
+      "last_reviewed_at": "2026-10-20",
+      "next_review_at": "2026-10-21",
       "review_started_at": "2026-10-09",
-      "review_attempts": 11,
-      "review_result": "本日核查官方 Free $0 仍含每月 Starter usage credits、Starter models 与 1 并发，按注册日每月重置；赠额具体金额、免费型号名单、绑卡及中国大陆开户资格未公开完整，维持 pending。",
+      "review_attempts": 12,
+      "review_result": "10月20日复核官方 Pricing：Free $0 仍含 Starter usage credits、Starter models，免费用量按注册日每月刷新，单并发；官方未公开具体 Starter 赠额金额、完整免费模型名单和个人绑卡/大陆资格，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1328,9 +1342,17 @@
           "date": "2026-10-19",
           "result": "本日核查官方 Free $0 仍含每月 Starter usage credits、Starter models 与 1 并发，按注册日每月重置；赠额具体金额、免费型号名单、绑卡及中国大陆开户资格未公开完整，维持 pending。",
           "source_url": "https://ollama.com/pricing"
+        },
+        {
+          "date": "2026-10-20",
+          "result": "10月20日复核官方 Pricing：Free $0 仍含 Starter usage credits、Starter models，免费用量按注册日每月刷新，单并发；官方未公开具体 Starter 赠额金额、完整免费模型名单和个人绑卡/大陆资格，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://ollama.com/blog/transparent-pricing"
+          ]
         }
       ],
-      "last_seen_at": "2026-10-19"
+      "last_seen_at": "2026-10-20"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
