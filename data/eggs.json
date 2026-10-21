@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T12:08:01+08:00",
+  "updated_at": "2026-10-21T15:53:51+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -591,16 +591,16 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "quality_breakdown": null,
-      "last_reviewed_at": "2026-10-20",
-      "last_seen_at": "2026-10-20",
-      "next_review_at": "2026-10-21",
+      "last_reviewed_at": "2026-10-21",
+      "last_seen_at": "2026-10-21",
+      "next_review_at": "2026-10-22",
       "evidence_urls": [
         "https://fireworks.ai/pricing",
         "https://fireworks.ai/blog/billing-migration-to-prepaid",
         "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
         "https://fireworks.ai/blog/best-llm-api-providers"
       ],
-      "review_result": "当前预付制与旧 $1 注册赠金资料冲突；降为 pending/null，等待新账户实际领取或新的当期官方明确说明。",
+      "review_result": "10月21日复查：官方现行定价仍要求预付购买 credits；官方账单 FAQ 仍提及 $1 starter credit，但没有确认当前所有新注册账户自动到账、是否无需绑卡。继续 pending，不将旧 FAQ 当作到账证明。",
       "review_history": [
         {
           "date": "2026-10-20",
@@ -611,10 +611,18 @@
             "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
             "https://fireworks.ai/blog/best-llm-api-providers"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "result": "10月21日复查：官方现行定价仍要求预付购买 credits；官方账单 FAQ 仍提及 $1 starter credit，但没有确认当前所有新注册账户自动到账、是否无需绑卡。继续 pending，不将旧 FAQ 当作到账证明。",
+          "source_url": "https://fireworks.ai/pricing",
+          "secondary_sources": [
+            "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit"
+          ]
         }
       ],
       "review_started_at": "2026-10-20",
-      "review_attempts": 1
+      "review_attempts": 2
     },
     {
       "id": "vultr-250-serverless-2026",
@@ -639,7 +647,7 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-20",
+      "last_reviewed_at": "2026-10-21",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -677,19 +685,27 @@
             "https://docs.vultr.com/product-overviews/serverless-inference",
             "https://www.vultr.com/promo/try250/"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "result": "10月21日复查：官方 Serverless Inference 产品文档可访问；$250 try250 领取入口仍返回 403，无法核对当前个人资格、支付要求和赠金是否抵扣模型推理 API，继续 pending。",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference",
+          "secondary_sources": [
+            "https://www.vultr.com/promo/try250/"
+          ]
         }
       ],
-      "next_review_at": "2026-10-21",
-      "review_attempts": 5,
+      "next_review_at": "2026-10-22",
+      "review_attempts": 6,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "10月20日复查：Vultr 官方发现站仍以 try250 推广新账号 $250 credits，并展示与 Serverless Inference 相关的教程；但 try250 活动入口返回 403，无法确认当前个人实际领取资格、赠额到账和 Serverless Inference 账单抵扣，保持 pending。",
+      "review_result": "10月21日复查：官方 Serverless Inference 产品文档可访问；$250 try250 领取入口仍返回 403，无法核对当前个人资格、支付要求和赠金是否抵扣模型推理 API，继续 pending。",
       "evidence_urls": [
         "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
         "https://docs.vultr.com/platform/create-an-account",
         "https://docs.vultr.com/how-to-deploy-openclaw-autonomous-ai-agent-platform",
         "https://www.vultr.com/promo/try250/"
       ],
-      "last_seen_at": "2026-10-20"
+      "last_seen_at": "2026-10-21"
     },
     {
       "id": "azure-free-200-ai-2026",
@@ -1088,11 +1104,11 @@
       "grade": null,
       "grade_reason": null,
       "quality_score": null,
-      "last_reviewed_at": "2026-10-20",
-      "next_review_at": "2026-10-21",
+      "last_reviewed_at": "2026-10-21",
+      "next_review_at": "2026-10-22",
       "review_started_at": "2026-10-09",
-      "review_attempts": 7,
-      "review_result": "10月20日直接核对官方 MaaS 活动页：仍列新客免费 1000 万 GLM-5.3-Flash Tokens、领取后 30 天有效，活动规则写至 11 月 10 日；但同页仍显示“活动已结束”，且无新账号实领证据，继续 pending，不评等级。",
+      "review_attempts": 8,
+      "review_result": "10月21日复查：超算互联网官方 MaaS 专场仍列新客 1000 万 GLM-5.3-Flash Tokens 和免费领取，但同一页面出现“活动已结束”提示，无法确认该弹窗是否专指新客赠额；没有当日新账号领取验证，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1136,10 +1152,15 @@
           "date": "2026-10-20",
           "result": "10月20日直接核对官方 MaaS 活动页：仍列新客免费 1000 万 GLM-5.3-Flash Tokens、领取后 30 天有效，活动规则写至 11 月 10 日；但同页仍显示“活动已结束”，且无新账号实领证据，继续 pending，不评等级。",
           "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
+        },
+        {
+          "date": "2026-10-21",
+          "result": "10月21日复查：超算互联网官方 MaaS 专场仍列新客 1000 万 GLM-5.3-Flash Tokens 和免费领取，但同一页面出现“活动已结束”提示，无法确认该弹窗是否专指新客赠额；没有当日新账号领取验证，保持 pending。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html"
         }
       ],
       "quality_breakdown": null,
-      "last_seen_at": "2026-10-20"
+      "last_seen_at": "2026-10-21"
     },
     {
       "id": "siliconflow-realname-16-coupon-2026",
@@ -1259,11 +1280,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-20",
-      "next_review_at": "2026-10-21",
+      "last_reviewed_at": "2026-10-21",
+      "next_review_at": "2026-10-22",
       "review_started_at": "2026-10-09",
-      "review_attempts": 12,
-      "review_result": "10月20日复核官方 Pricing：Free $0 仍含 Starter usage credits、Starter models，免费用量按注册日每月刷新，单并发；官方未公开具体 Starter 赠额金额、完整免费模型名单和个人绑卡/大陆资格，继续 pending。",
+      "review_attempts": 13,
+      "review_result": "10月21日复查：Ollama 官方 Pricing 的 $0 Free 方案仍包含 Starter usage credits 和 Starter models，Cloud 文档确认 API Key 可用于模型 API；具体 Starter 免费赠额和当前免费型号/地区资格未公开完整，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1360,9 +1381,17 @@
           "secondary_sources": [
             "https://ollama.com/blog/transparent-pricing"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "result": "10月21日复查：Ollama 官方 Pricing 的 $0 Free 方案仍包含 Starter usage credits 和 Starter models，Cloud 文档确认 API Key 可用于模型 API；具体 Starter 免费赠额和当前免费型号/地区资格未公开完整，继续 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
         }
       ],
-      "last_seen_at": "2026-10-20"
+      "last_seen_at": "2026-10-21"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
@@ -2782,6 +2811,59 @@
             "https://dev.to/richard_lin_46b30cea4e4d7/free-credits-mango-inference-59fm",
             "https://www.amd.com/en/blogs/2026/mangoboost-delivers-open-ai-models-powered-by-amd.html",
             "https://inference.mangoboost.io/docs/operations/billing-and-payments/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iteracompute-qwen38-27b-30m-monthly-2026",
+      "name": "IteraCompute Qwen3.8-27B 每月免费 3000 万 Tokens",
+      "type": "正规推理平台（自托管开源模型）",
+      "description": "Qwen3.8-27B 每月免费 3000 万 API Tokens，128K 上下文，支持编程与工具调用；免绑卡，免费池高峰可能排队。",
+      "status": "active",
+      "grade": "super",
+      "quality_score": 85,
+      "quality_breakdown": {
+        "free_api_value": 32,
+        "model_usefulness": 17,
+        "claim_convenience": 24,
+        "validity_and_limits": 12
+      },
+      "grade_reason": "官方当期每月 3000 万免费模型 API Tokens、免绑卡和预充值，支持实用编程模型；共享免费容量不保证响应速度。",
+      "credits": "30,000,000 Tokens/月（输入、输出及推理合计；每月 1 日 00:00 UTC 重置，不结转；不自动付费超额）",
+      "models": [
+        "qwen/qwen3.8-27b（Qwen3.8-27B，免费档 128K 上下文，最高输出 8192 Tokens）"
+      ],
+      "requirements": "个人邮箱注册并验证，或 Google 登录；免费档无需绑信用卡、无需充值或企业/学生审批。中国大陆新账号实际注册成功率、模型响应尚未由本站实测。",
+      "payment_required": "否（官方 Free 档无需绑卡或充值；$10/$50 充值仅用于提升 Qwen 免费配额；同平台 Kimi K3 Free 需先累计充值 $10，不包含在此免费档）",
+      "url": "https://iteracompute.com/free/",
+      "official_source_url": "https://iteracompute.com/free/",
+      "claim_url": "https://platform.iteracompute.com/",
+      "source_type": "官方现行免费方案、定价与免费服务条款、官方更新日志、近期独立免费 API 目录",
+      "evidence_urls": [
+        "https://iteracompute.com/free/",
+        "https://iteracompute.com/pricing/",
+        "https://iteracompute.com/free-tier-terms/",
+        "https://iteracompute.com/terms.html",
+        "https://iteracompute.com/changelog/",
+        "https://aifree.dev/offer/iteracompute-free-qwen3-8-27b"
+      ],
+      "discovered_at": "2026-10-21",
+      "verified_at": "2026-10-21",
+      "last_seen_at": "2026-10-21",
+      "last_reviewed_at": "2026-10-21",
+      "next_review_at": null,
+      "verification_note": "2026-10-21 查官方 /free/（目录标注 10月21日更新）、/pricing/、Free Tier Terms 与官方 Changelog：Qwen3.8-27B 自托管 OpenAI 兼容 API，Free 无需充值，30M 输入+输出+推理 Tokens/月、160K TPM、128K 上下文、8192 最大输出；月底不结转、超额 429、共享队列无 SLA。官方 2026-10-15 服务条款称公司注册于中国重庆，个人可自助开户。独立目录 aifree.dev 10月19日人工核验同一免费档。未代用户开账号、未实际验证中国大陆邮箱可成功注册、额度到账或 API 响应；仅据官方公开条款判 active。官网新列 Kimi K3 Free 需要至少 $10 实际累计充值，不能混算进零充值额度。",
+      "review_result": "当前官方免费计划、个人免绑卡领取入口和模型 API 调用说明相互吻合；收录 active/super，仍需用户账户实测地区和真实响应。",
+      "review_history": [
+        {
+          "date": "2026-10-21",
+          "result": "核对 10月21日官方免费页、定价、免费服务条款、服务主体与更新日志，并交叉查 10月19日第三方核验；30M/月仅适用 Qwen3.8-27B，未实测实际开户或 API 调用。",
+          "source_url": "https://iteracompute.com/free/",
+          "secondary_sources": [
+            "https://iteracompute.com/free-tier-terms/",
+            "https://iteracompute.com/pricing/",
+            "https://aifree.dev/offer/iteracompute-free-qwen3-8-27b"
           ]
         }
       ]
