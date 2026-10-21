@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-21",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -253,6 +253,22 @@
       "published_at": "2026-10-14T13:43:09.801+08:00",
       "id": "2026-10-14-morning",
       "kind": "morning"
+    },
+    {
+      "id": "2026-10-21-super-iteracompute-qwen38-27b-30m",
+      "kind": "super",
+      "date": "2026-10-21",
+      "egg_id": "iteracompute-qwen38-27b-30m-monthly-2026",
+      "title": "每月 3000 万免费 Tokens，Eku 捡到大鸡蛋啦 🥚",
+      "summary": "IteraCompute 的 Qwen3.8-27B 每月提供 3000 万免费 API Tokens，支持编程和工具调用，免绑卡、免充值。",
+      "highlights": [
+        "Qwen3.8-27B：每月 3000 万 Tokens，月初刷新。",
+        "OpenAI 兼容 API、128K 上下文、160K TPM，单次最多输出 8192 Tokens。",
+        "免费池高峰可能排队；中国大陆账户实际调用尚未实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://iteracompute.com/free/",
+      "claim_url": "https://platform.iteracompute.com/"
     }
   ]
 }
