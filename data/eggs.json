@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T08:22:09+08:00",
+  "updated_at": "2026-10-21T12:08:01+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -465,25 +465,35 @@
     {
       "id": "nvidia-nim-kimi-k3-2026",
       "name": "NVIDIA NIM 免费推理端点",
-      "description": "NVIDIA Build 上能免费试 Kimi K3。拿来跑几轮代码挺方便，调用有限速。",
-      "credits": "免费开发 API Endpoint（有速率限制）",
+      "description": "NVIDIA Build 的 Kimi K3 免费推理端点已被官方标记 Deprecated，无法再按免费 API 推荐；合作方端点与模型下载仍可用。",
+      "credits": "历史免费开发 API Endpoint（官方现已弃用）",
       "models": [
         "moonshotai/kimi-k3"
       ],
       "requirements": "NVIDIA 开发者登录申请试用 API Key；受地区/公共池流量限制",
       "payment_required": "未知（免费试用页面未明确说明是否需绑卡）",
-      "status": "active",
-      "grade": "premium",
-      "grade_reason": "Kimi K3 试用渠道",
-      "quality_score": 80,
+      "status": "expired",
+      "grade": null,
+      "grade_reason": "官方模型页明确标记 Free Endpoint 为 Deprecated，免费试用入口已失效。",
+      "quality_score": 0,
       "discovered_at": "2026-09-20",
-      "verified_at": "2026-10-08",
+      "verified_at": "2026-10-21",
       "url": "https://build.nvidia.com/moonshotai/kimi-k3",
       "official_source_url": "https://build.nvidia.com/moonshotai/kimi-k3",
-      "claim_url": "https://build.nvidia.com/moonshotai/kimi-k3",
-      "verification_note": "官方模型详情清楚标 Free Endpoint Available；不是赠送可兑换的美元 credits，生产额度可能付费。",
+      "claim_url": null,
+      "verification_note": "2026-10-21 复核 NVIDIA 官方模型详情：Free Endpoint = Deprecated，Partner Endpoint = Available，Download Available = Available。失效仅针对 NVIDIA Build 免费 API 端点，不代表 Kimi K3 模型或其他供应商接口下架。官方未公布具体停止日期。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "last_reviewed_at": "2026-10-21",
+      "expiration_reason": "NVIDIA 官方模型页标记 Free Endpoint Deprecated（2026-10-21 核实；具体停止日期未知）",
+      "review_result": "官方确认免费端点已弃用，状态改为 expired；其他供应商端点与模型下载不受此条判定影响。",
+      "review_history": [
+        {
+          "date": "2026-10-21",
+          "result": "NVIDIA Build 官方模型页当前明确显示 Free Endpoint Deprecated；Partner Endpoint 与 Download 仍 Available。该平台免费 API 端点失效，非模型全面下架。",
+          "source_url": "https://build.nvidia.com/moonshotai/kimi-k3"
+        }
+      ]
     },
     {
       "id": "alibaba-model-studio-beijing-2026",
