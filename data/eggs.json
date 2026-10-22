@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:09:12+08:00",
+  "updated_at": "2026-10-23T06:04:10+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -605,9 +605,9 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "quality_breakdown": null,
-      "last_reviewed_at": "2026-10-22",
-      "last_seen_at": "2026-10-22",
-      "next_review_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "last_seen_at": "2026-10-23",
+      "next_review_at": "2026-10-24",
       "evidence_urls": [
         "https://fireworks.ai/pricing",
         "https://fireworks.ai/blog/billing-migration-to-prepaid",
@@ -617,7 +617,7 @@
         "https://app.fireworks.ai/signup",
         "https://fireworks.ai/models"
       ],
-      "review_result": "10月22日复查：现行账单 FAQ 已同时说明预付制和 $1 starter credit，耗尽后才需添加支付方式并购买额度，原“旧 FAQ 与预付制冲突”理由不成立。注册入口可访问；迁移后新注册的发放资格、期限、地区与到账未实测，继续 pending。",
+      "review_result": "10月23日复核：官方现行账单文档明确存在 $1 starter credit，耗尽后才需添加支付方式；公开邮箱/Google/GitHub 注册入口及 Serverless 模型目录可访问。仍缺新账号实际到账、适用地区和有效期实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-20",
@@ -649,10 +649,20 @@
           ],
           "evening_result": "19:00 晚间复查：现行账单 FAQ 与公开注册入口仍可访问，$1 starter credit 的说明未变；迁移后新注册的发放资格、有效期、地区及实际到账仍缺完整证据，保持 pending。",
           "evening_reviewed_at": "2026-10-22T19:03:55+08:00"
+        },
+        {
+          "date": "2026-10-23",
+          "result": "10月23日复核：官方现行账单文档明确存在 $1 starter credit，耗尽后才需添加支付方式；公开邮箱/Google/GitHub 注册入口及 Serverless 模型目录可访问。仍缺新账号实际到账、适用地区和有效期实测，保持 pending。",
+          "source_url": "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+          "secondary_sources": [
+            "https://app.fireworks.ai/signup",
+            "https://fireworks.ai/models",
+            "https://fireworks.ai/models/fireworks/qwen3p8-max"
+          ]
         }
       ],
       "review_started_at": "2026-10-20",
-      "review_attempts": 3
+      "review_attempts": 4
     },
     {
       "id": "vultr-250-serverless-2026",
@@ -677,7 +687,7 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-22",
+      "last_reviewed_at": "2026-10-23",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -734,19 +744,28 @@
           ],
           "evening_result": "19:00 晚间复查：官方 Serverless Inference 视频页仍提新账户 $250 free credits，try250 入口仍返回 403；专项地区、期限、到账和 API 抵扣无法完整核验，保持 pending。",
           "evening_reviewed_at": "2026-10-22T19:03:55+08:00"
+        },
+        {
+          "date": "2026-10-23",
+          "result": "10月23日复核：官方 Serverless Inference 产品视频页仍引导新账号通过 try250 领取 $250 credits，且模型 API 产品存在；try250 领取页本轮仍返回 403。开户官方说明须绑定支付方式（信用卡可 $0 验证），专项地区资格、实际到账与 Serverless 账单抵扣未验证，继续 pending，不将 403 视为结束。",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+          "secondary_sources": [
+            "https://www.vultr.com/promo/try250/",
+            "https://docs.vultr.com/platform/create-an-account"
+          ]
         }
       ],
-      "next_review_at": "2026-10-23",
-      "review_attempts": 7,
+      "next_review_at": "2026-10-24",
+      "review_attempts": 8,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "10月22日复查：官方 Serverless Inference 视频页仍明确新账户 $250 free credits；try250 返回 403。开户需支付方式，信用卡可选 $0 验证、其他方式需小额预付；专项地区、期限、实际到账与 API 抵扣未实测，继续 pending。",
+      "review_result": "10月23日复核：官方 Serverless Inference 产品视频页仍引导新账号通过 try250 领取 $250 credits，且模型 API 产品存在；try250 领取页本轮仍返回 403。开户官方说明须绑定支付方式（信用卡可 $0 验证），专项地区资格、实际到账与 Serverless 账单抵扣未验证，继续 pending，不将 403 视为结束。",
       "evidence_urls": [
         "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
         "https://docs.vultr.com/platform/create-an-account",
         "https://docs.vultr.com/how-to-deploy-openclaw-autonomous-ai-agent-platform",
         "https://www.vultr.com/promo/try250/"
       ],
-      "last_seen_at": "2026-10-22"
+      "last_seen_at": "2026-10-23"
     },
     {
       "id": "azure-free-200-ai-2026",
@@ -1335,11 +1354,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-22",
-      "next_review_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "next_review_at": "2026-10-24",
       "review_started_at": "2026-10-09",
-      "review_attempts": 14,
-      "review_result": "10月22日复查：官方 Free $0 仍含少量月度 Starter credits 与 Starter models，按注册日刷新、不结转、单并发；Cloud API 与 Key 入口成立。具体数值、完整型号、绑卡与地区条件尚未完整核实，继续 pending。",
+      "review_attempts": 15,
+      "review_result": "10月23日复核：Ollama 官方 Free $0 定价仍含每月刷新的 Starter usage credits、Starter models、1 并发；官方 Cloud 文档可直接通过 API Key 调用云端模型。免费赠额具体数字、Starter 完整型号、绑卡和地区条件仍未公开完整，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1457,9 +1476,18 @@
           ],
           "evening_result": "19:00 晚间复查：Free $0、Starter usage credits、Starter models 与 Cloud API 入口仍有官方依据；具体额度、完整免费型号、绑卡和地区条件仍未公开完整，保持 pending。",
           "evening_reviewed_at": "2026-10-22T19:03:55+08:00"
+        },
+        {
+          "date": "2026-10-23",
+          "result": "10月23日复核：Ollama 官方 Free $0 定价仍含每月刷新的 Starter usage credits、Starter models、1 并发；官方 Cloud 文档可直接通过 API Key 调用云端模型。免费赠额具体数字、Starter 完整型号、绑卡和地区条件仍未公开完整，保持 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud",
+            "https://ollama.com/blog/transparent-pricing"
+          ]
         }
       ],
-      "last_seen_at": "2026-10-22"
+      "last_seen_at": "2026-10-23"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
