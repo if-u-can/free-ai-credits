@@ -29,23 +29,28 @@
     "kind": "morning"
   },
   "evening": {
-    "date": "2026-10-11",
-    "title": "10 月 11 日晚报：问号归档，免费档继续盯 🌙",
-    "summary": "今晚复核了全部五项待核实活动。移动云MoMA、智谱2000万Tokens和超算新客包连续三个自然日仍缺完整的当前领取依据，转入核查归档；Ollama与FreeInference继续待核实。今天没有确认新的超级鸡蛋。",
+    "date": "2026-10-22",
+    "title": "10 月 22 日晚报：三颗问号继续蹲篮边 🌙",
+    "summary": "今晚复核了 Fireworks、Vultr 与 Ollama 三项待核实活动，官方线索仍在，领取细节也仍缺一块。三项保持 pending；白天确认的超算 MaaS 继续为 active / premium。今天没有新增失效项，也没有新 Super。",
     "highlights": [
-      "MoMA、智谱新客赠额、超算新客包：保留记录与来源，转unverifiable；没有证据宣布活动结束，不标expired。",
-      "Ollama Free仍有Starter API用量，免费型号、具体额度和支付资格未核实；FreeInference免费模型目录与注册入口可读，实际开户和配额仍待确认。",
-      "今晚没有确认符合个人低门槛要求的新Super，不发布重复专题。"
+      "Fireworks 的现行 FAQ 仍写 $1 starter credit，公开注册入口可达；迁移后新账户的发放资格、期限、地区和实际到账尚未核实完整。",
+      "Vultr 的 Serverless Inference 视频页仍提新账户 $250 credits，try250 入口继续返回 403；支付方式、专项期限和 API 抵扣还不能闭环。",
+      "Ollama Free 仍有月度 Starter API 用量，具体额度、完整免费型号、绑卡与地区条件没有新增公开答案。",
+      "超算 MaaS 保持 active / premium；今晚没有确认新 Super，也没有重复发布专题。"
     ],
     "tip": "",
     "sources": [
-      "https://ecloud.10086.cn/op-help-center/doc/article/92837",
-      "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
-      "https://docs.bigmodel.cn/cn/guide/platform/equity-explain",
-      "https://www.scnet.cn/home/subject/maas/index.html",
+      "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+      "https://app.fireworks.ai/signup",
+      "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+      "https://www.vultr.com/promo/try250/",
+      "https://docs.vultr.com/platform/create-an-account",
       "https://ollama.com/pricing",
-      "https://freeinference.org/signup",
-      "https://doc.freeinference.org/models"
-    ]
+      "https://docs.ollama.com/cloud",
+      "https://www.scnet.cn/home/subject/maas/index.html"
+    ],
+    "published_at": "2026-10-22T19:03:55+08:00",
+    "id": "2026-10-22-evening",
+    "kind": "evening"
   }
 }

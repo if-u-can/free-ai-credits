@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T15:02:04+08:00",
+  "updated_at": "2026-10-22T19:03:55+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -298,6 +298,31 @@
       "published_at": "2026-10-22T15:02:04+08:00",
       "id": "2026-10-22-morning",
       "kind": "morning"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "10 月 22 日晚报：三颗问号继续蹲篮边 🌙",
+      "summary": "今晚复核了 Fireworks、Vultr 与 Ollama 三项待核实活动，官方线索仍在，领取细节也仍缺一块。三项保持 pending；白天确认的超算 MaaS 继续为 active / premium。今天没有新增失效项，也没有新 Super。",
+      "highlights": [
+        "Fireworks 的现行 FAQ 仍写 $1 starter credit，公开注册入口可达；迁移后新账户的发放资格、期限、地区和实际到账尚未核实完整。",
+        "Vultr 的 Serverless Inference 视频页仍提新账户 $250 credits，try250 入口继续返回 403；支付方式、专项期限和 API 抵扣还不能闭环。",
+        "Ollama Free 仍有月度 Starter API 用量，具体额度、完整免费型号、绑卡与地区条件没有新增公开答案。",
+        "超算 MaaS 保持 active / premium；今晚没有确认新 Super，也没有重复发布专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud",
+        "https://www.scnet.cn/home/subject/maas/index.html"
+      ],
+      "published_at": "2026-10-22T19:03:55+08:00",
+      "id": "2026-10-22-evening",
+      "kind": "evening"
     }
   ]
 }

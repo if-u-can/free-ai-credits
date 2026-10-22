@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T15:02:04+08:00",
+  "updated_at": "2026-10-22T19:03:55+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -632,7 +632,9 @@
             "https://fireworks.ai/pricing",
             "https://fireworks.ai/blog/best-llm-api-providers",
             "https://fireworks.ai/models"
-          ]
+          ],
+          "evening_result": "19:00 晚间复查：现行账单 FAQ 与公开注册入口仍可访问，$1 starter credit 的说明未变；迁移后新注册的发放资格、有效期、地区及实际到账仍缺完整证据，保持 pending。",
+          "evening_reviewed_at": "2026-10-22T19:03:55+08:00"
         }
       ],
       "review_started_at": "2026-10-20",
@@ -715,7 +717,9 @@
           "secondary_sources": [
             "https://www.vultr.com/promo/try250/",
             "https://docs.vultr.com/platform/create-an-account"
-          ]
+          ],
+          "evening_result": "19:00 晚间复查：官方 Serverless Inference 视频页仍提新账户 $250 free credits，try250 入口仍返回 403；专项地区、期限、到账和 API 抵扣无法完整核验，保持 pending。",
+          "evening_reviewed_at": "2026-10-22T19:03:55+08:00"
         }
       ],
       "next_review_at": "2026-10-23",
@@ -1436,7 +1440,9 @@
             "https://docs.ollama.com/cloud",
             "https://docs.ollama.com/api/introduction",
             "https://ollama.com/settings/keys"
-          ]
+          ],
+          "evening_result": "19:00 晚间复查：Free $0、Starter usage credits、Starter models 与 Cloud API 入口仍有官方依据；具体额度、完整免费型号、绑卡和地区条件仍未公开完整，保持 pending。",
+          "evening_reviewed_at": "2026-10-22T19:03:55+08:00"
         }
       ],
       "last_seen_at": "2026-10-22"
