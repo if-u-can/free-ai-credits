@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:03:55+08:00",
+  "updated_at": "2026-10-22T19:09:12+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -365,29 +365,43 @@
     {
       "id": "inception-mercury-trial-2026",
       "name": "Inception Mercury 免费 Tokens",
-      "description": "Mercury 2.5 的免费 API 计划提供 1 亿 Tokens，支持 OpenAI 兼容接口。",
+      "description": "新账户获 1 亿免费 API Tokens，可直接调用 Mercury 3，支持百万上下文与 OpenAI 兼容接口；无需绑卡。",
       "credits": "1 亿免费 API Tokens（官方 Free 计划；非美元赠金）",
       "models": [
-        "mercury-2.5"
+        "mercury-3"
       ],
-      "requirements": "注册 Inception Platform 并创建 API Key；地区适用范围与是否要求绑卡尚待新账号实测",
-      "payment_required": "未明确（公开 Free 方案没有写绑卡条件，尚未经新账号实测）",
+      "requirements": "注册 Inception Platform 新个人账户并创建 API Key；官方明确无需支付信息即可使用免费额度。中国大陆地区资格、实际到账和 API 响应未实测。",
+      "payment_required": "否（官方 Quick Start 明确新账户无需提供支付信息；赠额用完后如需继续使用才添加支付方式）",
       "status": "active",
       "grade": "super",
-      "grade_reason": "官方免费计划提供 1 亿 API Tokens，额度非常大且公开领取步骤简单",
+      "grade_reason": "官方现行新账户 1 亿免费 Mercury 3 API Tokens、无需支付信息；模型适合通用与编程场景。",
       "quality_score": 91,
       "discovered_at": "2026-09-20",
-      "verified_at": "2026-10-08",
-      "url": "https://www.inceptionlabs.ai/models",
-      "official_source_url": "https://www.inceptionlabs.ai/models",
+      "verified_at": "2026-10-22",
+      "url": "https://docs.inceptionlabs.ai/get-started",
+      "official_source_url": "https://docs.inceptionlabs.ai/get-started",
       "claim_url": "https://platform.inceptionlabs.ai/",
-      "verification_note": "官方 Models 页当前 Free 方案列出 100 million free tokens；2026-07-29 公告称每个新 API Key 有 100M，2026-09-08 Mercury 2.5 文章仍宣传 API 试用 100M。同一 Models 页旧 onboarding 段落尚写 10M，存在页面文案冲突；银行卡、地区和实际到账额度未通过新账号实测，故不能承诺所有账户均自动到账。",
+      "verification_note": "2026-10-22 核查官方现行 Quick Start 与 Models 页：每个新账户初始获 1 亿免费 API Tokens，无需提供支付信息即可创建 API Key 调用 mercury-3（OpenAI 兼容，100 万 Tokens 上下文）。Mercury 2/2.5 不再对新用户开放；2026-10-19 前用过旧模型的客户可继续使用至 2026-11-15。官网 Models 页“新 API Key 赠 1 亿”的文案与 Quick Start“每个新账户 1 亿”存在口径差异，保守按每个新账户一次计算，不能宣传每创建一把 Key 都可重复领取。中国大陆个人注册、实际到账与响应未经新账号实测。",
       "type": "官方平台",
-      "source_type": "官方现行 Free 套餐、2026-07-29 公告与 2026-09-08 发布页",
+      "source_type": "官方现行 Quick Start、Models 定价与模型迁移规则",
       "evidence_urls": [
         "https://www.inceptionlabs.ai/models",
         "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
-        "https://www.inceptionlabs.ai/blog/categories/product"
+        "https://www.inceptionlabs.ai/blog/categories/product",
+        "https://docs.inceptionlabs.ai/get-started"
+      ],
+      "last_reviewed_at": "2026-10-22",
+      "last_seen_at": "2026-10-22",
+      "review_result": "10月22日确认 Mercury 3 可使用新账户 1 亿免费 API Tokens；旧型号已停止向新用户开放。",
+      "review_history": [
+        {
+          "date": "2026-10-22",
+          "result": "官方 Quick Start 证实新账户免费 1 亿 Tokens、免绑卡，示例直接调用 mercury-3；Models 页确认 Mercury 2/2.5 新用户停用、旧用户 11月15日迁移期限。",
+          "source_url": "https://docs.inceptionlabs.ai/get-started",
+          "secondary_sources": [
+            "https://www.inceptionlabs.ai/models"
+          ]
+        }
       ]
     },
     {
