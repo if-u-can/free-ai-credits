@@ -3284,6 +3284,56 @@
           ]
         }
       ]
+    },
+    {
+      "id": "iflytek-spark-x26-1b-trial-2026",
+      "name": "讯飞星火 Spark-X2.6 免费 10 亿 Tokens",
+      "type": "官方模型厂商 / 模型推理平台",
+      "description": "讯飞星辰 MaaS 开放 Spark-X2.6 的 10 亿免费 API Tokens，个人实名后可领，开通后约 31 天有效。仅限讯飞自研模型。",
+      "status": "active",
+      "credits": "1,000,000,000 免费 API Tokens（Spark-X2.6 专项；领取后 31 天内有效、每人一次，期限来自近期领取者反馈，非已独立读到的官方条款）",
+      "models": [
+        "Spark-X2.6（讯飞星火自研 293B-A30B MoE 深度推理模型，标称 1M 上下文；专项赠额仅覆盖此模型）"
+      ],
+      "requirements": "个人注册/登录讯飞星辰 MaaS，完成实名认证后进入 Spark-X2.6 模型页领取；社区 2026-10-22 有多位个人成功领取反馈。中国大陆手机号与实名流程可用的社区反馈存在；未替用户实测新账户、实际 API 返回及超额计费保护。",
+      "discovered_at": "2026-10-24",
+      "verified_at": "2026-10-24",
+      "verification_note": "2026-10-24 核查讯飞星辰 MaaS 官方首页当期明确展示“Spark-X2.6赋能开发者零门槛领取10亿tokens免费额度”；官方模型集市提供 Spark-X2.6 型号及推理服务。2026-10-22 LINUX DO 多位用户称已领取、需要实名认证，有用户贴出“开通后31天内有效、每个用户仅限领取一次”，另有用户报告 API 每分钟最多 50 次的 IP 限速。官方模型直链可由社区提供，但本轮网页读取工具无法直接渲染动态领取页，尚未实测 API Key、余额、支付方式、具体 RPM/TPM 与额度耗尽后扣费行为；31天及限速按社区反馈标注，不冒充官方已证实。免费额度仅限讯飞自研 Spark-X2.6，不覆盖同平台 DeepSeek/Kimi/GLM 等其他收费模型。",
+      "url": "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+      "official_source_url": "https://training.xfyun.cn/",
+      "claim_url": "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+      "payment_required": "公开活动宣称零门槛，社区实领仅提到实名认证；是否需绑卡/预充值及超额自动扣费尚未完成账号实测。",
+      "source_type": "官方星辰 MaaS 当期首页与模型领取入口、2026-10-22 近期个人实领反馈",
+      "evidence_urls": [
+        "https://training.xfyun.cn/",
+        "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+        "https://linux.do/t/topic/3057438",
+        "https://www.xfyun.cn/doc/spark/TokenPlan.html"
+      ],
+      "grade": "super",
+      "grade_reason": "官方当期 10 亿免费强模型 API Tokens、个人实名即可申请且有近期成功领取反馈；限 31 天和单一自研模型，支付/限速尚未实测。",
+      "quality_score": 87,
+      "quality_breakdown": {
+        "free_api_value": 35,
+        "model_usefulness": 22,
+        "claim_convenience": 20,
+        "validity_and_limits": 10
+      },
+      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-24",
+      "next_review_at": null,
+      "review_result": "官方 10 亿 Tokens 专项和模型领取入口有当期证据，近期个人已领取反馈；按 active/super 收录，仍需核对动态领取页完整规则、余额与 API 实测。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "核对官方 MaaS 首页 10 亿 Tokens 宣传、Spark-X2.6 模型领取直链及 10月22日多名个人领取反馈；官方动态页无法直接渲染，31 天与限速按社区反馈标注，个人实测未完成。",
+          "source_url": "https://training.xfyun.cn/",
+          "secondary_sources": [
+            "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+            "https://linux.do/t/topic/3057438"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
