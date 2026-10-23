@@ -3334,6 +3334,49 @@
           ]
         }
       ]
+    },
+    {
+      "id": "meituan-longcat-realname-free-tokens-2026",
+      "name": "美团 LongCat API 个人实名赠额线索（额度待核实）",
+      "type": "官方模型厂商 / 模型推理 API",
+      "description": "LongCat 提供可接入编程工具的模型 API，个人实名赠 Tokens 与老带新奖励有历史实领线索；当期新客是否仍可领取尚待核实。",
+      "status": "pending",
+      "grade": null,
+      "quality_score": null,
+      "credits": "第三方 2026-09-10 控制台实领记录称个人实名可得 1000 万 Tokens、30 天有效，另有邀请奖励；官方公开文档未确认当前赠额数值、有效期或库存，不能按已到账宣传。",
+      "models": [
+        "LongCat-2.5-Preview",
+        "LongCat-2.0"
+      ],
+      "requirements": "中国大陆手机号注册，个人实名需姓名与证件号；非大陆可手机号或邮箱注册。当前免费赠额是否需要额外领取步骤、适用地区及实际到账待核实。",
+      "payment_required": "官方公开文档未明确免费赠额是否需绑卡/预充值；个人实名认证与购买资源包的要求已核对，免费活动的支付条件待实测。",
+      "discovered_at": "2026-10-24",
+      "verified_at": null,
+      "url": "https://longcat.chat/platform/",
+      "official_source_url": "https://longcat.chat/platform/docs/zh/FAQ.html",
+      "claim_url": "https://longcat.chat/platform/",
+      "evidence_urls": [
+        "https://longcat.chat/platform/docs/zh/FAQ.html",
+        "https://longcat.chat/platform/docs/zh/ChangeLog.html",
+        "https://longcat.chat/platform/docs/zh/cc-switch",
+        "https://mianfeisuanli.com/platform/longcat.html"
+      ],
+      "verification_note": "2026-10-24：LongCat 官方 FAQ 证实中国大陆手机号注册、个人实名认证及老带新活动奖励存在；官方工具文档确认 LongCat-2.5-Preview/2.0 的 OpenAI、Anthropic API。第三方 9月10日称实名赠 1000 万 Tokens，但未找到当期官方明确额度/领取期限及新账号到账证明。官网平台页面为动态应用，无法确认现在可领，故仅 pending。",
+      "last_reviewed_at": "2026-10-24",
+      "next_review_at": "2026-10-25",
+      "review_result": "官方 API、个人注册及活动奖励机制成立；1000 万额度仅有历史第三方实领，当前免费领取条件和余额未证实，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "核对官方 FAQ、更新日志及 API 接入文档，确认个人注册、实名和可调用模型；未找到官方当前明确的 1000 万 Tokens 赠额条款，第三方 9月10日实领线索尚需复核。",
+          "source_url": "https://longcat.chat/platform/docs/zh/FAQ.html",
+          "secondary_sources": [
+            "https://longcat.chat/platform/docs/zh/ChangeLog.html",
+            "https://longcat.chat/platform/docs/zh/cc-switch",
+            "https://mianfeisuanli.com/platform/longcat.html"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
