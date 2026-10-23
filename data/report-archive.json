@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T15:33:28+08:00",
+  "updated_at": "2026-10-23T19:01:33+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -353,6 +353,37 @@
       "published_at": "2026-10-23T15:33:28+08:00",
       "id": "2026-10-23-morning",
       "kind": "morning"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "10 月 23 日晚报：墨点开门，Flint 也挤进免费栏 🌙",
+      "summary": "今晚新增书生·端砚免费模型 API，OpenRouter 免费档也补进 Flint 编程模型。白天的 NVIDIA 新端点与 Mercury 3 更新保持有效；三项待核实活动状态未变，今天没有新增失效项，也没有全新 Super。",
+      "highlights": [
+        "上海AI实验室「书生·端砚」：官方确认测试期每月有免费 API 额度，书生-S2、Atria-Dawn-Preview、Agents-A1 三款模型现为 0 墨点，收录为 active / premium；固定赠额、支付方式和地区条件仍待实测。",
+        "OpenRouter：Flint v1.0 免费模型已加入现有免费档，支持 262K 上下文、编程、工具调用和 JSON 输出；每日 50 次的免充值配额没有增加，继续 active / normal。",
+        "白天确认的 NVIDIA Nemotron 3.5 Super VL 免费开发端点与 Inception Mercury 3 更新均已保留；前者为 premium，后者是既有 Super 的型号升级，不重复发专题。",
+        "Fireworks、Vultr、Ollama 三项已完成今日复核，仍分别缺实际到账、专项领取闭环或明确免费额度，继续 pending。今天没有新增 expired，也没有新 Super。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://www.shlab.org.cn/news/5444294",
+        "https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3",
+        "https://discovery.intern-ai.org.cn/token-plan/home",
+        "https://openrouter.ai/recursive/flint-v1.0:free",
+        "https://openrouter.ai/docs/guides/routing/model-variants/free",
+        "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+        "https://docs.inceptionlabs.ai/get-started",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud"
+      ],
+      "published_at": "2026-10-23T19:01:33+08:00",
+      "id": "2026-10-23-evening",
+      "kind": "evening"
     }
   ]
 }
