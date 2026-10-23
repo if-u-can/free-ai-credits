@@ -1,31 +1,32 @@
 {
   "morning": {
-    "date": "2026-10-22",
-    "title": "10 月 22 日早报：超算新客包进篮，问号少一个 ☀️",
-    "summary": "今天复核了四项待核实 API 活动。超算新客包的“活动已结束”原来是隐藏模板，现转 active、暂评 premium；Fireworks、Vultr 与 Ollama 继续待核实。本期没有确认新 Super。",
+    "date": "2026-10-23",
+    "title": "10 月 23 日早报：Mercury 升三代，NVIDIA 新端点开门 ☀️",
+    "summary": "今天收录了 NVIDIA Nemotron 3.5 Super VL 120B 免费开发测试 API，并确认 Inception 的 1 亿免费 Tokens 已切到 Mercury 3。三项待核实活动完成今日复核，状态未变；本期没有全新 Super 专题。",
     "highlights": [
-      "超算互联网 MaaS：新客免费 1000 万 GLM-5.3-Flash API Tokens，领取后 30 天有效，活动至 11 月 10 日；公开领取入口成立，转为 active / premium。此前把隐藏的结束模板读成当前弹窗，今天已纠正。",
-      "超算这份赠额限量，库存、实际到账、绑卡/预充值和地区条件尚未实测，发放型号也可能调整；免费额度用尽会扣现金余额，因此暂不评 Super。",
-      "Fireworks：现行 FAQ 同时写明预付制和 $1 starter credit，耗尽后再添加支付方式；“旧 FAQ 与预付制冲突”的理由已撤回。迁移后新注册资格、期限、地区与到账仍未实测，保持 pending。",
-      "Vultr 官方视频页仍提新客 $250，try250 入口返回 403；Ollama 仍有按月刷新的少量 Starter API 额度。两项的专项条件或具体额度、型号尚未核实完整，继续 pending。"
+      "NVIDIA Nemotron 3.5 Super VL 120B：官方 Build 显示免费端点，可生成 API Key，支持多模态、编程和工具调用；仅限开发测试，固定免费总量未公布，收录为 active / premium。",
+      "Inception Mercury：新账户仍有 1 亿免费 API Tokens，现可调用 Mercury 3，支持 OpenAI 兼容接口与百万上下文，官方写明无需支付信息。这是既有 Super 的型号更新，不重复发专题。",
+      "Fireworks：官方现行文档仍有 $1 starter credit，注册与模型目录可访问；新账户实际到账、有效期和地区资格未实测，保持 pending。",
+      "Vultr 的 try250 入口仍返回 403；Ollama Free 仍有月度 Starter API 用量。两项缺失的专项资格或具体额度没有新答案，继续 pending。"
     ],
     "tip": "",
     "sources": [
-      "https://www.scnet.cn/home/subject/maas/index.html",
+      "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b",
+      "https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317",
+      "https://docs.inceptionlabs.ai/get-started",
+      "https://www.inceptionlabs.ai/models",
       "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
       "https://app.fireworks.ai/signup",
-      "https://fireworks.ai/pricing",
-      "https://fireworks.ai/blog/best-llm-api-providers",
       "https://fireworks.ai/models",
       "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
       "https://www.vultr.com/promo/try250/",
       "https://docs.vultr.com/platform/create-an-account",
       "https://ollama.com/pricing",
-      "https://docs.ollama.com/cloud",
-      "https://ollama.com/blog/transparent-pricing"
+      "https://docs.ollama.com/cloud"
     ],
-    "published_at": "2026-10-22T15:02:04+08:00",
-    "id": "2026-10-22-morning",
+    "published_at": "2026-10-23T15:33:28+08:00",
+    "id": "2026-10-23-morning",
     "kind": "morning"
   },
   "evening": {

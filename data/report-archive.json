@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T19:03:55+08:00",
+  "updated_at": "2026-10-23T15:33:28+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -323,6 +323,36 @@
       "published_at": "2026-10-22T19:03:55+08:00",
       "id": "2026-10-22-evening",
       "kind": "evening"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "10 月 23 日早报：Mercury 升三代，NVIDIA 新端点开门 ☀️",
+      "summary": "今天收录了 NVIDIA Nemotron 3.5 Super VL 120B 免费开发测试 API，并确认 Inception 的 1 亿免费 Tokens 已切到 Mercury 3。三项待核实活动完成今日复核，状态未变；本期没有全新 Super 专题。",
+      "highlights": [
+        "NVIDIA Nemotron 3.5 Super VL 120B：官方 Build 显示免费端点，可生成 API Key，支持多模态、编程和工具调用；仅限开发测试，固定免费总量未公布，收录为 active / premium。",
+        "Inception Mercury：新账户仍有 1 亿免费 API Tokens，现可调用 Mercury 3，支持 OpenAI 兼容接口与百万上下文，官方写明无需支付信息。这是既有 Super 的型号更新，不重复发专题。",
+        "Fireworks：官方现行文档仍有 $1 starter credit，注册与模型目录可访问；新账户实际到账、有效期和地区资格未实测，保持 pending。",
+        "Vultr 的 try250 入口仍返回 403；Ollama Free 仍有月度 Starter API 用量。两项缺失的专项资格或具体额度没有新答案，继续 pending。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+        "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b",
+        "https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317",
+        "https://docs.inceptionlabs.ai/get-started",
+        "https://www.inceptionlabs.ai/models",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://fireworks.ai/models",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud"
+      ],
+      "published_at": "2026-10-23T15:33:28+08:00",
+      "id": "2026-10-23-morning",
+      "kind": "morning"
     }
   ]
 }
