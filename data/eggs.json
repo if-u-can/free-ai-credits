@@ -456,25 +456,56 @@
     {
       "id": "gemini-api-free-2026",
       "name": "Google Gemini API 免费层",
-      "description": "Gemini API 有免费的模型额度。开个 Key 就能试，具体每天能用多少要看型号。",
-      "credits": "按模型提供免费调用配额（非美元赠金）",
+      "description": "Gemini API 免费层已包含 Gemini 3.8 Flash，官方定位长程编程与智能体任务；无需先付费，调用量按项目和型号限速。",
+      "credits": "官方按模型提供持续免费 API 调用（非固定美元赠金）；具体 RPM、TPM、RPD 以个人 Google AI Studio 项目限额为准。",
       "models": [
-        "Gemini API 官方定价页当前标注 Free 的 Gemini 型号"
+        "gemini-3.8-flash（官方 Free Tier：输入与输出免费，适合编程和智能体）",
+        "gemini-3.6-flash（官方 Free Tier：输入与输出免费）",
+        "gemini-3.5-flash-lite（官方 Free Tier：输入与输出免费）",
+        "gemini-3.1-flash-lite（官方 Free Tier：输入与输出免费）",
+        "gemini-2.5-pro（官方 Free Tier：按账号配额限制）"
       ],
-      "requirements": "Google AI Studio/API Key，免费模型按项目限速",
-      "payment_required": "否（Free Tier 可不添加付费结算账号）",
+      "requirements": "在 Google AI Studio 免费项目创建 API Key，无需先绑定结算账户或预充值；Google 官方可用地区名单不含中国大陆，包含日本、台湾等，实际账户及网络可用性以官方地区规则为准。",
+      "payment_required": "否：Free Tier 无需绑定付费账户；升级付费档才需设置结算并可能最低预付 $5。",
       "status": "active",
       "grade": "premium",
-      "grade_reason": "官方免费 API 模型可选",
+      "grade_reason": "官方确认 3.8 Flash 等实用编程模型可免费调用且无需绑卡，但地区受限、各项目速率和日额度未统一公布。",
       "quality_score": 78,
       "discovered_at": "2026-09-20",
-      "verified_at": "2026-10-08",
+      "verified_at": "2026-10-24",
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
       "official_source_url": "https://ai.google.dev/gemini-api/docs/pricing",
       "claim_url": "https://aistudio.google.com/apikey",
-      "verification_note": "官方 pricing 与 rate-limits 明确 Free tier；Pro/新型号是否有免费额度需要逐模型查看，不能笼统说所有 Gemini 免费。",
+      "verification_note": "2026-10-24 核对 Google 官方 Gemini API pricing：gemini-3.8-flash、3.6-flash、3.5-flash-lite、3.1-flash-lite 和 2.5-pro 标示 Free Tier 输入/输出免费；Gemini 3.1 Pro 与 Gemini 4 Argon 不属于免费档。官方 Billing 说明新账号从 Free Tier 开始，无需先充值；Rate limits 明确实际 RPM/TPM/RPD 按项目与模型在 AI Studio 查看。官方可用地区名单（2026-10-22 更新）不含中国大陆。未登录实测额度或具体地区账号。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "quality_breakdown": {
+        "free_api_value": 25,
+        "model_usefulness": 24,
+        "claim_convenience": 18,
+        "validity_and_limits": 11
+      },
+      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-24",
+      "evidence_urls": [
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://ai.google.dev/gemini-api/docs/billing",
+        "https://ai.google.dev/gemini-api/docs/rate-limits",
+        "https://ai.google.dev/gemini-api/docs/available-regions"
+      ],
+      "review_result": "2026-10-24 官方证实 Gemini 3.8 Flash 等免费 API 型号，补充地区和免费档限制；继续 active/premium。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "核对官方定价、Billing、限速与地区页面：3.8 Flash 等可在 Free Tier 调用，免费项目无需先付费；中国大陆不在官方可用地区列表。",
+          "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+          "secondary_sources": [
+            "https://ai.google.dev/gemini-api/docs/billing",
+            "https://ai.google.dev/gemini-api/docs/rate-limits",
+            "https://ai.google.dev/gemini-api/docs/available-regions"
+          ]
+        }
+      ]
     },
     {
       "id": "nvidia-nim-kimi-k3-2026",
