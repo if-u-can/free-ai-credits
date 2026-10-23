@@ -3132,6 +3132,110 @@
       ],
       "review_started_at": "2026-10-23",
       "review_attempts": 1
+    },
+    {
+      "id": "sail-research-5-monthly-model-api-2026",
+      "name": "Sail Research 每月 $5 强模型 API 额度",
+      "type": "正规推理平台官方免费模型 API 额度",
+      "description": "Sail 自助方案绑定支付方式后每月提供 $5 模型 API credits，支持 Kimi K3、GLM-5.3、DeepSeek V4.1 Flash 等，兼容 OpenAI 和 Anthropic 接口。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 69,
+      "quality_breakdown": {
+        "free_api_value": 23,
+        "model_usefulness": 24,
+        "claim_convenience": 13,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "每月续发 $5，可用于多款强编程推理模型 API；需绑定支付方式，额度有限，未达到 Super 门槛。",
+      "credits": "自助免费方案每月 $5 模型 API credits，官方明确需绑定支付方式才有月度赠额；按 token 计费，预付余额使用，未公开是否结转。",
+      "models": [
+        "moonshotai/Kimi-K3",
+        "zai-org/GLM-5.3",
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "deepseek-ai/DeepSeek-V4-Pro-0813",
+        "openai/gpt-oss-120b"
+      ],
+      "requirements": "个人可自助注册获取 API Key；每月 $5 赠额须绑定支付方式，是否接受中国大陆账户、手机号及银行卡未实测。",
+      "payment_required": "官方写明绑定支付方式才能每月获得 $5 免费 credits；采用预付余额按量计费，未确认领取是否需要实际先充值，绑定卡可能涉及扣费设置。",
+      "url": "https://www.sailresearch.com/",
+      "official_source_url": "https://www.sailresearch.com/",
+      "claim_url": "https://www.sailresearch.com/",
+      "source_type": "Sail Research 官方定价与推理 API 示例，第三方近期汇总交叉参考",
+      "evidence_urls": [
+        "https://www.sailresearch.com/",
+        "https://www.sailresearch.com/sailboxes",
+        "https://freeinferencing.com/provider/sail_research/"
+      ],
+      "discovered_at": "2026-10-23",
+      "verified_at": "2026-10-23",
+      "last_seen_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "next_review_at": null,
+      "verification_note": "2026-10-23 读取 Sail Research 官方首页：Self-Serve 计划写明每月 $5 免费 credits 需要 attach a payment method，API 支持 Kimi K3、GLM-5.3、DeepSeek V4.1 Flash 等；OpenAI/Anthropic 兼容端点与调用示例可见。官网写 usage-based pricing with prepaid credits，但未明确绑卡后是否仍需先充值才能领每月赠额。未注册、未实测到账/中国大陆资格/限速。第三方 2026-10 汇总同样标记月度 $5 和需支付卡。",
+      "review_result": "官方当前明确每月 $5 可用于强模型 API、需绑支付方式；active/premium，未达到 Super 门槛。",
+      "review_history": [
+        {
+          "date": "2026-10-23",
+          "result": "核对官方 Self-Serve $5/月绑卡规则、OpenAI/Anthropic 兼容 API、模型清单与预付计费；未实测注册和到账。",
+          "source_url": "https://www.sailresearch.com/",
+          "secondary_sources": [
+            "https://freeinferencing.com/provider/sail_research/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contextual-ai-25-component-api-trial-2026",
+      "name": "Contextual AI $25 组件模型 API 试用",
+      "type": "正规 AI 厂商官方专用模型 API 赠金",
+      "description": "Contextual AI 官网现行定价提供 $25 免费 credits，可用于 Generate 生成模型与 Rerank 等组件 API；偏文档检索与 RAG，不适合当通用编程模型池。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 23,
+        "model_usefulness": 12,
+        "claim_convenience": 17,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官网明确 $25 新客赠额与 Generate 模型 API，但偏 RAG 专用、非通用编程模型，使用范围较窄。",
+      "credits": "新用户 $25 免费 API credits（官方 On-demand 计划）；一次性试用，未公布明确到期日，适用 Generate、Rerank 等组件按用量扣减。",
+      "models": [
+        "Contextual Grounded Language Model（/generate，RAG 专用）",
+        "Rerank-v2（/rerank，指令重排模型）",
+        "Rerank-v2-mini"
+      ],
+      "requirements": "官网开放个人自助注册；2025 官方活动页面称无需信用卡，但 2026 当前定价未重复承诺免绑卡；中国大陆手机号、地区资格、实际领取未实测。",
+      "payment_required": "2025 官方推广页面写 no credit card required；2026 当前定价页面未说明是否需要绑卡或充值，实际账单与超额扣费设置待用户核实。",
+      "url": "https://contextual.ai/pricing",
+      "official_source_url": "https://contextual.ai/pricing",
+      "claim_url": "https://app.contextual.ai/",
+      "source_type": "Contextual AI 官方当前定价、API 组件价格、Generate 发布说明和注册入口",
+      "evidence_urls": [
+        "https://contextual.ai/pricing",
+        "https://contextual.ai/request-a-demo",
+        "https://docs.contextual.ai/release-notes/latest",
+        "https://app.contextual.ai/"
+      ],
+      "discovered_at": "2026-10-23",
+      "verified_at": "2026-10-23",
+      "last_seen_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "next_review_at": null,
+      "verification_note": "2026-10-23 读取 Contextual AI 官方 Pricing，On-demand 现行页明确 Claim your $25 in free credits，组件定价包含 Generate 输入 $3/百万、输出 $15/百万 Tokens，Rerank v2 $0.05/百万；官方发布记录确认 /generate 独立 API 可用，登录页可创建工作区。2025 旧活动页称无需绑卡，但 2026 公开页未确认现行绑卡条件，未实际注册或调用；专用 RAG 生成模型非通用编程强模型，不评 Super。",
+      "review_result": "官方当前 $25 免费 credits 和模型 API 组件可核实，active/normal；适用范围偏 RAG、地区和支付条件未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-23",
+          "result": "核对官方当前 $25 试用定价、Generate/Rerank API 和注册入口；绑卡、地区、有效期未完整披露，未实测到账。",
+          "source_url": "https://contextual.ai/pricing",
+          "secondary_sources": [
+            "https://docs.contextual.ai/release-notes/latest",
+            "https://app.contextual.ai/"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
