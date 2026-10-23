@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T16:46:00+08:00",
+  "updated_at": "2026-10-23T17:29:30+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -3022,6 +3022,63 @@
             "https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317",
             "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b",
             "https://grabaicredits.com/en/deals/nvidia-nim-api-free"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shanghai-ai-lab-inkstone-token-plan-free-2026",
+      "name": "上海AI实验室「书生·端砚」墨点计划免费模型 API",
+      "type": "官方非营利科研模型推理平台",
+      "description": "测试期每月赠免费 API 额度，书生-S2、Atria-Dawn-Preview、Agents-A1 三款模型现行标价为 0 墨点，支持 OpenAI/Anthropic 协议。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 77,
+      "quality_breakdown": {
+        "free_api_value": 28,
+        "model_usefulness": 22,
+        "claim_convenience": 18,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方确认按月免费 Token 和三款 0 墨点强模型 API；免费总量、账号限速与测试结束时间未公开完整，不评 Super。",
+      "credits": "官方确认测试期间每位用户每月获免费 Tokens，现行模型计费表将 3 款自研模型输入、输出标为 0 墨点（限时免费）；近期用户报告每月领取 10 墨点，但官方公开资料未确认固定赠额。墨点按模型输入/输出及缓存价格计费，不能把 10 墨点直接等同于 5 亿实际 Tokens。",
+      "models": [
+        "intern-s2（书生-S2，397B、256K 上下文；官方限时 0 墨点）",
+        "Atria-Dawn-Preview（256K，官方限时 0 墨点）",
+        "Agents-A1（256K，官方限时 0 墨点）",
+        "deepseek-v4-flash-0731（1M 上下文，按墨点计费）",
+        "glm-5.3（1M 上下文，按墨点计费）",
+        "kimi-k2.6（256K 上下文，按墨点计费）"
+      ],
+      "requirements": "个人进入上海AI实验室书生·端砚 Token Plan 注册登录、创建 API Key；官网说明测试期每位用户每月有免费 Tokens。近期个人体验提到微信扫码注册，官方未公开完整手机号、实名及地区限制；本站未实际登录领取。",
+      "payment_required": "官方公开的免费模型和月度赠额未列实际付款要求；是否需绑定支付方式尚未实测，不能写成已确认免绑卡。",
+      "url": "https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3",
+      "official_source_url": "https://www.shlab.org.cn/news/5444294",
+      "claim_url": "https://discovery.intern-ai.org.cn/token-plan/home",
+      "source_type": "上海AI实验室 2026-09-13 官方公告、书生·端砚官方 Token Plan 实时模型计费文档、2026-09 至 10 月个人体验交叉参考",
+      "evidence_urls": [
+        "https://www.shlab.org.cn/news/5444294",
+        "https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3",
+        "https://discovery.intern-ai.org.cn/token-plan/home",
+        "https://www.shlab.org.cn/news/5444298",
+        "https://www.lininn.cn/page/intern-ai-modian-free-tokens-2026",
+        "https://post.smzdm.com/p/aomvdo39/"
+      ],
+      "discovered_at": "2026-10-23",
+      "verified_at": "2026-10-23",
+      "last_seen_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "next_review_at": null,
+      "verification_note": "2026-10-23 核对上海AI实验室 9月13日公告：测试期间每位用户每月有免费 Tokens，官方 Token Plan 公开 API Key/模型目录/用量查询及 OpenAI、Anthropic 兼容 API。官方当前模型计费文档列 intern-s2、Atria-Dawn-Preview、Agents-A1 输入/输出均 0 墨点且注明限时免费；DeepSeek、GLM、Kimi 等其他模型按不同墨点价格扣费，余额不足拒绝调用。官方公开公告未写固定月度墨点数或结束日期，10 墨点及扫码可领来自 9月底至10月个人体验，未实测本账号。不能按理论缓存最优换算宣传每月 5 亿 Tokens；活动现行可申请，但免费总量、个人地区及实际 API 调用未由本站实测，故只评 premium。",
+      "review_result": "官方按月免费额度及 3 款 0 墨点模型 API 有当前依据，active/premium；具体赠额和个人领取条件待实测。",
+      "review_history": [
+        {
+          "date": "2026-10-23",
+          "result": "核对上海AI实验室官方 Token Plan 月度免费公告、公开模型计费表、API Key/协议说明，并参考近期个人开户报告；固定赠额、地区、支付方式和实测调用仍待确认。",
+          "source_url": "https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3",
+          "secondary_sources": [
+            "https://www.shlab.org.cn/news/5444294",
+            "https://www.lininn.cn/page/intern-ai-modian-free-tokens-2026"
           ]
         }
       ]
