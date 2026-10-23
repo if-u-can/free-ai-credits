@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23T19:01:33+08:00",
+  "updated_at": "2026-10-24",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -384,6 +384,25 @@
       "published_at": "2026-10-23T19:01:33+08:00",
       "id": "2026-10-23-evening",
       "kind": "evening"
+    },
+    {
+      "id": "2026-10-24-super-iflytek-spark-x26-1b",
+      "kind": "super",
+      "date": "2026-10-24",
+      "egg_id": "iflytek-spark-x26-1b-trial-2026",
+      "title": "讯飞星火 10 亿 Tokens！这颗鸡蛋有点大 🥚",
+      "summary": "Spark-X2.6 开放 10 亿免费 API Tokens，个人实名认证即可领取。社区已有成功领取反馈，赠额仅用于讯飞自研模型。",
+      "highlights": [
+        "官方星辰 MaaS 首页确认 10 亿 Tokens 活动，领取入口为 Spark-X2.6 模型页。",
+        "Spark-X2.6 是 293B-A30B 深度推理模型，支持最长 1M 上下文，可用于编程和智能体任务。",
+        "近期领取者反馈：每人限领一次，开通后 31 天有效；是否需要绑卡、实际限速和超额扣费尚未由本站实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://training.xfyun.cn/",
+      "claim_url": "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+      "credits": "10 亿 Spark-X2.6 免费 API Tokens（非通用模型赠额）",
+      "payment_required": "公开活动宣称零门槛，社区实领仅提到实名认证；是否需绑卡/预充值及超额自动扣费尚未完成账号实测。",
+      "status": "active"
     }
   ]
 }
