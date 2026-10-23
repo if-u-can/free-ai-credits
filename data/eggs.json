@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T06:04:10+08:00",
+  "updated_at": "2026-10-23T15:29:33+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2960,6 +2960,57 @@
             "https://iteracompute.com/free-tier-terms/",
             "https://iteracompute.com/pricing/",
             "https://aifree.dev/offer/iteracompute-free-qwen3-8-27b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-nemotron35-super-vl-free-api-2026",
+      "name": "NVIDIA Nemotron 3.5 Super VL 120B 免费 API",
+      "type": "官方模型厂商托管推理 API",
+      "description": "NVIDIA 新款 120B 多模态推理模型提供免费 API 端点，支持编程与工具调用；仅供开发测试，额度按账号限速。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 72,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 24,
+        "claim_convenience": 17,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "官方当前开放强编程推理模型的免费 API 试用端点；未公开固定免费 Token 总量且仅供开发测试，不符合 Super 的可核实高额度门槛。",
+      "credits": "NVIDIA Developer Program 个人会员可免费调用该托管 API 端点用于开发测试；官方未公布统一免费 Token 总额或保证请求数，速率按模型及账号变化，超限可能返回 429。",
+      "models": [
+        "nvidia/nemotron-3.5-super-vl-120b-a12b（官方 Build 免费端点，标称 262K 上下文；模型架构最高支持 1M，不能视为托管端点保证）"
+      ],
+      "requirements": "个人注册免费的 NVIDIA Developer Program，登录模型页 Generate API Key；官方模型资料标注 Global。中国大陆手机号验证、账号实际开户及 API 成功率未实测。仅限原型、研发、测试和评估，生产服务不允许。",
+      "payment_required": "免费 Developer Program 可获取试用 API；官方模型页与 FAQ 未明确列出必须绑卡，第三方近期核验称无需绑卡；未实际注册验证。",
+      "url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "official_source_url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "claim_url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "source_type": "NVIDIA 官方 Build 模型端点、NIM FAQ、模型 API 文档及近期第三方实测整理",
+      "evidence_urls": [
+        "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+        "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b",
+        "https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317",
+        "https://grabaicredits.com/en/deals/nvidia-nim-api-free"
+      ],
+      "discovered_at": "2026-10-23",
+      "verified_at": "2026-10-23",
+      "last_seen_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "next_review_at": null,
+      "verification_note": "2026-10-23 读取 NVIDIA 官方 Build 模型页：Free Endpoint=Available，Generate API Key 可见，模型标识 nvidia/nemotron-3.5-super-vl-120b-a12b，官方 Build 页面列 262K 上下文。官方 NIM FAQ 说明个人免费加入 Developer Program，试用 API 用于原型、研发与测试，生产用途需要企业许可，限速依模型与账户变化，未公开固定免费总量。官方 API Reference 标注 Global、10月15日发布、支持编码推理与视觉工具调用，模型架构最高1M上下文但并非免费托管端点已证实的窗口。2026-10-17 第三方核验免卡但官方没有明确免卡承诺；未替用户实际创建账号、调用 API，地区及手机号限制尚待实测。历史 Kimi K3 免费端点 expired 为另一模型，不应合并或恢复。",
+      "review_result": "当前官方免费端点和个人开发者资格可验证，active/premium；固定总额、个人注册细节及地区调用仍待实测。",
+      "review_history": [
+        {
+          "date": "2026-10-23",
+          "result": "官方模型页当前标 Free Endpoint Available，并有可生成 API Key 的 OpenAI 兼容调用示例；NIM FAQ 确认个人免费开发测试资格，未公开固定免费 Token 总额或各地区账户实际可用性。",
+          "source_url": "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+          "secondary_sources": [
+            "https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317",
+            "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b",
+            "https://grabaicredits.com/en/deals/nvidia-nim-api-free"
           ]
         }
       ]
