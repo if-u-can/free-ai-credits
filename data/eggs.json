@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T17:29:30+08:00",
+  "updated_at": "2026-10-23",
   "eggs": [
     {
       "id": "together-historical",
@@ -3082,6 +3082,56 @@
           ]
         }
       ]
+    },
+    {
+      "id": "thegrid-signup-inference-credits-2026",
+      "name": "The Grid 推理 API 新客赠额（官网 $5 / $25 口径冲突）",
+      "type": "正规 AI 推理市场与模型路由平台（自营 API）",
+      "description": "The Grid 官方首页宣传手机验证后送 $5 推理 API credits，但定价与注册页仍写 $25 / 约 2 亿 Text Prime Tokens；新客实际到账金额和资格待核实。",
+      "status": "pending",
+      "grade": null,
+      "quality_score": null,
+      "grade_reason": null,
+      "credits": "官网首页写 Early bird $5 free credits（手机验证）；官网 /pricing 与 /sign-up 写 $25 新客 credits，宣传约 200M Text Prime Tokens（按指定低价路由估算，非所有模型均可用 2 亿）；两种口径冲突，当前实际发放额未确认。官方服务条款：未用完的新客赠额注册后 14 天到期。",
+      "models": [
+        "text-prime / code-prime：近期路由模型 MiniMax-M3、GLM-5.2、Kimi K2.6（实际路由不保证）",
+        "text-max / code-max：近期路由 Claude Opus 5（是否可用赠额尚未实测）",
+        "text-standard / code-standard：GPT-OSS 120B（近期路由，非固定模型）"
+      ],
+      "requirements": "公开邮箱、Google 或 GitHub 个人注册入口；官网首页明确活动需手机验证，地区/中国大陆手机号支持及可能的额外身份核验未实测。",
+      "payment_required": "未找到可确认新客赠额是否要求绑定支付卡或先充值的专属规则；服务条款对常规购买 Units 规定预存资金，不可直接推断新客免费额度必须先付费。",
+      "url": "https://thegrid.ai/",
+      "official_source_url": "https://thegrid.ai/",
+      "claim_url": "https://app.thegrid.ai/sign-up",
+      "source_type": "2026-10-23 The Grid 官方首页、定价页、注册页、服务条款及模型路由目录交叉核查",
+      "evidence_urls": [
+        "https://thegrid.ai/",
+        "https://thegrid.ai/pricing",
+        "https://app.thegrid.ai/sign-up",
+        "https://thegrid.ai/terms-of-use",
+        "https://thegrid.ai/instruments"
+      ],
+      "discovered_at": "2026-10-23",
+      "verified_at": null,
+      "last_seen_at": "2026-10-23",
+      "last_reviewed_at": "2026-10-23",
+      "next_review_at": "2026-10-24",
+      "verification_note": "2026-10-23 核对官网：首页近期可读版明确 Early bird $5 且需手机号验证，/pricing 和 /sign-up 同时宣传 $25 / 200M Text Prime Tokens。官方条款（2026-04-24 更新）明确 signup credits/bonuses 注册后 14 天失效。官方路由目录确认 OpenAI/Anthropic 兼容 API、代码/推理路由和近期模型，但不保证具体模型每次可用。当前官网优惠金额互相矛盾，缺实际开户、支付、地区、手机号码支持和到账核实，不评 active/super；2 亿仅为 $25 在 Text Prime 价格下的宣传换算。",
+      "review_result": "首次官方复查确认新客赠额宣传与 API 入口，但首页 $5 和价格/注册页 $25 冲突；未实测个人领取、手机验证、付款和地区，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-10-23",
+          "result": "官方首页称手机验证可领 $5；官网价格/注册页称 $25 与 2 亿 Text Prime Tokens；条款写新客赠额 14 天到期，未验证个人实际金额、支付与中国手机号支持。",
+          "source_url": "https://thegrid.ai/",
+          "secondary_sources": [
+            "https://thegrid.ai/pricing",
+            "https://app.thegrid.ai/sign-up",
+            "https://thegrid.ai/terms-of-use"
+          ]
+        }
+      ],
+      "review_started_at": "2026-10-23",
+      "review_attempts": 1
     }
   ],
   "grade_policy": {
