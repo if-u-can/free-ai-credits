@@ -3473,6 +3473,64 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sb-intuitions-sarashina-free-beta-api-2026",
+      "name": "SB Intuitions Sarashina 免费 Beta 模型 API",
+      "type": "日本正规模型厂商官方免费 API",
+      "description": "软银旗下 SB Intuitions 开放 Sarashina 六款模型免费 API：日语对话、轻量处理、Embedding、Rerank 和翻译。仅限日本境内居民，模型按分钟限速。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 60,
+      "quality_breakdown": {
+        "free_api_value": 22,
+        "model_usefulness": 14,
+        "claim_convenience": 15,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方长期限期未定的免费 API Beta 已开放，但仅限日本居民、主力为轻量模型，mini 每分钟 6 次请求，不满足高价值 Super 条件。",
+      "credits": "无偿 Beta：六款 Sarashina API 免费调用，官方未公布统一赠送 Tokens 总量或美元 credits；每模型独立限速，免费结束时间未定。",
+      "models": [
+        "sarashina3-mini（128K，日语对话、工具调用、编程）",
+        "sarashina3-nano（128K，轻量文本处理）",
+        "sarashina3-guard（64K，文本安全分类）",
+        "sarashina3-embedding（8K，文本向量）",
+        "sarashina3-rerank（8K，重排序）",
+        "sarashina3-translate（日英互译，5000 字符）"
+      ],
+      "requirements": "官方条款第3条限定日本境内居住个人或日本设立法人；个人用 Google 账号登录后可在控制台创建 API Key，无需事先申请。中国大陆居民不符合官方资格；本站未注册实测。",
+      "payment_required": "官方明确无偿 Beta、Google 登录即可使用；公开领取步骤未要求绑定信用卡或实际充值，本站未进行账户级支付验证。",
+      "url": "https://sarashina.ai/",
+      "official_source_url": "https://www.sbintuitions.co.jp/news/press/20261013_01/",
+      "claim_url": "https://sarashina.ai/",
+      "source_type": "SB Intuitions 2026-10-13 官方公告、Sarashina 官方 API 文档及使用条款、2026-10-14 第三方实调",
+      "evidence_urls": [
+        "https://www.sbintuitions.co.jp/news/press/20261013_01/",
+        "https://docs.sarashina.ai/introduction",
+        "https://docs.sarashina.ai/rate-limits",
+        "https://docs.sarashina.ai/models",
+        "https://sarashina.ai/terms",
+        "https://tech.hatada.jp/posts/sarashina-free-beta-api-measured"
+      ],
+      "discovered_at": "2026-10-24",
+      "verified_at": "2026-10-24",
+      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-24",
+      "next_review_at": null,
+      "verification_note": "2026-10-24 复核 10月13日官方发布：无偿 Beta 允许个人使用 6 款 API，Google 登录无需预申请，结束时间未定。官方 API 文档确认 /v1/chat/completions 等端点和具体模型：mini、guard、translate 各 6 RPM；nano、embedding、rerank 各 60 RPM，按模型独立计数。官方条款第3条明确仅限日本境内居民或日本设立法人；第11条允许将免费方案输入输出用于模型训练，免费用户未见拒绝训练选项。10月14日第三方以 API Key 实际调用全部六类端点并观察到 429。本站未登录验证绑卡及个人实际调用；不宣称已到账或无限 Token。",
+      "review_result": "官方免费 API 入口、型号、限速与日本居民资格有现行证据，active/normal；非中国大陆个人可领取项目。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "核对官方发布、API Key 申请流程、六模型、分模型 RPM 和日本居民资格，参考10月14日第三方实际 API 调用；未进行本站账户级实测。",
+          "source_url": "https://www.sbintuitions.co.jp/news/press/20261013_01/",
+          "secondary_sources": [
+            "https://docs.sarashina.ai/rate-limits",
+            "https://sarashina.ai/terms",
+            "https://tech.hatada.jp/posts/sarashina-free-beta-api-measured"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
