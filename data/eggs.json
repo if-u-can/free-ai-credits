@@ -3531,6 +3531,55 @@
           ]
         }
       ]
+    },
+    {
+      "id": "qiniu-conatus-100m-daily-free-2026",
+      "name": "七牛云 Conatus 每日 1 亿免费 API Tokens",
+      "type": "正规云厂商官方限时免费融合模型 API",
+      "description": "1024 程序员节起，七牛云实名认证个人每天可免费调用 Conatus 融合模型 1 亿 Tokens，支持代码辅助、工具调用和深度思考，11 月 30 日结束。",
+      "status": "active",
+      "grade": "super",
+      "quality_score": 87,
+      "quality_breakdown": {
+        "free_api_value": 35,
+        "model_usefulness": 18,
+        "claim_convenience": 23,
+        "validity_and_limits": 11
+      },
+      "grade_reason": "官方现行活动为个人实名用户每日提供 1 亿可直接调用的模型 API Tokens，无需充值，兼容编程工具；融合模型具体上游与实测质量尚未公开。",
+      "credits": "实名认证个人每日 100,000,000 Tokens（输入+输出合计，缓存输入也计入）；北京时间每日 00:00 重置、不结转。单笔充值 >¥100 且到账可提高至每日 10 亿，属于另一个需实际付款的档位，不计入免充值赠额。",
+      "models": [
+        "qiniu/conatus-free（匿名多模型融合，官方称包含顶级模型；1M 上下文、128K 最大输出，支持代码辅助、深度思考、视觉、工具调用、结构化输出；上游具体型号不公开）"
+      ],
+      "requirements": "七牛云个人账户登录并完成实名认证即可参加，无需企业或学生资格、无需单独审批；同一账户所有 API Key 共用每日额度，风控受限账号可能无法调用。中国大陆个人可实名；本站尚未进行账号级实调。",
+      "payment_required": "免充值 1 亿 Tokens/日档不要求先付费；官方活动页未要求绑支付卡，本站未实测开户。提升至 10 亿/日必须有单笔大于 ¥100 的实际充值，历史符合条件充值也计入。免费模型额度耗尽直接拒绝请求，不扣余额且不自动切换付费模型。",
+      "url": "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "official_source_url": "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "claim_url": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_type": "七牛云官方 2026-10-24 活动规则、模型详情及官方 API Key 指南",
+      "evidence_urls": [
+        "https://www.qiniu.com/ai/free-models/conatus-2026",
+        "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+        "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key"
+      ],
+      "discovered_at": "2026-10-24",
+      "verified_at": "2026-10-24",
+      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-24",
+      "next_review_at": null,
+      "verification_note": "2026-10-24 官方活动页明确写明 10/24 00:00–11/30 23:59（北京时间）开放：个人实名认证即有 1 亿输入+输出 Tokens/日；无需单独申请，不要求为基础档充值。单笔实充 >¥100 才能升到 10 亿/日。活动仅限 qiniu/conatus-free，OpenAI Chat Completions 与 Anthropic Messages 兼容，API 地址 api.qnaigc.com；额度耗尽停止调用且不会扣款。官方称由多个顶级模型融合，未公布底层型号和公开性能测试；本站未创建账户或调用，不宣称已实领、实际可达 1 亿或性能有独立验证。未见当日独立实领反馈。",
+      "review_result": "2026-10-24 官方现行个人免费额度、API 模型标识、领取步骤和终止时间均可核实；按 active/super 收录，实际模型质量、地区账号调用和限速仍待用户反馈。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "查验七牛云 1024 官方活动与模型详情，确认实名个人免充值 1 亿 Tokens/日、付费升级条件、API 协议、日期和防超额扣费；未有账号实测或独立模型评测。",
+          "source_url": "https://www.qiniu.com/ai/free-models/conatus-2026",
+          "secondary_sources": [
+            "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+            "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
