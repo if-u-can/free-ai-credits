@@ -3408,6 +3408,56 @@
           ]
         }
       ]
+    },
+    {
+      "id": "baidu-qianfan-new-user-20cny-api-2026",
+      "name": "百度千帆新客 ¥20 主流模型 API 代金券",
+      "type": "官方云模型推理平台新用户 API 赠额",
+      "description": "百度千帆双 11 活动给首次注册的新用户 20 元模型 API 代金券，官方列出 DeepSeek-V4.1、GLM-5.3 等模型；适合做一轮小规模编程与推理测试。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 69,
+      "quality_breakdown": {
+        "free_api_value": 15,
+        "model_usefulness": 24,
+        "claim_convenience": 20,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "当期官方明确提供个人新客 ¥20 模型 API 代金券，强模型可用但额度较小，支付与期限细则未完整公开。",
+      "credits": "首次注册千帆赠 ¥20 模型服务代金券；官网双11活动页自 2026-10-20 开始，活动页面总体标注至 2026-11-30；代金券独立有效期和适用模型清单以领取界面为准。另有2025年官方文档列出的每模型100万Tokens旧方案，2026年是否叠加未确认，不计入本次额度。",
+      "models": [
+        "DeepSeek-V4.1（2026双11活动页宣传可体验）",
+        "GLM-5.3（2026双11活动页宣传可体验）"
+      ],
+      "requirements": "百度千帆首次注册用户；官方文档首页注明新用户实名认证后送 ¥20；支持中国大陆个人账号。未使用新账号验证领券到账、支付方式、具体模型抵扣范围。",
+      "payment_required": "当期官方活动称新客零门槛送 ¥20，但没有明确列出绑卡、充值和超额扣费规则；未实测，不能承诺免绑卡或免自动扣费。",
+      "url": "https://cloud.baidu.com/campaign/event/bigevent/index.html",
+      "official_source_url": "https://cloud.baidu.com/campaign/event/bigevent/index.html",
+      "claim_url": "https://console.bce.baidu.com/qianfan/overview",
+      "source_type": "百度智能云 2026 双11 官方活动页、千帆官方文档与旧新客额度说明",
+      "evidence_urls": [
+        "https://cloud.baidu.com/campaign/event/bigevent/index.html",
+        "https://cloud.baidu.com/doc/qianfan/index.html",
+        "https://ai.baidu.com/ai-doc/WENXINWORKSHOP/3mh3fw81w"
+      ],
+      "discovered_at": "2026-10-24",
+      "verified_at": "2026-10-24",
+      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-24",
+      "next_review_at": null,
+      "verification_note": "2026-10-24 查百度智能云双11官网：页面标注10月20日至11月30日活动，明确首次注册千帆赠¥20代金券，用于主流模型并列举DeepSeek-V4.1、GLM-5.3；官方千帆文档入口说明新用户实名认证后可领。另核对2025-10-24发布的17模型各100万Tokens免费推理文档，但无法确认旧额度在2026新券活动下是否仍可叠加，不作为当期赠额宣称。新账户未实测；领券独立有效期、支付卡要求、超额扣费及实际可抵扣模型待核验。",
+      "review_result": "2026-10-24 官方当前¥20千帆模型API新客赠券成立，按 active/normal 收录；不把历史每模型100万Token叠加为当期权益。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "核对2026双11官方新客¥20模型API赠券及DeepSeek-V4.1/GLM-5.3宣传；历史每模型100万Token文档未确证当期可叠加，支付与到账未实测。",
+          "source_url": "https://cloud.baidu.com/campaign/event/bigevent/index.html",
+          "secondary_sources": [
+            "https://cloud.baidu.com/doc/qianfan/index.html",
+            "https://ai.baidu.com/ai-doc/WENXINWORKSHOP/3mh3fw81w"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
