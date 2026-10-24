@@ -3807,6 +3807,58 @@
           ]
         }
       ]
+    },
+    {
+      "id": "antdigital-dtmaas-free-1000-credit-2026",
+      "name": "蚂蚁数科 DTMaaS 新客免费 1000 Credit 模型 API",
+      "type": "正规厂商自营 MaaS 模型推理平台",
+      "description": "蚂蚁数科 DTMaaS 官网开放 ¥0 新客免费版，领取 1000 Credit 用于模型 API；可试用多种文本、推理和多模态模型。不是每月自动续送的 1000 Credit。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 13,
+        "model_usefulness": 23,
+        "claim_convenience": 17,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官网有公开 ¥0 新客免费额度与模型 API，但 Credit 不等于 Tokens 或美元，实际可用模型和续期范围有限，按普通试用收录。",
+      "credits": "新客限领一次的 ¥0 免费版：1000 Credit；官网估算约 2000 次对话，实际随模型扣费不同。不是 1000 美元，也不能直接换算为 1000 万 Tokens；有效期及是否续期未见明确现行专项条款。",
+      "models": [
+        "Ling-3.1-Flash（官网列出，Token Plan for Agent）",
+        "Kimi K3（官网列出，Token Plan for Agent）",
+        "GLM-5.3-Flash（官网模型目录；免费版实际可用性待实测）",
+        "DeepSeek-V4.1-Flash（官网模型目录；免费版实际可用性待实测）"
+      ],
+      "requirements": "官方首页提供新客免费领取入口，未公开限定企业或学生；实际个人注册/实名、手机号地区和具体免费版可用模型清单未登录核实。",
+      "payment_required": "官网免费版明确标价 ¥0，未见领取必须先充值的公开条件；是否绑银行卡/支付宝及额度耗尽后扣费方式未做账户实测。",
+      "url": "https://maas.antdigital.com/en-US",
+      "official_source_url": "https://maas.antdigital.com/en-US",
+      "claim_url": "https://maas.antdigital.com/en-US",
+      "source_type": "蚂蚁数科 DTMaaS 官方现行首页 Token Plan 价格与模型目录、官方 API 供应商文档",
+      "evidence_urls": [
+        "https://maas.antdigital.com/en-US",
+        "https://maas.antdigital.com/models",
+        "https://maas.antdigital.com/dt-maas-docs/en-US/choose-provider"
+      ],
+      "discovered_at": "2026-10-25",
+      "verified_at": "2026-10-25",
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": null,
+      "verification_note": "2026-10-25 核对蚂蚁数科 DTMaaS 官方首页：Token Plan 免费版 ¥0、1000 Credit、新客限一次，官网估算约 2000 次对话；首页明确统一 API 接入并展示 Ling-3.1-Flash、Kimi K3、GLM-5.3-Flash、DeepSeek-V4.1-Flash，官方 choose-provider 文档提供模型 API 调用示例。未登录账户，无法确认免费档具体允许的型号、个人实名/支付绑定和实际到账。区别于蚂蚁百灵 Ling API 独立赠券，不合并额度。",
+      "review_result": "官网当前免费新客计划及模型 API 可验证，active/normal；个人领取细节与可用模型权限待实测。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "核实 DTMaaS 官网当前 ¥0 新客免费版 1000 Credit、官方模型列表和 API 调用文档；未做账号领取及具体免费档型号/支付实测。",
+          "source_url": "https://maas.antdigital.com/en-US",
+          "secondary_sources": [
+            "https://maas.antdigital.com/models",
+            "https://maas.antdigital.com/dt-maas-docs/en-US/choose-provider"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
