@@ -3580,6 +3580,58 @@
           ]
         }
       ]
+    },
+    {
+      "id": "krafton-raon1-mini-preview-free-api-2026",
+      "name": "KRAFTON Raon-1 mini Preview 限时免费 API",
+      "type": "官方模型厂商 / 限时免费托管推理 API",
+      "description": "KRAFTON 开放 Raon-1 mini 的免费预览 API，支持编程代理、工具调用与 262K 上下文；官网填表后通过邮件领取控制台邀请，限时及限速尚未量化。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 70,
+      "quality_breakdown": {
+        "free_api_value": 22,
+        "model_usefulness": 19,
+        "claim_convenience": 20,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方现行免费 Beta 支持编程代理和多种标准 API，模型有一定实用性；没有公布个人免费 Token 总量、固定限速或截止日，不满足 Super 的高额度硬门槛。",
+      "credits": "2026-10-24 官方确认 Raon-1 mini Preview 托管 API 暂时 $0（输入、输出免费），按用户限速/配额；没有公开固定赠额、每日 Tokens 总量或免费结束日期。",
+      "models": [
+        "raon-1-mini-preview（约 30B 总参数 / 4B 激活，262144 Tokens 上下文，文本输入输出，支持推理、工具调用和编程代理）"
+      ],
+      "requirements": "官网申请表填写姓名、邮箱、所属单位/身份、角色和用途；官方 FAQ 表示随即发送 Raon 控制台邀请邮件，验证邮箱并设置密码后生成 API Key，年龄须至少 14 岁。未公开中国大陆手机号/地区限制；是否接受个人在所属单位栏填写个人身份及中国大陆实际注册、调用未实测。",
+      "payment_required": "官方服务条款确认 Beta 期间免费，申请流程未列绑卡或预充值步骤；本站未完成账号级支付方式检查，超限后未来收费须另行通知。",
+      "url": "https://raon-mini.krafton.ai/en",
+      "official_source_url": "https://raon-mini.krafton.ai/en",
+      "claim_url": "https://raon-mini.krafton.ai/en",
+      "source_type": "KRAFTON 官方 Raon 预览活动页、2026-10-20 更新的服务条款、API 入门及限速文档；未见可核验的个人实际 API 调用反馈",
+      "evidence_urls": [
+        "https://raon-mini.krafton.ai/en",
+        "https://raon-mini.krafton.ai/en/docs",
+        "https://raon-mini.krafton.ai/en/docs/models",
+        "https://raon-mini.krafton.ai/en/docs/rate-limits",
+        "https://raon-mini.krafton.ai/en/terms"
+      ],
+      "discovered_at": "2026-10-24",
+      "verified_at": "2026-10-24",
+      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-24",
+      "next_review_at": null,
+      "verification_note": "2026-10-24 读取 KRAFTON 官方活动首页：2026-10-21 发布的 Raon-1 mini Preview 当前开放免费 API；FAQ 说明姓名/邮箱/所属单位/角色/用途表单、立即邮件邀请和生成 API Key。官方入门文档确认 OpenAI Chat Completions、Responses、Anthropic Messages 三种接口及 raon-1-mini-preview 模型；模型文档确认 262144 Tokens 上下文与工具调用。2026-10-20 服务条款明确 Beta 期间免费、仅供评估开发，官方可设置/调整配额，结束日和具体 RPM/TPM 需在登录后 Capacity 页查看。公开申请页没有绑卡步骤，但未完成个人账号注册、额度到账、API 调用、地区及支付要求实测。近期第三方报道证实模型发布但未见可信个人 API 调用反馈；不将可下载模型权重混同于免费托管 API。",
+      "review_result": "现行官方免费托管 API、个人申请入口和模型接口有明确证据，active/premium；具体配额与大陆个人实领待后续验证。",
+      "review_history": [
+        {
+          "date": "2026-10-24",
+          "result": "官方当前页面确认限时 $0 API、邮箱邀请申请与三个兼容接口，条款核实 Beta 免费和按账户限速；未完成账户实际领取及地区/支付验证。",
+          "source_url": "https://raon-mini.krafton.ai/en",
+          "secondary_sources": [
+            "https://raon-mini.krafton.ai/en/docs",
+            "https://raon-mini.krafton.ai/en/terms",
+            "https://raon-mini.krafton.ai/en/docs/rate-limits"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
