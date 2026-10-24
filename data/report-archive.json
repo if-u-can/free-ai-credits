@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T14:00:19+08:00",
+  "updated_at": "2026-10-24T21:50:35+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -456,6 +456,40 @@
       "published_at": "2026-10-24T14:00:19+08:00",
       "id": "2026-10-24-morning",
       "kind": "morning"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "10 月 24 日晚报：两颗大蛋落稳，免费端点还在加座 🌙",
+      "summary": "今天确认并发布七牛 Conatus 与讯飞 Spark-X2.6 两项 Super。下午又收录 KRAFTON Raon-1 mini 免费 Beta，并为 Vercel AI Gateway 补上 Nemotron Lightning 与两款限免决策模型；五项待核实活动状态未变，没有新增失效项。",
+      "highlights": [
+        "七牛 Conatus 每日 1 亿 Tokens 与讯飞 Spark-X2.6 一次性 10 亿 Tokens 均为 active / super，独立专题已经发布。七牛免费额耗尽不会扣余额；讯飞的 31 天期限和支付细节仍按近期领取反馈标注。",
+        "KRAFTON Raon-1 mini Preview：官方 Beta 期间输入输出免费，支持 262K 上下文、工具调用和三种兼容接口；申请需填写身份与用途，固定配额、结束日期和大陆个人实领尚未公开，评为 premium。",
+        "Vercel AI Gateway：Nemotron 3.5 Lightning 免费端点支持 1M 上下文与编程工具调用；Baseten Mammoth-1、Elephant-1 两款决策模型免费至 10 月 27 日。它们与原有每月 $5 免费档并列，不算额外赠金。",
+        "Fireworks、Vultr、Ollama、The Grid、LongCat 今日复核后继续 pending：The Grid 当前是 $5、14 天；LongCat 的 1000 万 Tokens 仍缺现行官方额度条款。今天没有新增 expired，也没有重复专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://www.qiniu.com/ai/free-models/conatus-2026",
+        "https://training.xfyun.cn/",
+        "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+        "https://raon-mini.krafton.ai/en",
+        "https://raon-mini.krafton.ai/en/docs",
+        "https://raon-mini.krafton.ai/en/terms",
+        "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/ai-gateway/models/nemotron-3.5-lightning-free",
+        "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/ai-gateway/models/mammoth-1",
+        "https://vercel.com/ai-gateway/models/elephant-1",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://ollama.com/pricing",
+        "https://thegrid.ai/pricing",
+        "https://longcat.chat/platform/docs/zh/FAQ.html"
+      ],
+      "published_at": "2026-10-24T21:50:35+08:00",
+      "id": "2026-10-24-evening",
+      "kind": "evening"
     }
   ]
 }

@@ -34,34 +34,37 @@
     "kind": "morning"
   },
   "evening": {
-    "date": "2026-10-23",
-    "title": "10 月 23 日晚报：墨点开门，Flint 也挤进免费栏 🌙",
-    "summary": "今晚新增书生·端砚免费模型 API，OpenRouter 免费档也补进 Flint 编程模型。白天的 NVIDIA 新端点与 Mercury 3 更新保持有效；三项待核实活动状态未变，今天没有新增失效项，也没有全新 Super。",
+    "date": "2026-10-24",
+    "title": "10 月 24 日晚报：两颗大蛋落稳，免费端点还在加座 🌙",
+    "summary": "今天确认并发布七牛 Conatus 与讯飞 Spark-X2.6 两项 Super。下午又收录 KRAFTON Raon-1 mini 免费 Beta，并为 Vercel AI Gateway 补上 Nemotron Lightning 与两款限免决策模型；五项待核实活动状态未变，没有新增失效项。",
     "highlights": [
-      "上海AI实验室「书生·端砚」：官方确认测试期每月有免费 API 额度，书生-S2、Atria-Dawn-Preview、Agents-A1 三款模型现为 0 墨点，收录为 active / premium；固定赠额、支付方式和地区条件仍待实测。",
-      "OpenRouter：Flint v1.0 免费模型已加入现有免费档，支持 262K 上下文、编程、工具调用和 JSON 输出；每日 50 次的免充值配额没有增加，继续 active / normal。",
-      "白天确认的 NVIDIA Nemotron 3.5 Super VL 免费开发端点与 Inception Mercury 3 更新均已保留；前者为 premium，后者是既有 Super 的型号升级，不重复发专题。",
-      "Fireworks、Vultr、Ollama 三项已完成今日复核，仍分别缺实际到账、专项领取闭环或明确免费额度，继续 pending。今天没有新增 expired，也没有新 Super。"
+      "七牛 Conatus 每日 1 亿 Tokens 与讯飞 Spark-X2.6 一次性 10 亿 Tokens 均为 active / super，独立专题已经发布。七牛免费额耗尽不会扣余额；讯飞的 31 天期限和支付细节仍按近期领取反馈标注。",
+      "KRAFTON Raon-1 mini Preview：官方 Beta 期间输入输出免费，支持 262K 上下文、工具调用和三种兼容接口；申请需填写身份与用途，固定配额、结束日期和大陆个人实领尚未公开，评为 premium。",
+      "Vercel AI Gateway：Nemotron 3.5 Lightning 免费端点支持 1M 上下文与编程工具调用；Baseten Mammoth-1、Elephant-1 两款决策模型免费至 10 月 27 日。它们与原有每月 $5 免费档并列，不算额外赠金。",
+      "Fireworks、Vultr、Ollama、The Grid、LongCat 今日复核后继续 pending：The Grid 当前是 $5、14 天；LongCat 的 1000 万 Tokens 仍缺现行官方额度条款。今天没有新增 expired，也没有重复专题。"
     ],
     "tip": "",
     "sources": [
-      "https://www.shlab.org.cn/news/5444294",
-      "https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3",
-      "https://discovery.intern-ai.org.cn/token-plan/home",
-      "https://openrouter.ai/recursive/flint-v1.0:free",
-      "https://openrouter.ai/docs/guides/routing/model-variants/free",
-      "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
-      "https://docs.inceptionlabs.ai/get-started",
+      "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "https://training.xfyun.cn/",
+      "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+      "https://raon-mini.krafton.ai/en",
+      "https://raon-mini.krafton.ai/en/docs",
+      "https://raon-mini.krafton.ai/en/terms",
+      "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/ai-gateway/models/nemotron-3.5-lightning-free",
+      "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/ai-gateway/models/mammoth-1",
+      "https://vercel.com/ai-gateway/models/elephant-1",
       "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
-      "https://app.fireworks.ai/signup",
       "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
       "https://www.vultr.com/promo/try250/",
-      "https://docs.vultr.com/platform/create-an-account",
       "https://ollama.com/pricing",
-      "https://docs.ollama.com/cloud"
+      "https://thegrid.ai/pricing",
+      "https://longcat.chat/platform/docs/zh/FAQ.html"
     ],
-    "published_at": "2026-10-23T19:01:33+08:00",
-    "id": "2026-10-23-evening",
+    "published_at": "2026-10-24T21:50:35+08:00",
+    "id": "2026-10-24-evening",
     "kind": "evening"
   }
 }
