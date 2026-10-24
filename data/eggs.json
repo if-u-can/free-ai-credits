@@ -3701,6 +3701,59 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ant-ling-new-wallet-20cny-monthly10-api-2026",
+      "name": "蚂蚁百灵 Ling API 新客 ¥20 + 每月 ¥10 模型抵扣券",
+      "type": "官方模型厂商自营推理 API",
+      "description": "百灵新计费平台新用户注册即赠 ¥20 模型 API 抵扣券，后续每月 1 日再发 ¥10；可调用 Ling-3.1 Flash 等官方模型，旧每日 50 万 Tokens 福利正在退出。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 75,
+      "quality_breakdown": {
+        "free_api_value": 26,
+        "model_usefulness": 21,
+        "claim_convenience": 17,
+        "validity_and_limits": 11
+      },
+      "grade_reason": "官方新计费平台提供新客一次性模型 API 抵扣券及持续月度抵扣券，支持编程模型；额度为人民币小额券而非大额免费 Tokens，未达 Super 门槛。",
+      "credits": "新注册计费账户立即获 ¥20 Token 消费券（一次性，官方未明确新客券有效期）；每月 1 日获 ¥10 Token 抵扣券，仅当月有效，不结转，月中注册不补发当月月券。旧每日 50 万 Tokens 免费额度将在账户升级后停止按日发放，不能与新券叠加宣传。",
+      "models": [
+        "Ling-3.1-flash（256K 上下文，官方 API 文档确认可调用）",
+        "Ling-3.0-flash（256K 上下文，官方 API 文档确认可调用）"
+      ],
+      "requirements": "个人注册蚂蚁百灵 API 控制台并创建 API Key；新账户使用百灵新计费平台。旧接入文档要求绑定个人支付宝开通服务，新钱包上线后具体绑定/实名/手机号步骤及大陆个人实际领取未实测。公开文档未要求企业、学生身份。",
+      "payment_required": "官方称按量计费无最低消费门槛，准备工作文档把充值列为按需操作，未找到领取新客 ¥20 必须先充值的条款；旧流程要求绑定个人支付宝，新钱包开户绑定细节未实测。额度耗尽后如有扣款授权/钱包余额可能产生按量费用。",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/billing-upgrade/",
+      "official_source_url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/billing-upgrade/",
+      "claim_url": "https://chat.ant-ling.com/",
+      "source_type": "蚂蚁百灵官方 2026-10-19 计费升级公告、准备工作、模型定价、API FAQ 与快速开始",
+      "evidence_urls": [
+        "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/billing-upgrade/",
+        "https://developer.ant-ling.com/zh-CN/docs/getting-started/prerequisites/",
+        "https://developer.ant-ling.com/zh-CN/docs/getting-started/quickstart/",
+        "https://developer.ant-ling.com/zh-CN/docs/faq/",
+        "https://developer.ant-ling.com/zh-CN/docs/models/price/"
+      ],
+      "discovered_at": "2026-10-25",
+      "verified_at": "2026-10-25",
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": null,
+      "verification_note": "2026-10-25 复核官方 10月19日计费升级说明：新用户注册立即获 ¥20 Token 消费券；使用新计费平台的账户每月 1 日获 ¥10 抵扣券，当月有效不结转；原每日 50 万 Tokens 免费额度在升级后不再发放。官方准备工作与快速开始提供自助注册、API Key 和 OpenAI 兼容调用，FAQ 当前明确 Ling-3.1-flash / Ling-3.0-flash 两款 API 模型，QPS 2。10月31日 23:59:59 为历史计费账户统一切换截止日，不是新客领取截止日。未实测账号到账、支付绑定及中国手机号资格；旧定价/FAQ 仍列每日 50 万 Tokens，按较新的专项升级公告优先，不能把两种权益叠加。",
+      "review_result": "官方新计费福利及 API 入口均可验证，active/premium；新用户实际领取和新钱包支付授权细节待实测。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "官方 10月19日升级公告确认新客 ¥20、月度 ¥10；旧每日 50万 Tokens 退出；API 文档确认 Ling-3.1/3.0 可调。新账户实际到账和支付细节未实测。",
+          "source_url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/billing-upgrade/",
+          "secondary_sources": [
+            "https://developer.ant-ling.com/zh-CN/docs/getting-started/prerequisites/",
+            "https://developer.ant-ling.com/zh-CN/docs/faq/",
+            "https://developer.ant-ling.com/zh-CN/docs/getting-started/quickstart/"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
