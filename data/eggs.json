@@ -3754,6 +3754,59 @@
           ]
         }
       ]
+    },
+    {
+      "id": "xiaomi-mimo-api-invite-10cny-2026",
+      "name": "小米 MiMo 开放平台邀请绑定赠 ¥10 API 体验金",
+      "type": "官方模型厂商 API 赠额",
+      "description": "中国大陆新用户注册 3 天内绑定好友邀请码，双方各得 ¥10 模型 API 体验金，可试用 MiMo-V2.6 Pro / Flash；不要求先购买套餐。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 63,
+      "quality_breakdown": {
+        "free_api_value": 12,
+        "model_usefulness": 24,
+        "claim_convenience": 17,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方确认人民币 ¥10 赠金可抵扣强模型 API，但新客须在 3 天内绑定有效邀请，额度较小，未达到 Super。",
+      "credits": "新注册中国大陆账号在注册后 3 天内绑定现有用户的 6 位邀请码，双方各得 ¥10 API 体验金，官方称绑定后即时发放；每位被邀请人仅能绑定一次。赠金到账后 40 天内有效。官方 FAQ 另提及新客注册赠金，但未公布当前固定金额，不与邀请赠额相加。",
+      "models": [
+        "mimo-v2.6-pro（1M 上下文，编程推理与工具调用）",
+        "mimo-v2.6-flash（1M 上下文，编程推理与工具调用）"
+      ],
+      "requirements": "需小米账号；中国大陆账号可使用手机号或微信/QQ/支付宝等第三方方式注册，绑定一名现有用户的邀请码，注册后 3 天内完成；邀请人前 30 次绑定可触发 ¥10 奖励。官方明确该 ¥10 注册激励仅限注册地区为中国大陆的账号，不能自己邀请自己的其他账号。充值/购买套餐需实名，领取赠金是否需要实名认证未见强制要求。",
+      "payment_required": "官方确认邀请码绑定后赠金即时发放，与好友是否付费无关，无需为领取赠金先充值或购买 Token Plan；官方活动未要求绑银行卡，实际注册支付设置与账户 API 额度尚未实测。赠金仅抵扣按量 API，不能购买 Token Plan；用完后如有现金余额，调用会按量扣费。",
+      "url": "https://mimo.mi.com/docs/zh-CN/quick-start/promotions/refer",
+      "official_source_url": "https://mimo.mi.com/docs/zh-CN/quick-start/promotions/refer",
+      "claim_url": "https://platform.xiaomimimo.com/",
+      "source_type": "小米 MiMo 官方邀请活动规则、活动 FAQ、账户与 API 文档、模型清单",
+      "evidence_urls": [
+        "https://mimo.mi.com/docs/zh-CN/quick-start/promotions/refer",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/faq/promotions",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/faq/account",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/summary/model",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/summary/first-api-call"
+      ],
+      "discovered_at": "2026-10-25",
+      "verified_at": "2026-10-25",
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": null,
+      "verification_note": "2026-10-25 读取小米官方当前邀请有礼规则（2026-08-13 更新）及活动 FAQ：仅中国大陆注册地区账号在注册后 3 天内绑定好友邀请码，双方各得 ¥10 API 体验金，到账后 40 天失效，明确可抵扣 MiMo 模型按量 API，且不需要好友实际付款。官方模型目录列 V2.6 Pro/Flash（1M 上下文，深度推理、工具调用），10月21日已下线旧 V2.5 名称；官方 API 接入文档提供 OpenAI/Anthropic 兼容接口。控制台为动态页面，未登录领取或实际调用；普通新客注册赠金的当前金额未知，未合并。",
+      "review_result": "官方当期规则、个人领取路径及强模型 API 抵扣范围可核实；active/normal。新账户实领、是否需额外实名及具体超额支付授权未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "官方现行邀请活动确认中国大陆新账号 3 天内绑定邀请码双方各得 ¥10，40 天有效且可抵扣 MiMo 模型按量 API；V2.6 Pro/Flash 可用，未登录实测到账。",
+          "source_url": "https://mimo.mi.com/docs/zh-CN/quick-start/promotions/refer",
+          "secondary_sources": [
+            "https://mimo.mi.com/docs/zh-CN/quick-start/faq/promotions",
+            "https://mimo.mi.com/docs/zh-CN/quick-start/summary/model",
+            "https://mimo.mi.com/docs/zh-CN/quick-start/faq/account"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
