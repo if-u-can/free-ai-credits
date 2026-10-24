@@ -403,6 +403,25 @@
       "credits": "10 亿 Spark-X2.6 免费 API Tokens（非通用模型赠额）",
       "payment_required": "公开活动宣称零门槛，社区实领仅提到实名认证；是否需绑卡/预充值及超额自动扣费尚未完成账号实测。",
       "status": "active"
+    },
+    {
+      "id": "2026-10-24-super-qiniu-conatus-100m-daily",
+      "kind": "super",
+      "date": "2026-10-24",
+      "egg_id": "qiniu-conatus-100m-daily-free-2026",
+      "title": "七牛云每天 1 亿免费 Tokens，Eku 的篮子又满啦 🥚",
+      "summary": "七牛云 1024 活动开放 Conatus 融合模型：个人实名后每天免费 1 亿 API Tokens，11 月 30 日结束，不充值也能用。",
+      "highlights": [
+        "每天 1 亿 Tokens，00:00 刷新；只限 qiniu/conatus-free，额度耗尽自动拒绝，不会扣余额。",
+        "支持代码辅助、深度思考、工具调用与视觉输入；1M 上下文，兼容 OpenAI / Anthropic API。",
+        "基础档只需实名认证；单笔充值超过 ¥100 才能升到每日 10 亿。融合模型的具体底层型号、实际质量和限速尚未独立实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "claim_url": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "credits": "个人实名免充值每日 1 亿 Tokens，2026-10-24 至 2026-11-30",
+      "payment_required": "基础档无需充值；10 亿/日升级需单笔实充 >¥100。绑卡流程未实测。",
+      "status": "active"
     }
   ]
 }
