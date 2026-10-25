@@ -3859,6 +3859,62 @@
           ]
         }
       ]
+    },
+    {
+      "id": "openai-data-sharing-complimentary-api-2026",
+      "name": "OpenAI API 数据共享激励免费 Tokens（限符合资格账户）",
+      "type": "官方模型厂商 API 有条件免费配额",
+      "description": "符合资格的 OpenAI API 组织开启输入/输出数据共享后，每天可免计费调用 GPT-6 系列等模型；需账户有正余额，不是新注册即送，超出每日配额按正常费率计费。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 72,
+      "quality_breakdown": {
+        "free_api_value": 29,
+        "model_usefulness": 25,
+        "claim_convenience": 9,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方明确为符合资格且开启数据共享的账户提供每天可续的强模型 API 免费 Tokens；资格非普遍开放，需正余额且超额收费，不满足 Super 低门槛。",
+      "credits": "符合资格的 Build 组织：强模型组共享最多 250,000 Tokens/天，轻量模型组共享最多 2,500,000 Tokens/天；Launch/Grow 组织：两组分别最多 1,000,000 和 10,000,000 Tokens/天。两组各自共享，不是每模型单独赠额；每日 00:00 UTC 重置。超过免费额度的整笔请求按正常费率计费。",
+      "models": [
+        "gpt-6.1-sol（强模型组）",
+        "gpt-6-astra（强模型组）",
+        "gpt-6-sol（强模型组）",
+        "gpt-6-luna（官方同时列于两个组，具体按模型所属免费组与后台计量）",
+        "gpt-5.6-sol（强模型组）",
+        "gpt-5.6-terra（轻量组）",
+        "gpt-5.6-luna（轻量组）",
+        "gpt-5.4-mini（轻量组）"
+      ],
+      "requirements": "仅 API 组织的 Owner 可在 Data Controls 开启输入/输出共享；必须在后台看到“You're eligible for free daily usage”提示才有资格，不是所有注册用户都能领取。仅对开启共享的项目/请求生效，需正账户余额。日本在官方 API 支持地区，中国大陆不在名单；手机号、身份验证及具体账号能否获资格未实测。共享内容可能用于模型改进，不适合提交敏感代码或秘密。",
+      "payment_required": "需保持正 API 账户余额；新 API 账户通常需添加支付方式并先购买至少 $5 预付 credits（已持有正余额的账户不必因本活动再次充值）。自动充值在新预付设置中默认开启，可关闭。免费额度之外及跨越上限的整笔请求会正常收费。",
+      "url": "https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai",
+      "official_source_url": "https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai",
+      "claim_url": "https://platform.openai.com/settings/organization/data-controls",
+      "source_type": "OpenAI 官方 API 数据共享奖励说明、预付计费说明、API 支持地区清单",
+      "evidence_urls": [
+        "https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai",
+        "https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing",
+        "https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories"
+      ],
+      "discovered_at": "2026-10-25",
+      "verified_at": "2026-10-25",
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": null,
+      "verification_note": "2026-10-25 读取 OpenAI 官方近期更新的 API 数据共享帮助文档：部分组织可在 Data Controls 看见免费每日额度资格；Build 组织强模型/轻量组分别 25 万/250 万 Tokens/天，Launch/Grow 为 100 万/1000 万 Tokens/天；包含 GPT-6.1 Sol、GPT-6 Astra、GPT-6 Sol、GPT-5.6 系列，组内共享。必须开启输入/输出共享且账户余额为正，超限整笔请求收费。官方预付文档显示新账户初次购买最低 $5、自动充值默认开；地区表列日本、不列中国大陆。未登录任何账户、未验证实际资格、到账或 API 响应，不能宣传成人人可领或完全免预付。",
+      "review_result": "官方确认符合资格的个人 API 组织可自行启用有条件每日免费 Tokens；active/premium，账号资格及实际 API 使用尚未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "官方确认按账户资格启用、数据共享条件、正余额、分组日额度与超额计费；未做账号实领，不能视作无门槛赠金。",
+          "source_url": "https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai",
+          "secondary_sources": [
+            "https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing",
+            "https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
