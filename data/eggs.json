@@ -664,9 +664,9 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "quality_breakdown": null,
-      "last_reviewed_at": "2026-10-25",
-      "last_seen_at": "2026-10-25",
-      "next_review_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-26",
+      "last_seen_at": "2026-10-26",
+      "next_review_at": "2026-10-27",
       "evidence_urls": [
         "https://fireworks.ai/pricing",
         "https://fireworks.ai/blog/billing-migration-to-prepaid",
@@ -676,7 +676,7 @@
         "https://app.fireworks.ai/signup",
         "https://fireworks.ai/models"
       ],
-      "review_result": "10月25日复查官方当前 Billing FAQ：仍明确 $1 starter credit，未绑支付方式的账户耗尽后暂停；注册页可打开。新注册实际到账、有效期、地区资格及具体可调用型号未做账户实测，继续 pending。",
+      "review_result": "10月26日复查官方 Billing FAQ：现行文档仍明确 $1 starter credit，耗尽后无支付方式账户暂停；这是平台账单说明，并非新注册实际到账证明。未进行新账号注册/API实调，地区、有效期与具体模型资格仍未证实，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-20",
@@ -734,10 +734,19 @@
           "secondary_sources": [
             "https://app.fireworks.ai/signup"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "result": "10月26日复查官方 Billing FAQ：现行文档仍明确 $1 starter credit，耗尽后无支付方式账户暂停；这是平台账单说明，并非新注册实际到账证明。未进行新账号注册/API实调，地区、有效期与具体模型资格仍未证实，保持 pending。",
+          "source_url": "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+          "secondary_sources": [
+            "https://app.fireworks.ai/signup",
+            "https://fireworks.ai/models"
+          ]
         }
       ],
       "review_started_at": "2026-10-20",
-      "review_attempts": 6
+      "review_attempts": 7
     },
     {
       "id": "vultr-250-serverless-2026",
@@ -762,7 +771,7 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-26",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -845,19 +854,28 @@
             "https://www.vultr.com/promo/try250/",
             "https://docs.vultr.com/platform/create-an-account"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "result": "10月26日复查：官方 Serverless Inference 视频页仍将新账户 $250 免费 credits 作为体验入口，Serverless 产品确有模型 API；try250 专项页本轮返回 403，不能据此认定结束。官方开户说明需支付方式验证，$250 专项资格、实际到账及对 Serverless 账单抵扣仍未实测，保持 pending。",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+          "secondary_sources": [
+            "https://www.vultr.com/promo/try250/",
+            "https://docs.vultr.com/platform/create-an-account"
+          ]
         }
       ],
-      "next_review_at": "2026-10-26",
-      "review_attempts": 10,
+      "next_review_at": "2026-10-27",
+      "review_attempts": 11,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "10月25日复查：官方 Serverless Inference 视频页仍明确以新账户 $250 free credits 推介推理产品；try250 专项页仍返回 403。10月23日更新的官方开户文档要求绑定支付方式（信用卡可选 $0 验证），提及试用金最长 30 天；$250 专项个人资格、到账及 Serverless 实际抵扣未核实，继续 pending。",
+      "review_result": "10月26日复查：官方 Serverless Inference 视频页仍将新账户 $250 免费 credits 作为体验入口，Serverless 产品确有模型 API；try250 专项页本轮返回 403，不能据此认定结束。官方开户说明需支付方式验证，$250 专项资格、实际到账及对 Serverless 账单抵扣仍未实测，保持 pending。",
       "evidence_urls": [
         "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
         "https://docs.vultr.com/platform/create-an-account",
         "https://docs.vultr.com/how-to-deploy-openclaw-autonomous-ai-agent-platform",
         "https://www.vultr.com/promo/try250/"
       ],
-      "last_seen_at": "2026-10-25"
+      "last_seen_at": "2026-10-26"
     },
     {
       "id": "azure-free-200-ai-2026",
@@ -1470,11 +1488,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-25",
-      "next_review_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-26",
+      "next_review_at": "2026-10-27",
       "review_started_at": "2026-10-09",
-      "review_attempts": 17,
-      "review_result": "10月25日复查：官方定价仍列 Free $0、每月刷新 Starter usage credits、仅 Starter models、单并发；Cloud 文档确认 API Key 可请求模型 API。未找到 Starter 免费额度具体金额、完整免费型号及中国大陆/绑卡资格，继续 pending。",
+      "review_attempts": 18,
+      "review_result": "10月26日复查官方定价与 Cloud API 文档：Free $0 仍有每月刷新 Starter usage credits、Starter models 与单并发，API Key 可用于云模型请求。具体免费额度数值、Starter 完整型号、+86 地区和绑卡条件仍无可核实的公开说明，未实测新账号，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1618,9 +1636,17 @@
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "result": "10月26日复查官方定价与 Cloud API 文档：Free $0 仍有每月刷新 Starter usage credits、Starter models 与单并发，API Key 可用于云模型请求。具体免费额度数值、Starter 完整型号、+86 地区和绑卡条件仍无可核实的公开说明，未实测新账号，保持 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
         }
       ],
-      "last_seen_at": "2026-10-25"
+      "last_seen_at": "2026-10-26"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
@@ -3260,11 +3286,11 @@
       ],
       "discovered_at": "2026-10-23",
       "verified_at": null,
-      "last_seen_at": "2026-10-25",
-      "last_reviewed_at": "2026-10-25",
-      "next_review_at": "2026-10-26",
+      "last_seen_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-26",
+      "next_review_at": "2026-10-27",
       "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。",
-      "review_result": "10月25日复查：官网 /pricing 明确新客 $5 免费推理 credits，需手机验证，注册后 14 天过期；注册页仍为动态页面，无法核实 +86 手机号、绑卡及实际到账。旧 $25 / 2 亿 Tokens 宣传不作为当前赠额，继续 pending。",
+      "review_result": "10月26日复查官网当前 /pricing：新客 $5 API credits，需手机验证，未用额度注册 14 天后过期；公开注册页仍仅加载动态应用。无法确认中国 +86 号码是否接受、是否绑卡及新账户实际到账，保持 pending，不采用旧 $25 页面缓存。",
       "review_history": [
         {
           "date": "2026-10-23",
@@ -3293,10 +3319,19 @@
           "secondary_sources": [
             "https://app.thegrid.ai/sign-up"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "result": "10月26日复查官网当前 /pricing：新客 $5 API credits，需手机验证，未用额度注册 14 天后过期；公开注册页仍仅加载动态应用。无法确认中国 +86 号码是否接受、是否绑卡及新账户实际到账，保持 pending，不采用旧 $25 页面缓存。",
+          "source_url": "https://thegrid.ai/pricing",
+          "secondary_sources": [
+            "https://app.thegrid.ai/sign-up",
+            "https://thegrid.ai/"
+          ]
         }
       ],
       "review_started_at": "2026-10-23",
-      "review_attempts": 3
+      "review_attempts": 4
     },
     {
       "id": "sail-research-5-monthly-model-api-2026",
@@ -3457,7 +3492,7 @@
       "name": "美团 LongCat API 个人实名赠额线索（额度待核实）",
       "type": "官方模型厂商 / 模型推理 API",
       "description": "LongCat 提供可接入编程工具的模型 API，个人实名赠 Tokens 与老带新奖励有历史实领线索；当期新客是否仍可领取尚待核实。",
-      "status": "pending",
+      "status": "unverifiable",
       "grade": null,
       "quality_score": null,
       "credits": "第三方 2026-09-10 控制台实领记录称个人实名可得 1000 万 Tokens、30 天有效，另有邀请奖励；官方公开文档未确认当前赠额数值、有效期或库存，不能按已到账宣传。",
@@ -3478,10 +3513,10 @@
         "https://longcat.chat/platform/docs/zh/cc-switch",
         "https://mianfeisuanli.com/platform/longcat.html"
       ],
-      "verification_note": "2026-10-24：LongCat 官方 FAQ 证实中国大陆手机号注册、个人实名认证及老带新活动奖励存在；官方工具文档确认 LongCat-2.5-Preview/2.0 的 OpenAI、Anthropic API。第三方 9月10日称实名赠 1000 万 Tokens，但未找到当期官方明确额度/领取期限及新账号到账证明。官网平台页面为动态应用，无法确认现在可领，故仅 pending。",
-      "last_reviewed_at": "2026-10-25",
-      "next_review_at": "2026-10-26",
-      "review_result": "10月25日复查官方 FAQ 与更新日志：大陆手机号注册、个人实名认证、API Key 和 LongCat-2.5-Preview 接口可验证；但当前 1000 万免费 Tokens 的发放数值、有效期和到账条件仍无官方当期依据。2026-04 的 500 万/日 Preview 规则属于历史测试，不据此升级，继续 pending。",
+      "verification_note": "2026-10-24：LongCat 官方 FAQ 证实中国大陆手机号注册、个人实名认证及老带新活动奖励存在；官方工具文档确认 LongCat-2.5-Preview/2.0 的 OpenAI、Anthropic API。第三方 9月10日称实名赠 1000 万 Tokens，但未找到当期官方明确额度/领取期限及新账号到账证明。官网平台页面为动态应用，无法确认现在可领，故仅 pending。 2026-10-26：连续10月24/25/26三日复查均未找到当期免费赠额官方依据，按规则归入 unverifiable；非已确认 expired。",
+      "last_reviewed_at": "2026-10-26",
+      "next_review_at": null,
+      "review_result": "10月26日第三个不同自然日复核：官方 FAQ、更新日志及接入文档能证明个人手机号实名与 LongCat-2.5-Preview/2.0 模型 API 存在，但仍没有 2026-10 当期个人实名赠 1000 万 Tokens 的官方领取条款或新号到账证据；9月10日第三方实领属于历史线索。10月24、25、26连续三日真实核查仍缺当期赠额依据，按规则转 unverifiable（不宣称官方活动已结束）。",
       "review_history": [
         {
           "date": "2026-10-24",
@@ -3500,8 +3535,22 @@
           "secondary_sources": [
             "https://longcat.chat/platform/docs/zh/ChangeLog.html"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "result": "10月26日第三个不同自然日复核：官方 FAQ、更新日志及接入文档能证明个人手机号实名与 LongCat-2.5-Preview/2.0 模型 API 存在，但仍没有 2026-10 当期个人实名赠 1000 万 Tokens 的官方领取条款或新号到账证据；9月10日第三方实领属于历史线索。10月24、25、26连续三日真实核查仍缺当期赠额依据，按规则转 unverifiable（不宣称官方活动已结束）。",
+          "source_url": "https://longcat.chat/platform/docs/zh/FAQ.html",
+          "secondary_sources": [
+            "https://longcat.chat/platform/docs/zh/ChangeLog.html",
+            "https://longcat.chat/platform/docs/zh/chatbox",
+            "https://mianfeisuanli.com/platform/longcat.html"
+          ]
         }
-      ]
+      ],
+      "last_seen_at": "2026-10-26",
+      "review_attempts": 3,
+      "grade_reason": null,
+      "quality_breakdown": null
     },
     {
       "id": "baidu-qianfan-new-user-20cny-api-2026",
@@ -4051,7 +4100,7 @@
         "Baichuan3-Turbo",
         "Baichuan2-Turbo"
       ],
-      "requirements": "官方用户协议允许个人注册；中国大陆注册/实名步骤、2026 新账户资格、是否仍自动发放及赠金可用模型范围需实测。",
+      "requirements": "个人可通过手机号及短信验证码注册（官方用户协议明确）；2026 新账号赠额是否仍发放、实名细节、适用模型范围及绑卡条件待实测。",
       "payment_required": "未找到当前新客赠额是否需要绑卡或实际充值的明确官方规则；不可推定免绑卡。",
       "status": "pending",
       "grade": null,
@@ -4059,9 +4108,9 @@
       "quality_score": null,
       "discovered_at": "2026-10-25",
       "verified_at": null,
-      "last_seen_at": "2026-10-25",
-      "last_reviewed_at": "2026-10-25",
-      "next_review_at": "2026-10-26",
+      "last_seen_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-26",
+      "next_review_at": "2026-10-27",
       "url": "https://platform.baichuan-ai.com/prices",
       "official_source_url": "https://platform.baichuan-ai.com/prices",
       "claim_url": "https://platform.baichuan-ai.com/",
@@ -4071,7 +4120,7 @@
         "https://platform.baichuan-ai.com/article/user-agreement"
       ],
       "verification_note": "2026-10-25 读取百川官方当前价格页：赠金说明仍列 2024-05-22 起新注册用户 ¥80、3 个月；价格页和现行通用对话 API 文档列出 Baichuan4/3/2 可按 Token 调用。因条款原始日期为 2024 年、官网未展示 2026 年新注册实领证明，且登录/注册动态页未能确认支付卡及实名要求，暂记 pending，不评级。",
-      "review_result": "10月25日：当前官方价格页保留 ¥80 新客赠金说明，API 文档仍可读；2026 新号实际发放、适用模型、绑卡与地区资格缺实证，保持 pending。",
+      "review_result": "10月26日复查：官方价格页仍保留 2024-05-22 起新注册用户赠 ¥80、3个月有效的条款，官方用户协议明确个人手机号+短信验证码注册，通用模型 API 文档可读；未取得 2026 新账号到账、绑卡要求或赠额适用型号实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-25",
@@ -4081,8 +4130,18 @@
             "https://platform.baichuan-ai.com/docs-v2/api",
             "https://platform.baichuan-ai.com/article/user-agreement"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "result": "10月26日复查：官方价格页仍保留 2024-05-22 起新注册用户赠 ¥80、3个月有效的条款，官方用户协议明确个人手机号+短信验证码注册，通用模型 API 文档可读；未取得 2026 新账号到账、绑卡要求或赠额适用型号实测，保持 pending。",
+          "source_url": "https://platform.baichuan-ai.com/prices",
+          "secondary_sources": [
+            "https://platform.baichuan-ai.com/article/user-agreement",
+            "https://platform.baichuan-ai.com/docs-v2/api"
+          ]
         }
-      ]
+      ],
+      "review_attempts": 2
     }
   ],
   "grade_policy": {
