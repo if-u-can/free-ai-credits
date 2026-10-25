@@ -3968,6 +3968,64 @@
           ]
         }
       ]
+    },
+    {
+      "id": "nous-portal-free-models-api-2026",
+      "name": "Nous Research Portal 免费模型 API",
+      "type": "官方研究机构 / 模型推理平台免费 API",
+      "source_type": "Nous Research 官方 Portal 计划、实时模型目录及服务条款",
+      "description": "Nous Portal 的 $0 免费档可调用当前标为 FREE 的 8 款模型，包括 LongCat 2.5 Preview、Reflection Beam 1.0 与 Step 3.7 Flash；模型轮换，使用标准速率限制。",
+      "credits": "Free 计划 $0/月：当前 8 款 FREE 模型按官方目录免费使用；不赠送付费模型通用 credits（$0 月度 credits），未公开统一免费 Tokens 总额、请求次数或截止日期。",
+      "models": [
+        "Meituan LongCat 2.5 Preview（FREE）",
+        "Meituan LongCat 2.0（FREE）",
+        "Reflection Beam 1.0 501B A23B（FREE）",
+        "StepFun Step 3.7 Flash（FREE）",
+        "Poolside Laguna S 2.1（FREE）",
+        "Poolside Laguna XS 2.1（FREE）",
+        "Ornith 1.5 122B（FREE）",
+        "Upstage Solar Mini 4（FREE）"
+      ],
+      "requirements": "个人可通过邮箱或 Google、Microsoft、GitHub 等方式注册；官网显示免费套餐。中国大陆可否成功注册、可用模型是否因地区不同、手机号或实名是否必需均未做账户级实测。",
+      "payment_required": "官方免费套餐标价 $0/月、$0 月度 credits；不要求购买付费订阅。服务条款说明免费试用期间无需提供信用卡，但未独立实测 Free 计划的绑卡步骤；免费模型之外的付费模型不属于免费权益。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 74,
+      "quality_breakdown": {
+        "free_api_value": 27,
+        "model_usefulness": 22,
+        "claim_convenience": 17,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方实时目录确认多款编程、推理模型在 $0 计划免费开放；未公布统一高额配额及地区/限速细节，不满足 Super 可核算高价值门槛。",
+      "url": "https://portal.nousresearch.com/models",
+      "official_source_url": "https://portal.nousresearch.com/models",
+      "claim_url": "https://portal.nousresearch.com/login",
+      "evidence_urls": [
+        "https://portal.nousresearch.com/models",
+        "https://portal.nousresearch.com/",
+        "https://portal.nousresearch.com/terms",
+        "https://portal.nousresearch.com/api-docs"
+      ],
+      "discovered_at": "2026-10-25",
+      "verified_at": "2026-10-25",
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": null,
+      "verification_note": "2026-10-25 直接读取 Nous Portal 官方实时 Models 页：Free Models 区列出 8 款，目录中 LongCat 2.5 Preview、Beam 1.0、Laguna S/XS、Step 3.7 Flash 等标为 FREE；首页/计划页明确 Free $0、仅免费模型、标准速率限制、每月 $0 credits；服务条款明确个人可开户及免费试用无须信用卡，且提及 Nous Inference API。API Docs 公开入口可访问但具体接口文档需要登录，未使用真实账户测试注册、发 Key、模型调用、地区和限速；因此不声称已实领或无限量。",
+      "review_result": "当前官方计划和实时模型目录共同确认 $0 免费模型 API；active/premium，账户级资格与实际限额尚待实测。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "查官方 $0 计划、实时 FREE 模型清单、Nous Inference API 服务条款与登录入口；账号开通、地区、实际调用未测试。",
+          "source_url": "https://portal.nousresearch.com/models",
+          "secondary_sources": [
+            "https://portal.nousresearch.com/",
+            "https://portal.nousresearch.com/terms",
+            "https://portal.nousresearch.com/api-docs"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
