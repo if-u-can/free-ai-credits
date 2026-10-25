@@ -3915,6 +3915,59 @@
           ]
         }
       ]
+    },
+    {
+      "id": "google-agent-platform-express-90day-free-api-2026",
+      "name": "Google Cloud Agent Platform Express Mode 90 天免费 Gemini API",
+      "type": "官方模型平台 / 独立限期免费模型 API",
+      "source_type": "Google Cloud 官方 Express Mode 产品文档、FAQ 与现行条款",
+      "description": "Google Cloud 新用户用 Gmail 开通 Express Mode，可在 90 天内免绑卡调用 Gemini 3.1 Pro Preview、3 Flash 等模型 API；限额按模型及账号执行。",
+      "credits": "新 Google Cloud 用户 90 天内免费使用 Express Mode 所列模型 API（不是 $300 云券，也没有统一美元赠额或 Tokens 总包）；Gemini 3.1 Pro Preview / 3 Flash Preview 等为动态请求限额，Gemini 2.5 Pro / Flash 每分钟最多 10 次，其他账户配额登录后查看。",
+      "models": [
+        "gemini-3.1-pro-preview（官方 Express Mode 支持；动态 RPM）",
+        "gemini-3-flash-preview（动态 RPM）",
+        "gemini-2.5-pro（10 RPM）",
+        "gemini-2.5-flash（10 RPM）",
+        "gemini-2.5-flash-lite（10 RPM）"
+      ],
+      "requirements": "年满 18 岁、首次使用 Google Cloud 的个人新用户，使用 @gmail.com 账号；已有 Google Cloud 账号不享有 90 天免费档。官方条款限制仅用于职业/业务用途，不能处理个人数据；中国大陆注册资格与实际 API 调用尚未实测。部分账号可能跳转普通 $300 试用开户，不能将该入口等同于免绑卡成功。",
+      "payment_required": "免费档不要求银行卡、账单账户或预充值；主动启用 Billing 即转付费档并取消 90 天免费权益。超过免费档限额须先升级，不应自动计费。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 73,
+      "quality_breakdown": {
+        "free_api_value": 26,
+        "model_usefulness": 24,
+        "claim_convenience": 14,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方明确可在独立 90 天免绑卡试用中调用 Gemini 3.1 Pro 等模型 API，但没有公开统一高额度，旧云账户无资格且受职业用途及地区开户限制，不满足 Super 的明确高价值门槛。",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start/express-mode/overview",
+      "official_source_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start/express-mode/overview",
+      "claim_url": "https://console.cloud.google.com/expressmode",
+      "evidence_urls": [
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start/express-mode/overview",
+        "https://cloud.google.com/resources/cloud-express-faqs",
+        "https://cloud.google.com/terms/google-cloud-express"
+      ],
+      "discovered_at": "2026-10-25",
+      "verified_at": "2026-10-25",
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": null,
+      "verification_note": "2026-10-25 重新读取 Google 官方文档（页面更新 2026-10-22），明确新 Google Cloud 用户 @gmail.com 可无账单开户、90 天内按免费配额调用 Agent Platform API；模型表包含 Gemini 3.1 Pro Preview、3 Flash Preview、2.5 Pro/Flash。FAQ 确认 90 天后无 Billing 即停止；现行条款明确年龄≥18、免费档仅全新云用户、职业用途及禁止处理个人数据。公开领取 URL 指向官方 Cloud Console Express Mode，未登录状态跳 Google 账号登录，未进行真实账号开通或 API 实测；社区曾有开户被转向 $300 试用的反馈，故不保证所有地区/账号均能领取。",
+      "review_result": "官方当期免费 API 方案、模型表和个人新客资格成立，active/premium；具体额度、地区、注册成功率和实际调用仍未做账号级实测。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "核查 Google 官方 Express Mode 90 天免账单政策、Gemini 3.1 Pro 模型清单、限额及个人新客/职业用途条款；账号登录与实调未测试。",
+          "source_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start/express-mode/overview",
+          "secondary_sources": [
+            "https://cloud.google.com/resources/cloud-express-faqs",
+            "https://cloud.google.com/terms/google-cloud-express"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
