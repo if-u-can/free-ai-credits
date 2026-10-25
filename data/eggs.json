@@ -4026,6 +4026,53 @@
           ]
         }
       ]
+    },
+    {
+      "id": "baichuan-new-user-80cny-api-2026",
+      "name": "百川智能新客 ¥80 模型 API 赠金（2024 条款，2026 实领待核实）",
+      "type": "官方模型厂商 / 模型推理 API",
+      "source_type": "百川智能现行官方定价页（含 2024 年起的赠金说明）与官方 Chat Completions API 文档",
+      "description": "百川官方定价页仍展示新注册账户赠 ¥80 API 体验金、3 个月有效；这条规则始于 2024 年，2026 年新账号是否仍自动到账尚待核实。",
+      "credits": "官方定价页保留 2024-05-22 起新注册账户赠 ¥80（按 Baichuan2-Turbo 折算 1000 万 Tokens），注册后生效、有效期 3 个月的历史条款；2026 年新注册是否仍发放未实测，不按已到账宣传。",
+      "models": [
+        "Baichuan4-Turbo",
+        "Baichuan4-Air",
+        "Baichuan4",
+        "Baichuan3-Turbo",
+        "Baichuan2-Turbo"
+      ],
+      "requirements": "官方用户协议允许个人注册；中国大陆注册/实名步骤、2026 新账户资格、是否仍自动发放及赠金可用模型范围需实测。",
+      "payment_required": "未找到当前新客赠额是否需要绑卡或实际充值的明确官方规则；不可推定免绑卡。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": null,
+      "quality_score": null,
+      "discovered_at": "2026-10-25",
+      "verified_at": null,
+      "last_seen_at": "2026-10-25",
+      "last_reviewed_at": "2026-10-25",
+      "next_review_at": "2026-10-26",
+      "url": "https://platform.baichuan-ai.com/prices",
+      "official_source_url": "https://platform.baichuan-ai.com/prices",
+      "claim_url": "https://platform.baichuan-ai.com/",
+      "evidence_urls": [
+        "https://platform.baichuan-ai.com/prices",
+        "https://platform.baichuan-ai.com/docs-v2/api",
+        "https://platform.baichuan-ai.com/article/user-agreement"
+      ],
+      "verification_note": "2026-10-25 读取百川官方当前价格页：赠金说明仍列 2024-05-22 起新注册用户 ¥80、3 个月；价格页和现行通用对话 API 文档列出 Baichuan4/3/2 可按 Token 调用。因条款原始日期为 2024 年、官网未展示 2026 年新注册实领证明，且登录/注册动态页未能确认支付卡及实名要求，暂记 pending，不评级。",
+      "review_result": "10月25日：当前官方价格页保留 ¥80 新客赠金说明，API 文档仍可读；2026 新号实际发放、适用模型、绑卡与地区资格缺实证，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-10-25",
+          "result": "查官方价格、通用 API 文档和用户协议，确认旧 ¥80 条款仍出现在当前官网；没有 2026 新号实领证据，且注册与绑卡条件未证实。",
+          "source_url": "https://platform.baichuan-ai.com/prices",
+          "secondary_sources": [
+            "https://platform.baichuan-ai.com/docs-v2/api",
+            "https://platform.baichuan-ai.com/article/user-agreement"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
