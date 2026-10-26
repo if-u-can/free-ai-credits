@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T17:17:17.086+08:00",
+  "updated_at": "2026-10-26T22:47:06+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -456,14 +456,16 @@
     {
       "id": "vercel-ai-gateway-free-2026",
       "name": "Vercel AI Gateway 月度免费额度",
-      "description": "Vercel AI Gateway 免费档每月有 $5；Nemotron 3.5 Lightning 可免费测试编程推理，Baseten 与 Laya 决策模型分别限免至 10 月 27 日、31 日。",
-      "credits": "$5 / 月（AI Gateway 免费档）；另有 Nemotron 3.5 Lightning 免费端点（未公布固定总量与截止日）和 Baseten Mammoth-1 / Elephant-1 两款决策模型至 2026-10-27 免费，均非额外 $ credits，限速按账户为准。；另有 Convai Laya 决策 API 通过 Boundless 免费至 2026-10-31（非额外美元赠金）。",
+      "description": "Vercel AI Gateway 未付费账户每 30 天有 $5 模型 API 额度，可试用 Kimi K3.1 Pro 等强模型；另有 Nemotron 免费编程端点及 Baseten、Laya 限免决策模型。",
+      "credits": "$5 / 月（AI Gateway 免费档）；另有 Nemotron 3.5 Lightning 免费端点（未公布固定总量与截止日）和 Baseten Mammoth-1 / Elephant-1 两款决策模型至 2026-10-27 免费，均非额外 $ credits，限速按账户为准。；另有 Convai Laya 决策 API 通过 Boundless 免费至 2026-10-31（非额外美元赠金）。；2026-10-23 上架的 Kimi K3.1 Pro/Highspeed 为正常按 Token 计费模型，未付费账户可使用现有 $5/30 天余额，不是新增赠金。",
       "models": [
         "网关支持的模型按当前免费档可用权限为准",
         "nvidia/nemotron-3.5-lightning-free（NVIDIA 官方免费端点，30B/3B 激活，1M 上下文，65K 最大输出；支持编程推理与工具调用）",
         "baseten/mammoth-1（27B 决策模型，16K 上下文，分类/路由/评分；通过 Vercel AI Gateway 免费至 2026-10-27）",
         "baseten/elephant-1（9B 决策模型，16K 上下文，同期免费；不生成自由文本）",
-        "convaiinnovations/laya-free（8K 上下文的分类/路由/评分决策 API，Boundless 免费至 2026-10-31；非自由文本聊天模型）"
+        "convaiinnovations/laya-free（8K 上下文的分类/路由/评分决策 API，Boundless 免费至 2026-10-31；非自由文本聊天模型）",
+        "moonshotai/kimi-k3.1-pro（2026-10-23 上架；1M 上下文，编程/推理/工具调用；$2 输入、$10 输出/百万 Tokens，消耗原有 $5/30天免费余额）",
+        "moonshotai/kimi-k3.1-pro-highspeed（同系列高速版；1M 上下文；$4 输入、$20 输出/百万 Tokens，消耗同一免费余额）"
       ],
       "requirements": "Vercel 账号及 AI Gateway API Key；月度 $5 免费档适用网关可调用模型。Nemotron 3.5 Lightning 免费端点仅限试用开发，NVIDIA 可能记录输入输出用于模型改进；Baseten 两款需 Decisions API / AI SDK，非普通聊天补全。地区、绑卡及实际调用未实测。 Laya 使用 Vercel Decisions/Evaluation API，返回分类、评分与概率，不生成自由文本；通过 Boundless 的 laya-free 专用 ID 在活动结束后停止服务。",
       "payment_required": "未知（免费档领取是否需验证付款方式应以开通页为准）",
@@ -476,7 +478,7 @@
       "url": "https://vercel.com/docs/ai-gateway/pricing",
       "official_source_url": "https://vercel.com/docs/ai-gateway/pricing",
       "claim_url": "https://vercel.com/docs/ai-gateway/pricing",
-      "verification_note": "2026-10-24 官方 AI Gateway 定价仍为免费档 $5/月，购买 credits 后不再享月度免费额。Vercel 2026-10-21 公告及模型页确认 Baseten mammoth-1 (27B) / elephant-1 (9B) 通过 AI Gateway 免费至 2026-10-27，16K 上下文，返回分类/概率/评分而非自由文本；API Key 可从模型页获取。免费模型不应折算为新增美元赠额，未做新账号注册、地区、绑卡和实际 API 调用实测。 2026-10-24 追加核实：Vercel 10月14日官方公告和当前模型页确认 nvidia/nemotron-3.5-lightning-free 经 NVIDIA 免费提供，输入/输出均 Free、1M 上下文、65K 最大输出，支持工具调用和编程代理；免费端点仅试用、输入输出可能被记录；未公开免费 Token 总额、结束日、限速及中国大陆可用性，未做账号实调。 2026-10-26 核实 Vercel 10月1日官方公告及现行 Laya Free 模型页：convaiinnovations/laya-free 通过 Boundless 输入输出免费，8K 上下文，限免至10月31日；仅支持结构化分类、路由和评分，非编程聊天模型，专用 -free ID 到期停止服务；账号实调未做。",
+      "verification_note": "2026-10-24 官方 AI Gateway 定价仍为免费档 $5/月，购买 credits 后不再享月度免费额。Vercel 2026-10-21 公告及模型页确认 Baseten mammoth-1 (27B) / elephant-1 (9B) 通过 AI Gateway 免费至 2026-10-27，16K 上下文，返回分类/概率/评分而非自由文本；API Key 可从模型页获取。免费模型不应折算为新增美元赠额，未做新账号注册、地区、绑卡和实际 API 调用实测。 2026-10-24 追加核实：Vercel 10月14日官方公告和当前模型页确认 nvidia/nemotron-3.5-lightning-free 经 NVIDIA 免费提供，输入/输出均 Free、1M 上下文、65K 最大输出，支持工具调用和编程代理；免费端点仅试用、输入输出可能被记录；未公开免费 Token 总额、结束日、限速及中国大陆可用性，未做账号实调。 2026-10-26 核实 Vercel 10月1日官方公告及现行 Laya Free 模型页：convaiinnovations/laya-free 通过 Boundless 输入输出免费，8K 上下文，限免至10月31日；仅支持结构化分类、路由和评分，非编程聊天模型，专用 -free ID 到期停止服务；账号实调未做。 2026-10-26 补充核实：Vercel 10月23日官方公告及当期两款模型页确认 Kimi K3.1 Pro 和 Highspeed 可用 OpenAI/Anthropic 兼容 API，1M 上下文；模型页明确未付费账户每30天有 $5 credits 可用于模型调用。标准版输入/输出 $2/$10 每百万 Tokens，高速版 $4/$20；没有额外新客赠额，尚未做账号实调。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "last_reviewed_at": "2026-10-26",
@@ -489,9 +491,12 @@
         "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
         "https://vercel.com/ai-gateway/models/nemotron-3.5-lightning-free",
         "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
-        "https://vercel.com/ai-gateway/models/laya-free"
+        "https://vercel.com/ai-gateway/models/laya-free",
+        "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+        "https://vercel.com/ai-gateway/models/kimi-k3.1-pro",
+        "https://vercel.com/ai-gateway/models/kimi-k3.1-pro-highspeed"
       ],
-      "review_result": "10月26日补充核实 Convai Laya 决策 API 免费至10月31日；原有月度 $5 与 Nemotron/Baseten 条款未变，仍 active/premium。",
+      "review_result": "10月26日补充核实 Vercel 10月23日上架 Kimi K3.1 Pro/Highspeed，支持编程 API，未付费账户可用既有每30天 $5 免费额度；没有新增赠金，维持 active/premium。",
       "review_history": [
         {
           "date": "2026-10-24",
@@ -507,10 +512,13 @@
         },
         {
           "date": "2026-10-26",
-          "result": "Vercel 官方公告与实时模型页确认 convaiinnovations/laya-free 通过 Boundless 免费至 2026-10-31，8K 上下文，返回结构化分类/评分而非聊天文本；未做账户实调。",
+          "result": "Vercel 官方公告与实时模型页确认 convaiinnovations/laya-free 通过 Boundless 免费至 2026-10-31，8K 上下文，返回结构化分类/评分而非聊天文本；未做账户实调。；同日补充核实 Kimi K3.1 Pro/Highspeed 已上架，可用既有 $5/30天免费额度抵扣，不计新复查日。",
           "source_url": "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
           "secondary_sources": [
-            "https://vercel.com/ai-gateway/models/laya-free"
+            "https://vercel.com/ai-gateway/models/laya-free",
+            "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+            "https://vercel.com/ai-gateway/models/kimi-k3.1-pro",
+            "https://vercel.com/ai-gateway/models/kimi-k3.1-pro-highspeed"
           ]
         }
       ]
