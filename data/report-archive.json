@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T17:17:32.751+08:00",
+  "updated_at": "2026-10-27T07:20:15.388+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -495,6 +495,25 @@
       "published_at": "2026-10-24T21:50:35+08:00",
       "id": "2026-10-24-evening",
       "kind": "evening"
+    },
+    {
+      "id": "2026-10-27-super-regolo-1m-daily-30day",
+      "kind": "super",
+      "date": "2026-10-27",
+      "egg_id": "regolo-ai-core-1m-daily-30day-trial-2026",
+      "title": "Regolo 每天 100 万免费 Tokens，连用 30 天 🥚",
+      "summary": "意大利 Regolo 开放 30 天免绑卡模型 API 试用：每天最多 100 万 Tokens，GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型都在可用清单。",
+      "highlights": [
+        "30 天内每天最多 100 万 Tokens，天天用满理论可达 3000 万；不是一次性 3000 万赠额。",
+        "个人免绑卡、免预充值，OpenAI 兼容 API，可用于编程推理和工具调用。",
+        "免费试用有更严格的公平使用限速；中国大陆账户注册、实际额度与调用尚未实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://regolo.ai/pricing/",
+      "claim_url": "https://regolo.ai/signup",
+      "credits": "30 天试用，每日 1,000,000 Tokens 上限（理论累计最多 30,000,000）",
+      "payment_required": "免绑卡、免预充值；试用到期需自行选择后续方案。",
+      "status": "active"
     }
   ]
 }
