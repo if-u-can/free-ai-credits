@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T21:50:35+08:00",
+  "updated_at": "2026-10-26T17:17:32.751+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -83,17 +83,22 @@
       "id": "2026-10-08-super-general-compute",
       "kind": "super",
       "date": "2026-10-08",
-      "title": "捡到一颗 $100 的超级鸡蛋 🥚",
-      "summary": "General Compute 面向新账号提供 $100 API credits，邮箱验证后可以申请。官方模型列表有 DeepSeek、MiniMax 和 GPT-OSS。",
+      "title": "【待核实】General Compute 历史 $100 超级鸡蛋 🥚",
+      "summary": "2026-10-08 曾按官方 $100 API 赠额宣传收录；2026-10-26 原活动页已无法访问，现行官方 Agent Signup 文档只确认另一项 $5 赠额。$100 是否正式结束尚未获官方证实，暂停推荐领取。",
       "highlights": [
-        "新账号赠金：$100 API credits。",
-        "可用模型包括 DeepSeek、MiniMax 和 GPT-OSS 系列。",
-        "注册申请走邮箱验证流程，实际资格按所在地区账户开放情况。"
+        "历史宣传：新客 $100 API credits，旧活动链接现返回 404。",
+        "2026-10-26 官方 Agent Signup 文档确认另一项 $5 API credits，可通过邮箱验证码注册；不可将它当作原 $100 仍有效的证据。",
+        "本专题保留为历史记录；原 $100 目前 pending、grade=null，后续有新证据再复核。"
       ],
       "tip": "",
       "egg_id": "general-compute-100-2026",
       "official_source_url": "https://www.generalcompute.com/openclaw",
-      "claim_url": "https://app.generalcompute.com"
+      "claim_url": null,
+      "status": "pending",
+      "grade": null,
+      "reviewed_at": "2026-10-26",
+      "verification_note": "2026-10-26 旧 /openclaw 页面 404，当前官网未列 $100；现行官方文档 https://docs.generalcompute.com/agent-signup 仅确认另一项 $5 新客 API 赠额，未找到原 $100 正式结束公告。",
+      "updated_at": "2026-10-26T17:17:32.751+08:00"
     },
     {
       "id": "2026-10-08-morning",
