@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T11:02:22+08:00",
+  "updated_at": "2026-10-26T17:17:17.086+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -203,8 +203,8 @@
     {
       "id": "general-compute-100-2026",
       "name": "General Compute 注册赠金",
-      "description": "General Compute 注册送 $100 API credits，邮箱验证就能走申请流程。",
-      "credits": "$100 免费 API credits",
+      "description": "历史官方曾宣传新客 $100 API credits；2026-10-26 旧活动入口已无法访问，现行可核实的独立 Agent Signup 方案仅写 $5，原 $100 是否继续开放待核实。",
+      "credits": "历史 $100 API credits 宣传；当前无法确认仍可领取（现行独立 Agent Signup 文档写 $5）",
       "models": [
         "deepseek-v3.2",
         "minimax-m2.5",
@@ -213,18 +213,41 @@
       ],
       "requirements": "新用户邮箱验证；个人是否需其他认证依账户实际流程",
       "payment_required": "未知（官方公开流程只提邮箱验证，未明确要求绑卡）",
-      "status": "active",
-      "grade": "super",
-      "grade_reason": "新客大额 API 赠金",
-      "quality_score": 98,
+      "status": "pending",
+      "grade": null,
+      "grade_reason": "旧 $100 领取入口失效且缺乏当期可申请依据，等待真实复核",
+      "quality_score": 0,
       "discovered_at": "2026-10-07",
       "verified_at": "2026-10-08",
       "url": "https://www.generalcompute.com/openclaw",
       "official_source_url": "https://www.generalcompute.com/openclaw",
-      "claim_url": "https://app.generalcompute.com",
-      "verification_note": "官方活动页明确新账号 $100，提供 email code 领取流程；仍需账号实测金额与地区限制。",
+      "claim_url": null,
+      "verification_note": "2026-10-26：原 $100 官方活动入口 HTTP 404，当前官网及定价页未展示 $100 自助赠额；另一个当前可用的官方 Agent Signup 文档明确赠 $5。旧 $100 是否正式结束未见公告，不能直接判 expired。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "last_reviewed_at": "2026-10-26",
+      "next_review_at": "2026-10-27",
+      "review_started_at": "2026-10-26",
+      "review_history": [
+        {
+          "date": "2026-10-26",
+          "result": "本轮访问原官方 $100 活动页 /openclaw 返回 404，/opencode 也返回 404；当前官网及 /pricing 仅展示合同式专属算力，未再说明 $100 自助赠额。当前官方 /agent-signup 明确只写 $5 免费 API credits；无法据此断言 $100 已正式结束，暂停 $100 的 active/super。",
+          "source_url": "https://www.generalcompute.com/openclaw",
+          "secondary_sources": [
+            "https://www.generalcompute.com/pricing",
+            "https://docs.generalcompute.com/agent-signup",
+            "https://docs.generalcompute.com/models"
+          ]
+        }
+      ],
+      "review_attempts": 1,
+      "review_result": "本轮访问原官方 $100 活动页 /openclaw 返回 404，/opencode 也返回 404；当前官网及 /pricing 仅展示合同式专属算力，未再说明 $100 自助赠额。当前官方 /agent-signup 明确只写 $5 免费 API credits；无法据此断言 $100 已正式结束，暂停 $100 的 active/super。",
+      "evidence_urls": [
+        "https://www.generalcompute.com/openclaw",
+        "https://www.generalcompute.com/pricing",
+        "https://docs.generalcompute.com/agent-signup",
+        "https://docs.generalcompute.com/models"
+      ]
     },
     {
       "id": "akashml-100-api-credit-2026",
@@ -4163,6 +4186,46 @@
         }
       ],
       "review_attempts": 2
+    },
+    {
+      "id": "general-compute-5-agent-signup-2026",
+      "name": "General Compute Agent Signup 新客 $5 API 赠额",
+      "type": "官方模型推理平台",
+      "description": "官方 Agent Signup 开放邮箱验证码注册，完成后获 $5 模型 API 赠额，可调用 MiniMax、DeepSeek 等模型。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 56,
+      "quality_breakdown": {
+        "free_api_value": 9,
+        "model_usefulness": 21,
+        "claim_convenience": 19,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "现行官方文档明确个人可通过邮箱验证码申请 $5 模型 API 赠额；金额较小，绑卡、有效期及地区细节未公开。",
+      "credits": "新注册通过 Agent Signup 可得一次性 $5 模型 API credits；官方未公开有效期、是否与其他渠道优惠叠加。",
+      "models": [
+        "minimax-m2.7",
+        "deepseek-v3.2",
+        "deepseek-v3.1",
+        "gpt-oss-120b"
+      ],
+      "requirements": "个人邮箱验证（6 位验证码，15 分钟有效）；按官方文档 POST /v1/public/agent-signups 发起注册，再验证邮箱领取 API Key。地区/手机号资格未公开。",
+      "payment_required": "待核实（官方 Agent Signup 流程未提绑卡或实际付款；未进行账号实领）",
+      "discovered_at": "2026-10-26",
+      "verified_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-26",
+      "last_seen_at": "2026-10-26",
+      "verification_note": "2026-10-26 官方 Agent Signup 文档明确新用户 $5 free API credits、邮箱验证后返回 API Key；官方 Models & Pricing 文档列 MiniMax M2.7、DeepSeek V3.2、DeepSeek V3.1、GPT-OSS 120B。未实际注册或测试到账，未公开有效期、地区、绑卡、限速及超额计费条件；不同于原 $100 活动。",
+      "url": "https://docs.generalcompute.com/agent-signup",
+      "official_source_url": "https://docs.generalcompute.com/agent-signup",
+      "claim_url": "https://docs.generalcompute.com/agent-signup",
+      "source_type": "官方当前 Agent Signup 文档及模型价格表",
+      "evidence_urls": [
+        "https://docs.generalcompute.com/agent-signup",
+        "https://docs.generalcompute.com/models",
+        "https://www.generalcompute.com/pricing"
+      ],
+      "review_result": "官方现行 $5 API 赠额及自助邮箱申请流程可核实，active/normal；未实测账户到账。"
     }
   ],
   "grade_policy": {
