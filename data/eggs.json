@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:51:58+08:00",
+  "updated_at": "2026-10-27T07:19:59.338+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -4367,6 +4367,63 @@
             "https://tuna.ai/signup",
             "https://tuna.ai/docs/models",
             "https://tuna.ai/docs/account/billing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regolo-ai-core-1m-daily-30day-trial-2026",
+      "name": "Regolo AI 30 天免费强模型 API（每日 100 万 Tokens）",
+      "type": "正规推理平台（意大利 Seeweb 自托管模型）",
+      "description": "免绑卡试用 30 天，每天最多 100 万模型 API Tokens，可调用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；每日限额和共享限速适用。",
+      "status": "active",
+      "grade": "super",
+      "quality_score": 84,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 22,
+        "claim_convenience": 23,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方当期个人免绑卡试用 30 天，每日最多 100 万 Tokens，覆盖多款强编程推理模型；累计上限需按天使用。",
+      "credits": "30 天免费试用，每日最多 1,000,000 Tokens（输入与输出合计；若连续 30 天用满，理论最多 30,000,000 Tokens，并非一次性赠额）；每日有独立上限，试用期满结束。",
+      "models": [
+        "glm5.2（GLM-5.2）",
+        "gpt-oss-120b（GPT-OSS 120B）",
+        "qwen3.8-27b（Qwen3.8-27B）",
+        "mistral-small-4-119b（Mistral Small 4）",
+        "qwen3.5-122b（Qwen3.5-122B）"
+      ],
+      "requirements": "新个人用户可自助注册并创建 API Key；官方免费试用无需信用卡、无需预充值或企业/学生身份。试用仅 30 天、每日限 100 万 Tokens 且有更严格的公平使用限速；中国大陆地区能否成功注册、是否要求手机号/实名、实际到账与模型调用尚未由本站实测。",
+      "payment_required": "否（官方免费试用无需绑卡或预充值；官方 FAQ 称试用期满不会自动扣费，付费订阅另有续费条款，使用前须留意账户计费设置）",
+      "url": "https://regolo.ai/pricing/",
+      "official_source_url": "https://regolo.ai/pricing/",
+      "claim_url": "https://regolo.ai/signup",
+      "source_type": "Regolo 官方当期定价、FAQ、API 接入说明、Seeweb 服务协议及独立免费 API 目录",
+      "evidence_urls": [
+        "https://regolo.ai/pricing/",
+        "https://regolo.ai/faq/",
+        "https://regolo.ai/",
+        "https://regolo.ai/terms-and-conditions/",
+        "https://mvalentsev.github.io/awesome-free-ai-coding/providers/regolo/"
+      ],
+      "discovered_at": "2026-10-27",
+      "verified_at": "2026-10-27",
+      "last_seen_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": null,
+      "verification_note": "2026-10-27 直接读取官方现行 Pricing：Free Trial 明确 30 天、每日 1M Tokens、所有 Core Chat Models、免信用卡；型号表含 glm5.2、gpt-oss-120b、qwen3.8-27b、mistral-small-4-119b、qwen3.5-122b。官方首页提供 OpenAI 兼容 chat/completions API 示例；服务协议明确个人可签约、新用户 30 天 Freemium 仅能领取一次。官方 /signup 按钮跳转到同域 SSO 注册，网页抓取工具无法读取 OAuth 注册页，未实际注册/调用；中国大陆资格、手机号/实名要求与实际可用性未实测。独立 API 目录在 2026-09-28 曾记录探测有效，但不是本轮到账证明。30M 是每天 1M 用满 30 天的理论合计，非一次性额度；更严格限速，30 天到期。",
+      "review_result": "官方当前个人免绑卡、30 天每日 100 万 Tokens、Core 强模型与 API 入口证据相符；符合 Super 五项硬门槛，按 30 天累计上限而非一次性赠额表述。",
+      "review_history": [
+        {
+          "date": "2026-10-27",
+          "result": "核对官方当前定价、免费试用 FAQ、强模型 Core 清单、OpenAI 兼容 API 示例、个人服务协议与 /signup→SSO 跳转；未创建账号或实调，地区资格与到账仍未验证。",
+          "source_url": "https://regolo.ai/pricing/",
+          "secondary_sources": [
+            "https://regolo.ai/faq/",
+            "https://regolo.ai/terms-and-conditions/",
+            "https://regolo.ai/",
+            "https://mvalentsev.github.io/awesome-free-ai-coding/providers/regolo/"
           ]
         }
       ]
