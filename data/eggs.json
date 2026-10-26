@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T04:29:22+08:00",
+  "updated_at": "2026-10-27T05:51:58+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -4316,6 +4316,60 @@
         "https://www.generalcompute.com/pricing"
       ],
       "review_result": "官方现行 $5 API 赠额及自助邮箱申请流程可核实，active/normal；未实测账户到账。"
+    },
+    {
+      "id": "tuna-inference-new-user-10-card-2026",
+      "name": "Tuna Inference 新客 $10 强模型 API 试用",
+      "type": "正规模型推理平台官方新用户 API credits",
+      "description": "Tuna 新用户绑定有效支付方式后可领 $10 模型 API 赠额，支持 Kimi K3、DeepSeek V4.1 Flash 和 GLM-5.3 Flash 的高速推理；无需实际预充值。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 61,
+      "quality_breakdown": {
+        "free_api_value": 16,
+        "model_usefulness": 24,
+        "claim_convenience": 12,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方明确赠 $10 并可抵扣强模型推理 API，但必须绑有效支付方式、一次性额度有限，且高速模型单价较高。",
+      "credits": "新用户一次性 $10 promotional API credits；必须填写有效账单信息并绑定支付方式，免实际预充值；官网未公布固定赠额有效期，金额可能调整。",
+      "models": [
+        "Kimi K3 Ultrafast (tuna-us/moonshotai/kimi-k3-ultrafast)",
+        "DeepSeek V4.1 Flash 1017 Ultrafast (tuna-us/deepseek/deepseek-v4.1-flash-1017-ultrafast)",
+        "GLM-5.3 Flash Ultrafast (tuna-us/z-ai/glm-5.3-flash-ultrafast)"
+      ],
+      "requirements": "个人可从官网以邮箱或 Google 注册，领取 $10 前须填写有效账单信息并绑定支付方式；不要求企业/学生身份。中国大陆地区、+86 手机号、国内银行卡能否通过 Stripe 验证未实测；模型在美国区域处理。",
+      "payment_required": "必须绑定有效支付方式（官网支持主要信用卡，经 Stripe 处理），不需要先购买 credits；官网称仅主动购买 credits 或开启自动充值才会扣款。余额耗尽的请求返回 402，不自动续费。",
+      "url": "https://tuna.ai/",
+      "official_source_url": "https://tuna.ai/",
+      "claim_url": "https://tuna.ai/signup",
+      "source_type": "Tuna 官方首页当前赠额 FAQ、官方模型定价、注册页、账单文档",
+      "evidence_urls": [
+        "https://tuna.ai/",
+        "https://tuna.ai/signup",
+        "https://tuna.ai/docs/models",
+        "https://tuna.ai/docs/account/billing",
+        "https://tuna.ai/docs"
+      ],
+      "discovered_at": "2026-10-27",
+      "verified_at": "2026-10-27",
+      "last_seen_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": null,
+      "verification_note": "2026-10-27 本轮直接核对 Tuna 官网：自助个人注册入口可打开，官网 FAQ 明确新用户在提供有效账单信息与支付方式后可领 $10 promotional credit，免购买/预充值；仅主动买额度或启用自动充值才会扣费。官网 Models & Pricing 列 Kimi K3、DeepSeek V4.1 Flash 1017、GLM-5.3 Flash Ultrafast 的 OpenAI 兼容 API 和按 Token 价格；账单文档明确余额耗尽返回 402。未实际创建账号、绑定卡或调用 API，未知中国大陆卡/地区资格、赠额有效期与实际到账。未找到可信的当期个人实领反馈。",
+      "review_result": "官方当前 $10 API 赠额、个人注册入口、绑卡但免预付和可用强模型均有当期证据；active/normal，不符合 Super 高价值门槛。",
+      "review_history": [
+        {
+          "date": "2026-10-27",
+          "result": "核查官方 $10 绑卡赠额、公开个人注册入口、Kimi K3/DeepSeek V4.1 Flash/GLM-5.3 Flash API 价格及余额耗尽行为；未做账号实领和中国大陆卡验证。",
+          "source_url": "https://tuna.ai/",
+          "secondary_sources": [
+            "https://tuna.ai/signup",
+            "https://tuna.ai/docs/models",
+            "https://tuna.ai/docs/account/billing"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
