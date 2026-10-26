@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T22:47:06+08:00",
+  "updated_at": "2026-10-27T01:17:00+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -225,8 +225,8 @@
       "verification_note": "2026-10-26：原 $100 官方活动入口 HTTP 404，当前官网及定价页未展示 $100 自助赠额；另一个当前可用的官方 Agent Signup 文档明确赠 $5。旧 $100 是否正式结束未见公告，不能直接判 expired。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
-      "last_reviewed_at": "2026-10-26",
-      "next_review_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": "2026-10-28",
       "review_started_at": "2026-10-26",
       "review_history": [
         {
@@ -238,10 +238,19 @@
             "https://docs.generalcompute.com/agent-signup",
             "https://docs.generalcompute.com/models"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "10月27日复查：$100 活动原领取页 /openclaw 仍返回 404，/opencode 亦为 404；当前官方 Agent Signup 文档明确仅赠 $5 API credits。搜索结果仍可找到 $100 旧页面缓存，但不能证明当前可领取；$100 专项继续 pending，不按 404 判失效。",
+          "source_url": "https://www.generalcompute.com/openclaw",
+          "secondary_sources": [
+            "https://docs.generalcompute.com/agent-signup",
+            "https://www.generalcompute.com/opencode"
+          ]
         }
       ],
-      "review_attempts": 1,
-      "review_result": "本轮访问原官方 $100 活动页 /openclaw 返回 404，/opencode 也返回 404；当前官网及 /pricing 仅展示合同式专属算力，未再说明 $100 自助赠额。当前官方 /agent-signup 明确只写 $5 免费 API credits；无法据此断言 $100 已正式结束，暂停 $100 的 active/super。",
+      "review_attempts": 2,
+      "review_result": "10月27日复查：$100 活动原领取页 /openclaw 仍返回 404，/opencode 亦为 404；当前官方 Agent Signup 文档明确仅赠 $5 API credits。搜索结果仍可找到 $100 旧页面缓存，但不能证明当前可领取；$100 专项继续 pending，不按 404 判失效。",
       "evidence_urls": [
         "https://www.generalcompute.com/openclaw",
         "https://www.generalcompute.com/pricing",
@@ -706,9 +715,9 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "quality_breakdown": null,
-      "last_reviewed_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-27",
       "last_seen_at": "2026-10-26",
-      "next_review_at": "2026-10-27",
+      "next_review_at": "2026-10-28",
       "evidence_urls": [
         "https://fireworks.ai/pricing",
         "https://fireworks.ai/blog/billing-migration-to-prepaid",
@@ -718,7 +727,7 @@
         "https://app.fireworks.ai/signup",
         "https://fireworks.ai/models"
       ],
-      "review_result": "10月26日复查官方 Billing FAQ：现行文档仍明确 $1 starter credit，耗尽后无支付方式账户暂停；这是平台账单说明，并非新注册实际到账证明。未进行新账号注册/API实调，地区、有效期与具体模型资格仍未证实，保持 pending。",
+      "review_result": "10月27日复查官方现行账单 FAQ：仍明确 $1 starter credit，耗尽且未绑卡会暂停；注册页仍允许邮箱/Google/GitHub 注册。未做新账号领取和模型 API 实调，具体发放资格、地区、有效期尚不能确认，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-20",
@@ -785,10 +794,18 @@
             "https://app.fireworks.ai/signup",
             "https://fireworks.ai/models"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "10月27日复查官方现行账单 FAQ：仍明确 $1 starter credit，耗尽且未绑卡会暂停；注册页仍允许邮箱/Google/GitHub 注册。未做新账号领取和模型 API 实调，具体发放资格、地区、有效期尚不能确认，继续 pending。",
+          "source_url": "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+          "secondary_sources": [
+            "https://app.fireworks.ai/signup"
+          ]
         }
       ],
       "review_started_at": "2026-10-20",
-      "review_attempts": 7
+      "review_attempts": 8
     },
     {
       "id": "vultr-250-serverless-2026",
@@ -813,7 +830,7 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-26",
+      "last_reviewed_at": "2026-10-27",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -905,12 +922,21 @@
             "https://www.vultr.com/promo/try250/",
             "https://docs.vultr.com/platform/create-an-account"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "10月27日复查：官方 Serverless Inference 视频说明仍把新账户 $250 credits 作为体验入口；try250 专项领取页仍返回 403。10月23日更新的开户说明需绑定支付方式（信用卡可 $0 验证），一般试用金最长 30 天；$250 专项地区资格、到账及 Serverless API 抵扣未实测，保持 pending。",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+          "secondary_sources": [
+            "https://www.vultr.com/promo/try250/",
+            "https://docs.vultr.com/platform/create-an-account"
+          ]
         }
       ],
-      "next_review_at": "2026-10-27",
-      "review_attempts": 11,
+      "next_review_at": "2026-10-28",
+      "review_attempts": 12,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "10月26日复查：官方 Serverless Inference 视频页仍将新账户 $250 免费 credits 作为体验入口，Serverless 产品确有模型 API；try250 专项页本轮返回 403，不能据此认定结束。官方开户说明需支付方式验证，$250 专项资格、实际到账及对 Serverless 账单抵扣仍未实测，保持 pending。",
+      "review_result": "10月27日复查：官方 Serverless Inference 视频说明仍把新账户 $250 credits 作为体验入口；try250 专项领取页仍返回 403。10月23日更新的开户说明需绑定支付方式（信用卡可 $0 验证），一般试用金最长 30 天；$250 专项地区资格、到账及 Serverless API 抵扣未实测，保持 pending。",
       "evidence_urls": [
         "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
         "https://docs.vultr.com/platform/create-an-account",
@@ -1530,11 +1556,11 @@
       "grade": null,
       "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
       "quality_score": 0,
-      "last_reviewed_at": "2026-10-26",
-      "next_review_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": "2026-10-28",
       "review_started_at": "2026-10-09",
-      "review_attempts": 18,
-      "review_result": "10月26日复查官方定价与 Cloud API 文档：Free $0 仍有每月刷新 Starter usage credits、Starter models 与单并发，API Key 可用于云模型请求。具体免费额度数值、Starter 完整型号、+86 地区和绑卡条件仍无可核实的公开说明，未实测新账号，保持 pending。",
+      "review_attempts": 19,
+      "review_result": "10月27日复查官方 Pricing 和 Cloud 文档：Free $0 仍含 Starter usage credits、Starter models，每月刷新、1 并发；Cloud API Key 可调用云模型。免费额度具体数字、完整 Starter 型号、绑卡与中国大陆资格未公开明确，未进行账户实调，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1682,6 +1708,14 @@
         {
           "date": "2026-10-26",
           "result": "10月26日复查官方定价与 Cloud API 文档：Free $0 仍有每月刷新 Starter usage credits、Starter models 与单并发，API Key 可用于云模型请求。具体免费额度数值、Starter 完整型号、+86 地区和绑卡条件仍无可核实的公开说明，未实测新账号，保持 pending。",
+          "source_url": "https://ollama.com/pricing",
+          "secondary_sources": [
+            "https://docs.ollama.com/cloud"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "10月27日复查官方 Pricing 和 Cloud 文档：Free $0 仍含 Starter usage credits、Starter models，每月刷新、1 并发；Cloud API Key 可调用云模型。免费额度具体数字、完整 Starter 型号、绑卡与中国大陆资格未公开明确，未进行账户实调，保持 pending。",
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
             "https://docs.ollama.com/cloud"
@@ -3339,10 +3373,10 @@
       "discovered_at": "2026-10-23",
       "verified_at": null,
       "last_seen_at": "2026-10-26",
-      "last_reviewed_at": "2026-10-26",
-      "next_review_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": "2026-10-28",
       "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。",
-      "review_result": "10月26日复查官网当前 /pricing：新客 $5 API credits，需手机验证，未用额度注册 14 天后过期；公开注册页仍仅加载动态应用。无法确认中国 +86 号码是否接受、是否绑卡及新账户实际到账，保持 pending，不采用旧 $25 页面缓存。",
+      "review_result": "10月27日复查官网当前 /pricing：仍为新客 $5 推理 credits，需手机验证，注册后 14 天到期；注册页仅返回动态应用外壳。未核实 +86 手机号、支付绑定及实际到账，继续 pending；旧 $25 / 2 亿 Tokens 缓存不代表当前活动。",
       "review_history": [
         {
           "date": "2026-10-23",
@@ -3380,10 +3414,18 @@
             "https://app.thegrid.ai/sign-up",
             "https://thegrid.ai/"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "10月27日复查官网当前 /pricing：仍为新客 $5 推理 credits，需手机验证，注册后 14 天到期；注册页仅返回动态应用外壳。未核实 +86 手机号、支付绑定及实际到账，继续 pending；旧 $25 / 2 亿 Tokens 缓存不代表当前活动。",
+          "source_url": "https://thegrid.ai/pricing",
+          "secondary_sources": [
+            "https://app.thegrid.ai/sign-up"
+          ]
         }
       ],
       "review_started_at": "2026-10-23",
-      "review_attempts": 4
+      "review_attempts": 5
     },
     {
       "id": "sail-research-5-monthly-model-api-2026",
@@ -4161,8 +4203,8 @@
       "discovered_at": "2026-10-25",
       "verified_at": null,
       "last_seen_at": "2026-10-26",
-      "last_reviewed_at": "2026-10-26",
-      "next_review_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": "2026-10-28",
       "url": "https://platform.baichuan-ai.com/prices",
       "official_source_url": "https://platform.baichuan-ai.com/prices",
       "claim_url": "https://platform.baichuan-ai.com/",
@@ -4172,7 +4214,7 @@
         "https://platform.baichuan-ai.com/article/user-agreement"
       ],
       "verification_note": "2026-10-25 读取百川官方当前价格页：赠金说明仍列 2024-05-22 起新注册用户 ¥80、3 个月；价格页和现行通用对话 API 文档列出 Baichuan4/3/2 可按 Token 调用。因条款原始日期为 2024 年、官网未展示 2026 年新注册实领证明，且登录/注册动态页未能确认支付卡及实名要求，暂记 pending，不评级。",
-      "review_result": "10月26日复查：官方价格页仍保留 2024-05-22 起新注册用户赠 ¥80、3个月有效的条款，官方用户协议明确个人手机号+短信验证码注册，通用模型 API 文档可读；未取得 2026 新账号到账、绑卡要求或赠额适用型号实测，保持 pending。",
+      "review_result": "10月27日复查官方定价：仍保留自 2024-05-22 起新用户赠 ¥80、有效 3 个月的条款，当前模型 API 价目表可读；用户协议支持个人手机号验证码注册。未获得 2026 新账户实际到账、支付要求或赠金适用模型的账户验证，保持 pending，不因第三个复查日就误归档。",
       "review_history": [
         {
           "date": "2026-10-25",
@@ -4191,9 +4233,17 @@
             "https://platform.baichuan-ai.com/article/user-agreement",
             "https://platform.baichuan-ai.com/docs-v2/api"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "result": "10月27日复查官方定价：仍保留自 2024-05-22 起新用户赠 ¥80、有效 3 个月的条款，当前模型 API 价目表可读；用户协议支持个人手机号验证码注册。未获得 2026 新账户实际到账、支付要求或赠金适用模型的账户验证，保持 pending，不因第三个复查日就误归档。",
+          "source_url": "https://platform.baichuan-ai.com/prices",
+          "secondary_sources": [
+            "https://platform.baichuan-ai.com/article/user-agreement"
+          ]
         }
       ],
-      "review_attempts": 2
+      "review_attempts": 3
     },
     {
       "id": "general-compute-5-agent-signup-2026",
