@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T16:43:00+08:00",
+  "updated_at": "2026-10-27T16:52:00+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -542,6 +542,36 @@
       "published_at": "2026-10-27T16:43:00+08:00",
       "id": "2026-10-27-morning",
       "kind": "morning"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "10 月 27 日晚报：大蛋已落篮，七颗待核实还在排队 🌙",
+      "summary": "今天发布了 Regolo 每日 100 万 Tokens、连续 30 天的新 Super；Tuna、BytePlus 与 Vercel 的更新也已整理。早报后没有新增活动或状态变化，七项 pending 维持原判，Ollama 的官方口径冲突仍未解决。",
+      "highlights": [
+        "Regolo 的 30 天免绑卡试用已落稳：每天最多 100 万 Tokens，可用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；Super 专题已经发布，不重复开一份。",
+        "Tuna 新客 $10 需要绑定支付方式但无需先充值，按 normal 收录；BytePlus 已明确为每款符合条件模型分别提供免费量，不能把额度合并成一锅。",
+        "Vercel AI Gateway 新增 GPT-6.1 Terra / Fast，仍消耗原有每 30 天 $5 免费额度，没有额外赠金。",
+        "七项 pending 今日都已复核且没有状态变化。Ollama 当前定价页不再展示 Starter 免费额，与旧官方公告互相打架；今天没有新增 expired 或 unverifiable。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://regolo.ai/pricing/",
+        "https://regolo.ai/faq/",
+        "https://tuna.ai/",
+        "https://docs.byteplus.com/en/docs/ModelArk/1330310",
+        "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+        "https://vercel.com/ai-gateway/models/gpt-6.1-terra",
+        "https://ollama.com/pricing",
+        "https://ollama.com/blog/transparent-pricing",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://thegrid.ai/pricing",
+        "https://platform.baichuan-ai.com/prices",
+        "https://runaii.cloud/pricing"
+      ],
+      "published_at": "2026-10-27T16:52:00+08:00",
+      "id": "2026-10-27-evening",
+      "kind": "evening"
     }
   ]
 }
