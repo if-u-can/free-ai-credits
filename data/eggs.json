@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T15:14:49+08:00",
+  "updated_at": "2026-10-27T17:35:52+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -4495,6 +4495,61 @@
       ],
       "review_started_at": "2026-10-27",
       "review_attempts": 1
+    },
+    {
+      "id": "public-ai-inference-2-starter-2026",
+      "name": "Public AI 公益推理 API 新用户 $2 赠额",
+      "type": "可信非营利公益模型 API",
+      "description": "非营利 Public AI 新账户赠 $2 模型 API 试用金，支持 Apertus 70B、SEA-LION 等开放模型。无需先充值，适合体验开放模型；不以强编程模型为主。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 56,
+      "quality_breakdown": {
+        "free_api_value": 9,
+        "model_usefulness": 14,
+        "claim_convenience": 23,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "公益平台免预付提供真实 $2 模型 API 试用，额度较小、模型偏研究与多语种，因此评普通。",
+      "credits": "新账户一次性 $2 API starter credits；按实际模型输入/输出 Tokens 计费，不是每月赠额。官方未公布赠额到期日。",
+      "models": [
+        "swiss-ai/apertus-v1.5-70b-thinking",
+        "swiss-ai/apertus-v1.5-70b",
+        "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+        "aisingapore/Gemma-SEA-LION-v4-27B-IT"
+      ],
+      "requirements": "个人注册（条款要求真人、年满 18 岁），通过 Public AI 开发者门户登录并创建 API Key；官网欢迎全球用户，须遵守出口管制；中国大陆注册/登录及赠额实际到账未实测。主要面向研究和教育。",
+      "payment_required": "新账户 $2 试用无需先绑卡或充值；用完后可自行添加支付方式购买余额，按 Token 收费。",
+      "url": "https://platform.publicai.co/docs",
+      "official_source_url": "https://platform.publicai.co/plans",
+      "claim_url": "https://platform.publicai.co/signin",
+      "source_type": "Public AI 官方开发者文档、模型目录、条款",
+      "evidence_urls": [
+        "https://platform.publicai.co/docs",
+        "https://platform.publicai.co/plans",
+        "https://platform.publicai.co/models",
+        "https://platform.publicai.co/signin",
+        "https://publicai.co/tc"
+      ],
+      "discovered_at": "2026-10-27",
+      "verified_at": "2026-10-27",
+      "last_seen_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": null,
+      "verification_note": "2026-10-27 核对官方开发者文档（最后修改 10-26）：新用户一次性 $2 赠额用于 OpenAI 兼容模型 API；Free 默认每 Key 100 RPM，额度耗尽后才需自行添加支付方式充值。模型目录列 Apertus 1.5 70B Thinking、SEA-LION 32B 等按 Token 计费型号；官网登录入口可达，条款明确 Metagov Inc. 501(c)(3) 非营利组织、18 岁以上个人及全球用户（出口管制例外），研究教育用途。未创建新账号或调用 API；未核实中国大陆登录/支付资格及赠额实际到账，也未找到 2026-10 的独立实领反馈；官方未公布赠额有效期。",
+      "review_result": "官方当前 $2 新客模型 API 赠额、个人注册入口、模型与计费规则可验证；active/normal，账户实领及地区仍未测试。",
+      "review_history": [
+        {
+          "date": "2026-10-27",
+          "result": "核对官方 10月26日更新的 Quick Start、Plans、Models 和服务条款；确认新客 $2 API 赠额、默认 100 RPM、Apertus/SEA-LION 模型与免预付开通，未实测新账户到账和中国大陆资格。",
+          "source_url": "https://platform.publicai.co/docs",
+          "secondary_sources": [
+            "https://platform.publicai.co/plans",
+            "https://platform.publicai.co/models",
+            "https://publicai.co/tc"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
