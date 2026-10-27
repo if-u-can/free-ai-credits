@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T11:18:02+08:00",
+  "updated_at": "2026-10-27T15:14:49+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1578,20 +1578,20 @@
       "id": "ollama-cloud-starter-free-api-2026",
       "name": "Ollama Cloud Starter 免费 API 额度",
       "type": "官方模型推理平台",
-      "description": "Ollama Cloud 的 Free 档每月包含少量 Starter 模型调用额度，可直接通过云端 API 使用；具体免费模型名单与金额尚待确认。",
+      "description": "Ollama 官方 8 月公告曾确认 Free 档每月有少量 Starter 模型 API 额度；但 10 月 27 日当前定价页改为 $0 Pay as you go，云模型按 Token 计费，未再列免费赠额。是否仍可领取待核实。",
       "status": "pending",
-      "credits": "Free $0 档每月包含少量 Starter usage credits，仅适用 Starter models；按注册日刷新、不结转，1 个并发请求，具体额度数值尚未公开完整。",
+      "credits": "历史 Free Starter 每月少量 usage credits（具体金额未公布）；2026-10-27 当前官网定价页已不列此赠额，仅显示 $0 订阅费的 Pay as you go、所有云模型逐 Token 计费。不能把 $0 套餐价当作免费 API 额度。",
       "models": [
         "Starter models（官方未明确列出 Free 档完整可用型号）"
       ],
-      "requirements": "个人 Ollama 账号及云端 API Key；Free 方案 $0，是否需要绑卡及可用地区待新账户核实；其他模型需购买 usage credits",
+      "requirements": "个人 Ollama 账号及云端 API Key；当前定价页显示按量购买 usage credits，旧 Free Starter 赠额是否仍对新账号开放、绑卡及地区资格待核实。",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-22 复查官方 Pricing、透明定价说明与 Cloud/API 文档：Free $0 包含少量月度 Starter usage credits 和 Starter models，按注册日刷新、不结转、单并发；Cloud API 及 API Key 入口成立。具体 Starter 数值与完整型号、绑卡和地区资格尚未完整核实，未实测新账号调用，继续 pending。",
+      "verification_note": "2026-10-22 复查官方 Pricing、透明定价说明与 Cloud/API 文档：Free $0 包含少量月度 Starter usage credits 和 Starter models，按注册日刷新、不结转、单并发；Cloud API 及 API Key 入口成立。具体 Starter 数值与完整型号、绑卡和地区资格尚未完整核实，未实测新账号调用，继续 pending。 2026-10-27 下午补充复核：ollama.com/pricing 实时页面标题已从 Free $0 改为 Pay as you go $0，写明 Pay per token for every cloud model、仅 Pro/Max/Team 有明确每月赠额；同页 Usage FAQ 亦只提付费方案每月赠额。官方 2026-08-31 博客仍称 Free 档每月有少量 Starter credits，搜索缓存及 www 域名亦显示旧版。两个官方口径冲突，尚不能确认旧免费额度已正式取消，也未验证新账号。保持 pending，不标 expired/excluded。",
       "url": "https://ollama.com/pricing",
       "official_source_url": "https://ollama.com/pricing",
       "claim_url": "https://ollama.com/settings/keys",
-      "payment_required": "Free $0 无订阅费；官网未明确是否需要绑卡，购买 credits 才解锁非 Starter 模型",
+      "payment_required": "当前定价页显示云模型按 Token 收费、可购买 usage credits；旧 Free Starter 是否仍免绑卡发放，官方旧公告与当前定价页口径不一致，未实测。",
       "source_type": "Ollama 官方定价与云端 API 文档",
       "evidence_urls": [
         "https://ollama.com/pricing",
@@ -1600,13 +1600,13 @@
         "https://ollama.com/blog/transparent-pricing"
       ],
       "grade": null,
-      "grade_reason": "免费 API 档已证实，但 Starter 具体模型、额度与注册支付条件未核实",
+      "grade_reason": null,
       "quality_score": 0,
       "last_reviewed_at": "2026-10-27",
       "next_review_at": "2026-10-28",
       "review_started_at": "2026-10-09",
       "review_attempts": 19,
-      "review_result": "10月27日复查官方 Pricing 和 Cloud 文档：Free $0 仍含 Starter usage credits、Starter models，每月刷新、1 并发；Cloud API Key 可调用云模型。免费额度具体数字、完整 Starter 型号、绑卡与中国大陆资格未公开明确，未进行账户实调，保持 pending。",
+      "review_result": "10月27日再次复核发现官方现行定价页改为 Pay as you go、所有云模型逐 Token 计费，未列 Starter 赠额；8月官方公告仍说 Free 每月有少量 Starter credits。是否取消及新账户是否仍到账未确认，继续 pending。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1761,14 +1761,15 @@
         },
         {
           "date": "2026-10-27",
-          "result": "10月27日复查官方 Pricing 和 Cloud 文档：Free $0 仍含 Starter usage credits、Starter models，每月刷新、1 并发；Cloud API Key 可调用云模型。免费额度具体数字、完整 Starter 型号、绑卡与中国大陆资格未公开明确，未进行账户实调，保持 pending。",
+          "result": "10月27日再次复核发现官方现行定价页改为 Pay as you go、所有云模型逐 Token 计费，未列 Starter 赠额；8月官方公告仍说 Free 每月有少量 Starter credits。是否取消及新账户是否仍到账未确认，继续 pending。",
           "source_url": "https://ollama.com/pricing",
           "secondary_sources": [
-            "https://docs.ollama.com/cloud"
+            "https://docs.ollama.com/cloud",
+            "https://ollama.com/blog/transparent-pricing"
           ]
         }
       ],
-      "last_seen_at": "2026-10-26"
+      "last_seen_at": "2026-10-27"
     },
     {
       "id": "apollo11-fusion-3m3-trial-2026",
