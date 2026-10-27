@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T10:38:52+08:00",
+  "updated_at": "2026-10-27T11:18:02+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -4441,6 +4441,59 @@
           ]
         }
       ]
+    },
+    {
+      "id": "runaii-cloud-5-welcome-2026",
+      "name": "runaii cloud 新用户 $5 模型 API 赠额（实际到账待核实）",
+      "type": "独立模型推理平台（公开 Beta，自营 GPU / 模型 API）",
+      "description": "官网现行条款写明邮箱验证后赠 $5 模型 API credits、无需绑卡；10 月初社区曾反馈赠额停止发放，当前到账及可调用型号待复核。",
+      "status": "pending",
+      "grade": null,
+      "quality_score": null,
+      "grade_reason": null,
+      "credits": "官方现行定价、FAQ 和服务条款写新用户一次性 $5 API credits，完成邮箱验证后发放；条款称赠额不失效。10 月 2 日社区有后续不再赠送的反馈，2026-10-27 实际领取未证实。",
+      "models": [
+        "DeepSeek V4.1 Flash（官方 Quickstart 标注曾可用，当前实时状态未实测）",
+        "Qwen3.8-27B Flash（官网定价列出，实时可用性待核实）",
+        "GLM-5.3（官网列出，但 Quickstart 标记 is_ready:false，不能当作当前可调用）"
+      ],
+      "requirements": "个人公开注册入口 https://runaii.cloud/signup，官方称需验证邮箱、每人仅限一次且有每网络每日领取上限；中国大陆邮箱/地区资格、当前注册和额度到账尚未实测。",
+      "payment_required": "官方明确无需绑信用卡或实际预充值；余额耗尽返回 402，用户主动充值后才继续。",
+      "url": "https://runaii.cloud/pricing",
+      "official_source_url": "https://runaii.cloud/pricing",
+      "claim_url": "https://runaii.cloud/signup",
+      "source_type": "runaii 当前官方 Pricing / FAQ / Terms / Quickstart，与 2026-10-02 LINUX DO 实领及停发反馈交叉核查",
+      "evidence_urls": [
+        "https://runaii.cloud/pricing",
+        "https://runaii.cloud/faq",
+        "https://runaii.cloud/terms",
+        "https://runaii.cloud/docs/quickstart",
+        "https://runaii.cloud/signup",
+        "https://linux.do/t/topic/2978031"
+      ],
+      "discovered_at": "2026-10-27",
+      "verified_at": null,
+      "last_seen_at": "2026-10-27",
+      "last_reviewed_at": "2026-10-27",
+      "next_review_at": "2026-10-28",
+      "verification_note": "2026-10-27 官方 Pricing、FAQ、Terms 同时写明 $5 新客 credits、免绑卡，邮箱验证后发放且不失效；官网提供 OpenAI / Anthropic / Responses 兼容 API 和 DeepSeek V4.1 Flash、Qwen3.8 Flash、GLM-5.3 模型报价。官方 Quickstart 明确 GLM-5.3 曾 is_ready:false，DeepSeek V4.1 Flash 在文档编写时可用，当前 /api/v1/models 实时状态与 API 实调未验证。2026-10-02 LINUX DO 先有实际使用 Qwen 和获得 $5 的反馈，随后同帖出现「渠道已死，不送额度了」，与目前官方宣传冲突。未新建账户、未核实 2026-10-27 真实到账和中国大陆资格，暂不评级。",
+      "review_result": "当前官方 $5 赠额及注册入口可见，但社区曾报告停发，实际到账和模型当前就绪状态存在关键不确定性；pending/grade=null，需新账户或近期独立实领证据。",
+      "review_history": [
+        {
+          "date": "2026-10-27",
+          "result": "读取官方 Pricing/FAQ/Terms/Quickstart 和注册入口；核查 10月2日社区曾领取成功、随后反馈停发。未进行新账号注册或实时模型 API 调用，不能确证当前发放。",
+          "source_url": "https://runaii.cloud/pricing",
+          "secondary_sources": [
+            "https://runaii.cloud/faq",
+            "https://runaii.cloud/terms",
+            "https://runaii.cloud/docs/quickstart",
+            "https://runaii.cloud/signup",
+            "https://linux.do/t/topic/2978031"
+          ]
+        }
+      ],
+      "review_started_at": "2026-10-27",
+      "review_attempts": 1
     }
   ],
   "grade_policy": {
