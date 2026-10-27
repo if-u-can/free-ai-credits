@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T07:20:15.388+08:00",
+  "updated_at": "2026-10-27T16:43:00+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -514,6 +514,34 @@
       "credits": "30 天试用，每日 1,000,000 Tokens 上限（理论累计最多 30,000,000）",
       "payment_required": "免绑卡、免预充值；试用到期需自行选择后续方案。",
       "status": "active"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "10 月 27 日早报：每天 100 万 Tokens 的大蛋来了 ☀️",
+      "summary": "今天确认 Regolo 30 天每日 100 万 Tokens 的免绑卡强模型 API 试用，并已发布 Super 专题。Tuna 新客 $10、BytePlus 每模型免费额度与 Vercel 新模型也完成更新；七项待核实活动均已复查。",
+      "highlights": [
+        "Regolo：新个人用户免绑卡试用 30 天，每天最多 100 万 Tokens，可调用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；每日额度不累积，已评 active / super 并发布专题。",
+        "Tuna Inference：绑定有效支付方式后可领 $10 API 赠额，无需先充值；支持 Kimi K3、DeepSeek V4.1 Flash 等模型，额度与绑卡门槛按 active / normal 收录。",
+        "BytePlus ModelArk 的新客免费量改按“每款符合条件模型分别约 50 万 Tokens”表述；Vercel AI Gateway 新增 GPT-6.1 Terra / Fast，可消耗原有每 30 天 $5 免费额度，没有增加赠金。",
+        "七项 pending 已完成今日复核。Ollama 当前定价页已不再展示 Starter 免费额度，与其旧官方公告冲突；其余项目也没有足够的新领取证据，状态均未变化。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://regolo.ai/pricing/",
+        "https://regolo.ai/faq/",
+        "https://regolo.ai/signup",
+        "https://tuna.ai/",
+        "https://tuna.ai/docs/models",
+        "https://tuna.ai/docs/account/billing",
+        "https://docs.byteplus.com/en/docs/ModelArk/1330310",
+        "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+        "https://vercel.com/ai-gateway/models/gpt-6.1-terra",
+        "https://ollama.com/pricing",
+        "https://ollama.com/blog/transparent-pricing"
+      ],
+      "published_at": "2026-10-27T16:43:00+08:00",
+      "id": "2026-10-27-morning",
+      "kind": "morning"
     }
   ]
 }

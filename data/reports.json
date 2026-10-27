@@ -1,36 +1,30 @@
 {
   "morning": {
-    "date": "2026-10-24",
-    "title": "10 月 24 日早报补刊：两颗 Super 一起落篮 ☀️",
-    "summary": "昨晚以来确认两项新 Super：七牛 Conatus 每日 1 亿免费 Tokens，以及讯飞 Spark-X2.6 一次性 10 亿 Tokens。免费模型和试用项目也有一批更新；五项待核实活动完成今日复核，状态未变。",
+    "date": "2026-10-27",
+    "title": "10 月 27 日早报：每天 100 万 Tokens 的大蛋来了 ☀️",
+    "summary": "今天确认 Regolo 30 天每日 100 万 Tokens 的免绑卡强模型 API 试用，并已发布 Super 专题。Tuna 新客 $10、BytePlus 每模型免费额度与 Vercel 新模型也完成更新；七项待核实活动均已复查。",
     "highlights": [
-      "七牛 Conatus：实名认证个人每天可用 1 亿 API Tokens，10 月 24 日至 11 月 30 日有效；免费额度耗尽会直接拒绝请求，不扣账户余额，收录为 active / super。",
-      "讯飞 Spark-X2.6：官方当期活动提供 10 亿免费 API Tokens，个人实名可领；近期领取反馈显示每人一次、约 31 天有效，支付方式和超额扣费仍未做账号实测，收录为 active / super。",
-      "其它更新：Sail 每月 $5 强模型额度评 premium，Contextual $25 组件 API 试用评 normal；Gemini 3.8 Flash、百度千帆 ¥20、新 NVIDIA 免费端点、OpenRouter Laguna 与日本限定 Sarashina Beta 均已按各自门槛更新。",
-      "Fireworks、Vultr、Ollama、The Grid、LongCat 五项完成今日复核，继续 pending。The Grid 当前公开赠额是 $5 而非旧页面的 $25；LongCat 的 1000 万 Tokens 仍缺当前官方额度条款。"
+      "Regolo：新个人用户免绑卡试用 30 天，每天最多 100 万 Tokens，可调用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；每日额度不累积，已评 active / super 并发布专题。",
+      "Tuna Inference：绑定有效支付方式后可领 $10 API 赠额，无需先充值；支持 Kimi K3、DeepSeek V4.1 Flash 等模型，额度与绑卡门槛按 active / normal 收录。",
+      "BytePlus ModelArk 的新客免费量改按“每款符合条件模型分别约 50 万 Tokens”表述；Vercel AI Gateway 新增 GPT-6.1 Terra / Fast，可消耗原有每 30 天 $5 免费额度，没有增加赠金。",
+      "七项 pending 已完成今日复核。Ollama 当前定价页已不再展示 Starter 免费额度，与其旧官方公告冲突；其余项目也没有足够的新领取证据，状态均未变化。"
     ],
     "tip": "",
     "sources": [
-      "https://www.qiniu.com/ai/free-models/conatus-2026",
-      "https://www.qiniu.com/ai/model/qiniu/conatus-free",
-      "https://training.xfyun.cn/",
-      "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
-      "https://www.sailresearch.com/",
-      "https://contextual.ai/pricing",
-      "https://ai.google.dev/gemini-api/docs/pricing",
-      "https://cloud.baidu.com/campaign/event/bigevent/index.html",
-      "https://build.nvidia.com/minimaxai/minimax-m3.1-flash",
-      "https://openrouter.ai/poolside/laguna-s-2.1:free",
-      "https://www.sbintuitions.co.jp/news/press/20261013_01/",
-      "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
-      "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
-      "https://www.vultr.com/promo/try250/",
+      "https://regolo.ai/pricing/",
+      "https://regolo.ai/faq/",
+      "https://regolo.ai/signup",
+      "https://tuna.ai/",
+      "https://tuna.ai/docs/models",
+      "https://tuna.ai/docs/account/billing",
+      "https://docs.byteplus.com/en/docs/ModelArk/1330310",
+      "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+      "https://vercel.com/ai-gateway/models/gpt-6.1-terra",
       "https://ollama.com/pricing",
-      "https://thegrid.ai/pricing",
-      "https://longcat.chat/platform/docs/zh/FAQ.html"
+      "https://ollama.com/blog/transparent-pricing"
     ],
-    "published_at": "2026-10-24T14:00:19+08:00",
-    "id": "2026-10-24-morning",
+    "published_at": "2026-10-27T16:43:00+08:00",
+    "id": "2026-10-27-morning",
     "kind": "morning"
   },
   "evening": {
