@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T20:25:34+08:00",
+  "updated_at": "2026-10-28T13:41:30.646Z",
   "eggs": [
     {
       "id": "together-historical",
@@ -3275,18 +3275,18 @@
       "id": "iteracompute-qwen38-27b-30m-monthly-2026",
       "name": "IteraCompute Qwen3.8-27B 每月免费 3000 万 Tokens",
       "type": "正规推理平台（自托管开源模型）",
-      "description": "Qwen3.8-27B 每月免费 3000 万 API Tokens，128K 上下文，支持编程与工具调用；免绑卡，免费池高峰可能排队。",
+      "description": "Qwen3.8-27B 每月免费 3000 万 API Tokens，128K 上下文，支持编程与工具调用；免绑卡，当前免费活动于 11 月 24 日结束，免费池高峰可能排队。",
       "status": "active",
       "grade": "super",
-      "quality_score": 85,
+      "quality_score": 83,
       "quality_breakdown": {
         "free_api_value": 32,
         "model_usefulness": 17,
         "claim_convenience": 24,
-        "validity_and_limits": 12
+        "validity_and_limits": 10
       },
-      "grade_reason": "官方当期每月 3000 万免费模型 API Tokens、免绑卡和预充值，支持实用编程模型；共享免费容量不保证响应速度。",
-      "credits": "30,000,000 Tokens/月（输入、输出及推理合计；每月 1 日 00:00 UTC 重置，不结转；不自动付费超额）",
+      "grade_reason": "官方当期每月 3000 万免费模型 API Tokens、免绑卡和预充值，支持编程；该型号限免至 11 月 24 日，共享免费容量可能排队。",
+      "credits": "30,000,000 Tokens/月（输入、输出及推理合计；每月 1 日 00:00 UTC 重置，不结转；不自动付费超额）。当前 Qwen3.8-27B 免费活动截至 2026-11-24 00:00 太平洋时间（北京时间 11 月 24 日 16:00）。",
       "models": [
         "qwen/qwen3.8-27b（Qwen3.8-27B，免费档 128K 上下文，最高输出 8192 Tokens）"
       ],
@@ -3305,12 +3305,12 @@
         "https://aifree.dev/offer/iteracompute-free-qwen3-8-27b"
       ],
       "discovered_at": "2026-10-21",
-      "verified_at": "2026-10-21",
-      "last_seen_at": "2026-10-21",
-      "last_reviewed_at": "2026-10-21",
+      "verified_at": "2026-10-28",
+      "last_seen_at": "2026-10-28",
+      "last_reviewed_at": "2026-10-28",
       "next_review_at": null,
-      "verification_note": "2026-10-21 查官方 /free/（目录标注 10月21日更新）、/pricing/、Free Tier Terms 与官方 Changelog：Qwen3.8-27B 自托管 OpenAI 兼容 API，Free 无需充值，30M 输入+输出+推理 Tokens/月、160K TPM、128K 上下文、8192 最大输出；月底不结转、超额 429、共享队列无 SLA。官方 2026-10-15 服务条款称公司注册于中国重庆，个人可自助开户。独立目录 aifree.dev 10月19日人工核验同一免费档。未代用户开账号、未实际验证中国大陆邮箱可成功注册、额度到账或 API 响应；仅据官方公开条款判 active。官网新列 Kimi K3 Free 需要至少 $10 实际累计充值，不能混算进零充值额度。",
-      "review_result": "当前官方免费计划、个人免绑卡领取入口和模型 API 调用说明相互吻合；收录 active/super，仍需用户账户实测地区和真实响应。",
+      "verification_note": "2026-10-21 查官方 /free/（目录标注 10月21日更新）、/pricing/、Free Tier Terms 与官方 Changelog：Qwen3.8-27B 自托管 OpenAI 兼容 API，Free 无需充值，30M 输入+输出+推理 Tokens/月、160K TPM、128K 上下文、8192 最大输出；月底不结转、超额 429、共享队列无 SLA。官方 2026-10-15 服务条款称公司注册于中国重庆，个人可自助开户。独立目录 aifree.dev 10月19日人工核验同一免费档。未代用户开账号、未实际验证中国大陆邮箱可成功注册、额度到账或 API 响应；仅据官方公开条款判 active。官网新列 Kimi K3 Free 需要至少 $10 实际累计充值，不能混算进零充值额度。 2026-10-28 再查官方 /free/ 与 /pricing/：均明确 Qwen3.8-27B 免费活动在 2026-11-24 00:00 Pacific Time 结束（届时北京时间 16:00）；平台表示未来可能替换免费模型，但未保证零充值用户届时保留当前额度。现有 30M/月、128K、免绑卡仍可从官方当前页面核实，未做新账号或模型实调。",
+      "review_result": "10月28日官方免费页与定价页确认当前 3000 万/月 Qwen3.8-27B 免费 API 活动截止 11 月 24 日太平洋时间 00:00；保留 active/super，补充明确期限，未来免费型号/额度尚不保证。",
       "review_history": [
         {
           "date": "2026-10-21",
@@ -3320,6 +3320,14 @@
             "https://iteracompute.com/free-tier-terms/",
             "https://iteracompute.com/pricing/",
             "https://aifree.dev/offer/iteracompute-free-qwen3-8-27b"
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "result": "10月28日官方免费页与定价页确认当前 3000 万/月 Qwen3.8-27B 免费 API 活动截止 11 月 24 日太平洋时间 00:00；保留 active/super，补充明确期限，未来免费型号/额度尚不保证。",
+          "source_url": "https://iteracompute.com/free/",
+          "secondary_sources": [
+            "https://iteracompute.com/pricing/"
           ]
         }
       ]
