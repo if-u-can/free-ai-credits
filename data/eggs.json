@@ -5121,6 +5121,160 @@
           ]
         }
       ]
+    },
+    {
+      "id": "assemblyai-50-speech-api-credits-2026",
+      "name": "AssemblyAI 新客 $50 语音识别 API 赠额",
+      "type": "官方语音 AI 模型厂商新用户 API 赠金",
+      "description": "新账户可用 $50 免费额度做录音转写、实时语音识别与语音理解，免绑卡。LLM Gateway 不在免费范围内。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 70,
+      "quality_breakdown": {
+        "free_api_value": 26,
+        "model_usefulness": 13,
+        "claim_convenience": 23,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "$50 免卡语音识别 API 赠额不过期，支持实时和录音处理；不适用于通用 LLM Gateway。",
+      "credits": "新账号一次性 $50 USD 免费语音处理 API credits，不到期；可用于 Pre-recorded STT、Streaming STT、Speech Understanding 和 Guardrails。免费档最多 5 个并发录音转写、每分钟 5 个新实时会话。",
+      "models": [
+        "Universal-3.6（预录音转写 STT）",
+        "AssemblyAI Streaming STT（实时语音识别）",
+        "Speech Understanding / Guardrails（语音理解）"
+      ],
+      "requirements": "个人可用邮箱或 Google 账号在公开页面注册、创建 API Key；不要求企业或学生资质。中国大陆注册和新账户实际到账未实测。",
+      "payment_required": "免费试用不要求绑信用卡或预充值；额度用尽后需升级并添加付款方式。LLM Gateway 仅付费账户可用。",
+      "url": "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
+      "official_source_url": "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
+      "claim_url": "https://www.assemblyai.com/dashboard/signup",
+      "source_type": "AssemblyAI 官方免费试用 FAQ、账户/API Key 文档及公开注册页",
+      "evidence_urls": [
+        "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
+        "https://www.assemblyai.com/docs/faq/how-to-get-your-api-key",
+        "https://www.assemblyai.com/dashboard/signup"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 官方 FAQ（2026-02-27 更新）明确免费账户可处理最多 $50 音频，含预录音 STT、Speech Understanding 与实时 STT，信用卡仅升级时需要；当前官方账户文档明确 $50 新客赠额不过期，另有 Guardrails，但 LLM Gateway 不开放免费档。注册入口可访问，未实际注册、到账、调用或核实中国大陆地区。",
+      "review_result": "官方现行 $50 免卡语音 API 赠额及自助领取入口可验证，active/premium；专用语音 API 不满足 Super 强模型条件。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对免费试用 FAQ、账户文档和公开注册页：$50 免卡、不过期，语音转写和理解可用；LLM Gateway 不可免费使用，地区与实际到账未实测。",
+          "source_url": "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
+          "secondary_sources": [
+            "https://www.assemblyai.com/docs/faq/how-to-get-your-api-key",
+            "https://www.assemblyai.com/dashboard/signup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gladia-50eur-speech-api-credits-2026",
+      "name": "Gladia 新客 €50 语音转写 API 赠额",
+      "type": "官方语音识别模型厂商新用户 API 赠金",
+      "description": "注册赠 €50 语音 API 额度，免绑卡，可做多语言录音转写、实时识别和说话人分离。官方新账单说明有效期一年。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 72,
+      "quality_breakdown": {
+        "free_api_value": 28,
+        "model_usefulness": 14,
+        "claim_convenience": 23,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "€50 免卡语音识别 API 额度覆盖实时和离线处理，官方明确一年有效；不提供独立强编程 LLM 调用额度。",
+      "credits": "新 Self-serve 账户一次性赠 €50 API credits，注册后一年有效，不按月重置；用于 Gladia 转写与语音理解服务，耗尽后需自行充值。官方其他产品页曾写 No expiry，与 2026-10-23 帮助中心冲突，采用较严格的一年。",
+      "models": [
+        "Gladia Solaria-3（异步语音识别）",
+        "Gladia Solaria-1（实时语音识别）",
+        "说话人分离、语言识别及语音理解附加能力"
+      ],
+      "requirements": "个人可通过 Gladia Developer Console 自助注册并取得 API Key；不需要企业或学生资格。中国大陆地区注册及实际到账未实测。",
+      "payment_required": "官方当前产品页明确免费试用无需信用卡和预充值；赠额耗尽后按预付钱包充值，勿开启自动充值。",
+      "url": "https://www.gladia.io/pricing",
+      "official_source_url": "https://support.gladia.io/article/credit-based-billing",
+      "claim_url": "https://app.gladia.io/",
+      "source_type": "Gladia 官方 2026-10-23 账单说明、现行定价与公开控制台",
+      "evidence_urls": [
+        "https://support.gladia.io/article/credit-based-billing",
+        "https://www.gladia.io/pricing",
+        "https://www.gladia.io/product/audio-intelligence/",
+        "https://app.gladia.io/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 读取 Gladia 10月23日更新的官方 Credit-based billing：新 Self-serve 账户一次性 €50、有效一年、耗尽后需充值；当前 Pricing 与 Audio Intelligence 页面确认免卡、自助 API、语音转写和附加能力。部分产品页写 No expiry，按最新帮助中心一年记录。公开控制台登录页可访问，未完成新账号实际领取、地区或模型调用。",
+      "review_result": "官方当前 €50 免卡语音 API 赠额与领取入口均可验证，active/premium；不具备通用强编程模型额度。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 10月23日官方账单说明、定价、语音产品页和控制台：€50 一次性赠额、一年有效、免卡；未实测注册和到账。",
+          "source_url": "https://support.gladia.io/article/credit-based-billing",
+          "secondary_sources": [
+            "https://www.gladia.io/pricing",
+            "https://www.gladia.io/product/audio-intelligence/",
+            "https://app.gladia.io/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hume-ai-20-voice-api-free-tier-2026",
+      "name": "Hume AI 新客 $20 + 每月免费语音 API",
+      "type": "官方 AI 语音模型 API 免费档及新客赠额",
+      "description": "Hume 新账户附 $20 语音额度，免费档每月还有 1 万字符语音合成和 5 分钟语音交互。适合体验 Octave、EVI，非通用编程 API。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 67,
+      "quality_breakdown": {
+        "free_api_value": 22,
+        "model_usefulness": 14,
+        "claim_convenience": 23,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方确认 $20 新客赠额与每月续期的免费语音 API 配额，个人可开通；模型用途偏语音交互。",
+      "credits": "官方 Billing 文档写新账户以 $20 credits 开通免费档；当前定价列每月 10,000 字符 TTS（约 10 分钟）和 5 分钟 EVI 语音交互，15 RPM、单并发连接。$20 赠额的独立有效期及抵扣顺序未公开。",
+      "models": [
+        "Octave 1 / Octave 2（文本转语音）",
+        "EVI 3 / EVI 4 mini（语音交互）"
+      ],
+      "requirements": "个人可通过 Hume 平台自助注册并创建 API Key；无需企业或学生资格。地区、+86 手机号和新账号实际到账未实测。免费档不含商用授权。",
+      "payment_required": "官方列有 $0/月免费档，公开页面未要求先付款；是否需在注册环节绑定支付卡未实测。超出免费配额或使用付费功能须升级，避免启用付费超额计费。",
+      "url": "https://www.hume.ai/pricing",
+      "official_source_url": "https://dev.hume.ai/voice/docs/resources/billing",
+      "claim_url": "https://app.hume.ai/",
+      "source_type": "Hume 官方语音 API Billing 文档、当前定价与平台入口",
+      "evidence_urls": [
+        "https://dev.hume.ai/voice/docs/resources/billing",
+        "https://www.hume.ai/pricing",
+        "https://app.hume.ai/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 Hume 官方 Billing 当前写新账号在免费档获得 $20 credits，定价页确认 $0/月、每月 1 万 TTS 字符、5 分钟 EVI、15 RPM；免费档未列商用许可，另有付费超额规则。平台公开入口为 JS 页面，未完成注册、额度到账或地区验证；$20 赠额期限及与月度额度关系未有细则，不相加宣传为 $20/月。",
+      "review_result": "当前官方新客 $20 和每月语音 API 免费档可核实，active/premium；仅语音模型，不符合 Super 通用强模型条件。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 Hume 官方 Billing 与 Pricing：新客 $20、免费档每月 1 万 TTS 字符和 5 分钟 EVI；未实测支付卡、地区或实际到账。",
+          "source_url": "https://dev.hume.ai/voice/docs/resources/billing",
+          "secondary_sources": [
+            "https://www.hume.ai/pricing",
+            "https://app.hume.ai/"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
