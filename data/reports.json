@@ -1,30 +1,30 @@
 {
   "morning": {
-    "date": "2026-10-27",
-    "title": "10 月 27 日早报：每天 100 万 Tokens 的大蛋来了 ☀️",
-    "summary": "今天确认 Regolo 30 天每日 100 万 Tokens 的免绑卡强模型 API 试用，并已发布 Super 专题。Tuna 新客 $10、BytePlus 每模型免费额度与 Vercel 新模型也完成更新；七项待核实活动均已复查。",
+    "date": "2026-10-28",
+    "title": "10 月 28 日早报：1 亿决策 Tokens 落篮，旧 $100 线索归档 ☀️",
+    "summary": "今天确认 Codiv 提供 1 亿决策 Tokens 与独立 1000 万文本生成 Tokens，个人免绑卡，收录为 premium。阿里云百炼北京地域的领取门槛也已澄清；General Compute 旧 $100 专项连续三日无当前依据，转入核查归档。",
     "highlights": [
-      "Regolo：新个人用户免绑卡试用 30 天，每天最多 100 万 Tokens，可调用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；每日额度不累积，已评 active / super 并发布专题。",
-      "Tuna Inference：绑定有效支付方式后可领 $10 API 赠额，无需先充值；支持 Kimi K3、DeepSeek V4.1 Flash 等模型，额度与绑卡门槛按 active / normal 收录。",
-      "BytePlus ModelArk 的新客免费量改按“每款符合条件模型分别约 50 万 Tokens”表述；Vercel AI Gateway 新增 GPT-6.1 Terra / Fast，可消耗原有每 30 天 $5 免费额度，没有增加赠金。",
-      "七项 pending 已完成今日复核。Ollama 当前定价页已不再展示 Starter 免费额度，与其旧官方公告冲突；其余项目也没有足够的新领取证据，状态均未变化。"
+      "Codiv：个人注册免绑卡，可免费获得 1 亿结构化决策输入 Tokens，另有独立的 1000 万 DiffusionGemma 文本生成 Tokens；两项额度用途不同，不合并为通用聊天额度。",
+      "阿里云百炼北京地域：官方额度页明确，免费量通常按模型分别计算，每个合资格模型约 100 万 Tokens、有效期 90 天；领取无需实名认证或购买。",
+      "General Compute 旧 $100 专项连续三个不同北京时间自然日都没有可靠的当前有效依据，按规则转为 unverifiable；现有 $5 Agent Signup 是另一项活动。",
+      "八项 pending 已完成今日复核。Ollama 官方额度口径仍有冲突，milliseconds.ai 与 River AI 等项目也没有足够一致的当前证据，状态不变。"
     ],
     "tip": "",
     "sources": [
-      "https://regolo.ai/pricing/",
-      "https://regolo.ai/faq/",
-      "https://regolo.ai/signup",
-      "https://tuna.ai/",
-      "https://tuna.ai/docs/models",
-      "https://tuna.ai/docs/account/billing",
-      "https://docs.byteplus.com/en/docs/ModelArk/1330310",
-      "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
-      "https://vercel.com/ai-gateway/models/gpt-6.1-terra",
+      "https://codiv.ai/",
+      "https://codiv.ai/docs/rate-limits",
+      "https://codiv.ai/docs/text-generation",
+      "https://codiv.ai/terms",
+      "https://www.alibabacloud.com/help/en/model-studio/free-quota",
+      "https://www.generalcompute.com/",
+      "https://www.generalcompute.com/agent-signup",
       "https://ollama.com/pricing",
-      "https://ollama.com/blog/transparent-pricing"
+      "https://ollama.com/blog/cloud-models",
+      "https://milliseconds.ai/pricing",
+      "https://riverai.dev/pricing"
     ],
-    "published_at": "2026-10-27T16:43:00+08:00",
-    "id": "2026-10-27-morning",
+    "published_at": "2026-10-28T19:02:00+08:00",
+    "id": "2026-10-28-morning",
     "kind": "morning"
   },
   "evening": {
