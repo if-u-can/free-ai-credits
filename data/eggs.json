@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T13:41:30.646Z",
+  "updated_at": "2026-10-28T15:52:17.591Z",
   "eggs": [
     {
       "id": "together-historical",
@@ -4833,6 +4833,63 @@
             "https://codiv.ai/docs/guides/text-generation",
             "https://codiv.ai/terms",
             "https://github.com/razorback16/openjev"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sarvam-ai-100inr-api-credits-2026",
+      "name": "Sarvam AI 新用户 ₹100 通用模型 API 赠额",
+      "type": "官方模型厂商与推理平台 API 试用",
+      "description": "新用户验证账号后可获得 ₹100 通用 API 额度，能试用 Sarvam 105B、GLM-5.3、DeepSeek V4.1 Flash 等模型，也可用于语音与翻译。赠额不过期，金额较小。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 58,
+      "quality_breakdown": {
+        "free_api_value": 7,
+        "model_usefulness": 22,
+        "claim_convenience": 16,
+        "validity_and_limits": 13
+      },
+      "grade_reason": "官方确认 ₹100 通用 API 赠额及较实用的文本模型，但金额较小、验证与地区细节尚未实测，评为普通鸡蛋。",
+      "credits": "新注册并验证账号后一次性 ₹100（印度卢比）通用 API credits；可用于官方模型、语音、翻译等 API；赠额不过期，余额耗尽后须主动充值才能继续调用。",
+      "models": [
+        "sarvam-105b（Sarvam 105B）",
+        "glm5.3（GLM-5.3）",
+        "deepseekv4.1-flash（DeepSeek V4.1 Flash）",
+        "gemma4（Gemma 4 31B）"
+      ],
+      "requirements": "官方开发者文档允许个人开发者创建账号及 API Key；领取需完成账户验证。平台面向印度市场，是否接受中国大陆个人、+86 手机号、其他地区身份及实际发放流程尚未实测；不需要企业/学生专项审批的公开说明可见于个人开发者文档。",
+      "payment_required": "官方明确注册赠额可在无需预付费用时使用；公开文档未明确是否需要绑定支付卡，本站未登录验证。赠额用尽后按需手动充值；官网说明余额耗尽时 API 请求报错。",
+      "url": "https://docs.sarvam.ai/api/getting-started/ratelimits",
+      "official_source_url": "https://docs.sarvam.ai/api/getting-started/ratelimits",
+      "claim_url": "https://indus.sarvam.ai/login",
+      "source_type": "Sarvam 官方 API 配额、定价、开发者入门与组织文档",
+      "evidence_urls": [
+        "https://docs.sarvam.ai/api/getting-started/ratelimits",
+        "https://docs.sarvam.ai/api/getting-started/pricing",
+        "https://www.sarvam.ai/api-pricing",
+        "https://docs.sarvam.ai/api/platform/organisations-and-workspaces",
+        "https://docs.sarvam.ai/api-reference/authentication",
+        "https://indus.sarvam.ai/login"
+      ],
+      "discovered_at": "2026-10-28",
+      "verified_at": "2026-10-28",
+      "last_seen_at": "2026-10-28",
+      "last_reviewed_at": "2026-10-28",
+      "next_review_at": null,
+      "verification_note": "2026-10-28 直接读取官方 Credits & Rate Limits：每位完成验证的新用户获 ₹100 通用 API credits、无需预付、永不过期；现行 Pricing 列 sarvam-105b、glm5.3、deepseekv4.1-flash、gemma4 的模型 API 计费，官方开发者文档确认 API Key 与 REST 调用，组织文档明确 solo developer 场景及注册自动创建工作区。官网登录页可访问，但未实际注册、验证支付方式或调用 API；中国大陆/+86/海外地区资格、支付卡要求、实际到账及部分模型的个人账户权限尚未验证。第三方目录 2026-10-12 曾列为已核实，不作为本轮到账证明。",
+      "review_result": "官方现行文档确认新注册已验证用户 ₹100 通用 API 赠额、有效模型 API 与公开账号入口；active/normal，金额不达 Super，个人地区和绑卡细节尚未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-28",
+          "result": "核对官方 ₹100 通用 API credits、永久有效、个人开发者自助账户、API Key、模型目录及公开登录入口；未实测新号到账、绑卡及 +86 地区资格。",
+          "source_url": "https://docs.sarvam.ai/api/getting-started/ratelimits",
+          "secondary_sources": [
+            "https://docs.sarvam.ai/api/getting-started/pricing",
+            "https://docs.sarvam.ai/api/platform/organisations-and-workspaces",
+            "https://www.sarvam.ai/api-pricing",
+            "https://indus.sarvam.ai/login"
           ]
         }
       ]
