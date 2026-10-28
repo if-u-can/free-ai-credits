@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T16:43:21.439Z",
+  "updated_at": "2026-10-29",
   "eggs": [
     {
       "id": "together-historical",
@@ -4962,6 +4962,55 @@
             "https://docs.sarvam.ai/api/platform/organisations-and-workspaces",
             "https://www.sarvam.ai/api-pricing",
             "https://indus.sarvam.ai/login"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heygen-voice-turbo-free-tts-api-2026",
+      "name": "HeyGen Voice Turbo 免费语音生成 API（至 11 月 30 日）",
+      "type": "官方 AI 语音模型 API 限时免费",
+      "description": "HeyGen 自研 Voice Turbo 语音合成模型限时开放免费 API，免绑卡，支持公开音色和即时克隆音色。共享容量，高峰可能返回 429。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 20,
+        "model_usefulness": 16,
+        "claim_convenience": 23,
+        "validity_and_limits": 3
+      },
+      "grade_reason": "官方免费语音模型 API 无需绑卡、可直接用 Key 调用，语音质量较好；但仅限语音合成、限免至 11 月底且共享容量无保障。",
+      "credits": "heygen-voice-1-turbo-free 文本转语音 API 每百万字符 $0，2026-11-30 截止；官方未公开固定免费字符总量，免费请求无需账户 credits 余额。其他 HeyGen 语音/视频模型不在此免费额度内。",
+      "models": [
+        "heygen-voice-1-turbo-free（HeyGen Voice Turbo Free，文本转语音）"
+      ],
+      "requirements": "个人可注册 HeyGen 账号并在平台创建 API Key；官方明确无需信用卡。支持公开音色与即时克隆音色（预览期间创建免费），不支持需购买名额的专业克隆。中国大陆/+86 账号资格和实际领取未登录实测。",
+      "payment_required": "否，HeyGen 官方明确免费模型无需信用卡或预充值；其他付费模型仍单独计费。",
+      "url": "https://www.heygen.com/blog/heygen-voice-turbo",
+      "official_source_url": "https://www.heygen.com/blog/heygen-voice-turbo",
+      "claim_url": "https://platform.heygen.com/api-keys",
+      "source_type": "HeyGen 官方 2026-10-21 产品公告、开发者模型文档与 API Key 入口",
+      "evidence_urls": [
+        "https://www.heygen.com/blog/heygen-voice-turbo",
+        "https://developers.heygen.com/docs/models/heygen-voice",
+        "https://platform.heygen.com/api-keys"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 直读 HeyGen 官方 10 月 21 日公告和开发者 HeyGen Voice 文档：明确 heygen-voice-1-turbo-free 在 2026-11-30 前免费、无需信用卡或 credits 余额；官方提供可访问的 API Key 入口及 POST /v3/models/audio/tts、/tts/stream 路由和 model ID，公开/即时克隆音色可用。共享容量可能 429，不能视为无上限保证；未注册新账户、未调用 API，也未验证中国大陆地区资格。仅语音 TTS，非强通用/编程模型，不评 Super。",
+      "review_result": "官方现行限免条款、API 模型 ID、领取入口和免卡要求已核实，active / normal；未实测账号、地区及实际生成。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "读取 HeyGen 官方 10 月 21 日限免公告、开发者语音 API 文档与 API Key 入口，核实免费模型、无需信用卡、11 月 30 日截止和共享容量限制；未注册或实调，地区资格未核实。",
+          "source_url": "https://www.heygen.com/blog/heygen-voice-turbo",
+          "secondary_sources": [
+            "https://developers.heygen.com/docs/models/heygen-voice",
+            "https://platform.heygen.com/api-keys"
           ]
         }
       ]
