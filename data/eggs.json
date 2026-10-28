@@ -5014,6 +5014,113 @@
           ]
         }
       ]
+    },
+    {
+      "id": "deepgram-200-speech-api-credits-2026",
+      "name": "Deepgram 新客 $200 语音模型 API 赠额",
+      "type": "官方语音 AI 模型厂商新用户 API 赠金",
+      "description": "新账户可获 $200 语音 API 试用金，免绑卡，可试 Nova-3 语音识别、Aura 语音合成和 Voice Agent。额度很足，但不能拿去调用通用编程大模型。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 72,
+      "quality_breakdown": {
+        "free_api_value": 31,
+        "model_usefulness": 15,
+        "claim_convenience": 22,
+        "validity_and_limits": 4
+      },
+      "grade_reason": "$200 可用于多种正式语音模型 API，个人免绑卡，实际可用价值高；不覆盖通用编程推理模型。",
+      "credits": "新账户首次项目自动附赠 $200 USD API credits，适用于公开语音模型的语音转文字、文字转语音及 Voice Agent 等端点；官方开发文档称免费促销额度自注册起 1 年到期，定价页的 No expiration 与此存在口径冲突，按 1 年记录。",
+      "models": [
+        "Nova-3（语音识别 STT）",
+        "Flux（实时语音识别 STT）",
+        "Aura（文本转语音 TTS）",
+        "Deepgram Voice Agent API（语音智能体）"
+      ],
+      "requirements": "个人开发者可免费注册并创建项目/API Key；无需企业或学生认证。中国大陆地区、+86 手机号及新账户实际到账未实测；注册入口有 JavaScript 机器人验证。",
+      "payment_required": "官方当前定价明确无需信用卡或预充值；赠额耗尽后继续付费使用须设置账单，未实测超额行为。",
+      "url": "https://deepgram.com/pricing",
+      "official_source_url": "https://deepgram.com/pricing",
+      "claim_url": "https://console.deepgram.com/signup",
+      "source_type": "Deepgram 官方定价、API 入门、项目计费文档及 2026 年促销条款",
+      "evidence_urls": [
+        "https://deepgram.com/pricing",
+        "https://developers.deepgram.com/guides/fundamentals/make-your-first-api-request",
+        "https://developers.deepgram.com/guides/deep-dives/managing-projects",
+        "https://deepgram.com/promotions/2026-09/flux-tts-promo-terms-and-conditions",
+        "https://console.deepgram.com/signup"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 读取 Deepgram 官方当前定价：新用户 Pay As You Go 赠 $200，免绑卡，公开模型端点包括 STT、TTS、Voice Agent。官方 API 入门确认新账号赠额和 API Key 实调方式；官方 2026-09 促销条款明确标准 $200 新客赠额每个新账号均有。项目管理文档明确免费促销额度 1 年到期，定价页另写 No expiration，保守采用 1 年。公开注册页需 JS/机器人验证，未实际注册、到账、调用或验证中国大陆资格。非通用强编程模型，不评 Super。",
+      "review_result": "官方当期 $200 免绑卡语音 API 赠额、模型与注册入口均有现行证据，active/premium；到期日采用开发文档较严格的 1 年。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对当前定价 $200、免绑卡、公开语音模型 API、API Key 入口；项目文档称促销赠额 1 年到期，定价页口径不同。未实际注册或调用。",
+          "source_url": "https://deepgram.com/pricing",
+          "secondary_sources": [
+            "https://developers.deepgram.com/guides/fundamentals/make-your-first-api-request",
+            "https://developers.deepgram.com/guides/deep-dives/managing-projects",
+            "https://deepgram.com/promotions/2026-09/flux-tts-promo-terms-and-conditions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speechmatics-100-stt-api-credits-2026",
+      "name": "Speechmatics 新客 $100 语音识别 API 赠额",
+      "type": "官方语音识别模型厂商新用户 API 赠金",
+      "description": "注册即可获得 $100 语音转文字 API 试用额度，无需信用卡。可试 Melia 1 多语言识别与实时转写，适合字幕、录音整理，不是通用 LLM 额度。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 67,
+      "quality_breakdown": {
+        "free_api_value": 28,
+        "model_usefulness": 13,
+        "claim_convenience": 23,
+        "validity_and_limits": 3
+      },
+      "grade_reason": "官方免绑卡 $100 真实语音识别 API 赠额，足以完成大量转写测试；但用途专一且赠额有效期未披露。",
+      "credits": "Speechmatics Self-serve 免费试用赠 $100 USD 语音转文字 API credits，按所选识别模型及转写时长扣费；官网另列 TTS 首 100 万字符免费，属单独优惠，不与 $100 相加。赠额到期规则当前公开定价未明确。",
+      "models": [
+        "Melia 1（多语言语音识别）",
+        "Enhanced（高精度语音识别）",
+        "Oak 1 Medical（医疗语音识别）",
+        "Linden 1（实时语音智能体 STT）"
+      ],
+      "requirements": "个人可通过公开 Speechmatics Portal 自助注册并生成 API Key；无需企业/学生资格。公开入口跳转身份认证，未实测中国大陆地区、+86 手机号或到账。免费档实时并发 2 路。",
+      "payment_required": "官方定价明确免费试用不需要信用卡，也不需要预充值；用尽后的继续使用须另行购买额度。",
+      "url": "https://www.speechmatics.com/pricing",
+      "official_source_url": "https://www.speechmatics.com/pricing",
+      "claim_url": "https://portal.speechmatics.com/",
+      "source_type": "Speechmatics 官方当前定价、语音模型清单与自助注册入口",
+      "evidence_urls": [
+        "https://www.speechmatics.com/pricing",
+        "https://www.speechmatics.com/",
+        "https://portal.speechmatics.com/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 官方定价明确 Start free $100 credits、No card required，免费 Self-serve 含 UI/API access 和 API keys，列出 Melia 1、Enhanced、Oak 1、Linden 1 等 STT 模型；实时免费档 2 路并发。TTS 首 100 万字符为单独免费权益。Portal 跳转 WorkOS 身份验证，未完成注册、到账及中国大陆地区验证；未查到赠额明确有效期。专用语音 API 不评 Super。",
+      "review_result": "当前官方 $100 免绑卡语音识别 API 赠额和自助入口可核实，active/premium；有效期及地区未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对官方当前定价 $100 免绑卡、自助 API 账号、语音模型和实时免费档并发限制；入口为身份验证跳转，未实际注册到账或核实地区。",
+          "source_url": "https://www.speechmatics.com/pricing",
+          "secondary_sources": [
+            "https://www.speechmatics.com/",
+            "https://portal.speechmatics.com/"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
