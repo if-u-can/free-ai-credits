@@ -1,1 +1,647 @@
-{"version":1,"updated_at":"2026-10-28T19:12:22+08:00","entries":[{"id":"2026-10-08-super-sovinfra-1b","kind":"super","date":"2026-10-08","title":"SovInfra：注册送 10 亿 API Tokens 🥚","summary":"SovInfra 现行条款提供 10 亿免费 API Tokens，可调用 Qwen3.8-27B 和 Gemma 4 31B。免绑卡、免预充值，注册需提供一个个人资料链接。","highlights":["官方 Terms 明确每个新账户有 1B 免费 Tokens，输入输出均计费，耗尽后不会自动扣款。","可调用 qwen3.8-27b、gemma-4-31b，也可通过 sovapi 自动路由；OpenAI 兼容 API。","注册填姓名、邮箱及 LinkedIn/GitHub/X/个人网站中的一个资料链接；不需绑卡。","地区可注册情况、实际到账和免费额度过期日未做新账号实测。"],"tip":"","egg_id":"sovinfra-sovapi-1b-trial-2026","official_source_url":"https://sovinfra.ai/terms","claim_url":"https://app.sovinfra.ai/","credits":"10 亿免费模型 API Tokens（非美元赠金）","payment_required":"免绑卡、免预充值","status":"active"},{"id":"2026-10-08-super-dahl-100m","kind":"super","date":"2026-10-08","title":"Dahl：1 亿免费 Tokens，记得分配到 API Key 🥚","summary":"Dahl 新账户赠 1 亿 Tokens，可用于 MiniMax M2.7 和 DeepSeek V4 Flash。赠额先进账户池，需要在账户页面手动分配到 API Key。","highlights":["官方文档确认注册赠 100M Tokens，API Key 初始显示 0 是正常的。","支持 MiniMax M2.7、DeepSeek V4 Flash 0731、GLM 5.3 Flash，OpenAI 兼容接口。","新用户只需用户名并保存 fingerprint 登录凭证；当前文档没有要求支付卡。","按官方参考价格约值 $3，不能当作 $100 赠金；实际领用及地区限制未经用户账号实测。"],"tip":"","egg_id":"dahl-inference-100m-trial-2026","official_source_url":"https://inference.dahl.global/docs/tokens/","claim_url":"https://inference.dahl.global/account","credits":"1 亿免费模型 API Tokens（账户池，非美元赠金）","payment_required":"无需预充值；需手动分配 Tokens","status":"active"},{"id":"2026-10-08-super-optracloud","kind":"super","date":"2026-10-08","title":"OptraCloud 送 1.5 亿输出 Tokens 🥚","summary":"OptraCloud 新用户送 1.5 亿免费输出 Tokens，配 Qwen3.8-27B 编程模型。不要绑卡，注册时需要邮箱和手机短信验证。","highlights":["新用户直接送 150M 输出 Tokens；邀请奖励另算。","Qwen3.8-27B，OpenAI/Anthropic 兼容 API，128K 上下文，免费档 60 tokens/s。","官方领取页可打开：无需支付卡或预充值，需验证手机号；非印度号码是否可用尚未实测。","活动未公布截止日期。"],"tip":"","egg_id":"optracloud-150m-output-free-2026","official_source_url":"https://optracloud.com/free.html","claim_url":"https://optracloud.com/portal/join","credits":"150M 免费输出 Tokens","payment_required":"免绑卡、免预充值；强制手机号短信验证","status":"active"},{"id":"2026-10-08-super-inception-mercury","kind":"super","date":"2026-10-08","title":"Mercury 免费 API 额度升级到 1 亿 Tokens 🥚","summary":"Inception 官网 Free 方案现在列出 1 亿免费 API Tokens，Mercury 2.5 可通过 OpenAI 兼容 API 调用。注册后创建 API Key 即可查看分配的试用额度。","highlights":["官方 Free 方案：100M 免费 Tokens，并非 $100 赠金。","支持 Mercury 2.5；调用接口兼容 OpenAI API。","目前没有公布结束日期；绑卡、地区及到账额度仍需以新账号实际情况确认。","官网旧引导文字还保留 10M，已标注新旧口径冲突。"],"tip":"","egg_id":"inception-mercury-trial-2026","official_source_url":"https://www.inceptionlabs.ai/models","claim_url":"https://platform.inceptionlabs.ai/"},{"id":"2026-10-08-super-general-compute","kind":"super","date":"2026-10-08","title":"【核查归档】General Compute 历史 $100 API 赠额","summary":"历史 $100 新客 API 赠额原活动入口已无法访问，2026-10-26 至 28 连续三个自然日复查均未找到当前领取依据，转核查归档。官方另有独立 $5 Agent Signup 方案；不能据此认定 $100 正式结束。","highlights":["原 $100 活动 /openclaw、/opencode 当前返回 404，历史专题保留，不再提供可领取按钮。","现行官方 Agent Signup 文档明确另一项新客 $5 API credits，与历史 $100 活动分开收录。","2026-10-26、27、28 三个不同自然日真实复核仍无原 $100 当前有效领取证据，按站内规则归档为 unverifiable；不是 expired。"],"tip":"","egg_id":"general-compute-100-2026","official_source_url":"https://www.generalcompute.com/openclaw","claim_url":null,"status":"unverifiable","grade":null,"reviewed_at":"2026-10-28","verification_note":"2026-10-28 三日复核闭环：原 $100 活动当前无可验证领取依据，转 unverifiable；官方未确认正式结束，另有独立 $5 Agent Signup。","updated_at":"2026-10-28T00:06:35+08:00"},{"id":"2026-10-08-morning","kind":"morning","date":"2026-10-08","title":"今天的鸡蛋又多了几颗 ☀️","summary":"之前找过的免费 API 活动补进列表了，额度和绑卡条件也重新对了一遍。General Compute 的 $100 很显眼；Together 那个 $150 申请页打不开，先从候选里撤下。","highlights":["General Compute：新用户 $100 API credits，走邮箱验证申请。","GroqCloud、Mistral 都有免费 API 档；Cerebras 的 $5 需要绑支付方式。","Together AI：$150 原申请链接返回 404，目前没有新的公开领取入口。"],"tip":""},{"id":"2026-10-08-evening","kind":"evening","date":"2026-10-08","title":"今晚的鸡蛋：新线索还得验 🌙","summary":"今天复核了免费 AI API 活动与历史记录。OpenRouter 免费请求配额、Ollama Cloud 免费 API 档值得继续追踪；具体可用模型、额度和个人领取限制尚未全部核实，暂不冒充已确认新福利。","highlights":["OpenRouter：发现免费 API 请求配额线索，实际日限额与免费模型名单仍需按当前官方条款核对。","Ollama Cloud：发现 Starter 免费 API 档线索，赠额与使用限制仍需确认。","Vultr $250 等云赠额：尚未确认可直接用于目标 AI 模型 API，继续待核实。","Venice 历史赠金：现有归档记录缺少三个不同自然日的核查过程，后续需按仓库规则复核。"],"tip":"只把确认能用于模型 API 的免费额度算作鸡蛋。"},{"date":"2026-10-09","title":"免费 API 早报：两条官方免费档复核 ☀️","summary":"Eku 今天复核了 Gemini API 与阿里云百炼的官方免费额度说明。两者都是已有项目，本次没有确认新的超级鸡蛋。","highlights":["Gemini API 官方仍列出 Free 档，部分模型输入、输出 tokens 免费；具体模型与速率限制要分别看。","阿里云百炼官方新人额度说明仍可访问；免费额度按模型及地域规则使用，不是通用美元赠金。","本次仅完成上述官方来源复核，其他待核实项目尚未完成逐项查验，不宣称其状态发生变化。"],"tip":"","kind":"morning","id":"2026-10-09-morning"},{"date":"2026-10-10","title":"10 月 10 日早报：超算新人包仍待实领确认 ☀️","summary":"Eku 复核了超算互联网 MaaS 与 Ollama 的官方免费 API 线索。超算活动条款写到 10 月 13 日，页面有免费 1000 万 Tokens 入口；Ollama 免费档提供按月刷新的 Starter 用量。两项仍有实际领取或可用模型限制待核实，今天没有确认新超级鸡蛋。","highlights":["超算互联网 MaaS：官方活动页列出新客免费 1000 万 Tokens，活动规则截至 10 月 13 日；是否仍有名额、账号能否实际领取尚待确认。","该免费量包的模型可能随供应调整，30 天内使用完；赠额用尽后可能扣现金余额。","Ollama Cloud：官方 Free 档含每月刷新的 Starter 使用额度，但未公布明确赠金金额，不能按大额赠金评级。"],"tip":"","kind":"morning","id":"2026-10-10-morning"},{"id":"2026-10-09-evening","kind":"evening","date":"2026-10-09","title":"10 月 9 日晚报补刊：旧蛋退场，新蛋入篮 🌙","summary":"10 月 9 日的免费模型 API 清单有了变化：腾讯云 TokenHub、硅基流动和 OpenRouter 的个人免费入口已收录；Together AI 旧赠额退出。Ollama Cloud 的 Starter 免费额度虽有官方说明，具体数额仍待核实。Eku 不拿问号当金蛋。","highlights":["腾讯云 TokenHub：新人模型 API 体验包可领取；官方列出语言模型 100 万 Tokens 免费额度、有效期 1 年，开通需实名认证。","硅基流动：完成实名认证后可在活动中心领取 ¥16 通用代金券，可抵扣模型 API；这项活动并非 10 月 9 日才开始。","OpenRouter：官方免费档提供 25+ 免费模型与 API 调用，每日 50 次请求，无须购买付费套餐。","Together AI 旧免费试用已结束；Ollama Cloud Free 档虽有每月 Starter credits，但金额与具体可用模型仍待核实。"],"tip":""},{"date":"2026-10-11","title":"10 月 11 日早报：$10 免费模型额度新线索 ☀️","summary":"今天查到 Braintrust Starter 每月 $10 的模型 credits，支持 API 调用，但内置模型使用存在工作邮箱或绑卡门槛，暂不把它当成低门槛超级鸡蛋。MoMA 新用户 2500 万 Tokens 的公开报道仍需与现行领取入口交叉核对。","highlights":["Braintrust Starter：官方定价说明列出每月 $10 模型 credits；内置模型 API 的注册与支付验证条件需留意，尚未完成新账号实领。","中国移动 MoMA：官方报道提及新认证用户 2500 万 Tokens，当前线上领取条件仍待核实。","超算互联网 MaaS：活动页面信息有冲突，不能仅按标称 1000 万 Tokens 判断今天仍能领取。","今天没有确认满足全部硬门槛的新超级鸡蛋。"],"tip":"","kind":"morning","id":"2026-10-11-morning"},{"id":"2026-10-10-evening","kind":"evening","date":"2026-10-10","title":"10 月 10 日晚报补刊：大额赠金先过筛 🌙","summary":"今天确认 APOLLO11 Fusion LLM 的新客模型 API 试用；AkashML、Vultr、Azure 的大额赠额经过连续复查，仍缺当期可用于目标模型 API 的完整证据，转入核查归档。金额写得再大，也不能让 Eku 闭眼往篮子里装。","highlights":["APOLLO11 Fusion LLM：官方提供新客约 330 万 Tokens 的模型 API 试用，7 天有效，需绑定信用卡；按普通鸡蛋收录。","AkashML $100、Vultr $250、Azure $200：相关 AI API 赠额线索经三个不同自然日核查仍缺当期可靠依据，标为 unverifiable，不代表这些平台全部试用活动结束。","国家超算互联网 MaaS：官方页面展示新客免费 1000 万 DeepSeek-V4.1-Flash Tokens，另有 ¥0.10 的 2000 万 Tokens 付费包；页面的结束提示与 10 月 13 日截止规则冲突，继续待核实。","移动云 MoMA、智谱 BigModel 和 Ollama Cloud：活动或免费档线索仍在，但个人领取条件、具体 API 适用额度尚未核实，维持 pending。"],"tip":""},{"date":"2026-10-11","title":"10 月 11 日晚报：问号归档，免费档继续盯 🌙","summary":"今晚复核了全部五项待核实活动。移动云MoMA、智谱2000万Tokens和超算新客包连续三个自然日仍缺完整的当前领取依据，转入核查归档；Ollama与FreeInference继续待核实。今天没有确认新的超级鸡蛋。","highlights":["MoMA、智谱新客赠额、超算新客包：保留记录与来源，转unverifiable；没有证据宣布活动结束，不标expired。","Ollama Free仍有Starter API用量，免费型号、具体额度和支付资格未核实；FreeInference免费模型目录与注册入口可读，实际开户和配额仍待确认。","今晚没有确认符合个人低门槛要求的新Super，不发布重复专题。"],"tip":"","sources":["https://ecloud.10086.cn/op-help-center/doc/article/92837","https://bigmodel.cn/activity/trial-card/GBG6IX0OID","https://docs.bigmodel.cn/cn/guide/platform/equity-explain","https://www.scnet.cn/home/subject/maas/index.html","https://ollama.com/pricing","https://freeinference.org/signup","https://doc.freeinference.org/models"],"id":"2026-10-11-evening","kind":"evening"},{"date":"2026-10-12","title":"10 月 12 日早报补刊：免费档有依据，门槛继续查 ☀️","summary":"今天复核了Ollama与FreeInference两项待核实API。官方免费档仍有依据，具体配额和个人开通资格尚未核实完整，继续保留问号；本期没有确认新的超级鸡蛋。","highlights":["Ollama Free：Starter用量按注册日每月刷新，支持1个并发请求；免费型号清单、额度数字及绑卡条件仍待确认。","FreeInference：目录列有GLM-5.1、DeepSeek-V4-Flash等免费模型；注册须年满18岁并同意研究数据使用，实际获批和配额尚未实测。","两项均保持pending，不把未领取的额度写成到账；今天不新增Super专题。"],"tip":"","sources":["https://ollama.com/pricing","https://freeinference.org/signup","https://doc.freeinference.org/models"],"published_at":"2026-10-12T05:09:39.606Z","id":"2026-10-12-morning","kind":"morning"},{"date":"2026-10-14","title":"10 月 14 日早报补刊：免费型号进篮，额度分开看 ☀️","summary":"今天复核了已收录的Z.AI免费型号、商汤Token Plan公测和QwenCloud配额规则。Ollama与Meta两项继续待核实；本期没有确认新Super。","highlights":["Z.AI：GLM-4.7-Flash、GLM-4.5-Flash、GLM-4.6V-Flash的官方输入和输出价均为免费；免费型号仍受账户限速，未实测注册或调用。","商汤Token Plan：中国站公测¥0/月，每5小时60,000积分，支持SenseNova 6.8 Flash Lite与U1 Fast；积分不是Tokens，开户条件尚未实测。","QwenCloud：已收录的新客配额按模型独立计算、通常90天有效，需完成支付信息验证；跨模型宣传总量不能当作单个强模型的可用额度。","Ollama的具体Starter额度与型号仍未公开完整；Meta本轮官方文档未确认新客$20，两项继续pending。"],"tip":"","sources":["https://docs.z.ai/guides/overview/pricing","https://www.sensenova.cn/token-plan","https://docs.qwencloud.com/resources/free-quota","https://ollama.com/pricing","https://dev.meta.ai/docs/pricing-rate-limits","https://dev.meta.ai/docs/speech-to-text"],"published_at":"2026-10-14T13:43:09.801+08:00","id":"2026-10-14-morning","kind":"morning"},{"id":"2026-10-21-super-iteracompute-qwen38-27b-30m","kind":"super","date":"2026-10-21","egg_id":"iteracompute-qwen38-27b-30m-monthly-2026","title":"每月 3000 万免费 Tokens，Eku 捡到大鸡蛋啦 🥚","summary":"IteraCompute 的 Qwen3.8-27B 每月提供 3000 万免费 API Tokens，支持编程和工具调用，免绑卡、免充值。","highlights":["Qwen3.8-27B：每月 3000 万 Tokens，月初刷新。","OpenAI 兼容 API、128K 上下文、160K TPM，单次最多输出 8192 Tokens。","免费池高峰可能排队；中国大陆账户实际调用尚未实测。"],"tip":"","official_source_url":"https://iteracompute.com/free/","claim_url":"https://platform.iteracompute.com/"},{"date":"2026-10-22","title":"10 月 22 日早报：超算新客包进篮，问号少一个 ☀️","summary":"今天复核了四项待核实 API 活动。超算新客包的“活动已结束”原来是隐藏模板，现转 active、暂评 premium；Fireworks、Vultr 与 Ollama 继续待核实。本期没有确认新 Super。","highlights":["超算互联网 MaaS：新客免费 1000 万 GLM-5.3-Flash API Tokens，领取后 30 天有效，活动至 11 月 10 日；公开领取入口成立，转为 active / premium。此前把隐藏的结束模板读成当前弹窗，今天已纠正。","超算这份赠额限量，库存、实际到账、绑卡/预充值和地区条件尚未实测，发放型号也可能调整；免费额度用尽会扣现金余额，因此暂不评 Super。","Fireworks：现行 FAQ 同时写明预付制和 $1 starter credit，耗尽后再添加支付方式；“旧 FAQ 与预付制冲突”的理由已撤回。迁移后新注册资格、期限、地区与到账仍未实测，保持 pending。","Vultr 官方视频页仍提新客 $250，try250 入口返回 403；Ollama 仍有按月刷新的少量 Starter API 额度。两项的专项条件或具体额度、型号尚未核实完整，继续 pending。"],"tip":"","sources":["https://www.scnet.cn/home/subject/maas/index.html","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://app.fireworks.ai/signup","https://fireworks.ai/pricing","https://fireworks.ai/blog/best-llm-api-providers","https://fireworks.ai/models","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://www.vultr.com/promo/try250/","https://docs.vultr.com/platform/create-an-account","https://ollama.com/pricing","https://docs.ollama.com/cloud","https://ollama.com/blog/transparent-pricing"],"published_at":"2026-10-22T15:02:04+08:00","id":"2026-10-22-morning","kind":"morning"},{"date":"2026-10-22","title":"10 月 22 日晚报：三颗问号继续蹲篮边 🌙","summary":"今晚复核了 Fireworks、Vultr 与 Ollama 三项待核实活动，官方线索仍在，领取细节也仍缺一块。三项保持 pending；白天确认的超算 MaaS 继续为 active / premium。今天没有新增失效项，也没有新 Super。","highlights":["Fireworks 的现行 FAQ 仍写 $1 starter credit，公开注册入口可达；迁移后新账户的发放资格、期限、地区和实际到账尚未核实完整。","Vultr 的 Serverless Inference 视频页仍提新账户 $250 credits，try250 入口继续返回 403；支付方式、专项期限和 API 抵扣还不能闭环。","Ollama Free 仍有月度 Starter API 用量，具体额度、完整免费型号、绑卡与地区条件没有新增公开答案。","超算 MaaS 保持 active / premium；今晚没有确认新 Super，也没有重复发布专题。"],"tip":"","sources":["https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://app.fireworks.ai/signup","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://www.vultr.com/promo/try250/","https://docs.vultr.com/platform/create-an-account","https://ollama.com/pricing","https://docs.ollama.com/cloud","https://www.scnet.cn/home/subject/maas/index.html"],"published_at":"2026-10-22T19:03:55+08:00","id":"2026-10-22-evening","kind":"evening"},{"date":"2026-10-23","title":"10 月 23 日早报：Mercury 升三代，NVIDIA 新端点开门 ☀️","summary":"今天收录了 NVIDIA Nemotron 3.5 Super VL 120B 免费开发测试 API，并确认 Inception 的 1 亿免费 Tokens 已切到 Mercury 3。三项待核实活动完成今日复核，状态未变；本期没有全新 Super 专题。","highlights":["NVIDIA Nemotron 3.5 Super VL 120B：官方 Build 显示免费端点，可生成 API Key，支持多模态、编程和工具调用；仅限开发测试，固定免费总量未公布，收录为 active / premium。","Inception Mercury：新账户仍有 1 亿免费 API Tokens，现可调用 Mercury 3，支持 OpenAI 兼容接口与百万上下文，官方写明无需支付信息。这是既有 Super 的型号更新，不重复发专题。","Fireworks：官方现行文档仍有 $1 starter credit，注册与模型目录可访问；新账户实际到账、有效期和地区资格未实测，保持 pending。","Vultr 的 try250 入口仍返回 403；Ollama Free 仍有月度 Starter API 用量。两项缺失的专项资格或具体额度没有新答案，继续 pending。"],"tip":"","sources":["https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b","https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b","https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317","https://docs.inceptionlabs.ai/get-started","https://www.inceptionlabs.ai/models","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://app.fireworks.ai/signup","https://fireworks.ai/models","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://www.vultr.com/promo/try250/","https://docs.vultr.com/platform/create-an-account","https://ollama.com/pricing","https://docs.ollama.com/cloud"],"published_at":"2026-10-23T15:33:28+08:00","id":"2026-10-23-morning","kind":"morning"},{"date":"2026-10-23","title":"10 月 23 日晚报：墨点开门，Flint 也挤进免费栏 🌙","summary":"今晚新增书生·端砚免费模型 API，OpenRouter 免费档也补进 Flint 编程模型。白天的 NVIDIA 新端点与 Mercury 3 更新保持有效；三项待核实活动状态未变，今天没有新增失效项，也没有全新 Super。","highlights":["上海AI实验室「书生·端砚」：官方确认测试期每月有免费 API 额度，书生-S2、Atria-Dawn-Preview、Agents-A1 三款模型现为 0 墨点，收录为 active / premium；固定赠额、支付方式和地区条件仍待实测。","OpenRouter：Flint v1.0 免费模型已加入现有免费档，支持 262K 上下文、编程、工具调用和 JSON 输出；每日 50 次的免充值配额没有增加，继续 active / normal。","白天确认的 NVIDIA Nemotron 3.5 Super VL 免费开发端点与 Inception Mercury 3 更新均已保留；前者为 premium，后者是既有 Super 的型号升级，不重复发专题。","Fireworks、Vultr、Ollama 三项已完成今日复核，仍分别缺实际到账、专项领取闭环或明确免费额度，继续 pending。今天没有新增 expired，也没有新 Super。"],"tip":"","sources":["https://www.shlab.org.cn/news/5444294","https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3","https://discovery.intern-ai.org.cn/token-plan/home","https://openrouter.ai/recursive/flint-v1.0:free","https://openrouter.ai/docs/guides/routing/model-variants/free","https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b","https://docs.inceptionlabs.ai/get-started","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://app.fireworks.ai/signup","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://www.vultr.com/promo/try250/","https://docs.vultr.com/platform/create-an-account","https://ollama.com/pricing","https://docs.ollama.com/cloud"],"published_at":"2026-10-23T19:01:33+08:00","id":"2026-10-23-evening","kind":"evening"},{"id":"2026-10-24-super-iflytek-spark-x26-1b","kind":"super","date":"2026-10-24","egg_id":"iflytek-spark-x26-1b-trial-2026","title":"讯飞星火 10 亿 Tokens！这颗鸡蛋有点大 🥚","summary":"Spark-X2.6 开放 10 亿免费 API Tokens，个人实名认证即可领取。社区已有成功领取反馈，赠额仅用于讯飞自研模型。","highlights":["官方星辰 MaaS 首页确认 10 亿 Tokens 活动，领取入口为 Spark-X2.6 模型页。","Spark-X2.6 是 293B-A30B 深度推理模型，支持最长 1M 上下文，可用于编程和智能体任务。","近期领取者反馈：每人限领一次，开通后 31 天有效；是否需要绑卡、实际限速和超额扣费尚未由本站实测。"],"tip":"","official_source_url":"https://training.xfyun.cn/","claim_url":"https://maas.xfyun.cn/modelSquare/base/2628905721051136","credits":"10 亿 Spark-X2.6 免费 API Tokens（非通用模型赠额）","payment_required":"公开活动宣称零门槛，社区实领仅提到实名认证；是否需绑卡/预充值及超额自动扣费尚未完成账号实测。","status":"active"},{"id":"2026-10-24-super-qiniu-conatus-100m-daily","kind":"super","date":"2026-10-24","egg_id":"qiniu-conatus-100m-daily-free-2026","title":"七牛云每天 1 亿免费 Tokens，Eku 的篮子又满啦 🥚","summary":"七牛云 1024 活动开放 Conatus 融合模型：个人实名后每天免费 1 亿 API Tokens，11 月 30 日结束，不充值也能用。","highlights":["每天 1 亿 Tokens，00:00 刷新；只限 qiniu/conatus-free，额度耗尽自动拒绝，不会扣余额。","支持代码辅助、深度思考、工具调用与视觉输入；1M 上下文，兼容 OpenAI / Anthropic API。","基础档只需实名认证；单笔充值超过 ¥100 才能升到每日 10 亿。融合模型的具体底层型号、实际质量和限速尚未独立实测。"],"tip":"","official_source_url":"https://www.qiniu.com/ai/free-models/conatus-2026","claim_url":"https://www.qiniu.com/ai/model/qiniu/conatus-free","credits":"个人实名免充值每日 1 亿 Tokens，2026-10-24 至 2026-11-30","payment_required":"基础档无需充值；10 亿/日升级需单笔实充 >¥100。绑卡流程未实测。","status":"active"},{"date":"2026-10-24","title":"10 月 24 日早报补刊：两颗 Super 一起落篮 ☀️","summary":"昨晚以来确认两项新 Super：七牛 Conatus 每日 1 亿免费 Tokens，以及讯飞 Spark-X2.6 一次性 10 亿 Tokens。免费模型和试用项目也有一批更新；五项待核实活动完成今日复核，状态未变。","highlights":["七牛 Conatus：实名认证个人每天可用 1 亿 API Tokens，10 月 24 日至 11 月 30 日有效；免费额度耗尽会直接拒绝请求，不扣账户余额，收录为 active / super。","讯飞 Spark-X2.6：官方当期活动提供 10 亿免费 API Tokens，个人实名可领；近期领取反馈显示每人一次、约 31 天有效，支付方式和超额扣费仍未做账号实测，收录为 active / super。","其它更新：Sail 每月 $5 强模型额度评 premium，Contextual $25 组件 API 试用评 normal；Gemini 3.8 Flash、百度千帆 ¥20、新 NVIDIA 免费端点、OpenRouter Laguna 与日本限定 Sarashina Beta 均已按各自门槛更新。","Fireworks、Vultr、Ollama、The Grid、LongCat 五项完成今日复核，继续 pending。The Grid 当前公开赠额是 $5 而非旧页面的 $25；LongCat 的 1000 万 Tokens 仍缺当前官方额度条款。"],"tip":"","sources":["https://www.qiniu.com/ai/free-models/conatus-2026","https://www.qiniu.com/ai/model/qiniu/conatus-free","https://training.xfyun.cn/","https://maas.xfyun.cn/modelSquare/base/2628905721051136","https://www.sailresearch.com/","https://contextual.ai/pricing","https://ai.google.dev/gemini-api/docs/pricing","https://cloud.baidu.com/campaign/event/bigevent/index.html","https://build.nvidia.com/minimaxai/minimax-m3.1-flash","https://openrouter.ai/poolside/laguna-s-2.1:free","https://www.sbintuitions.co.jp/news/press/20261013_01/","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://www.vultr.com/promo/try250/","https://ollama.com/pricing","https://thegrid.ai/pricing","https://longcat.chat/platform/docs/zh/FAQ.html"],"published_at":"2026-10-24T14:00:19+08:00","id":"2026-10-24-morning","kind":"morning"},{"date":"2026-10-24","title":"10 月 24 日晚报：两颗大蛋落稳，免费端点还在加座 🌙","summary":"今天确认并发布七牛 Conatus 与讯飞 Spark-X2.6 两项 Super。下午又收录 KRAFTON Raon-1 mini 免费 Beta，并为 Vercel AI Gateway 补上 Nemotron Lightning 与两款限免决策模型；五项待核实活动状态未变，没有新增失效项。","highlights":["七牛 Conatus 每日 1 亿 Tokens 与讯飞 Spark-X2.6 一次性 10 亿 Tokens 均为 active / super，独立专题已经发布。七牛免费额耗尽不会扣余额；讯飞的 31 天期限和支付细节仍按近期领取反馈标注。","KRAFTON Raon-1 mini Preview：官方 Beta 期间输入输出免费，支持 262K 上下文、工具调用和三种兼容接口；申请需填写身份与用途，固定配额、结束日期和大陆个人实领尚未公开，评为 premium。","Vercel AI Gateway：Nemotron 3.5 Lightning 免费端点支持 1M 上下文与编程工具调用；Baseten Mammoth-1、Elephant-1 两款决策模型免费至 10 月 27 日。它们与原有每月 $5 免费档并列，不算额外赠金。","Fireworks、Vultr、Ollama、The Grid、LongCat 今日复核后继续 pending：The Grid 当前是 $5、14 天；LongCat 的 1000 万 Tokens 仍缺现行官方额度条款。今天没有新增 expired，也没有重复专题。"],"tip":"","sources":["https://www.qiniu.com/ai/free-models/conatus-2026","https://training.xfyun.cn/","https://maas.xfyun.cn/modelSquare/base/2628905721051136","https://raon-mini.krafton.ai/en","https://raon-mini.krafton.ai/en/docs","https://raon-mini.krafton.ai/en/terms","https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free","https://vercel.com/ai-gateway/models/nemotron-3.5-lightning-free","https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free","https://vercel.com/ai-gateway/models/mammoth-1","https://vercel.com/ai-gateway/models/elephant-1","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://www.vultr.com/promo/try250/","https://ollama.com/pricing","https://thegrid.ai/pricing","https://longcat.chat/platform/docs/zh/FAQ.html"],"published_at":"2026-10-24T21:50:35+08:00","id":"2026-10-24-evening","kind":"evening"},{"id":"2026-10-27-super-regolo-1m-daily-30day","kind":"super","date":"2026-10-27","egg_id":"regolo-ai-core-1m-daily-30day-trial-2026","title":"Regolo 每天 100 万免费 Tokens，连用 30 天 🥚","summary":"意大利 Regolo 开放 30 天免绑卡模型 API 试用：每天最多 100 万 Tokens，GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型都在可用清单。","highlights":["30 天内每天最多 100 万 Tokens，天天用满理论可达 3000 万；不是一次性 3000 万赠额。","个人免绑卡、免预充值，OpenAI 兼容 API，可用于编程推理和工具调用。","免费试用有更严格的公平使用限速；中国大陆账户注册、实际额度与调用尚未实测。"],"tip":"","official_source_url":"https://regolo.ai/pricing/","claim_url":"https://regolo.ai/signup","credits":"30 天试用，每日 1,000,000 Tokens 上限（理论累计最多 30,000,000）","payment_required":"免绑卡、免预充值；试用到期需自行选择后续方案。","status":"active"},{"date":"2026-10-27","title":"10 月 27 日早报：每天 100 万 Tokens 的大蛋来了 ☀️","summary":"今天确认 Regolo 30 天每日 100 万 Tokens 的免绑卡强模型 API 试用，并已发布 Super 专题。Tuna 新客 $10、BytePlus 每模型免费额度与 Vercel 新模型也完成更新；七项待核实活动均已复查。","highlights":["Regolo：新个人用户免绑卡试用 30 天，每天最多 100 万 Tokens，可调用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；每日额度不累积，已评 active / super 并发布专题。","Tuna Inference：绑定有效支付方式后可领 $10 API 赠额，无需先充值；支持 Kimi K3、DeepSeek V4.1 Flash 等模型，额度与绑卡门槛按 active / normal 收录。","BytePlus ModelArk 的新客免费量改按“每款符合条件模型分别约 50 万 Tokens”表述；Vercel AI Gateway 新增 GPT-6.1 Terra / Fast，可消耗原有每 30 天 $5 免费额度，没有增加赠金。","七项 pending 已完成今日复核。Ollama 当前定价页已不再展示 Starter 免费额度，与其旧官方公告冲突；其余项目也没有足够的新领取证据，状态均未变化。"],"tip":"","sources":["https://regolo.ai/pricing/","https://regolo.ai/faq/","https://regolo.ai/signup","https://tuna.ai/","https://tuna.ai/docs/models","https://tuna.ai/docs/account/billing","https://docs.byteplus.com/en/docs/ModelArk/1330310","https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway","https://vercel.com/ai-gateway/models/gpt-6.1-terra","https://ollama.com/pricing","https://ollama.com/blog/transparent-pricing"],"published_at":"2026-10-27T16:43:00+08:00","id":"2026-10-27-morning","kind":"morning"},{"date":"2026-10-27","title":"10 月 27 日晚报：大蛋已落篮，七颗待核实还在排队 🌙","summary":"今天发布了 Regolo 每日 100 万 Tokens、连续 30 天的新 Super；Tuna、BytePlus 与 Vercel 的更新也已整理。晚报出刊后又补收录 Public AI 公益推理 API 新客 $2 赠额；七项 pending 维持原判，Ollama 的官方口径冲突仍未解决。","highlights":["Regolo 的 30 天免绑卡试用已落稳：每天最多 100 万 Tokens，可用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；Super 专题已经发布，不重复开一份。","晚报出刊后补收录 Public AI：非营利平台新账户获 $2 API 试用金，无需先绑卡或充值，可调用 Apertus 70B、SEA-LION 等开放模型，按 active / normal 收录。","Tuna 新客 $10 需要绑定支付方式但无需先充值，按 normal 收录；BytePlus 已明确为每款符合条件模型分别提供免费量；Vercel 新增 GPT-6.1 Terra / Fast，仍使用原有 $5 / 30 天免费额。","七项 pending 今日都已复核且没有状态变化。Ollama 当前定价页不再展示 Starter 免费额，与旧官方公告互相打架；今天没有新增 expired 或 unverifiable。"],"tip":"","sources":["https://regolo.ai/pricing/","https://regolo.ai/faq/","https://platform.publicai.co/docs","https://platform.publicai.co/plans","https://platform.publicai.co/models","https://publicai.co/tc","https://tuna.ai/","https://docs.byteplus.com/en/docs/ModelArk/1330310","https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway","https://vercel.com/ai-gateway/models/gpt-6.1-terra","https://ollama.com/pricing","https://ollama.com/blog/transparent-pricing","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://thegrid.ai/pricing","https://platform.baichuan-ai.com/prices","https://runaii.cloud/pricing"],"published_at":"2026-10-27T19:46:00+08:00","id":"2026-10-27-evening","kind":"evening"},{"date":"2026-10-28","title":"10 月 28 日早报：1 亿决策 Tokens 落篮，旧 $100 线索归档 ☀️","summary":"今天确认 Codiv 提供 1 亿决策 Tokens 与独立 1000 万文本生成 Tokens，个人免绑卡，收录为 premium。阿里云百炼北京地域的领取门槛也已澄清；General Compute 旧 $100 专项连续三日无当前依据，转入核查归档。","highlights":["Codiv：个人注册免绑卡，可免费获得 1 亿结构化决策输入 Tokens，另有独立的 1000 万 DiffusionGemma 文本生成 Tokens；两项额度用途不同，不合并为通用聊天额度。","阿里云百炼北京地域：官方额度页明确，免费量通常按模型分别计算，每个合资格模型约 100 万 Tokens、有效期 90 天；领取无需实名认证或购买。","General Compute 旧 $100 专项连续三个不同北京时间自然日都没有可靠的当前有效依据，按规则转为 unverifiable；现有 $5 Agent Signup 是另一项活动。","八项 pending 已完成今日复核。Ollama 官方额度口径仍有冲突，milliseconds.ai 与 River AI 等项目也没有足够一致的当前证据，状态不变。"],"tip":"","sources":["https://codiv.ai/","https://codiv.ai/docs/rate-limits","https://codiv.ai/docs/text-generation","https://codiv.ai/terms","https://www.alibabacloud.com/help/en/model-studio/free-quota","https://www.generalcompute.com/","https://www.generalcompute.com/agent-signup","https://ollama.com/pricing","https://ollama.com/blog/cloud-models","https://milliseconds.ai/pricing","https://riverai.dev/pricing"],"published_at":"2026-10-28T19:02:00+08:00","id":"2026-10-28-morning","kind":"morning"},{"date":"2026-10-28","title":"10 月 28 日晚报：1 亿决策 Tokens 落篮，免费强模名单换班 🌙","summary":"今天新增 Codiv 免绑卡决策 API，FreeInference 也按官方目录换成四款当前免费模型。阿里云百炼北京地域的门槛已讲清，General Compute 旧 $100 线索完成三日复核并归档；没有新 Super。","highlights":["Codiv 新增为 active / premium：个人免绑卡可领 1 亿结构化决策输入 Tokens，另有独立 1000 万 DiffusionGemma 文本生成 Tokens。两套额度各算各的，不拼成 1.1 亿强模型额度。","FreeInference 的当前免费目录更新为 GLM-5.3 Flash、DeepSeek V4 Flash、MiniMax M3 和 Qwen3.6 35B；仍免信用卡，但要同意研究日志和去标识化数据分享。","阿里云百炼北京地域通常按每个合资格模型分别送约 100 万 Tokens，有效期 90 天；无需实名或购买。已实名账户建议开启额度用完即停。","General Compute 旧 $100 专项连续三个不同自然日没有找到当前领取依据，转入 unverifiable 核查归档。八项 pending 今天都复核过，状态没有变化。"],"tip":"","sources":["https://codiv.ai/","https://codiv.ai/signup","https://codiv.ai/docs/guides/rate-limits","https://codiv.ai/docs/guides/text-generation","https://codiv.ai/terms","https://freeinference.org/","https://freeinference.org/signup","https://freeinference.org/terms","https://doc.freeinference.org/models","https://help.aliyun.com/zh/model-studio/new-free-quota/","https://www.generalcompute.com/openclaw","https://docs.generalcompute.com/agent-signup","https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit","https://docs.vultr.com/product-overviews/serverless-inference?section=video","https://ollama.com/pricing","https://ollama.com/blog/cloud-models","https://thegrid.ai/pricing","https://platform.baichuan-ai.com/prices","https://runaii.cloud/pricing","https://milliseconds.ai/pricing","https://river.ai/pricing"],"published_at":"2026-10-28T19:12:22+08:00","id":"2026-10-28-evening","kind":"evening"}]}
+{
+  "version": 1,
+  "updated_at": "2026-10-28T19:12:22+08:00",
+  "entries": [
+    {
+      "id": "2026-10-08-super-sovinfra-1b",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "SovInfra：注册送 10 亿 API Tokens 🥚",
+      "summary": "SovInfra 现行条款提供 10 亿免费 API Tokens，可调用 Qwen3.8-27B 和 Gemma 4 31B。免绑卡、免预充值，注册需提供一个个人资料链接。",
+      "highlights": [
+        "官方 Terms 明确每个新账户有 1B 免费 Tokens，输入输出均计费，耗尽后不会自动扣款。",
+        "可调用 qwen3.8-27b、gemma-4-31b，也可通过 sovapi 自动路由；OpenAI 兼容 API。",
+        "注册填姓名、邮箱及 LinkedIn/GitHub/X/个人网站中的一个资料链接；不需绑卡。",
+        "地区可注册情况、实际到账和免费额度过期日未做新账号实测。"
+      ],
+      "tip": "",
+      "egg_id": "sovinfra-sovapi-1b-trial-2026",
+      "official_source_url": "https://sovinfra.ai/terms",
+      "claim_url": "https://app.sovinfra.ai/",
+      "credits": "10 亿免费模型 API Tokens（非美元赠金）",
+      "payment_required": "免绑卡、免预充值",
+      "status": "active"
+    },
+    {
+      "id": "2026-10-08-super-dahl-100m",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "Dahl：1 亿免费 Tokens，记得分配到 API Key 🥚",
+      "summary": "Dahl 新账户赠 1 亿 Tokens，可用于 MiniMax M2.7 和 DeepSeek V4 Flash。赠额先进账户池，需要在账户页面手动分配到 API Key。",
+      "highlights": [
+        "官方文档确认注册赠 100M Tokens，API Key 初始显示 0 是正常的。",
+        "支持 MiniMax M2.7、DeepSeek V4 Flash 0731、GLM 5.3 Flash，OpenAI 兼容接口。",
+        "新用户只需用户名并保存 fingerprint 登录凭证；当前文档没有要求支付卡。",
+        "按官方参考价格约值 $3，不能当作 $100 赠金；实际领用及地区限制未经用户账号实测。"
+      ],
+      "tip": "",
+      "egg_id": "dahl-inference-100m-trial-2026",
+      "official_source_url": "https://inference.dahl.global/docs/tokens/",
+      "claim_url": "https://inference.dahl.global/account",
+      "credits": "1 亿免费模型 API Tokens（账户池，非美元赠金）",
+      "payment_required": "无需预充值；需手动分配 Tokens",
+      "status": "active"
+    },
+    {
+      "id": "2026-10-08-super-optracloud",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "OptraCloud 送 1.5 亿输出 Tokens 🥚",
+      "summary": "OptraCloud 新用户送 1.5 亿免费输出 Tokens，配 Qwen3.8-27B 编程模型。不要绑卡，注册时需要邮箱和手机短信验证。",
+      "highlights": [
+        "新用户直接送 150M 输出 Tokens；邀请奖励另算。",
+        "Qwen3.8-27B，OpenAI/Anthropic 兼容 API，128K 上下文，免费档 60 tokens/s。",
+        "官方领取页可打开：无需支付卡或预充值，需验证手机号；非印度号码是否可用尚未实测。",
+        "活动未公布截止日期。"
+      ],
+      "tip": "",
+      "egg_id": "optracloud-150m-output-free-2026",
+      "official_source_url": "https://optracloud.com/free.html",
+      "claim_url": "https://optracloud.com/portal/join",
+      "credits": "150M 免费输出 Tokens",
+      "payment_required": "免绑卡、免预充值；强制手机号短信验证",
+      "status": "active"
+    },
+    {
+      "id": "2026-10-08-super-inception-mercury",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "Mercury 免费 API 额度升级到 1 亿 Tokens 🥚",
+      "summary": "Inception 官网 Free 方案现在列出 1 亿免费 API Tokens，Mercury 2.5 可通过 OpenAI 兼容 API 调用。注册后创建 API Key 即可查看分配的试用额度。",
+      "highlights": [
+        "官方 Free 方案：100M 免费 Tokens，并非 $100 赠金。",
+        "支持 Mercury 2.5；调用接口兼容 OpenAI API。",
+        "目前没有公布结束日期；绑卡、地区及到账额度仍需以新账号实际情况确认。",
+        "官网旧引导文字还保留 10M，已标注新旧口径冲突。"
+      ],
+      "tip": "",
+      "egg_id": "inception-mercury-trial-2026",
+      "official_source_url": "https://www.inceptionlabs.ai/models",
+      "claim_url": "https://platform.inceptionlabs.ai/"
+    },
+    {
+      "id": "2026-10-08-super-general-compute",
+      "kind": "super",
+      "date": "2026-10-08",
+      "title": "【核查归档】General Compute 历史 $100 API 赠额",
+      "summary": "历史 $100 新客 API 赠额原活动入口已无法访问，2026-10-26 至 28 连续三个自然日复查均未找到当前领取依据，转核查归档。官方另有独立 $5 Agent Signup 方案；不能据此认定 $100 正式结束。",
+      "highlights": [
+        "原 $100 活动 /openclaw、/opencode 当前返回 404，历史专题保留，不再提供可领取按钮。",
+        "现行官方 Agent Signup 文档明确另一项新客 $5 API credits，与历史 $100 活动分开收录。",
+        "2026-10-26、27、28 三个不同自然日真实复核仍无原 $100 当前有效领取证据，按站内规则归档为 unverifiable；不是 expired。"
+      ],
+      "tip": "",
+      "egg_id": "general-compute-100-2026",
+      "official_source_url": "https://www.generalcompute.com/openclaw",
+      "claim_url": null,
+      "status": "unverifiable",
+      "grade": null,
+      "reviewed_at": "2026-10-28",
+      "verification_note": "2026-10-28 三日复核闭环：原 $100 活动当前无可验证领取依据，转 unverifiable；官方未确认正式结束，另有独立 $5 Agent Signup。",
+      "updated_at": "2026-10-28T00:06:35+08:00"
+    },
+    {
+      "id": "2026-10-08-morning",
+      "kind": "morning",
+      "date": "2026-10-08",
+      "title": "今天的鸡蛋又多了几颗 ☀️",
+      "summary": "之前找过的免费 API 活动补进列表了，额度和绑卡条件也重新对了一遍。General Compute 的 $100 很显眼；Together 那个 $150 申请页打不开，先从候选里撤下。",
+      "highlights": [
+        "General Compute：新用户 $100 API credits，走邮箱验证申请。",
+        "GroqCloud、Mistral 都有免费 API 档；Cerebras 的 $5 需要绑支付方式。",
+        "Together AI：$150 原申请链接返回 404，目前没有新的公开领取入口。"
+      ],
+      "tip": ""
+    },
+    {
+      "id": "2026-10-08-evening",
+      "kind": "evening",
+      "date": "2026-10-08",
+      "title": "今晚的鸡蛋：新线索还得验 🌙",
+      "summary": "今天复核了免费 AI API 活动与历史记录。OpenRouter 免费请求配额、Ollama Cloud 免费 API 档值得继续追踪；具体可用模型、额度和个人领取限制尚未全部核实，暂不冒充已确认新福利。",
+      "highlights": [
+        "OpenRouter：发现免费 API 请求配额线索，实际日限额与免费模型名单仍需按当前官方条款核对。",
+        "Ollama Cloud：发现 Starter 免费 API 档线索，赠额与使用限制仍需确认。",
+        "Vultr $250 等云赠额：尚未确认可直接用于目标 AI 模型 API，继续待核实。",
+        "Venice 历史赠金：现有归档记录缺少三个不同自然日的核查过程，后续需按仓库规则复核。"
+      ],
+      "tip": "只把确认能用于模型 API 的免费额度算作鸡蛋。"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "免费 API 早报：两条官方免费档复核 ☀️",
+      "summary": "Eku 今天复核了 Gemini API 与阿里云百炼的官方免费额度说明。两者都是已有项目，本次没有确认新的超级鸡蛋。",
+      "highlights": [
+        "Gemini API 官方仍列出 Free 档，部分模型输入、输出 tokens 免费；具体模型与速率限制要分别看。",
+        "阿里云百炼官方新人额度说明仍可访问；免费额度按模型及地域规则使用，不是通用美元赠金。",
+        "本次仅完成上述官方来源复核，其他待核实项目尚未完成逐项查验，不宣称其状态发生变化。"
+      ],
+      "tip": "",
+      "kind": "morning",
+      "id": "2026-10-09-morning"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "10 月 10 日早报：超算新人包仍待实领确认 ☀️",
+      "summary": "Eku 复核了超算互联网 MaaS 与 Ollama 的官方免费 API 线索。超算活动条款写到 10 月 13 日，页面有免费 1000 万 Tokens 入口；Ollama 免费档提供按月刷新的 Starter 用量。两项仍有实际领取或可用模型限制待核实，今天没有确认新超级鸡蛋。",
+      "highlights": [
+        "超算互联网 MaaS：官方活动页列出新客免费 1000 万 Tokens，活动规则截至 10 月 13 日；是否仍有名额、账号能否实际领取尚待确认。",
+        "该免费量包的模型可能随供应调整，30 天内使用完；赠额用尽后可能扣现金余额。",
+        "Ollama Cloud：官方 Free 档含每月刷新的 Starter 使用额度，但未公布明确赠金金额，不能按大额赠金评级。"
+      ],
+      "tip": "",
+      "kind": "morning",
+      "id": "2026-10-10-morning"
+    },
+    {
+      "id": "2026-10-09-evening",
+      "kind": "evening",
+      "date": "2026-10-09",
+      "title": "10 月 9 日晚报补刊：旧蛋退场，新蛋入篮 🌙",
+      "summary": "10 月 9 日的免费模型 API 清单有了变化：腾讯云 TokenHub、硅基流动和 OpenRouter 的个人免费入口已收录；Together AI 旧赠额退出。Ollama Cloud 的 Starter 免费额度虽有官方说明，具体数额仍待核实。Eku 不拿问号当金蛋。",
+      "highlights": [
+        "腾讯云 TokenHub：新人模型 API 体验包可领取；官方列出语言模型 100 万 Tokens 免费额度、有效期 1 年，开通需实名认证。",
+        "硅基流动：完成实名认证后可在活动中心领取 ¥16 通用代金券，可抵扣模型 API；这项活动并非 10 月 9 日才开始。",
+        "OpenRouter：官方免费档提供 25+ 免费模型与 API 调用，每日 50 次请求，无须购买付费套餐。",
+        "Together AI 旧免费试用已结束；Ollama Cloud Free 档虽有每月 Starter credits，但金额与具体可用模型仍待核实。"
+      ],
+      "tip": ""
+    },
+    {
+      "date": "2026-10-11",
+      "title": "10 月 11 日早报：$10 免费模型额度新线索 ☀️",
+      "summary": "今天查到 Braintrust Starter 每月 $10 的模型 credits，支持 API 调用，但内置模型使用存在工作邮箱或绑卡门槛，暂不把它当成低门槛超级鸡蛋。MoMA 新用户 2500 万 Tokens 的公开报道仍需与现行领取入口交叉核对。",
+      "highlights": [
+        "Braintrust Starter：官方定价说明列出每月 $10 模型 credits；内置模型 API 的注册与支付验证条件需留意，尚未完成新账号实领。",
+        "中国移动 MoMA：官方报道提及新认证用户 2500 万 Tokens，当前线上领取条件仍待核实。",
+        "超算互联网 MaaS：活动页面信息有冲突，不能仅按标称 1000 万 Tokens 判断今天仍能领取。",
+        "今天没有确认满足全部硬门槛的新超级鸡蛋。"
+      ],
+      "tip": "",
+      "kind": "morning",
+      "id": "2026-10-11-morning"
+    },
+    {
+      "id": "2026-10-10-evening",
+      "kind": "evening",
+      "date": "2026-10-10",
+      "title": "10 月 10 日晚报补刊：大额赠金先过筛 🌙",
+      "summary": "今天确认 APOLLO11 Fusion LLM 的新客模型 API 试用；AkashML、Vultr、Azure 的大额赠额经过连续复查，仍缺当期可用于目标模型 API 的完整证据，转入核查归档。金额写得再大，也不能让 Eku 闭眼往篮子里装。",
+      "highlights": [
+        "APOLLO11 Fusion LLM：官方提供新客约 330 万 Tokens 的模型 API 试用，7 天有效，需绑定信用卡；按普通鸡蛋收录。",
+        "AkashML $100、Vultr $250、Azure $200：相关 AI API 赠额线索经三个不同自然日核查仍缺当期可靠依据，标为 unverifiable，不代表这些平台全部试用活动结束。",
+        "国家超算互联网 MaaS：官方页面展示新客免费 1000 万 DeepSeek-V4.1-Flash Tokens，另有 ¥0.10 的 2000 万 Tokens 付费包；页面的结束提示与 10 月 13 日截止规则冲突，继续待核实。",
+        "移动云 MoMA、智谱 BigModel 和 Ollama Cloud：活动或免费档线索仍在，但个人领取条件、具体 API 适用额度尚未核实，维持 pending。"
+      ],
+      "tip": ""
+    },
+    {
+      "date": "2026-10-11",
+      "title": "10 月 11 日晚报：问号归档，免费档继续盯 🌙",
+      "summary": "今晚复核了全部五项待核实活动。移动云MoMA、智谱2000万Tokens和超算新客包连续三个自然日仍缺完整的当前领取依据，转入核查归档；Ollama与FreeInference继续待核实。今天没有确认新的超级鸡蛋。",
+      "highlights": [
+        "MoMA、智谱新客赠额、超算新客包：保留记录与来源，转unverifiable；没有证据宣布活动结束，不标expired。",
+        "Ollama Free仍有Starter API用量，免费型号、具体额度和支付资格未核实；FreeInference免费模型目录与注册入口可读，实际开户和配额仍待确认。",
+        "今晚没有确认符合个人低门槛要求的新Super，不发布重复专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+        "https://bigmodel.cn/activity/trial-card/GBG6IX0OID",
+        "https://docs.bigmodel.cn/cn/guide/platform/equity-explain",
+        "https://www.scnet.cn/home/subject/maas/index.html",
+        "https://ollama.com/pricing",
+        "https://freeinference.org/signup",
+        "https://doc.freeinference.org/models"
+      ],
+      "id": "2026-10-11-evening",
+      "kind": "evening"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "10 月 12 日早报补刊：免费档有依据，门槛继续查 ☀️",
+      "summary": "今天复核了Ollama与FreeInference两项待核实API。官方免费档仍有依据，具体配额和个人开通资格尚未核实完整，继续保留问号；本期没有确认新的超级鸡蛋。",
+      "highlights": [
+        "Ollama Free：Starter用量按注册日每月刷新，支持1个并发请求；免费型号清单、额度数字及绑卡条件仍待确认。",
+        "FreeInference：目录列有GLM-5.1、DeepSeek-V4-Flash等免费模型；注册须年满18岁并同意研究数据使用，实际获批和配额尚未实测。",
+        "两项均保持pending，不把未领取的额度写成到账；今天不新增Super专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://ollama.com/pricing",
+        "https://freeinference.org/signup",
+        "https://doc.freeinference.org/models"
+      ],
+      "published_at": "2026-10-12T05:09:39.606Z",
+      "id": "2026-10-12-morning",
+      "kind": "morning"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "10 月 14 日早报补刊：免费型号进篮，额度分开看 ☀️",
+      "summary": "今天复核了已收录的Z.AI免费型号、商汤Token Plan公测和QwenCloud配额规则。Ollama与Meta两项继续待核实；本期没有确认新Super。",
+      "highlights": [
+        "Z.AI：GLM-4.7-Flash、GLM-4.5-Flash、GLM-4.6V-Flash的官方输入和输出价均为免费；免费型号仍受账户限速，未实测注册或调用。",
+        "商汤Token Plan：中国站公测¥0/月，每5小时60,000积分，支持SenseNova 6.8 Flash Lite与U1 Fast；积分不是Tokens，开户条件尚未实测。",
+        "QwenCloud：已收录的新客配额按模型独立计算、通常90天有效，需完成支付信息验证；跨模型宣传总量不能当作单个强模型的可用额度。",
+        "Ollama的具体Starter额度与型号仍未公开完整；Meta本轮官方文档未确认新客$20，两项继续pending。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://docs.z.ai/guides/overview/pricing",
+        "https://www.sensenova.cn/token-plan",
+        "https://docs.qwencloud.com/resources/free-quota",
+        "https://ollama.com/pricing",
+        "https://dev.meta.ai/docs/pricing-rate-limits",
+        "https://dev.meta.ai/docs/speech-to-text"
+      ],
+      "published_at": "2026-10-14T13:43:09.801+08:00",
+      "id": "2026-10-14-morning",
+      "kind": "morning"
+    },
+    {
+      "id": "2026-10-21-super-iteracompute-qwen38-27b-30m",
+      "kind": "super",
+      "date": "2026-10-21",
+      "egg_id": "iteracompute-qwen38-27b-30m-monthly-2026",
+      "title": "每月 3000 万免费 Tokens，Eku 捡到大鸡蛋啦 🥚",
+      "summary": "IteraCompute 的 Qwen3.8-27B 每月提供 3000 万免费 API Tokens，支持编程和工具调用，免绑卡、免充值。 官方已明确这款 Qwen 免费 API 活动将于 2026 年 11 月 24 日 00:00（太平洋时间）结束。",
+      "highlights": [
+        "Qwen3.8-27B：每月 3000 万 Tokens，月初刷新。",
+        "OpenAI 兼容 API、128K 上下文、160K TPM，单次最多输出 8192 Tokens。",
+        "免费池高峰可能排队；中国大陆账户实际调用尚未实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://iteracompute.com/free/",
+      "claim_url": "https://platform.iteracompute.com/"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "10 月 22 日早报：超算新客包进篮，问号少一个 ☀️",
+      "summary": "今天复核了四项待核实 API 活动。超算新客包的“活动已结束”原来是隐藏模板，现转 active、暂评 premium；Fireworks、Vultr 与 Ollama 继续待核实。本期没有确认新 Super。",
+      "highlights": [
+        "超算互联网 MaaS：新客免费 1000 万 GLM-5.3-Flash API Tokens，领取后 30 天有效，活动至 11 月 10 日；公开领取入口成立，转为 active / premium。此前把隐藏的结束模板读成当前弹窗，今天已纠正。",
+        "超算这份赠额限量，库存、实际到账、绑卡/预充值和地区条件尚未实测，发放型号也可能调整；免费额度用尽会扣现金余额，因此暂不评 Super。",
+        "Fireworks：现行 FAQ 同时写明预付制和 $1 starter credit，耗尽后再添加支付方式；“旧 FAQ 与预付制冲突”的理由已撤回。迁移后新注册资格、期限、地区与到账仍未实测，保持 pending。",
+        "Vultr 官方视频页仍提新客 $250，try250 入口返回 403；Ollama 仍有按月刷新的少量 Starter API 额度。两项的专项条件或具体额度、型号尚未核实完整，继续 pending。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://www.scnet.cn/home/subject/maas/index.html",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://fireworks.ai/pricing",
+        "https://fireworks.ai/blog/best-llm-api-providers",
+        "https://fireworks.ai/models",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud",
+        "https://ollama.com/blog/transparent-pricing"
+      ],
+      "published_at": "2026-10-22T15:02:04+08:00",
+      "id": "2026-10-22-morning",
+      "kind": "morning"
+    },
+    {
+      "date": "2026-10-22",
+      "title": "10 月 22 日晚报：三颗问号继续蹲篮边 🌙",
+      "summary": "今晚复核了 Fireworks、Vultr 与 Ollama 三项待核实活动，官方线索仍在，领取细节也仍缺一块。三项保持 pending；白天确认的超算 MaaS 继续为 active / premium。今天没有新增失效项，也没有新 Super。",
+      "highlights": [
+        "Fireworks 的现行 FAQ 仍写 $1 starter credit，公开注册入口可达；迁移后新账户的发放资格、期限、地区和实际到账尚未核实完整。",
+        "Vultr 的 Serverless Inference 视频页仍提新账户 $250 credits，try250 入口继续返回 403；支付方式、专项期限和 API 抵扣还不能闭环。",
+        "Ollama Free 仍有月度 Starter API 用量，具体额度、完整免费型号、绑卡与地区条件没有新增公开答案。",
+        "超算 MaaS 保持 active / premium；今晚没有确认新 Super，也没有重复发布专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud",
+        "https://www.scnet.cn/home/subject/maas/index.html"
+      ],
+      "published_at": "2026-10-22T19:03:55+08:00",
+      "id": "2026-10-22-evening",
+      "kind": "evening"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "10 月 23 日早报：Mercury 升三代，NVIDIA 新端点开门 ☀️",
+      "summary": "今天收录了 NVIDIA Nemotron 3.5 Super VL 120B 免费开发测试 API，并确认 Inception 的 1 亿免费 Tokens 已切到 Mercury 3。三项待核实活动完成今日复核，状态未变；本期没有全新 Super 专题。",
+      "highlights": [
+        "NVIDIA Nemotron 3.5 Super VL 120B：官方 Build 显示免费端点，可生成 API Key，支持多模态、编程和工具调用；仅限开发测试，固定免费总量未公布，收录为 active / premium。",
+        "Inception Mercury：新账户仍有 1 亿免费 API Tokens，现可调用 Mercury 3，支持 OpenAI 兼容接口与百万上下文，官方写明无需支付信息。这是既有 Super 的型号更新，不重复发专题。",
+        "Fireworks：官方现行文档仍有 $1 starter credit，注册与模型目录可访问；新账户实际到账、有效期和地区资格未实测，保持 pending。",
+        "Vultr 的 try250 入口仍返回 403；Ollama Free 仍有月度 Starter API 用量。两项缺失的专项资格或具体额度没有新答案，继续 pending。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+        "https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-3_5-super-vl-120b-a12b",
+        "https://forums.developer.nvidia.com/t/nvidia-nim-faq/300317",
+        "https://docs.inceptionlabs.ai/get-started",
+        "https://www.inceptionlabs.ai/models",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://fireworks.ai/models",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud"
+      ],
+      "published_at": "2026-10-23T15:33:28+08:00",
+      "id": "2026-10-23-morning",
+      "kind": "morning"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "10 月 23 日晚报：墨点开门，Flint 也挤进免费栏 🌙",
+      "summary": "今晚新增书生·端砚免费模型 API，OpenRouter 免费档也补进 Flint 编程模型。白天的 NVIDIA 新端点与 Mercury 3 更新保持有效；三项待核实活动状态未变，今天没有新增失效项，也没有全新 Super。",
+      "highlights": [
+        "上海AI实验室「书生·端砚」：官方确认测试期每月有免费 API 额度，书生-S2、Atria-Dawn-Preview、Agents-A1 三款模型现为 0 墨点，收录为 active / premium；固定赠额、支付方式和地区条件仍待实测。",
+        "OpenRouter：Flint v1.0 免费模型已加入现有免费档，支持 262K 上下文、编程、工具调用和 JSON 输出；每日 50 次的免充值配额没有增加，继续 active / normal。",
+        "白天确认的 NVIDIA Nemotron 3.5 Super VL 免费开发端点与 Inception Mercury 3 更新均已保留；前者为 premium，后者是既有 Super 的型号升级，不重复发专题。",
+        "Fireworks、Vultr、Ollama 三项已完成今日复核，仍分别缺实际到账、专项领取闭环或明确免费额度，继续 pending。今天没有新增 expired，也没有新 Super。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://www.shlab.org.cn/news/5444294",
+        "https://discovery.intern-ai.org.cn/token-plan/home?dockey=04-model-limits-and-pricing.md&tabIndex=3",
+        "https://discovery.intern-ai.org.cn/token-plan/home",
+        "https://openrouter.ai/recursive/flint-v1.0:free",
+        "https://openrouter.ai/docs/guides/routing/model-variants/free",
+        "https://build.nvidia.com/nvidia/nemotron-3.5-super-vl-120b-a12b",
+        "https://docs.inceptionlabs.ai/get-started",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://app.fireworks.ai/signup",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://docs.vultr.com/platform/create-an-account",
+        "https://ollama.com/pricing",
+        "https://docs.ollama.com/cloud"
+      ],
+      "published_at": "2026-10-23T19:01:33+08:00",
+      "id": "2026-10-23-evening",
+      "kind": "evening"
+    },
+    {
+      "id": "2026-10-24-super-iflytek-spark-x26-1b",
+      "kind": "super",
+      "date": "2026-10-24",
+      "egg_id": "iflytek-spark-x26-1b-trial-2026",
+      "title": "讯飞星火 10 亿 Tokens！这颗鸡蛋有点大 🥚",
+      "summary": "Spark-X2.6 开放 10 亿免费 API Tokens，个人实名认证即可领取。社区已有成功领取反馈，赠额仅用于讯飞自研模型。",
+      "highlights": [
+        "官方星辰 MaaS 首页确认 10 亿 Tokens 活动，领取入口为 Spark-X2.6 模型页。",
+        "Spark-X2.6 是 293B-A30B 深度推理模型，支持最长 1M 上下文，可用于编程和智能体任务。",
+        "近期领取者反馈：每人限领一次，开通后 31 天有效；是否需要绑卡、实际限速和超额扣费尚未由本站实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://training.xfyun.cn/",
+      "claim_url": "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+      "credits": "10 亿 Spark-X2.6 免费 API Tokens（非通用模型赠额）",
+      "payment_required": "公开活动宣称零门槛，社区实领仅提到实名认证；是否需绑卡/预充值及超额自动扣费尚未完成账号实测。",
+      "status": "active"
+    },
+    {
+      "id": "2026-10-24-super-qiniu-conatus-100m-daily",
+      "kind": "super",
+      "date": "2026-10-24",
+      "egg_id": "qiniu-conatus-100m-daily-free-2026",
+      "title": "七牛云每天 1 亿免费 Tokens，Eku 的篮子又满啦 🥚",
+      "summary": "七牛云 1024 活动开放 Conatus 融合模型：个人实名后每天免费 1 亿 API Tokens，11 月 30 日结束，不充值也能用。",
+      "highlights": [
+        "每天 1 亿 Tokens，00:00 刷新；只限 qiniu/conatus-free，额度耗尽自动拒绝，不会扣余额。",
+        "支持代码辅助、深度思考、工具调用与视觉输入；1M 上下文，兼容 OpenAI / Anthropic API。",
+        "基础档只需实名认证；单笔充值超过 ¥100 才能升到每日 10 亿。融合模型的具体底层型号、实际质量和限速尚未独立实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "claim_url": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "credits": "个人实名免充值每日 1 亿 Tokens，2026-10-24 至 2026-11-30",
+      "payment_required": "基础档无需充值；10 亿/日升级需单笔实充 >¥100。绑卡流程未实测。",
+      "status": "active"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "10 月 24 日早报补刊：两颗 Super 一起落篮 ☀️",
+      "summary": "昨晚以来确认两项新 Super：七牛 Conatus 每日 1 亿免费 Tokens，以及讯飞 Spark-X2.6 一次性 10 亿 Tokens。免费模型和试用项目也有一批更新；五项待核实活动完成今日复核，状态未变。",
+      "highlights": [
+        "七牛 Conatus：实名认证个人每天可用 1 亿 API Tokens，10 月 24 日至 11 月 30 日有效；免费额度耗尽会直接拒绝请求，不扣账户余额，收录为 active / super。",
+        "讯飞 Spark-X2.6：官方当期活动提供 10 亿免费 API Tokens，个人实名可领；近期领取反馈显示每人一次、约 31 天有效，支付方式和超额扣费仍未做账号实测，收录为 active / super。",
+        "其它更新：Sail 每月 $5 强模型额度评 premium，Contextual $25 组件 API 试用评 normal；Gemini 3.8 Flash、百度千帆 ¥20、新 NVIDIA 免费端点、OpenRouter Laguna 与日本限定 Sarashina Beta 均已按各自门槛更新。",
+        "Fireworks、Vultr、Ollama、The Grid、LongCat 五项完成今日复核，继续 pending。The Grid 当前公开赠额是 $5 而非旧页面的 $25；LongCat 的 1000 万 Tokens 仍缺当前官方额度条款。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://www.qiniu.com/ai/free-models/conatus-2026",
+        "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+        "https://training.xfyun.cn/",
+        "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+        "https://www.sailresearch.com/",
+        "https://contextual.ai/pricing",
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://cloud.baidu.com/campaign/event/bigevent/index.html",
+        "https://build.nvidia.com/minimaxai/minimax-m3.1-flash",
+        "https://openrouter.ai/poolside/laguna-s-2.1:free",
+        "https://www.sbintuitions.co.jp/news/press/20261013_01/",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://ollama.com/pricing",
+        "https://thegrid.ai/pricing",
+        "https://longcat.chat/platform/docs/zh/FAQ.html"
+      ],
+      "published_at": "2026-10-24T14:00:19+08:00",
+      "id": "2026-10-24-morning",
+      "kind": "morning"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "10 月 24 日晚报：两颗大蛋落稳，免费端点还在加座 🌙",
+      "summary": "今天确认并发布七牛 Conatus 与讯飞 Spark-X2.6 两项 Super。下午又收录 KRAFTON Raon-1 mini 免费 Beta，并为 Vercel AI Gateway 补上 Nemotron Lightning 与两款限免决策模型；五项待核实活动状态未变，没有新增失效项。",
+      "highlights": [
+        "七牛 Conatus 每日 1 亿 Tokens 与讯飞 Spark-X2.6 一次性 10 亿 Tokens 均为 active / super，独立专题已经发布。七牛免费额耗尽不会扣余额；讯飞的 31 天期限和支付细节仍按近期领取反馈标注。",
+        "KRAFTON Raon-1 mini Preview：官方 Beta 期间输入输出免费，支持 262K 上下文、工具调用和三种兼容接口；申请需填写身份与用途，固定配额、结束日期和大陆个人实领尚未公开，评为 premium。",
+        "Vercel AI Gateway：Nemotron 3.5 Lightning 免费端点支持 1M 上下文与编程工具调用；Baseten Mammoth-1、Elephant-1 两款决策模型免费至 10 月 27 日。它们与原有每月 $5 免费档并列，不算额外赠金。",
+        "Fireworks、Vultr、Ollama、The Grid、LongCat 今日复核后继续 pending：The Grid 当前是 $5、14 天；LongCat 的 1000 万 Tokens 仍缺现行官方额度条款。今天没有新增 expired，也没有重复专题。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://www.qiniu.com/ai/free-models/conatus-2026",
+        "https://training.xfyun.cn/",
+        "https://maas.xfyun.cn/modelSquare/base/2628905721051136",
+        "https://raon-mini.krafton.ai/en",
+        "https://raon-mini.krafton.ai/en/docs",
+        "https://raon-mini.krafton.ai/en/terms",
+        "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/ai-gateway/models/nemotron-3.5-lightning-free",
+        "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/ai-gateway/models/mammoth-1",
+        "https://vercel.com/ai-gateway/models/elephant-1",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://www.vultr.com/promo/try250/",
+        "https://ollama.com/pricing",
+        "https://thegrid.ai/pricing",
+        "https://longcat.chat/platform/docs/zh/FAQ.html"
+      ],
+      "published_at": "2026-10-24T21:50:35+08:00",
+      "id": "2026-10-24-evening",
+      "kind": "evening"
+    },
+    {
+      "id": "2026-10-27-super-regolo-1m-daily-30day",
+      "kind": "super",
+      "date": "2026-10-27",
+      "egg_id": "regolo-ai-core-1m-daily-30day-trial-2026",
+      "title": "Regolo 每天 100 万免费 Tokens，连用 30 天 🥚",
+      "summary": "意大利 Regolo 开放 30 天免绑卡模型 API 试用：每天最多 100 万 Tokens，GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型都在可用清单。",
+      "highlights": [
+        "30 天内每天最多 100 万 Tokens，天天用满理论可达 3000 万；不是一次性 3000 万赠额。",
+        "个人免绑卡、免预充值，OpenAI 兼容 API，可用于编程推理和工具调用。",
+        "免费试用有更严格的公平使用限速；中国大陆账户注册、实际额度与调用尚未实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://regolo.ai/pricing/",
+      "claim_url": "https://regolo.ai/signup",
+      "credits": "30 天试用，每日 1,000,000 Tokens 上限（理论累计最多 30,000,000）",
+      "payment_required": "免绑卡、免预充值；试用到期需自行选择后续方案。",
+      "status": "active"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "10 月 27 日早报：每天 100 万 Tokens 的大蛋来了 ☀️",
+      "summary": "今天确认 Regolo 30 天每日 100 万 Tokens 的免绑卡强模型 API 试用，并已发布 Super 专题。Tuna 新客 $10、BytePlus 每模型免费额度与 Vercel 新模型也完成更新；七项待核实活动均已复查。",
+      "highlights": [
+        "Regolo：新个人用户免绑卡试用 30 天，每天最多 100 万 Tokens，可调用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；每日额度不累积，已评 active / super 并发布专题。",
+        "Tuna Inference：绑定有效支付方式后可领 $10 API 赠额，无需先充值；支持 Kimi K3、DeepSeek V4.1 Flash 等模型，额度与绑卡门槛按 active / normal 收录。",
+        "BytePlus ModelArk 的新客免费量改按“每款符合条件模型分别约 50 万 Tokens”表述；Vercel AI Gateway 新增 GPT-6.1 Terra / Fast，可消耗原有每 30 天 $5 免费额度，没有增加赠金。",
+        "七项 pending 已完成今日复核。Ollama 当前定价页已不再展示 Starter 免费额度，与其旧官方公告冲突；其余项目也没有足够的新领取证据，状态均未变化。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://regolo.ai/pricing/",
+        "https://regolo.ai/faq/",
+        "https://regolo.ai/signup",
+        "https://tuna.ai/",
+        "https://tuna.ai/docs/models",
+        "https://tuna.ai/docs/account/billing",
+        "https://docs.byteplus.com/en/docs/ModelArk/1330310",
+        "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+        "https://vercel.com/ai-gateway/models/gpt-6.1-terra",
+        "https://ollama.com/pricing",
+        "https://ollama.com/blog/transparent-pricing"
+      ],
+      "published_at": "2026-10-27T16:43:00+08:00",
+      "id": "2026-10-27-morning",
+      "kind": "morning"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "10 月 27 日晚报：大蛋已落篮，七颗待核实还在排队 🌙",
+      "summary": "今天发布了 Regolo 每日 100 万 Tokens、连续 30 天的新 Super；Tuna、BytePlus 与 Vercel 的更新也已整理。晚报出刊后又补收录 Public AI 公益推理 API 新客 $2 赠额；七项 pending 维持原判，Ollama 的官方口径冲突仍未解决。",
+      "highlights": [
+        "Regolo 的 30 天免绑卡试用已落稳：每天最多 100 万 Tokens，可用 GLM-5.2、GPT-OSS 120B、Qwen3.8 等 Core 模型；Super 专题已经发布，不重复开一份。",
+        "晚报出刊后补收录 Public AI：非营利平台新账户获 $2 API 试用金，无需先绑卡或充值，可调用 Apertus 70B、SEA-LION 等开放模型，按 active / normal 收录。",
+        "Tuna 新客 $10 需要绑定支付方式但无需先充值，按 normal 收录；BytePlus 已明确为每款符合条件模型分别提供免费量；Vercel 新增 GPT-6.1 Terra / Fast，仍使用原有 $5 / 30 天免费额。",
+        "七项 pending 今日都已复核且没有状态变化。Ollama 当前定价页不再展示 Starter 免费额，与旧官方公告互相打架；今天没有新增 expired 或 unverifiable。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://regolo.ai/pricing/",
+        "https://regolo.ai/faq/",
+        "https://platform.publicai.co/docs",
+        "https://platform.publicai.co/plans",
+        "https://platform.publicai.co/models",
+        "https://publicai.co/tc",
+        "https://tuna.ai/",
+        "https://docs.byteplus.com/en/docs/ModelArk/1330310",
+        "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+        "https://vercel.com/ai-gateway/models/gpt-6.1-terra",
+        "https://ollama.com/pricing",
+        "https://ollama.com/blog/transparent-pricing",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://thegrid.ai/pricing",
+        "https://platform.baichuan-ai.com/prices",
+        "https://runaii.cloud/pricing"
+      ],
+      "published_at": "2026-10-27T19:46:00+08:00",
+      "id": "2026-10-27-evening",
+      "kind": "evening"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "10 月 28 日早报：1 亿决策 Tokens 落篮，旧 $100 线索归档 ☀️",
+      "summary": "今天确认 Codiv 提供 1 亿决策 Tokens 与独立 1000 万文本生成 Tokens，个人免绑卡，收录为 premium。阿里云百炼北京地域的领取门槛也已澄清；General Compute 旧 $100 专项连续三日无当前依据，转入核查归档。",
+      "highlights": [
+        "Codiv：个人注册免绑卡，可免费获得 1 亿结构化决策输入 Tokens，另有独立的 1000 万 DiffusionGemma 文本生成 Tokens；两项额度用途不同，不合并为通用聊天额度。",
+        "阿里云百炼北京地域：官方额度页明确，免费量通常按模型分别计算，每个合资格模型约 100 万 Tokens、有效期 90 天；领取无需实名认证或购买。",
+        "General Compute 旧 $100 专项连续三个不同北京时间自然日都没有可靠的当前有效依据，按规则转为 unverifiable；现有 $5 Agent Signup 是另一项活动。",
+        "八项 pending 已完成今日复核。Ollama 官方额度口径仍有冲突，milliseconds.ai 与 River AI 等项目也没有足够一致的当前证据，状态不变。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://codiv.ai/",
+        "https://codiv.ai/docs/rate-limits",
+        "https://codiv.ai/docs/text-generation",
+        "https://codiv.ai/terms",
+        "https://www.alibabacloud.com/help/en/model-studio/free-quota",
+        "https://www.generalcompute.com/",
+        "https://www.generalcompute.com/agent-signup",
+        "https://ollama.com/pricing",
+        "https://ollama.com/blog/cloud-models",
+        "https://milliseconds.ai/pricing",
+        "https://riverai.dev/pricing"
+      ],
+      "published_at": "2026-10-28T19:02:00+08:00",
+      "id": "2026-10-28-morning",
+      "kind": "morning"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "10 月 28 日晚报：1 亿决策 Tokens 落篮，免费强模名单换班 🌙",
+      "summary": "今天新增 Codiv 免绑卡决策 API，FreeInference 也按官方目录换成四款当前免费模型。阿里云百炼北京地域的门槛已讲清，General Compute 旧 $100 线索完成三日复核并归档；没有新 Super。",
+      "highlights": [
+        "Codiv 新增为 active / premium：个人免绑卡可领 1 亿结构化决策输入 Tokens，另有独立 1000 万 DiffusionGemma 文本生成 Tokens。两套额度各算各的，不拼成 1.1 亿强模型额度。",
+        "FreeInference 的当前免费目录更新为 GLM-5.3 Flash、DeepSeek V4 Flash、MiniMax M3 和 Qwen3.6 35B；仍免信用卡，但要同意研究日志和去标识化数据分享。",
+        "阿里云百炼北京地域通常按每个合资格模型分别送约 100 万 Tokens，有效期 90 天；无需实名或购买。已实名账户建议开启额度用完即停。",
+        "General Compute 旧 $100 专项连续三个不同自然日没有找到当前领取依据，转入 unverifiable 核查归档。八项 pending 今天都复核过，状态没有变化。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://codiv.ai/",
+        "https://codiv.ai/signup",
+        "https://codiv.ai/docs/guides/rate-limits",
+        "https://codiv.ai/docs/guides/text-generation",
+        "https://codiv.ai/terms",
+        "https://freeinference.org/",
+        "https://freeinference.org/signup",
+        "https://freeinference.org/terms",
+        "https://doc.freeinference.org/models",
+        "https://help.aliyun.com/zh/model-studio/new-free-quota/",
+        "https://www.generalcompute.com/openclaw",
+        "https://docs.generalcompute.com/agent-signup",
+        "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://ollama.com/pricing",
+        "https://ollama.com/blog/cloud-models",
+        "https://thegrid.ai/pricing",
+        "https://platform.baichuan-ai.com/prices",
+        "https://runaii.cloud/pricing",
+        "https://milliseconds.ai/pricing",
+        "https://river.ai/pricing"
+      ],
+      "published_at": "2026-10-28T19:12:22+08:00",
+      "id": "2026-10-28-evening",
+      "kind": "evening"
+    }
+  ]
+}
