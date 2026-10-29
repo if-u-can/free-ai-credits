@@ -5330,6 +5330,162 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cartesia-20k-monthly-voice-api-2026",
+      "name": "Cartesia 每月 2 万语音 API Credits",
+      "type": "官方语音模型 API 免费档",
+      "description": "免费档每月补充 2 万语音 Credits，能调用 Sonic 3.6 语音合成和 Ink 2 转写；约够 27 分钟 TTS 或 1 小时 51 分钟 STT。免费档不含商用许可。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 67,
+      "quality_breakdown": {
+        "free_api_value": 19,
+        "model_usefulness": 16,
+        "claim_convenience": 20,
+        "validity_and_limits": 12
+      },
+      "grade_reason": "按月续期的语音 API 免费额度，TTS 和 STT 都能使用；不是通用编程推理模型。",
+      "credits": "Free $0/月，每月 20,000 Cartesia Credits（TTS 与 STT 共用）；官网估算 Sonic 3.6 约 27 分钟/月或 Ink 2 约 1 小时 51 分钟/月，不能将两项各自用满后相加。另有每月 $1 Managed Agents 预付额度，独立于语音 Credits；电话等费用另计。",
+      "models": [
+        "sonic-3.6（文本转语音，44 种语言）",
+        "Ink 2（语音转文字）"
+      ],
+      "requirements": "个人可通过公开 Start free 入口注册；免费档 TTS 2 路并发、STT 8 路并发。商用许可从付费 Pro 档开始；中国大陆注册、+86 手机号及实际 API 调用未实测。",
+      "payment_required": "官网公开 Free $0/月与 Start free 入口，未写必须先充值；注册是否要求绑定信用卡未登录实测。升级付费档或额外电话服务可能产生费用。",
+      "url": "https://www.cartesia.ai/pricing",
+      "official_source_url": "https://www.cartesia.ai/pricing",
+      "claim_url": "https://play.cartesia.ai/",
+      "source_type": "Cartesia 官方定价、模型 API 文档与公开注册入口",
+      "evidence_urls": [
+        "https://www.cartesia.ai/pricing",
+        "https://docs.cartesia.ai/get-started/overview",
+        "https://docs.cartesia.ai/build-with-cartesia/tts-models/latest",
+        "https://play.cartesia.ai/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 核对 Cartesia 当前 Pricing：Free $0/月，20K Credits/月，TTS 与 STT 共用，另有 $1/月 Managed Agents 预付额；Sonic 3.6 约 27 分钟 TTS、Ink 2 约 1h51m STT，TTS 2 并发、STT 8 并发。官方 Docs 提供 sonic-3.6 模型 ID、REST/WebSocket API，公开 Start free 入口跳转 play.cartesia.ai。免费档不含商用许可。未注册账户或验证支付卡、地区、余额与实际调用。",
+      "review_result": "官方当前免费配额、专用语音模型 API 和自助入口可验证，active/premium；非强通用模型，不评 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 Cartesia 官方定价、Sonic 3.6 API 文档与注册入口，确认月度语音免费配额及非商用限制；未实测账号、地区、支付卡或调用。",
+          "source_url": "https://www.cartesia.ai/pricing",
+          "secondary_sources": [
+            "https://docs.cartesia.ai/get-started/overview",
+            "https://docs.cartesia.ai/build-with-cartesia/tts-models/latest",
+            "https://play.cartesia.ai/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs-10k-monthly-voice-api-2026",
+      "name": "ElevenLabs 每月 1 万免费语音 API Credits",
+      "type": "官方语音模型 API 免费档",
+      "description": "每月 1 万 Credits 可用于 ElevenLabs 语音合成、识别等 API，免绑卡；约够 10 分钟标准 TTS，免费档仅限个人非商用。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 13,
+        "model_usefulness": 17,
+        "claim_convenience": 23,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "免费 API Key 和持续月度语音额度可验证，但配额较小、非商用，属于专用语音模型。",
+      "credits": "Free $0/月、10,000 Credits/月，共享于 TTS、STT、音效等产品；标准 TTS 约 10 分钟，部分 Flash/Turbo 模型按每字符 0.5–1 Credit 计。免费档不结转未使用 Credits，不是 $10 API 美元赠金。",
+      "models": [
+        "eleven_flash_v2_5（低延迟文本转语音）",
+        "Eleven v3 / v4（文本转语音，具体免费账户模型与音色权限以控制台为准）",
+        "Scribe v2（语音转文字）"
+      ],
+      "requirements": "个人通过 ElevenLabs 公开注册并生成 API Key；免费档仅个人非商用，部分音色、克隆与高规格输出受付费档限制。中国大陆及+86地区资格、实际可用音色和 API 成功调用未实测。",
+      "payment_required": "官方开发者 API 领取页明确免费注册 10K Credits、无需信用卡；无需预充值。超额使用须主动开通付费服务。",
+      "url": "https://elevenlabs.io/pricing",
+      "official_source_url": "https://join.elevenlabs.io/api/developer-api",
+      "claim_url": "https://elevenlabs.io/app/sign-up",
+      "source_type": "ElevenLabs 官方开发者 API 领取页、当前定价与 Billing 文档",
+      "evidence_urls": [
+        "https://join.elevenlabs.io/api/developer-api",
+        "https://elevenlabs.io/pricing",
+        "https://elevenlabs.io/pricing/api",
+        "https://elevenlabs.io/docs/overview/administration/billing",
+        "https://elevenlabs.io/app/sign-up"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 官方 ElevenAPI 开发者页明确新用户免费 API Key、10K Credits/月、免信用卡，并展示 eleven_flash_v2_5 实际 REST API 调用；当前 Pricing 免费档 $0/月、10K Credits，非商用，月度未用额度不结转。Billing 文档确认新账号自动分配免费档。免费档具体音色与模型权限存在差异，未注册账号实测、地区资格或实际 API 调用。",
+      "review_result": "官方当期免费 API、领取入口、免卡和模型调用方式均可验证，active/normal；月度额度小且非商用，不满足 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 ElevenLabs 官方开发者 API 领取页、定价与账单文档：每月 10K Credits、免卡、可创建 API Key；未实测账号地区、免费音色或调用。",
+          "source_url": "https://join.elevenlabs.io/api/developer-api",
+          "secondary_sources": [
+            "https://elevenlabs.io/pricing",
+            "https://elevenlabs.io/docs/overview/administration/billing",
+            "https://elevenlabs.io/app/sign-up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baseten-new-account-model-api-credits-2026",
+      "name": "Baseten 新账户模型 API 试用赠额（金额待核实）",
+      "type": "官方强模型推理平台（待核实赠额适用范围）",
+      "description": "Baseten 官方确认新账户附带试用 Credits，模型 API 目录有 GLM-5.3、DeepSeek V4 Pro 和 Kimi K3；当前公开规则未写赠额金额及是否可抵扣这些模型 API。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": null,
+      "quality_score": null,
+      "quality_breakdown": null,
+      "credits": "Baseten 当前 Pricing FAQ 确认新账户附带免费试用 Credits，但未公开具体金额。第三方目录称 $30，缺少官方当前金额佐证，暂不按 $30 或 Super 宣传。",
+      "models": [
+        "GLM-5.3（当前 Model API）",
+        "DeepSeek V4 Pro 0813（当前 Model API）",
+        "Kimi K3（当前 Model API）"
+      ],
+      "requirements": "Baseten 公开注册入口存在；个人是否自动获赠、具体地区限制、支付卡验证、额度到期日、是否抵扣 Model APIs 均待核实。Startup Program 需审批的 $2,500 / $25,000 项目不计入此线索。",
+      "payment_required": "官方定价页 Basic 为 $0/月按量计费，是否必须绑卡或先充值才能领取/使用新客试用 Credits 尚未确认。",
+      "url": "https://www.baseten.co/pricing/",
+      "official_source_url": "https://www.baseten.co/pricing/",
+      "claim_url": "https://app.baseten.co/signup",
+      "source_type": "Baseten 官方 Pricing FAQ、Model APIs 产品页、注册入口",
+      "evidence_urls": [
+        "https://www.baseten.co/pricing/",
+        "https://www.baseten.co/products/model-apis/",
+        "https://app.baseten.co/signup",
+        "https://www.baseten.co/talk-to-us/startup-program/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": null,
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": "2026-10-30",
+      "verification_note": "2026-10-29 核对 Baseten 官方 Pricing FAQ：new accounts come with credits to experiment with deployments for free；当前 Model APIs 产品页列 GLM-5.3、DeepSeek V4 Pro 0813、Kimi K3 等 OpenAI 兼容模型。官方未明确赠额金额或该 Credits 可抵扣 Model APIs；第三方称 $30，但没有采用为官方事实。注册入口需 JS/反机器人验证，未实测注册、绑卡、额度或地区。排除须申请审批的 Startup Program 额度。",
+      "review_result": "有当期官方新客试用 Credits 与强模型 API 产品，但金额、个人领取及能否用于 Model APIs 未证实，保持 pending，不评级。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 Baseten 当前 Pricing FAQ、Model APIs 模型目录、公开注册与 Startup Program；确认存在未标金额的新账户 Credits，尚不能证明能抵扣强模型 API 或免卡领取。",
+          "source_url": "https://www.baseten.co/pricing/",
+          "secondary_sources": [
+            "https://www.baseten.co/products/model-apis/",
+            "https://app.baseten.co/signup",
+            "https://www.baseten.co/talk-to-us/startup-program/"
+          ]
+        }
+      ],
+      "review_started_at": "2026-10-29",
+      "review_attempts": 1
     }
   ],
   "grade_policy": {
