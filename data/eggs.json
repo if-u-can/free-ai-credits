@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-29T14:33:22+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -5700,6 +5700,113 @@
           "secondary_sources": [
             "https://docs.stability.ai/pricing",
             "https://platform.stability.ai/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digitalocean-managed-agents-5-inference-trial-2026",
+      "name": "DigitalOcean 新客 $5 推理与智能体 API 赠额",
+      "type": "正规云厂商官方 Serverless Inference 模型 API 试用",
+      "description": "DigitalOcean 新客户免绑卡获 $5 试用金，除了运行托管智能体，也能直接抵扣 Serverless Inference 的模型 API；适合用 Kimi K3、GLM-5.3 试写代码和搭原型。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 63,
+      "quality_breakdown": {
+        "free_api_value": 11,
+        "model_usefulness": 23,
+        "claim_convenience": 21,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方明确新客免卡 $5 赠额可抵扣模型推理 API，模型实用但金额较小，评普通鸡蛋。",
+      "credits": "DigitalOcean 全新客户一次性 $5 USD promotional credits（非每月）；官方明确适用于 Serverless Inference、Harness Runtime、Action Gateway，三者共用赠额。耗尽后如未充值，相关预付服务停止。官方未公开本项赠额到期日。",
+      "models": [
+        "kimi-k3（Kimi K3，DigitalOcean-hosted Serverless Inference）",
+        "glm-5.3（GLM-5.3，DigitalOcean-hosted Serverless Inference）",
+        "deepseek-v4.1-flash（DeepSeek V4.1 Flash，平台推理模型；赠额适用范围以账户账单为准）"
+      ],
+      "requirements": "仅新 DigitalOcean 客户；官方 2026-10-01 公告明确免费试用无需绑卡，个人可通过云控制台注册并开通。服务仅在支持 Managed Agents 的地区开放；中国大陆个人地区、+86 手机号、账户实际到账及 API 调用未登录实测。",
+      "payment_required": "官方宣布免费试用无需信用卡或先充值；赠额用尽后需主动向 Inference and Agents balance 或账户余额充值才继续预付推理。付费订阅及自动充值需单独开启。",
+      "url": "https://www.digitalocean.com/products/managed-agents",
+      "official_source_url": "https://docs.digitalocean.com/products/managed-agents/action-gateway/how-to/manage-ag-prepayment/",
+      "claim_url": "https://cloud.digitalocean.com/managed-agents/harness-runtime",
+      "source_type": "DigitalOcean 2026-10-01 官方公告、现行 Managed Agents 免费试用页、预付账单文档、Serverless Inference 模型与 API 文档",
+      "evidence_urls": [
+        "https://investors.digitalocean.com/news/news-details/2026/DigitalOcean-Introduces-Agent-Droplets-Everything-an-AI-Agent-Needs-One-Simple-Monthly-Price/default.aspx",
+        "https://www.digitalocean.com/products/managed-agents",
+        "https://docs.digitalocean.com/products/managed-agents/action-gateway/how-to/manage-ag-prepayment/",
+        "https://docs.digitalocean.com/products/inference/details/features/",
+        "https://docs.digitalocean.com/products/inference/details/models/",
+        "https://cloud.digitalocean.com/managed-agents/harness-runtime"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 重新核对 DigitalOcean 官方 2026-10-01 公告（新客 $5、免卡、赠额涵盖自托管模型推理）、Managed Agents 现行 Free Trial $5 页面及官方账单文档（明确 promotional credits 直接抵扣 Serverless Inference、Harness Runtime、Action Gateway）；推理功能文档确认可以直接凭模型访问密钥调用，不需要先创建 Agent。当前模型目录包括 Kimi K3、GLM-5.3。未注册账户，未核实地区资格、余额到账、具体有效期或第三方商业模型能否抵扣；仅按官方明确的 DigitalOcean-hosted 模型价值收录。",
+      "review_result": "官方当期可领 $5、免卡、明确抵扣真实模型 API，active/normal；金额小且推理/智能体共享余额。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核查 10 月 1 日官方发布、现行试用页、预付账单与推理模型目录；确认新客 $5 可用于直接 Serverless Inference API，免卡；未实测注册/地区/到账。",
+          "source_url": "https://docs.digitalocean.com/products/managed-agents/action-gateway/how-to/manage-ag-prepayment/",
+          "secondary_sources": [
+            "https://www.digitalocean.com/products/managed-agents",
+            "https://docs.digitalocean.com/products/inference/details/models/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liquid-ai-new-org-2-api-credits-2026",
+      "name": "Liquid AI 新组织 $2 模型 API 免费赠额",
+      "type": "正规模型厂商官方 API 新客试用",
+      "description": "Liquid Console 新组织注册送 $2 API 额度，能直接试用 d1 决策模型和 LFM2.5-24B-A2B 文本模型；赠额不大，但轻量任务的单价很低。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 54,
+      "quality_breakdown": {
+        "free_api_value": 8,
+        "model_usefulness": 15,
+        "claim_convenience": 21,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官网定价与注册页同步确认新组织 $2 真实模型 API credits，金额小且非强通用编程旗舰模型，评普通鸡蛋。",
+      "credits": "每个新组织一次性 $2 USD Liquid Console API credits（非每月）；官网注册页标注限时，尚未公布活动结束日期、赠额到期日或能否结转。当前 d1 输入 $0.02/百万 Tokens、输出免费；LFM2.5-24B-A2B 输入 $0.05/百万 Tokens、输出 $0.70/百万 Tokens。",
+      "models": [
+        "d1（结构化决策模型）",
+        "d1-ultra（结构化决策模型）",
+        "LFM2.5-24B-A2B（文本生成 API）",
+        "LFM3-1.7B（轻量文本模型 API）"
+      ],
+      "requirements": "通过 Liquid Console 官方公开注册入口创建新账户/组织；官网写每个新组织赠 $2 API credits。是否需绑卡、+86 手机号及中国大陆地区资格、每人可创建组织数、实际到账未登录实测；无企业/学生审批要求的公开说明。",
+      "payment_required": "官方定价与注册页均展示新客 $2 免费 API credits；是否要求绑定支付卡未在公开可读页面明确，未实测；未找到领取前实际付款要求。",
+      "url": "https://www.liquid.ai/pricing",
+      "official_source_url": "https://www.liquid.ai/pricing",
+      "claim_url": "https://console.liquid.ai/sign-up",
+      "source_type": "Liquid AI 官方现行定价、API Console 公开注册页和模型文档",
+      "evidence_urls": [
+        "https://www.liquid.ai/pricing",
+        "https://console.liquid.ai/",
+        "https://console.liquid.ai/sign-up",
+        "https://docs.liquid.ai/lfm/models/complete-library"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 直读 Liquid AI 官方现行 Pricing，明确每个新组织赠 $2 free credit 且标注 Liquid Console 为直接 API 渠道，列出 d1、d1-ultra、LFM2.5-24B-A2B 和 LFM3-1.7B 的 API 价格；Console 注册页同时写 limited time $2 in free API credits。未实测中国大陆资格、支付卡、赠额到账或实际调用；未发现明确的赠额到期日。",
+      "review_result": "官网现行定价及注册页确认 $2 API credits 和可调用模型，active/normal；属于低额一次性试用。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 Liquid AI 官方定价和 Console 注册页，两处均明确新客 $2 模型 API 额度；支付卡、地区、有效期与实际到账尚未登录核实。",
+          "source_url": "https://www.liquid.ai/pricing",
+          "secondary_sources": [
+            "https://console.liquid.ai/sign-up",
+            "https://docs.liquid.ai/lfm/models/complete-library"
           ]
         }
       ]
