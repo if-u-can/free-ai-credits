@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:31:48+08:00",
+  "updated_at": "2026-10-29T23:40:00+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6059,6 +6059,62 @@
           "secondary_sources": [
             "https://exa.ai/products/agent",
             "https://exa.ai/docs/agent/quickstart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mimo-v25-tts-free-api-2026",
+      "name": "小米 MiMo V2.5 三款 TTS 模型 API 限时免费",
+      "type": "官方模型厂商 / 语音合成 API 限时免费",
+      "description": "小米 MiMo 的标准配音、声音克隆和音色设计三款 TTS API 当前全部免费，个人小米账号创建普通 API Key 即可接入；活动未公布截止日期。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 72,
+      "quality_breakdown": {
+        "free_api_value": 27,
+        "model_usefulness": 16,
+        "claim_convenience": 22,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "三款可直接通过模型 API 调用的语音服务限时零价格，个人注册入口公开且速率配额较高；非通用编程模型，免费总量和结束日期未公布，评 premium。",
+      "credits": "官方 2026-10-21 更新的按量 API 定价表明确三款 TTS 模型国内及海外均限时免费（当前价格为 0），不是一次性美元/人民币赠金。模型目录列每款最高 100 RPM、10M TPM，未公布免费调用总量或结束日。",
+      "models": [
+        "mimo-v2.5-tts（标准语音合成）",
+        "mimo-v2.5-tts-voiceclone（参考音频音色克隆）",
+        "mimo-v2.5-tts-voicedesign（文本描述设计音色）"
+      ],
+      "requirements": "仅需个人小米账号登录开放平台：大陆支持手机号或微信/QQ/支付宝等第三方方式注册，海外支持邮箱或 Google/Facebook 登录；创建普通按量 API Key（sk- 前缀）。充值或购买套餐需实名认证，但免费 TTS 首次调用是否要求实名未实测。无需企业/学生身份或订阅 Token Plan。",
+      "payment_required": "官网明确按量 API Key 对应三款 TTS 当前限时零价格，文档未要求为 TTS 购买 Token Plan；是否需绑定支付方式、是否要求先充值以激活普通 Key，未进行账号实测。其他收费模型和联网插件可能消耗余额，不能把 TTS 免费扩展到全平台。",
+      "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "official_source_url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+      "claim_url": "https://platform.xiaomimimo.com/",
+      "source_type": "小米 MiMo 官方 2026-10-21 API 定价、模型目录、TTS API 示例及账号说明",
+      "evidence_urls": [
+        "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+        "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voiceclone",
+        "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voicedesign",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/usage-guide/audio/speech-synthesis-v2.5",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/summary/first-api-call",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/faq/account",
+        "https://mimo.mi.com/docs/zh-CN/quick-start/summary/model"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 读取小米官方 2026-10-21 更新的按量 API 定价页，三款 mimo-v2.5-tts 系列在国内与海外均标注限时免费；独立模型页显示 VoiceClone 100 RPM、10M TPM，并明确在控制台创建普通 API Key 接入；官方 TTS 接口示例确认标准配音、声音克隆、音色设计可走 OpenAI 兼容模型 API。账号 FAQ 允许大陆个人手机号或第三方注册，海外邮箱注册；充值/购买套餐需实名，但免费 TTS 是否需先充值、绑卡及实际调用未登录实测。未找到固定活动截止日期，不推断永久免费。与已有小米 ¥10 邀请 API 赠金为不同独立活动。",
+      "review_result": "现行官方按量 API 价格、具体模型、公开个人注册及 API Key 入口可核实，active/premium；支付激活细节及实际到账/调用仍未实测。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 10月21日更新的官方 TTS 零价格、三款 API 模型、普通 API Key 入口和个人账号注册；未验证账号支付激活或实际调用。",
+          "source_url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+          "secondary_sources": [
+            "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voiceclone",
+            "https://mimo.mi.com/docs/zh-CN/quick-start/summary/first-api-call",
+            "https://mimo.mi.com/docs/zh-CN/quick-start/faq/account"
           ]
         }
       ]
