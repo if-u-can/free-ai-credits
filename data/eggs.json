@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T19:26:21+08:00",
+  "updated_at": "2026-10-29T22:31:48+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2798,27 +2798,22 @@
     },
     {
       "id": "braintrust-starter-10-monthly-model-api-2026",
-      "name": "Braintrust Starter 每月 $10 强模型 API 额度",
-      "type": "正规 AI 开发平台官方内置模型 API 额度",
-      "description": "Starter 免费档每月提供 $10 内置模型调用额度，能通过 Braintrust Gateway 使用 Kimi K3、DeepSeek V4 Flash、GLM-5.2；强模型需工作邮箱注册或绑卡。",
-      "status": "active",
-      "grade": "premium",
-      "quality_score": 73,
-      "quality_breakdown": {
-        "free_api_value": 24,
-        "model_usefulness": 24,
-        "claim_convenience": 15,
-        "validity_and_limits": 10
-      },
-      "grade_reason": "官方每月持续提供 $10 可抵扣强模型 Gateway API 调用，实用性高；强模型访问有工作邮箱或绑卡条件，且额度不足 Super 高价值门槛。",
-      "credits": "Starter $0/月，包含每月 $10 内置模型 credits；每月额度不等于额外 $10 可提现余额，超出部分按 token 计费，未核实是否可跨月累积。",
+      "name": "Braintrust Starter 每月 $10 内置模型额度（直接 API 需 Pro）",
+      "type": "官方 AI 开发平台内置模型额度（免费直接模型 API 不可用）",
+      "description": "Starter 每月 $10 可用于平台内置模型的 Playground、评估和内置功能；直接通过 Gateway/AI proxy 调用模型要求付费 Pro 或 Enterprise，不属于免费模型推理 API。",
+      "status": "excluded",
+      "grade": null,
+      "quality_score": null,
+      "quality_breakdown": null,
+      "grade_reason": null,
+      "credits": "Starter 每月 $10 model credits，可用于平台内置模型及 AI 功能；不代表免费开放直接模型推理 API。直接 Gateway/AI proxy 调用内置模型需要 Pro（$249/月）或 Enterprise。",
       "models": [
         "Kimi K3 (kimi-k3)",
         "DeepSeek V4 Flash (deepseek-v4-flash-0731)",
         "GLM-5.2"
       ],
-      "requirements": "个人可注册 Starter；官方 2026-08 模型公告明确：使用这些内置强模型，组织需以工作邮箱注册或绑定支付卡。中国大陆注册/手机号/支付卡资格未实测，未进行真实 API 请求。",
-      "payment_required": "Starter 开户官方称无需信用卡；但要调用 Kimi K3/DeepSeek V4 Flash/GLM-5.2 等内置强模型，必须使用工作邮箱注册或绑卡。官方写明超出免费额度后按量计费，是否会实际扣款取决于账户付款设置，未实测。",
+      "requirements": "Starter 可免费注册。使用平台内置模型需组织拥有工作邮箱域名的 owner 或绑定支付方式；直接通过 Braintrust API Key/服务令牌调用内置模型还必须升级 Pro/Enterprise，Starter 请求返回 HTTP 403。",
+      "payment_required": "Starter 平台可免绑卡注册，工作邮箱 owner 可解锁平台内置模型功能；直接模型推理 API 必须付费升级 Pro/Enterprise（Pro 标价 $249/月）。",
       "url": "https://www.braintrust.dev/pricing",
       "official_source_url": "https://www.braintrust.dev/pricing",
       "claim_url": "https://www.braintrust.dev/",
@@ -2826,15 +2821,17 @@
       "evidence_urls": [
         "https://www.braintrust.dev/pricing",
         "https://www.braintrust.dev/evals/kimi-k3-deepseek-v4",
-        "https://www.braintrust.dev/blog/starter-plan"
+        "https://www.braintrust.dev/blog/starter-plan",
+        "https://www.braintrust.dev/docs/admin/ai-providers",
+        "https://www.braintrust.dev/docs/deploy/gateway"
       ],
       "discovered_at": "2026-10-16",
-      "verified_at": "2026-10-16",
-      "last_seen_at": "2026-10-16",
-      "last_reviewed_at": "2026-10-16",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
       "next_review_at": null,
-      "verification_note": "2026-10-16 读取 Braintrust 官方 Pricing：Starter $0/月，每月含 $10 model credits，适用于无需自备模型密钥的内置模型。官方 2026-08-12 对比文确认 Kimi K3、DeepSeek V4 Flash、GLM-5.2 可用内置 Gateway API，Starter 强模型资格需工作邮箱注册或绑卡；超出赠额按 token 收费。未创建新账号、未实际发起请求，地区、信用卡通过率、超额计费控制未实测。",
-      "review_result": "当前官方赠额与具体强模型 API 证据成立，active/premium；资格门槛与每月 $10 不满足 Super。",
+      "verification_note": "2026-10-29 交叉核查现行 Pricing、Gateway Quickstart 与 Configure AI providers / Requirements：Starter 确有每月 $10 model credits，但内置模型仅能在 Playground、prompts、scorers、Loop 等 Braintrust 内部功能使用。官方明确：直接使用 Gateway/AI proxy 调用内置模型要求 Pro/Enterprise；Starter 返回 403（Native inference requires a Pro or Enterprise plan）。原记录误将 Starter 内部模型额度当作免费直接推理 API，故改 excluded；不是额度已过期。",
+      "review_result": "官方当前文档明确 Starter 无法直接通过 Gateway/AI proxy 调用内置模型（HTTP 403），须 Pro/Enterprise；不满足本站免费模型 API 收录范围，转 excluded。",
       "review_history": [
         {
           "date": "2026-10-16",
@@ -2842,6 +2839,15 @@
           "source_url": "https://www.braintrust.dev/pricing",
           "secondary_sources": [
             "https://www.braintrust.dev/evals/kimi-k3-deepseek-v4"
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "result": "现行官方 Requirements 明确 Starter 直接 Gateway/AI proxy 调用内置模型返回 HTTP 403，需 Pro/Enterprise；Starter $10 只用于平台内部模型功能。由 active/premium 改 excluded，保留原历史。",
+          "source_url": "https://www.braintrust.dev/docs/admin/ai-providers",
+          "secondary_sources": [
+            "https://www.braintrust.dev/docs/deploy/gateway",
+            "https://www.braintrust.dev/pricing"
           ]
         }
       ]
