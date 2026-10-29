@@ -5275,6 +5275,61 @@
           ]
         }
       ]
+    },
+    {
+      "id": "moondream-cloud-5-monthly-vision-api-2026",
+      "name": "Moondream Cloud 每月 $5 视觉模型 API 免费额度",
+      "type": "官方视觉语言模型 API 月度免费档",
+      "description": "每月自动附赠 $5 Cloud API 额度，免绑卡，可调用 Moondream 3.1 做看图问答、描述、目标检测和分割；免费档每秒最多 2 次请求。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 69,
+      "quality_breakdown": {
+        "free_api_value": 18,
+        "model_usefulness": 17,
+        "claim_convenience": 23,
+        "validity_and_limits": 11
+      },
+      "grade_reason": "每月续送 $5 且无需绑卡，视觉理解 API 可持续使用；属于专用视觉模型，不能替代强编程推理模型的 Super 额度。",
+      "credits": "每个工作区每月 $5 USD Cloud usage credits；免费个人档 $0/月。按模型输入/输出 Tokens 扣费，Moondream 3.1 9B A2B 实时价 $0.30/M 输入、$1.00/M 输出；未确认月度余额是否结转。",
+      "models": [
+        "moondream3.1-9B-A2B（Moondream 3.1 视觉语言模型）",
+        "moondream3-preview（Moondream 3 Preview 视觉模型）"
+      ],
+      "requirements": "18 岁及以上个人可通过 Google 或 GitHub 在公开入口注册并创建 API Key，无需企业或学生身份；免费档每个工作区 1 席位，默认 2 请求/秒。中国大陆及账号实际到账、API 成功调用未登录实测。",
+      "payment_required": "官方明确每月 $5 免费额度无需绑定信用卡或预充值；服务为按量计费，若主动添加付款方式并超出免费额度可能产生费用。",
+      "url": "https://moondream.ai/pricing",
+      "official_source_url": "https://moondream.ai/pricing",
+      "claim_url": "https://moondream.ai/login",
+      "source_type": "Moondream 官方定价、Cloud 产品、API 文档、速率限制、登录入口及服务条款",
+      "evidence_urls": [
+        "https://moondream.ai/pricing",
+        "https://moondream.ai/cloud",
+        "https://moondream.ai/login",
+        "https://docs.moondream.ai/api/",
+        "https://docs.moondream.ai/rate-limits/",
+        "https://moondream.ai/terms"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 核查官方现行定价：Free $0/月、每工作区每月 $5 usage credits；Cloud 页与官网明确免信用卡，Google/GitHub 登录入口可访问。API 文档提供 moondream3.1-9B-A2B 与 moondream3-preview 的实际调用路由（/v1/query、/detect、/caption、/segment 等），默认 2 RPS。服务条款允许 18 岁以上个人。未创建账户、核验中国大陆资格、余额到账或实际 API 调用；官方未明确免费月额是否结转。",
+      "review_result": "现行官方免费额度、模型 API、个人自助入口和免卡要求可验证，active/premium；专用视觉模型且 $5/月，不满足 Super 强模型及高价值条件。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "查阅 Moondream 官方定价、Cloud、API、速率限制、登录页和条款，确认每月 $5 免绑卡、视觉模型 API 和 2 RPS；未实测地区、注册或到账。",
+          "source_url": "https://moondream.ai/pricing",
+          "secondary_sources": [
+            "https://moondream.ai/cloud",
+            "https://docs.moondream.ai/api/",
+            "https://docs.moondream.ai/rate-limits/",
+            "https://moondream.ai/login"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
