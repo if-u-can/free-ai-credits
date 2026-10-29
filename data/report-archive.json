@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T08:03:41+08:00",
+  "updated_at": "2026-10-29T19:08:54+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -686,6 +686,39 @@
       "published_at": "2026-10-29T08:03:41+08:00",
       "id": "2026-10-29-morning",
       "kind": "morning"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "10 月 29 日晚报：2 亿检索 Tokens 抢镜，月度视觉与语音额度上新 🌙",
+      "summary": "下午新增 Voyage 2 亿检索 Tokens、Moondream 每月 $5 视觉额度，以及 Polly、Cartesia、ElevenLabs 的月度语音免费档。小额模型试用也集中补齐；Scaleway 因 100 万 Tokens 为共享额度且需绑卡，降为 normal。9 项 pending 已复核，没有新 Super。",
+      "highlights": [
+        "Voyage AI 的合资格向量与重排模型提供首 2 亿免费 Tokens，评 premium；Jina AI 新 API Key 有 1000 万检索 Tokens。两项都适合 RAG、搜索和重排，不是通用聊天或编程额度。",
+        "Moondream 每月送 $5 视觉模型 API 额度且免绑卡；Amazon Polly 按月提供多档语音字符额度，Cartesia 和 ElevenLabs 也分别有 2 万、1 万月度语音 Credits。",
+        "一次性小额试用集中补齐：Mixedbread $5、DigitalOcean $5、Liquid AI $2、Runware $2，以及约值 $0.25 的 Stability AI 25 Credits。Runware 需企业域名邮箱，Liquid AI 的绑卡要求仍未确认。",
+        "Scaleway 的 100 万 Tokens 是所有按 Token 计费模型共享，另有 60 分钟转写额度；因需绑卡且超额计费，从 premium 调整为 normal。9 项 pending 今天均已复核，新增 Baseten 待核金额与适用范围；没有新 Super。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://docs.voyageai.com/docs/pricing",
+        "https://api.jina.ai/docs",
+        "https://moondream.ai/pricing",
+        "https://docs.moondream.ai/api/",
+        "https://aws.amazon.com/polly/pricing/",
+        "https://www.cartesia.ai/pricing",
+        "https://join.elevenlabs.io/api/developer-api",
+        "https://www.mixedbread.com/pricing",
+        "https://www.digitalocean.com/products/managed-agents",
+        "https://docs.digitalocean.com/products/managed-agents/action-gateway/how-to/manage-ag-prepayment/",
+        "https://www.liquid.ai/pricing",
+        "https://runware.ai/pricing",
+        "https://docs.stability.ai/getting-started",
+        "https://www.scaleway.com/en/docs/generative-apis/faq/",
+        "https://www.baseten.co/pricing/",
+        "https://www.baseten.co/products/model-apis/"
+      ],
+      "published_at": "2026-10-29T19:08:54+08:00",
+      "id": "2026-10-29-evening",
+      "kind": "evening"
     }
   ]
 }
