@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:43:03+08:00",
+  "updated_at": "2026-10-29T17:49:26+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -5862,6 +5862,61 @@
           "secondary_sources": [
             "https://console.liquid.ai/sign-up",
             "https://docs.liquid.ai/lfm/models/complete-library"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "runware-business-email-2-model-api-2026",
+      "name": "Runware 新客 $2 模型 API 赠额（需企业域名邮箱）",
+      "type": "官方推理平台新客模型 API 赠金",
+      "description": "使用企业域名邮箱注册可获一次性 $2 试用金，在 Runware 的统一模型 API 体验 Kimi K3、GLM、DeepSeek 及图像、视频生成。额度不大，适合先跑通接口。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 52,
+      "quality_breakdown": {
+        "free_api_value": 5,
+        "model_usefulness": 23,
+        "claim_convenience": 15,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方当前确认新用户 $2 可用于模型 API；金额较小，且必须使用 business email。",
+      "credits": "新用户使用 business email 注册赠一次性 $2 平台免费 credits；有效期和每模型具体限制未公开，不是每月重置。",
+      "models": [
+        "Kimi K3",
+        "GLM-5.3-Flash",
+        "DeepSeek V4 Flash",
+        "FLUX 等图像模型（依当前模型目录）"
+      ],
+      "requirements": "公开注册入口支持邮箱、Google、GitHub；$2 赠额明确限定 business email（企业域名邮箱），普通免费邮箱是否合资格未确认。未要求提交企业资质申请；中国大陆地区、手机号及实际到账未登录实测。",
+      "payment_required": "官网免费注册与 $2 赠额说明未要求先充值或绑定支付卡；是否有账户级验证步骤尚未实测。",
+      "url": "https://runware.ai/pricing",
+      "official_source_url": "https://runware.ai/pricing",
+      "claim_url": "https://runware.ai/signup",
+      "source_type": "Runware 官方定价、统一模型 API 和公开注册页面",
+      "evidence_urls": [
+        "https://runware.ai/pricing",
+        "https://runware.ai/models-api",
+        "https://runware.ai/signup",
+        "https://runware.ai/kimi-k3",
+        "https://runware.ai/free-openclaw"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 官方 pricing FAQ 明确新用户使用 business email 获 $2 免费 credits，可探索平台模型；Models API 官方页说明同一 API/账单覆盖文本、图片、视频、音频和 3D，Kimi K3 模型页确认 OpenAI 兼容端点及按 token 计费；公开 signup 可打开，支持邮箱及 OAuth。未注册账户验证邮箱类型、到账、地区、额度期限及具体模型实际扣费，故不宣传已实领。",
+      "review_result": "官方当期 $2 赠额、API 适用性及注册入口可核实；active/normal，企业域名邮箱限制明确。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核查官网定价 FAQ 的 business email $2 新客赠额、统一模型 API、Kimi K3 模型端点和公开注册入口；未做账户领取及调用实测。",
+          "source_url": "https://runware.ai/pricing",
+          "secondary_sources": [
+            "https://runware.ai/models-api",
+            "https://runware.ai/signup",
+            "https://runware.ai/kimi-k3"
           ]
         }
       ]
