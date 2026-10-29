@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T18:51:46+08:00",
+  "updated_at": "2026-10-29T19:26:21+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -5946,6 +5946,113 @@
             "https://runware.ai/models-api",
             "https://runware.ai/signup",
             "https://runware.ai/kimi-k3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sambanova-cloud-free-200k-tokens-per-model-daily-2026",
+      "name": "SambaNova Cloud 免费模型 API（每模型每日 20 万 Tokens）",
+      "type": "正规模型推理平台官方免费档",
+      "description": "SambaNova 免绑卡免费档开放 DeepSeek V3.2、GPT-OSS 120B 等模型 API；每款列明的模型每天最多 20 万 Tokens、20 次请求，适合低频开发与推理测试。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 75,
+      "quality_breakdown": {
+        "free_api_value": 26,
+        "model_usefulness": 20,
+        "claim_convenience": 22,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "官方持续免费、免绑卡，直接调用多款实用推理模型；单模型每日仅 20 次请求，吞吐限制明显，按 premium 收录。",
+      "credits": "免费档按模型分别限制：每款列明模型每天 200,000 Tokens、20 次请求、20 RPM；不是一次性赠金，也不将不同模型配额相加为单模型额度。官方未列固定活动结束日。",
+      "models": [
+        "DeepSeek-V3.1",
+        "DeepSeek-V3.2（Preview）",
+        "Meta-Llama-3.3-70B-Instruct",
+        "gpt-oss-120b",
+        "gemma-4-31B-it（Preview）"
+      ],
+      "requirements": "个人注册 SambaCloud 并生成 API Key；官方规定未绑定支付方式的账户自动处于 Free Tier。无需企业/学生资格或先充值；中国大陆注册、手机号要求与新账号实调尚未验证。",
+      "payment_required": "否；官方明确无支付方式即为 Free Tier，绑定支付方式才转 Developer Tier。",
+      "url": "https://docs.sambanova.ai/docs/en/models/rate-limits",
+      "official_source_url": "https://docs.sambanova.ai/docs/en/models/rate-limits",
+      "claim_url": "https://cloud.sambanova.ai/",
+      "source_type": "SambaNova 官方现行 Free Tier 限速、模型目录、Quickstart 与开发者社区",
+      "evidence_urls": [
+        "https://docs.sambanova.ai/docs/en/models/rate-limits",
+        "https://docs.sambanova.ai/docs/en/models/sambacloud-models",
+        "https://docs.sambanova.ai/docs/en/get-started/quickstart",
+        "https://cloud.sambanova.ai/",
+        "https://community.sambanova.ai/t/the-daily-limit-is-not-resetting-after-24-hours/1704/3"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 直读 SambaNova 官方 Rate Limits：无支付方式即 Free Tier，生产模型 DeepSeek-V3.1、Llama 3.3 70B、gpt-oss-120b 及 Preview DeepSeek-V3.2、Gemma 4 31B 各列 20 RPM、20 RPD、200,000 TPD；模型目录和 Quickstart 确认 OpenAI 兼容聊天推理 API。2026-08-03 官方社区人员说明每日限额按模型、按账号计且按固定日窗口重置。Preview 不适合生产并可能下架；官网另展示 MiniMax，但官方免费限额表未列，故不写入可免费模型。未登录注册或实调，中国大陆资格未知。",
+      "review_result": "当期官方 Free Tier 限额、个人无卡条件、模型及 API 入口齐备；按单模型日限速评 premium，未达到高宽松度 Super 门槛。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 SambaNova 官方 Free Tier 无卡规则、5 款列明模型的每日 20 次请求/20 万 Tokens 限额、API 调用文档与社区重置说明；未做新账号实调。",
+          "source_url": "https://docs.sambanova.ai/docs/en/models/rate-limits",
+          "secondary_sources": [
+            "https://docs.sambanova.ai/docs/en/models/sambacloud-models",
+            "https://docs.sambanova.ai/docs/en/get-started/quickstart",
+            "https://community.sambanova.ai/t/the-daily-limit-is-not-resetting-after-24-hours/1704/3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exa-agent-api-10-monthly-10-onboarding-2026",
+      "name": "Exa Agent API 每月 $10 + 新客 $10 研究额度",
+      "type": "正规 AI 研究智能体 API 官方免费档",
+      "description": "Exa 免费档每月提供 $10 API credits，新用户另获 $10 启动赠额；可直接调用 exa-agent 研究模型接口，输出带引用的调查报告和结构化结果，不是通用编程聊天额度。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 73,
+      "quality_breakdown": {
+        "free_api_value": 25,
+        "model_usefulness": 16,
+        "claim_convenience": 22,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方免绑卡每月 $10 加新客 $10，可用于 AI 研究 Agent API；专用联网调查服务而非通用强编程模型，故评 premium。",
+      "credits": "免费 Starter 计划每月 $10 USD credits，首次注册另加 $10 onboarding bonus；两者不是每月 $20。官方免费档开放所有端点，Agent 研究请求按任务复杂度计费，固定档约 $0.012–$1.00/次；超出附加数据服务可能另计。",
+      "models": [
+        "exa-agent（OpenAI 兼容 Responses API）",
+        "Exa Agent（多步骤研究、结构化输出与引用）"
+      ],
+      "requirements": "个人可通过公开 Dashboard 注册并创建 API Key；官方 Starter 免绑支付方式。中国大陆账户、手机号验证、实际赠额到账与 Agent API 免费额度扣减未登录实测。",
+      "payment_required": "否（官方 Starter Free 明确 No payment method required；升级 Developer 后按量计费）。",
+      "url": "https://exa.ai/pricing",
+      "official_source_url": "https://exa.ai/pricing",
+      "claim_url": "https://dashboard.exa.ai/",
+      "source_type": "Exa 官方当前定价、Agent API 产品页与开发者文档",
+      "evidence_urls": [
+        "https://exa.ai/pricing",
+        "https://exa.ai/products/agent",
+        "https://exa.ai/docs/agent/quickstart",
+        "https://dashboard.exa.ai/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 直读 Exa 官方实时 /pricing：Free Starter 明确每月 $10 + $10 onboarding bonus、无需支付方式、Access to all endpoints、50 Agent concurrency；Agent API 定价 $0.012–$1.00/固定档任务，文档确认 /agent/runs 和 OpenAI-compatible Responses API model=exa-agent。部分官网旧版缓存写新客 $20，实时官网现为 $10 onboarding，按当前页面收录。Dashboard 跳转登录认证页，未创建账号验证中国大陆地区或余额扣减；此服务提供联网研究生成，不是通用 Chat Completions 强模型。",
+      "review_result": "当前官方免费 Starter 与 Agent API 可用端点、免卡条件证据相符；按专用研究模型 API 评 premium，不满足通用强模型 Super 要求。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对实时官方 Free Starter $10/月 + $10 新客、无需支付方式、所有端点及 exa-agent Responses API；未登录实测地区资格、到账与扣减。",
+          "source_url": "https://exa.ai/pricing",
+          "secondary_sources": [
+            "https://exa.ai/products/agent",
+            "https://exa.ai/docs/agent/quickstart"
           ]
         }
       ]
