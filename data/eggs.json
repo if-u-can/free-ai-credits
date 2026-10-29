@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T03:50:06+08:00",
+  "updated_at": "2026-10-30T06:54:22+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6184,6 +6184,58 @@
             "https://mimo.mi.com/models/zh-CN/mimo-v2.5-tts-voiceclone",
             "https://mimo.mi.com/docs/zh-CN/quick-start/summary/first-api-call",
             "https://mimo.mi.com/docs/zh-CN/quick-start/faq/account"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wechat-cloudbase-miniapp-hy3-1b-tokens-2026",
+      "name": "微信 AI 小程序成长计划 · CloudBase 10 亿 Hy3 Tokens",
+      "type": "腾讯云官方小程序专项模型 API 免费配额",
+      "description": "个人微信小程序报名成长计划可获 10 亿混元 Hy3 Tokens，6 个月内用于小程序及 CloudBase 云函数/云托管调用；外部 API、Codex 等 AI 工具不能抵扣这份额度。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 69,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 20,
+        "claim_convenience": 12,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "官方确认高额 Hy3 模型调用配额且个人可参与；免费额度严格限制在微信小程序和云开发服务端，无法作为通用编程 API 赠金，因此不评 Super。",
+      "credits": "2026 年二期（7 月 1 日—12 月 31 日）报名成功后赠 10 亿混元 Hy3 文本 Tokens，另有 10 万张混元生图额度；自申请成功起 6 个月有效，每个小程序账号仅能参加一次。不是任意模型通用 10 亿 Tokens。",
+      "models": [
+        "hy3（腾讯混元 Hy3，限小程序/CloudBase 云开发服务端的成长计划资源包）"
+      ],
+      "requirements": "个人或企业主体微信小程序账号；在微信公众平台「行业能力 → 小程序成长计划」报名，须创建或绑定微信云开发环境。非企业专属，个人可参加；账号注册、主体信息验证、实际报名及到账尚未登录实测。活动二期至 2026-12-31。",
+      "payment_required": "官方对新报名且没有云开发环境的开发者提供免费 6 个月个人版环境和 AI 资源包，未列必须先充值或绑卡的领取条件；未实测账号开通。超出赠额或从外部 HTTP/API Key、Web SDK、AI 编程工具调用时不抵扣赠额，改扣云开发套餐资源点或直接失败。",
+      "url": "https://docs.cloudbase.net/ai/ai-inspire-plan",
+      "official_source_url": "https://docs.cloudbase.net/ai/ai-inspire-plan",
+      "claim_url": "https://mp.weixin.qq.com/",
+      "source_type": "腾讯云 CloudBase 2026 二期官方规则、官方 7 月公告、专项治理与模型 SDK 指南",
+      "evidence_urls": [
+        "https://docs.cloudbase.net/ai/ai-inspire-plan",
+        "https://docs.cloudbase.net/ai/ai-inspire-plan-rules",
+        "https://docs.cloudbase.net/ai/ai-inspire-plan-guide",
+        "https://tcb.cloud.tencent.com/blog/2026/07/07/wx-ai-miniapp-plan",
+        "https://cloud.tencent.com/document/product/876/130727"
+      ],
+      "discovered_at": "2026-10-30",
+      "verified_at": "2026-10-30",
+      "last_seen_at": "2026-10-30",
+      "last_reviewed_at": "2026-10-30",
+      "next_review_at": null,
+      "verification_note": "2026-10-30 查验腾讯云 CloudBase 现行官方活动规则：2026-07-01 至 12-31 二期个人/企业小程序报名可得 10 亿 Hy3 Tokens，6 个月有效，微信云开发环境报名后获取；官方模型使用指南给出云函数/云托管 Node SDK 调用 hy3 的真实 API 示例。专项治理公告明确免费配额仅小程序 SDK、云开发服务端 SDK 和云开发控制台可抵扣；外部直接 HTTP、第三方 API、Web SDK、Codex 等 AI 工具调用不能消耗这 10 亿赠额。Hy3-preview 已下线，须使用 hy3；其他模型不共享这 10 亿。公开资料未明确注册时支付卡验证细节，未创建个人小程序或实调。该赠额有真实但专用的模型 API 价值，按 premium 而非 super 收录。",
+      "review_result": "2026-10-30 官方现行二期 10 亿 Hy3 免费额度、个人报名路径、六个月有效期及云开发服务端 SDK 用法可验证；禁止当作通用外部 API/编程工具赠额，active/premium。",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "result": "核对腾讯云 2026 二期规则、CloudBase SDK 模型调用示例与专项治理：确认仅小程序和云开发服务端可以抵扣 10 亿 Hy3 Tokens；个人报名入口公开，未做登录领取/支付验证。",
+          "source_url": "https://docs.cloudbase.net/ai/ai-inspire-plan",
+          "secondary_sources": [
+            "https://docs.cloudbase.net/ai/ai-inspire-plan-rules",
+            "https://docs.cloudbase.net/ai/ai-inspire-plan-guide",
+            "https://tcb.cloud.tencent.com/blog/2026/07/07/wx-ai-miniapp-plan"
           ]
         }
       ]
