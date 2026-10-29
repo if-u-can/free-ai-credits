@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T19:12:22+08:00",
+  "updated_at": "2026-10-29T08:03:41+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -642,6 +642,50 @@
       "published_at": "2026-10-28T19:12:22+08:00",
       "id": "2026-10-28-evening",
       "kind": "evening"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "10 月 29 日早报：$200 语音额度领跑，声线 API 集体报到 ☀️",
+      "summary": "今天新增一批可直接拿 API Key 的语音服务：Deepgram $200、Speechmatics $100、AssemblyAI $50、Gladia €50，均按 active / premium 收录。Sarvam 也确认 ₹100 通用模型额度；IteraCompute 的 Qwen 免费 Super 已明确 11 月 24 日结束。",
+      "highlights": [
+        "Deepgram：新账户首次项目自动附赠 $200 语音 API credits，免绑卡，可用于 Nova-3、Aura 和 Voice Agent；官方到期口径有冲突，按更严格的注册后 1 年记录。",
+        "Speechmatics 送 $100，AssemblyAI 送 $50 且不失效，Gladia 送 €50 有效一年，Hume 新客有 $20 并带每月免费语音量。这批都是专用语音 API，评 premium，不硬凑 Super。",
+        "Sarvam AI 新用户验证后获 ₹100 通用 API credits，可用于 GLM-5.3、DeepSeek V4.1 Flash 等模型；HeyGen Voice Turbo 的免费 TTS API 则开放到 11 月 30 日。",
+        "IteraCompute 每月 3000 万 Tokens 的 Qwen3.8-27B 免费档已明确在 11 月 24 日 16:00（北京时间）结束。八项 pending 今天也都复核过，状态没有变化。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://deepgram.com/pricing",
+        "https://developers.deepgram.com/guides/fundamentals/make-your-first-api-request",
+        "https://developers.deepgram.com/guides/deep-dives/managing-projects",
+        "https://console.deepgram.com/signup",
+        "https://www.speechmatics.com/pricing",
+        "https://portal.speechmatics.com/",
+        "https://support.assemblyai.com/articles/5370767329-can-i-sign-up-for-free",
+        "https://www.assemblyai.com/dashboard/signup",
+        "https://support.gladia.io/article/credit-based-billing",
+        "https://app.gladia.io/",
+        "https://dev.hume.ai/voice/docs/resources/billing",
+        "https://www.hume.ai/pricing",
+        "https://docs.sarvam.ai/api/getting-started/ratelimits",
+        "https://docs.sarvam.ai/api/getting-started/pricing",
+        "https://indus.sarvam.ai/login",
+        "https://www.heygen.com/blog/heygen-voice-turbo",
+        "https://developers.heygen.com/docs/models/heygen-voice",
+        "https://iteracompute.com/free/",
+        "https://iteracompute.com/pricing/",
+        "https://fireworks.ai/docs/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://ollama.com/pricing",
+        "https://thegrid.ai/pricing",
+        "https://platform.baichuan-ai.com/prices",
+        "https://runaii.cloud/pricing",
+        "https://milliseconds.ai/pricing/",
+        "https://river.ai/pricing"
+      ],
+      "published_at": "2026-10-29T08:03:41+08:00",
+      "id": "2026-10-29-morning",
+      "kind": "morning"
     }
   ]
 }
