@@ -5486,6 +5486,117 @@
       ],
       "review_started_at": "2026-10-29",
       "review_attempts": 1
+    },
+    {
+      "id": "voyage-ai-200m-embedding-rerank-free-2026",
+      "name": "Voyage AI 向量与重排 API 免费 2 亿 Tokens",
+      "type": "官方嵌入与重排模型 API 新用户免费配额",
+      "description": "Voyage 的向量化与重排模型提供每账户首 2 亿 Tokens 免费用量，适合知识库检索和代码搜索。多模态嵌入另有 1500 亿像素免费配额，不是聊天生成模型额度。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 73,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 16,
+        "claim_convenience": 18,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "2 亿免费嵌入/重排 Tokens 有较高实际开发价值，公开 API 可自助开通；属于检索专用模型，不符合 Super 的强通用编程推理模型要求。",
+      "credits": "官方当前定价：符合资格的 voyage-4-large、voyage-4、voyage-4-lite、voyage-context-4、voyage-code-4 向量模型首 200,000,000 Tokens 免费；rerank-3 / rerank-3-lite 首 200,000,000 Tokens 免费；voyage-multimodal-3.5 / 3 的首 200,000,000 文本 Tokens 与 150,000,000,000 像素免费。不同模型组/模型之间是否独立计额未明确，不相加宣传；Batch API 不适用免费 Tokens。",
+      "models": [
+        "voyage-4-large（高质量文本嵌入）",
+        "voyage-4 / voyage-4-lite（文本嵌入）",
+        "voyage-context-4（上下文嵌入）",
+        "voyage-code-4（代码嵌入）",
+        "voyage-multimodal-3.5 / voyage-multimodal-3（多模态嵌入）",
+        "rerank-3 / rerank-3-lite（文档重排）"
+      ],
+      "requirements": "官方面向普通账号开放注册并自动创建 API Key；基础档限制按模型约 2,000 RPM、2M–16M TPM。个人及中国大陆注册/实际领取未登录实测；官网未公布免费 Tokens 失效日期。",
+      "payment_required": "官网将支付方式添加列为可选账户操作，预付购买须先绑支付方式；未见免费配额必须先充值的要求。未登录验证是否要求支付卡及超额后的账单行为。",
+      "url": "https://docs.voyageai.com/docs/pricing",
+      "official_source_url": "https://docs.voyageai.com/docs/pricing",
+      "claim_url": "https://dashboard.voyageai.com/",
+      "source_type": "Voyage AI 官方当前定价、FAQ、API 快速入门与速率限制",
+      "evidence_urls": [
+        "https://docs.voyageai.com/docs/pricing",
+        "https://docs.voyageai.com/docs/faq",
+        "https://docs.voyageai.com/docs/rate-limits",
+        "https://docs.voyageai.com/docs/quickstart-tutorial",
+        "https://blog.voyageai.com/2026/09/30/rerank-3/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 直接核对 Voyage 官方现行 Pricing（更新于约9月底）列出文本嵌入、重排、多模态的免费 200M Tokens 及 150B 像素；FAQ 说明每账户首 200M 免费、注册自动生成 API Key，基础速率限制页确认 API 可调用。Pricing 旧概述把 voyage-code-3 列在免费名单，但同页价格表显示 voyage-code-4 免费、code-3 为旧版不免费，故仅记录 code-4。Batch API 明确不适用免费额度。未完成登录、地区/绑卡/到账/调用实测；免费组额度是否分别独立及过期日未公开。",
+      "review_result": "现行官方免费配额、具体可用嵌入/重排模型与 API Key 开通流程可核验，active/premium；专用检索 API 非强通用模型 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "复查官方 Pricing、FAQ、Rate Limits 与快速入门：确认新账号嵌入/重排首 200M Tokens、部分多模态像素免费；Batch 不适用，地区、绑卡及实领未测试。",
+          "source_url": "https://docs.voyageai.com/docs/pricing",
+          "secondary_sources": [
+            "https://docs.voyageai.com/docs/faq",
+            "https://docs.voyageai.com/docs/rate-limits",
+            "https://docs.voyageai.com/docs/quickstart-tutorial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jina-ai-10m-search-foundation-api-2026",
+      "name": "Jina AI 新客 1000 万 Tokens 检索模型 API",
+      "type": "官方向量、重排及文档理解模型 API 新用户免费额度",
+      "description": "Jina 官方给新 API Key 1000 万免费 Tokens，可做多语言向量化、检索重排与文档 OCR。免费档每分钟最高 500 次向量/重排请求，适合做知识库小实验。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 61,
+      "quality_breakdown": {
+        "free_api_value": 13,
+        "model_usefulness": 16,
+        "claim_convenience": 22,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方明确新用户 1000 万免费 Tokens，支持实用的向量与重排 API；主要是检索专用模型，按 Token 单价折算价值有限。",
+      "credits": "每个新 API Key 官方宣传附带 10,000,000 免费 Tokens（按服务消耗，不是 1000 万通用聊天生成 Tokens）；未公布免费额度到期日。",
+      "models": [
+        "jina-embeddings-v5-text-small / jina-embeddings-v5-text-nano（文本向量）",
+        "jina-embeddings-v5-omni-small / jina-embeddings-v5-omni-nano（多模态向量）",
+        "jina-embeddings-v4 / jina-embeddings-v3（向量）",
+        "jina-reranker-v3.5 / jina-reranker-v3（文档重排）",
+        "jina-ocr-v1（文档 OCR）"
+      ],
+      "requirements": "公开 API Key 管理入口；官方 Search Foundation API 文档列免费档 Embeddings/Rerank 500 RPM、1M TPM、5 并发，OCR 聊天格式端点 100 RPM。中国大陆个人资格、注册/到账未登录实测。",
+      "payment_required": "官方展示免费 API Key 档，但未在所查当前页面明确绑定支付卡要求或超额后收费流程；未实测，不宣称已确认免绑卡。",
+      "url": "https://api.jina.ai/docs",
+      "official_source_url": "https://api.jina.ai/docs",
+      "claim_url": "https://jina.ai/api-dashboard/key-manager",
+      "source_type": "Jina AI 官方 Search Foundation API 文档、API Key 管理页、模型目录与限速",
+      "evidence_urls": [
+        "https://api.jina.ai/docs",
+        "https://docs.jina.ai/",
+        "https://jina.ai/api-dashboard/key-manager",
+        "https://jina.ai/models/jina-reranker-m0/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 直接读取 Jina Search Foundation API 官方说明，明确 New users receive 10M free tokens，API Key 入口公开，列出嵌入/重排模型和免费档 500 RPM、1M TPM、5 并发；官方 docs.jina.ai 同时列出 OCR 的 /v1/chat/completions 端点。未创建账号或验证地区、绑卡、额度到期日、实际模型 API 调用；不能将 10M 当作强编程推理 Tokens。",
+      "review_result": "官方当前明确新用户 10M 免费 API Tokens、具体检索模型及自助 API Key 入口，active/normal；不符合 Super 强通用模型条件。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核查 Jina 官方 Search Foundation API、模型目录与 Key 管理入口：确认新 Key 10M 免费 Tokens 和向量/重排 API；地区、绑卡及到账未实测。",
+          "source_url": "https://api.jina.ai/docs",
+          "secondary_sources": [
+            "https://docs.jina.ai/",
+            "https://jina.ai/api-dashboard/key-manager"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
