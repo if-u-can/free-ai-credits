@@ -5597,6 +5597,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mixedbread-starter-5-toast1-api-2026",
+      "name": "Mixedbread Starter 新客 $5 · Toast 1 检索智能体 API",
+      "type": "正规模型厂商官方免费模型 API 试用",
+      "description": "Mixedbread 新账号免绑卡获得一次性 $5 credits，可直接调用 Toast 1 检索智能体模型，也能用于文档索引与语义搜索；更适合代码库调查和知识检索，不是通用旗舰编程模型。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 12,
+        "model_usefulness": 17,
+        "claim_convenience": 23,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方明确 $5 免绑卡试用及 Toast 1 直接模型 API，专注检索任务且额度一次性，按普通鸡蛋收录。",
+      "credits": "Starter 免费计划一次性 $5 USD credits（非每月）；同一余额按 Toast 1 模型推理、搜索、索引和存储的实际费用消耗。Toast 1 当前输入 $0.30/百万 Tokens、输出 $0.72/百万 Tokens，调用检索工具另外计费；官网未注明赠额到期日。",
+      "models": [
+        "toast-1（131K 上下文、4K 最大输出的专用检索/证据综合模型，Chat Completions / Responses API）",
+        "Mixedbread Search（语义检索、重排与文档索引 API）"
+      ],
+      "requirements": "个人可从官方公开入口通过邮箱、Google 或 GitHub 注册；Starter 免信用卡，包含 3 个 Stores、3 个工作区席位及每分钟 100 次查询。中国大陆个人注册资格和真实额度到账未登录实测。",
+      "payment_required": "官方定价及 Billing 文档明确 Starter 无需绑卡或预充值；$5 用尽后需主动升级 Scale 才能继续。若升级付费档，按其账单规则计费。",
+      "url": "https://www.mixedbread.com/pricing",
+      "official_source_url": "https://www.mixedbread.com/pricing",
+      "claim_url": "https://www.platform.mixedbread.com/sign-in",
+      "source_type": "Mixedbread 官方现行定价、Billing、Toast 1 模型文档、Chat Completions API 和登录入口",
+      "evidence_urls": [
+        "https://www.mixedbread.com/pricing",
+        "https://www.mixedbread.com/docs/platform/billing",
+        "https://www.mixedbread.com/docs/agent/models",
+        "https://www.mixedbread.com/docs/agent/chat-completions",
+        "https://www.mixedbread.com/blog/toast-1",
+        "https://www.platform.mixedbread.com/sign-in"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 查阅 Mixedbread 当前官方定价与 Billing：Starter 一次性 $5 credits、免绑卡，限 3 Stores 和 100 查询/分钟；官方 Toast 1 博客明确可用这 $5 试用模型，Chat Completions 文档提供真实 API endpoint https://api.mixedbread.com/v1、model=toast-1；模型文档确认 131K 上下文与 4K 输出。未实际注册账号或实调，地区资格、到账和赠额期限未独立验证。$250 Startup 计划需企业融资资格，不计入本活动。",
+      "review_result": "现行官方页面确认个人免费 Starter $5 及 Toast 1 模型 API 试用，active/normal；不属于通用强编程模型高额赠金。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核查官方定价、Billing、Toast 1 模型与 Chat Completions 文档，确认免绑卡 $5 一次性赠额和 API 可用性；未实测地区、到账及有效期。",
+          "source_url": "https://www.mixedbread.com/pricing",
+          "secondary_sources": [
+            "https://www.mixedbread.com/docs/platform/billing",
+            "https://www.mixedbread.com/docs/agent/chat-completions",
+            "https://www.mixedbread.com/blog/toast-1"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
