@@ -5651,6 +5651,58 @@
           ]
         }
       ]
+    },
+    {
+      "id": "stability-ai-25-free-api-credits-2026",
+      "name": "Stability AI 新客 25 Credits 图片/音频/3D API",
+      "type": "官方图像、音频与 3D 生成模型 API 新客免费试用",
+      "description": "用 Google 注册 Stability AI 开发者平台可领 25 API Credits，能生成图片、音频或 3D 素材。额度约值 $0.25，适合试几次效果。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 52,
+      "quality_breakdown": {
+        "free_api_value": 4,
+        "model_usefulness": 17,
+        "claim_convenience": 23,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方明确 Google 新客赠 25 API Credits、无需绑卡，支持真实多模态模型接口；赠额很小，属于普通体验。",
+      "credits": "新账号通过 Google 登录领取一次性 25 Credits，1 Credit=$0.01，约值 $0.25；不是每月续发。官方现价：Stable Image Ultra 每张 8 Credits、Stable Audio 3.0 每次 8 Credits、Stable Fast 3D 每次 10 Credits。未独立确认赠额有效期。",
+      "models": [
+        "Stable Image Ultra / Stable Diffusion 3.5 Large（图片生成）",
+        "Stable Audio 3.0（音频生成）",
+        "Stable Fast 3D / SPAR3D（3D 资产生成）"
+      ],
+      "requirements": "个人可在 Stability AI 开发者平台使用 Google 登录领取 25 Credits；官方亦支持邮箱注册，但文档仅明确 Google 社交登录会赠额。中国大陆 Google 账号/地区资格及实际到账未登录实测。",
+      "payment_required": "官方开发者首页明确注册免信用卡，25 Credits 用完后可选择主动购买；未确认免费余额使用时是否有额外地区限制。",
+      "url": "https://docs.stability.ai/getting-started",
+      "official_source_url": "https://docs.stability.ai/pricing",
+      "claim_url": "https://platform.stability.ai/account/keys",
+      "source_type": "Stability AI 官方现行 Pricing、Getting started 与开发者平台官网",
+      "evidence_urls": [
+        "https://docs.stability.ai/pricing",
+        "https://docs.stability.ai/getting-started",
+        "https://platform.stability.ai/",
+        "https://platform.stability.ai/account/keys"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 读取 Stability AI 当前官方 Pricing（25 免费 Credits、1 Credit=$0.01、图片/音频/3D API 逐次扣减）、Getting started（明确 Google 登录赠 25 Credits 和 API Key 流程）、开发者首页（无需信用卡）。登录页跳转 WorkOS，未注册/实测到账或调用；未确认中国大陆地区资格和赠额到期日。官网定价中的免费额度只可用于对应 Stability API，不能当作强编程模型赠金。",
+      "review_result": "官方当前确认 Google 新客赠 25 Credits 并可调用真实多模态 API；额度仅约 $0.25，active / normal。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核查官方 Getting started、Pricing 和开发者首页，确认 Google 新客 25 Credits、API Key 领取方式、免卡和可调用模型；地区、实际到账及有效期未登录实测。",
+          "source_url": "https://docs.stability.ai/getting-started",
+          "secondary_sources": [
+            "https://docs.stability.ai/pricing",
+            "https://platform.stability.ai/"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
