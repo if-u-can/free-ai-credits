@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T17:49:26+08:00",
+  "updated_at": "2026-10-29T18:51:46+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -504,28 +504,57 @@
     {
       "id": "scaleway-1m-2026",
       "name": "Scaleway Generative APIs",
-      "description": "Scaleway 给新账号的前 100 万 tokens 免单，能试 DeepSeek、Qwen 等模型。需要绑卡，超过免费额就开始计费。",
-      "credits": "每位新客前 100 万 tokens",
+      "description": "Scaleway 新客共享 100 万模型 API Tokens，另外还有 60 分钟语音转写免费量；能试 GLM-5.3、DeepSeek V4.1 Flash 和 Whisper。需要绑卡，超额会计费。",
+      "credits": "新客 Serverless 免费层：所有按 Token 计费的模型共享 100 万 Tokens；按音频分钟计费的转写模型另享 60 分钟免费量。不是每个模型各送 100 万；超额后按用量计费。免费配额续期及到期时间未明确。",
       "models": [
         "deepseek-v4-flash-0731",
         "qwen3.8-27b",
         "mistral-medium-3.5-128b",
-        "gpt-oss-120b"
+        "gpt-oss-120b",
+        "glm-5.3",
+        "deepseek-v4.1-flash",
+        "whisper-large-v3（语音转写；60 分钟免费配额）"
       ],
       "requirements": "可用 Personal Project 注册；须绑定有效卡，虚拟/预付卡可能不接受",
       "payment_required": "是（资源启用前绑定卡，可能 €1 临时预授权）",
       "status": "active",
-      "grade": "premium",
-      "grade_reason": "可试多种开源模型",
-      "quality_score": 73,
+      "grade": "normal",
+      "grade_reason": "共享 100 万模型 Tokens 与 60 分钟语音转写适合试用，但额度有限、需绑卡且超额收费，评普通鸡蛋。",
+      "quality_score": 52,
       "discovered_at": "2026-10-07",
-      "verified_at": "2026-10-08",
+      "verified_at": "2026-10-29",
       "url": "https://www.scaleway.com/en/docs/generative-apis/faq/",
       "official_source_url": "https://www.scaleway.com/en/docs/generative-apis/faq/",
       "claim_url": "https://www.scaleway.com/en/generative-apis/",
-      "verification_note": "官方 FAQ 核实 1M free；官方 billing 明确先绑卡才能启用资源，超额开始产生费用。",
+      "verification_note": "官方 FAQ 核实 1M free；官方 billing 明确先绑卡才能启用资源，超额开始产生费用。 2026-10-29 重新核查 Scaleway 现行 Generative APIs FAQ：免费层除所有按 Tokens 计费模型共享的 100 万 Tokens 外，还包括按分钟计费模型的 60 分钟语音转写；FAQ 账单示例确认共享总额，超出后收费。官方现行定价与模型目录确认 GLM-5.3、DeepSeek V4.1 Flash、Whisper Large V3 Serverless API。免费额度续期未公开；未注册账户实测地区、绑卡或到账。按四维评分重新评为 normal。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "quality_breakdown": {
+        "free_api_value": 10,
+        "model_usefulness": 22,
+        "claim_convenience": 12,
+        "validity_and_limits": 8
+      },
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "evidence_urls": [
+        "https://www.scaleway.com/en/docs/generative-apis/faq/",
+        "https://www.scaleway.com/en/generative-apis/",
+        "https://www.scaleway.com/en/docs/generative-apis/reference-content/supported-models/",
+        "https://www.scaleway.com/en/docs/generative-apis/reference-content/rate-limits/"
+      ],
+      "review_result": "10月29日官方 FAQ 核实共享 100 万 Tokens 之外另有 60 分钟音频转写免费量；模型目录含 GLM-5.3、DeepSeek V4.1 Flash、Whisper，绑卡及超额计费限制明确；重新评为 normal。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 Scaleway 当前官方 FAQ、模型目录、定价及速率限制，确认 100 万 Tokens 与另 60 分钟转写配额，非按模型分别赠送；需支付卡，超额计费。",
+          "source_url": "https://www.scaleway.com/en/docs/generative-apis/faq/",
+          "secondary_sources": [
+            "https://www.scaleway.com/en/generative-apis/",
+            "https://www.scaleway.com/en/docs/generative-apis/reference-content/supported-models/"
+          ]
+        }
+      ]
     },
     {
       "id": "vercel-ai-gateway-free-2026",
