@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T14:33:22+08:00",
+  "updated_at": "2026-10-29T16:43:03+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -380,6 +380,61 @@
       "verification_note": "官方明确 $100+$100、Free Plan 可访问部分服务；Bedrock 是否有目标模型配额需查看账户，不能声称全部强模型均可使用。",
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策"
+    },
+    {
+      "id": "aws-polly-monthly-voice-api-free-tier-2026",
+      "name": "Amazon Polly 每月免费语音合成 API 配额",
+      "type": "AWS 官方语音合成模型 API 免费档",
+      "description": "Polly 官方免费层按月提供 500 万标准语音字符；神经语音每月 100 万、长篇语音 50 万、生成式语音 10 万字符（后三档限首 12 个月）。可通过 SynthesizeSpeech API 调用，适合配音和朗读。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 67,
+      "quality_breakdown": {
+        "free_api_value": 26,
+        "model_usefulness": 13,
+        "claim_convenience": 18,
+        "validity_and_limits": 10
+      },
+      "grade_reason": "官方确认按月续期的多档语音模型 API 配额，数量可观；属于语音专用服务，不是强通用编程推理 API。",
+      "credits": "按语音引擎分别计量：Standard 标准语音每月 5,000,000 字符；Neural 神经语音每月 1,000,000 字符、Long-Form 长篇语音每月 500,000 字符、Generative 生成式语音每月 100,000 字符（后三档均限前 12 个月）。这不是 $200 额外赠金，不与 AWS 新客云券相加宣传；超出各档免费用量按字符计费。",
+      "models": [
+        "Amazon Polly Standard TTS（如 Zhiyu 普通话音色）",
+        "Amazon Polly Neural TTS（如 Zhiyu、Joanna）",
+        "Amazon Polly Long-Form TTS",
+        "Amazon Polly Generative TTS（如 Ruth、Joanna）"
+      ],
+      "requirements": "个人可申请 AWS 新账号并使用 Amazon Polly SynthesizeSpeech API，无需企业或学生认证。新 AWS Free Plan 最多 6 个月，其他语音引擎的前 12 个月免费层和 Free Plan 期限应分别理解；模型/音色可用地区不同。全球 AWS 与中国 AWS 为独立账号体系，中国大陆实际开户、配额到账和 API 调用未实测。",
+      "payment_required": "AWS 现行新注册流程说明大多数新用户无需绑卡；部分账户可能需要支付方式进行身份核验，预授权约 $1（非实际付款）。Free Plan 额度用尽或 6 个月结束后需升级才能继续，Paid Plan 超出免费层可能产生费用；未实测具体账号要求。",
+      "url": "https://aws.amazon.com/polly/pricing/",
+      "official_source_url": "https://aws.amazon.com/polly/pricing/",
+      "claim_url": "https://aws.amazon.com/resources/create-account/",
+      "source_type": "Amazon Polly 官方现行定价、SynthesizeSpeech API 文档、AWS 账号注册说明及音色列表",
+      "evidence_urls": [
+        "https://aws.amazon.com/polly/pricing/",
+        "https://docs.aws.amazon.com/polly/latest/APIReference/API_SynthesizeSpeech.html",
+        "https://docs.aws.amazon.com/polly/latest/dg/neural-voices.html",
+        "https://docs.aws.amazon.com/polly/latest/dg/generative-voices.html",
+        "https://aws.amazon.com/resources/create-account/"
+      ],
+      "discovered_at": "2026-10-29",
+      "verified_at": "2026-10-29",
+      "last_seen_at": "2026-10-29",
+      "last_reviewed_at": "2026-10-29",
+      "next_review_at": null,
+      "verification_note": "2026-10-29 查阅 AWS 当前 Polly Pricing，明确 Standard 每月 500 万字符，Neural 每月 100 万、Long-Form 每月 50 万、Generative 每月 10 万字符，后三档为新用户首 12 个月；SynthesizeSpeech API 公开文档证实四种引擎可通过接口调用。AWS 新注册说明写大多数新用户免卡、少数需身份验证。Polly 定价同时提到 AWS 新客最高 $200 云券，但这与 Polly 的免费用量不是两份可叠加的现金 credits；已单独保留仓库的 AWS $200 记录。未创建账户、未做中国大陆注册或 API 实调；账号可用地区与各引擎语音覆盖需逐项检查。",
+      "review_result": "官方当前语音 API 免费层与自助申请入口可验证，active/premium；无强通用编程模型额度。",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "result": "核对 Polly 官方免费配额、四种语音引擎的 SynthesizeSpeech API、AWS 公开注册与支付说明；未实测实际开户、地区、额度到账或调用。",
+          "source_url": "https://aws.amazon.com/polly/pricing/",
+          "secondary_sources": [
+            "https://docs.aws.amazon.com/polly/latest/APIReference/API_SynthesizeSpeech.html",
+            "https://aws.amazon.com/resources/create-account/",
+            "https://docs.aws.amazon.com/polly/latest/dg/neural-voices.html"
+          ]
+        }
+      ]
     },
     {
       "id": "google-cloud-free-300-2026",
