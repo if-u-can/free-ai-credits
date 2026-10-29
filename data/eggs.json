@@ -1729,8 +1729,8 @@
       "id": "ollama-cloud-starter-free-api-2026",
       "name": "Ollama Cloud Starter 免费 API 额度",
       "type": "官方模型推理平台",
-      "description": "Ollama 官方 8 月公告曾确认 Free 档每月有少量 Starter 模型 API 额度；但 10 月 27 日当前定价页改为 $0 Pay as you go，云模型按 Token 计费，未再列免费赠额。是否仍可领取待核实。",
-      "status": "pending",
+      "description": "Ollama 曾提供每月 Starter 云模型 API 免费用量；现行定价页改为按 Token 收费，未再列免费额度，已完成三日复查并移入核查归档。",
+      "status": "unverifiable",
       "credits": "历史 Free Starter 每月少量 usage credits（具体金额未公布）；2026-10-27 当前官网定价页已不列此赠额，仅显示 $0 订阅费的 Pay as you go、所有云模型逐 Token 计费。不能把 $0 套餐价当作免费 API 额度。",
       "models": [
         "Starter models（官方未明确列出 Free 档完整可用型号）"
@@ -1738,7 +1738,7 @@
       "requirements": "个人 Ollama 账号及云端 API Key；当前定价页显示按量购买 usage credits，旧 Free Starter 赠额是否仍对新账号开放、绑卡及地区资格待核实。",
       "discovered_at": "2026-10-09",
       "verified_at": null,
-      "verification_note": "2026-10-22 复查官方 Pricing、透明定价说明与 Cloud/API 文档：Free $0 包含少量月度 Starter usage credits 和 Starter models，按注册日刷新、不结转、单并发；Cloud API 及 API Key 入口成立。具体 Starter 数值与完整型号、绑卡和地区资格尚未完整核实，未实测新账号调用，继续 pending。 2026-10-27 下午补充复核：ollama.com/pricing 实时页面标题已从 Free $0 改为 Pay as you go $0，写明 Pay per token for every cloud model、仅 Pro/Max/Team 有明确每月赠额；同页 Usage FAQ 亦只提付费方案每月赠额。官方 2026-08-31 博客仍称 Free 档每月有少量 Starter credits，搜索缓存及 www 域名亦显示旧版。两个官方口径冲突，尚不能确认旧免费额度已正式取消，也未验证新账号。保持 pending，不标 expired/excluded。",
+      "verification_note": "2026-10-22 复查官方 Pricing、透明定价说明与 Cloud/API 文档：Free $0 包含少量月度 Starter usage credits 和 Starter models，按注册日刷新、不结转、单并发；Cloud API 及 API Key 入口成立。具体 Starter 数值与完整型号、绑卡和地区资格尚未完整核实，未实测新账号调用，继续 pending。 2026-10-27 下午补充复核：ollama.com/pricing 实时页面标题已从 Free $0 改为 Pay as you go $0，写明 Pay per token for every cloud model、仅 Pro/Max/Team 有明确每月赠额；同页 Usage FAQ 亦只提付费方案每月赠额。官方 2026-08-31 博客仍称 Free 档每月有少量 Starter credits，搜索缓存及 www 域名亦显示旧版。两个官方口径冲突，尚不能确认旧免费额度已正式取消，也未验证新账号。保持 pending，不标 expired/excluded。 2026-10-29 晚间复核：ollama.com/pricing 与 www.ollama.com/pricing 均指向现行按量付费定价，FAQ 明确仅 Pro/Max/Team 有每月 included credits；8 月官方博客仍保留旧 Free Starter 说明，但无当期注册赠额/模型/到账证据。10月27、28、29三个不同自然日已真实复查，按核查闭环转 unverifiable（并非 expired），保留历史。",
       "url": "https://ollama.com/pricing",
       "official_source_url": "https://ollama.com/pricing",
       "claim_url": "https://ollama.com/settings/keys",
@@ -1754,10 +1754,10 @@
       "grade_reason": null,
       "quality_score": 0,
       "last_reviewed_at": "2026-10-29",
-      "next_review_at": "2026-10-30",
+      "next_review_at": null,
       "review_started_at": "2026-10-09",
       "review_attempts": 20,
-      "review_result": "10月29日直读 ollama.com/pricing 当前为 $0 Pay as you go、云模型按 Token 计费，没有列出 Starter 赠额；搜索索引中仍能找到旧 Free Starter 月度额度版本。云端 API 文档仍可用，但新账号免费余额、免费模型名单未证实，继续 pending。",
+      "review_result": "2026-10-29：连续 10 月 27、28、29 三个不同自然日复查，现行官方定价均只显示 $0 Pay as you go、云模型按 Token 计费，未列新用户免费 Starter 额度；2026-08-31 旧博客仍提到免费 Starter，但无法证明当期新账号继续领取。依规范转 unverifiable 核查归档，不认定官方已宣布终止；如有新的官方领取证据可恢复。",
       "review_history": [
         {
           "date": "2026-10-09",
