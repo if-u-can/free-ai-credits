@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T23:40:00+08:00",
+  "updated_at": "2026-10-30T03:50:06+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -5589,15 +5589,15 @@
     },
     {
       "id": "baseten-new-account-model-api-credits-2026",
-      "name": "Baseten 新账户模型 API 试用赠额（金额待核实）",
+      "name": "Baseten 新账户试用 Credits（模型 API 适用待核实）",
       "type": "官方强模型推理平台（待核实赠额适用范围）",
-      "description": "Baseten 当前仍提供 GLM-5.3、DeepSeek V4 与 Kimi K3 模型 API，但 10 月 30 日的公开定价页已查不到此前提及的新客试用 Credits 说明；免费赠额金额、发放及能否抵扣模型 API 待核实。",
+      "description": "Baseten 当前定价页 FAQ 确认新账户附带免费 Credits，可用于试验模型部署；但赠额金额及是否可抵扣 GLM-5.3、DeepSeek V4、Kimi K3 等 Model APIs 尚未确认。",
       "status": "pending",
       "grade": null,
       "grade_reason": null,
       "quality_score": null,
       "quality_breakdown": null,
-      "credits": "曾有新账户附带试用 Credits 的官方页面文字；2026-10-30 当前公开 Pricing 页面未找到试用赠额说明。金额、领取资格及模型 API 适用范围均未确认；第三方 $30 说法不作为当前赠额。",
+      "credits": "现行官方 Pricing FAQ 确认新账户附赠试验部署用 Credits，但未标金额；是否可用于 Model APIs、是否需绑卡及到期日待核实。第三方所称 $30 不作为已证实金额。",
       "models": [
         "GLM-5.3（当前 Model API）",
         "DeepSeek V4 Pro 0813（当前 Model API）",
@@ -5617,11 +5617,11 @@
       ],
       "discovered_at": "2026-10-29",
       "verified_at": null,
-      "last_seen_at": "2026-10-29",
+      "last_seen_at": "2026-10-30",
       "last_reviewed_at": "2026-10-30",
       "next_review_at": "2026-10-31",
-      "verification_note": "2026-10-29 核对 Baseten 官方 Pricing FAQ：new accounts come with credits to experiment with deployments for free；当前 Model APIs 产品页列 GLM-5.3、DeepSeek V4 Pro 0813、Kimi K3 等 OpenAI 兼容模型。官方未明确赠额金额或该 Credits 可抵扣 Model APIs；第三方称 $30，但没有采用为官方事实。注册入口需 JS/反机器人验证，未实测注册、绑卡、额度或地区。排除须申请审批的 Startup Program 额度。 2026-10-30 重新直读官方 Pricing：当前页面列 Basic $0/月按量计费及 Model APIs 价格，但全文未出现 trial 或 credit 字样；与 10月29日记录的 Pricing FAQ 口径不一致，不能继续声称当期官方确认有新客赠额。Model APIs 产品页仍列 GLM-5.3、DeepSeek V4.1 Flash、Kimi K3 等，注册入口需要 JavaScript/反机器人验证，未进行注册及余额实测。",
-      "review_result": "10月30日现行 Pricing 页面未找到新客试用 Credits，模型 API 产品仍在；新客是否赠额及金额、绑卡、地区、模型 API 抵扣均未证实，保持 pending。",
+      "verification_note": "2026-10-29 核对 Baseten 官方 Pricing FAQ：new accounts come with credits to experiment with deployments for free；当前 Model APIs 产品页列 GLM-5.3、DeepSeek V4 Pro 0813、Kimi K3 等 OpenAI 兼容模型。官方未明确赠额金额或该 Credits 可抵扣 Model APIs；第三方称 $30，但没有采用为官方事实。注册入口需 JS/反机器人验证，未实测注册、绑卡、额度或地区。排除须申请审批的 Startup Program 额度。 2026-10-30 本轮复读同一官方 Pricing FAQ，页面第 462–464 行明确写明新账户附带 Credits，可免费试验 deployments；纠正此前“当前页已无 Credits 文字”的错误。该 FAQ 未说明金额、是否覆盖 Model APIs、卡/地区/期限；Basic $0/月只是免月费的按量计费，不能等同于模型 API 免费。未注册实测，仍 pending。",
+      "review_result": "10月30日补充核查：官方 Pricing FAQ 现行确认新账户有部署试验 Credits（此前漏读），但金额、是否抵扣 Model APIs、个人地区资格、绑卡及到账仍未知；保持 pending。",
       "review_history": [
         {
           "date": "2026-10-29",
@@ -5635,7 +5635,7 @@
         },
         {
           "date": "2026-10-30",
-          "result": "10月30日直读 Baseten 现行 Pricing：Basic $0/月按量计费，页面未出现 trial/credits 或新客赠额条款；Model APIs 产品页仍有强模型，公开注册页因 JavaScript/反机器人无法验证余额及绑卡。当前赠额依据弱于昨日记录，保持 pending，不评级。",
+          "result": "10月30日补充纠正：官方 Pricing FAQ 的“Do you offer free credits to get started?”明确回答新账户附带 Credits，可免费试验 deployments；此前误判当前页无 Credits。官方仍未说明金额、能否抵扣 Model APIs、绑卡及地区，未登录实测，保持 pending，不评级。",
           "source_url": "https://www.baseten.co/pricing/",
           "secondary_sources": [
             "https://www.baseten.co/products/model-apis/",
