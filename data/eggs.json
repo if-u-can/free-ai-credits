@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T09:13:50+08:00",
+  "updated_at": "2026-10-30T11:05:02.571Z",
   "eggs": [
     {
       "id": "together-historical",
@@ -6246,6 +6246,63 @@
             "https://docs.cloudbase.net/ai/ai-inspire-plan-rules",
             "https://docs.cloudbase.net/ai/ai-inspire-plan-guide",
             "https://tcb.cloud.tencent.com/blog/2026/07/07/wx-ai-miniapp-plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plamo-31-prime-free-api-2026",
+      "name": "PLaMo 3.1 Prime 免费模型 API",
+      "type": "正规模型厂商官方免费 API",
+      "description": "Preferred Networks 10 月 27 日正式开放 PLaMo 3.1 Prime 免费 API 档，可用 OpenAI 兼容接口调用日语特化推理模型；免费调用量上限未公布。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 56,
+      "quality_breakdown": {
+        "free_api_value": 14,
+        "model_usefulness": 18,
+        "claim_convenience": 16,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方新免费 API 档已确认，但固定免费 Tokens 额度未公布，地区和绑卡门槛未实测，暂不按高价值赠额评级。",
+      "credits": "PLaMo API Free 计划 ¥0，存在使用量和速率限制；未公开明确的免费 Tokens 总量或每日/月度上限。旧版 1000 万 Tokens 新客活动不能当作当前 Free 档的保证额度。",
+      "models": [
+        "plamo-3.1-prime（262,144 Tokens 上下文、最多 20,480 Tokens 输出，支持推理；Free 档可用功能和限额以控制台为准）"
+      ],
+      "requirements": "官方 2026-10-27 公告称免费档已开放，官网介绍个人注册后即可使用；需注册 PLaMo 平台账户并在控制台创建 API Key。中国大陆及其他海外地区资格、手机号/实名要求和账户级开通未实测。",
+      "payment_required": "Free 档官方标价 ¥0、未声明必须实际付款；当前是否要求绑定支付卡未能从公开注册界面确认。2024 年旧版产品曾要求绑卡，不能据此推断新 Free 档。",
+      "url": "https://www.preferred.jp/ja/news/pr20261027",
+      "official_source_url": "https://www.preferred.jp/ja/news/pr20261027",
+      "claim_url": "https://console.platform.preferredai.jp/",
+      "source_type": "Preferred Networks 2026-10-27 官方发布公告、PLaMo API 文档及控制台入口",
+      "evidence_urls": [
+        "https://www.preferred.jp/ja/news/pr20261027",
+        "https://www.preferred.jp/ja/blog/tech/plamo-3-1-prime-release",
+        "https://plamo.preferredai.jp/api",
+        "https://docs.plamo.preferredai.jp/ja/api",
+        "https://docs.plamo.preferredai.jp/ja/pricing",
+        "https://docs.plamo.preferredai.jp/ja/getting-started",
+        "https://console.platform.preferredai.jp/"
+      ],
+      "discovered_at": "2026-10-30",
+      "verified_at": "2026-10-30",
+      "last_seen_at": "2026-10-30",
+      "last_reviewed_at": "2026-10-30",
+      "next_review_at": null,
+      "review_started_at": "2026-10-30",
+      "review_attempts": 1,
+      "verification_note": "2026-10-30 复查：Preferred Networks 2026-10-27 正式公告明确 PLaMo 3.1 Prime 的 API Free 计划已经开放，价格 ¥0、有用量与速率限制；同日官方技术博客再次确认 Free 档。官方 API 文档列出 plamo-3.1-prime 的 OpenAI 兼容调用与 262,144 Tokens 上下文。控制台公开入口可访问但属于动态页面，未完成个人注册/API 实调；免费 token 数量、海外/中国大陆资格和是否绑卡仍未知。搜索缓存中的旧 PLaMo 3.0 API 价目页仍写 Free 准备中且有 1000 万 Tokens 新客宣传，与 10 月 27 日更新公告不一致；不把旧宣传额度或 Free 尚未开放的说法用于当前记录。官方说明 Free 档的输入和输出可能被保留并用于模型训练，不适合敏感数据。",
+      "review_result": "2026-10-30 官方公告和 API 文档确认新上线 PLaMo 3.1 Prime 免费 API 档；未量化免费额度及验证地区/绑卡，按 active/normal 收录，不创建 Super 专题。",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "result": "核对 10 月 27 日官方新发布公告、技术博客、API 模型文档、数据使用条款和公开控制台；确认 Free API 档已发布，尚未实测注册和实际调用，免费额度数值、支付卡及地区资格待进一步核实。",
+          "source_url": "https://www.preferred.jp/ja/news/pr20261027",
+          "secondary_sources": [
+            "https://www.preferred.jp/ja/blog/tech/plamo-3-1-prime-release",
+            "https://docs.plamo.preferredai.jp/ja/api",
+            "https://docs.plamo.preferredai.jp/ja/pricing",
+            "https://console.platform.preferredai.jp/"
           ]
         }
       ]
