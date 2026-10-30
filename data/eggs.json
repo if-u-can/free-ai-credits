@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T16:07:41.000Z",
+  "updated_at": "2026-10-31T02:36:07+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1685,7 +1685,7 @@
       "id": "openrouter-free-model-api-2026",
       "name": "OpenRouter 免费模型 API 档",
       "type": "模型 API 聚合平台",
-      "description": "免费档每天合计 50 次模型 API 请求，可用 Nemotron、Flint 和 Poolside Laguna S/XS 2.1 编程模型；Laguna 两款免费端点标注 10 月 31 日结束。",
+      "description": "免费档每天合计 50 次模型 API 请求，可用 Nemotron、Flint、Dots3-Note Preview（512K）及 Poolside Laguna 等编程推理模型；Laguna 两款免费端点标注 10 月 31 日结束。",
       "status": "active",
       "credits": "免费模型每账号合计 50 次请求/天、20 次/分钟；历史累计购买 ≥$10 credits 后可提升至 1000 次/天（非免充值条件）",
       "models": [
@@ -1695,12 +1695,13 @@
         "xingchen-agi/xing4.0-29b-a4b:free（262K 上下文，编程推理）",
         "recursive/flint-v1.0:free（262K 上下文，编程与工具调用）",
         "poolside/laguna-s-2.1:free（262K 上下文，编程/工具调用，10月31日结束）",
-        "poolside/laguna-xs-2.1:free（262K 上下文，编程/工具调用，10月31日结束）"
+        "poolside/laguna-xs-2.1:free（262K 上下文，编程/工具调用，10月31日结束）",
+        "dots-studio/dots-3-note-preview:free（512K 上下文，编程/推理/多模态，官方标 12 月 31 日下线）"
       ],
       "requirements": "个人注册 OpenRouter 并创建 API Key；Free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测",
       "discovered_at": "2026-10-09",
-      "verified_at": "2026-10-24",
-      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。",
+      "verified_at": "2026-10-31",
+      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。",
       "url": "https://openrouter.ai/pricing",
       "official_source_url": "https://openrouter.ai/pricing",
       "claim_url": "https://openrouter.ai/settings/keys",
@@ -1715,7 +1716,8 @@
         "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free",
         "https://openrouter.ai/recursive/flint-v1.0:free",
         "https://openrouter.ai/poolside/laguna-s-2.1:free",
-        "https://openrouter.ai/poolside/laguna-xs-2.1:free"
+        "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+        "https://openrouter.ai/dots-studio/dots-3-note-preview:free"
       ],
       "grade": "normal",
       "grade_reason": "持续免费且能用推理模型 API，但每天仅 50 次请求、上游可用性波动，无法达到 Super 的高价值门槛",
@@ -1726,8 +1728,8 @@
         "claim_convenience": 24,
         "validity_and_limits": 7
       },
-      "last_reviewed_at": "2026-10-24",
-      "last_seen_at": "2026-10-24",
+      "last_reviewed_at": "2026-10-31",
+      "last_seen_at": "2026-10-31",
       "review_history": [
         {
           "date": "2026-10-17",
@@ -1755,9 +1757,18 @@
             "https://openrouter.ai/poolside/laguna-xs-2.1:free",
             "https://openrouter.ai/pricing"
           ]
+        },
+        {
+          "date": "2026-10-31",
+          "result": "官方模型页确认 Dots3-Note Preview 免费端点仍在，输入输出 $0、512K 上下文、支持工具调用，官方标 12 月 31 日下线；沿用现有 50 RPD 免费请求配额，未实测个人 API Key。",
+          "source_url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "secondary_sources": [
+            "https://openrouter.ai/docs/api_reference/limits",
+            "https://github.com/studio-dots-ai/dots3-note-prev"
+          ]
         }
       ],
-      "review_result": "新增核实 Poolside Laguna S/XS 2.1 两款免费编程 API 型号，均标注 10 月 31 日结束；免费档限额和评级不变。"
+      "review_result": "新增核实 Dots3-Note Preview 免费编程推理 API（512K 上下文，官方标注 12 月 31 日下线）；OpenRouter 免费档每日 50 次请求与 normal 评级不变。"
     },
     {
       "id": "ollama-cloud-starter-free-api-2026",
