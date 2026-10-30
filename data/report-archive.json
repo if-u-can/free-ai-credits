@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T19:08:54+08:00",
+  "updated_at": "2026-10-31T04:13:25+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -719,6 +719,25 @@
       "published_at": "2026-10-29T19:08:54+08:00",
       "id": "2026-10-29-evening",
       "kind": "evening"
+    },
+    {
+      "id": "2026-10-31-super-unisound-uplan-free",
+      "kind": "super",
+      "date": "2026-10-31",
+      "egg_id": "unisound-uplan-free-weekly-2500-points-2026",
+      "title": "云知声 U Plan 免费档：每周 2500 积分，U2 Flash 继续开工 🥚",
+      "summary": "云知声 U Plan 的 Free 档开放模型 API：每周 2500 积分，可调用 U2-Flash 编程推理模型；还有语音和 OCR 专项赠额。不是旧的 10 月 31 日 U2-Flash 限免活动。",
+      "highlights": [
+        "Free 档每周刷新 2500 积分，5 小时窗口最多 500 积分；U2-Flash 按输入、缓存、输出不同系数扣分，官方在 90% 以上缓存命中率的场景估算约 6068 万 Tokens/周，不是固定保底。",
+        "支持 U2-Flash 编程/Agent API，另有 ASR 8 小时、TTS 4 万字符及 OCR 专项赠额；这些独立配额不能与文本积分直接相加。",
+        "手机号注册、个人实名认证后，在订阅管理领取 U Plan Free 并获取专属 API Key；免费档是否需额外支付验证、实际开通与续期尚未账号实测。"
+      ],
+      "tip": "",
+      "official_source_url": "https://maas.unisound.com/docs/token-plan/overview",
+      "claim_url": "https://maas.unisound.com/",
+      "credits": "U Plan Free：每周 2,500 积分、每 5 小时最多 500 积分；赠送独立语音/OCR 配额",
+      "payment_required": "官网列为 Free 免费档，公开指引未要求预充值；实际绑卡/支付验证未登录实测。",
+      "status": "active"
     }
   ]
 }
