@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T02:36:07+08:00",
+  "updated_at": "2026-10-31T04:13:25+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6445,6 +6445,63 @@
             "https://docs.nscale.com/docs/getting-started/quickstart",
             "https://docs.nscale.com/docs/manage/credit",
             "https://console.nscale.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unisound-uplan-free-weekly-2500-points-2026",
+      "name": "云知声 U Plan Free：每周 2500 积分强模型 API",
+      "type": "官方模型厂商免费 API 套餐",
+      "description": "云知声 U Plan 新增 Free 档，每周 2500 积分可调用 U2-Flash 编程推理 API，另有语音、OCR 专项赠额；每 5 小时有独立积分上限。",
+      "status": "active",
+      "grade": "super",
+      "quality_score": 85,
+      "quality_breakdown": {
+        "free_api_value": 34,
+        "model_usefulness": 21,
+        "claim_convenience": 19,
+        "validity_and_limits": 11
+      },
+      "grade_reason": "官方现行 Free 档可供个人实名开发者领取，每周 2500 积分直接用于 U2-Flash 编程 API；按公开扣分系数，纯输入或纯输出理论容量分别为 2500 万、1250 万 Tokens/周，实际受 5 小时限额和输入输出比例影响。",
+      "credits": "U Plan Free 每 7 天刷新 2,500 积分，动态 5 小时窗口最多 500 积分；U2-Flash 消耗公式为（普通输入 Tokens×1＋缓存输入×0.2＋输出 Tokens×2）÷10,000。官网仅在缓存命中率≥90%的假设下估算约 6068 万 Tokens/周，不是保底。另列 U2-ASR 8 小时、U2-TTS 4 万字符、U2-RadiMed 47.5 万 Tokens、U2-OCR 与 U2-OCR-Med 各 737.5 万 Tokens 专项赠额，按套餐周期有效、不与文本积分混算。",
+      "models": [
+        "U2-Flash（编程/推理文本 API）",
+        "U2-Med（医疗文本）",
+        "U2-RadiMed（医疗影像）",
+        "U2-ASR（语音识别）",
+        "U2-TTS（语音合成）",
+        "U2-OCR（文档识别）",
+        "U2-OCR-Med（医疗文档识别）"
+      ],
+      "requirements": "云知声 MaaS 支持手机号验证码注册、个人开发者实名认证；登录后在「订阅管理 → U Plan」领取 Free 档并使用专属 API Key（与按量计费 Key 不通用）。中国大陆个人可走实名流程；具体手机号地区、免费档实际开通成功率、是否需要支付方式验证、免费套餐续领/有效期未进行账号实测。",
+      "payment_required": "官方列明 Free 免费档并提供 Claim Free 入口，公开领取指引未要求先充值；是否额外要求绑支付卡未做账号实测，不能宣称已到账或无任何账户验证。",
+      "url": "https://maas.unisound.com/docs/token-plan/overview",
+      "official_source_url": "https://maas.unisound.com/docs/token-plan/overview",
+      "claim_url": "https://maas.unisound.com/",
+      "source_type": "云知声官方 U Plan 订阅规范、个人注册/实名/API Key 快速开始、官方模型目录",
+      "evidence_urls": [
+        "https://maas.unisound.com/docs/token-plan/overview",
+        "https://maas.unisound.com/docs/guide/quickstart",
+        "https://maas.unisound.com/model-hub",
+        "https://maas.unisound.com/models/u2-decision",
+        "https://maas.unisound.com/"
+      ],
+      "discovered_at": "2026-10-31",
+      "verified_at": "2026-10-31",
+      "last_seen_at": "2026-10-31",
+      "last_reviewed_at": "2026-10-31",
+      "next_review_at": null,
+      "verification_note": "2026-10-31 直接读取云知声现行官方 U Plan Overview：Free 2500 积分/周、500 积分/5小时，积分按7天刷新，U2-Flash 输入/缓存/输出系数 1/0.2/2，90%缓存场景估算约60.68M Tokens/周；专项赠额列 ASR 8h、TTS 40k 字符、RadiMed 475k、OCR/OCR-Med 各7.375M Tokens。官方 Quickstart 说明手机号注册、个人实名认证及领取 U Plan 后在控制台获取独立专属 API Key；模型目录确认 U2-Flash 为编程/Agent 模型。官网公开文档顶部显示 Claim Free，但未获取到无需登录的 Free 档直达确认页；未实际登录、领用或发出 API 请求，支付验证与免费档自动续期不明确。原 U2-Flash 按量计费限免（2026-10-31结束）与本 Free 订阅是不同方案，不能合并额度。",
+      "review_result": "官方公开现行 Free 订阅、个人注册/实名与专属 API Key 入口，免费强模型容量达到 Super 门槛；限额计算、专用 Key 和未实测环节明确记录。",
+      "review_history": [
+        {
+          "date": "2026-10-31",
+          "result": "首次从官方 U Plan 订阅规范核实 Free 每周2500积分、5小时500积分及 U2-Flash 扣分规则；核对个人实名注册、Free 领取指引和专属 Key。未登录领取或测试 API，支付验证与续期条件仍待账户级核实。",
+          "source_url": "https://maas.unisound.com/docs/token-plan/overview",
+          "secondary_sources": [
+            "https://maas.unisound.com/docs/guide/quickstart",
+            "https://maas.unisound.com/model-hub"
           ]
         }
       ]
