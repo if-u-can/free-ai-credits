@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T11:05:02.571Z",
+  "updated_at": "2026-10-30T15:08:14.000Z",
   "eggs": [
     {
       "id": "together-historical",
@@ -6303,6 +6303,59 @@
             "https://docs.plamo.preferredai.jp/ja/api",
             "https://docs.plamo.preferredai.jp/ja/pricing",
             "https://console.platform.preferredai.jp/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nscale-serverless-5-signup-credits-pending-2026",
+      "name": "Nscale Serverless Inference 新客 $5 试用线索（现行资格待核实）",
+      "type": "正规云推理平台官方模型 API（新客赠额待核实）",
+      "description": "Nscale 2026 年 8 月官方文章仍宣传新账户可领 $5 模型 API 额度，但现行快速入门同时要求购买 Credits；免费领取资格尚未确认。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": null,
+      "quality_score": null,
+      "quality_breakdown": null,
+      "credits": "2026-08-06 官方 Serverless Inference 介绍写新账户可领取一次性 $5 免费 Credits；现行帮助文档只说早期用户可能符合免费促销资格，且默认流程要求购买至少 $5。不能视作目前所有新客均自动获赠。",
+      "models": [
+        "GLM 5.3（当前 Serverless 模型目录）",
+        "Qwen3.8-27B（当前 Serverless 模型目录）",
+        "Qwen3.8-Flash-Next-FP8（当前 Serverless 模型目录）"
+      ],
+      "requirements": "官方支持个人通过 Google SSO 注册，公开控制台存在；目前新账户是否可领取 $5、地区/中国大陆资格、到账及赠额有效期未核实。当前文档提示部分早期用户可能符合促销资格。",
+      "payment_required": "官方 2026-08-06 文章称可先领免费 $5、需额外购买时再加卡；现行 Quickstart 与 Credit 文档要求 Stripe 购入 Credits（最低 $5）才能常规使用，是否可免卡免付款领取仍未确认。",
+      "url": "https://www.nscale.com/blog/what-is-serverless-inference",
+      "official_source_url": "https://www.nscale.com/blog/what-is-serverless-inference",
+      "claim_url": "https://console.nscale.com/",
+      "source_type": "Nscale 2026-08-06 官方 Serverless Inference 文章、当前 Quickstart/Credit/模型目录",
+      "evidence_urls": [
+        "https://www.nscale.com/blog/what-is-serverless-inference",
+        "https://docs.nscale.com/docs/getting-started/overview",
+        "https://docs.nscale.com/docs/getting-started/quickstart",
+        "https://docs.nscale.com/docs/manage/credit",
+        "https://docs.nscale.com/docs/ai-services/models",
+        "https://console.nscale.com/"
+      ],
+      "discovered_at": "2026-10-30",
+      "verified_at": null,
+      "last_seen_at": "2026-10-30",
+      "last_reviewed_at": "2026-10-30",
+      "next_review_at": "2026-10-31",
+      "review_started_at": "2026-10-30",
+      "review_attempts": 1,
+      "verification_note": "2026-10-30 交叉核查 Nscale 2026-08-06 官方文章：明确写 Create an account and claim your $5 free credit；2025-04-02 初发文章也写 every new user can claim $5。现行 docs/getting-started/overview 明确要求至少购买 $5 Credits，Quickstart 仅说 early users may be eligible for free credits，Credit 文档写需先购买 Credits。注册控制台公开抓取返回 403，未注册或实调；无法判断目前新客是否自动赠额、免绑卡资格及有效期。官方当前模型目录列 GLM 5.3 与 Qwen3.8 系列，但未验证赠额适用。当前仅保留 pending，不评级。",
+      "review_result": "10月30日官方文章仍宣传 $5 新客免费额度，但当前 Quickstart/Credit 文档以付费购入为默认流程，实际免费领取与地区/绑卡/有效期未确认，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "result": "本轮核对 2026-08-06 官方新客 $5 文章及现行 Quickstart/Credit 文档；现行文档要求常规购买 Credits、仅提早期用户可能获赠，控制台无法公开核验领取。暂列 pending，未证实到账。",
+          "source_url": "https://www.nscale.com/blog/what-is-serverless-inference",
+          "secondary_sources": [
+            "https://docs.nscale.com/docs/getting-started/quickstart",
+            "https://docs.nscale.com/docs/manage/credit",
+            "https://docs.nscale.com/docs/ai-services/models",
+            "https://console.nscale.com/"
           ]
         }
       ]
