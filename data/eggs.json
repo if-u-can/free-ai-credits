@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T04:13:25+08:00",
+  "updated_at": "2026-10-31T07:17:30+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6502,6 +6502,52 @@
           "secondary_sources": [
             "https://maas.unisound.com/docs/guide/quickstart",
             "https://maas.unisound.com/model-hub"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "articul8-bivia-1b-tokens-first-10000-pending-2026",
+      "name": "Articul8 Bivia 首批 1 万用户 10 亿免费 Tokens（领取条件待核实）",
+      "type": "官方模型厂商",
+      "description": "Bivia 官方现行页面向首批 1 万名用户提供 10 亿免费输入 Tokens，专用于多模态结构化决策 API，不是通用聊天或编程模型。",
+      "status": "pending",
+      "grade": null,
+      "grade_reason": null,
+      "quality_score": null,
+      "quality_breakdown": null,
+      "credits": "官方宣称首批 10,000 名用户可获 1,000,000,000 免费 Tokens（Bivia 决策 API）；当前剩余名额、到期时间及实际到账未核实。",
+      "models": [
+        "Articul8 Bivia（多模态结构化决策：Boolean、Choice、Score、Extract 等；不生成通用聊天或代码文本）"
+      ],
+      "requirements": "Articul8 官方条款允许年满 18 岁的个人用户注册；活动限首批 1 万名。公开注册页存在，但中国大陆地区、个人账户是否成功获赠、剩余名额均未实测。",
+      "payment_required": "官方活动页写 No subscription；未明确注册时是否必须绑卡，未做账户实测，也未发现必须先付款的公开条款。",
+      "discovered_at": "2026-10-31",
+      "verified_at": null,
+      "url": "https://www.articul8.ai/bivia",
+      "official_source_url": "https://www.articul8.ai/bivia",
+      "claim_url": "https://app.articul8.ai/registration?code=bivia&source=bivia",
+      "evidence_urls": [
+        "https://www.articul8.ai/bivia",
+        "https://www.articul8.ai/terms",
+        "https://app.articul8.ai/registration?code=bivia&source=bivia"
+      ],
+      "verification_note": "2026-10-31 官方 Bivia 页面仍展示首批 1 万用户获 10 亿免费 Tokens、No subscription、公开 Get API key 注册入口和 HTTP POST/SDK 示例；2026-10-27 生效的官方条款允许个人用户（至少 18 岁）注册。注册页为动态内容，未完成开户、余额/API 实调；无法确认名额是否已满、绑卡、地区及期限。Bivia 是专用结构化决策模型，不能视作强通用/编程 LLM，因此不评 Super。",
+      "source_type": "官方活动/免费方案具体政策",
+      "last_seen_at": "2026-10-31",
+      "last_reviewed_at": "2026-10-31",
+      "next_review_at": "2026-11-01",
+      "review_result": "官方当前活动页明确 10 亿 Bivia Tokens 和首批 1 万用户；注册入口存在，实际领取资格、剩余名额、绑卡、期限与地区尚未验证，维持 pending。",
+      "review_started_at": "2026-10-31",
+      "review_attempts": 1,
+      "review_history": [
+        {
+          "date": "2026-10-31",
+          "result": "核查官方 Bivia 活动页、注册入口和 2026-10-27 条款。确认公开宣传首批 1 万名用户 10 亿免费 Tokens、Bivia 决策 API 可接入；注册动态页未实测，尚缺实际到账、剩余名额、地区/支付要求及期限证据。",
+          "source_url": "https://www.articul8.ai/bivia",
+          "secondary_sources": [
+            "https://www.articul8.ai/terms",
+            "https://app.articul8.ai/registration?code=bivia&source=bivia"
           ]
         }
       ]
