@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T06:54:22+08:00",
+  "updated_at": "2026-10-30T09:13:50+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2318,12 +2318,12 @@
       "id": "sensenova-token-plan-free-beta-2026",
       "name": "商汤 SenseNova Token Plan 免费公测 API",
       "type": "官方模型厂商 API 免费公测",
-      "description": "商汤日日新 Token Plan 公测期 ¥0/月，国内官网每 5 小时提供 60,000 积分，支持 API Key 调用两款精选模型。",
+      "description": "商汤 SenseNova Token Plan 仍开放免费 API 公测，支持创建 API Key。现行公开页不再展示具体积分上限，近期扩容额度尚待官方原文核实。",
       "status": "active",
       "grade": "normal",
-      "grade_reason": "官方现行公测免费、可创建 API Key 且有周期配额，但积分与 Tokens 换算未知、可用模型较少且公测可能结束",
+      "grade_reason": "官网仍确认公测免费及 API Key，但当期公开配额数值、账号实际领取与模型权限尚缺直接验证，保持普通等级",
       "quality_score": 60,
-      "credits": "中国站 Free 公测 ¥0/月，每 5 小时 60,000 积分（不是 60,000 Tokens；特殊模型不适用）；公测结束日期未公布；海外站另显示每模型每 5 小时 1,500 次调用，不与国内额度叠加",
+      "credits": "中国站 Free 公测 ¥0/月，最多 20 个 API Key；2026-10-30 官方公开套餐页未列具体积分上限。多家近期资料称 10 月 27 日通用积分池扩至每 5 小时 120,000、每周 1,200,000 积分，但官方公告正文暂不可读取，不能作为已核实额度；积分不等于 Tokens。",
       "models": [
         "SenseNova 6.8 Flash Lite",
         "SenseNova U1 Fast"
@@ -2340,11 +2340,11 @@
         "https://www.sensenova.ai/token-plan"
       ],
       "discovered_at": "2026-10-14",
-      "verified_at": "2026-10-14",
-      "last_seen_at": "2026-10-14",
-      "last_reviewed_at": "2026-10-14",
+      "verified_at": "2026-10-30",
+      "last_seen_at": "2026-10-30",
+      "last_reviewed_at": "2026-10-30",
       "next_review_at": null,
-      "verification_note": "2026-10-14 官方中国站仍写公测完全免费、¥0/月、60,000 积分/5小时、SenseNova 6.8 Flash Lite 与 U1 Fast、最多20个 API Key；官方海外站另显示每模型1500次/5小时，可能为不同地区方案。两者不得相加。未登录实测注册、实名认证/支付资格或积分折算；模型和免费额度以中国站现行公开页面为准。",
+      "verification_note": "2026-10-14 官方中国站仍写公测完全免费、¥0/月、60,000 积分/5小时、SenseNova 6.8 Flash Lite 与 U1 Fast、最多20个 API Key；官方海外站另显示每模型1500次/5小时，可能为不同地区方案。两者不得相加。未登录实测注册、实名认证/支付资格或积分折算；模型和免费额度以中国站现行公开页面为准。 2026-10-30 重读官方中国站 https://www.sensenova.cn/token-plan 与海外站 https://www.sensenova.ai/token-plan：均确认免费公测、20 个 API Key、SenseNova 6.8 Flash Lite 和 U1 Fast，但页面已不显示此前记录的 60,000 积分/5 小时数值。多家 10 月 27–29 日资料（https://jia.je/kb/software/coding_plan.html、https://www.aipromonow.com/promos/sensenova-token-plan-free-credits-doubled-oct2026）一致转述通用积分池升至 120,000/5h、1,200,000/周及增加 DeepSeek、GLM、Kimi 模型；本轮未取得可访问的官方公告原文，故不将新额度及新增模型标记为官方已证实，也不改变 active/normal。",
       "review_result": "官网明确提供免费 API Key 方案及周期积分，收录普通鸡蛋；不把积分换算成 Tokens。",
       "review_history": [
         {
@@ -2353,6 +2353,16 @@
           "source_url": "https://www.sensenova.cn/token-plan",
           "secondary_sources": [
             "https://www.sensenova.ai/token-plan"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "result": "官方中英 Token Plan 公共页确认 Free 公测 ¥0/月及最多 20 个 API Key，但当前均未展示具体积分配额；10/27 扩容至通用池 12 万/5h、120 万/周及多模型的多方转述尚缺可读官方公告，修正旧 6 万/5h 的现行宣称，保留 active/normal，等待官方或控制台核验。",
+          "source_url": "https://www.sensenova.cn/token-plan",
+          "secondary_sources": [
+            "https://www.sensenova.ai/token-plan",
+            "https://jia.je/kb/software/coding_plan.html",
+            "https://www.aipromonow.com/promos/sensenova-token-plan-free-credits-doubled-oct2026"
           ]
         }
       ]
