@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T04:55:47+08:00",
+  "updated_at": "2026-11-01T05:47:13+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6932,6 +6932,59 @@
             "https://platform.stepfun.com/docs/zh/guides/pricing/intro",
             "https://platform.stepfun.com/",
             "https://www.stepfun.com/news/stepaudio-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bytez-free-1usd-four-weeks-open-models-2026",
+      "name": "Bytez 每 4 周 $1 小模型 API 免费额度",
+      "type": "正规推理平台 / 开源模型 Serverless API 免费档",
+      "description": "Bytez 免费档每 4 周刷新 $1 API credits，可在自托管的 7B 及以下开源模型上测试推理；更大的开源模型需要购买额度解锁。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 46,
+      "quality_breakdown": {
+        "free_api_value": 7,
+        "model_usefulness": 9,
+        "claim_convenience": 19,
+        "validity_and_limits": 11
+      },
+      "grade_reason": "官方公开 $1/4 周的真实开源模型 API 免费档，持续刷新且无需购买额度；免费型号限 7B 以下、仅单并发，价值与模型能力均较小。",
+      "credits": "Free $0/月：$1 免费 credits，每 4 周刷新；当期免费 credits 4 周后过期。仅保守按平台自托管的 ≤7B 开源模型计算，不能宣称可免费调用 OpenAI、Anthropic 等闭源付费模型。",
+      "models": [
+        "Qwen/Qwen3-4B（第三方 API 测试记录中的 4B 示例；账户内实时可用性未验证）",
+        "openai-community/gpt2（官方 Get started 中的 API 调用示例）",
+        "其他 ≤7B 开源模型（需在实时模型目录确认）"
+      ],
+      "requirements": "公开 Free 账户及 API Key 入口；官方 Free 方案不需购买额度、无需付费订阅。个人注册、+86/中国大陆地区、具体邮箱或手机号验证和赠额到账未完成实测。",
+      "payment_required": "Free 方案官方标为 $0/月、Billing: None；未见必须绑卡或预充值才能领取 $1 的条款，账号级支付验证未实测。关闭自动充值，避免后续主动购买额度。",
+      "url": "https://bytez.com/api/pricing",
+      "official_source_url": "https://bytez.com/api/pricing",
+      "claim_url": "https://bytez.com/api/key",
+      "source_type": "Bytez 官方 Free 价格页、Billing & Credits、Get started；社区公开 API 探测记录辅助核对",
+      "evidence_urls": [
+        "https://bytez.com/api/pricing",
+        "https://docs.bytez.com/model-api/docs/billing",
+        "https://docs.bytez.com/model-api/docs/get-started",
+        "https://bytez.com/api/key",
+        "https://mvalentsev.github.io/awesome-free-ai-coding/providers/bytez/"
+      ],
+      "discovered_at": "2026-11-01",
+      "verified_at": "2026-11-01",
+      "last_seen_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-01",
+      "next_review_at": null,
+      "verification_note": "2026-11-01 读取 Bytez 官方定价页（Free $0/月、$1 免费 credits、开源模型 ≤7B）、Billing & Credits（每 4 周刷新、4 周过期、单并发、开源推理按秒计费）、Get started（公开 API Key 与开源模型请求示例）。官方闭源模型计费说明与入门文档对第三方 Key/收费方式口径不同，故免费价值仅计算 ≤7B 自托管开源模型。社区 2026-09-28 的 API 探测记录提供 Qwen3-4B 示例，但本轮未注册、实测到账/调用或中国大陆地区资格；不把闭源模型当成免费额度适用范围。",
+      "review_result": "官方当前 Free 定价、免费额度刷新周期、≤7B 开源模型 API 和公开 Key 入口可核验；按 normal 收录，账号级到账未实测。",
+      "review_history": [
+        {
+          "date": "2026-11-01",
+          "result": "核对官方定价、Billing 和 Get started：$1/4 周、开源模型≤7B、单并发；API Key 入口存在。未注册测试地区、支付方式及额度到账。",
+          "source_url": "https://bytez.com/api/pricing",
+          "secondary_sources": [
+            "https://docs.bytez.com/model-api/docs/billing",
+            "https://docs.bytez.com/model-api/docs/get-started"
           ]
         }
       ]
