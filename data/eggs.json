@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T07:17:30+08:00",
+  "updated_at": "2026-10-31T10:56:13+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6548,6 +6548,63 @@
           "secondary_sources": [
             "https://www.articul8.ai/terms",
             "https://app.articul8.ai/registration?code=bivia&source=bivia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vapi-5-voice-agent-api-starter-2026",
+      "name": "Vapi 新客 $5 语音 Agent 模型 API 试用金",
+      "type": "官方语音 AI Agent 开发平台 API 新客试用",
+      "description": "Vapi 新用户可获 $5 试用额度，搭建语音智能体时能抵扣模型、转写、语音合成和托管费用。适合测试语音 Agent，不是可直接当通用聊天 API 使用的赠金。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 56,
+      "quality_breakdown": {
+        "free_api_value": 11,
+        "model_usefulness": 18,
+        "claim_convenience": 19,
+        "validity_and_limits": 8
+      },
+      "grade_reason": "官方明确新客 $5 API 使用额度，覆盖语音 Agent 的模型与语音组件；赠额较小且限定语音工作流。",
+      "credits": "新账户 Usage only（$0 起步）提供一次性 $5 USD credits；按语音通话使用量计费，Vapi 托管费 $0.05/分钟，模型、转写、语音合成等按供应商成本另计并从同一余额扣除。未公布新客赠额的独立到期日或可用分钟保底量。",
+      "models": [
+        "OpenAI GPT-6 Luna（gpt-6-luna，语音 Agent LLM 可选）",
+        "OpenAI GPT-5.6 Sol（gpt-5.6-sol，语音 Agent LLM 可选）",
+        "Deepgram Nova-3（语音识别）",
+        "ElevenLabs v4 Turbo（语音合成）"
+      ],
+      "requirements": "个人可使用邮箱、Google 或 GitHub 在 Vapi Dashboard 注册并创建 API Key，无需企业/学生申请或购买 Success Package。免费号码限美国区号且仅接听；网页语音通话也可通过 API/SDK 使用。中国大陆注册、手机号要求、赠额实际到账及地区限制未实测。",
+      "payment_required": "官网明确 Usage only $0 起步并附 $5 赠额；首次免费美国号码无需绑定支付方式。公开文档未明确所有新账户使用 $5 赠额时是否仍需绑卡，未登录实测；主动充值/自动续充需要支付卡。",
+      "url": "https://vapi.ai/pricing",
+      "official_source_url": "https://vapi.ai/pricing",
+      "claim_url": "https://dashboard.vapi.ai/profiles",
+      "source_type": "Vapi 官方现行定价、Billing & Credits、语音 Agent API 入门、模型提供商文档及公开注册入口",
+      "evidence_urls": [
+        "https://vapi.ai/pricing",
+        "https://docs.vapi.ai/billing/manage-billing-and-credits",
+        "https://docs.vapi.ai/assistants/quickstart",
+        "https://docs.vapi.ai/providers/model/openai",
+        "https://docs.vapi.ai/whats-new/2026/10/5",
+        "https://dashboard.vapi.ai/profiles"
+      ],
+      "discovered_at": "2026-10-31",
+      "verified_at": "2026-10-31",
+      "last_seen_at": "2026-10-31",
+      "last_reviewed_at": "2026-10-31",
+      "next_review_at": null,
+      "verification_note": "2026-10-31 直读 Vapi 官方现行 Pricing：Usage only $0 起步，附 $5 free credits、完整模型目录和 4 路并发；Billing 文档明确同一 credits 余额支付 Vapi 托管费、LLM、语音转写、语音合成与电话成本。官方 API 入门可创建语音 Agent/API Key，提供浏览器语音通话；OpenAI provider 文档列 gpt-6-luna、gpt-5.6-sol，10月5日更新列 ElevenLabs v4 Turbo 与 Deepgram nova-3-pharma。公开注册页支持邮箱/Google/GitHub；未登录注册、未实测 $5 到账、卡要求、+86/中国大陆地区资格或实际 API 调用。Vapi 仅面向语音 Agent 工作流，非直接通用文本模型推理网关。",
+      "review_result": "官方当前 $5 免费额度、语音 Agent API 和模型成本抵扣均有公开证据，active/normal；不满足 Super 大额强模型通用 API 价值门槛。",
+      "review_history": [
+        {
+          "date": "2026-10-31",
+          "result": "核对 Vapi 官方 Pricing 新客 $5、Billing 模型/转写/语音合成费用可由 Credits 抵扣、公开注册与语音 Agent API、具体可选模型。地区、是否强制绑卡、实际到账及 API 调用未实测。",
+          "source_url": "https://vapi.ai/pricing",
+          "secondary_sources": [
+            "https://docs.vapi.ai/billing/manage-billing-and-credits",
+            "https://docs.vapi.ai/assistants/quickstart",
+            "https://docs.vapi.ai/providers/model/openai",
+            "https://dashboard.vapi.ai/profiles"
           ]
         }
       ]
