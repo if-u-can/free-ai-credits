@@ -6608,6 +6608,58 @@
           ]
         }
       ]
+    },
+    {
+      "id": "unisound-u2-decision-free-systemone-api-2026",
+      "name": "云知声 U2-Decision 决策模型 API 限时免费",
+      "type": "官方模型厂商 / 专用决策模型 API 限时免费",
+      "description": "U2-Decision 的 SystemOne 决策 API 当前输入、输出均为 ¥0，可用于 Agent 路由、分类和工作流判断；它只返回结构化判定，不生成聊天或代码。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 58,
+      "quality_breakdown": {
+        "free_api_value": 22,
+        "model_usefulness": 9,
+        "claim_convenience": 20,
+        "validity_and_limits": 7
+      },
+      "grade_reason": "官方现行模型目录明确专用决策 API 零价格，并提供个人开发者注册及接口文档；不属于强通用或编程模型，免费截止日和调用配额未公布。",
+      "credits": "官方 2026-10-31 模型目录标记“Limited-time free”，u2-decision 输入与输出均 ¥0/百万 Tokens；128K 上下文。未公布免费总 Token 额度、活动截止日或账号实际限流，不能视为永久免费。",
+      "models": [
+        "U2-Decision（u2-decision，4B，SystemOne 结构化决策；非自然语言生成）"
+      ],
+      "requirements": "云知声 MaaS 支持个人通过手机号验证码注册，可在控制台进行个人开发者实名认证，并创建按量计费 API Key；中国大陆个人可按官方流程申请。是否必须先实名才能调用此免费模型、非大陆手机号资格及实际开通成功率未做账号实测。",
+      "payment_required": "模型目录标示当前输入、输出价格均为 ¥0，官方快速开始提供 API Key 自助创建流程；未发现此模型要求先充值的公开条款，是否要求绑支付方式或激活余额未做账户实测。",
+      "url": "https://maas.unisound.com/models/u2-decision",
+      "official_source_url": "https://maas.unisound.com/model-hub",
+      "claim_url": "https://maas.unisound.com/",
+      "source_type": "云知声官方现行模型目录、U2-Decision 介绍、SystemOne API 参考及个人开发者快速开始",
+      "evidence_urls": [
+        "https://maas.unisound.com/model-hub",
+        "https://maas.unisound.com/models/u2-decision",
+        "https://maas.unisound.com/docs/api/text/systemone",
+        "https://maas.unisound.com/docs/guide/quickstart",
+        "https://maas.unisound.com/docs/release"
+      ],
+      "discovered_at": "2026-10-31",
+      "verified_at": "2026-10-31",
+      "last_seen_at": "2026-10-31",
+      "last_reviewed_at": "2026-10-31",
+      "next_review_at": null,
+      "verification_note": "2026-10-31 读取云知声当前模型目录：U2-Decision 独立模型条目标注 Limited-time free、输入和输出 ¥0/M Tokens、128K 上下文，并提供 Call API；官方 SystemOne 文档确认 POST /v1/systemone、model=u2-decision、API Key 认证和 choice/noul/score 结构化响应；官方 Quickstart 确认手机号首次登录自动注册、个人开发者实名认证及按量计费 API Key 创建。未登录实测支付要求、个人账号调用、实际限速及活动结束时间。该零价决策 API 与已收录 U2-Flash 10月31日限免和 U Plan Free 周积分属于不同模型/方案，未合并额度。",
+      "review_result": "当期官方零价 API、独立模型、公开个人注册和调用文档可核实，active/normal；专用决策模型不满足 Super 的强通用/编程模型门槛。",
+      "review_history": [
+        {
+          "date": "2026-10-31",
+          "result": "核对现行模型目录 U2-Decision 输入/输出 ¥0、SystemOne API 与个人手机号注册/实名认证流程；未完成账号 API 实调或支付流程验证，结束日未公布。",
+          "source_url": "https://maas.unisound.com/model-hub",
+          "secondary_sources": [
+            "https://maas.unisound.com/models/u2-decision",
+            "https://maas.unisound.com/docs/api/text/systemone",
+            "https://maas.unisound.com/docs/guide/quickstart"
+          ]
+        }
+      ]
     }
   ],
   "grade_policy": {
