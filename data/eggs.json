@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T19:37:18+08:00",
+  "updated_at": "2026-10-31T21:27:15+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6711,6 +6711,63 @@
           "secondary_sources": [
             "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
             "https://vercel.com/docs/ai-gateway/pricing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deapi-new-user-5-multimodal-api-2026",
+      "name": "deAPI 新客 $5 多模态模型 API 赠额",
+      "type": "独立 GPU 推理平台 · 图像/视频/语音模型 API 新客赠金",
+      "description": "新账号免绑卡领 $5，可用 API 生成 FLUX 图片、MiniMax H3 视频，也能调用 Whisper 转写和 Qwen3 TTS。赠额有效 90 天；合作方的部分付费模型需先充值才能调用。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 62,
+      "quality_breakdown": {
+        "free_api_value": 12,
+        "model_usefulness": 18,
+        "claim_convenience": 23,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方明确 $5 免卡赠额，适用独立多模态推理 API；主要为图像、视频和语音模型，额度较小，不属于高价值通用编程模型赠额。",
+      "credits": "新账户邮箱验证后赠 $5 USD（Google 登录可直接发放），90 天有效；免费档图像 API 最高 100 次/天、约 3 次/分钟。FLUX.2 Klein 1024×1024 官方示例每张约 $0.0037，$5 约可生成 1361 张，实际依参数与模型变化。合作方 GPT Image、Nano Banana 等需至少一次充值才能使用，不计入可直接免费使用的模型。",
+      "models": [
+        "FLUX.2 Klein 4B / FLUX.1 Schnell / Z-Image-Turbo / Z-Anime（图像生成）",
+        "MiniMax H3 Turbo INT8 / LTX-2.5（视频生成）",
+        "Whisper Large V3（转写）",
+        "Qwen3 TTS / Kokoro（语音合成）",
+        "BGE M3（向量）"
+      ],
+      "requirements": "个人通过官方 app.deapi.ai 注册，邮箱验证或 Google 登录后在 Settings → API Keys 创建密钥；无需企业/学生资质、无需支付卡或预充值即可调用公开免费资格模型。中国大陆注册与账号实际到账未登录实测；网页抓取注册动态入口返回 403，不能据此判活动结束。",
+      "payment_required": "官方明确领取 $5 不绑卡、不预付；赠额用完后需自行充值（官网显示 $10/$25/$50 档），部分合作方付费模型需至少充值一次才能调用。",
+      "url": "https://deapi.ai/lp/en/free-image-generation-api",
+      "official_source_url": "https://deapi.ai/pricing",
+      "claim_url": "https://app.deapi.ai/register",
+      "source_type": "deAPI 官方 2026 年 10 月定价、免费 API 活动页、模型目录和推理 API 文档",
+      "evidence_urls": [
+        "https://deapi.ai/pricing",
+        "https://deapi.ai/lp/en/free-image-generation-api",
+        "https://deapi.ai/lp/en/minimax-h3",
+        "https://docs.deapi.ai/introduction",
+        "https://app.deapi.ai/register"
+      ],
+      "discovered_at": "2026-10-31",
+      "verified_at": "2026-10-31",
+      "last_seen_at": "2026-10-31",
+      "last_reviewed_at": "2026-10-31",
+      "next_review_at": null,
+      "verification_note": "2026-10-31 本轮直接核对官方 Pricing 与免费图像 API 页面：新客 $5、邮箱验证后到账/Google 直接发放、无需绑卡、90 天有效；官方明确 API Key 创建流程与 POST /api/v2/images/generations、FLUX.2 Klein 等模型。官方 MiniMax H3 页面亦列视频 API 和免费账号限额；文档说明自营分布式 GPU 推理。官网注册按钮指向 app.deapi.ai/register，但当前网页抓取该动态入口 403，未登录/注册/调用，未验证中国大陆资格或实际到账；部分 GPT Image/Nano Banana 付费合作模型需先充值，不作为免卡可用额度。",
+      "review_result": "官方当前规则和直接模型 API 入口证据完整，active/normal；$5 仅为多模态模型小额试用，不符合 Super 的强通用编程模型及高价值条件。",
+      "review_history": [
+        {
+          "date": "2026-10-31",
+          "result": "直读官方 Pricing、$5 免费图像 API 活动页、MiniMax H3 API 和官方文档，确认新客 $5、免卡、90 天、支持的图像/视频/语音 API 与部分合作模型先充值限制。注册动态入口抓取 403，未实测实际到账或中国大陆地区资格。",
+          "source_url": "https://deapi.ai/lp/en/free-image-generation-api",
+          "secondary_sources": [
+            "https://deapi.ai/pricing",
+            "https://deapi.ai/lp/en/minimax-h3",
+            "https://docs.deapi.ai/introduction",
+            "https://app.deapi.ai/register"
           ]
         }
       ]
