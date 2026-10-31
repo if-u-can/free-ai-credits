@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T10:56:13+08:00",
+  "updated_at": "2026-10-31T11:06:57.939Z",
   "eggs": [
     {
       "id": "together-historical",
@@ -6657,6 +6657,55 @@
             "https://maas.unisound.com/models/u2-decision",
             "https://maas.unisound.com/docs/api/text/systemone",
             "https://maas.unisound.com/docs/guide/quickstart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vercel-ling31-flash-1019-free-oct30-nov3-2026",
+      "name": "Vercel AI Gateway · Ling 3.1 Flash 1019 限时免费编程 API",
+      "type": "官方模型 API 网关限时免费活动",
+      "description": "Ling 3.1 Flash 1019 编程推理模型在 Vercel AI Gateway 输入、输出均免费至 11 月 3 日，支持工具调用和 100 万 Tokens 上下文。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 71,
+      "quality_breakdown": {
+        "free_api_value": 26,
+        "model_usefulness": 23,
+        "claim_convenience": 18,
+        "validity_and_limits": 4
+      },
+      "grade_reason": "强编程推理模型的官方 $0 API 已开放，但限免仅至 11 月 3 日，未公布免费总配额，未达 Super 可验证高额价值门槛。",
+      "credits": "2026-10-30 至 2026-11-03，inclusionai/ling-3.1-flash-1019 输入/输出均 $0/百万 Tokens；官方未公开独立免费 Token 总量或限速。11 月 3 日开始按模型页面价格收费。Vercel 原有每 30 天 $5 免费额度属于独立既有福利，不叠加为本活动赠金。",
+      "models": [
+        "inclusionai/ling-3.1-flash-1019（Ling 3.1 Flash 1019，1M 上下文，262K 最大输出；编程、推理与工具调用）"
+      ],
+      "requirements": "个人可通过 Vercel 账号在 AI Gateway 创建 API Key，使用 OpenAI Chat Completions / Responses、Anthropic Messages 或 AI SDK 调用；不要求企业/学生/融资身份。中国大陆开户、支付方式验证及实际 API 调用未实测。",
+      "payment_required": "官方免费模型价格为 $0，Vercel 未付费账户可使用 AI Gateway；未见必须预充值的要求。是否需要绑卡、地区限制未实测；11 月 3 日后此模型会转为收费，需主动停用或设置预算。",
+      "url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+      "official_source_url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+      "claim_url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+      "source_type": "Vercel 2026-10-30 官方限免公告、实时模型价格页和 AI Gateway 免费档定价文档",
+      "evidence_urls": [
+        "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+        "https://vercel.com/docs/ai-gateway/pricing"
+      ],
+      "discovered_at": "2026-10-31",
+      "verified_at": "2026-10-31",
+      "last_seen_at": "2026-10-31",
+      "last_reviewed_at": "2026-10-31",
+      "next_review_at": "2026-11-03",
+      "verification_note": "2026-10-31 直接核对 Vercel 10 月 30 日官方公告：Ling 3.1 Flash 1019 经 AI Gateway 免费至 2026-11-03，官方称支持编程、多步推理和工具调用，1M 上下文，11 月 3 日开始按公布价格计费；实时模型页显示 Novita AI 提供、输入输出均 Free，提供 Get API key 和 OpenAI/Anthropic 兼容调用方式。AI Gateway 定价文档说明未付费账户每月 $5 额度，与本 $0 模型活动不相加。未实际开户或发起请求，未确认中国大陆地区资格、绑卡、限速或可用性；官方没有承诺独立免费 Token 总量。",
+      "review_result": "官方现行 $0 模型 API、入口与 11 月 3 日截止日期已核实，active/premium；短期且无可保证高额配额，不评 Super。",
+      "review_history": [
+        {
+          "date": "2026-10-31",
+          "result": "核查 Vercel 10月30日官方 Ling 3.1 Flash 1019 限免公告、模型 $0 价格、API 接入和 11月3日收费日期；未实测开户、地区和实际调用。",
+          "source_url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+          "secondary_sources": [
+            "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+            "https://vercel.com/docs/ai-gateway/pricing"
           ]
         }
       ]
