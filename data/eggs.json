@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T02:54:06+08:00",
+  "updated_at": "2026-11-01T04:55:47+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6876,6 +6876,62 @@
             "https://deapi.ai/lp/en/minimax-h3",
             "https://docs.deapi.ai/introduction",
             "https://app.deapi.ai/register"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stepfun-stepaudio3-all-models-free-until-nov8-2026",
+      "name": "阶跃星辰 StepAudio 3 全系列语音 API 限免（至 11 月 8 日）",
+      "type": "官方模型厂商 / 限时免费语音与音频 API",
+      "description": "StepAudio 3 的实时语音、语音合成、音频生成、音乐生成和语音识别 API 全系列限时免费，适合短期测试语音 Agent 和音频创作；11 月 9 日开始按量收费。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 65,
+      "quality_breakdown": {
+        "free_api_value": 24,
+        "model_usefulness": 17,
+        "claim_convenience": 18,
+        "validity_and_limits": 6
+      },
+      "grade_reason": "官方现行定价明确五款语音 API 在 11 月 8 日前免费；仅专用音频模型、剩余一周左右且未公布统一免费用量上限，不按强通用/编程模型评级。",
+      "credits": "StepAudio 3 系列模型截至北京时间 2026-11-08 23:59:59 限时免费，2026-11-09 00:00:00 起按官方价格收费；未公布统一免费 Token/时长/字符总量或单账户配额。音色复刻/设计等独立增值能力是否包含在限免内未明确，不计入免费范围。",
+      "models": [
+        "stepaudio-3-realtime（实时语音交互）",
+        "stepaudio-3-tts（文本转语音；不包含未确认免费的音色复刻/设计）",
+        "stepaudio-3-gen（综合音频生成）",
+        "stepaudio-3-music（音乐生成）",
+        "stepaudio-3-asr-max（语音识别）"
+      ],
+      "requirements": "阶跃星辰官方开放平台提供个人 API Key 及公开注册入口；个人实名认证流程见官方文档索引。中国大陆个人可走公开注册流程，但本轮未完成账号注册/实名认证、模型调用或实际可用额度验证；未公布独立免费总量及账户限速。",
+      "payment_required": "现行官方定价将 StepAudio 3 系列在 11 月 8 日前列为限时免费，公开页面未写明必须预充值或绑卡才能调用；未完成账号级验证。11 月 9 日后恢复按量收费，使用前应注意付费余额和账单设置。",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "official_source_url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "claim_url": "https://platform.stepfun.com/",
+      "source_type": "阶跃星辰官方现行 API 定价、计费概述、模型介绍、公开 API Key 入口及个人实名认证文档索引",
+      "evidence_urls": [
+        "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+        "https://platform.stepfun.com/docs/zh/guides/pricing/intro",
+        "https://platform.stepfun.com/",
+        "https://www.stepfun.com/news/stepaudio-3",
+        "https://platform.stepfun.com/docs/llms.txt"
+      ],
+      "discovered_at": "2026-11-01",
+      "verified_at": "2026-11-01",
+      "last_seen_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-01",
+      "next_review_at": "2026-11-07",
+      "verification_note": "2026-11-01 读取官方 API 定价：StepAudio 3 系列限时免费至北京时间 11 月 8 日 23:59:59，11 月 9 日 00:00:00 起按量收费；同页列 stepaudio-3-realtime/tts/gen/music/asr-max 五款 API 型号。官方计费概述确认个人 API Key，官网公开获取 Key 入口，文档索引列个人实名认证；未登录实测中国大陆个人领取、是否需绑卡/预充值、免费速率或具体生成结果。音色复刻/设计作为独立收费能力，未证实随系列免费，不宣传免费。非通用编程/推理模型，不满足 Super 硬门槛。",
+      "review_result": "官方当前限免价格、五款模型 ID、个人 API Key 入口及北京时间截止时刻已核实；账号级支付/实名与实际调用未实测，active / normal。",
+      "review_history": [
+        {
+          "date": "2026-11-01",
+          "result": "重读阶跃星辰官方 API 定价和计费概述：确认 StepAudio 3 系列五款模型限免至 11 月 8 日 23:59:59，11 月 9 日恢复收费；公开个人 API Key 入口存在，未实测注册、支付、限速或调用。",
+          "source_url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+          "secondary_sources": [
+            "https://platform.stepfun.com/docs/zh/guides/pricing/intro",
+            "https://platform.stepfun.com/",
+            "https://www.stepfun.com/news/stepaudio-3"
           ]
         }
       ]
