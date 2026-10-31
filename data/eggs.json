@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T00:20:45+08:00",
+  "updated_at": "2026-11-01T02:10:57+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -3142,18 +3142,18 @@
       "id": "unisound-u2-flash-unlimited-free-api-oct-2026",
       "name": "云知声 U2 Flash 限时免费模型 API",
       "type": "官方模型厂商 API 限时活动",
-      "description": "U2 Flash 编程推理 API 原定 10 月 31 日前限免，但当天晚间官方模型目录已显示按量收费；当前免费状态待核实。另有独立 U Plan Free 周度套餐。",
-      "status": "pending",
+      "description": "U2 Flash 按量 API 的 9 月 30 日至 10 月 31 日限免活动已结束，现行模型目录显示输入 ¥1、输出 ¥2／百万 Tokens。U Plan Free 周度免费套餐仍是另一项独立福利。",
+      "status": "expired",
       "grade": null,
       "quality_score": null,
       "quality_breakdown": null,
       "grade_reason": null,
-      "credits": "原活动宣传 2026-09-30 至 2026-10-31，u2-flash 输入/输出/缓存免费；2026-10-31 晚间官方实时模型目录已显示输入 ¥1/百万 Tokens、输出 ¥2/百万 Tokens，是否提前恢复收费或页面口径不同尚未确认。个人实名额外 500 万 Tokens 资源包与独立 U Plan Free 不计入原限免。",
+      "credits": "原活动 2026-09-30 至 2026-10-31 输入/输出/缓存 ¥0；活动期限已过。2026-11-01 官方模型目录显示输入 ¥1/百万 Tokens、输出 ¥2/百万 Tokens。独立 U Plan Free 和实名赠 500 万 Tokens 不属于本限免。",
       "models": [
         "U2 Flash (u2-flash)"
       ],
       "requirements": "云知声 MaaS 手机验证码注册；控制台按量计费/模型资源包创建 API Key。个人开发者可实名认证领额外 500 万 Tokens；限免 API 是否强制实名、各手机号归属地资格、账号实际速率及领取成功率未实测。",
-      "payment_required": "官方当前模型目录的按量价格为输入 ¥1/百万、输出 ¥2/百万 Tokens；原限免活动是否仍适用于现有账号无法公开验证。U Plan Free 为独立订阅与独立 Key，不应与按量 API 混用。",
+      "payment_required": "原按量 API 限免已结束，现行模型目录显示按量收费（输入 ¥1、输出 ¥2／百万 Tokens）；是否需要预充值及已有账号余额未实测。U Plan Free 使用独立 API Key。",
       "url": "https://maas.unisound.com/model-hub",
       "official_source_url": "https://maas.unisound.com/token-plan",
       "claim_url": "https://maas.unisound.com/",
@@ -3164,15 +3164,16 @@
         "https://maas.unisound.com/docs/guide/quickstart",
         "https://maas.unisound.com/docs/guide/overview",
         "https://maas.unisound.com/docs/guide/text/text-generation",
-        "https://maas.unisound.com/docs/guide/capability/function-calling"
+        "https://maas.unisound.com/docs/guide/capability/function-calling",
+        "https://maas.unisound.com/models/u2-flash"
       ],
       "discovered_at": "2026-10-18",
-      "verified_at": "2026-10-18",
-      "last_seen_at": "2026-10-31",
+      "verified_at": "2026-11-01",
+      "last_seen_at": "2026-11-01",
       "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
-      "verification_note": "2026-10-18 直接读取云知声官网：Token Plan 页面 U2 Flash 活动 2026-09-30 至 10-31，输入/输出/缓存 ¥0；模型目录称限时免费无限量并列 u2-flash，支持编程/Agent；快速开始明确手机号验证码自动注册、个人实名认证后可另领 U2 Flash 500 万 Tokens；平台概览与文本生成文档给出 OpenAI 兼容 API https://maas-api.unisound.com/v1 和 model=u2-flash，Function Calling 文档支持 u2-flash。未实测手机号、实名、绑卡、额度到账、API 请求与限速，未找到可独立确认的近期个人实领反馈。\n2026-10-31 晚间重新访问官方实时 model-hub：u2-flash 不再标限时免费，显示输入 ¥1/百万 Tokens、输出 ¥2/百万 Tokens；原活动说明有效期写至 10 月 31 日（未注明具体时刻）。官网 U Plan Free 仍开放，但属独立订阅及专属 Key。因同日页面口径与原截止日冲突，暂停 active 评级转 pending；未实测账号账单，不将页面变化直接判定 expired。",
-      "review_result": "11月1日复查：云知声官方 Token Plan 仍展示 2026-09-30 至 10-31 的 U2 Flash ¥0 限免宣传，模型目录搜索抓取也保留 ¥0，而10月31日晚曾出现按量价格；截止日已过但页面相互矛盾，未实测按量 Key 账单，维持 pending。U Plan Free 属独立套餐。",
+      "next_review_at": null,
+      "verification_note": "2026-10-18 直接读取云知声官网：Token Plan 页面 U2 Flash 活动 2026-09-30 至 10-31，输入/输出/缓存 ¥0；模型目录称限时免费无限量并列 u2-flash，支持编程/Agent；快速开始明确手机号验证码自动注册、个人实名认证后可另领 U2 Flash 500 万 Tokens；平台概览与文本生成文档给出 OpenAI 兼容 API https://maas-api.unisound.com/v1 和 model=u2-flash，Function Calling 文档支持 u2-flash。未实测手机号、实名、绑卡、额度到账、API 请求与限速，未找到可独立确认的近期个人实领反馈。\n2026-10-31 晚间重新访问官方实时 model-hub：u2-flash 不再标限时免费，显示输入 ¥1/百万 Tokens、输出 ¥2/百万 Tokens；原活动说明有效期写至 10 月 31 日（未注明具体时刻）。官网 U Plan Free 仍开放，但属独立订阅及专属 Key。因同日页面口径与原截止日冲突，暂停 active 评级转 pending；未实测账号账单，不将页面变化直接判定 expired。\n2026-11-01 补充核实：官方 Token Plan 的活动日期明确截至 10 月 31 日，当前实时 model-hub 页面 u2-flash 已恢复按量价格（输入 ¥1/百万、输出 ¥2/百万 Tokens）。确认原按量限免活动截止，不把旧免费宣传或缓存作为续期证据。未实测账号实际账单；独立 U Plan Free 继续按其自身规则收录。",
+      "review_result": "11月1日补充实查：官方 Token Plan 明确 U2 Flash 按量 API 限免截至10月31日；当前 model-hub 已列输入 ¥1、输出 ¥2／百万 Tokens，故原活动确认为 expired。网页旧版免费宣传仍可能留存；未登录测试账号账单。独立 U Plan Free 不受影响。",
       "review_history": [
         {
           "date": "2026-10-18",
@@ -3196,14 +3197,17 @@
         },
         {
           "date": "2026-11-01",
-          "result": "11月1日复查：云知声官方 Token Plan 仍展示 2026-09-30 至 10-31 的 U2 Flash ¥0 限免宣传，模型目录搜索抓取也保留 ¥0，而10月31日晚曾出现按量价格；截止日已过但页面相互矛盾，未实测按量 Key 账单，维持 pending。U Plan Free 属独立套餐。",
-          "source_url": "https://maas.unisound.com/token-plan",
+          "result": "11月1日补充实查：官方 Token Plan 明确 U2 Flash 按量 API 限免截至10月31日；当前 model-hub 已列输入 ¥1、输出 ¥2／百万 Tokens，故原活动确认为 expired。网页旧版免费宣传仍可能留存；未登录测试账号账单。独立 U Plan Free 不受影响。",
+          "source_url": "https://maas.unisound.com/model-hub",
           "secondary_sources": [
-            "https://maas.unisound.com/model-hub",
-            "https://maas.unisound.com/docs/token-plan/quickstart"
+            "https://maas.unisound.com/token-plan",
+            "https://maas.unisound.com/models/u2-flash",
+            "https://maas.unisound.com/docs/token-plan/overview"
           ]
         }
-      ]
+      ],
+      "expired_at": "2026-10-31",
+      "expiration_reason": "官方 Token Plan 明确活动期 2026-09-30 至 2026-10-31，现已过截止日；2026-11-01 官方实时 model-hub 的 u2-flash 价格为输入 ¥1/百万、输出 ¥2/百万 Tokens。"
     },
     {
       "id": "agnes-ai-flash-free-api-2026",
