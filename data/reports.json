@@ -24,36 +24,31 @@
     "published_at": "2026-11-01T08:01:18+08:00"
   },
   "evening": {
-    "date": "2026-10-29",
-    "title": "10 月 29 日晚报：2 亿检索 Tokens 抢镜，月度视觉与语音额度上新 🌙",
-    "summary": "下午新增 Voyage 2 亿检索 Tokens、Moondream 每月 $5 视觉额度，以及 Polly、Cartesia、ElevenLabs 的月度语音免费档。小额模型试用也集中补齐；Scaleway 因 100 万 Tokens 为共享额度且需绑卡，降为 normal。9 项 pending 已复核，没有新 Super。",
+    "id": "2026-11-01-evening",
+    "kind": "evening",
+    "date": "2026-11-01",
+    "title": "11 月 1 日晚报：Fish Audio 语音免费续杯，九颗待核实继续排队 🌙",
+    "summary": "今天补上 Fish Audio S2.1 Pro 免费语音合成 API，官方延长至 11 月 30 日。StepAudio 3 限免和 Bytez 循环小额额度也已收录；9 条待核实线索仍缺关键领取证据，没有新 Super。",
     "highlights": [
-      "Voyage AI 的合资格向量与重排模型提供首 2 亿免费 Tokens，评 premium；Jina AI 新 API Key 有 1000 万检索 Tokens。两项都适合 RAG、搜索和重排，不是通用聊天或编程额度。",
-      "Moondream 每月送 $5 视觉模型 API 额度且免绑卡；Amazon Polly 按月提供多档语音字符额度，Cartesia 和 ElevenLabs 也分别有 2 万、1 万月度语音 Credits。",
-      "一次性小额试用集中补齐：Mixedbread $5、DigitalOcean $5、Liquid AI $2、Runware $2，以及约值 $0.25 的 Stability AI 25 Credits。Runware 需企业域名邮箱，Liquid AI 的绑卡要求仍未确认。",
-      "Scaleway 的 100 万 Tokens 是所有按 Token 计费模型共享，另有 60 分钟转写额度；因需绑卡且超额计费，从 premium 调整为 normal。9 项 pending 今天均已复核，新增 Baseten 待核金额与适用范围；没有新 Super。"
+      "Fish Audio 的 s2.1-pro-free 目前为 $0 的语音合成 API，支持中文等 83 种语言和参考音频克隆；免绑卡、公平使用下无固定字符上限，免费至 11 月 30 日。它是语音专用模型，评 premium。",
+      "阶跃星辰 StepAudio 3 五款语音 API 限免至北京时间 11 月 8 日 23:59:59；Bytez 免费档每 4 周刷新 $1，当前保守只按 7B 及以下开源模型计入。",
+      "云知声旧 U2 Flash 按量免费已于 10 月 31 日结束；独立的 U Plan Free 仍提供每周 2500 积分，别把两个方案混在一起。",
+      "9 条 pending 今天都已复核。Vultr $250 专项页仍无法正常读取；The Grid $5、runaii $5、Articul8 Bivia 10 亿 Tokens 等还缺个人领取或地区资格的完整证据。Vercel Ling 3.1 Flash 1019 免费至 11 月 3 日。"
     ],
     "tip": "",
     "sources": [
-      "https://docs.voyageai.com/docs/pricing",
-      "https://api.jina.ai/docs",
-      "https://moondream.ai/pricing",
-      "https://docs.moondream.ai/api/",
-      "https://aws.amazon.com/polly/pricing/",
-      "https://www.cartesia.ai/pricing",
-      "https://join.elevenlabs.io/api/developer-api",
-      "https://www.mixedbread.com/pricing",
-      "https://www.digitalocean.com/products/managed-agents",
-      "https://docs.digitalocean.com/products/managed-agents/action-gateway/how-to/manage-ag-prepayment/",
-      "https://www.liquid.ai/pricing",
-      "https://runware.ai/pricing",
-      "https://docs.stability.ai/getting-started",
-      "https://www.scaleway.com/en/docs/generative-apis/faq/",
-      "https://www.baseten.co/pricing/",
-      "https://www.baseten.co/products/model-apis/"
+      "https://fish.audio/zh-CN/blog/s2-1-pro-free-api/",
+      "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
+      "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+      "https://bytez.com/api/pricing",
+      "https://docs.bytez.com/model-api/docs/billing",
+      "https://maas.unisound.com/docs/token-plan/overview",
+      "https://thegrid.ai/pricing",
+      "https://runaii.cloud/faq",
+      "https://www.articul8.ai/bivia",
+      "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+      "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free"
     ],
-    "published_at": "2026-10-29T19:08:54+08:00",
-    "id": "2026-10-29-evening",
-    "kind": "evening"
+    "published_at": "2026-11-01T19:39:44+08:00"
   }
 }
