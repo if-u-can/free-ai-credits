@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T21:58:16+08:00",
+  "updated_at": "2026-11-02T00:11:43+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -857,9 +857,9 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "quality_breakdown": null,
-      "last_reviewed_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-02",
       "last_seen_at": "2026-10-28",
-      "next_review_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "evidence_urls": [
         "https://fireworks.ai/pricing",
         "https://fireworks.ai/blog/billing-migration-to-prepaid",
@@ -869,7 +869,7 @@
         "https://app.fireworks.ai/signup",
         "https://fireworks.ai/models"
       ],
-      "review_result": "11月1日核查官方账单 FAQ 仍提 $1 starter credit，耗尽后无支付方式则暂停；现行 Pricing 为预付制。未登录验证新号自动发放、地区与期限，继续 pending。",
+      "review_result": "11月2日重读现行账单 FAQ，仍写 $1 starter credit、用完后未绑定支付方式的账户暂停；定价为预付制。新注册自动发放、地区和有效期未做账号实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-20",
@@ -984,6 +984,14 @@
           "secondary_sources": [
             "https://fireworks.ai/pricing"
           ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日重读现行账单 FAQ，仍写 $1 starter credit、用完后未绑定支付方式的账户暂停；定价为预付制。新注册自动发放、地区和有效期未做账号实测，保持 pending。",
+          "source_url": "https://docs.fireworks.ai/faq-new/billing-pricing/what-happens-when-i-finish-my-1-dollar-credit",
+          "secondary_sources": [
+            "https://fireworks.ai/pricing"
+          ]
         }
       ],
       "review_started_at": "2026-10-20",
@@ -1012,7 +1020,7 @@
       "type": "官方平台",
       "source_type": "官方活动/免费方案具体政策",
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-02",
       "review_history": [
         {
           "date": "2026-10-08",
@@ -1156,12 +1164,21 @@
             "https://www.vultr.com/promo/try250/",
             "https://docs.vultr.com/platform/create-an-account"
           ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日官方 Serverless Inference 视频页仍将新账号 $250 try250 作为体验入口；专项页本轮返回 403。开户文档需支付方式验证，信用卡可 $0 验证；专项资格、到账及推理 API 抵扣未实测，保持 pending。",
+          "source_url": "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+          "secondary_sources": [
+            "https://www.vultr.com/promo/try250/",
+            "https://docs.vultr.com/platform/create-an-account"
+          ]
         }
       ],
-      "next_review_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "review_attempts": 15,
       "review_policy": "按北京时间每日复核一次。持续3个不同自然日均无法找到当期有效证据时转入 unverifiable 核查归档，不冒充 expired；如发现资格不符则 excluded；有新证据可以恢复 pending 或 active。",
-      "review_result": "11月1日官方 Serverless Inference 视频页仍引导新账号领取 $250，try250 专项领取页返回 403；开户文档说明需验证支付方式，信用卡可 $0 验证。未核实活动到账、地区及推理 API 抵扣，维持 pending。",
+      "review_result": "11月2日官方 Serverless Inference 视频页仍将新账号 $250 try250 作为体验入口；专项页本轮返回 403。开户文档需支付方式验证，信用卡可 $0 验证；专项资格、到账及推理 API 抵扣未实测，保持 pending。",
       "evidence_urls": [
         "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
         "https://docs.vultr.com/platform/create-an-account",
@@ -3717,10 +3734,10 @@
       "discovered_at": "2026-10-23",
       "verified_at": null,
       "last_seen_at": "2026-10-28",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。",
-      "review_result": "11月1日官方 Pricing 仍写新客 $5 API credits，手机号验证、14天有效；公开注册页仅呈现动态外壳，+86 资格、支付要求及到账未实测，维持 pending。",
+      "review_result": "11月2日现行定价仍确认新客 $5、手机号验证、14 天过期，提供 Kimi K2.6、GLM-5.2 等推理模型；注册页为动态外壳，+86 号码、支付要求和实际到账未验证，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-23",
@@ -3805,6 +3822,14 @@
         {
           "date": "2026-11-01",
           "result": "11月1日官方 Pricing 仍写新客 $5 API credits，手机号验证、14天有效；公开注册页仅呈现动态外壳，+86 资格、支付要求及到账未实测，维持 pending。",
+          "source_url": "https://thegrid.ai/pricing",
+          "secondary_sources": [
+            "https://app.thegrid.ai/sign-up"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日现行定价仍确认新客 $5、手机号验证、14 天过期，提供 Kimi K2.6、GLM-5.2 等推理模型；注册页为动态外壳，+86 号码、支付要求和实际到账未验证，保持 pending。",
           "source_url": "https://thegrid.ai/pricing",
           "secondary_sources": [
             "https://app.thegrid.ai/sign-up"
@@ -4590,8 +4615,8 @@
       "discovered_at": "2026-10-25",
       "verified_at": null,
       "last_seen_at": "2026-10-28",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "url": "https://platform.baichuan-ai.com/prices",
       "official_source_url": "https://platform.baichuan-ai.com/prices",
       "claim_url": "https://platform.baichuan-ai.com/",
@@ -4601,7 +4626,7 @@
         "https://platform.baichuan-ai.com/article/user-agreement"
       ],
       "verification_note": "2026-10-25 读取百川官方当前价格页：赠金说明仍列 2024-05-22 起新注册用户 ¥80、3 个月；价格页和现行通用对话 API 文档列出 Baichuan4/3/2 可按 Token 调用。因条款原始日期为 2024 年、官网未展示 2026 年新注册实领证明，且登录/注册动态页未能确认支付卡及实名要求，暂记 pending，不评级。",
-      "review_result": "11月1日百川官方 Pricing 仍展示始于 2024-05-22 的新客 ¥80、3个月有效说明和当前模型 API 价格；2026 新号是否仍到账、实名及绑卡要求未实测，维持 pending。",
+      "review_result": "11月2日官方价格页仍展示自 2024-05-22 起新客赠 ¥80、有效 3 个月的说明和现行模型 API 价格；2026 年新号实际到账、实名/绑卡与个人领取流程未实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-25",
@@ -4666,6 +4691,11 @@
           "secondary_sources": [
             "https://platform.baichuan-ai.com/docs-v2/api"
           ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日官方价格页仍展示自 2024-05-22 起新客赠 ¥80、有效 3 个月的说明和现行模型 API 价格；2026 年新号实际到账、实名/绑卡与个人领取流程未实测，保持 pending。",
+          "source_url": "https://platform.baichuan-ai.com/prices"
         }
       ],
       "review_attempts": 6
@@ -4853,10 +4883,10 @@
       "discovered_at": "2026-10-27",
       "verified_at": null,
       "last_seen_at": "2026-10-28",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "verification_note": "2026-10-27 官方 Pricing、FAQ、Terms 同时写明 $5 新客 credits、免绑卡，邮箱验证后发放且不失效；官网提供 OpenAI / Anthropic / Responses 兼容 API 和 DeepSeek V4.1 Flash、Qwen3.8 Flash、GLM-5.3 模型报价。官方 Quickstart 明确 GLM-5.3 曾 is_ready:false，DeepSeek V4.1 Flash 在文档编写时可用，当前 /api/v1/models 实时状态与 API 实调未验证。2026-10-02 LINUX DO 先有实际使用 Qwen 和获得 $5 的反馈，随后同帖出现「渠道已死，不送额度了」，与目前官方宣传冲突。未新建账户、未核实 2026-10-27 真实到账和中国大陆资格，暂不评级。",
-      "review_result": "11月1日官方 Pricing/FAQ 仍确认新客邮箱验证赠 $5、免绑卡，可通过 OpenAI 兼容 API 使用 DeepSeek V4.1 Flash 等；注册后实际到账、地区和实时模型可用性未实测，维持 pending。",
+      "review_result": "11月2日现行 Pricing/FAQ 仍确认邮箱验证赠 $5、无需绑卡、可通过兼容 API 使用 GLM-5.3、DeepSeek V4.1 Flash 等；新账号余额、地区资格与实时模型调用未实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-27",
@@ -4916,6 +4946,14 @@
           "secondary_sources": [
             "https://runaii.cloud/pricing",
             "https://runaii.cloud/signup"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日现行 Pricing/FAQ 仍确认邮箱验证赠 $5、无需绑卡、可通过兼容 API 使用 GLM-5.3、DeepSeek V4.1 Flash 等；新账号余额、地区资格与实时模型调用未实测，保持 pending。",
+          "source_url": "https://runaii.cloud/faq",
+          "secondary_sources": [
+            "https://runaii.cloud/pricing"
           ]
         }
       ],
@@ -5008,10 +5046,10 @@
       "discovered_at": "2026-10-27",
       "verified_at": null,
       "last_seen_at": "2026-10-28",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "verification_note": "2026-10-27 官方 Pricing/Authentication 确认每组织每月 125M 免费输入 Tokens，Test Key 30 RPM、500K 输入 Tokens/分钟、无需绑卡；文档列 decision-machine-1 和 rakeaudio，均可消费同一测试额度。条款 1.4 限定 businesses and professional use，注册需创建 organization，未明确个人专业开发者无企业资质是否可领取；注册入口跳转 WorkOS 认证，抓取工具未能完成新账号注册/实时 API 调用；未找到近期独立实领反馈。仅为专用小模型与转写，绝不按 125M 强模型 Tokens 评级。",
-      "review_result": "11月1日 Pricing 与 Authentication 仍确认每组织每月 1.25 亿免费测试输入 Tokens、免卡；服务条款限定商业/专业用途，注册转 WorkOS，个人无企业资质及中国大陆资格未证实，维持 pending。仅专用决策/转写 API。",
+      "review_result": "11月2日官方 Pricing/Authentication 仍确认 test_sk 每组织每月 1.25 亿免费输入 Tokens、免卡；条款限商业或专业用途。无公司资质个人及中国大陆注册、实际调用未实测，保持 pending，专用决策/转写模型不按强通用模型评。",
       "review_history": [
         {
           "date": "2026-10-27",
@@ -5071,6 +5109,15 @@
             "https://docs.milliseconds.ai/authentication",
             "https://milliseconds.ai/legal/terms/",
             "https://console.milliseconds.ai/signup"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日官方 Pricing/Authentication 仍确认 test_sk 每组织每月 1.25 亿免费输入 Tokens、免卡；条款限商业或专业用途。无公司资质个人及中国大陆注册、实际调用未实测，保持 pending，专用决策/转写模型不按强通用模型评。",
+          "source_url": "https://milliseconds.ai/pricing/",
+          "secondary_sources": [
+            "https://docs.milliseconds.ai/authentication",
+            "https://milliseconds.ai/legal/terms/"
           ]
         }
       ],
@@ -5785,10 +5832,10 @@
       "discovered_at": "2026-10-29",
       "verified_at": null,
       "last_seen_at": "2026-10-30",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "verification_note": "2026-10-29 核对 Baseten 官方 Pricing FAQ：new accounts come with credits to experiment with deployments for free；当前 Model APIs 产品页列 GLM-5.3、DeepSeek V4 Pro 0813、Kimi K3 等 OpenAI 兼容模型。官方未明确赠额金额或该 Credits 可抵扣 Model APIs；第三方称 $30，但没有采用为官方事实。注册入口需 JS/反机器人验证，未实测注册、绑卡、额度或地区。排除须申请审批的 Startup Program 额度。 2026-10-30 本轮复读同一官方 Pricing FAQ，页面第 462–464 行明确写明新账户附带 Credits，可免费试验 deployments；纠正此前“当前页已无 Credits 文字”的错误。该 FAQ 未说明金额、是否覆盖 Model APIs、卡/地区/期限；Basic $0/月只是免月费的按量计费，不能等同于模型 API 免费。未注册实测，仍 pending。",
-      "review_result": "11月1日 Baseten Pricing FAQ 仍确认新账户赠 Credits 用于试验 deployments；未公布金额或是否可抵扣 Model APIs，注册页需要 JS 验证，支付/地区资格未实测，维持 pending。",
+      "review_result": "11月2日官方 Pricing FAQ 仍称新账户附带免费试验 deployments 的 Credits；金额及能否抵扣 Model APIs 未写明，注册/支付/地区未实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-29",
@@ -5824,6 +5871,14 @@
           "secondary_sources": [
             "https://www.baseten.co/products/model-apis/",
             "https://app.baseten.co/signup"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日官方 Pricing FAQ 仍称新账户附带免费试验 deployments 的 Credits；金额及能否抵扣 Model APIs 未写明，注册/支付/地区未实测，保持 pending。",
+          "source_url": "https://www.baseten.co/pricing/",
+          "secondary_sources": [
+            "https://www.baseten.co/products/model-apis/"
           ]
         }
       ],
@@ -6514,12 +6569,12 @@
       "discovered_at": "2026-10-30",
       "verified_at": null,
       "last_seen_at": "2026-10-30",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
       "review_started_at": "2026-10-30",
       "review_attempts": 1,
       "verification_note": "2026-10-30 交叉核查 Nscale 2026-08-06 官方文章：明确写 Create an account and claim your $5 free credit；2025-04-02 初发文章也写 every new user can claim $5。现行 docs/getting-started/overview 明确要求至少购买 $5 Credits，Quickstart 仅说 early users may be eligible for free credits，Credit 文档写需先购买 Credits。注册控制台公开抓取返回 403，未注册或实调；无法判断目前新客是否自动赠额、免绑卡资格及有效期。官方当前模型目录列 GLM 5.3 与 Qwen3.8 系列，但未验证赠额适用。当前仅保留 pending，不评级。",
-      "review_result": "11月1日 Nscale 8月6日官方文章仍明确注册可领 $5；现行 Quickstart 仅称早期用户可能获赠，常规流程为购买 Credits，控制台返回 403。未确认新号实际可领、支付/地区要求，维持 pending。",
+      "review_result": "11月2日 8月6日官方文章仍称注册可领 $5，但现行 Quickstart 仅称早期用户可能获得赠额，常规流程是充值；当前新账号领取资格、支付要求及到账未实测，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-30",
@@ -6549,6 +6604,14 @@
           "secondary_sources": [
             "https://docs.nscale.com/docs/getting-started/quickstart",
             "https://console.nscale.com/"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日 8月6日官方文章仍称注册可领 $5，但现行 Quickstart 仅称早期用户可能获得赠额，常规流程是充值；当前新账号领取资格、支付要求及到账未实测，保持 pending。",
+          "source_url": "https://www.nscale.com/blog/what-is-serverless-inference",
+          "secondary_sources": [
+            "https://docs.nscale.com/docs/getting-started/quickstart"
           ]
         }
       ]
@@ -6639,9 +6702,9 @@
       "verification_note": "2026-10-31 官方 Bivia 页面仍展示首批 1 万用户获 10 亿免费 Tokens、No subscription、公开 Get API key 注册入口和 HTTP POST/SDK 示例；2026-10-27 生效的官方条款允许个人用户（至少 18 岁）注册。注册页为动态内容，未完成开户、余额/API 实调；无法确认名额是否已满、绑卡、地区及期限。Bivia 是专用结构化决策模型，不能视作强通用/编程 LLM，因此不评 Super。",
       "source_type": "官方活动/免费方案具体政策",
       "last_seen_at": "2026-10-31",
-      "last_reviewed_at": "2026-11-01",
-      "next_review_at": "2026-11-02",
-      "review_result": "11月1日 Articul8 Bivia 官方页仍宣传首批1万用户赠10亿输入 Tokens，提供 API/SDK 入口；注册页无法公开验证剩余名额、个人地区/绑卡条件及到账，维持 pending。专用决策模型不按强通用模型评级。",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
+      "review_result": "11月2日 Bivia 官方活动页仍宣传首批 1 万用户赠 10 亿 Tokens，并提供决策 API 注册入口；动态注册页无法确认剩余名额、个人地区/绑卡与到账，保持 pending，专用模型不评 Super。",
       "review_started_at": "2026-10-31",
       "review_attempts": 1,
       "review_history": [
@@ -6661,6 +6724,14 @@
           "secondary_sources": [
             "https://app.articul8.ai/registration?code=bivia&source=bivia",
             "https://www.articul8.ai/terms"
+          ]
+        },
+        {
+          "date": "2026-11-02",
+          "result": "11月2日 Bivia 官方活动页仍宣传首批 1 万用户赠 10 亿 Tokens，并提供决策 API 注册入口；动态注册页无法确认剩余名额、个人地区/绑卡与到账，保持 pending，专用模型不评 Super。",
+          "source_url": "https://www.articul8.ai/bivia",
+          "secondary_sources": [
+            "https://app.articul8.ai/registration?code=bivia&source=bivia"
           ]
         }
       ]
