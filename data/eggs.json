@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T00:11:43+08:00",
+  "updated_at": "2026-11-02T03:45:08+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -7163,6 +7163,57 @@
             "https://blade.sh/models/pricing/",
             "https://blade.sh/docs/openai-sdk/",
             "https://blade.sh/legal/terms/consumers-international/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moonmath-zro-daily-free-flash-api-pending-2026",
+      "name": "MoonMath Zro 每日免费 Flash 模型 API（开通条件待核实）",
+      "type": "正规模型推理平台 / 免费编程模型 API",
+      "description": "Zro 官网推出每天刷新的免费模型 API，可调用 DeepSeek V4.1 Flash 和 GLM-5.3 Flash，支持 OpenAI 兼容接口；每日额度数值和免付款开通流程还没讲清。",
+      "status": "pending",
+      "grade": null,
+      "quality_score": null,
+      "quality_breakdown": null,
+      "grade_reason": null,
+      "credits": "官方 Free $0/月，包含 DeepSeek V4.1 Flash、GLM-5.3 Flash 的每日免费调用量，每日重置；未公布每日具体 Tokens、美元额度、RPM 或共享限制，不能推断高额配额。",
+      "models": [
+        "deepseek-v4.1-flash（官方 Free 档）",
+        "glm-5.3-flash（官方 Free 档）"
+      ],
+      "requirements": "官方有面向个人的 Free 方案与公开注册入口；需注册账户并获取 API Key。中国大陆/手机号地区资格、是否要求绑卡、是否可不购买用量包直接创建免费 Key 以及每日具体上限均未完成账号验证。",
+      "payment_required": "定价页明确 Free $0/月并提供 Start free；但现行 Quickstart 仍写创建 API Key 前需订阅或购买用量包，免费方案是否免卡免付款直接开通未证实。",
+      "url": "https://zro.moonmath.ai/pricing",
+      "official_source_url": "https://zro.moonmath.ai/pricing",
+      "claim_url": "https://zro.moonmath.ai/get-started?plan=free",
+      "source_type": "MoonMath Zro 官方现行 Pricing、Quickstart、API Docs、个人 Terms",
+      "evidence_urls": [
+        "https://zro.moonmath.ai/pricing",
+        "https://zro.moonmath.ai/",
+        "https://zro.moonmath.ai/docs",
+        "https://zro.moonmath.ai/docs/quickstart",
+        "https://zro.moonmath.ai/terms",
+        "https://zro.moonmath.ai/get-started?plan=free"
+      ],
+      "discovered_at": "2026-11-02",
+      "verified_at": null,
+      "last_seen_at": "2026-11-02",
+      "last_reviewed_at": "2026-11-02",
+      "next_review_at": "2026-11-03",
+      "review_started_at": "2026-11-02",
+      "review_attempts": 1,
+      "verification_note": "2026-11-02 03:45（北京时间）读取 MoonMath Zro 官方 Pricing：Free $0/月、DeepSeek V4.1 Flash 与 GLM-5.3 Flash 每日免费调用且每日重置，提供 OpenAI 兼容 API 和 Start free。官方 Terms（2026-10-13）允许个人账户，说明 Zro 运营自有和第三方 GPU 容量，非普通商业中转营销；Start free 直链跳转官方注册页。官方 Quickstart 仍要求创建 Key 前订阅或购买用量包，与 Free 定价页冲突；每日实际免费额度、无需支付开通、+86/中国大陆资格和真实调用未登录验证。保持 pending，不评级。",
+      "review_result": "官方现行 Free 方案、两款免费模型、API 兼容性及注册入口可核实；Quickstart 与免费开通流程不一致，免费 Key 是否可免付款使用、每日额度及地区资格仍缺证据，保持 pending。",
+      "review_history": [
+        {
+          "date": "2026-11-02",
+          "result": "首次核对官方 Free 定价、两款 Flash 模型、Start free 注册入口、个人 Terms 与 Quickstart；后者仍要求订阅或买用量包，实际免费开通及每日额度未证实。",
+          "source_url": "https://zro.moonmath.ai/pricing",
+          "secondary_sources": [
+            "https://zro.moonmath.ai/docs/quickstart",
+            "https://zro.moonmath.ai/terms",
+            "https://zro.moonmath.ai/get-started?plan=free"
           ]
         }
       ]
