@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31T04:13:25+08:00",
+  "updated_at": "2026-11-01T08:01:18+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -738,6 +738,30 @@
       "credits": "U Plan Free：每周 2,500 积分、每 5 小时最多 500 积分；赠送独立语音/OCR 配额",
       "payment_required": "官网列为 Free 免费档，公开指引未要求预充值；实际绑卡/支付验证未登录实测。",
       "status": "active"
+    },
+    {
+      "id": "2026-11-01-morning",
+      "kind": "morning",
+      "date": "2026-11-01",
+      "title": "11 月 1 日早报：U Plan 每周 2500 积分，语音 API 限免接力 ☀️",
+      "summary": "这两天最值得关注的是云知声 U Plan Free：每周刷新 2500 积分，可用于 U2-Flash 编程推理 API。11 月 1 日又收录了 StepAudio 3 语音限免和 Bytez 小额循环赠额；旧 U2 Flash 按量限免已经结束。",
+      "highlights": [
+        "10 月 31 日收录的云知声 U Plan Free 已列为 Super：每 7 天 2500 积分、每 5 小时最多 500 积分，支持 U2-Flash；语音与 OCR 另有专项配额。领取需进入 U Plan 订阅管理，使用套餐专属 API Key。",
+        "11 月 1 日新收录 StepAudio 3 五款语音 API，官方明确免费至北京时间 11 月 8 日 23:59:59；实时语音、TTS、ASR、音频及音乐生成都在列，音色复刻与设计不计入已核实免费范围。",
+        "同日补上 Bytez 每 4 周刷新的 $1 免费模型 API 额度，仅保守计入 7B 及以下开源模型。云知声原 U2-Flash 按量限免则已于 10 月 31 日结束，与仍可领取的 U Plan Free 是两回事。",
+        "Vercel AI Gateway 的 Ling 3.1 Flash 1019 编程模型官方免费至 11 月 3 日，之后标准模型 ID 将开始收费。当前仍有 9 条 pending，尚无全新已确证 Super。"
+      ],
+      "tip": "使用 Vercel Ling 3.1 Flash 1019 限免时，记得在 11 月 3 日前检查模型 ID 和计费设置。",
+      "sources": [
+        "https://maas.unisound.com/docs/token-plan/overview",
+        "https://maas.unisound.com/docs/token-plan/quickstart",
+        "https://maas.unisound.com/token-plan",
+        "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+        "https://bytez.com/api/pricing",
+        "https://docs.bytez.com/model-api/docs/billing",
+        "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free"
+      ],
+      "published_at": "2026-11-01T08:01:18+08:00"
     }
   ]
 }
