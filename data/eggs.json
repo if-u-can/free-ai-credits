@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T05:47:13+08:00",
+  "updated_at": "2026-11-01T15:30:56+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -6985,6 +6985,57 @@
           "secondary_sources": [
             "https://docs.bytez.com/model-api/docs/billing",
             "https://docs.bytez.com/model-api/docs/get-started"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-audio-s21-pro-free-tts-until-nov30-2026",
+      "name": "Fish Audio S2.1 Pro 免费语音合成 API（至 11 月 30 日）",
+      "type": "官方语音模型厂商 / 限时免费 TTS API",
+      "description": "Fish Audio 的 S2.1 Pro 免费 API 支持中文等 83 种语言、语音克隆与长文本合成，没有固定字符硬上限；适合做游戏配音和语音 Agent 原型。",
+      "status": "active",
+      "grade": "premium",
+      "quality_score": 76,
+      "quality_breakdown": {
+        "free_api_value": 29,
+        "model_usefulness": 18,
+        "claim_convenience": 23,
+        "validity_and_limits": 6
+      },
+      "grade_reason": "官方定价明确当前高质量语音模型 API 为 $0、免绑卡，公平使用下无固定字符上限；仅限专用 TTS，且 11 月 30 日结束，不满足强通用/编程模型的 Super 门槛。",
+      "credits": "s2.1-pro-free API 价格 $0/百万 UTF-8 字节，公平使用政策下无固定字符总量；官方公告免费至 2026-11-30。其他付费 TTS/ASR/语音设计模型不包含在此免费档。",
+      "models": [
+        "s2.1-pro-free（Fish Audio S2.1 Pro 免费 TTS，支持 83 种语言及参考音频克隆）"
+      ],
+      "requirements": "个人开发者可从 Fish Audio 官方入口注册并获取 API Key；官方明确无需信用卡或预充值。免费模型为尽力而为服务，Starter 账户最多 5 个并发请求；中国大陆/+86 注册资格、实际新号调用未做账号级实测。免费请求可能用于改进模型，较大商业产品另有限制。",
+      "payment_required": "否。官方活动页明确 s2.1-pro-free 免费调用、无需绑卡；其他型号仍按量收费。",
+      "url": "https://fish.audio/zh-CN/blog/s2-1-pro-free-api/",
+      "official_source_url": "https://fish.audio/zh-CN/blog/s2-1-pro-free-api/",
+      "claim_url": "https://fish.audio/app/api-keys/",
+      "source_type": "Fish Audio 官方中文免费 API 公告、现行模型定价与速率限制文档、API Key 入口",
+      "evidence_urls": [
+        "https://fish.audio/zh-CN/blog/s2-1-pro-free-api/",
+        "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
+        "https://docs.fish.audio/overview/capabilities",
+        "https://fish.audio/app/api-keys/"
+      ],
+      "discovered_at": "2026-11-01",
+      "verified_at": "2026-11-01",
+      "last_seen_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-01",
+      "next_review_at": "2026-11-25",
+      "verification_note": "2026-11-01 读取 Fish Audio 官方免费 API 中文公告：S2.1 Pro Free 免绑卡，模型 ID s2.1-pro-free，83 种语言，公平使用下无固定字符硬上限，免费至 2026-11-30，公开提供 API Key 与 POST /v1/tts 示例。现行开发者定价表将 s2.1-pro-free 列为 $0/百万 UTF-8 字节；Starter 并发 5，服务无 SLA，数据可能用于模型改进。官网 API Key 页面为动态登录入口，未注册新账号、未实际发起请求或核验中国大陆资格。语音专用模型不评 Super。",
+      "review_result": "官方当前免费 API 价格、模型 ID、个人 API Key 入口、免卡与截止日期已交叉核实，active/premium；未做账户级实调。",
+      "review_history": [
+        {
+          "date": "2026-11-01",
+          "result": "首次核实 Fish Audio 官方公告及当前定价：s2.1-pro-free $0/百万 UTF-8 字节，免卡，公平使用下无固定字符上限，限免至 11 月 30 日；API Key 入口存在，未实测新账号、地区和调用。",
+          "source_url": "https://fish.audio/zh-CN/blog/s2-1-pro-free-api/",
+          "secondary_sources": [
+            "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
+            "https://docs.fish.audio/overview/capabilities",
+            "https://fish.audio/app/api-keys/"
           ]
         }
       ]
