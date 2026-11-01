@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T15:30:56+08:00",
+  "updated_at": "2026-11-01T21:58:16+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -7036,6 +7036,62 @@
             "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
             "https://docs.fish.audio/overview/capabilities",
             "https://fish.audio/app/api-keys/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blade-shadow-5eur-new-customer-api-2026",
+      "name": "Blade by Shadow 新客 €5 模型推理 API 赠额",
+      "type": "正规推理平台官方新用户 API credits",
+      "description": "Shadow 旗下 Blade 为新客户提供 €5 模型 API 试用金，支持 Qwen3.8、Gemma 4、Nemotron 等开源推理与编程模型，使用 OpenAI 兼容接口。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 57,
+      "quality_breakdown": {
+        "free_api_value": 15,
+        "model_usefulness": 17,
+        "claim_convenience": 16,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方确认新客 €5 可用于按 Token 计费的模型 API，个人可申请；金额有限，支付验证与中国大陆注册资格尚未实测。",
+      "credits": "新客户一次性 €5 免费 credits；官网与模型定价页当前均明确宣传。具体赠额有效期、模型限制以开户时账户显示为准，未公开固定天数。",
+      "models": [
+        "qwen3.8-27b（Qwen3.8-27B 推理/编程）",
+        "gemma-4-26b-a4b（长文本）",
+        "nemotron3.5-lightning-30b（推理）",
+        "gpt-oss-20b（推理/编程）",
+        "hypernova-60b（推理）"
+      ],
+      "requirements": "年满 18 岁的个人可按官方非欧洲经济区个人条款注册；公开控制台可创建 API Key。中国大陆、+86 手机号及银行卡适用性未实测；官网未公开免费赠额是否要求预先绑定支付卡。模型目录以控制台权限为准。",
+      "payment_required": "官方说明无需订阅、无最低消费，新客户赠 €5；未公开赠额发放时是否要求先绑支付方式或预充值。条款说明后续购买 credits 为预付制，自动充值可选；未做账号级验证。",
+      "url": "https://blade.sh/",
+      "official_source_url": "https://blade.sh/",
+      "claim_url": "https://console.blade.sh/",
+      "source_type": "Blade by Shadow 当前官网、2026-10-31 模型定价页、开发者文档及个人条款",
+      "evidence_urls": [
+        "https://blade.sh/",
+        "https://blade.sh/models/pricing/",
+        "https://blade.sh/docs/openai-sdk/",
+        "https://blade.sh/legal/terms/consumers-international/",
+        "https://console.blade.sh/"
+      ],
+      "discovered_at": "2026-11-01",
+      "verified_at": "2026-11-01",
+      "last_seen_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-01",
+      "next_review_at": "2026-11-05",
+      "verification_note": "2026-11-01 核查 Blade by Shadow 官网与 10 月 31 日更新的模型定价页：均写每位新客户获 €5 免费 credits，可使用 OpenAI 兼容模型 API；官方开发者文档提供个人注册、API Key、/v1/chat/completions 接口，当前目录有 Qwen3.8-27B、Gemma 4 26B、Nemotron 3.5 Lightning 等。官方非 EEA 消费者条款允许 18 岁以上个人使用，赠送 Credits 可能有单独有效期/模型限制。公开控制台需动态登录，未完成新号领取、支付卡验证、地区/中国大陆资格和实际 API 请求；未找到可独立确认的近期个人到账反馈。€5 不达 Super 门槛。",
+      "review_result": "官方现行赠额、个人条款、API 模型目录与申请入口均可核实，active/normal；未验证账号实际到账及绑卡/地区条件。",
+      "review_history": [
+        {
+          "date": "2026-11-01",
+          "result": "首次核对官方 €5 新客赠额、个人条款、开放控制台、API 接口与具体模型。未注册新账号，绑卡、地区和赠额期限仍未知；按 normal 收录。",
+          "source_url": "https://blade.sh/",
+          "secondary_sources": [
+            "https://blade.sh/models/pricing/",
+            "https://blade.sh/docs/openai-sdk/",
+            "https://blade.sh/legal/terms/consumers-international/"
           ]
         }
       ]
