@@ -25,31 +25,30 @@
     "published_at": "2026-11-02T08:17:30.775+08:00"
   },
   "evening": {
-    "id": "2026-11-01-evening",
+    "id": "2026-11-02-evening",
     "kind": "evening",
-    "date": "2026-11-01",
-    "title": "11 月 1 日晚报：Fish Audio 语音免费续杯，九颗待核实继续排队 🌙",
-    "summary": "今天补上 Fish Audio S2.1 Pro 免费语音合成 API，官方延长至 11 月 30 日。StepAudio 3 限免和 Bytez 循环小额额度也已收录；9 条待核实线索仍缺关键领取证据，没有新 Super。",
+    "date": "2026-11-02",
+    "title": "11 月 2 日晚报：Nova 每日 200 万待验，免费 Flash 还有开通谜题 🌙",
+    "summary": "今天新记下 Vikasit Nova 每日 200 万免费 API Tokens、MoonMath Zro 每日免费 Flash 两条线索，都还没证实实际开通。11 条 pending 今天已有核查记录，没有新 Super；Ling 3.1 Flash 1019 明天开始收费。",
     "highlights": [
-      "Fish Audio 的 s2.1-pro-free 目前为 $0 的语音合成 API，支持中文等 83 种语言和参考音频克隆；免绑卡、公平使用下无固定字符上限，免费至 11 月 30 日。它是语音专用模型，评 premium。",
-      "阶跃星辰 StepAudio 3 五款语音 API 限免至北京时间 11 月 8 日 23:59:59；Bytez 免费档每 4 周刷新 $1，当前保守只按 7B 及以下开源模型计入。",
-      "云知声旧 U2 Flash 按量免费已于 10 月 31 日结束；独立的 U Plan Free 仍提供每周 2500 积分，别把两个方案混在一起。",
-      "9 条 pending 今天都已复核。Vultr $250 专项页仍无法正常读取；The Grid $5、runaii $5、Articul8 Bivia 10 亿 Tokens 等还缺个人领取或地区资格的完整证据。Vercel Ling 3.1 Flash 1019 免费至 11 月 3 日。"
+      "Vikasit Nova 官网写每日 200 万 Tokens，GitHub 登录、免绑卡，OpenAI 兼容 API 仅限 vikasit-nova；本轮没能完成 OAuth、创建 Key 或实调，先列 pending。",
+      "MoonMath Zro 的 Free 档仍写 DeepSeek V4.1 Flash、GLM-5.3 Flash 每日免费；Quickstart 却要求先订阅或买用量包才能建 Key。免费入口能否直接用还没核实，维持 pending。",
+      "今天已记录 11 条 pending 的核查。The Grid $5、runaii $5、Bivia 10 亿 Tokens 仍缺实际领取或地区资格证据；Vultr $250 的专项入口无法确认，不能因为 403 就判结束。",
+      "Vercel AI Gateway 的 Ling 3.1 Flash 1019 官方免费到 11 月 3 日，届时标准模型 ID 开始计费；阶跃星辰 StepAudio 3 语音 API 限免至北京时间 11 月 8 日 23:59:59。"
     ],
-    "tip": "",
+    "tip": "使用 Ling 3.1 Flash 1019 跑自动化任务的，今晚检查一下预算和停止条件。",
     "sources": [
-      "https://fish.audio/zh-CN/blog/s2-1-pro-free-api/",
-      "https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits",
-      "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-      "https://bytez.com/api/pricing",
-      "https://docs.bytez.com/model-api/docs/billing",
-      "https://maas.unisound.com/docs/token-plan/overview",
+      "https://vikasit.ai/inference",
+      "https://vikasit.ai/pricing",
+      "https://zro.moonmath.ai/pricing",
+      "https://zro.moonmath.ai/docs/quickstart",
       "https://thegrid.ai/pricing",
       "https://runaii.cloud/faq",
       "https://www.articul8.ai/bivia",
       "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
-      "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free"
+      "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+      "https://platform.stepfun.com/docs/zh/guides/pricing/details"
     ],
-    "published_at": "2026-11-01T19:39:44+08:00"
+    "published_at": "2026-11-02T19:08:47+08:00"
   }
 }
