@@ -1,27 +1,28 @@
 {
   "morning": {
-    "id": "2026-11-01-morning",
+    "id": "2026-11-02-morning",
     "kind": "morning",
-    "date": "2026-11-01",
-    "title": "11 月 1 日早报：U Plan 每周 2500 积分，语音 API 限免接力 ☀️",
-    "summary": "这两天最值得关注的是云知声 U Plan Free：每周刷新 2500 积分，可用于 U2-Flash 编程推理 API。11 月 1 日又收录了 StepAudio 3 语音限免和 Bytez 小额循环赠额；旧 U2 Flash 按量限免已经结束。",
+    "date": "2026-11-02",
+    "title": "11 月 2 日早报：Zro 免费 Flash 待核实，Ling 限免快到站 ☀️",
+    "summary": "凌晨新增 MoonMath Zro 每日免费 Flash API 线索，但免费 Key 能否直接开通还没确认。10 条待核实今天已复查，没有新 Super；Vercel 的 Ling 3.1 Flash 1019 限免将在 11 月 3 日结束。",
     "highlights": [
-      "10 月 31 日收录的云知声 U Plan Free 已列为 Super：每 7 天 2500 积分、每 5 小时最多 500 积分，支持 U2-Flash；语音与 OCR 另有专项配额。领取需进入 U Plan 订阅管理，使用套餐专属 API Key。",
-      "11 月 1 日新收录 StepAudio 3 五款语音 API，官方明确免费至北京时间 11 月 8 日 23:59:59；实时语音、TTS、ASR、音频及音乐生成都在列，音色复刻与设计不计入已核实免费范围。",
-      "同日补上 Bytez 每 4 周刷新的 $1 免费模型 API 额度，仅保守计入 7B 及以下开源模型。云知声原 U2-Flash 按量限免则已于 10 月 31 日结束，与仍可领取的 U Plan Free 是两回事。",
-      "Vercel AI Gateway 的 Ling 3.1 Flash 1019 编程模型官方免费至 11 月 3 日，之后标准模型 ID 将开始收费。当前仍有 9 条 pending，尚无全新已确证 Super。"
+      "今天新发现 MoonMath Zro Free：官方写 DeepSeek V4.1 Flash 和 GLM-5.3 Flash 每日免费调用；Quickstart 却要求先订阅或买用量包。暂列 pending，不把免费 Key 当作已领到。",
+      "10 条 pending 今天已真实复核。The Grid $5、runaii $5、Bivia 10 亿 Tokens 仍有官方活动说明，但实际领取资格或到账缺关键证据；Vultr $250 专项页 403，不能据此判结束。",
+      "Vercel AI Gateway 的 Ling 3.1 Flash 1019 编程 API 官方免费至 11 月 3 日，标准模型 ID 到期后会恢复收费。",
+      "阶跃星辰 StepAudio 3 五款语音 API 免费至北京时间 11 月 8 日 23:59:59，11 月 9 日起收费。"
     ],
-    "tip": "使用 Vercel Ling 3.1 Flash 1019 限免时，记得在 11 月 3 日前检查模型 ID 和计费设置。",
+    "tip": "用过 Ling 3.1 Flash 1019 的记得在 11 月 3 日前检查模型 ID 和计费设置。",
     "sources": [
-      "https://maas.unisound.com/docs/token-plan/overview",
-      "https://maas.unisound.com/docs/token-plan/quickstart",
-      "https://maas.unisound.com/token-plan",
-      "https://platform.stepfun.com/docs/zh/guides/pricing/details",
-      "https://bytez.com/api/pricing",
-      "https://docs.bytez.com/model-api/docs/billing",
-      "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free"
+      "https://zro.moonmath.ai/pricing",
+      "https://zro.moonmath.ai/docs/quickstart",
+      "https://thegrid.ai/pricing",
+      "https://runaii.cloud/faq",
+      "https://www.articul8.ai/bivia",
+      "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+      "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+      "https://platform.stepfun.com/docs/zh/guides/pricing/details"
     ],
-    "published_at": "2026-11-01T08:01:18+08:00"
+    "published_at": "2026-11-02T08:17:30.775+08:00"
   },
   "evening": {
     "id": "2026-11-01-evening",
