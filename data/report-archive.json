@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T19:39:44+08:00",
+  "updated_at": "2026-11-02T08:17:30.775+08:00",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -790,6 +790,31 @@
         "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free"
       ],
       "published_at": "2026-11-01T19:39:44+08:00"
+    },
+    {
+      "id": "2026-11-02-morning",
+      "kind": "morning",
+      "date": "2026-11-02",
+      "title": "11 月 2 日早报：Zro 免费 Flash 待核实，Ling 限免快到站 ☀️",
+      "summary": "凌晨新增 MoonMath Zro 每日免费 Flash API 线索，但免费 Key 能否直接开通还没确认。10 条待核实今天已复查，没有新 Super；Vercel 的 Ling 3.1 Flash 1019 限免将在 11 月 3 日结束。",
+      "highlights": [
+        "今天新发现 MoonMath Zro Free：官方写 DeepSeek V4.1 Flash 和 GLM-5.3 Flash 每日免费调用；Quickstart 却要求先订阅或买用量包。暂列 pending，不把免费 Key 当作已领到。",
+        "10 条 pending 今天已真实复核。The Grid $5、runaii $5、Bivia 10 亿 Tokens 仍有官方活动说明，但实际领取资格或到账缺关键证据；Vultr $250 专项页 403，不能据此判结束。",
+        "Vercel AI Gateway 的 Ling 3.1 Flash 1019 编程 API 官方免费至 11 月 3 日，标准模型 ID 到期后会恢复收费。",
+        "阶跃星辰 StepAudio 3 五款语音 API 免费至北京时间 11 月 8 日 23:59:59，11 月 9 日起收费。"
+      ],
+      "tip": "用过 Ling 3.1 Flash 1019 的记得在 11 月 3 日前检查模型 ID 和计费设置。",
+      "sources": [
+        "https://zro.moonmath.ai/pricing",
+        "https://zro.moonmath.ai/docs/quickstart",
+        "https://thegrid.ai/pricing",
+        "https://runaii.cloud/faq",
+        "https://www.articul8.ai/bivia",
+        "https://docs.vultr.com/product-overviews/serverless-inference?section=video",
+        "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+        "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+      ],
+      "published_at": "2026-11-02T08:17:30.775+08:00"
     }
   ]
 }
