@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T19:08:47+08:00",
+  "updated_at": "2026-11-03T01:11:20.497Z",
   "entries": [
     {
       "id": "2026-10-08-super-sovinfra-1b",
@@ -842,6 +842,32 @@
         "https://platform.stepfun.com/docs/zh/guides/pricing/details"
       ],
       "published_at": "2026-11-02T19:08:47+08:00"
+    },
+    {
+      "id": "2026-11-03-morning",
+      "kind": "morning",
+      "date": "2026-11-03",
+      "title": "11 月 3 日早报：Ling 仍标免费，11 条待核实继续排队 ☀️",
+      "summary": "11 条待核实项目今天已复查，尚无新 Super。Vercel 公告说 Ling 3.1 Flash 1019 从今天起收费，但上午实时模型页仍标 Free，具体切换尚未确认。",
+      "highlights": [
+        "Vercel AI Gateway 的 Ling 3.1 Flash 1019 官方公告写明 11 月 3 日开始收费；今天上午模型详情页仍显示 Free。尚不能断言已经收费或限免延期。",
+        "The Grid 新客 $5、runaii 新客 $5、Bivia 首批用户 10 亿决策 Tokens 仍有官方宣传；手机地区资格、实际到账或名额未验证，继续 pending。",
+        "MoonMath Zro 免费 Flash 档仍在，但 Quickstart 仍写先订阅或购买用量包才可创建 Key；Vikasit Nova 每日 200 万免费 Tokens 也尚无实际 API 调用证据。",
+        "阶跃星辰 StepAudio 3 系列语音 API 官方限免至北京时间 11 月 8 日 23:59:59，11 月 9 日起计费。"
+      ],
+      "tip": "",
+      "sources": [
+        "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+        "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+        "https://thegrid.ai/pricing",
+        "https://runaii.cloud/faq",
+        "https://www.articul8.ai/bivia",
+        "https://zro.moonmath.ai/pricing",
+        "https://zro.moonmath.ai/docs/quickstart",
+        "https://vikasit.ai/inference",
+        "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+      ],
+      "published_at": "2026-11-03T09:11:20+08:00"
     }
   ]
 }
