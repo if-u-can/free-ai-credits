@@ -5141,9 +5141,9 @@
       "type": "官方专用模型 API（CloudRaker）",
       "description": "每月 1.25 亿免费输入 Tokens，免绑卡，可用专用决策 API 做分类、字段提取与语音转写；仅限测试 Key，不是通用编程聊天额度。",
       "status": "active",
-      "grade": "normal",
-      "grade_reason": "每月持续免费测试 API 额度与免卡注册可核实，但仅限专用决策/转写模型，价值低于通用编程推理 API。",
-      "quality_score": 57,
+      "grade": "premium",
+      "grade_reason": "每月持续 1.25 亿免费测试输入 Tokens、免卡且可调用决策/转写 API，额度价值明显高于普通一次性试用；但仅限专用测试模型，不是通用编程模型，也不满足 Super。",
+      "quality_score": 66,
       "credits": "官方 Free Test 档：每组织每月 125,000,000 输入 Tokens，按月刷新、不结转；test keys 共享额度。适用 decision-machine-1 结构化决策与 rakeaudio 转写，输出不计费。按 $0.04/百万输入 Tokens 的生产价折算约 $5/月，不能等同于强模型 API 额度。",
       "models": [
         "decision-machine-1（分类、是非、评分、提取、实体、核验；非通用生成聊天）",
@@ -5170,7 +5170,7 @@
       "last_reviewed_at": "2026-11-05",
       "next_review_at": null,
       "verification_note": "2026-11-05 读取官方 Pricing、Authentication、Limits、Changelog、Terms 与 rakeaudio Pricing：每组织每月 125M 免费输入测试 Tokens、按月刷新、test keys 共享，30 RPM/500K input TPM；decision-machine-1 与 rakeaudio 有明确 API 入口。Terms 限 18+ 商业/专业用途，需创建组织；Test Key 免卡，生产 Key 至少购买 $10。未注册账户或实调 API，个人专业用途边界和中国大陆资格仍未实测。该额度为专用决策/转写 API，不是强编程模型免费 Tokens。",
-      "review_result": "11月5日：官方现行文档完整确认每组织每月 125M 测试输入 Tokens、免卡、专用决策/转写 API 与限速；转 active/normal，未实测账户与调用。",
+      "review_result": "11月5日：官方现行文档确认每组织每月 125M 测试输入 Tokens、免卡、专用决策/转写 API 与限速；按持续免费额度评 premium，非通用编程模型，不评 Super。",
       "review_history": [
         {
           "date": "2026-10-27",
@@ -5256,7 +5256,7 @@
         },
         {
           "date": "2026-11-05",
-          "result": "11月5日官方 Pricing、Authentication、Limits、Changelog 与 Terms 确认：每组织每月 125M 免费输入测试 Tokens，按月刷新、Test Keys 共享，30 RPM / 500K input TPM；decision-machine-1 结构化决策和 rakeaudio 转写可调用。Terms 限 18+ 商业/专业用途，需创建组织；测试 Key 免卡，生产 Key 需至少 $10。未注册实测，按官方公开规则更新 active/normal；这不是通用强编程模型额度。",
+          "result": "11月5日：官方现行文档确认每组织每月 125M 测试输入 Tokens、免卡、专用决策/转写 API 与限速；按持续免费额度评 premium，非通用编程模型，不评 Super。",
           "source_url": "https://milliseconds.ai/pricing/",
           "secondary_sources": [
             "https://docs.milliseconds.ai/authentication",
@@ -5269,10 +5269,10 @@
       ],
       "review_attempts": 4,
       "quality_breakdown": {
-        "free_api_value": 18,
-        "model_usefulness": 12,
-        "claim_convenience": 17,
-        "validity_and_limits": 10
+        "free_api_value": 22,
+        "model_usefulness": 14,
+        "claim_convenience": 18,
+        "validity_and_limits": 12
       }
     },
     {
