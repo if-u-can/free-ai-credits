@@ -3761,10 +3761,10 @@
       "discovered_at": "2026-10-23",
       "verified_at": null,
       "last_seen_at": "2026-10-28",
-      "last_reviewed_at": "2026-11-04",
-      "next_review_at": "2026-11-05",
-      "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。",
-      "review_result": "官方定价页仍明确新客 $5、手机号验证、14 天过期；+86 号码可用性和实领未验证。",
+      "last_reviewed_at": "2026-11-05",
+      "next_review_at": "2026-11-06",
+      "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。 2026-11-05：官网页面存在不同赠额宣传（详见 review_history），未确认新号实领。",
+      "review_result": "11月5日复核：官网首页宣传手机号验证赠 $5、14 天有效，但 Pricing 和官方注册页均写 $25 / 2 亿 Text Prime Tokens。赠额口径冲突，+86 手机号及实际到账未验证，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-23",
@@ -3874,6 +3874,15 @@
           "date": "2026-11-04",
           "result": "11月4日官方页面复查：官方定价页仍明确新客 $5、手机号验证、14 天过期；+86 号码可用性和实领未验证。 保持 pending。",
           "source_url": "https://thegrid.ai/pricing"
+        },
+        {
+          "date": "2026-11-05",
+          "result": "11月5日复核：官网首页宣传手机号验证赠 $5、14 天有效，但 Pricing 和官方注册页均写 $25 / 2 亿 Text Prime Tokens。赠额口径冲突，+86 手机号及实际到账未验证，保持 pending。",
+          "source_url": "https://thegrid.ai/pricing",
+          "secondary_sources": [
+            "https://thegrid.ai/",
+            "https://app.thegrid.ai/sign-up"
+          ]
         }
       ],
       "review_started_at": "2026-10-23",
@@ -4933,10 +4942,10 @@
       "discovered_at": "2026-10-27",
       "verified_at": null,
       "last_seen_at": "2026-10-28",
-      "last_reviewed_at": "2026-11-04",
-      "next_review_at": "2026-11-05",
-      "verification_note": "2026-10-27 官方 Pricing、FAQ、Terms 同时写明 $5 新客 credits、免绑卡，邮箱验证后发放且不失效；官网提供 OpenAI / Anthropic / Responses 兼容 API 和 DeepSeek V4.1 Flash、Qwen3.8 Flash、GLM-5.3 模型报价。官方 Quickstart 明确 GLM-5.3 曾 is_ready:false，DeepSeek V4.1 Flash 在文档编写时可用，当前 /api/v1/models 实时状态与 API 实调未验证。2026-10-02 LINUX DO 先有实际使用 Qwen 和获得 $5 的反馈，随后同帖出现「渠道已死，不送额度了」，与目前官方宣传冲突。未新建账户、未核实 2026-10-27 真实到账和中国大陆资格，暂不评级。",
-      "review_result": "官方 FAQ 仍宣称邮箱验证赠 $5、免绑卡、OpenAI 兼容 API；新号到账和地区资格未实测。",
+      "last_reviewed_at": "2026-11-05",
+      "next_review_at": "2026-11-06",
+      "verification_note": "2026-10-27 官方 Pricing、FAQ、Terms 同时写明 $5 新客 credits、免绑卡，邮箱验证后发放且不失效；官网提供 OpenAI / Anthropic / Responses 兼容 API 和 DeepSeek V4.1 Flash、Qwen3.8 Flash、GLM-5.3 模型报价。官方 Quickstart 明确 GLM-5.3 曾 is_ready:false，DeepSeek V4.1 Flash 在文档编写时可用，当前 /api/v1/models 实时状态与 API 实调未验证。2026-10-02 LINUX DO 先有实际使用 Qwen 和获得 $5 的反馈，随后同帖出现「渠道已死，不送额度了」，与目前官方宣传冲突。未新建账户、未核实 2026-10-27 真实到账和中国大陆资格，暂不评级。 2026-11-05：官网页面存在不同赠额宣传（详见 review_history），未确认新号实领。",
+      "review_result": "11月5日复核：官网首页、FAQ 和 Quickstart 仍宣传新客 $5 免绑卡；但同站 Pricing 页面写 Starter 仅赠 $1，当前官方口径冲突。无法确认实际到账数额，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-27",
@@ -5019,6 +5028,15 @@
           "date": "2026-11-04",
           "result": "11月4日官方页面复查：官方 FAQ 仍宣称邮箱验证赠 $5、免绑卡、OpenAI 兼容 API；新号到账和地区资格未实测。 保持 pending。",
           "source_url": "https://runaii.cloud/faq"
+        },
+        {
+          "date": "2026-11-05",
+          "result": "11月5日复核：官网首页、FAQ 和 Quickstart 仍宣传新客 $5 免绑卡；但同站 Pricing 页面写 Starter 仅赠 $1，当前官方口径冲突。无法确认实际到账数额，保持 pending。",
+          "source_url": "https://runaii.cloud/pricing",
+          "secondary_sources": [
+            "https://runaii.cloud/faq",
+            "https://runaii.cloud/docs/quickstart"
+          ]
         }
       ],
       "review_started_at": "2026-10-27",
