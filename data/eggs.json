@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:41:54+08:00",
+  "updated_at": "2026-11-05T06:56:23+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -270,24 +270,24 @@
     },
     {
       "id": "akashml-100-api-credit-2026",
-      "name": "AkashML $100 API 赠金线索",
+      "name": "AkashML 新客 API 试用 credits（金额待核实）",
       "type": "官方推理平台",
-      "description": "AkashML 曾宣传新用户获 $100 API credits。现行文档只确认绑卡后会发试用额度，没有再次说明金额；这笔 $100 专项先移入核查归档。",
-      "status": "unverifiable",
-      "credits": "历史官方宣传 $100 API credits；现行试用额度金额未核实",
+      "description": "官方现行文档确认新账户验证支付方式后可获试用 credits，但金额与期限未公开；旧 $100 宣传尚不能确认仍适用。",
+      "status": "pending",
+      "credits": "现行新用户试用赠额金额未公开；历史官方公告曾宣传 $100，不能视为当前确定额度。",
       "models": [
-        "Kimi K3（Limited Trial）",
-        "QWEN3.8 27B（Limited Trial）",
-        "QWEN3.6 35B A3B（Limited Trial）",
-        "GPT OSS 120B（Limited Trial）",
-        "Llama 3.3 70B"
+        "zai-org/GLM-5.3",
+        "moonshotai/Kimi-K3",
+        "Qwen/Qwen3.8-27B",
+        "Qwen/Qwen3.6-35B-A3B",
+        "openai/gpt-oss-120b"
       ],
-      "requirements": "注册 AkashML、验证邮箱，并在新用户引导中添加/验证支付方式才能领取试用赠金；地区适用性及赠金有效期未公布清楚",
+      "requirements": "个人注册并验证邮箱；现行 Quick Start 要求 onboarding 添加/验证支付方式后领取试用 credits。地区资格、是否需实际预付/扣款及额度期限未确认。",
       "discovered_at": "2026-10-08",
-      "verified_at": "2026-10-08",
-      "verification_note": "官方 2025-11-22 活动公告和较早 AkashClaw 推广页曾明确声称 AkashML 新账户 $100。但截至 2026-10-08，可读取的现行 AkashML 入门/设置文档只确认验证付款方式后会发试用 credits，并未再次明确金额或到期日；不能确认新注册当前仍领满 $100。网站现行模型目录显示 Kimi K3、QWEN3.8、GPT OSS 120B。未有账户实际到账验证，不能标 active/super；勿与 Akash Console GPU 赠金额度混算。 2026-10-09 复核：AkashML 现行设置文档仍只确认验证支付卡后发试用 credits、赠额会过期；未发现 2026-10-09 当期 $100 规则。 2026-10-10 第三次不同自然日复核：当前官方设置和入门文档仅确认验证支付方式后赠 trial credits，不注明 $100；2025-11-22 官方旧博客的 $100 介绍不足以确认今天仍适用，故将特定 $100 项目转 unverifiable，不声称 AkashML 试用全结束。",
+      "verified_at": null,
+      "verification_note": "2026-11-05 重核 AkashML 官方 Quick Start、Settings 与 Models：当前注册流程要求验证支付方式后发 trial credits，trial credits 有到期日；现行模型目录支持 GLM-5.3、Kimi K3、Qwen3.8-27B、Qwen3.6-35B-A3B、GPT-OSS-120B 等 OpenAI-compatible API。官方未公布当前试用金额/期限，也未明确验证支付方式是否会实际扣款。2025-11-22 官方发布曾宣传新账户 $100，但不能证明此金额仍适用于当前 onboarding。未做新号实领或 API 实调。",
       "url": "https://akashml.com/docs/getting-started/introduction",
-      "payment_required": "是（现行文档明确要求验证支付方式）",
+      "payment_required": "需添加/验证支付方式；官方未说明是否必须实际预付或扣款。",
       "source_type": "Akash 官方产品公告、推广页、当前开通文档",
       "official_source_url": "https://akashml.com/docs/getting-started/introduction",
       "claim_url": "https://akashml.com/login",
@@ -296,14 +296,15 @@
         "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/",
         "https://akashml.com/docs/getting-started/introduction",
         "https://akashml.com/docs/platform/settings",
-        "https://akashml.com/models"
+        "https://akashml.com/models",
+        "https://akashml.com/docs/platform/models"
       ],
       "grade": null,
-      "grade_reason": "连续三个不同自然日复核，未找到当期 $100 API 赠额的官方领取规定；转核查归档",
+      "grade_reason": "当前试用额度金额、期限及支付验证后的实际发放尚未完整核实。",
       "quality_score": 0,
       "review_started_at": "2026-10-08",
-      "last_reviewed_at": "2026-10-10",
-      "next_review_at": null,
+      "last_reviewed_at": "2026-11-05",
+      "next_review_at": "2026-11-06",
       "review_attempts": 3,
       "review_history": [
         {
@@ -328,10 +329,21 @@
             "https://akashml.com/docs/getting-started/introduction",
             "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/"
           ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "现行官方 Quick Start/Settings 确认新账户需验证支付方式后获得有期限的 trial credits，但金额未公开；旧 $100 宣传不作为当前额度，转 pending 继续核实。",
+          "source_url": "https://akashml.com/docs/getting-started/introduction",
+          "secondary_sources": [
+            "https://akashml.com/docs/platform/settings",
+            "https://akashml.com/docs/platform/models",
+            "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/"
+          ]
         }
       ],
       "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。",
-      "review_result": "10月10日第三个不同自然日复核：2025-11-22官方发布文章仍有新客 $100 的历史说明，但现行入门与设置文档仅确认添加、验证支付方式后发放有期限的试用 credits，未确认当前仍发放 $100、金额与使用期限；尚无当期可领取 $100 的官方证明。该 $100 专项转 unverifiable，不表示 AkashML 全部试用额度终止。"
+      "review_result": "11月5日现行官方 Quick Start/Settings 确认新账户验证支付方式后发放试用 credits，试用额度会过期；未公开金额。旧 $100 公告不能作为当前额度证明，恢复 pending 等待实领/金额核实。",
+      "last_seen_at": "2026-11-05"
     },
     {
       "id": "lightning-ai-models-2026",
@@ -462,34 +474,35 @@
     {
       "id": "inception-mercury-trial-2026",
       "name": "Inception Mercury 免费 Tokens",
-      "description": "新账户获 1 亿免费 API Tokens，可直接调用 Mercury 3，支持百万上下文与 OpenAI 兼容接口；无需绑卡。",
-      "credits": "1 亿免费 API Tokens（官方 Free 计划；非美元赠金）",
+      "description": "新账户免费 API Tokens（Quick Start 标 100M，Models 页另标新 API Key 10M）；可用 Mercury 3，1M 上下文，OpenAI 兼容，官方 Quick Start 称无需支付信息。",
+      "credits": "官方 Quick Start / Free 方案：每新账户 100M 免费 tokens；Models 页另写新 API Key 10M，实际分配单位与总量需以账户显示为准。",
       "models": [
-        "mercury-3"
+        "mercury-3（1M 上下文；推理、工具调用与结构化输出）"
       ],
-      "requirements": "注册 Inception Platform 新个人账户并创建 API Key；官方明确无需支付信息即可使用免费额度。中国大陆地区资格、实际到账和 API 响应未实测。",
-      "payment_required": "否（官方 Quick Start 明确新账户无需提供支付信息；赠额用完后如需继续使用才添加支付方式）",
+      "requirements": "注册 Inception Platform 个人账户并创建 API Key；官方 Quick Start 明确无需支付信息。中国大陆地区资格与实际到账未实测。",
+      "payment_required": "否（Quick Start 明确无需支付信息；超出免费额度后继续使用才需添加支付信息）",
       "status": "active",
       "grade": "super",
       "grade_reason": "官方现行新账户 1 亿免费 Mercury 3 API Tokens、无需支付信息；模型适合通用与编程场景。",
       "quality_score": 91,
       "discovered_at": "2026-09-20",
-      "verified_at": "2026-10-22",
+      "verified_at": "2026-11-05",
       "url": "https://docs.inceptionlabs.ai/get-started",
       "official_source_url": "https://docs.inceptionlabs.ai/get-started",
       "claim_url": "https://platform.inceptionlabs.ai/",
-      "verification_note": "2026-10-22 核查官方现行 Quick Start 与 Models 页：每个新账户初始获 1 亿免费 API Tokens，无需提供支付信息即可创建 API Key 调用 mercury-3（OpenAI 兼容，100 万 Tokens 上下文）。Mercury 2/2.5 不再对新用户开放；2026-10-19 前用过旧模型的客户可继续使用至 2026-11-15。官网 Models 页“新 API Key 赠 1 亿”的文案与 Quick Start“每个新账户 1 亿”存在口径差异，保守按每个新账户一次计算，不能宣传每创建一把 Key 都可重复领取。中国大陆个人注册、实际到账与响应未经新账号实测。",
+      "verification_note": "2026-11-05 重核官方 Quick Start、Models 与 Mercury 3 公告：Quick Start 明确每个新账户 100M 免费 Tokens、无需支付信息，直接调用 OpenAI-compatible `mercury-3`；Mercury 3 为 1M context，支持 reasoning、tool use 与 structured output。Models 页面同时保留“新 API key 10M free tokens”文案，额度单位/总量口径不一致，领取后以账户余额为准；即使按 10M 口径也达到 Super 免费 token 门槛。中国大陆资格与新账号实际到账/API 调用未实测。",
       "type": "官方平台",
       "source_type": "官方现行 Quick Start、Models 定价与模型迁移规则",
       "evidence_urls": [
         "https://www.inceptionlabs.ai/models",
         "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
         "https://www.inceptionlabs.ai/blog/categories/product",
-        "https://docs.inceptionlabs.ai/get-started"
+        "https://docs.inceptionlabs.ai/get-started",
+        "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
       ],
-      "last_reviewed_at": "2026-10-22",
-      "last_seen_at": "2026-10-22",
-      "review_result": "10月22日确认 Mercury 3 可使用新账户 1 亿免费 API Tokens；旧型号已停止向新用户开放。",
+      "last_reviewed_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "review_result": "11月5日官方 Quick Start 仍确认新账户 100M 免费 Tokens、无需支付信息，可调用 Mercury 3；Models 页面另写新 API Key 10M，保留额度分配口径差异。",
       "review_history": [
         {
           "date": "2026-10-22",
@@ -497,6 +510,15 @@
           "source_url": "https://docs.inceptionlabs.ai/get-started",
           "secondary_sources": [
             "https://www.inceptionlabs.ai/models"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "官方 Quick Start 确认每新账户 100M 免费 Tokens、免支付信息并可调用 Mercury 3（1M context）；Models 页面另标新 API Key 10M，记录额度口径差异。",
+          "source_url": "https://docs.inceptionlabs.ai/get-started",
+          "secondary_sources": [
+            "https://www.inceptionlabs.ai/models",
+            "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
           ]
         }
       ]
@@ -802,26 +824,52 @@
     {
       "id": "cohere-trial-api-2026",
       "name": "Cohere Trial API Key",
-      "description": "Cohere 的 Trial Key 可以免费试 Command 和 Embed，每月约 1000 次调用。做小实验合适。",
-      "credits": "试用最多 1,000 次调用/月（按官方规则）",
+      "description": "注册自动生成免费 Trial API Key，可试 Command A+ 与 North Mini Code；适合评估和原型，不可用于生产或商业用途。",
+      "credits": "Trial Key API 调用免费；官方文档列出每月 1,000 次试用调用，Chat 端点 20 RPM（具体限制依 endpoint/model 而异）。",
       "models": [
+        "Command A+（command-a-plus-05-2026；128K 上下文，推理与工具调用）",
+        "North Mini Code（north-mini-code-1.0；30B/3B，256K 上下文，Agentic coding 与工具调用）",
         "Command 系列",
         "Embed 系列"
       ],
-      "requirements": "注册 Cohere 账号获取 Trial Key；按不同 endpoint 限速",
-      "payment_required": "否（官方称简单注册可获免费试用 Key）",
+      "requirements": "注册 Cohere 个人账号后自动生成 Trial API Key；无需绑卡。仅用于评估/原型，官方禁止生产或商业用途。",
+      "payment_required": "否（Trial Key 免费；生产 Key 另按量计费）",
       "status": "active",
       "grade": "normal",
       "grade_reason": "适合轻量 API 试验",
       "quality_score": 57,
       "discovered_at": "2026-10-07",
-      "verified_at": "2026-10-08",
+      "verified_at": "2026-11-05",
       "url": "https://docs.cohere.com/docs/cohere-faqs",
       "official_source_url": "https://docs.cohere.com/docs/cohere-faqs",
       "claim_url": "https://dashboard.cohere.com/api-keys",
-      "verification_note": "官方 FAQ 明确 trial key free 和 1,000 次/月配额，生产 Key 另按量付费。",
+      "verification_note": "2026-11-05 核对 Cohere 官方 Pricing、FAQ、Going Live、Command A+ 与 North Mini Code 文档：注册自动生成 Trial API Key，API 调用免费但受 endpoint-specific 限速；FAQ 公布每月 1,000 次试用调用，Chat 端点 20 RPM。Command A+（command-a-plus-05-2026）128K、reasoning/tool use；North Mini Code（north-mini-code-1.0）30B/3B、256K、专用 Agentic coding。Trial Key 不得用于生产或商业用途；无需绑卡，未实测新账号/API 调用。",
       "type": "官方平台",
-      "source_type": "官方活动/免费方案具体政策"
+      "source_type": "官方活动/免费方案具体政策",
+      "last_reviewed_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "review_result": "11月5日官方 Pricing、FAQ 与模型文档确认自动发放免费 Trial API Key；Command A+ 与 North Mini Code 可在试用限制内调用，试用仅限评估/原型。",
+      "evidence_urls": [
+        "https://cohere.com/pricing",
+        "https://docs.cohere.com/docs/cohere-faqs",
+        "https://docs.cohere.com/docs/going-live",
+        "https://docs.cohere.com/docs/command-a-plus",
+        "https://docs.cohere.com/v1/docs/north-mini-code-1.0",
+        "https://docs.cohere.com/v1/docs/rate-limits"
+      ],
+      "review_history": [
+        {
+          "date": "2026-11-05",
+          "result": "官方确认注册自动生成免费 Trial API Key；Command A+ 与 North Mini Code 可在试用限额内调用，Trial Key 仅供评估/原型。",
+          "source_url": "https://cohere.com/pricing",
+          "secondary_sources": [
+            "https://docs.cohere.com/docs/cohere-faqs",
+            "https://docs.cohere.com/docs/command-a-plus",
+            "https://docs.cohere.com/v1/docs/north-mini-code-1.0",
+            "https://docs.cohere.com/v1/docs/rate-limits"
+          ]
+        }
+      ]
     },
     {
       "id": "cloudflare-workers-ai-free-2026",
@@ -1787,7 +1835,7 @@
       "id": "openrouter-free-model-api-2026",
       "name": "OpenRouter 免费模型 API 档",
       "type": "模型 API 聚合平台",
-      "description": "免费档每天合计 50 次模型 API 请求，可用 Nemotron、Flint、Dots3-Note Preview（512K）等编程推理模型。Poolside Laguna S/XS 两款原定 10 月 31 日退出，11 月 1 日官网仍显示免费标签，实际续期未确认。",
+      "description": "免费模型 API 每账号合计 50 次请求/天、20 次/分钟；当前目录含 Cohere North Mini Code、NVIDIA Nemotron、Gemma 4 等编程与 Agent 推理模型。",
       "status": "active",
       "credits": "免费模型每账号合计 50 次请求/天、20 次/分钟；历史累计购买 ≥$10 credits 后可提升至 1000 次/天（非免充值条件）",
       "models": [
@@ -1796,12 +1844,16 @@
         "nvidia/nemotron-3.5-super-vl:free（100 万上下文，图像/视频输入）",
         "xingchen-agi/xing4.0-29b-a4b:free（262K 上下文，编程推理）",
         "recursive/flint-v1.0:free（262K 上下文，编程与工具调用）",
-        "dots-studio/dots-3-note-preview:free（512K 上下文，编程/推理/多模态，官方标 12 月 31 日下线）"
+        "dots-studio/dots-3-note-preview:free（512K 上下文，编程/推理/多模态，官方标 12 月 31 日下线）",
+        "cohere/north-mini-code:free（30B/3B，256K 上下文，Agentic coding 与工具调用）",
+        "nvidia/nemotron-3.5-lightning:free（30B/3B，1M 上下文，工具调用）",
+        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free（30B/3B，多模态 Agent 子任务，约 300K 上下文）",
+        "google/gemma-4-26b-a4b-it:free（26B/3.8B，256K 上下文，多模态与工具调用）"
       ],
       "requirements": "个人注册 OpenRouter 并创建 API Key；Free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测",
       "discovered_at": "2026-10-09",
-      "verified_at": "2026-11-01",
-      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。 2026-11-01 复查 OpenRouter：Laguna S 2.1 官方模型页仍写 Going away October 31, 2026，XS 免费型号页仍显示 $0；截止日已过但未使用 API Key 实调，不认定实际下线或续期。为避免过期型号继续列为确定可用，暂从当前免费型号列表移除，保留历史来源；其它免费端点及 50 RPD 限额不变。",
+      "verified_at": "2026-11-05",
+      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。 2026-11-01 复查 OpenRouter：Laguna S 2.1 官方模型页仍写 Going away October 31, 2026，XS 免费型号页仍显示 $0；截止日已过但未使用 API Key 实调，不认定实际下线或续期。为避免过期型号继续列为确定可用，暂从当前免费型号列表移除，保留历史来源；其它免费端点及 50 RPD 限额不变。 2026-11-05 复核 OpenRouter 官方免费模型目录、各模型页及定价：新增确认 `cohere/north-mini-code:free`（30B/3B、256K、Agentic coding/tool calling）、`nvidia/nemotron-3.5-lightning:free`（1M context）、`nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`（多模态 Agent）和 `google/gemma-4-26b-a4b-it:free`（256K、工具调用）；这些 :free 变体输入输出均 $0。免费档仍为 20 RPM、50 RPD，购买累计 $10 credits 后提高至 1000 RPD；没有购买时免费模型可直接调用。未实测个人 API Key。",
       "url": "https://openrouter.ai/pricing",
       "official_source_url": "https://openrouter.ai/pricing",
       "claim_url": "https://openrouter.ai/settings/keys",
@@ -1817,7 +1869,11 @@
         "https://openrouter.ai/recursive/flint-v1.0:free",
         "https://openrouter.ai/poolside/laguna-s-2.1:free",
         "https://openrouter.ai/poolside/laguna-xs-2.1:free",
-        "https://openrouter.ai/dots-studio/dots-3-note-preview:free"
+        "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+        "https://openrouter.ai/cohere/north-mini-code:free",
+        "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+        "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "https://openrouter.ai/google/gemma-4-26b-a4b-it:free"
       ],
       "grade": "normal",
       "grade_reason": "持续免费且能用推理模型 API，但每天仅 50 次请求、上游可用性波动，无法达到 Super 的高价值门槛",
@@ -1828,8 +1884,8 @@
         "claim_convenience": 24,
         "validity_and_limits": 7
       },
-      "last_reviewed_at": "2026-11-01",
-      "last_seen_at": "2026-11-01",
+      "last_reviewed_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
       "review_history": [
         {
           "date": "2026-10-17",
@@ -1875,9 +1931,21 @@
             "https://openrouter.ai/poolside/laguna-xs-2.1:free",
             "https://openrouter.ai/collections/free-models"
           ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "官方免费模型目录新增确认 Cohere North Mini Code、Nemotron 3.5 Lightning、Nemotron 3 Nano Omni 与 Gemma 4 26B A4B 免费 API；免费档 50 RPD/20 RPM 未变。",
+          "source_url": "https://openrouter.ai/collections/free-models",
+          "secondary_sources": [
+            "https://openrouter.ai/cohere/north-mini-code:free",
+            "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+            "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+            "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+            "https://openrouter.ai/pricing"
+          ]
         }
       ],
-      "review_result": "Poolside Laguna S/XS 2.1 原定 10 月 31 日退出，11 月 1 日页面仍有免费标签但未实测；从当前确定可用模型列表撤下，OpenRouter 免费 API 档保持 active/normal。"
+      "review_result": "11月5日官方免费模型目录确认 North Mini Code、Nemotron 3.5 Lightning、Nemotron 3 Nano Omni、Gemma 4 26B A4B 等免费 API；免费 :free 端点仍共享 50 RPD/20 RPM。"
     },
     {
       "id": "ollama-cloud-starter-free-api-2026",
