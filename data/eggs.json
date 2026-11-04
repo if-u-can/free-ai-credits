@@ -7083,19 +7083,14 @@
       "status": "expired",
       "grade": null,
       "quality_score": null,
-      "quality_breakdown": {
-        "free_api_value": 26,
-        "model_usefulness": 23,
-        "claim_convenience": 18,
-        "validity_and_limits": 4
-      },
+      "quality_breakdown": null,
       "grade_reason": "官方限免已于 2026-11-03 结束，当前模型页显示正常计费价格，不再参与当前等级评定。",
       "credits": "限免期为 2026-10-30 至 2026-11-03，输入/输出均 $0/百万 Tokens；官方公告明确 11 月 3 日起收费，当前模型页显示 $0.30/$0.90 每百万 Tokens。Vercel 原有每 30 天 $5 免费额度是独立权益，不计入本活动。",
       "models": [
         "inclusionai/ling-3.1-flash-1019（Ling 3.1 Flash 1019，1M 上下文，262K 最大输出；编程、推理与工具调用）"
       ],
       "requirements": "个人可通过 Vercel 账号在 AI Gateway 创建 API Key，使用 OpenAI Chat Completions / Responses、Anthropic Messages 或 AI SDK 调用；不要求企业/学生/融资身份。中国大陆开户、支付方式验证及实际 API 调用未实测。",
-      "payment_required": "官方免费模型价格为 $0，Vercel 未付费账户可使用 AI Gateway；未见必须预充值的要求。是否需要绑卡、地区限制未实测；11 月 3 日后此模型会转为收费，需主动停用或设置预算。",
+      "payment_required": "该限免已结束；调用此模型按当前模型页 $0.30/$0.90 每百万 Tokens 计费。Vercel 未付费账户另有独立 $5/30 天 AI Gateway 额度，是否抵扣以账户账单为准；这不代表本活动仍免费。",
       "url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
       "official_source_url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
       "claim_url": null,
