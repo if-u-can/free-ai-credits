@@ -67,16 +67,16 @@
       "kind": "super",
       "date": "2026-10-08",
       "title": "Mercury 免费 API 额度升级到 1 亿 Tokens 🥚",
-      "summary": "Inception 官网 Free 方案现在列出 1 亿免费 API Tokens，Mercury 2.5 可通过 OpenAI 兼容 API 调用。注册后创建 API Key 即可查看分配的试用额度。",
+      "summary": "更新（2026-11-05）：官方 Quick Start 当前称新账户 100M 免费 Tokens、无需支付信息，可调用 Mercury 3（1M 上下文）。Models 页另写新 API Key 10M，额度分配口径仍需以账户显示为准。",
       "highlights": [
-        "官方 Free 方案：100M 免费 Tokens，并非 $100 赠金。",
-        "支持 Mercury 2.5；调用接口兼容 OpenAI API。",
-        "目前没有公布结束日期；绑卡、地区及到账额度仍需以新账号实际情况确认。",
-        "官网旧引导文字还保留 10M，已标注新旧口径冲突。"
+        "官方 Quick Start / Free 方案：每新账户 100M 免费 Tokens；Models 页另写新 API Key 10M，具体分配单位与总量需账户核对。",
+        "Mercury 3 支持 1M 上下文、推理、工具调用与结构化输出，可通过 OpenAI 兼容 API 调用。",
+        "Quick Start 明确无需支付信息；新账户免费额度不应按创建 API Key 次数重复计算。",
+        "官方页面尚未统一 100M 与 10M 的额度口径；中国大陆资格和新账号实际到账未实测。"
       ],
       "tip": "",
       "egg_id": "inception-mercury-trial-2026",
-      "official_source_url": "https://www.inceptionlabs.ai/models",
+      "official_source_url": "https://docs.inceptionlabs.ai/get-started",
       "claim_url": "https://platform.inceptionlabs.ai/"
     },
     {
