@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T15:20:46+08:00",
+  "updated_at": "2026-11-05T04:40:00+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -2373,12 +2373,12 @@
         "https://experiments.hetzner.com/inference"
       ],
       "discovered_at": "2026-10-13",
-      "verified_at": "2026-10-13",
-      "last_seen_at": "2026-10-13",
-      "last_reviewed_at": "2026-10-13",
-      "next_review_at": "2026-10-14",
-      "verification_note": "2026-10-13 重新读取 Hetzner 官方 Inference API 文档：实验期间明确免费、API 提供两款 Qwen 模型、OpenAI 兼容端点，限额 4M 输入/100K 输出 tokens 与 10 RPM；Experiments 官方介绍确认对 Hetzner 客户开放。官方注册文档要求真实账单地址，反欺诈 FAQ 提及身份证或信用卡预付款身份核验。注册入口页面需 JavaScript，未创建账户或实测 Key、地区资格；不保证生产可用性。",
-      "review_result": "官方现行实验服务与免费配额可核实，评 active/premium；账户审核和中国大陆实测仍有不确定性。",
+      "verified_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "last_reviewed_at": "2026-11-05",
+      "next_review_at": "2026-11-06",
+      "verification_note": "2026-11-05 重新读取 Hetzner 官方 Inference API 文档：仍明确实验期免费、OpenAI 兼容端点及两款 Qwen 模型（262,144 上下文，文本/图像输入）；每 API Key 每 60 秒 4M 输入 Tokens、100K 输出 Tokens、10 次请求，未公布总额度或实验结束日期。官方明确不保证性能/可用性、无备份且不适用于生产。账号注册需有效邮箱、真实联系资料和账单地址，电话可选；反欺诈审核可能要求身份证件或信用卡预付款。未实测中国大陆开户、Key 或调用。",
+      "review_result": "11月5日复核官方现行文档：实验期间免费，OpenAI 兼容 API 仍列 Qwen3.6-35B-A3B-FP8 与 Qwen3.8-27B；每 Key 每 60 秒 4M 输入、100K 输出、10 次请求。实验服务无 SLA，账户注册及中国大陆实调未验证，维持 active/premium。",
       "review_history": [
         {
           "date": "2026-10-13",
@@ -2387,6 +2387,16 @@
           "secondary_sources": [
             "https://docs.hetzner.com/general/company-and-policy/experiments/experiments-platform/",
             "https://docs.hetzner.com/general/security-and-identify/fraud-prevention-faq/"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "重新核对官方 Inference 文档、账户注册与反欺诈说明；确认实验期免费、两款 Qwen 模型、OpenAI 兼容 API、4M 输入/100K 输出/10 RPM 限制及无 SLA。注册通常需邮箱、真实联系资料和账单地址，可能触发身份证件或信用卡预付款验证；未实测中国大陆账户/API。",
+          "source_url": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
+          "secondary_sources": [
+            "https://docs.hetzner.com/general/billing-and-account-management/account-getting-started/",
+            "https://docs.hetzner.com/general/security-and-identify/fraud-prevention-faq/",
+            "https://experiments.hetzner.com/inference"
           ]
         }
       ]
@@ -3783,7 +3793,7 @@
       "last_reviewed_at": "2026-11-05",
       "next_review_at": "2026-11-06",
       "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。 2026-11-05：11月5日重新读取现行 Pricing 与首页：两处均宣传新客 $5、需手机验证、注册后 14 天过期；旧 $25 / 2 亿 Tokens 口径不作为当前报价。+86 手机号、免费余额是否可不预充值使用及实际到账仍未验证，保持 pending。",
-      "review_result": "11月5日复核：官网首页宣传手机号验证赠 $5、14 天有效，但 Pricing 和官方注册页均写 $25 / 2 亿 Text Prime Tokens。赠额口径冲突，+86 手机号及实际到账未验证，保持 pending。",
+      "review_result": "11月5日重新读取现行 Pricing 与首页：两处均宣传新客 $5、需手机验证、注册后 14 天过期；旧 $25 / 约 2 亿 Tokens 为旧页面口径。+86 手机号、是否可不预充值直接使用免费余额及实际到账仍未验证，保持 pending。",
       "review_history": [
         {
           "date": "2026-10-23",
@@ -7069,18 +7079,18 @@
       "id": "vercel-ling31-flash-1019-free-oct30-nov3-2026",
       "name": "Vercel AI Gateway · Ling 3.1 Flash 1019 限时免费编程 API",
       "type": "官方模型 API 网关限时免费活动",
-      "description": "Ling 3.1 Flash 1019 编程推理模型在 Vercel AI Gateway 输入、输出均免费至 11 月 3 日，支持工具调用和 100 万 Tokens 上下文。",
-      "status": "active",
-      "grade": "premium",
-      "quality_score": 71,
+      "description": "Ling 3.1 Flash 1019 曾在 Vercel AI Gateway 限时免费；官方已明确自 2026-11-03 起按公布价格计费。本条保留活动与模型信息供查询。",
+      "status": "expired",
+      "grade": null,
+      "quality_score": null,
       "quality_breakdown": {
         "free_api_value": 26,
         "model_usefulness": 23,
         "claim_convenience": 18,
         "validity_and_limits": 4
       },
-      "grade_reason": "强编程推理模型的官方 $0 API 已开放，但限免仅至 11 月 3 日，未公布免费总配额，未达 Super 可验证高额价值门槛。",
-      "credits": "2026-10-30 至 2026-11-03，inclusionai/ling-3.1-flash-1019 输入/输出均 $0/百万 Tokens；官方未公开独立免费 Token 总量或限速。11 月 3 日开始按模型页面价格收费。Vercel 原有每 30 天 $5 免费额度属于独立既有福利，不叠加为本活动赠金。",
+      "grade_reason": "官方限免已于 2026-11-03 结束，当前模型页显示正常计费价格，不再参与当前等级评定。",
+      "credits": "限免期为 2026-10-30 至 2026-11-03，输入/输出均 $0/百万 Tokens；官方公告明确 11 月 3 日起收费，当前模型页显示 $0.30/$0.90 每百万 Tokens。Vercel 原有每 30 天 $5 免费额度是独立权益，不计入本活动。",
       "models": [
         "inclusionai/ling-3.1-flash-1019（Ling 3.1 Flash 1019，1M 上下文，262K 最大输出；编程、推理与工具调用）"
       ],
@@ -7088,7 +7098,7 @@
       "payment_required": "官方免费模型价格为 $0，Vercel 未付费账户可使用 AI Gateway；未见必须预充值的要求。是否需要绑卡、地区限制未实测；11 月 3 日后此模型会转为收费，需主动停用或设置预算。",
       "url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
       "official_source_url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
-      "claim_url": "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+      "claim_url": null,
       "source_type": "Vercel 2026-10-30 官方限免公告、实时模型价格页和 AI Gateway 免费档定价文档",
       "evidence_urls": [
         "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
@@ -7096,12 +7106,12 @@
         "https://vercel.com/docs/ai-gateway/pricing"
       ],
       "discovered_at": "2026-10-31",
-      "verified_at": "2026-10-31",
-      "last_seen_at": "2026-10-31",
-      "last_reviewed_at": "2026-10-31",
-      "next_review_at": "2026-11-03",
-      "verification_note": "2026-10-31 直接核对 Vercel 10 月 30 日官方公告：Ling 3.1 Flash 1019 经 AI Gateway 免费至 2026-11-03，官方称支持编程、多步推理和工具调用，1M 上下文，11 月 3 日开始按公布价格计费；实时模型页显示 Novita AI 提供、输入输出均 Free，提供 Get API key 和 OpenAI/Anthropic 兼容调用方式。AI Gateway 定价文档说明未付费账户每月 $5 额度，与本 $0 模型活动不相加。未实际开户或发起请求，未确认中国大陆地区资格、绑卡、限速或可用性；官方没有承诺独立免费 Token 总量。",
-      "review_result": "官方现行 $0 模型 API、入口与 11 月 3 日截止日期已核实，active/premium；短期且无可保证高额配额，不评 Super。",
+      "verified_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "last_reviewed_at": "2026-11-05",
+      "next_review_at": null,
+      "verification_note": "2026-11-05 复核 Vercel 官方 2026-10-30 公告（限免至 11 月 3 日，且自该日起按公布价格收费）及当前模型详情页（输入 $0.30、输出 $0.90/百万 Tokens）。确认免费活动已结束；不与 Vercel 独立的每 30 天 $5 免费额度混算。",
+      "review_result": "11月5日复核：官方公告确认限免已于11月3日结束；当前模型详情页显示输入 $0.30、输出 $0.90/百万 Tokens，状态改为 expired。",
       "review_history": [
         {
           "date": "2026-10-31",
@@ -7111,8 +7121,19 @@
             "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
             "https://vercel.com/docs/ai-gateway/pricing"
           ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "官方公告确认 Ling 3.1 Flash 1019 限免至 2026-11-03，且该日起按公布价格收费；当前模型页显示输入 $0.30、输出 $0.90/百万 Tokens。将活动状态改为 expired，清除当前等级与领取入口。",
+          "source_url": "https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free",
+          "secondary_sources": [
+            "https://vercel.com/ai-gateway/models/ling-3.1-flash-1019",
+            "https://vercel.com/docs/ai-gateway/pricing"
+          ]
         }
-      ]
+      ],
+      "expired_at": "2026-11-03",
+      "expiration_reason": "Vercel 官方 2026-10-30 公告明确限免至 2026-11-03，并说明该日起按模型页公布价格收费；2026-11-05 模型页显示输入 $0.30、输出 $0.90/百万 Tokens。"
     },
     {
       "id": "deapi-new-user-5-multimodal-api-2026",
