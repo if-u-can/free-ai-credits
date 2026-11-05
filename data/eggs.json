@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:30:03+08:00",
+  "updated_at": "2026-11-05T20:01:37+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1550,20 +1550,21 @@
       "id": "tencent-tokenhub-free-trial-2026",
       "name": "腾讯云 TokenHub 新人免费 API",
       "type": "官方模型推理平台",
-      "description": "实名开通后可领取语言模型免费体验包，DeepSeek、Kimi、MiniMax 等模型可通过 API 调用。单模型标称 100 万 Tokens。",
+      "description": "腾讯云 TokenHub 实名个人可领取多款语言模型免费 API 体验包；现已支持 Hy4 正式版（hy4），1M 上下文、深度推理与视觉理解。",
       "status": "active",
-      "credits": "语言模型每款标称 100 万免费 Tokens，国内官方文档写领取后 1 年有效；同页另写全模型共享额度，累计可用量不能直接相加。活动至 2026-12-31。",
+      "credits": "官方称所有语言模型各有 100 万 Tokens 免费体验额度，领取后 1 年有效、每主账号每模型仅可领取一次；活动页面截至 2026-12-31。文档另说明主账号额度共享且不可叠加，实际余额与模型资格以控制台为准，不将各模型额度简单相加。",
       "models": [
         "DeepSeek-V4-Flash（deepseek-v4-flash）",
         "DeepSeek-V4-Pro（deepseek-v4-pro）",
         "Kimi K3（kimi-k3）",
         "MiniMax M2.7（minimax-m2.7）",
-        "GLM-5.3（glm-5.3）"
+        "GLM-5.3（glm-5.3）",
+        "Hy4（hy4，正式版；1M 上下文、960K 最大输入、64K 最大输出，支持深度推理、工具调用、结构化输出与图像理解）"
       ],
       "requirements": "腾讯云个人账号完成实名认证，进入 TokenHub 模型广场选择新用户福利领取，或首次调用自动领取；国内站适用中国大陆实名认证，其他地区需核实。国内文档未注明充值前提，但国际站文档写领取每个模型需冻结 $1，不能把国际站宣传为完全免预付。",
       "discovered_at": "2026-10-09",
-      "verified_at": "2026-10-09",
-      "verification_note": "2026-10-09 核对腾讯云 2026-09-04 新人免费体验包、2026-06-05 快速入门和 2026-09-29 深度思考模型列表：当期活动至 2026-12-31，语言模型 100 万 Tokens，国内文档写 1 年；同页同时出现按模型领取和同账号所有模型共享额度，实际总量以控制台为准。国内需实名、兼容 OpenAI/Anthropic API，免费额度用尽且未开后付费时停服。国际站另有冻结 $1 及有效期差异，不与国内站混算。未使用实名账号实测领取到账和是否要预存余额。",
+      "verified_at": "2026-11-05",
+      "verification_note": "2026-10-09 核对腾讯云 2026-09-04 新人免费体验包、2026-06-05 快速入门和 2026-09-29 深度思考模型列表：当期活动至 2026-12-31，语言模型 100 万 Tokens，国内文档写 1 年；同页同时出现按模型领取和同账号所有模型共享额度，实际总量以控制台为准。国内需实名、兼容 OpenAI/Anthropic API，免费额度用尽且未开后付费时停服。国际站另有冻结 $1 及有效期差异，不与国内站混算。未使用实名账号实测领取到账和是否要预存余额。 2026-11-05：腾讯云 TokenHub 官方产品页已列 Hy4 正式版并标注新用户 100 万 Tokens 免费体验包；官方 11 月 4 日更新的模型列表与调用指南确认 model ID 为 hy4，1M 上下文、960K 输入/64K 输出、支持深度推理、Function Calling、结构化输出和图像理解。新人免费包文档确认所有语言模型 100 万 Tokens、领取后 1 年有效、每主账号每模型一次；另有主账号共享/不可叠加说明，因此不将各模型额度累加。未实测新账号领取或 API 调用。",
       "url": "https://cloud.tencent.com/document/product/1823/130053",
       "official_source_url": "https://cloud.tencent.com/document/product/1823/130053",
       "claim_url": "https://console.cloud.tencent.com/tokenhub/",
@@ -1573,7 +1574,11 @@
         "https://cloud.tencent.com/document/product/1823/130053",
         "https://cloud.tencent.com/document/product/1823/130058",
         "https://cloud.tencent.com/document/product/1823/131208",
-        "https://intl.cloud.tencent.com/zh/document/product/1300/80423"
+        "https://intl.cloud.tencent.com/zh/document/product/1300/80423",
+        "https://cloud.tencent.com/product/tokenhub",
+        "https://cloud.tencent.com/document/product/1823/130051",
+        "https://cloud.tencent.com/document/product/1823/132252",
+        "https://cloud.tencent.com/document/product/1823/130079"
       ],
       "grade": "normal",
       "grade_reason": "强模型 API 可用，但单模型约 100 万 Tokens，实际共享额度有文档冲突；需实名",
@@ -7006,36 +7011,44 @@
     },
     {
       "id": "articul8-bivia-1b-tokens-first-10000-pending-2026",
-      "name": "Articul8 Bivia 首批 1 万用户 10 亿免费 Tokens（领取条件待核实）",
+      "name": "Articul8 Bivia 首批 1 万用户 10 亿免费 Tokens",
       "type": "官方模型厂商",
-      "description": "Bivia 官方现行页面向首批 1 万名用户提供 10 亿免费输入 Tokens，专用于多模态结构化决策 API，不是通用聊天或编程模型。",
-      "status": "pending",
-      "grade": null,
-      "grade_reason": null,
-      "quality_score": null,
-      "quality_breakdown": null,
-      "credits": "官方宣称首批 10,000 名用户可获 1,000,000,000 免费 Tokens（Bivia 决策 API）；当前剩余名额、到期时间及实际到账未核实。",
+      "description": "Bivia 是多模态结构化决策 API，可让编程 Agent 以低延迟完成选择、评分、分类等小决策；官方首发活动为前 10,000 名用户提供 10 亿免费 Tokens。",
+      "status": "active",
+      "grade": "premium",
+      "grade_reason": "官方公开首发活动提供 10 亿免费 Tokens 且无订阅费，结构化决策 API 对 Agent 有实际价值；但属于专用决策模型，不能替代强通用编程模型。",
+      "quality_score": 75,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 15,
+        "claim_convenience": 20,
+        "validity_and_limits": 10
+      },
+      "credits": "官方首发活动：首批 10,000 名早期用户可获 1,000,000,000 免费 Tokens；Bivia 不生成文本 Tokens，而返回结构化决策。官方现价为 $0.042/百万输入 Tokens、输出 $0；未公布免费额度期限、活动截止日期或剩余名额。",
       "models": [
-        "Articul8 Bivia（多模态结构化决策：Boolean、Choice、Score、Extract 等；不生成通用聊天或代码文本）"
+        "Articul8 Bivia（多模态结构化决策 API；支持文本、图像、文档、代码、信号、音频、视频输入，输出 Boolean、Choice、Score、Set、Span、Ground、Extract、Data Science 等结构化结果；不是通用聊天/代码生成模型）"
       ],
-      "requirements": "Articul8 官方条款允许年满 18 岁的个人用户注册；活动限首批 1 万名。公开注册页存在，但中国大陆地区、个人账户是否成功获赠、剩余名额均未实测。",
-      "payment_required": "官方活动页写 No subscription；未明确注册时是否必须绑卡，未做账户实测，也未发现必须先付款的公开条款。",
+      "requirements": "个人用户可注册，官方条款要求年满 18 岁；活动限首批 10,000 名，剩余名额未知。公开自助注册/API Key 入口，无企业、学生或融资资格要求；中国大陆地区资格未确认。",
+      "payment_required": "官方活动页明确 No subscription；是否需要绑卡未公开，本站未实际注册、领取或调用。",
       "discovered_at": "2026-10-31",
-      "verified_at": null,
-      "url": "https://www.articul8.ai/bivia",
-      "official_source_url": "https://www.articul8.ai/bivia",
+      "verified_at": "2026-11-05",
+      "url": "https://articul8.ai/bivia",
+      "official_source_url": "https://articul8.ai/bivia",
       "claim_url": "https://app.articul8.ai/registration?code=bivia&source=bivia",
       "evidence_urls": [
         "https://www.articul8.ai/bivia",
         "https://www.articul8.ai/terms",
-        "https://app.articul8.ai/registration?code=bivia&source=bivia"
+        "https://app.articul8.ai/registration?code=bivia&source=bivia",
+        "https://articul8.ai/bivia",
+        "https://articul8.ai/terms",
+        "https://api.articul8.ai/bivia/decide"
       ],
-      "verification_note": "2026-10-31 官方 Bivia 页面仍展示首批 1 万用户获 10 亿免费 Tokens、No subscription、公开 Get API key 注册入口和 HTTP POST/SDK 示例；2026-10-27 生效的官方条款允许个人用户（至少 18 岁）注册。注册页为动态内容，未完成开户、余额/API 实调；无法确认名额是否已满、绑卡、地区及期限。Bivia 是专用结构化决策模型，不能视作强通用/编程 LLM，因此不评 Super。 2026-11-05：11月5日官方 Bivia 页面仍宣传首批 10,000 用户 1B Tokens、无需订阅；现行 Terms 允许个人接受条款且无企业/学生门槛。动态注册页无法验证剩余名额、地区/绑卡及到账，继续 pending；Bivia 是专用结构化决策 API，不按通用编程模型评 Super。",
-      "source_type": "官方活动/免费方案具体政策",
+      "verification_note": "2026-10-31 官方 Bivia 页面仍展示首批 1 万用户获 10 亿免费 Tokens、No subscription、公开 Get API key 注册入口和 HTTP POST/SDK 示例；2026-10-27 生效的官方条款允许个人用户（至少 18 岁）注册。注册页为动态内容，未完成开户、余额/API 实调；无法确认名额是否已满、绑卡、地区及期限。Bivia 是专用结构化决策模型，不能视作强通用/编程 LLM，因此不评 Super。 2026-11-05：11月5日官方 Bivia 页面仍宣传首批 10,000 用户 1B Tokens、无需订阅；现行 Terms 允许个人接受条款且无企业/学生门槛。动态注册页无法验证剩余名额、地区/绑卡及到账，继续 pending；Bivia 是专用结构化决策 API，不按通用编程模型评 Super。 2026-11-05 状态更新：重新读取官方 Bivia 当前页面，确认首批 10,000 用户 1B Tokens、No subscription、公开 Get API key/Claim yours 注册入口、API 示例与 $0 输出定价仍在；现行条款允许年满 18 岁个人接受。由 pending 转 active，评 premium（高额度但为专用决策 API，不是通用编程 LLM）。未确认剩余名额、中国大陆资格、绑卡或实际到账。",
+      "source_type": "Articul8 官方 Bivia 活动页、API/SDK 示例与现行个人用户条款",
       "last_seen_at": "2026-11-05",
       "last_reviewed_at": "2026-11-05",
       "next_review_at": "2026-11-06",
-      "review_result": "官方 Bivia 页面仍宣传首批 1 万名获 10 亿 Tokens，但属于专用决策 API；名额剩余、地区与实际领取未证实。",
+      "review_result": "2026-11-05 官方 Bivia 页面仍公开首批 10,000 用户 1B Tokens、No subscription、API Key 入口和实际 HTTP API 示例；个人用户可按现行条款注册。按当前公开活动规则转 active + premium。名额剩余、绑卡、地区与个人账户到账仍未实测；专用决策模型不评 Super。",
       "review_started_at": "2026-10-31",
       "review_attempts": 1,
       "review_history": [
