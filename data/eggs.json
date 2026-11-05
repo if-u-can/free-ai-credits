@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:37:18+08:00",
+  "updated_at": "2026-11-05T14:05:18+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -7649,6 +7649,61 @@
           "secondary_sources": [
             "https://vikasit.ai/pricing",
             "https://vikasit.ai/terms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyperbolic-inference-1-credit-2026",
+      "name": "Hyperbolic 新用户 $1 模型 API 赠额",
+      "type": "官方推理平台",
+      "description": "完成手机号验证即可开通 OpenAI 兼容推理 API 并获一次性 $1 额度，可试用 DeepSeek V4.1 Flash、GLM-5.3 Flash 等模型。",
+      "status": "active",
+      "grade": "normal",
+      "grade_reason": "一次性额度较小，但可免绑卡试用多款实用的编程与推理模型 API。",
+      "quality_score": 58,
+      "quality_breakdown": {
+        "free_api_value": 8,
+        "model_usefulness": 24,
+        "claim_convenience": 18,
+        "validity_and_limits": 8
+      },
+      "credits": "一次性 $1 API credits，完成手机号验证后发放；无固定免费总量或续发。额度有效期未在现行官方文档明确。余额耗尽后，个人账户需一次性至少充值 $5 升级 Pro 才能继续调用；无订阅。",
+      "models": [
+        "deepseek-v4-flash-0731",
+        "deepseek-v4.1-flash",
+        "glm-5.3-flash",
+        "qwen3.8-27b",
+        "mimo-v2.6-flash"
+      ],
+      "requirements": "个人账户注册并验证邮箱；完成手机号验证后可调用 API 并获 $1 赠额。每个手机号只能用于验证一个 Hyperbolic 账户。中国大陆地区/手机号资格未在官方文档明确，需以注册和验证页面为准。",
+      "payment_required": "领取 $1 无需绑卡或预充值；额度耗尽后继续个人推理需一次性至少 $5 充值升级 Pro（无订阅）。",
+      "discovered_at": "2026-11-05",
+      "verified_at": "2026-11-05",
+      "last_reviewed_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "next_review_at": null,
+      "url": "https://www.hyperbolic.ai/docs/inference/overview",
+      "official_source_url": "https://www.hyperbolic.ai/docs/inference/overview",
+      "claim_url": "https://app.hyperbolic.ai/",
+      "source_type": "官方推理 API 免费试用政策",
+      "evidence_urls": [
+        "https://www.hyperbolic.ai/docs/inference/overview",
+        "https://www.hyperbolic.ai/docs/faq/inference-models",
+        "https://www.hyperbolic.ai/docs/general/billing-payments",
+        "https://www.hyperbolic.ai/inference"
+      ],
+      "verification_note": "2026-11-05 14:05（北京时间）核对 Hyperbolic 官方 Inference Overview、FAQ、Billing 与模型定价页：个人 Free Tier 完成手机号验证即可使用 OpenAI 兼容 API，并自动获一次性 $1 credits；每手机号只能验证一个账户。现行端点为 https://api.hyperbolic.ai/inference/v1，限 300 RPM/Key，余额须大于 0。官方模型目录列有 DeepSeek V4 Flash 0731、DeepSeek V4.1 Flash、GLM-5.3 Flash、Qwen3.8-27B、MiMo V2.6 Flash 等；额度耗尽后个人账户需一次性至少 $5 充值升级 Pro 才能继续。未公布 $1 额度有效期；未实测新账号到账、+86 地区资格或 API 调用。",
+      "review_result": "官方现行文档确认手机号验证后可用推理 API 并获一次性 $1 额度；可调用多款编程/推理模型，免绑卡但需手机号验证。金额较小，评 normal。",
+      "review_history": [
+        {
+          "date": "2026-11-05",
+          "result": "核对官方 Inference Overview、FAQ、Billing 与模型目录：个人 Free Tier 手机验证后获 $1 credits 并可调用 OpenAI 兼容 API；每手机号仅验证一个账号。额度有效期与中国大陆资格未公开，未做新号实领/API 实调。",
+          "source_url": "https://www.hyperbolic.ai/docs/inference/overview",
+          "secondary_sources": [
+            "https://www.hyperbolic.ai/docs/faq/inference-models",
+            "https://www.hyperbolic.ai/docs/general/billing-payments",
+            "https://www.hyperbolic.ai/inference"
           ]
         }
       ]
