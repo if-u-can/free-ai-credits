@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T14:05:18+08:00",
+  "updated_at": "2026-11-05T14:52:46+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1835,7 +1835,7 @@
       "id": "openrouter-free-model-api-2026",
       "name": "OpenRouter 免费模型 API 档",
       "type": "模型 API 聚合平台",
-      "description": "免费模型 API 每账号 :free 变体合计 50 次请求/天、20 次/分钟；当前目录含 Cohere North Mini Code、NVIDIA Nemotron、Gemma 4、Thinking Machines Inkling 系列及新加入的 Crouton Alpha 等编程、推理和 Agent 模型。",
+      "description": "免费模型 API 每账号 :free 变体合计 50 次请求/天、20 次/分钟；当前目录含 Cohere North Mini Code、NVIDIA Nemotron、Gemma 4、Xing4.0、Flint、Dots3-Note Preview、Crouton Alpha 等编程、推理和 Agent 模型。免费名单持续变动。",
       "status": "active",
       "credits": "免费 :free 变体每账号合计 50 次请求/天、20 次/分钟；累计购买 ≥$10 credits 后可提升至 1000 次/天（非免充值条件）。Crouton Alpha 模型页价格为 $0，但模型 ID 不带 :free；OpenRouter 说明其他 $0 模型可能要求账户有余额，Crouton 无余额调用资格未实测，不能默认适用 :free 共享限额。",
       "models": [
@@ -1856,7 +1856,7 @@
       "requirements": "个人注册 OpenRouter 并创建 API Key；:free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测。Inkling 与 Inkling Small 的免费端点仅允许 Agent harness 使用，提示和输出会记录并用于 Thinking Machines 模型改进。Crouton Alpha 由匿名第三方供应商运营，提示和输出可能被保留但不用于训练；暂不支持 EU 区域路由，且无余额调用条件未验证。",
       "discovered_at": "2026-10-09",
       "verified_at": "2026-11-05",
-      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。 2026-11-01 复查 OpenRouter：Laguna S 2.1 官方模型页仍写 Going away October 31, 2026，XS 免费型号页仍显示 $0；截止日已过但未使用 API Key 实调，不认定实际下线或续期。为避免过期型号继续列为确定可用，暂从当前免费型号列表移除，保留历史来源；其它免费端点及 50 RPD 限额不变。 2026-11-05 复核 OpenRouter 官方免费模型目录、各模型页及定价：新增确认 `cohere/north-mini-code:free`（30B/3B、256K、Agentic coding/tool calling）、`nvidia/nemotron-3.5-lightning:free`（1M context）、`nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`（多模态 Agent）和 `google/gemma-4-26b-a4b-it:free`（256K、工具调用）；这些 :free 变体输入输出均 $0。免费档仍为 20 RPM、50 RPD，购买累计 $10 credits 后提高至 1000 RPD；没有购买时免费模型可直接调用。未实测个人 API Key。 2026-11-05 补核 OpenRouter 官方免费模型目录及模型页：新增 Thinking Machines Inkling（975B/41B、1.048M 上下文）与 Inkling Small（276B/12B、1.048M 上下文），均标价 $0，适合推理、编程及 Agent 工作流。免费端点仅允许 Agent harness 使用，提示/输出会记录并用于模型改进；EU 区域路由不可用。OpenRouter :free 共享 50 RPD/20 RPM 不变，未进行个人 API Key 实调。 2026-11-05 10:33 复核 OpenRouter 官方免费模型目录及 Crouton Alpha 当前模型页：`stealth/crouton-alpha` 于 2026-11-03 发布，页面标输入/输出 $0、1,048,576 上下文、文本/图像/视频/文件/PDF/音频输入、工具调用与结构化输出；官方说明供应商匿名，提示与输出可能保留但不用于训练，EU 区域路由不可用。该 ID 不带 `:free`，OpenRouter 文档提示其他 $0 模型可能要求账户有余额；未用个人 API Key 实测无余额调用，未将 :free 的 50 RPD/20 RPM 限额套用到此模型。",
+      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。 2026-11-01 复查 OpenRouter：Laguna S 2.1 官方模型页仍写 Going away October 31, 2026，XS 免费型号页仍显示 $0；截止日已过但未使用 API Key 实调，不认定实际下线或续期。为避免过期型号继续列为确定可用，暂从当前免费型号列表移除，保留历史来源；其它免费端点及 50 RPD 限额不变。 2026-11-05 复核 OpenRouter 官方免费模型目录、各模型页及定价：新增确认 `cohere/north-mini-code:free`（30B/3B、256K、Agentic coding/tool calling）、`nvidia/nemotron-3.5-lightning:free`（1M context）、`nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`（多模态 Agent）和 `google/gemma-4-26b-a4b-it:free`（256K、工具调用）；这些 :free 变体输入输出均 $0。免费档仍为 20 RPM、50 RPD，购买累计 $10 credits 后提高至 1000 RPD；没有购买时免费模型可直接调用。未实测个人 API Key。 2026-11-05 补核 OpenRouter 官方免费模型目录及模型页：新增 Thinking Machines Inkling（975B/41B、1.048M 上下文）与 Inkling Small（276B/12B、1.048M 上下文），均标价 $0，适合推理、编程及 Agent 工作流。免费端点仅允许 Agent harness 使用，提示/输出会记录并用于模型改进；EU 区域路由不可用。OpenRouter :free 共享 50 RPD/20 RPM 不变，未进行个人 API Key 实调。 2026-11-05 10:33 复核 OpenRouter 官方免费模型目录及 Crouton Alpha 当前模型页：`stealth/crouton-alpha` 于 2026-11-03 发布，页面标输入/输出 $0、1,048,576 上下文、文本/图像/视频/文件/PDF/音频输入、工具调用与结构化输出；官方说明供应商匿名，提示与输出可能保留但不用于训练，EU 区域路由不可用。该 ID 不带 `:free`，OpenRouter 文档提示其他 $0 模型可能要求账户有余额；未用个人 API Key 实测无余额调用，未将 :free 的 50 RPD/20 RPM 限额套用到此模型。 2026-11-05 14:52 复核 OpenRouter 官方模型页：`thinkingmachines/inkling:free` 与 `thinkingmachines/inkling-small:free` 均标注 Going away November 4, 2026。截止日期已过，故从当前可用 models 列表移除；这不等于已实测 API 全部返回失败。其它 :free 端点及 50 RPD/20 RPM 限额仍有效。来源：https://openrouter.ai/thinkingmachines/inkling:free；https://openrouter.ai/thinkingmachines/inkling-small:free；https://openrouter.ai/collections/free-models。",
       "url": "https://openrouter.ai/pricing",
       "official_source_url": "https://openrouter.ai/pricing",
       "claim_url": "https://openrouter.ai/settings/keys",
@@ -1941,7 +1941,7 @@
         },
         {
           "date": "2026-11-05",
-          "result": "官方免费目录确认 North Mini Code、Nemotron、Gemma 4、Inkling / Inkling Small 等免费 API；后两者仅限 Agent harness 且数据用于模型改进。补核 Crouton Alpha（stealth/crouton-alpha）：模型页标 $0、1M 上下文、多模态、工具调用；匿名供应商可能保留请求，且无余额调用资格未实测。:free 变体 50 RPD/20 RPM 不变。",
+          "result": "官方目录确认 North Mini Code、Nemotron、Gemma 4 等免费 API；Inkling 与 Inkling Small 免费端点标注 2026-11-04 Going away，已从当前列表移除。Crouton Alpha 仍为 $0 但无余额调用资格未实测。:free 变体 50 RPD/20 RPM 不变。",
           "source_url": "https://openrouter.ai/collections/free-models",
           "secondary_sources": [
             "https://openrouter.ai/cohere/north-mini-code:free",
@@ -1952,11 +1952,13 @@
             "https://openrouter.ai/thinkingmachines/inkling:free",
             "https://openrouter.ai/thinkingmachines/inkling-small:free",
             "https://openrouter.ai/stealth/crouton-alpha",
-            "https://openrouter.ai/provider/stealth"
+            "https://openrouter.ai/provider/stealth",
+            "https://openrouter.ai/thinkingmachines/inkling:free",
+            "https://openrouter.ai/thinkingmachines/inkling-small:free"
           ]
         }
       ],
-      "review_result": "11月5日官方免费模型目录确认多款免费编程/推理 API，包括 Thinking Machines Inkling 与 Inkling Small（仅 Agent harness，提示/输出用于改进模型）；另新增 Crouton Alpha：模型页 $0、1M 上下文、多模态与工具调用，但匿名供应商可能保留数据，且无余额调用资格未实测。:free 变体仍为 50 RPD/20 RPM。"
+      "review_result": "11月5日更新：OpenRouter 官方模型页对 Inkling 与 Inkling Small 免费端点均标注 2026-11-04 Going away，已从当前免费型号清单移除；其余免费编程/推理模型及 50 RPD/20 RPM 限额保持。"
     },
     {
       "id": "ollama-cloud-starter-free-api-2026",
