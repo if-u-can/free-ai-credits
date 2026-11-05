@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T16:36:38+08:00",
+  "updated_at": "2026-11-05T17:28:00+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -7602,40 +7602,46 @@
     },
     {
       "id": "vikasit-nova-2m-daily-free-api-pending-2026",
-      "name": "Vikasit Nova 每日 200 万免费 Tokens API（领取与实调待核实）",
+      "name": "Vikasit Nova 每日 200 万免费 API Tokens",
       "type": "模型推理平台 / 自有模型免费 API",
-      "description": "Vikasit 官方提供 Nova 模型每日 200 万免费 Tokens，可接入 OpenAI 兼容 API；实际创建 Key 和模型响应仍需验证。",
-      "status": "pending",
-      "grade": null,
-      "grade_reason": null,
-      "quality_score": null,
-      "quality_breakdown": null,
-      "credits": "官方宣称 vikasit-nova 每个账户每日 2,000,000 Tokens 免费、每日刷新，受 fair-use 限制；只适用于 Nova，不覆盖付费的 Vikasit 3 系列或第三方模型；未披露 RPM/TPM、重置时区及上下文限制。",
+      "description": "Vikasit 官方为个人开发者提供 Nova 每日 200 万免费 Tokens，GitHub 登录即可创建 Key，无需支付卡；支持 OpenAI 兼容 API，适合轻量编程与原型测试。",
+      "status": "active",
+      "grade": "premium",
+      "grade_reason": "每日刷新 200 万免费 API Tokens、免卡且可直接接入 OpenAI SDK；模型参数、实际调用质量与限速尚未独立验证，未达到 Super 的强模型证据门槛。",
+      "quality_score": 78,
+      "quality_breakdown": {
+        "free_api_value": 30,
+        "model_usefulness": 16,
+        "claim_convenience": 23,
+        "validity_and_limits": 9
+      },
+      "credits": "Vikasit Nova 每账户每日 2,000,000 Tokens 免费，每日刷新；受 fair-use 限制。只适用于 vikasit-nova，不覆盖付费 Vikasit 3 系列或第三方模型。未公布 RPM/TPM、重置时区及上下文限制；官方称免费层可能调整或退役。",
       "models": [
-        "vikasit-nova（唯一明确适用每日免费额度的模型；质量与实时可用性待验证）"
+        "vikasit-nova（官方描述为通用与编程模型；未公开参数/基准，本站未实测）"
       ],
-      "requirements": "官网称个人开发者可通过 GitHub 登录并取得 API Key，无需支付卡；中国大陆及其他地区 GitHub OAuth 注册资格、是否有额外验证、实际发放及模型可用性未实测。",
-      "payment_required": "官方免费 Nova 档明确 no card required；付费模型按量收费，未证实免费 Key 创建是否完全无需充值。",
+      "requirements": "个人开发者通过 GitHub 登录并创建 API Key；官方称无需支付卡。公开页面未列明确国家/地区限制，但中国大陆 GitHub OAuth 资格及实际注册尚未测试。",
+      "payment_required": "官方明确 Nova 免费档无需支付卡；Nova 可免费调用。其他模型按量收费；本轮未注册账户验证是否存在额外付款步骤。",
       "url": "https://vikasit.ai/inference",
       "official_source_url": "https://vikasit.ai/inference",
       "claim_url": "https://vikasit.ai/auth",
-      "source_type": "Vikasit 官方 Inference、Pricing、Terms、Privacy；第三方 2026-11-01 核查线索",
+      "source_type": "Vikasit 官方 Inference、Pricing、API 示例、Terms/Privacy；第三方 2026-11-01 核查线索",
       "evidence_urls": [
         "https://vikasit.ai/inference",
         "https://vikasit.ai/pricing",
         "https://vikasit.ai/terms",
         "https://vikasit.ai/privacy",
+        "https://github.com/LambdaQ-Labs",
         "https://aioffers.in/offers/vikasit-ai-free-api-2026"
       ],
       "discovered_at": "2026-11-02",
-      "verified_at": null,
+      "verified_at": "2026-11-05",
       "last_seen_at": "2026-11-05",
       "last_reviewed_at": "2026-11-05",
       "next_review_at": "2026-11-06",
       "review_started_at": "2026-11-02",
       "review_attempts": 1,
-      "verification_note": "2026-11-02 13:52 北京时间核查：官方 Inference 当前明确 2M Tokens/day、仅 vikasit-nova、GitHub 登录、免绑卡和 OpenAI 兼容 /v1/chat/completions；Pricing 同样写 Nova 免费。Get API key 跳转 /auth → auth.vikasit.ai/authorize，但本轮网页工具不能完成 OAuth；/v1/models 也无法读取，未创建 Key 或实调 API。官方 Terms/Privacy 标注法律模板待律师审阅，第三方 11月1日仅核对页面未实测推理。模型质量、实际免费配额、+86/地区、服务可靠性均待验证；因此 pending 且不评等级。 2026-11-05：11月5日官方 Inference 与 Pricing 仍宣传 Nova 每日 2M Tokens、GitHub 登录免卡、OpenAI-compatible API；Terms 仍声明为待法律顾问审阅的模板。OAuth、Key 创建及实际调用未完成，地区资格和模型质量未验证，保持 pending。",
-      "review_result": "官网仍宣称 Nova 每日 200 万免费 Tokens、GitHub 登录免卡；未完成 OAuth、创建 Key 或 API 实调。",
+      "verification_note": "2026-11-02 13:52 北京时间核查：官方 Inference 当前明确 2M Tokens/day、仅 vikasit-nova、GitHub 登录、免绑卡和 OpenAI 兼容 /v1/chat/completions；Pricing 同样写 Nova 免费。Get API key 跳转 /auth → auth.vikasit.ai/authorize，但本轮网页工具不能完成 OAuth；/v1/models 也无法读取，未创建 Key 或实调 API。官方 Terms/Privacy 标注法律模板待律师审阅，第三方 11月1日仅核对页面未实测推理。模型质量、实际免费配额、+86/地区、服务可靠性均待验证；因此 pending 且不评等级。 2026-11-05 17:28：重新核查官方 Inference/Pricing 与 API 示例，页面明确个人开发者 GitHub 登录、无需支付卡、每日 2M Tokens，并给出 `https://api.vikasit.ai/v1/chat/completions` 与模型 ID `vikasit-nova`；官方 API 说明支持 OpenAI SDK、streaming 与 tool calls。公开 OAuth 入口可见，但本轮未完成登录、创建 Key 或真实请求；+86/地区资格、实际限速和模型质量仍未独立验证。Terms 仍标注为待法律顾问审阅模板。依据官方现行自助领取与 API 文档将状态调整为 active、评级 premium；不评 Super。",
+      "review_result": "官方当前公开自助入口、GitHub 登录免卡、每日 2M 免费额度及 OpenAI 兼容 API/模型 ID 均已核实；未做账户级领取或 API 实调，地区、实际限速和模型质量待补。按公开规则设 active + premium，不评 Super。",
       "review_history": [
         {
           "date": "2026-11-02",
@@ -7663,11 +7669,13 @@
         },
         {
           "date": "2026-11-05",
-          "result": "11月5日官方 Inference 与 Pricing 仍宣传 Nova 每日 2M Tokens、GitHub 登录免卡、OpenAI-compatible API；Terms 仍声明为待法律顾问审阅的模板。OAuth、Key 创建及实际调用未完成，地区资格和模型质量未验证，保持 pending。",
+          "result": "11月5日复核官方 Inference/Pricing 与 API 示例：明确 GitHub 登录、无需支付卡、每日 2M Tokens、模型 ID vikasit-nova 和 OpenAI-compatible Chat Completions；公开入口可开始 OAuth，但未完成账户登录、创建 Key 或 API 实调。Terms 仍为待法律顾问审阅模板；地区、实际限速和模型质量未独立验证。按官方当前自助领取及 API 规则调整为 active + premium，不评 Super。",
           "source_url": "https://vikasit.ai/inference",
           "secondary_sources": [
             "https://vikasit.ai/pricing",
-            "https://vikasit.ai/terms"
+            "https://vikasit.ai/terms",
+            "https://vikasit.ai/privacy",
+            "https://aioffers.in/offers/vikasit-ai-free-api-2026"
           ]
         }
       ]
