@@ -270,11 +270,11 @@
     },
     {
       "id": "akashml-100-api-credit-2026",
-      "name": "AkashML 新客 API 试用 credits（金额待核实）",
+      "name": "AkashML 新客 API 试用 credits（金额未公开）",
       "type": "官方推理平台",
-      "description": "官方现行文档确认新账户验证支付方式后可获试用 credits，但金额与期限未公开；旧 $100 宣传尚不能确认仍适用。",
-      "status": "pending",
-      "credits": "现行新用户试用赠额金额未公开；历史官方公告曾宣传 $100，不能视为当前确定额度。",
+      "description": "验证邮箱并在注册流程验证支付方式后可获试用 credits，可接入 GLM-5.3、Kimi K3、Qwen3.8-27B 等模型 API；赠额金额未公开。",
+      "status": "active",
+      "credits": "现行官方 Quick Start/Settings 明确：验证支付方式后发放试用 credits，试用 credits 会过期；金额与具体有效期未公开。旧 $100 宣传不计入当前额度。",
       "models": [
         "zai-org/GLM-5.3",
         "moonshotai/Kimi-K3",
@@ -282,12 +282,12 @@
         "Qwen/Qwen3.6-35B-A3B",
         "openai/gpt-oss-120b"
       ],
-      "requirements": "个人注册并验证邮箱；现行 Quick Start 要求 onboarding 添加/验证支付方式后领取试用 credits。地区资格、是否需实际预付/扣款及额度期限未确认。",
+      "requirements": "个人注册并验证邮箱；添加并验证支付方式后领取试用 credits。公开文档未说明地区限制或中国大陆资格，也未说明支付方式验证是否会实际扣款。",
       "discovered_at": "2026-10-08",
-      "verified_at": null,
-      "verification_note": "2026-11-05 重核 AkashML 官方 Quick Start、Settings 与 Models：当前注册流程要求验证支付方式后发 trial credits，trial credits 有到期日；现行模型目录支持 GLM-5.3、Kimi K3、Qwen3.8-27B、Qwen3.6-35B-A3B、GPT-OSS-120B 等 OpenAI-compatible API。官方未公布当前试用金额/期限，也未明确验证支付方式是否会实际扣款。2025-11-22 官方发布曾宣传新账户 $100，但不能证明此金额仍适用于当前 onboarding。未做新号实领或 API 实调。",
+      "verified_at": "2026-11-05",
+      "verification_note": "2026-11-05 复核 AkashML 官方 Quick Start、Settings 与 Models：当前新账户需验证邮箱并在 onboarding 添加/验证支付方式后获得试用 credits；官方明确 trial credits 有到期日，但未公布本期金额或具体期限。模型目录确认 GLM-5.3、Kimi K3、Qwen3.8-27B、Qwen3.6-35B-A3B、GPT-OSS-120B 等可通过 OpenAI 兼容 API 调用。旧 2025-11-22 的 $100 宣传不能作为当前额度。公开文档未列地区限制，也未说明支付验证是否扣款；未创建新账号或实测到账/API。按当前官方免费试用条款标记 active + normal，金额与资格细节继续保留为未公开。",
       "url": "https://akashml.com/docs/getting-started/introduction",
-      "payment_required": "需添加/验证支付方式；官方未说明是否必须实际预付或扣款。",
+      "payment_required": "需添加/验证支付方式；官方未要求明确预充值，也未说明验证时是否实际扣款，本站未实测。",
       "source_type": "Akash 官方产品公告、推广页、当前开通文档",
       "official_source_url": "https://akashml.com/docs/getting-started/introduction",
       "claim_url": "https://akashml.com/login",
@@ -299,13 +299,13 @@
         "https://akashml.com/models",
         "https://akashml.com/docs/platform/models"
       ],
-      "grade": null,
-      "grade_reason": "当前试用额度金额、期限及支付验证后的实际发放尚未完整核实。",
-      "quality_score": 0,
+      "grade": "normal",
+      "grade_reason": "确认有真实 API 试用 credits 和多款强模型，但赠额金额与期限未公开，且需验证支付方式，故列 normal。",
+      "quality_score": 52,
       "review_started_at": "2026-10-08",
       "last_reviewed_at": "2026-11-05",
-      "next_review_at": "2026-11-06",
-      "review_attempts": 3,
+      "next_review_at": null,
+      "review_attempts": 4,
       "review_history": [
         {
           "date": "2026-10-08",
@@ -332,18 +332,24 @@
         },
         {
           "date": "2026-11-05",
-          "result": "现行官方 Quick Start/Settings 确认新账户需验证支付方式后获得有期限的 trial credits，但金额未公开；旧 $100 宣传不作为当前额度，转 pending 继续核实。",
+          "result": "2026-11-05 重新核对官方 Quick Start、Settings 与 Models：现行 onboarding 明确新账户验证支付方式后发放有期限的 trial credits，且有公开 API 领取/调用入口，因此按 EGG_GRADING.md 的 active 定义标记 active + normal。金额和具体有效期未公开，旧 $100 宣传不计入当前赠额；地区资格、验证时是否扣款及实际到账/API 调用未实测。",
           "source_url": "https://akashml.com/docs/getting-started/introduction",
           "secondary_sources": [
             "https://akashml.com/docs/platform/settings",
             "https://akashml.com/docs/platform/models",
-            "https://akash.network/blog/akashml-managed-ai-inference-on-the-decentralized-supercloud/"
+            "https://akashml.com/models"
           ]
         }
       ],
       "review_policy": "按北京时间每日复核当前可领取金额、支付方式和到期条件；连续3个不同自然日真实复查仍没有当期赠额证据则转 unverifiable，不误写 expired。",
-      "review_result": "11月5日现行官方 Quick Start/Settings 确认新账户验证支付方式后发放试用 credits，试用额度会过期；未公开金额。旧 $100 公告不能作为当前额度证明，恢复 pending 等待实领/金额核实。",
-      "last_seen_at": "2026-11-05"
+      "review_result": "2026-11-05 重新核对官方 Quick Start、Settings 与 Models：现行 onboarding 明确新账户验证支付方式后发放有期限的 trial credits，且有公开 API 领取/调用入口，因此按 EGG_GRADING.md 的 active 定义标记 active + normal。金额和具体有效期未公开，旧 $100 宣传不计入当前赠额；地区资格、验证时是否扣款及实际到账/API 调用未实测。",
+      "last_seen_at": "2026-11-05",
+      "quality_breakdown": {
+        "free_api_value": 10,
+        "model_usefulness": 22,
+        "claim_convenience": 13,
+        "validity_and_limits": 7
+      }
     },
     {
       "id": "lightning-ai-models-2026",
