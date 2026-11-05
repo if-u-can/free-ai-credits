@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T06:56:23+08:00",
+  "updated_at": "2026-11-05T09:27:50+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1835,7 +1835,7 @@
       "id": "openrouter-free-model-api-2026",
       "name": "OpenRouter 免费模型 API 档",
       "type": "模型 API 聚合平台",
-      "description": "免费模型 API 每账号合计 50 次请求/天、20 次/分钟；当前目录含 Cohere North Mini Code、NVIDIA Nemotron、Gemma 4 等编程与 Agent 推理模型。",
+      "description": "免费模型 API 每账号合计 50 次请求/天、20 次/分钟；当前目录含 Cohere North Mini Code、NVIDIA Nemotron、Gemma 4 与 Thinking Machines Inkling 系列等编程、推理和 Agent 模型。",
       "status": "active",
       "credits": "免费模型每账号合计 50 次请求/天、20 次/分钟；历史累计购买 ≥$10 credits 后可提升至 1000 次/天（非免充值条件）",
       "models": [
@@ -1848,12 +1848,14 @@
         "cohere/north-mini-code:free（30B/3B，256K 上下文，Agentic coding 与工具调用）",
         "nvidia/nemotron-3.5-lightning:free（30B/3B，1M 上下文，工具调用）",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free（30B/3B，多模态 Agent 子任务，约 300K 上下文）",
-        "google/gemma-4-26b-a4b-it:free（26B/3.8B，256K 上下文，多模态与工具调用）"
+        "google/gemma-4-26b-a4b-it:free（26B/3.8B，256K 上下文，多模态与工具调用）",
+        "thinkingmachines/inkling:free（975B/41B，1M 上下文，多模态推理/编程/Agent；仅限 Agent harness）",
+        "thinkingmachines/inkling-small:free（276B/12B，1M 上下文，推理/编程/Agent；仅限 Agent harness）"
       ],
-      "requirements": "个人注册 OpenRouter 并创建 API Key；Free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测",
+      "requirements": "个人注册 OpenRouter 并创建 API Key；Free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测。Inkling 与 Inkling Small 的免费端点仅允许 Agent harness 使用，提示和输出会记录并用于 Thinking Machines 模型改进，不要提交机密或个人数据。",
       "discovered_at": "2026-10-09",
       "verified_at": "2026-11-05",
-      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。 2026-11-01 复查 OpenRouter：Laguna S 2.1 官方模型页仍写 Going away October 31, 2026，XS 免费型号页仍显示 $0；截止日已过但未使用 API Key 实调，不认定实际下线或续期。为避免过期型号继续列为确定可用，暂从当前免费型号列表移除，保留历史来源；其它免费端点及 50 RPD 限额不变。 2026-11-05 复核 OpenRouter 官方免费模型目录、各模型页及定价：新增确认 `cohere/north-mini-code:free`（30B/3B、256K、Agentic coding/tool calling）、`nvidia/nemotron-3.5-lightning:free`（1M context）、`nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`（多模态 Agent）和 `google/gemma-4-26b-a4b-it:free`（256K、工具调用）；这些 :free 变体输入输出均 $0。免费档仍为 20 RPM、50 RPD，购买累计 $10 credits 后提高至 1000 RPD；没有购买时免费模型可直接调用。未实测个人 API Key。",
+      "verification_note": "2026-10-17 复核 OpenRouter 官方免费模型页：新增 NVIDIA Nemotron 3.5 Super VL（2026-10-15 上线，1M 上下文，支持文本/图像/视频与工具调用）及 Xing4.0 29B A4B（2026-10-16 上线，262K 上下文，编程推理与工具调用），两者输入输出均 $0；Free 档总计 50 RPD/20 RPM，历史购入 ≥$10 才提升至 1000 RPD。NVIDIA 免费端点会记录请求，避免传输敏感信息。未使用个人账户实际调用；不改变 normal 等级。 2026-10-23 复核 OpenRouter 官方 Flint (free) 模型页：recursive/flint-v1.0:free 输入输出 $0，262144 上下文，支持编程、工具调用和 JSON 输出；官方标 10月21日发布，免费模型共享 OpenRouter 账户日限额。未实测账户调用，现有 50 RPD/20 RPM 免费配额不变。 2026-10-24 官方模型页确认 Poolside Laguna S 2.1 / XS 2.1 的 :free API 均为输入输出 $0，262K 上下文、支持工具调用，页面标明 2026-10-31 下线；免费请求仍共享每账号 50 RPD/20 RPM，模型页面提醒免费使用的输入输出可能用于模型训练。未用个人 API Key 实测。 2026-10-31 核实 OpenRouter 官方 Dots3-Note Preview 免费 API：dots-studio/dots-3-note-preview:free 输入/输出 $0，512K 上下文，支持编程推理、工具调用及结构化输出，官方标注 2026-12-31 下线；模型页显示 AtlasCloud 提供商及近期可用性。此模型仍共享 OpenRouter 免费账户每日 50 次请求限额，未使用个人 API Key 实测；现有 normal 评级和评分不变。 2026-11-01 复查 OpenRouter：Laguna S 2.1 官方模型页仍写 Going away October 31, 2026，XS 免费型号页仍显示 $0；截止日已过但未使用 API Key 实调，不认定实际下线或续期。为避免过期型号继续列为确定可用，暂从当前免费型号列表移除，保留历史来源；其它免费端点及 50 RPD 限额不变。 2026-11-05 复核 OpenRouter 官方免费模型目录、各模型页及定价：新增确认 `cohere/north-mini-code:free`（30B/3B、256K、Agentic coding/tool calling）、`nvidia/nemotron-3.5-lightning:free`（1M context）、`nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free`（多模态 Agent）和 `google/gemma-4-26b-a4b-it:free`（256K、工具调用）；这些 :free 变体输入输出均 $0。免费档仍为 20 RPM、50 RPD，购买累计 $10 credits 后提高至 1000 RPD；没有购买时免费模型可直接调用。未实测个人 API Key。 2026-11-05 补核 OpenRouter 官方免费模型目录及模型页：新增 Thinking Machines Inkling（975B/41B、1.048M 上下文）与 Inkling Small（276B/12B、1.048M 上下文），均标价 $0，适合推理、编程及 Agent 工作流。免费端点仅允许 Agent harness 使用，提示/输出会记录并用于模型改进；EU 区域路由不可用。OpenRouter :free 共享 50 RPD/20 RPM 不变，未进行个人 API Key 实调。",
       "url": "https://openrouter.ai/pricing",
       "official_source_url": "https://openrouter.ai/pricing",
       "claim_url": "https://openrouter.ai/settings/keys",
@@ -1873,7 +1875,9 @@
         "https://openrouter.ai/cohere/north-mini-code:free",
         "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
         "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "https://openrouter.ai/google/gemma-4-26b-a4b-it:free"
+        "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+        "https://openrouter.ai/thinkingmachines/inkling:free",
+        "https://openrouter.ai/thinkingmachines/inkling-small:free"
       ],
       "grade": "normal",
       "grade_reason": "持续免费且能用推理模型 API，但每天仅 50 次请求、上游可用性波动，无法达到 Super 的高价值门槛",
@@ -1934,18 +1938,20 @@
         },
         {
           "date": "2026-11-05",
-          "result": "官方免费模型目录新增确认 Cohere North Mini Code、Nemotron 3.5 Lightning、Nemotron 3 Nano Omni 与 Gemma 4 26B A4B 免费 API；免费档 50 RPD/20 RPM 未变。",
+          "result": "官方免费目录确认 North Mini Code、Nemotron 3.5 Lightning、Nemotron 3 Nano Omni、Gemma 4 26B A4B，以及 Thinking Machines Inkling / Inkling Small 免费 API；后两者限 Agent harness 且请求数据用于改进模型。免费档 50 RPD/20 RPM 未变。",
           "source_url": "https://openrouter.ai/collections/free-models",
           "secondary_sources": [
             "https://openrouter.ai/cohere/north-mini-code:free",
             "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
             "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
             "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
-            "https://openrouter.ai/pricing"
+            "https://openrouter.ai/pricing",
+            "https://openrouter.ai/thinkingmachines/inkling:free",
+            "https://openrouter.ai/thinkingmachines/inkling-small:free"
           ]
         }
       ],
-      "review_result": "11月5日官方免费模型目录确认 North Mini Code、Nemotron 3.5 Lightning、Nemotron 3 Nano Omni、Gemma 4 26B A4B 等免费 API；免费 :free 端点仍共享 50 RPD/20 RPM。"
+      "review_result": "11月5日官方免费模型目录确认多款免费编程/推理 API，包括 Thinking Machines Inkling 与 Inkling Small；后两者仅限 Agent harness，提示和输出用于模型改进。免费档仍为 50 RPD/20 RPM。"
     },
     {
       "id": "ollama-cloud-starter-free-api-2026",
