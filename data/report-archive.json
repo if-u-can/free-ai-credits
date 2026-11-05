@@ -868,6 +868,31 @@
         "https://platform.stepfun.com/docs/zh/guides/pricing/details"
       ],
       "published_at": "2026-11-03T09:11:20+08:00"
+    },
+    {
+      "id": "2026-11-05-morning",
+      "kind": "morning",
+      "date": "2026-11-05",
+      "title": "11 月 5 日早报：邮箱验证领 $5，免费编程 API 有新核实 ☀️",
+      "summary": "runaii cloud 的现行官方页面一致确认：新账号邮箱验证后获 $5 API 赠额，免绑卡、余额不失效，可调用 GLM-5.3、DeepSeek V4.1 Flash 和 Qwen3.8-27B Flash。OpenRouter 免费模型目录也有新的编程与推理选择；本轮没有发现全新 Super。",
+      "highlights": [
+        "runaii cloud：一次性 $5 欢迎额度，邮箱验证后发放，无需绑卡或预充值，余额不失效；每网络每日有发放上限。免费 API 可用 GLM-5.3、DeepSeek V4.1 Flash、Qwen3.8-27B Flash，用尽后停止调用，不自动扣款。",
+        "OpenRouter：免费档仍为 20 RPM、50 次请求/天；当前目录包括 Cohere North Mini Code（30B/3B、256K）、Nemotron 3.5 Lightning（30B/3B、1M）、Gemma 4 26B A4B 和 Nemotron 3.5 Super VL 等。免费模型名单会变动。",
+        "APOLLO11 Fusion：官方当前提供约 330 万模型等价 Tokens、7 天试用，含专用 coder 模型与最长 1M 上下文；需绑定信用卡，额度较小，维持普通等级。",
+        "没有发现符合全部 Super 硬门槛的全新活动；既有 Inception Mercury 专题与数据保持不变。"
+      ],
+      "tip": "runaii 的赠额耗尽后 API 会停止并返回 402；先用免费余额试跑，再决定是否充值。",
+      "sources": [
+        "https://runaii.cloud/pricing",
+        "https://runaii.cloud/faq",
+        "https://runaii.cloud/docs/quickstart",
+        "https://runaii.cloud/terms",
+        "https://openrouter.ai/collections/free-models",
+        "https://openrouter.ai/pricing",
+        "https://apollo11.ai/",
+        "https://apollo11.co.jp/fusion-llm/"
+      ],
+      "published_at": "2026-11-05T08:24:24+08:00"
     }
   ]
 }
