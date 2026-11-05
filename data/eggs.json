@@ -1849,8 +1849,6 @@
         "nvidia/nemotron-3.5-lightning:free（30B/3B，1M 上下文，工具调用）",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free（30B/3B，多模态 Agent 子任务，约 300K 上下文）",
         "google/gemma-4-26b-a4b-it:free（26B/3.8B，256K 上下文，多模态与工具调用）",
-        "thinkingmachines/inkling:free（975B/41B，1M 上下文，多模态推理/编程/Agent；仅限 Agent harness）",
-        "thinkingmachines/inkling-small:free（276B/12B，1M 上下文，推理/编程/Agent；仅限 Agent harness）",
         "stealth/crouton-alpha（Crouton Alpha；$0 模型页、1M 上下文、多模态输入、工具调用；匿名第三方供应商）"
       ],
       "requirements": "个人注册 OpenRouter 并创建 API Key；:free 档无需绑定支付卡或预充值；免费模型名单随时调整，具体地区注册可用性未实测。Inkling 与 Inkling Small 的免费端点仅允许 Agent harness 使用，提示和输出会记录并用于 Thinking Machines 模型改进。Crouton Alpha 由匿名第三方供应商运营，提示和输出可能被保留但不用于训练；暂不支持 EU 区域路由，且无余额调用条件未验证。",
