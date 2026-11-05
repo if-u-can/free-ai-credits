@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T21:05:53+08:00",
+  "updated_at": "2026-11-05T22:29:00+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -1719,8 +1719,8 @@
       ],
       "requirements": "仅活动期间首次注册超算互联网平台的个人用户；官方活动期限 2026-08-13 至 2026-11-10 23:59，实名/手机号关联识别、限量；库存、实际到账、绑卡/预充值及地区资格未实测。",
       "discovered_at": "2026-10-09",
-      "verified_at": "2026-10-22",
-      "verification_note": "2026-10-22 核对官方活动规则与公开领取按钮：活动至 2026-11-10 23:59，新客免费 1000 万 GLM-5.3-Flash API Tokens，领取后 30 天有效。HTML 中的“活动已结束”是默认隐藏模板：CSS 为 display:none，仅 .on 状态显示，JS 未初始化显示结束层；此前把模板文本写成当前弹窗状态的判断不成立，旧复核记录保留。当前官方活动和公开入口成立，转为 active，暂评 premium；限量库存、实际到账、可能调整的发放型号、绑卡/预充值及地区资格未实测。免费额度用尽后会扣现金余额。",
+      "verified_at": "2026-11-05",
+      "verification_note": "2026-10-22 核对官方活动规则与公开领取按钮：活动至 2026-11-10 23:59，新客免费 1000 万 GLM-5.3-Flash API Tokens，领取后 30 天有效。HTML 中的“活动已结束”是默认隐藏模板：CSS 为 display:none，仅 .on 状态显示，JS 未初始化显示结束层；此前把模板文本写成当前弹窗状态的判断不成立，旧复核记录保留。当前官方活动和公开入口成立，转为 active，暂评 premium；限量库存、实际到账、可能调整的发放型号、绑卡/预充值及地区资格未实测。免费额度用尽后会扣现金余额。 2026-11-05 复核官方 MaaS 活动页：当前展示新客免费 1000 万 GLM-5.3-Flash Tokens、1024K 上下文及免费领取入口；规则仍写活动至 2026-11-10 23:59、仅活动期新注册账号、限量先到先得、到账后 30 天有效。免费包用尽会自动扣现金余额。页面文本仍含“活动已结束”提示，与规则日期/领取入口冲突；未注册新账号验证实际领取，继续依据当前规则和领取入口维持 active + premium，并记录冲突。",
       "url": "https://www.scnet.cn/home/subject/maas/index.html",
       "official_source_url": "https://www.scnet.cn/home/subject/maas/index.html",
       "claim_url": "https://www.scnet.cn/home/subject/maas/index.html",
@@ -1734,11 +1734,11 @@
       "grade": "premium",
       "grade_reason": "现行高价值模型 API 赠额成立；库存、发放型号、支付与地区条件尚未完整核验，暂不满足 Super 低门槛要求。",
       "quality_score": 70,
-      "last_reviewed_at": "2026-10-22",
+      "last_reviewed_at": "2026-11-05",
       "next_review_at": null,
       "review_started_at": "2026-10-09",
-      "review_attempts": 9,
-      "review_result": "10月22日复查：官方规则至 11 月 10 日，新客免费 1000 万 GLM-5.3-Flash API Tokens、30 天有效，公开领取按钮成立。“活动已结束”为默认隐藏模板（CSS display:none，仅 .on 显示，JS 未初始化显示结束层），纠正此前当前式误述。转 active、暂评 premium；库存、实际到账、发放型号调整、绑卡/预充值及地区条件尚未实测，免费量用尽会扣现金余额。",
+      "review_attempts": 10,
+      "review_result": "11月5日官方活动页仍列 1000 万 GLM-5.3-Flash 新客免费包、领取入口和 11月10日截止规则；限量、30天有效、用尽自动扣现金。页面含活动结束提示但与规则冲突，未做实领，维持 active + premium，临近截止继续复核。",
       "review_history": [
         {
           "date": "2026-10-09",
@@ -1796,6 +1796,14 @@
             "https://www.scnet.cn/home/subject/center/index.html",
             "https://www2.scnet.cn/help/docs/mainsite/mass/tutorial/apikeymgt.html"
           ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "11月5日官方活动页仍列 1000 万 GLM-5.3-Flash 新客免费包、领取入口和 11月10日截止规则；限量、30天有效、用尽自动扣现金。页面含活动结束提示但与规则冲突，未做实领，维持 active + premium，临近截止继续复核。",
+          "source_url": "https://www.scnet.cn/home/subject/maas/index.html",
+          "secondary_sources": [
+            "https://www.scnet.cn/home/subject/center/index.html"
+          ]
         }
       ],
       "quality_breakdown": {
@@ -1804,7 +1812,7 @@
         "claim_convenience": 13,
         "validity_and_limits": 8
       },
-      "last_seen_at": "2026-10-22"
+      "last_seen_at": "2026-11-05"
     },
     {
       "id": "siliconflow-realname-16-coupon-2026",
@@ -2746,25 +2754,25 @@
     },
     {
       "discovered_at": "2026-10-14",
-      "verified_at": "2026-10-14",
-      "last_seen_at": "2026-10-14",
-      "last_reviewed_at": "2026-10-14",
+      "verified_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "last_reviewed_at": "2026-11-05",
       "next_review_at": null,
       "id": "qiniu-new-user-3m-fusion-2026",
       "name": "七牛云新客 300 万 Tokens 模型 API 资源包",
       "type": "正规云厂商新用户 AI API 免费资源包",
-      "description": "首次创建 AI 推理 API Key 可激活 300 万基准 Tokens 资源包，跨支持模型按价格比例抵扣；用尽后自动按量计费。",
+      "description": "七牛云 10 月 30 日更新的开发者文档称，新注册 AI 开发者账号立即获得 300 万免费 Token 资源包；API Key 在控制台创建。旧计费说明对发放触发条件另有描述，实际到账/期限需账户核验。",
       "status": "active",
       "grade": "normal",
       "quality_score": 57,
       "grade_reason": "官方新客资源包可抵模型 API，但300万是 DeepSeek-V3.1 价格基准的折算量，昂贵模型实际可用 Tokens 较少。",
-      "credits": "新客一次性 300 万 DeepSeek-V3.1 基准 Tokens 融合资源包；不同模型按价格比例扣减，支持型号与有效期以账户资源包详情为准；额度有限先到先得",
+      "credits": "新客一次性 300 万基准 Tokens 融合资源包；10 月 30 日 API Key 文档称注册即得，旧计费页则称首次使用并产生计费后自动发放。不同模型按价格比例扣减，具体可抵模型及有效期以账户资源包详情为准。",
       "models": [
         "DeepSeek-V3.1（计价基准，是否仍可调用以当期目录为准）",
         "其他支持模型以资源包详情为准"
       ],
-      "requirements": "七牛云个人手机号注册，首次创建 AI 大模型推理 API Key 激活；首次使用24小时免实名，之后须个人实名；无需企业或学生资格。实际到账和有效期未测试。",
-      "payment_required": "官方未要求领取前充值，绑卡未实测；资源包耗尽自动按量计费，可设置 API Key 日/月/总消费限额。",
+      "requirements": "注册七牛云 AI 开发者账号并在控制台创建 API Key；个人用户可申请，平台可能要求实名认证。企业认证可另领 1200 万 Tokens，但不计入本条。实际到账与触发条件未实测。",
+      "payment_required": "当前 API Key 文档称注册立即获得资源包；较早的官方计费页称使用服务并产生计费后自动发放，官方说明存在触发条件差异。额度用尽后按量计费，建议设置 API Key 消费限额；绑卡要求未实测。",
       "url": "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
       "official_source_url": "https://www.qiniu.com/ai/models",
       "claim_url": "https://portal.qiniu.com/ai-inference/api-key",
@@ -2774,10 +2782,11 @@
         "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
         "https://developer.qiniu.com/aitokenapi/13167/fusion-resource-package",
         "https://developer.qiniu.com/aitokenapi/13255/verify-real-name",
-        "https://developer.qiniu.com/aitokenapi/13409/apikey-use-limit-api"
+        "https://developer.qiniu.com/aitokenapi/13409/apikey-use-limit-api",
+        "https://www.qiniu.com/ai/agent"
       ],
-      "verification_note": "2026-10-14 官方模型广场仍显示新客300万基准Tokens，API Key文档写首次创建即激活；融合资源包按 DeepSeek-V3.1 输入价比例抵扣其他模型，耗尽后自动转按量。未实际注册到账；具体适用模型、时限及支付验证不详。",
-      "review_result": "官方新客资源包、领取步骤及 API 抵扣规则有效，评 active/normal；不将基准 Tokens 等同强模型实得量。",
+      "verification_note": "2026-10-14 核实官方新客 300 万基准 Tokens 资源包、模型价格比例抵扣及按量计费规则，未实际领取。 2026-11-05 复查七牛云 2026-10-30 更新的 API Key 文档：明确写注册 qiniu.com/ai 开发者账号立即获得 300 万免费 Token 资源包，并从控制台创建 API Key；AI 首页同样宣传新客 300 万。旧官方计费页（2026-04-29）仍写首次使用并产生计费后自动发放，二者对触发时点不一致；实际到账、适用模型和有效期未登录核验。企业认证额外 1200 万不纳入本条。",
+      "review_result": "11月5日官方 API Key 文档（10月30日更新）明确注册即获 300 万免费 Token 资源包；旧计费页仍写首次计费后发放，保留触发条件冲突及自动按量计费提醒，active + normal 不变。",
       "review_history": [
         {
           "date": "2026-10-14",
@@ -2786,6 +2795,15 @@
           "secondary_sources": [
             "https://www.qiniu.com/ai/models",
             "https://developer.qiniu.com/aitokenapi/13167/fusion-resource-package"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "11月5日官方 API Key 文档（10月30日更新）明确注册即获 300 万免费 Token 资源包；旧计费页仍写首次计费后发放，保留触发条件冲突及自动按量计费提醒，active + normal 不变。",
+          "source_url": "https://developer.qiniu.com/aitokenapi/12884/how-to-get-api-key",
+          "secondary_sources": [
+            "https://www.qiniu.com/ai/agent",
+            "https://developer.qiniu.com/aitokenapi/12898/ai-token-api-pricing"
           ]
         }
       ]
@@ -3895,21 +3913,21 @@
     },
     {
       "id": "thegrid-signup-inference-credits-2026",
-      "name": "The Grid 推理 API 新客 $5 赠额（手机号验证，到账待核实）",
+      "name": "The Grid 新客 $5 推理 API 赠额",
       "type": "正规 AI 推理市场与模型路由平台（自营 API）",
-      "description": "官网首页与定价页现均宣传新客 $5 免费推理 API credits，需手机验证；具体到账、支付与中国大陆手机号资格仍待核实。",
-      "status": "pending",
-      "grade": null,
-      "quality_score": null,
-      "grade_reason": null,
-      "credits": "官方首页及现行定价页宣传新客 $5 免费推理 API credits（需手机号验证），注册后 14 天内使用；此前 $25 / 约 2 亿 Text Prime Tokens 是旧页面口径，不按现行活动宣传。实际到账未实测。",
+      "description": "官方现行定价宣传新用户 $5 免费推理 API credits，需手机验证，注册后 14 天过期；可通过兼容 API 使用动态模型路由。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 51,
+      "grade_reason": "官方当前 $5 API 赠额和领取条件明确，但需手机验证、14 天内使用，地区及支付要求未实测，属于普通试用。",
+      "credits": "新客 $5 推理 API credits，完成手机验证领取；注册后 14 天到期。没有固定 Token 数保证；旧 $25 / 约 2 亿 Text Prime Tokens 口径不代表当前赠额。",
       "models": [
-        "text-prime / code-prime：近期路由模型 MiniMax-M3、GLM-5.2、Kimi K2.6（实际路由不保证）",
-        "text-max / code-max：近期路由 Claude Opus 5（是否可用赠额尚未实测）",
-        "text-standard / code-standard：GPT-OSS 120B（近期路由，非固定模型）"
+        "text-prime / code-prime：近期路由模型包括 MiniMax-M3、GLM-5.2、Kimi K2.6（实际路由动态变化）",
+        "text-max / code-max：近期路由包括 Claude Opus 5（赠额可用性未实测）",
+        "text-standard / code-standard：近期路由包括 GPT-OSS 120B（实际路由动态变化）"
       ],
-      "requirements": "公开个人注册入口；当前官网明确手机验证才能领取 $5。中国大陆手机号/地区支持、可能的额外身份核验及实际到账尚未实测。",
-      "payment_required": "未找到可确认新客赠额是否要求绑定支付卡或先充值的专属规则；服务条款对常规购买 Units 规定预存资金，不可直接推断新客免费额度必须先付费。",
+      "requirements": "公开个人注册入口；官方要求手机验证才能领取 $5。条款要求年满 18 岁，并可能在注册时或之后要求身份/KYC 核验。中国大陆手机号（+86）和地区资格未实测。",
+      "payment_required": "未找到新客赠额必须绑卡或预充值的明确规则；条款对常规购买 Units 要求预存资金，不能据此断言免费赠额也需付款。实际领取与消费未实测。",
       "url": "https://thegrid.ai/",
       "official_source_url": "https://thegrid.ai/",
       "claim_url": "https://app.thegrid.ai/sign-up",
@@ -3922,12 +3940,12 @@
         "https://thegrid.ai/instruments"
       ],
       "discovered_at": "2026-10-23",
-      "verified_at": null,
+      "verified_at": "2026-11-05",
       "last_seen_at": "2026-11-05",
       "last_reviewed_at": "2026-11-05",
       "next_review_at": "2026-11-06",
-      "verification_note": "10月24日复核：官网首页与当前 /pricing 均明确新客 $5 credits（手机验证）；此前 /pricing 的 $25 / 2 亿 Tokens 版本不再代表当前公开报价。条款规定新客赠额注册后 14 天到期。注册页面为动态应用，仍无法核实实际到账、是否绑卡及中国大陆手机号/地区资格，保持 pending。 2026-11-05：11月5日重新读取现行 Pricing 与首页：两处均宣传新客 $5、需手机验证、注册后 14 天过期；旧 $25 / 2 亿 Tokens 口径不作为当前报价。+86 手机号、免费余额是否可不预充值使用及实际到账仍未验证，保持 pending。",
-      "review_result": "11月5日重新读取现行 Pricing 与首页：两处均宣传新客 $5、需手机验证、注册后 14 天过期；旧 $25 / 约 2 亿 Tokens 为旧页面口径。+86 手机号、是否可不预充值直接使用免费余额及实际到账仍未验证，保持 pending。",
+      "verification_note": "2026-10-23 至 11-04 官方首页/定价页持续宣传新客 $5、手机验证、14 天有效；旧 $25 / 2 亿 Tokens 页面口径与当前活动不一致。 2026-11-05 直接打开官方 Pricing：仍明确“first $5 is on us”、手机验证领取、注册后 14 天未用余额失效；条款要求年满 18 岁并可能进行身份核验。公开注册入口可访问，兼容 API 示例存在。+86 手机号、实际到账、绑卡/预充值和免费额度可否直接消费仍未实测。按当前官方公开领取规则转 active + normal。",
+      "review_result": "11月5日官方当前 Pricing 明确新客 $5、手机验证、14 天过期，并提供注册入口与 API 文档；地区、到账和支付条件未实测。转 active + normal，旧 $25 / 2 亿 Tokens 口径不采用。",
       "review_history": [
         {
           "date": "2026-10-23",
@@ -4040,7 +4058,7 @@
         },
         {
           "date": "2026-11-05",
-          "result": "11月5日重新读取现行 Pricing 与首页：两处均宣传新客 $5、需手机验证、注册后 14 天过期；旧 $25 / 2 亿 Tokens 口径不作为当前报价。+86 手机号、免费余额是否可不预充值使用及实际到账仍未验证，保持 pending。",
+          "result": "11月5日官方当前 Pricing 明确新客 $5、手机验证、14 天过期，并提供注册入口与 API 文档；地区、到账和支付条件未实测。转 active + normal，旧 $25 / 2 亿 Tokens 口径不采用。",
           "source_url": "https://thegrid.ai/pricing",
           "secondary_sources": [
             "https://thegrid.ai/",
@@ -4050,7 +4068,13 @@
         }
       ],
       "review_started_at": "2026-10-23",
-      "review_attempts": 8
+      "review_attempts": 8,
+      "quality_breakdown": {
+        "free_api_value": 16,
+        "model_usefulness": 17,
+        "claim_convenience": 10,
+        "validity_and_limits": 8
+      }
     },
     {
       "id": "sail-research-5-monthly-model-api-2026",
@@ -7547,21 +7571,26 @@
     },
     {
       "id": "moonmath-zro-daily-free-flash-api-pending-2026",
-      "name": "MoonMath Zro 每日免费 Flash 模型 API（开通条件待核实）",
+      "name": "MoonMath Zro 每日免费 Flash 模型 API",
       "type": "正规模型推理平台 / 免费编程模型 API",
-      "description": "Zro 官网推出每天刷新的免费模型 API，可调用 DeepSeek V4.1 Flash 和 GLM-5.3 Flash，支持 OpenAI 兼容接口；每日额度数值和免付款开通流程还没讲清。",
-      "status": "pending",
-      "grade": null,
-      "quality_score": null,
-      "quality_breakdown": null,
-      "grade_reason": null,
-      "credits": "官方 Free $0/月，包含 DeepSeek V4.1 Flash、GLM-5.3 Flash 的每日免费调用量，每日重置；未公布每日具体 Tokens、美元额度、RPM 或共享限制，不能推断高额配额。",
+      "description": "Zro 现行官方定价提供 Free $0 档，每日重置的免费 API 调用，可用 DeepSeek V4.1 Flash 和 GLM-5.3 Flash；具体额度未公开。",
+      "status": "active",
+      "grade": "normal",
+      "quality_score": 59,
+      "quality_breakdown": {
+        "free_api_value": 12,
+        "model_usefulness": 22,
+        "claim_convenience": 16,
+        "validity_and_limits": 9
+      },
+      "grade_reason": "官方当前定价明确提供每日免费强模型 API，但具体额度未公布，且 Quickstart 对免费 Key 开通条件仍有冲突，按普通等级收录。",
+      "credits": "官方 Pricing：Free $0/月，含 DeepSeek V4.1 Flash 与 GLM-5.3 Flash 的每日免费用量，每日重置；未公开具体 Tokens、美元额度或 RPM/TPM。",
       "models": [
         "deepseek-v4.1-flash（官方 Free 档）",
         "glm-5.3-flash（官方 Free 档）"
       ],
-      "requirements": "官方有面向个人的 Free 方案与公开注册入口；需注册账户并获取 API Key。中国大陆/手机号地区资格、是否要求绑卡、是否可不购买用量包直接创建免费 Key 以及每日具体上限均未完成账号验证。",
-      "payment_required": "定价页明确 Free $0/月并提供 Start free；但现行 Quickstart 仍写创建 API Key 前需订阅或购买用量包，免费方案是否免卡免付款直接开通未证实。",
+      "requirements": "官方定价页提供 Start free 注册入口；API 文档支持 OpenAI Chat Completions、Responses 与 Anthropic Messages。模型地区可用性需创建 API Key 后查看；中国大陆/+86 资格及免费 Key 开通流程未实测。Quickstart 仍写创建 Key 前需订阅或购买 usage pack，与 Free 定价页不一致。",
+      "payment_required": "Pricing 页标价 Free $0 并提供 Start free；Quickstart 却要求订阅或购买 usage pack 才能创建 API Key。是否需要支付卡/付费购买才能实际调用尚未实测。",
       "url": "https://zro.moonmath.ai/pricing",
       "official_source_url": "https://zro.moonmath.ai/pricing",
       "claim_url": "https://zro.moonmath.ai/get-started?plan=free",
@@ -7572,17 +7601,18 @@
         "https://zro.moonmath.ai/docs",
         "https://zro.moonmath.ai/docs/quickstart",
         "https://zro.moonmath.ai/terms",
-        "https://zro.moonmath.ai/get-started?plan=free"
+        "https://zro.moonmath.ai/get-started?plan=free",
+        "https://zro.moonmath.ai/docs/api"
       ],
       "discovered_at": "2026-11-02",
-      "verified_at": null,
+      "verified_at": "2026-11-05",
       "last_seen_at": "2026-11-05",
       "last_reviewed_at": "2026-11-05",
       "next_review_at": "2026-11-06",
       "review_started_at": "2026-11-02",
       "review_attempts": 1,
-      "verification_note": "2026-11-02 03:45（北京时间）读取 MoonMath Zro 官方 Pricing：Free $0/月、DeepSeek V4.1 Flash 与 GLM-5.3 Flash 每日免费调用且每日重置，提供 OpenAI 兼容 API 和 Start free。官方 Terms（2026-10-13）允许个人账户，说明 Zro 运营自有和第三方 GPU 容量，非普通商业中转营销；Start free 直链跳转官方注册页。官方 Quickstart 仍要求创建 Key 前订阅或购买用量包，与 Free 定价页冲突；每日实际免费额度、无需支付开通、+86/中国大陆资格和真实调用未登录验证。保持 pending，不评级。 2026-11-05：11月5日官方 Pricing 仍明确 Free $0 档每日重置、支持 GLM-5.3 Flash 与 DeepSeek V4.1 Flash 的 OpenAI-compatible API；Quickstart 仍要求先订阅或购买 usage pack 才能创建 API key。免费开户/实际每日额度与调用未核实，保持 pending。",
-      "review_result": "官方定价仍显示免费 Flash 每日重置、OpenAI 兼容 API；是否免付款成功创建 Key 和具体配额未实测。",
+      "verification_note": "2026-11-02 首次核对官方 Free 定价、两款 Flash 模型、Start free 注册入口、个人 Terms 与 Quickstart；当时 Quickstart 要求订阅或买用量包，实际免费开通及每日额度未证实。 2026-11-05 直接复核官方 Pricing 页面，明确列出 Free $0/月、每日免费用量、GLM-5.3 Flash 与 DeepSeek V4.1 Flash，并提供 Start free；官方首页同样写每日重置。API 文档确认兼容接口。Quickstart 仍要求订阅/usage pack 才创建 Key，保留为未解决的文档冲突；没有注册新账户或实调 API。按当前 Pricing 的公开免费计划转 active + normal，具体额度、绑卡与中国大陆资格待账户核验。",
+      "review_result": "11月5日官方现行 Pricing 明确列 Free $0、两款强 Flash 模型每日免费 API 用量及注册入口；Quickstart 仍存在付费开 Key 的冲突，未做账户实测。按当前定价页转 active + normal，额度数值及地区/支付资格仍待验证。",
       "review_history": [
         {
           "date": "2026-11-02",
@@ -7610,12 +7640,14 @@
         },
         {
           "date": "2026-11-05",
-          "result": "11月5日官方 Pricing 仍明确 Free $0 档每日重置、支持 GLM-5.3 Flash 与 DeepSeek V4.1 Flash 的 OpenAI-compatible API；Quickstart 仍要求先订阅或购买 usage pack 才能创建 API key。免费开户/实际每日额度与调用未核实，保持 pending。",
+          "result": "11月5日官方现行 Pricing 明确列 Free $0、两款强 Flash 模型每日免费 API 用量及注册入口；Quickstart 仍存在付费开 Key 的冲突，未做账户实测。按当前定价页转 active + normal，额度数值及地区/支付资格仍待验证。",
           "source_url": "https://zro.moonmath.ai/pricing",
           "secondary_sources": [
-            "https://zro.moonmath.ai/docs/quickstart",
             "https://zro.moonmath.ai/",
-            "https://zro.moonmath.ai/docs/plans-and-billing"
+            "https://zro.moonmath.ai/docs/quickstart",
+            "https://zro.moonmath.ai/docs/api",
+            "https://zro.moonmath.ai/terms",
+            "https://zro.moonmath.ai/get-started?plan=free"
           ]
         }
       ]
