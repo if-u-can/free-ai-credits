@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T14:52:46+08:00",
+  "updated_at": "2026-11-05T15:45:04+08:00",
   "eggs": [
     {
       "id": "together-historical",
@@ -3160,7 +3160,7 @@
       "id": "amd-radeon-cloud-token-factory-free-model-api-2026",
       "name": "AMD Radeon Cloud Token Factory 免费共享模型 API",
       "type": "AMD 官方开发者云免费模型推理 API",
-      "description": "中国区 Token Factory 提供常驻免费的共享模型 API，可用 DeepSeek、Qwen 等模型测试编程与推理；账号有每日用量上限，官方不允许生产负载。",
+      "description": "中国区 Token Factory 提供常驻免费的共享模型 API，支持 OpenAI 与 Anthropic Messages 协议，可调用 DeepSeek、Qwen、GLM、MiMo 等模型测试编程与推理；账号有每日用量上限，官方不允许生产负载。",
       "status": "active",
       "grade": "premium",
       "quality_score": 76,
@@ -3174,10 +3174,16 @@
       "credits": "Public Free Model APIs 共享端点免费、不消耗 GPU credits；按账号设每日使用上限并在北京时间 00:00 重置，官方用量文档的 $10/天只是示例，不代表所有账号均有该额度；无统一公开可保证的免费 token 总量。",
       "models": [
         "DeepSeek-V4-Flash",
+        "DeepSeek-V4-Flash-Vision-Exp",
         "DeepSeek-V4.1-Flash",
         "Qwen3.8-Flash-Next",
+        "Qwen3.8-27B",
         "GLM-5.3-Flash",
-        "MiMo-V2.6-Flash"
+        "MiMo-V2.6-Flash",
+        "MiniCPM5-2B",
+        "MiniCPM-V-4.7-1B",
+        "MiniCPM-V-4.7-35B-A3B",
+        "Gemma-4-31B-IT"
       ],
       "requirements": "个人可注册 AMD AI 开发者计划中国区账号，通过中国手机号或邮箱验证码登录（亦支持魔搭/CSDN/GitHub）；登录 Token Factory 后创建 API Key。共享模型不需要 GPU 实例审批，实际可用模型以 GET /v1/models 为准；未亲自注册或调用。",
       "payment_required": "官方明确共享模型 API 完全免费、不消耗 GPU credits；未见需绑定信用卡或预充值的领取条件。未实测新账户支付设置。",
@@ -3195,12 +3201,12 @@
         "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/usage/"
       ],
       "discovered_at": "2026-10-17",
-      "verified_at": "2026-10-17",
-      "last_seen_at": "2026-10-17",
-      "last_reviewed_at": "2026-10-17",
-      "next_review_at": null,
-      "verification_note": "2026-10-17 读取 AMD Radeon Cloud 模型 API 文档（当天更新）确认共享端点常驻免费、无需实例或 GPU credits，支持 OpenAI 兼容 API；模型目录列出 DeepSeek-V4/4.1-Flash、Qwen3.8-Flash-Next、GLM-5.3-Flash、MiMo-V2.6-Flash，但实时上线以 GET /v1/models 为准。登录文档确认中国区手机号/邮箱注册及实例审批不影响共享 API。限流文档典型每 Key 30 RPM、每账号 20 RPM、Key 并发 8，另有账号每日上限；用量示例 $10 不是统一承诺。条款限制非生产、禁止转售、会短期记录提示词。2026-09 社区实测曾反馈可调用及高峰限流；本轮未实际注册、生成 Key 或发请求。",
-      "review_result": "官方当前免费 API、个人注册、具体模型与限流条款成立，active/premium；无可保证的高额通用额度，不能评 Super。",
+      "verified_at": "2026-11-05",
+      "last_seen_at": "2026-11-05",
+      "last_reviewed_at": "2026-11-05",
+      "next_review_at": "2026-11-06",
+      "verification_note": "2026-10-17 读取 AMD Radeon Cloud 模型 API 文档（当天更新）确认共享端点常驻免费、无需实例或 GPU credits，支持 OpenAI 兼容 API；模型目录列出 DeepSeek-V4/4.1-Flash、Qwen3.8-Flash-Next、GLM-5.3-Flash、MiMo-V2.6-Flash，但实时上线以 GET /v1/models 为准。登录文档确认中国区手机号/邮箱注册及实例审批不影响共享 API。限流文档典型每 Key 30 RPM、每账号 20 RPM、Key 并发 8，另有账号每日上限；用量示例 $10 不是统一承诺。条款限制非生产、禁止转售、会短期记录提示词。2026-09 社区实测曾反馈可调用及高峰限流；本轮未实际注册、生成 Key 或发请求。 2026-11-05 复核 AMD 官方 Token Factory 指南（最近更新 2026-11-03）及 API 概览：确认共享 API 仍免费、无需实例/GPU 积分，支持 OpenAI Chat Completions 和 Anthropic Messages（可供 Claude Code 等客户端使用）；每日用量上限以 GET /v1/usage 为准，文档示例 $10/天不代表所有账号，重置时间为北京时间 00:00。官方模型目录（最近更新 2026-10-19）列出 DeepSeek-V4-Flash-Vision-Exp、Qwen3.8-27B、MiniCPM-V-4.7-1B/35B-A3B、Gemma-4-31B-IT 等；官方明确实时可用模型以带 Key 的 GET /v1/models 为准，本轮未取得 API Key，未验证运行时模型列表或实际调用。",
+      "review_result": "11月5日重读 AMD 官方 Token Factory 指南与 API 概览：共享模型 API 仍免费，支持 OpenAI 与 Anthropic Messages；模型目录包含多款 DeepSeek、Qwen、GLM、MiMo、MiniCPM 与 Gemma。每日额度因账号而异，实时模型以带 Key 的 GET /v1/models 为准；本轮未实测账户或 API。维持 active/premium。",
       "review_history": [
         {
           "date": "2026-10-17",
@@ -3210,6 +3216,16 @@
             "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/models/overview/",
             "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/terms/",
             "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/login/"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "result": "重读 AMD 官方 Token Factory 指南（最近更新 11 月 3 日）、API 概览、用量文档和模型目录；确认免费共享 API 支持 OpenAI 与 Anthropic Messages，补充官方文档列出的模型。每日限额按账号动态配置，运行时模型需 GET /v1/models 验证；本轮未实测新账号或 API。",
+          "source_url": "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/guides/token-factory/",
+          "secondary_sources": [
+            "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/overview/",
+            "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/api/usage/",
+            "https://amd-aim.github.io/radeon-cloud-docs/zh-cn/models/overview/"
           ]
         }
       ]
